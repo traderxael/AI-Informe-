@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ChevronDown, Globe2, Landmark, Search } from "lucide-react";
 import {
   ALL_MODELS,
@@ -16,10 +16,41 @@ import { cn } from "@/lib/utils";
 type RegionFilter = Region | "all";
 type ModelFilter = ModelId | "all";
 
+function normalizeText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function initialFilters(): {
+  region: RegionFilter;
+  model: ModelFilter;
+  query: string;
+} {
+  if (typeof window === "undefined") return { region: "all", model: "all", query: "" };
+  const params = new URLSearchParams(window.location.search);
+  const regionParam = params.get("region");
+  const modelParam = params.get("model");
+  const region: RegionFilter =
+    regionParam === "west" || regionParam === "china" ? regionParam : "all";
+  const model: ModelFilter = ALL_MODELS.some((item) => item.id === modelParam)
+    ? (modelParam as ModelId)
+    : "all";
+  const regionModels =
+    region === "west" ? WEST_MODELS : region === "china" ? CHINA_MODELS : ALL_MODELS;
+  return {
+    region,
+    model: regionModels.some((item) => item.id === model) ? model : "all",
+    query: params.get("q") ?? "",
+  };
+}
+
 export function WeekView() {
-  const [region, setRegion] = useState<RegionFilter>("all");
-  const [model, setModel] = useState<ModelFilter>("all");
-  const [query, setQuery] = useState("");
+  const initial = initialFilters();
+  const [region, setRegion] = useState<RegionFilter>(initial.region);
+  const [model, setModel] = useState<ModelFilter>(initial.model);
+  const [query, setQuery] = useState(initial.query);
   const [openId, setOpenId] = useState<string | null>("west-compare");
 
   const modelOptions =
@@ -27,15 +58,28 @@ export function WeekView() {
 
   const signals = useMemo(() => {
     const base = filterSignals(region, model);
-    const q = query.trim().toLowerCase();
+    const q = normalizeText(query.trim());
     if (!q) return base;
     return base.filter(
       (s) =>
-        s.title.toLowerCase().includes(q) ||
-        s.summary.toLowerCase().includes(q) ||
-        s.detail.toLowerCase().includes(q) ||
-        s.models.some((m) => m.includes(q)),
+        normalizeText(s.title).includes(q) ||
+        normalizeText(s.summary).includes(q) ||
+        normalizeText(s.detail).includes(q) ||
+        s.models.some((m) => normalizeText(m).includes(q)),
     );
+  }, [region, model, query]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (region === "all") params.delete("region");
+    else params.set("region", region);
+    if (model === "all") params.delete("model");
+    else params.set("model", model);
+    if (query.trim()) params.set("q", query.trim());
+    else params.delete("q");
+    const nextQuery = params.toString();
+    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash}`;
+    window.history.replaceState(window.history.state, "", nextUrl);
   }, [region, model, query]);
 
   function pickRegion(next: RegionFilter) {
@@ -55,15 +99,17 @@ export function WeekView() {
         Inteligencia artificial, por región y por modelo
       </h1>
       <p className="mt-3 max-w-xl text-sm text-muted sm:text-base">
-        Occidente: Claude, Grok, Gemini. China: GLM, Qwen, Kimi. Semana del{" "}
-        {WEEK_LABEL}.
+        Occidente: Claude, Grok, Gemini. China: GLM, Qwen, Kimi. Semana del {WEEK_LABEL}.
       </p>
 
       <div className="mt-8 grid grid-cols-3 gap-2">
         <Stat value={signals.length} label="Señales" />
-        <Stat value={region === "china" ? "China" : region === "west" ? "West" : "Global"} label="Región" />
         <Stat
-          value={model === "all" ? "Todos" : ALL_MODELS.find((m) => m.id === model)?.label ?? "—"}
+          value={region === "china" ? "China" : region === "west" ? "West" : "Global"}
+          label="Región"
+        />
+        <Stat
+          value={model === "all" ? "Todos" : (ALL_MODELS.find((m) => m.id === model)?.label ?? "—")}
           label="Modelo"
         />
       </div>
@@ -88,7 +134,11 @@ export function WeekView() {
             >
               Occidente
             </Chip>
-            <Chip active={region === "china"} onClick={() => pickRegion("china")} testId="region-china">
+            <Chip
+              active={region === "china"}
+              onClick={() => pickRegion("china")}
+              testId="region-china"
+            >
               China
             </Chip>
           </div>
@@ -96,7 +146,11 @@ export function WeekView() {
 
         <div>
           <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">
-            {region === "china" ? "Modelos chinos" : region === "west" ? "Modelos occidentales" : "Modelos"}
+            {region === "china"
+              ? "Modelos chinos"
+              : region === "west"
+                ? "Modelos occidentales"
+                : "Modelos"}
           </p>
           <div className="flex flex-wrap gap-2">
             <Chip active={model === "all"} onClick={() => setModel("all")} testId="model-all">
@@ -123,12 +177,16 @@ export function WeekView() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar en títulos y notas"
+            aria-controls="signal-results"
             className="h-11 w-full rounded-xl border border-border bg-surface pr-3 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-colors duration-150 focus:border-accent"
           />
         </label>
       </section>
 
-      <div className="mt-8 space-y-3">
+      <div id="signal-results" className="mt-8 space-y-3" aria-live="polite">
+        <p className="sr-only" role="status">
+          {signals.length} {signals.length === 1 ? "señal encontrada" : "señales encontradas"}.
+        </p>
         {signals.length === 0 ? (
           <p className="rounded-xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
             Nada coincide con esos filtros. Prueba otra región o modelo.
