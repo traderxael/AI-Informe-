@@ -1,574 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Informe — Semana del 1 de septiembre 2026</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informe semanal de inteligencia artificial por región, modelo y fuente.">
+  <title>AI Informe — Semana del 1 al 7 de septiembre de 2026</title>
   <style>
-    :root {
-      --bg: #0b0d11;
-      --card: #14171e;
-      --card-hover: #1a1e27;
-      --text: #e8eaed;
-      --muted: #9aa3b2;
-      --accent: #3b82f6;
-      --accent-soft: rgba(59, 130, 246, 0.15);
-      --border: #252a35;
-      --green: #22c55e;
-      --orange: #f59e0b;
-      --red: #f87171;
-      --purple: #c084fc;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      min-height: 100vh;
-    }
-
-    .container {
-      max-width: 820px;
-      margin: 0 auto;
-      padding: 2.5rem 1.25rem 4rem;
-    }
-
-    /* Hero */
-    header {
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-
-    .badge {
-      display: inline-block;
-      background: var(--accent-soft);
-      color: var(--accent);
-      font-size: 0.8rem;
-      font-weight: 600;
-      padding: 0.35rem 0.9rem;
-      border-radius: 999px;
-      margin-bottom: 1.1rem;
-      letter-spacing: 0.03em;
-    }
-
-    h1 {
-      font-size: 1.85rem;
-      font-weight: 700;
-      line-height: 1.25;
-      margin-bottom: 0.5rem;
-    }
-
-    .subtitle {
-      color: var(--muted);
-      font-size: 1.05rem;
-    }
-
-    .date {
-      margin-top: 0.7rem;
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    /* Filter tabs */
-    .filters {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      justify-content: center;
-      margin-bottom: 1.8rem;
-      padding: 0.4rem;
-    }
-
-    .filter-btn {
-      background: var(--card);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      padding: 0.45rem 0.95rem;
-      border-radius: 999px;
-      font-size: 0.85rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .filter-btn:hover {
-      border-color: var(--accent);
-      color: var(--text);
-    }
-
-    .filter-btn.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: white;
-    }
-
-    /* Cards */
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      margin-bottom: 1.2rem;
-      overflow: hidden;
-      transition: border-color 0.2s ease, transform 0.2s ease;
-    }
-
-    .card:hover {
-      border-color: #2f3644;
-    }
-
-    .card.hidden {
-      display: none;
-    }
-
-    .card-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.15rem 1.35rem;
-      cursor: pointer;
-      user-select: none;
-      gap: 1rem;
-    }
-
-    .card-header:hover {
-      background: var(--card-hover);
-    }
-
-    .card-title {
-      font-size: 1.1rem;
-      font-weight: 650;
-      display: flex;
-      align-items: center;
-      gap: 0.55rem;
-    }
-
-    .card-title span.icon {
-      font-size: 1.2rem;
-    }
-
-    .chevron {
-      width: 20px;
-      height: 20px;
-      color: var(--muted);
-      transition: transform 0.25s ease;
-      flex-shrink: 0;
-    }
-
-    .card.open .chevron {
-      transform: rotate(180deg);
-    }
-
-    .card-body {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.35s ease, padding 0.25s ease;
-      padding: 0 1.35rem;
-    }
-
-    .card.open .card-body {
-      max-height: 1200px;
-      padding: 0 1.35rem 1.25rem;
-    }
-
-    .item {
-      padding: 0.9rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .item:last-child {
-      border-bottom: none;
-      padding-bottom: 0.2rem;
-    }
-
-    .item-title {
-      font-weight: 600;
-      font-size: 1.02rem;
-      margin-bottom: 0.25rem;
-    }
-
-    .item-desc {
-      color: var(--muted);
-      font-size: 0.93rem;
-    }
-
-    .tag {
-      display: inline-block;
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 0.16rem 0.5rem;
-      border-radius: 6px;
-      margin-bottom: 0.35rem;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-
-    .tag.china { background: rgba(239, 68, 68, 0.15); color: var(--red); }
-    .tag.west { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
-    .tag.github { background: rgba(168, 85, 247, 0.15); color: var(--purple); }
-    .tag.research { background: rgba(34, 197, 94, 0.15); color: #4ade80; }
-    .tag.tool { background: rgba(245, 158, 11, 0.15); color: #fbbf24; }
-    .tag.x { background: rgba(255, 255, 255, 0.08); color: #e5e7eb; }
-
-    /* Highlight card */
-    .card.highlight {
-      background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(168, 85, 247, 0.07));
-      border-color: rgba(59, 130, 246, 0.35);
-    }
-
-    .card.highlight .card-header:hover {
-      background: rgba(59, 130, 246, 0.08);
-    }
-
-    /* Summary always open style */
-    .card.summary .card-body {
-      max-height: none;
-      padding: 0 1.35rem 1.25rem;
-    }
-
-    .card.summary .chevron {
-      display: none;
-    }
-
-    .card.summary .card-header {
-      cursor: default;
-    }
-
-    .card.summary .card-header:hover {
-      background: transparent;
-    }
-
-    /* Stats row */
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.75rem;
-      margin-bottom: 1.6rem;
-    }
-
-    .stat {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem 0.8rem;
-      text-align: center;
-    }
-
-    .stat-value {
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: var(--accent);
-    }
-
-    .stat-label {
-      font-size: 0.78rem;
-      color: var(--muted);
-      margin-top: 0.2rem;
-    }
-
-    /* Expand all / collapse */
-    .actions {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      margin-bottom: 1.4rem;
-    }
-
-    .action-btn {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--muted);
-      padding: 0.4rem 0.9rem;
-      border-radius: 8px;
-      font-size: 0.82rem;
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .action-btn:hover {
-      border-color: var(--accent);
-      color: var(--text);
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      margin-top: 2.8rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.88rem;
-    }
-
-    footer a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* Smooth appear */
-    .fade-in {
-      animation: fadeIn 0.35s ease;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 600px) {
-      h1 { font-size: 1.5rem; }
-      .container { padding: 1.6rem 1rem 3rem; }
-      .stats { grid-template-columns: 1fr; }
-      .filter-btn { font-size: 0.8rem; padding: 0.4rem 0.75rem; }
-    }
+    :root{--bg:#0b0d11;--surface:#14171e;--surface-2:#1a1f29;--text:#edf0f5;--muted:#9aa3b2;--border:#29303d;--accent:#6ea8fe;--accent-bg:#17345f;--west:#75a9ff;--china:#ff8585;--research:#74d99a;--market:#f5bd68;--radius:16px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 10% 0%,#14213a 0,transparent 32rem),var(--bg);color:var(--text);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}button{cursor:pointer}.container{max-width:920px;margin:auto;padding:42px 20px 70px}.eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.hero{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;margin-bottom:28px}.hero h1{max-width:700px;margin:8px 0;font-size:clamp(2rem,5vw,3.7rem);line-height:1.06;letter-spacing:-.045em}.hero p{max-width:650px;margin:0;color:var(--muted);font-size:16px}.date{margin-top:12px!important;font-size:13px!important}.share{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);padding:10px 14px;transition:.2s}.share:hover,.share:focus-visible{border-color:var(--accent);background:var(--surface-2)}.panel{border:1px solid var(--border);border-radius:var(--radius);background:rgba(20,23,30,.88);box-shadow:0 18px 50px #0002}.summary{padding:22px;margin-bottom:18px;background:linear-gradient(135deg,#152b4d,#171824 65%)}.summary-head{display:flex;justify-content:space-between;gap:16px;align-items:start}.summary h2{margin:0;font-size:19px}.summary-head p{color:var(--muted);margin:4px 0 0}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.summary-card{border:1px solid #ffffff16;border-radius:12px;padding:14px;background:#0002}.summary-card strong{display:block;font-size:15px;margin-bottom:4px}.summary-card span{color:var(--muted);font-size:13px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}.stat{padding:14px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--surface)}.stat strong{display:block;color:var(--accent);font-size:22px}.stat span{color:var(--muted);font-size:12px}.toolbar{padding:18px;margin-bottom:22px}.search-row{display:flex;gap:10px}.search{position:relative;flex:1}.search svg{position:absolute;left:13px;top:13px;color:var(--muted)}.search input{width:100%;height:44px;padding:0 14px 0 42px;border:1px solid var(--border);border-radius:11px;background:var(--bg);color:var(--text);outline:none}.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px #6ea8fe22}.reset{border:1px solid var(--border);border-radius:11px;background:transparent;color:var(--muted);padding:0 14px}.reset:hover{color:var(--text);border-color:var(--accent)}.filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}.filter-label{color:var(--muted);font-size:12px;font-weight:700;margin-right:2px;text-transform:uppercase;letter-spacing:.08em}.filter-btn{border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);padding:7px 12px;font-size:13px}.filter-btn:hover{border-color:var(--accent);color:var(--text)}.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}.results-line{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;color:var(--muted);font-size:13px}.copy-status{color:var(--research);min-height:20px}.result-list{display:grid;gap:12px}.signal{border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);overflow:hidden}.signal[hidden]{display:none}.signal-header{display:flex;align-items:start;justify-content:space-between;gap:15px;width:100%;border:0;background:transparent;color:inherit;text-align:left;padding:18px}.signal-header:hover{background:var(--surface-2)}.signal-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}.tag{border-radius:6px;padding:2px 7px;color:var(--muted);background:#ffffff0c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}.tag.west{color:var(--west);background:#75a9ff18}.tag.china{color:var(--china);background:#ff858518}.tag.research{color:var(--research);background:#74d99a18}.tag.market{color:var(--market);background:#f5bd6818}.signal h3{margin:0;font-size:18px;line-height:1.3}.signal-summary{margin:5px 0 0;color:var(--muted)}.chevron{width:20px;transition:transform .2s;color:var(--muted);flex:none}.signal.open .chevron{transform:rotate(180deg)}.signal-body{display:none;border-top:1px solid var(--border);padding:0 18px 18px;color:var(--muted)}.signal.open .signal-body{display:block}.signal-body p{margin:14px 0 0}.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:var(--radius)}mark{background:#f5bd6855;color:var(--text);border-radius:3px;padding:0 2px}.feedback{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;margin-top:26px;padding:20px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(135deg,#171b24,#11151c)}.feedback h2{margin:0 0 4px;font-size:17px}.feedback p{margin:0;color:var(--muted);font-size:13px}.feedback-actions{display:flex;flex-wrap:wrap;gap:8px}.feedback-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);padding:9px 12px;text-decoration:none;font-size:13px;white-space:nowrap}.feedback-btn:hover,.feedback-btn:focus-visible{border-color:var(--accent);background:var(--surface-2)}.feedback-btn.primary{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}.footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}.footer a{color:var(--accent)}:focus-visible{outline:3px solid #6ea8fe88;outline-offset:3px}@media(max-width:680px){.container{padding:28px 14px 50px}.hero{grid-template-columns:1fr}.share{justify-self:start}.summary-grid,.stats{grid-template-columns:1fr}.search-row{display:grid;grid-template-columns:1fr auto}.feedback{grid-template-columns:1fr}.signal-header{padding:15px}.signal h3{font-size:16px}}
   </style>
 </head>
 <body>
-  <div class="container">
-
-    <!-- HERO -->
-    <header>
-      <div class="badge">AI INFORME SEMANAL</div>
-      <h1>Lo más importante de la Inteligencia Artificial esta semana</h1>
-      <p class="subtitle">Utiliza la tecnología a tu favor</p>
-      <p class="date">Semana del 1 – 7 de septiembre 2026</p>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">AI Informe semanal</div>
+        <h1>Inteligencia artificial, por región y por modelo</h1>
+        <p>Una lectura editorial de las señales más relevantes del ecosistema de IA: laboratorios, investigación, código abierto, redes y mercado.</p>
+        <p class="date">Semana del 1 al 7 de septiembre de 2026 · Actualizado para este informe</p>
+      </div>
+      <button class="share" id="shareBtn" type="button">Copiar enlace</button>
     </header>
 
-    <!-- STATS -->
-    <div class="stats">
-      <div class="stat">
-        <div class="stat-value">6</div>
-        <div class="stat-label">Fuentes principales</div>
+    <section class="panel summary" aria-labelledby="summary-title">
+      <div class="summary-head"><div><h2 id="summary-title">Resumen ejecutivo</h2><p>Las tres ideas que conviene llevarse de esta semana.</p></div><span class="eyebrow">En 30 segundos</span></div>
+      <div class="summary-grid">
+        <div class="summary-card"><strong>China comprime coste y peso</strong><span>GLM, Qwen y Kimi empujan la inferencia local y el open-weight.</span></div>
+        <div class="summary-card"><strong>Los agentes desplazan al chat</strong><span>La conversación pasa de responder preguntas a planificar y ejecutar tareas.</span></div>
+        <div class="summary-card"><strong>Occidente se especializa</strong><span>Claude prioriza precisión, Gemini escala y Grok aporta actualidad.</span></div>
       </div>
-      <div class="stat">
-        <div class="stat-value">12+</div>
-        <div class="stat-label">Señales clave</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">CN + West</div>
-        <div class="stat-label">Cobertura</div>
-      </div>
-    </div>
+    </section>
 
-    <!-- FILTERS -->
-    <div class="filters" id="filters">
-      <button class="filter-btn active" data-filter="all">Todo</button>
-      <button class="filter-btn" data-filter="china">🇨🇳 China</button>
-      <button class="filter-btn" data-filter="west">🌐 Occidente</button>
-      <button class="filter-btn" data-filter="github">💻 GitHub</button>
-      <button class="filter-btn" data-filter="research">📄 Papers</button>
-      <button class="filter-btn" data-filter="tool">🔥 Destacado</button>
-    </div>
+    <section class="stats" aria-label="Métricas del informe">
+      <div class="stat"><strong id="signalCount">10</strong><span>señales visibles</span></div>
+      <div class="stat"><strong id="modelCount">6</strong><span>modelos cubiertos</span></div>
+      <div class="stat"><strong id="sourceCount">5</strong><span>tipos de fuente</span></div>
+    </section>
 
-    <!-- ACTIONS -->
-    <div class="actions">
-      <button class="action-btn" id="expandAll">Expandir todo</button>
-      <button class="action-btn" id="collapseAll">Colapsar todo</button>
-    </div>
+    <section class="panel toolbar" aria-label="Filtros del informe">
+      <div class="search-row">
+        <label class="search" for="searchInput"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="searchInput" type="search" placeholder="Buscar en títulos, notas, modelos o fuentes" autocomplete="off"></label>
+        <button class="reset" id="resetBtn" type="button">Limpiar</button>
+      </div>
+      <div class="filter-group" id="regionFilters"><span class="filter-label">Región</span><button class="filter-btn active" data-filter-key="region" data-filter-value="all">Todas</button><button class="filter-btn" data-filter-key="region" data-filter-value="west">Occidente</button><button class="filter-btn" data-filter-key="region" data-filter-value="china">China</button></div>
+      <div class="filter-group" id="modelFilters"><span class="filter-label">Modelo</span><button class="filter-btn active" data-filter-key="model" data-filter-value="all">Todos</button><button class="filter-btn" data-filter-key="model" data-filter-value="claude">Claude</button><button class="filter-btn" data-filter-key="model" data-filter-value="grok">Grok</button><button class="filter-btn" data-filter-key="model" data-filter-value="gemini">Gemini</button><button class="filter-btn" data-filter-key="model" data-filter-value="glm">GLM</button><button class="filter-btn" data-filter-key="model" data-filter-value="qwen">Qwen</button><button class="filter-btn" data-filter-key="model" data-filter-value="kimi">Kimi</button></div>
+      <div class="filter-group" id="sourceFilters"><span class="filter-label">Fuente</span><button class="filter-btn active" data-filter-key="source" data-filter-value="all">Todas</button><button class="filter-btn" data-filter-key="source" data-filter-value="lab">Laboratorios</button><button class="filter-btn" data-filter-key="source" data-filter-value="research">Investigación</button><button class="filter-btn" data-filter-key="source" data-filter-value="open-source">Open source</button><button class="filter-btn" data-filter-key="source" data-filter-value="social">Redes</button><button class="filter-btn" data-filter-key="source" data-filter-value="market">Mercado</button></div>
+    </section>
 
-    <!-- RESUMEN (siempre visible) -->
-    <div class="card summary open" data-category="all">
-      <div class="card-header">
-        <div class="card-title"><span class="icon">⚡</span> Resumen de la semana</div>
-      </div>
-      <div class="card-body">
-        <div class="item">
-          <div class="item-title">China sigue acelerando</div>
-          <div class="item-desc">Nuevos modelos más baratos y potentes. La conversación en Weibo y Zhihu se centra en coste de inferencia y modelos locales.</div>
-        </div>
-        <div class="item">
-          <div class="item-title">Agentes > Chatbots</div>
-          <div class="item-desc">En GitHub y en papers de arXiv la tendencia es clara: sistemas que hacen tareas, no solo responden.</div>
-        </div>
-        <div class="item">
-          <div class="item-title">Occidente en modo actualizaciones</div>
-          <div class="item-desc">OpenAI, Anthropic y Google siguen lanzando mejoras, pero el salto de paradigma esta semana fue menor.</div>
-        </div>
-      </div>
-    </div>
+    <div class="results-line"><span id="resultsText" role="status" aria-live="polite">10 señales visibles</span><span class="copy-status" id="copyStatus" aria-live="polite"></span></div>
+    <section class="result-list" id="results" aria-label="Señales del informe">
+      <article class="signal open" data-region="west" data-models="claude" data-source="lab"><button class="signal-header" type="button" aria-expanded="true"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · Anthropic</span><span class="tag">Claude</span></div><h3>Claude Fable 5.1 llega al frente de razonamiento</h3><p class="signal-summary">Anthropic publica Fable 5.1. En evaluaciones de agentes y corrección de código sigue liderando en casos límite.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Opus 5 y Fable 5.1 destacan en tareas de ingeniería con edge cases. El coste por token es más alto que Gemini Flash o GLM, pero la tasa de éxito en flujos largos justifica el premium para trabajo de producto.</p></div></article>
+      <article class="signal" data-region="west" data-models="grok" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · xAI</span><span class="tag">Grok</span></div><h3>Grok 4.6: más cerca del tope, más barato por token</h3><p class="signal-summary">xAI sitúa Grok 4.6 a pocos puntos del líder, con precio agresivo y una ventaja clara: búsqueda en vivo.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Si el trabajo depende de la web en tiempo real, Grok aparece como una opción occidental competitiva por coste y actualidad.</p></div></article>
+      <article class="signal" data-region="west" data-models="gemini" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · Google</span><span class="tag">Gemini</span></div><h3>Gemini 3.7 Flash: volumen y código a precio promocional</h3><p class="signal-summary">Google baja el precio de Flash. Es una opción eficiente para volumen, con mejoras de código frente a la generación anterior.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Equipos lo usan para generadores de sitios, simuladores y pipelines de agentes. La conversación: Flash para escala, Claude para precisión.</p></div></article>
+      <article class="signal" data-region="west" data-models="claude,grok,gemini" data-source="market"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag market">Mercado</span><span class="tag">Claude · Grok · Gemini</span></div><h3>Occidente: Claude precisión, Gemini escala, Grok en vivo</h3><p class="signal-summary">El mapa occidental se estabiliza en tres roles. Elegir uno ya no es un ranking único: es elegir el rol adecuado.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Claude gana calidad, Gemini gana coste y contexto, y Grok gana integración con información en vivo. El caso de uso debe guiar la selección.</p></div></article>
+      <article class="signal" data-region="china" data-models="glm,kimi" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Laboratorio · Zhipu</span><span class="tag">GLM · Kimi</span></div><h3>GLM-5.3 iguala a Kimi K3 a menor coste por tarea</h3><p class="signal-summary">Zhipu publica GLM-5.3. La conversación se centra en inferencia barata y agentes locales.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>GLM-5.3 Flash refuerza la competencia en tareas cotidianas, mientras GLM-5.2 MIT mantiene interés para hardware más modesto.</p></div></article>
+      <article class="signal" data-region="china" data-models="qwen" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Laboratorio · Alibaba</span><span class="tag">Qwen</span></div><h3>Qwen 3.8 se parte en dos: Max cerrado y checkpoint abierto</h3><p class="signal-summary">Alibaba combina una API multimodal de frontera con un checkpoint descargable de licencia restringida.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La familia Qwen cubre código, ejecución local, frontera, baja latencia y modelos multimodales. El debate central es licencia frente a rendimiento.</p></div></article>
+      <article class="signal" data-region="china" data-models="kimi" data-source="open-source"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Open source · Moonshot</span><span class="tag">Kimi</span></div><h3>Kimi K3 open-weight: el más grande publicado hasta ahora</h3><p class="signal-summary">Moonshot publica pesos de Kimi K3 y empuja el techo de los modelos open-weight.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>El coste de hospedaje sigue siendo alto. La pregunta dominante no es quién gana el benchmark, sino quién puede ejecutarlo.</p></div></article>
+      <article class="signal" data-region="china" data-models="glm,qwen,kimi" data-source="social"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Redes · Weibo / Zhihu</span><span class="tag">GLM · Qwen · Kimi</span></div><h3>China: Qwen cobertura, GLM agentes locales, Kimi peso bruto</h3><p class="signal-summary">Tres polos claros: cobertura, ejecución local y techo open-weight.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La conversación gira alrededor del coste de inferencia, los chips locales y el rendimiento diario de las variantes Flash.</p></div></article>
+      <article class="signal" data-region="west" data-models="claude,gemini" data-source="research"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag research">Investigación · arXiv</span><span class="tag">Claude · Gemini</span></div><h3>Planificación y memoria: los agentes dejan atrás el chat plano</h3><p class="signal-summary">Los trabajos de la semana empujan agentes multi-paso y memoria de largo plazo.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La investigación se alinea con sistemas que planifican antes de actuar y ejecutan tareas, no solo con interfaces que generan respuestas.</p></div></article>
+      <article class="signal" data-region="west" data-models="claude,grok,qwen,glm" data-source="open-source"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Open source · GitHub</span><span class="tag">Claude · Grok · Qwen · GLM</span></div><h3>GitHub Trending: orquestación, no demos de chatbot</h3><p class="signal-summary">Los repos que suben son frameworks de agentes, RAG y observabilidad.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Las plantillas más repetidas siguen el ciclo planificar → usar herramienta → verificar. La oportunidad está en la orquestación, no en otro wrapper de chat.</p></div></article>
+    </section>
 
-    <!-- CHINA -->
-    <div class="card open" data-category="china">
-      <div class="card-header">
-        <div class="card-title"><span class="icon">🇨🇳</span> China AI</div>
-        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </div>
-      <div class="card-body">
-        <div class="item">
-          <span class="tag china">Weibo / Zhihu</span>
-          <div class="item-title">Coste de inferencia y modelos locales</div>
-          <div class="item-desc">La comunidad china está obsesionada con correr modelos potentes en hardware accesible. Sigue siendo el tema #1.</div>
-        </div>
-        <div class="item">
-          <span class="tag china">Medios</span>
-          <div class="item-title">Nuevos lanzamientos de laboratorios chinos</div>
-          <div class="item-desc">DeepSeek, Zhipu y otros continúan publicando actualizaciones. El ritmo no baja.</div>
-        </div>
-        <div class="item">
-          <span class="tag china">Bilibili</span>
-          <div class="item-title">Tutoriales y demos de agentes</div>
-          <div class="item-desc">Mucho contenido práctico sobre cómo montar agentes locales y flujos con modelos open-source.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- OCCIDENTE + X -->
-    <div class="card open" data-category="west">
-      <div class="card-header">
-        <div class="card-title"><span class="icon">🌐</span> Occidente & X</div>
-        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </div>
-      <div class="card-body">
-        <div class="item">
-          <span class="tag x">X / Twitter</span>
-          <div class="item-title">Guerra de actualizaciones</div>
-          <div class="item-desc">Mucho ruido alrededor de Claude, GPT y Gemini. Menos novedades realmente disruptivas esta semana.</div>
-        </div>
-        <div class="item">
-          <span class="tag west">Hacker News</span>
-          <div class="item-title">Discusiones técnicas fuertes</div>
-          <div class="item-desc">Los hilos más votados siguen girando alrededor de agentes, RAG y razonamiento multi-paso.</div>
-        </div>
-        <div class="item">
-          <span class="tag west">Reddit</span>
-          <div class="item-title">r/LocalLLaMA y r/MachineLearning</div>
-          <div class="item-desc">Fuerte interés en modelos que corren en local y en benchmarks de razonamiento.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- GITHUB -->
-    <div class="card open" data-category="github">
-      <div class="card-header">
-        <div class="card-title"><span class="icon">💻</span> GitHub & Código abierto</div>
-        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </div>
-      <div class="card-body">
-        <div class="item">
-          <span class="tag github">Trending</span>
-          <div class="item-title">Repos de agentes y frameworks RAG</div>
-          <div class="item-desc">Varios proyectos de orquestación de agentes y recuperación aumentada subieron fuerte en el ranking semanal.</div>
-        </div>
-        <div class="item">
-          <span class="tag github">Open Source</span>
-          <div class="item-title">Herramientas de evaluación y observabilidad</div>
-          <div class="item-desc">Más repos enfocados en medir calidad de agentes y trazar sus decisiones.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- INVESTIGACIÓN -->
-    <div class="card open" data-category="research">
-      <div class="card-header">
-        <div class="card-title"><span class="icon">📄</span> Investigación (arXiv)</div>
-        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </div>
-      <div class="card-body">
-        <div class="item">
-          <span class="tag research">Papers</span>
-          <div class="item-title">Razonamiento y planificación</div>
-          <div class="item-desc">Nuevos trabajos sobre modelos que planifican antes de actuar. La frontera se mueve hacia sistemas más autónomos.</div>
-        </div>
-        <div class="item">
-          <span class="tag research">cs.AI / cs.LG</span>
-          <div class="item-title">Agentes multi-paso y memoria</div>
-          <div class="item-desc">Varios papers exploran cómo dar memoria a largo plazo y mejor planificación a los agentes.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- HERRAMIENTA DESTACADA -->
-    <div class="card highlight open" data-category="tool">
-      <div class="card-header">
-        <div class="card-title"><span class="icon">🔥</span> Página / Herramienta de la semana</div>
-        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </div>
-      <div class="card-body">
-        <div class="item">
-          <span class="tag tool">Destacado</span>
-          <div class="item-title">Powerful page you should know</div>
-          <div class="item-desc">
-            Aquí irá cada semana una herramienta o página concreta recomendada (estilo Red Moon AI).<br><br>
-            Ejemplo: un sitio que permite resolver ecuaciones paso a paso, generar interfaces completas desde un prompt, o montar agentes en minutos.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-      <p>AI Informe · Actualización automática semanal</p>
-      <p style="margin-top: 0.4rem;">
-        <a href="https://github.com/traderxael/AI-Informe-" target="_blank">Ver repositorio en GitHub</a>
-      </p>
-    </footer>
-
-  </div>
-
+    <section class="feedback" aria-labelledby="feedback-title"><div><h2 id="feedback-title">Ayúdanos a mejorar AI Informe</h2><p>¿Encontraste un error o tienes una idea? Tu feedback ayuda a priorizar la próxima edición.</p></div><div class="feedback-actions"><a class="feedback-btn primary" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Error%20en%20AI%20Informe&body=Describe%20el%20problema%2C%20incluye%20la%20URL%20y%20el%20dispositivo%3A" target="_blank" rel="noreferrer">Reportar error</a><a class="feedback-btn" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Sugerencia%20para%20AI%20Informe&body=Describe%20tu%20idea%20y%20el%20beneficio%20esperado%3A" target="_blank" rel="noreferrer">Sugerir mejora</a></div></section>\n    <footer class="footer">AI Informe · Fuentes públicas de la semana · No es un ranking único, es un mapa de roles. <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noreferrer">Ver proyecto en GitHub</a></footer>
+  </main>
   <script>
-    // Toggle cards
-    document.querySelectorAll('.card:not(.summary) .card-header').forEach(header => {
-      header.addEventListener('click', () => {
-        header.parentElement.classList.toggle('open');
-      });
-    });
-
-    // Expand / Collapse all
-    document.getElementById('expandAll').addEventListener('click', () => {
-      document.querySelectorAll('.card:not(.summary)').forEach(card => {
-        card.classList.add('open');
-      });
-    });
-
-    document.getElementById('collapseAll').addEventListener('click', () => {
-      document.querySelectorAll('.card:not(.summary)').forEach(card => {
-        card.classList.remove('open');
-      });
-    });
-
-    // Filters
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const cards = document.querySelectorAll('.card[data-category]');
-
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Active state
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filter = btn.dataset.filter;
-
-        cards.forEach(card => {
-          const category = card.dataset.category;
-          if (filter === 'all' || category === filter || category === 'all') {
-            card.classList.remove('hidden');
-            card.classList.add('fade-in');
-          } else {
-            card.classList.add('hidden');
-          }
-        });
-      });
-    });
+    (()=>{
+      const state={region:'all',model:'all',source:'all',q:''};
+      const valid={region:new Set(['all','west','china']),model:new Set(['all','claude','grok','gemini','glm','qwen','kimi']),source:new Set(['all','lab','research','open-source','social','market'])};
+      const params=new URLSearchParams(location.search);
+      for(const key of ['region','model','source']) if(valid[key].has(params.get(key))) state[key]=params.get(key);
+      state.q=params.get('q')||'';
+      const cards=[...document.querySelectorAll('.signal')], input=document.querySelector('#searchInput');
+      input.value=state.q;
+      const textOf=card=>card.innerText.replace(/\s+/g,' ').trim().toLowerCase();
+      const normalize=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+      const escape=value=>String(value).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+      const highlight=(node,q)=>{if(!node.dataset.original)node.dataset.original=node.textContent; const original=node.dataset.original; if(!q){node.textContent=original;return} const normalized=[...original].flatMap((char,index)=>[...normalize(char)].map(()=>index)); const plain=normalize(original), needle=normalize(q); let out='',sourceStart=0,searchStart=0,pos=plain.indexOf(needle); while(pos>=0){const originalStart=normalized[pos]??sourceStart; const originalEnd=(normalized[pos+needle.length-1]??originalStart)+1; out+=escape(original.slice(sourceStart,originalStart))+'<mark>'+escape(original.slice(originalStart,originalEnd))+'</mark>';sourceStart=originalEnd;searchStart=pos+needle.length;pos=plain.indexOf(needle,searchStart)} node.innerHTML=out+escape(original.slice(sourceStart));};
+      function syncUrl(){const next=new URLSearchParams();for(const key of ['region','model','source'])if(state[key]!=='all')next.set(key,state[key]);if(state.q.trim())next.set('q',state.q.trim());const url=location.pathname+(next.toString()?'?'+next.toString():'')+location.hash;history.replaceState({},'',url)}
+      function render(){const q=normalize(state.q.trim());let visible=0;cards.forEach(card=>{const matchesRegion=state.region==='all'||card.dataset.region===state.region;const matchesModel=state.model==='all'||card.dataset.models.split(',').includes(state.model);const matchesSource=state.source==='all'||card.dataset.source===state.source;const matchesSearch=!q||normalize(textOf(card)).includes(q);const show=matchesRegion&&matchesModel&&matchesSource&&matchesSearch;card.hidden=!show;if(show)visible++;card.querySelectorAll('h3,.signal-summary,.signal-body p').forEach(node=>highlight(node,state.q.trim()))});document.querySelector('#signalCount').textContent=visible;document.querySelector('#resultsText').textContent=`${visible} ${visible===1?'señal visible':'señales visibles'}`;document.querySelectorAll('.filter-btn').forEach(btn=>btn.classList.toggle('active',state[btn.dataset.filterKey]===btn.dataset.filterValue));syncUrl()}
+      document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{state[btn.dataset.filterKey]=btn.dataset.filterValue;render()}));
+      input.addEventListener('input',()=>{state.q=input.value;render()});
+      document.querySelector('#resetBtn').addEventListener('click',()=>{state.region='all';state.model='all';state.source='all';state.q='';input.value='';render();input.focus()});
+      cards.forEach(card=>{const button=card.querySelector('.signal-header');button.addEventListener('click',()=>{const open=card.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})});
+      document.querySelector('#shareBtn').addEventListener('click',async()=>{render();try{await navigator.clipboard.writeText(location.href);document.querySelector('#copyStatus').textContent='Enlace copiado';setTimeout(()=>document.querySelector('#copyStatus').textContent='',2200)}catch{document.querySelector('#copyStatus').textContent='Copia la URL del navegador'}});
+      render();
+    })();
   </script>
 </body>
 </html>
