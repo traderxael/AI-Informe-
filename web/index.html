@@ -4,88 +4,139 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Informe</title>
+  <meta name="description" content="Recopilación diaria de noticias de IA, usos reales, economía y señales de futuro.">
+  <meta property="og:title" content="AI Informe">
+  <meta property="og:description" content="Recopilación diaria de noticias de IA">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>AI Informe</h1>
-      <p>Recopilación diaria de novedades, usos reales, economía y señales de futuro de la IA.</p>
-    </header>
-    <div class="layout">
-      <nav>
-        <h2>Informes</h2>
-          <a href="dias/2026-09-03.html" class="active">2026-09-03</a>
-          <a href="dias/2026-09-01.html">2026-09-01</a>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo">
+        <h1>AI Informe</h1>
+        <p>El resumen diario de IA</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><span class="num" id="s-total">0</span><span class="label">Días</span></div>
+        <div class="stat"><span class="num" id="s-items">0</span><span class="label">Items</span></div>
+        <div class="stat"><span class="num" id="s-fuentes">0</span><span class="label">Fuentes</span></div>
+      </div>
+
+      <nav class="nav">
+        <h3>📅 Informes</h3>
+        <div id="nav-list"><p class="loading">Cargando...</p></div>
       </nav>
-      <article>
-        <h1>Informe de IA — 2026-09-03</h1>
-<h2>Resumen del día</h2>
-<p>Hoy se recopilaron 82 piezas sobre IA (57 novedades, 7 usos reales, 12 economía, 6 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation.</p>
-<h2>Novedades y cambios que se quedan</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/" rel="noopener">Abliteration.ai is making a business out of removing AI guardrails</a> — TechCrunch AI</li>
-<li><a href="https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/" rel="noopener">Four major AI models suffer rare overlapping downtime</a> — Ars Technica AI</li>
-<li><a href="https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/" rel="noopener">OpenAI launches Astra, its powerful (and controversial) new model</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release" rel="noopener">OpenAI’s next big AI model has ‘entered the AGI era’</a> — The Verge AI</li>
-<li><a href="https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/" rel="noopener">Ollie is betting its focus on privacy can help it win the AI assistant race</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook" rel="noopener">Nvidia launches free tool that links idle computers into a personal AI data center</a> — The Verge AI</li>
-<li><a href="https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini" rel="noopener">Google now lets you chat with Gmail, Docs, and Keep</a> — The Verge AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down" rel="noopener">ChatGPT, Grok, and Claude all went down at the same time</a> — The Verge AI</li>
-<li><a href="https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/" rel="noopener">Introducing WeatherNext 3, our most advanced and accurate global weather AI model</a> — DeepMind</li>
-<li><a href="https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/" rel="noopener">Google’s latest AI weather model gives you no excuse to forget your umbrella</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update" rel="noopener">Google says its AI weather model is getting better</a> — The Verge AI</li>
-<li><a href="https://huggingface.co/blog/Hcompany/neomme" rel="noopener">NeoMME: an efficient Multimodal-native and Multilingual Encoder</a> — Hugging Face</li>
-</ul>
-<h2>Usos de IA en el mundo real</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/" rel="noopener">US government sides with OpenAI on issue of training LLMs on copyrighted material</a> — TechCrunch AI</li>
-<li><a href="https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/" rel="noopener">Proactive cyber defense for governments and enterprises</a> — DeepMind</li>
-<li><a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/" rel="noopener">Proactive cyber defense for governments and enterprises</a> — Google AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/" rel="noopener">HiddenLayer nabs $100M as enterprises rush to secure their AI deployments</a> — TechCrunch AI</li>
-<li><a href="https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/" rel="noopener">Facilitating AI integration with simplicity at scale</a> — MIT Tech Review AI</li>
-<li><a href="https://openai.com/index/ai-native-company-workflows" rel="noopener">How AI-native companies turn workflows into operating capability</a> — OpenAI</li>
-<li><a href="https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training" rel="noopener">Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training</a> — OpenAI</li>
-</ul>
-<h2>Economía de la IA</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/" rel="noopener">Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation</a> — TechCrunch AI</li>
-<li><a href="https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/" rel="noopener">Nvidia buys Hugging Face, the GitHub of AI, for $13 billion</a> — Ars Technica AI</li>
-<li><a href="https://openai.com/index/daybreak-for-frontline-defenders" rel="noopener">Daybreak for Frontline Defenders: $1B to protect essential services</a> — OpenAI</li>
-<li><a href="https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" rel="noopener">Nvidia confirms it will buy Hugging Face for $12.9 billion</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/" rel="noopener">The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/" rel="noopener">Palo Alto Networks paid $500M for Thrive-backed Console, sources say</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit" rel="noopener">The Trump administration is supporting OpenAI in the NYT copyright lawsuit</a> — The Verge AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/" rel="noopener">Wonderful more than doubles its valuation to $5B in under 6 months</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/" rel="noopener">Adobe acquires Indian market intelligence startup Rilo</a> — TechCrunch AI</li>
-<li><a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads" rel="noopener">A milestone in expanding access to AI</a> — OpenAI</li>
-<li><a href="https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/" rel="noopener">Report: Nvidia to acquire AI model repository Hugging Face for $13 billion</a> — Ars Technica AI</li>
-<li><a href="https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/" rel="noopener">Piloting the world&#x27;s first double-blind AI evaluations</a> — DeepMind</li>
-</ul>
-<h2>Señales de futuro</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/" rel="noopener">Meta is paying to peek at how you use their latest AI model</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/" rel="noopener">India’s richest man now wants to turn aging computers into AI-ready PCs</a> — TechCrunch AI</li>
-<li><a href="https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/" rel="noopener">ChatGPT and Reddit now face EU&#x27;s toughest online safety rules</a> — Ars Technica AI</li>
-<li><a href="https://openai.com/index/supporting-california-bill-advance-ai-youth-safety" rel="noopener">OpenAI supports California’s bill to advance youth AI safety</a> — OpenAI</li>
-<li><a href="https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/" rel="noopener">Meta makes AI glasses slightly less creepy with limit on nonconsensual recording</a> — Ars Technica AI</li>
-<li><a href="https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/" rel="noopener">AI industry says Trump plans to tax chips in the “single dumbest way imaginable”</a> — Ars Technica AI</li>
-</ul>
-<h2>Fuentes</h2>
-<ul>
-<li>OpenAI: https://openai.com/news/rss.xml</li>
-<li>Google AI: https://blog.google/technology/ai/rss/</li>
-<li>DeepMind: https://deepmind.google/blog/rss.xml</li>
-<li>Meta AI: https://ai.meta.com/blog/rss/</li>
-<li>Hugging Face: https://huggingface.co/blog/feed.xml</li>
-<li>TechCrunch AI: https://techcrunch.com/category/artificial-intelligence/feed/</li>
-<li>The Verge AI: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml</li>
-<li>MIT Tech Review AI: https://www.technologyreview.com/topic/artificial-intelligence/feed</li>
-<li>Ars Technica AI: https://arstechnica.com/ai/feed/</li>
-<li>VentureBeat AI: https://venturebeat.com/category/ai/feed/</li>
-</ul>
-      </article>
-    </div>
+
+      <div class="search-box">
+        <input type="search" id="search" placeholder="🔍 Buscar...">
+      </div>
+    </aside>
+
+    <main class="main">
+      <div id="loading" class="loading-overlay">
+        <div class="spinner"></div>
+        <p>Cargando...</p>
+      </div>
+      <div id="contenido">
+        <div class="hero">
+          <h2>🤖 AI Informe</h2>
+          <p>Elige un día para ver el resumen</p>
+        </div>
+      </div>
+    </main>
   </div>
+
+<script>
+let historial = [];
+let allItems = [];
+
+async function init() {
+  try {
+    const res = await fetch('informes-data.json');
+    historial = await res.json();
+    
+    let totalItems = 0, fuentes = new Set();
+    historial.forEach(d => {
+      totalItems += d.total;
+      Object.values(d.por_seccion || {}).flat().forEach(n => fuentes.add(n.fuente));
+    });
+    document.getElementById('s-total').textContent = historial.length;
+    document.getElementById('s-items').textContent = totalItems;
+    document.getElementById('s-fuentes').textContent = fuentes.size;
+
+    renderNav(historial);
+    if (historial.length) cargarDia(historial[historial.length-1]);
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('contenido').innerHTML = `<div class="error"><h3>⚠️ Error</h3><p>${e.message}</p></div>`;
+  }
+}
+
+function renderNav(datos) {
+  const nav = document.getElementById('nav-list');
+  nav.innerHTML = datos.slice().reverse().map(d => `
+    <a href="#" class="nav-item" data-fecha="${d.fecha}">
+      <span>${d.fecha}</span><span class="badge">${d.total}</span>
+    </a>
+  `).join('');
+  
+  nav.querySelectorAll('.nav-item').forEach(el => {
+    el.onclick = e => {
+      e.preventDefault();
+      document.querySelectorAll('.nav-item').forEach(x => x.classList.remove('active'));
+      el.classList.add('active');
+      cargarDia(historial.find(d => d.fecha === el.dataset.fecha));
+    };
+  });
+}
+
+function cargarDia(dia) {
+  document.getElementById('loading').style.display = 'flex';
+  const sections = [
+    {key: 'novedades', title: '📰 Novedades'},
+    {key: 'usos', title: '🌍 Usos en el mundo'},
+    {key: 'economia', title: '💰 Economía'},
+    {key: 'futuro', title: '🔮 Futuro'}
+  ];
+  
+  let html = `<header class="informe-header"><h2>📅 ${formatDate(dia.fecha)}</h2><p>${dia.total} noticias de ${dia.fuentes?.length || 0} fuentes</p></header><div class="noticias">`;
+  
+  sections.forEach(sec => {
+    const items = dia.por_seccion?.[sec.key] || [];
+    if (items.length) {
+      html += `<section class="seccion"><h3>${sec.title} <span>${items.length}</span></h3>`;
+      items.forEach(n => {
+        html += `<article class="noticia"><h4><a href="${n.url}" target="_blank">${esc(n.titulo)}</a></h4><div class="meta"><span class="fuente">${esc(n.fuente)}</span></div>${n.resumen ? `<p class="resumen">${esc(n.resumen)}</p>` : ''}</article>`;
+      });
+      html += '</section>';
+    }
+  });
+  
+  html += '</div>';
+  document.getElementById('contenido').innerHTML = html;
+  document.getElementById('loading').style.display = 'none';
+  allItems = Object.values(dia.por_seccion || {}).flat();
+}
+
+function formatDate(f) {
+  return new Date(f + 'T00:00:00').toLocaleDateString('es-ES', {weekday:'long', day:'numeric', month:'long'});
+}
+
+function esc(text) { const d = document.createElement('div'); d.textContent = text; return d.innerHTML; }
+
+document.getElementById('search').oninput = e => {
+  const q = e.target.value.toLowerCase();
+  if (!q) { if (historial.length) cargarDia(historial[historial.length-1]); return; }
+  const results = allItems.filter(n => n.titulo.toLowerCase().includes(q) || n.resumen?.toLowerCase().includes(q));
+  if (results.length) {
+    document.getElementById('contenido').innerHTML = `<header class="informe-header"><h2>🔍 ${results.length} resultados</h2></header><div class="noticias">${results.map(n => `<article class="noticia"><h4><a href="${n.url}" target="_blank">${esc(n.titulo)}</a></h4><span class="fuente">${esc(n.fuente)}</span></article>`).join('')}</div>`;
+  }
+};
+
+init();
+</script>
 </body>
 </html>
