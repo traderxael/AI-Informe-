@@ -21,6 +21,7 @@ INFORMES_DIR = ROOT / "informes"
 WEB_DIR = ROOT / "web"
 
 FEEDS = [
+    # --- Estados Unidos / Occidente ---
     ("OpenAI", "https://openai.com/news/rss.xml"),
     ("Google AI", "https://blog.google/technology/ai/rss/"),
     ("DeepMind", "https://deepmind.google/blog/rss.xml"),
@@ -31,7 +32,27 @@ FEEDS = [
     ("MIT Tech Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
     ("Ars Technica AI", "https://arstechnica.com/ai/feed/"),
     ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
+    # --- China ---
+    ("Synced", "https://syncedreview.com/feed/"),
+    ("36Kr AI", "https://36kr.com/feed"),
+    ("QbitAI", "https://www.qbitai.com/feed"),
+    ("DeepSeek", "https://www.deepseek.com/rss.xml"),
 ]
+
+# Fuentes clasificadas por país
+FUENTES_USA = {
+    "OpenAI", "Google AI", "DeepMind", "Meta AI", "Hugging Face",
+    "TechCrunch AI", "The Verge AI", "MIT Tech Review AI",
+    "Ars Technica AI", "VentureBeat AI", "Anthropic", "Microsoft AI",
+    "NVIDIA", "Apple AI", "Amazon AI", "xAI", "Cohere", "Perplexity"
+}
+
+FUENTES_CHINA = {
+    "Synced", "36Kr AI", "QbitAI", "DeepSeek", "Baidu", "Alibaba",
+    "Tencent", "ByteDance", "Huawei", "SenseTime", "iFlytek",
+    "Zhipu AI", "Moonshot", "MiniMax", "StepFun", "Yi", "Qwen",
+    "Pandaily", "Technode", "Radii", "Sixth Tone"
+}
 
 SECTIONS = (
     "novedades",
@@ -272,6 +293,54 @@ def classify(title: str, summary: str) -> str:
     return best
 
 
+def classify_country(title: str, source: str) -> str:
+    """Clasifica por país: 'usa', 'china', o 'global'."""
+    text = f"{title} {source}".lower()
+    
+    # Palabras clave China (mucho más específicas)
+    china_words = {
+        "china", "chinese", "beijing", "shanghai", "shenzhen", "hangzhou",
+        "baidu", "alibaba", "tencent", "bytedance", "huawei", "sensetime",
+        "iflytek", "zhipu", "moonshot", "minimax", "stepfun", "yi", "qwen",
+        "deepseek", "pandaily", "technode", "radii", "sixth tone",
+        "wechat", "taobao", "tmall", "jd.com", "pinduoduo", "meituan",
+        "xiaomi", "oppo", "vivo", "tiktok", "douyin", "kuaishou",
+        "binance", "okx", "bybit", "gate.io", "huobi",
+        "mandarin", "cantonese", "simplified chinese", "traditional chinese"
+    }
+    
+    # Palabras clave USA (más específicas)
+    usa_words = {
+        "openai", "google", "meta", "facebook", "microsoft", "apple",
+        "amazon", "nvidia", "intel", "amd", "tesla", "spacex",
+        "anthropic", "cohere", "perplexity", "huggingface",
+        "techcrunch", "the verge", "ars technica", "venturebeat",
+        "wired", "bloomberg", "reuters", "ap", "nyt", "washington post",
+        "silicon valley", "san francisco", "new york", "boston", "seattle",
+        "austin", "palo alto", "cupertino", "menlo park", "mountain view",
+        "federal", "congress", "senate", "white house", "pentagon",
+        "nasdaq", "nyse", "sec", "ftc", "fcc", "fda", "nih", "nasa",
+        "stanford", "mit", "harvard", "princeton", "yale", "columbia",
+        "uc berkeley", "cmu", "uiuc", "gatech", "caltech"
+    }
+    
+    # Contadores
+    china_score = sum(1 for w in china_words if w in text)
+    usa_score = sum(1 for w in usa_words if w in text)
+    
+    # Bonus por fuente conocida
+    if source in FUENTES_CHINA:
+        china_score += 5
+    elif source in FUENTES_USA:
+        usa_score += 5
+    
+    if china_score > usa_score:
+        return "china"
+    elif usa_score > china_score:
+        return "usa"
+    return "global"
+
+
 def collect_items(day: date, lookback_hours: int = 168) -> list[dict[str, Any]]:
     cutoff = datetime.combine(day, datetime.min.time(), tzinfo=timezone.utc)
     min_dt = cutoff - timedelta(hours=lookback_hours)
@@ -292,6 +361,7 @@ def collect_items(day: date, lookback_hours: int = 168) -> list[dict[str, Any]]:
             seen.add(key)
             item["source"] = source
             item["section"] = classify(item["title"], item.get("summary") or "")
+            item["country"] = classify_country(item["title"], source)
             collected.append(item)
 
     collected.sort(key=lambda it: it.get("published") or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
@@ -550,8 +620,14 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
             "fuente": item.get("source", ""),
             "resumen": item.get("summary", "")[:200] + "..." if len(item.get("summary", "")) > 200 else item.get("summary", ""),
             "seccion": item.get("section", "novedades"),
+            "pais": item.get("country", "global"),
             "fecha": day.isoformat(),
         }
+    
+    # Contar por país
+    usa_count = sum(1 for i in items if i.get("country") == "usa")
+    china_count = sum(1 for i in items if i.get("country") == "china")
+    global_count = sum(1 for i in items if i.get("country") == "global")
     
     data = {
         "fecha": day.isoformat(),
@@ -561,6 +637,11 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
             "usos": [item_to_json(i) for i in by_section["usos"][:10]],
             "economia": [item_to_json(i) for i in by_section["economia"][:10]],
             "futuro": [item_to_json(i) for i in by_section["futuro"][:10]],
+        },
+        "por_pais": {
+            "usa": usa_count,
+            "china": china_count,
+            "global": global_count,
         },
         "fuentes": [{"nombre": s, "url": u} for s, u in FEEDS],
     }
