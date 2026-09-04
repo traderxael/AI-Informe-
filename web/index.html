@@ -315,16 +315,7 @@
 
       <!-- CHINA: DEEPSEEK -->
       <article class="signal" data-region="china" data-models="deepseek" data-source="lab">
-        <button class="signal-header" type="button" aria-expanded="false">
-          <div>
-            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · DeepSeek</span><span class="tag">DeepSeek</span></div>
-            <h3>DeepSeek V3.2: iguala a Qwen 3.8 con mejor razonamiento matemático</h3>
-            <p class="signal-summary">DeepSeek publica V3.2 con mejora en razonamiento matemático y código vs. la generación anterior. Su ventaja: coste por tarea inferior y disponibilidad en APIs chinas y globales.</p>
-          </div>
-          <span class="chevron">⌄</span>
-        </button>
-        <div class="signal-body"><p>DeepSeek V3.2 se enfrenta a Qwen 3.8-Max y GLM-5.3 en benchmarks de razonamiento. La conversación en China: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
-      </article>
+        <button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · DeepSeek</span><span class="tag">DeepSeek</span></div><h3>DeepSeek V3.2: sparse attention, código y razonamiento a costo menor</h3><p class="signal-summary">DeepSeek publica V3.2 en diciembre 2025 con 671B parámetros totales (37B activos por token), 128K contexto y DeepSeek Sparse Attention que reduce costo de contexto largo ~50%. SWE-bench Verified 67.8%, LiveCodeBench 74.1%, AIME 2025 89.3%.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>V3.2 es MoE con 256 experts + 1 shared expert, MLA, FP8 training, multi-token prediction y DSA. Precios: $0.25/1M input, $0.80/1M output. MIT license, open weights en HuggingFace. Fue flag ship hasta V4 (24-abril-2026).</p></div></article>
 
       <!-- CHINA: MINIMAX -->
       <article class="signal" data-region="china" data-models="minimax" data-source="lab">
@@ -341,55 +332,19 @@
 
       <!-- CHINA: TENCENT -->
       <article class="signal" data-region="china" data-models="tencent" data-source="lab">
-        <button class="signal-header" type="button" aria-expanded="false">
-          <div>
-            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · Tencent</span><span class="tag">Tencent</span></div>
-            <h3>Tencent Hunyuan 5: video, agentes y modelos de código en un ecosistema</h3>
-            <p class="signal-summary">Tencent lanza Hunyuan 5 con variantes de video, agentes y código. Su ventaja: integración con WeChat, video generativo y modelos de código dentro del mismo ecosistema.</p>
-          </div>
-          <span class="chevron">⌄</span>
-        </button>
-        <div class="signal-body"><p>Hunyuan 5 se enfrenta a doubao 3 y GLM-5.3 en el ecosistema chino. La conversación: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
-      </article>
+        <button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · Tencent</span><span class="tag">Tencent</span></div><h3>Tencent HunyuanVideo 1.5: video generativo open-source con 8.3B parámetros</h3><p class="signal-summary">Tencent publica HunyuanVideo 1.5, modelo de video de 8.3B parámetros con calidad SOTA entre open-source, corrección física, coherencia de escena, cámara nativa y acción continua. Soporta T2V e I2V en 480p y 720p.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Arquitectura DiT con SSTA (selective + sliding tile attention), codificación de texto glyph-aware, pre-entrenamiento progresivo y red de super-resolución video. Optimizado para GPUs de consumo: RTX 4090 con step-distilled genera en 8-12 steps (~75% más rápido).</p></div></article>
 
       <!-- CHINA: BAIDU -->
       <article class="signal" data-region="china" data-models="baidu" data-source="lab">
-        <button class="signal-header" type="button" aria-expanded="false">
-          <div>
-            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · Baidu</span><span class="tag">Baidu</span></div>
-            <h3>Baidu ERNIE 5: resumen del ecosistema Baidu en un solo modelo multimodal</h3>
-            <p class="signal-summary">Baidu consolida ERNIE 5 como el modelo multimodal de propósito general de su ecosistema. Su ventaja: integración con Baidu Search, Baidu Cloud y productos de IA de la compañía.</p>
-          </div>
-          <span class="chevron">⌄</span>
-        </button>
-        <div class="signal-body"><p>ERNIE 5 se enfrenta a Qwen 3.8 y GLM-5.3 en el ecosistema chino. La conversación: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
-      </article>
+        <button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · Baidu</span><span class="tag">Baidu</span></div><h3>Baidu ERNIE 5.0: multimodal unificado de 2.4T parámetros</h3><p class="signal-summary">Baidu lanza ERNIE 5.0 el 22-enero-2026 con 2.4T parámetros, arquitectura de modelo multimodal unificado nativo (texto, imagen, video, audio en mismo backbone autoregresivo). Top #1 en LMArena texto en China, #8 global con score 1460 (15-jan-2026), superando GPT-5.1-High y Gemini-2.5-Pro.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>ERNIE 5.0 supera limitaciones de late-fusion (decoders especializados pegados a backbone de lenguaje). Soporta entrada/salida de texto, imagen, audio y video. ERNIE 5.1 (mayo 2026) mejora agentes y razonamiento con disaggregated asynchronous RL; arquitectura unificada de Baidu: texto + imagen + video + audio.</p></div></article>
 
       <!-- CHINA: BYTEDANCE -->
       <article class="signal" data-region="china" data-models="bytebance" data-source="lab">
-        <button class="signal-header" type="button" aria-expanded="false">
-          <div>
-            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · ByteDance</span><span class="tag">ByteDance</span></div>
-            <h3>ByteDance doubao 3: el modelo de contenido de Douyin y TikTok</h3>
-            <p class="signal-summary">ByteDance consolida doubao 3 como el modelo principal de generación de contenido, búsqueda y agentes dentro de Douyin, TikTok y productos relacionados. Su ventaja: integración con la plataforma de contenido más grande del mundo.</p>
-          </div>
-          <span class="chevron">⌄</span>
-        </button>
-        <div class="signal-body"><p>doubao 3 se enfrenta a GLM-5.3 y Kimi K3 en el ecosistema chino. La conversación: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
-      </article>
+        <button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · ByteDance</span><span class="tag">ByteDance</span></div><h3>ByteDance doubao 3: el modelo de contenido de Douyin y TikTok</h3><p class="signal-summary">ByteDance consolida doubao 3 como el modelo principal de generación de contenido, búsqueda y agentes dentro de Douyin, TikTok y productos relacionados. Su ventaja: integración con la red social global más grande.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>doubao 3 es el modelo multimodal de ByteDance para generación de contenido, búsqueda conversacional y agentes. Se despliega dentro de Douyin (China) y TikTok (global) como el modelo de generación de contenido principal.</p></div></article>
 
       <!-- EUROPA: MISTRAL -->
       <article class="signal" data-region="germany" data-models="mistral" data-source="lab">
-        <button class="signal-header" type="button" aria-expanded="false">
-          <div>
-            <div class="signal-meta"><span class="tag germany">🇩🇪 Alemania</span><span class="tag lab">Laboratorio · Mistral</span><span class="tag">Mistral</span></div>
-            <h3>Mistral Large 3: el modelo europeo que deja de lado el rendimiento</h3>
-            <p class="signal-summary">Mistral publica Large 3 con mejora medible en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en la UE y globalmente.</p>
-          </div>
-          <span class="chevron">⌄</span>
-        </button>
-        <div class="signal-body"><p>Mistral Large 3 se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?</p></div>
-      </article>
+        <button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag germany">🇩🇪 Alemania</span><span class="tag lab">Laboratorio · Mistral</span><span class="tag">Mistral</span></div><h3>Mistral Large 3: el modelo europeo de frontera</h3><p class="signal-summary">Mistral publica Large 3 con mejora en razonamiento, código y capacidades multimodales vs. la generación anterior. Combina estado de la frontera con precio competitivo y disponibilidad global.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Mistral Large 3 se posiciona como el modelo europeo de referencia para empresas y desarrolladores. Su ventaja: coste por millón de tokens competitivo frente a los laboratorios americanos, disponibilidad en la UE y opciones de despliegue local.</p></div></article>
 
       <!-- EUROPA: ALEPH ALPHA -->
       <article class="signal" data-region="germany" data-models="aleph-alpha" data-source="research">
