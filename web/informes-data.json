@@ -1,122 +1,172 @@
 [
   {
     "fecha": "2026-09-01",
-    "total": 26,
-    "resumen_dia": "Hoy se recopilaron 59 piezas sobre IA (45 novedades, 3 usos reales, 7 economía, 4 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: Google's Android update tackles motion sickness, accessibility, and more.",
+    "total": 38,
+    "resumen_dia": "Hoy se recopilaron 114 piezas sobre IA (88 novedades, 8 usos reales, 12 economía, 6 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: 新版GPT Image 2.5已经能伪造GPT-6发布会了.",
     "por_seccion": {
       "novedades": [
         {
-          "titulo": "Google's Android update tackles motion sickness, accessibility, and more",
-          "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+          "titulo": "新版GPT Image 2.5已经能伪造GPT-6发布会了",
+          "url": "https://www.qbitai.com/2026/09/483948.html",
+          "fuente": "QbitAI",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+          "url": "https://www.qbitai.com/2026/09/483898.html",
+          "fuente": "QbitAI",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Abliteration.ai is making a business out of removing AI guardrails",
+          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "The latest AI news we announced in August 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-          "fuente": "Google AI",
+          "titulo": "Four major AI models suffer rare overlapping downtime",
+          "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+          "fuente": "Ars Technica AI",
           "resumen": "",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Anthropic's new Fable release is cheaper, less restrictive",
-          "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+          "titulo": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Apple accuses OpenAI of destroying evidence",
-          "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+          "titulo": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
           "fuente": "The Verge AI",
           "resumen": "",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Google's answer to Canva is an AI tool where you prompt instead of design",
-          "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+          "titulo": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+          "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Introducing agentic video understanding with Gemini",
-          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+          "titulo": "Nvidia launches free tool that links idle computers into a personal AI data center",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+          "fuente": "The Verge AI",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Google now lets you chat with Gmail, Docs, and Keep",
+          "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+          "fuente": "The Verge AI",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "ChatGPT, Grok, and Claude all went down at the same time",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+          "fuente": "The Verge AI",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
           "fuente": "DeepMind",
           "resumen": "",
           "seccion": "novedades",
+          "pais": "global",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "ChatGPT Health adds Epic integration for clinicians to import patient data",
-          "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+          "titulo": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+          "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "novedades",
-          "fecha": "2026-09-01"
-        },
-        {
-          "titulo": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
-          "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
-          "fuente": "TechCrunch AI",
-          "resumen": "",
-          "seccion": "novedades",
-          "fecha": "2026-09-01"
-        },
-        {
-          "titulo": "John Deere launched an AI chatbot for farmers",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
-          "fuente": "The Verge AI",
-          "resumen": "",
-          "seccion": "novedades",
-          "fecha": "2026-09-01"
-        },
-        {
-          "titulo": "Try Google Pics: Easy image creation and editing in Google Workspace",
-          "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-          "fuente": "Google AI",
-          "resumen": "",
-          "seccion": "novedades",
-          "fecha": "2026-09-01"
-        },
-        {
-          "titulo": "Amazon Alexa can now alert you when something new might tempt you to shop",
-          "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
-          "fuente": "TechCrunch AI",
-          "resumen": "",
-          "seccion": "novedades",
-          "fecha": "2026-09-01"
-        },
-        {
-          "titulo": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-          "fuente": "TechCrunch AI",
-          "resumen": "",
-          "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-01"
         }
       ],
       "usos": [
+        {
+          "titulo": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+          "fuente": "TechCrunch AI",
+          "resumen": "",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Proactive cyber defense for governments and enterprises",
+          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+          "fuente": "DeepMind",
+          "resumen": "",
+          "seccion": "usos",
+          "pais": "global",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Proactive cyber defense for governments and enterprises",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+          "fuente": "Google AI",
+          "resumen": "",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
+          "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+          "fuente": "TechCrunch AI",
+          "resumen": "",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Facilitating AI integration with simplicity at scale",
+          "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "",
+          "seccion": "usos",
+          "pais": "global",
+          "fecha": "2026-09-01"
+        },
         {
           "titulo": "How AI-native companies turn workflows into operating capability",
           "url": "https://openai.com/index/ai-native-company-workflows",
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "usos",
-          "fecha": "2026-09-01"
-        },
-        {
-          "titulo": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-          "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-          "fuente": "TechCrunch AI",
-          "resumen": "",
-          "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
@@ -125,40 +175,99 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+          "url": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
+          "fuente": "Ars Technica AI",
+          "resumen": "",
+          "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-01"
         }
       ],
       "economia": [
         {
-          "titulo": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-          "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+          "titulo": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+          "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech's AI chip buildout",
-          "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+          "titulo": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+          "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
+          "fuente": "Ars Technica AI",
+          "resumen": "",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "fuente": "OpenAI",
+          "resumen": "",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Meeting note-taker Circleback adds a free tier to attract more customers",
-          "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+          "titulo": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
           "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Texas Governor Abbott blocks funding for more Flock cameras",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+          "titulo": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+          "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+          "fuente": "TechCrunch AI",
+          "resumen": "",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
           "fuente": "The Verge AI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Wonderful more than doubles its valuation to $5B in under 6 months",
+          "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+          "fuente": "TechCrunch AI",
+          "resumen": "",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Adobe acquires Indian market intelligence startup Rilo",
+          "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
+          "fuente": "TechCrunch AI",
+          "resumen": "",
+          "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
@@ -167,14 +276,16 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "At TechBBQ, Europe's AI conversations kept coming back to: Who's actually in control?",
-          "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-          "fuente": "TechCrunch AI",
+          "titulo": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+          "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+          "fuente": "Ars Technica AI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
@@ -183,32 +294,36 @@
           "fuente": "DeepMind",
           "resumen": "",
           "seccion": "economia",
+          "pais": "global",
           "fecha": "2026-09-01"
         }
       ],
       "futuro": [
         {
-          "titulo": "The rise of AI 'civilizations' and the fall of corporate responsibility",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
-          "fuente": "The Verge AI",
+          "titulo": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "Debian won't ban AI code from its Linux distribution",
-          "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-          "fuente": "The Verge AI",
+          "titulo": "India’s richest man now wants to turn aging computers into AI-ready PCs",
+          "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
+          "fuente": "TechCrunch AI",
           "resumen": "",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
-          "titulo": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-          "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
-          "fuente": "The Verge AI",
+          "titulo": "ChatGPT and Reddit now face EU's toughest online safety rules",
+          "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+          "fuente": "Ars Technica AI",
           "resumen": "",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-01"
         },
         {
@@ -217,23 +332,66 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+          "fuente": "Ars Technica AI",
+          "resumen": "",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
+          "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+          "fuente": "Ars Technica AI",
+          "resumen": "",
+          "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-01"
         }
       ]
+    },
+    "por_pais": {
+      "usa": 33,
+      "china": 0,
+      "global": 5
     }
   },
   {
     "fecha": "2026-09-03",
     "total": 37,
-    "resumen_dia": "Hoy se recopilaron 82 piezas sobre IA (57 novedades, 7 usos reales, 12 economía, 6 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation.",
+    "resumen_dia": "Hoy se recopilaron 92 piezas sobre IA (67 novedades, 7 usos reales, 12 economía, 6 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: 新版GPT Image 2.5已经能伪造GPT-6发布会了.",
     "por_seccion": {
       "novedades": [
+        {
+          "titulo": "新版GPT Image 2.5已经能伪造GPT-6发布会了",
+          "url": "https://www.qbitai.com/2026/09/483948.html",
+          "fuente": "QbitAI",
+          "resumen": "提示词：用手机拍摄一张写实风格的手写文章照片，文章是用铅笔写在8.5&#215;11英寸的横格纸上的，字迹要像爱因斯坦的笔迹，内容是关于世界货币的历史。确保字迹有明显的爱因斯坦式变化。在右上角添加一点咖啡渍。",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-09-03"
+        },
+        {
+          "titulo": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+          "url": "https://www.qbitai.com/2026/09/483898.html",
+          "fuente": "QbitAI",
+          "resumen": "GPT-6 Astra是世界上最智能、最协调的模型，为Computer use、Browser Use、软件工程、网络安全、科学和专业工作树立了新的标杆。",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-03"
+        },
         {
           "titulo": "Abliteration.ai is making a business out of removing AI guardrails",
           "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
           "fuente": "TechCrunch AI",
           "resumen": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -242,6 +400,7 @@
           "fuente": "Ars Technica AI",
           "resumen": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -250,6 +409,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "OpenAI claims that Astra represents &quot;a new frontier on computer and browser use,&quot; and that it handles tasks with unmatched &quot;speed, accuracy, and safety.&quot;",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -258,6 +418,7 @@
           "fuente": "The Verge AI",
           "resumen": "OpenAI just released GPT-6 Astra. The company calls it its “most intelligent” model yet and is trying to rebuild enterprise trust after the Hugging Face hack.",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -266,6 +427,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -274,6 +436,7 @@
           "fuente": "The Verge AI",
           "resumen": "Nvidia’s new Personal AI Router (PAIR) links the computers on your home network to locally tackle AI inference tasks — for use with Nvidia GPUs as well as recent Macs.",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -282,6 +445,7 @@
           "fuente": "The Verge AI",
           "resumen": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -290,6 +454,7 @@
           "fuente": "The Verge AI",
           "resumen": "ChatGPT, Grok, and Claude all experienced issues at the same time, with some users unable to prompt the chatbots.",
           "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -298,6 +463,7 @@
           "fuente": "DeepMind",
           "resumen": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
           "seccion": "novedades",
+          "pais": "global",
           "fecha": "2026-09-03"
         },
         {
@@ -306,22 +472,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, an...",
           "seccion": "novedades",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Google says its AI weather model is getting better",
-          "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-          "fuente": "The Verge AI",
-          "resumen": "Google developed a new AI weather model that can make faster predictions using real-time satellite data. ",
-          "seccion": "novedades",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "url": "https://huggingface.co/blog/Hcompany/neomme",
-          "fuente": "Hugging Face",
-          "resumen": "A Blog post by H company on Hugging Face",
-          "seccion": "novedades",
+          "pais": "usa",
           "fecha": "2026-09-03"
         }
       ],
@@ -332,6 +483,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "&quot;The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globall...",
           "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -340,6 +492,7 @@
           "fuente": "DeepMind",
           "resumen": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
           "seccion": "usos",
+          "pais": "global",
           "fecha": "2026-09-03"
         },
         {
@@ -348,6 +501,7 @@
           "fuente": "Google AI",
           "resumen": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
           "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -356,6 +510,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
           "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -364,6 +519,7 @@
           "fuente": "MIT Tech Review AI",
           "resumen": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds ...",
           "seccion": "usos",
+          "pais": "global",
           "fecha": "2026-09-03"
         },
         {
@@ -372,6 +528,7 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -380,6 +537,7 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "usos",
+          "pais": "usa",
           "fecha": "2026-09-03"
         }
       ],
@@ -390,6 +548,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "The high-profile startup&#039;s annual revenue run rate stands at over $100 million.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -398,6 +557,7 @@
           "fuente": "Ars Technica AI",
           "resumen": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -406,6 +566,7 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -414,6 +575,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -422,6 +584,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "Revealing the Builders Stage agenda for TechCrunch Disrupt 2026. Join 10,000 founders, VCs, and operators on October 13-15 in San Francisco. Register here.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -430,6 +593,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -438,6 +602,7 @@
           "fuente": "The Verge AI",
           "resumen": "﻿Letting models train on copyrighted work will preserve ‘American prosperity,’ it says.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -446,6 +611,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -454,6 +620,7 @@
           "fuente": "TechCrunch AI",
           "resumen": "This is Adobe&#039;s second acquisition out of India after Rephrase.ai in 2023",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -462,6 +629,7 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -470,6 +638,7 @@
           "fuente": "Ars Technica AI",
           "resumen": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
           "seccion": "economia",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -478,6 +647,7 @@
           "fuente": "DeepMind",
           "resumen": "Building trust in proprietary model benchmarks using cryptographically secure environments",
           "seccion": "economia",
+          "pais": "global",
           "fecha": "2026-09-03"
         }
       ],
@@ -488,14 +658,16 @@
           "fuente": "TechCrunch AI",
           "resumen": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who &quot;contribute&quot; to the development o...",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
           "titulo": "India’s richest man now wants to turn aging computers into AI-ready PCs",
           "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
           "fuente": "TechCrunch AI",
-          "resumen": "",
+          "resumen": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -504,6 +676,7 @@
           "fuente": "Ars Technica AI",
           "resumen": "Explosive growth comes with a new regulatory burden in the European Union.",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -512,6 +685,7 @@
           "fuente": "OpenAI",
           "resumen": "",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -520,6 +694,7 @@
           "fuente": "Ars Technica AI",
           "resumen": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-03"
         },
         {
@@ -528,9 +703,15 @@
           "fuente": "Ars Technica AI",
           "resumen": "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.",
           "seccion": "futuro",
+          "pais": "usa",
           "fecha": "2026-09-03"
         }
       ]
+    },
+    "por_pais": {
+      "usa": 32,
+      "china": 0,
+      "global": 5
     }
   }
 ]

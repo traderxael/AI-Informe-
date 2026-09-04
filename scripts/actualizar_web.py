@@ -42,12 +42,35 @@ def parsear_informe(md_path: Path) -> dict:
             match = re.match(r"- \[(.+?)\]\((.+?)\) — (.+)", line_stripped)
             if match:
                 titulo, url, fuente = match.groups()
+                # Clasificar por país
+                pais = "global"
+                china_words = {"china", "chinese", "beijing", "shanghai", "shenzhen", "hangzhou",
+                    "baidu", "alibaba", "tencent", "bytedance", "huawei", "sensetime",
+                    "iflytek", "zhipu", "moonshot", "minimax", "stepfun", "yi", "qwen",
+                    "deepseek", "pandaily", "technode", "radii", "sixth tone",
+                    "wechat", "taobao", "tmall", "jd.com", "pinduoduo", "meituan",
+                    "xiaomi", "oppo", "vivo", "tiktok", "douyin", "kuaishou"}
+                usa_words = {"openai", "google", "meta", "facebook", "microsoft", "apple",
+                    "amazon", "nvidia", "intel", "amd", "tesla", "spacex",
+                    "anthropic", "cohere", "perplexity", "huggingface",
+                    "techcrunch", "the verge", "ars technica", "venturebeat"}
+                
+                text_lower = f"{titulo} {fuente}".lower()
+                china_score = sum(1 for w in china_words if w in text_lower)
+                usa_score = sum(1 for w in usa_words if w in text_lower)
+                
+                if china_score > usa_score:
+                    pais = "china"
+                elif usa_score > china_score:
+                    pais = "usa"
+                
                 items[current_section].append({
                     "titulo": titulo,
                     "url": url,
                     "fuente": fuente,
-                    "resumen": "",  # Los markdowns no tienen resumen aún
+                    "resumen": "",
                     "seccion": current_section,
+                    "pais": pais,
                     "fecha": md_path.stem,
                 })
     
@@ -88,6 +111,18 @@ def main():
     # Ordenar por fecha
     informes.sort(key=lambda x: x["fecha"])
     
+    # Contar por país
+    usa_count = sum(1 for d in informes for s in d["por_seccion"].values() for i in s if i.get("pais") == "usa")
+    china_count = sum(1 for d in informes for s in d["por_seccion"].values() for i in s if i.get("pais") == "china")
+    global_count = sum(1 for d in informes for s in d["por_seccion"].values() for i in s if i.get("pais") == "global")
+    
+    for d in informes:
+        d["por_pais"] = {
+            "usa": sum(1 for s in d["por_seccion"].values() for i in s if i.get("pais") == "usa"),
+            "china": sum(1 for s in d["por_seccion"].values() for i in s if i.get("pais") == "china"),
+            "global": sum(1 for s in d["por_seccion"].values() for i in s if i.get("pais") == "global"),
+        }
+    
     # Exportar
     out_path = WEB_DIR / "informes-data.json"
     out_path.write_text(
@@ -104,6 +139,7 @@ def main():
     
     print(f"\n✅ Exportado: {out_path}")
     print(f"   {len(informes)} días, {sum(d['total'] for d in informes)} noticias totales")
+    print(f"   🇺🇸 USA: {usa_count} | 🇨🇳 China: {china_count} | 🌐 Global: {global_count}")
 
 
 if __name__ == "__main__":
