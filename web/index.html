@@ -3,11 +3,121 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Informe semanal de inteligencia artificial por región, modelo y fuente.">
+  <meta name="description" content="Informe semanal de inteligencia artificial por país, modelo y laboratorio.">
   <title>AI Informe — Semana del 1 al 7 de septiembre de 2026</title>
   <style>
-    :root{--bg:#0b0d11;--surface:#14171e;--surface-2:#1a1f29;--text:#edf0f5;--muted:#9aa3b2;--border:#29303d;--accent:#6ea8fe;--accent-bg:#17345f;--west:#75a9ff;--china:#ff8585;--research:#74d99a;--market:#f5bd68;--radius:16px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 10% 0%,#14213a 0,transparent 32rem),var(--bg);color:var(--text);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}button{cursor:pointer}.container{max-width:920px;margin:auto;padding:42px 20px 70px}.eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.hero{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;margin-bottom:28px}.hero h1{max-width:700px;margin:8px 0;font-size:clamp(2rem,5vw,3.7rem);line-height:1.06;letter-spacing:-.045em}.hero p{max-width:650px;margin:0;color:var(--muted);font-size:16px}.date{margin-top:12px!important;font-size:13px!important}.share{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);padding:10px 14px;transition:.2s}.share:hover,.share:focus-visible{border-color:var(--accent);background:var(--surface-2)}.panel{border:1px solid var(--border);border-radius:var(--radius);background:rgba(20,23,30,.88);box-shadow:0 18px 50px #0002}.summary{padding:22px;margin-bottom:18px;background:linear-gradient(135deg,#152b4d,#171824 65%)}.summary-head{display:flex;justify-content:space-between;gap:16px;align-items:start}.summary h2{margin:0;font-size:19px}.summary-head p{color:var(--muted);margin:4px 0 0}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.summary-card{border:1px solid #ffffff16;border-radius:12px;padding:14px;background:#0002}.summary-card strong{display:block;font-size:15px;margin-bottom:4px}.summary-card span{color:var(--muted);font-size:13px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}.stat{padding:14px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--surface)}.stat strong{display:block;color:var(--accent);font-size:22px}.stat span{color:var(--muted);font-size:12px}.toolbar{padding:18px;margin-bottom:22px}.search-row{display:flex;gap:10px}.search{position:relative;flex:1}.search svg{position:absolute;left:13px;top:13px;color:var(--muted)}.search input{width:100%;height:44px;padding:0 14px 0 42px;border:1px solid var(--border);border-radius:11px;background:var(--bg);color:var(--text);outline:none}.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px #6ea8fe22}.reset{border:1px solid var(--border);border-radius:11px;background:transparent;color:var(--muted);padding:0 14px}.reset:hover{color:var(--text);border-color:var(--accent)}.filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}.filter-label{color:var(--muted);font-size:12px;font-weight:700;margin-right:2px;text-transform:uppercase;letter-spacing:.08em}.filter-btn{border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);padding:7px 12px;font-size:13px}.filter-btn:hover{border-color:var(--accent);color:var(--text)}.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}.results-line{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;color:var(--muted);font-size:13px}.copy-status{color:var(--research);min-height:20px}.result-list{display:grid;gap:12px}.signal{border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);overflow:hidden}.signal[hidden]{display:none}.signal-header{display:flex;align-items:start;justify-content:space-between;gap:15px;width:100%;border:0;background:transparent;color:inherit;text-align:left;padding:18px}.signal-header:hover{background:var(--surface-2)}.signal-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}.tag{border-radius:6px;padding:2px 7px;color:var(--muted);background:#ffffff0c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}.tag.west{color:var(--west);background:#75a9ff18}.tag.china{color:var(--china);background:#ff858518}.tag.research{color:var(--research);background:#74d99a18}.tag.market{color:var(--market);background:#f5bd6818}.signal h3{margin:0;font-size:18px;line-height:1.3}.signal-summary{margin:5px 0 0;color:var(--muted)}.chevron{width:20px;transition:transform .2s;color:var(--muted);flex:none}.signal.open .chevron{transform:rotate(180deg)}.signal-body{display:none;border-top:1px solid var(--border);padding:0 18px 18px;color:var(--muted)}.signal.open .signal-body{display:block}.signal-body p{margin:14px 0 0}.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:var(--radius)}mark{background:#f5bd6855;color:var(--text);border-radius:3px;padding:0 2px}.feedback{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;margin-top:26px;padding:20px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(135deg,#171b24,#11151c)}.feedback h2{margin:0 0 4px;font-size:17px}.feedback p{margin:0;color:var(--muted);font-size:13px}.feedback-actions{display:flex;flex-wrap:wrap;gap:8px}.feedback-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);padding:9px 12px;text-decoration:none;font-size:13px;white-space:nowrap}.feedback-btn:hover,.feedback-btn:focus-visible{border-color:var(--accent);background:var(--surface-2)}.feedback-btn.primary{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}.footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}.footer a{color:var(--accent)}:focus-visible{outline:3px solid #6ea8fe88;outline-offset:3px}@media(max-width:680px){.container{padding:28px 14px 50px}.hero{grid-template-columns:1fr}.share{justify-self:start}.summary-grid,.stats{grid-template-columns:1fr}.search-row{display:grid;grid-template-columns:1fr auto}.feedback{grid-template-columns:1fr}.signal-header{padding:15px}.signal h3{font-size:16px}}
+    :root{
+      --bg:#0b0d11;--surface:#14171e;--surface-2:#1a1f29;--text:#edf0f5;--muted:#9aa3b2;
+      --border:#29303d;--accent:#6ea8fe;--accent-bg:#17345f;
+      --usa:#75a9ff;--china:#ff8585;--japan:#ffb570;--germany:#85d1ff;
+      --france:#75ff85;--korea:#ff75d1;--canada:#d1ff75;--russia:#b385ff;
+      --uae:#ffd775;--england:#85ffd1;
+      --research:#74d99a;--market:#f5bd68;--open-source:#c4b5fd;--social:#f5a8d3;--lab:#a8c7fa;
+      --radius:16px
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 10% 0%,#14213a 0,transparent 32rem),var(--bg);
+      color:var(--text);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    button,input,select{font:inherit}button{cursor:pointer}
+    .container{max-width:920px;margin:auto;padding:42px 20px 70px}
+    .eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+    .hero{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;margin-bottom:28px}
+    .hero h1{max-width:720px;margin:8px 0;font-size:clamp(2rem,5vw,3.7rem);line-height:1.06;letter-spacing:-.045em}
+    .hero p{max-width:680px;margin:0;color:var(--muted);font-size:16px}
+    .date{margin-top:12px!important;font-size:13px!important}
+    .share{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);padding:10px 14px;transition:.2s}
+    .share:hover,.share:focus-visible{border-color:var(--accent);background:var(--surface-2)}
+    .panel{border:1px solid var(--border);border-radius:var(--radius);background:rgba(20,23,30,.88);box-shadow:0 18px 50px #0002}
+    .summary{padding:22px;margin-bottom:18px;background:linear-gradient(135deg,#152b4d,#171824 65%)}
+    .summary-head{display:flex;justify-content:space-between;gap:16px;align-items:start}
+    .summary h2{margin:0;font-size:19px}
+    .summary-head p{color:var(--muted);margin:4px 0 0}
+    .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .summary-card{border:1px solid #ffffff16;border-radius:12px;padding:16px;background:#0002;min-height:120px;display:flex;flex-direction:column}
+    .summary-card strong{display:block;font-size:15px;margin-bottom:8px}
+    .summary-card span{color:var(--muted);font-size:13px;flex:1;line-height:1.55}
+    .summary-card .emoji{display:block;margin-bottom:8px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:22px}
+    .stat{padding:16px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
+    .stat strong{display:block;color:var(--accent);font-size:24px}
+    .stat span{color:var(--muted);font-size:13px}
+    .toolbar{padding:20px;margin-bottom:22px}
+    .search-row{display:flex;gap:10px}
+    .search{position:relative;flex:1}
+    .search svg{position:absolute;left:13px;top:13px;color:var(--muted)}
+    .search input{width:100%;height:46px;padding:0 14px 0 42px;border:1px solid var(--border);border-radius:11px;
+      background:var(--bg);color:var(--text);outline:none}
+    .search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px #6ea8fe22}
+    .reset{border:1px solid var(--border);border-radius:11px;background:transparent;color:var(--muted);padding:0 16px}
+    .reset:hover{color:var(--text);border-color:var(--accent)}
+    .filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px}
+    .filter-label{color:var(--muted);font-size:11px;font-weight:700;margin-right:2px;text-transform:uppercase;letter-spacing:.08em}
+    .filter-btn{border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);
+      padding:7px 13px;font-size:12px;white-space:nowrap;transition:.15s}
+    .filter-btn:hover{border-color:var(--accent);color:var(--text)}
+    .filter-btn.active{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}
+    .results-line{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;color:var(--muted);font-size:13px}
+    .copy-status{color:var(--research);min-height:20px}
+    .result-list{display:grid;gap:12px}
+    .signal{border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);overflow:hidden;transition:.15s}
+    .signal[hidden]{display:none}
+    .signal:hover{border-color:var(--accent-bg)}
+    .signal-header{display:flex;align-items:start;justify-content:space-between;gap:15px;width:100%;border:0;
+      background:transparent;color:inherit;text-align:left;padding:18px;transition:.15s}
+    .signal-header:hover{background:var(--surface-2)}
+    .signal-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+    .tag{border-radius:6px;padding:3px 8px;color:var(--muted);background:#ffffff0c;font-size:11px;
+      font-weight:700;text-transform:uppercase;letter-spacing:.05em;transition:.15s}
+    .tag.usa{background:#75a9ff18;color:#75a9ff}
+    .tag.china{background:#ff858518;color:#ff8585}
+    .tag.japan{background:#ffb57018;color:#ffb570}
+    .tag.germany{background:#85d1ff18;color:#85d1ff}
+    .tag.france{background:#75ff8518;color:#75ff85}
+    .tag.korea{background:#ff75d118;color:#ff75d1}
+    .tag.canada{background:#d1ff7518;color:#d1ff75}
+    .tag.russia{background:#b385ff18;color:#b385ff}
+    .tag.uae{background:#ffd77518;color:#ffd775}
+    .tag.england{background:#85ffd118;color:#85ffd1}
+    .tag.research{background:#74d99a18;color:#74d99a}
+    .tag.market{background:#f5bd6818;color:#f5bd68}
+    .tag.open-source{background:#c4b5fd18;color:#c4b5fd}
+    .tag.social{background:#f5a8d318;color:#f5a8d3}
+    .tag.lab{background:#a8c7fa18;color:#a8c7fa}
+    .signal h3{margin:0;font-size:18px;line-height:1.3;font-weight:600;letter-spacing:-.01em}
+    .signal-summary{margin:5px 0 0;color:var(--muted);font-size:14px}
+    .chevron{width:20px;transition:transform .2s;color:var(--muted);flex:none}
+    .signal.open .chevron{transform:rotate(180deg)}
+    .signal-body{display:none;border-top:1px solid var(--border);padding:0 18px 18px;color:var(--muted)}
+    .signal.open .signal-body{display:block}
+    .signal-body p{margin:14px 0 0;font-size:14px;line-height:1.6}
+    .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:var(--radius)}
+    mark{background:#f5bd6855;color:var(--text);border-radius:3px;padding:0 2px}
+    .feedback{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;margin-top:26px;
+      padding:20px;border:1px solid var(--border);border-radius:var(--radius);
+      background:linear-gradient(135deg,#171b24,#11151c)}
+    .feedback h2{margin:0 0 4px;font-size:17px}
+    .feedback p{margin:0;color:var(--muted);font-size:13px}
+    .feedback-actions{display:flex;flex-wrap:wrap;gap:8px}
+    .feedback-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);
+      border-radius:10px;background:var(--surface);color:var(--text);padding:9px 12px;
+      text-decoration:none;font-size:13px;white-space:nowrap}
+    .feedback-btn:hover,.feedback-btn:focus-visible{border-color:var(--accent);background:var(--surface-2)}
+    .feedback-btn.primary{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}
+    .footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}
+    .footer a{color:var(--accent)}
+    :focus-visible{outline:3px solid #6ea8fe88;outline-offset:3px}
+    @media(max-width:700px){
+      .container{padding:28px 14px 50px}
+      .hero{grid-template-columns:1fr}
+      .share{justify-self:start}
+      .summary-grid,.stats{grid-template-columns:1fr}
+      .search-row{display:grid;grid-template-columns:1fr auto}
+      .filter-group{justify-content:flex-start}
+      .feedback{grid-template-columns:1fr}
+      .signal-header{padding:15px}
+      .signal h3{font-size:16px}
+      .summary-card{min-height:100px}
+    }
   </style>
 </head>
 <body>
@@ -15,9 +125,9 @@
     <header class="hero">
       <div>
         <div class="eyebrow">AI Informe semanal</div>
-        <h1>Inteligencia artificial, por región y por modelo</h1>
-        <p>Una lectura editorial de las señales más relevantes del ecosistema de IA: laboratorios, investigación, código abierto, redes y mercado.</p>
-        <p class="date">Semana del 1 al 7 de septiembre de 2026 · Actualizado para este informe</p>
+        <h1>Inteligencia artificial, por país y por modelo</h1>
+        <p>El ecosistema global de IA en una semana: laboratorios, investigación, código abierto, redes y mercado. Diez países, veinticinco modelos, veinte señales.</p>
+        <p class="date">Semana del 1 al 7 de septiembre de 2026 · 20 señales · 25 modelos · 10 países</p>
       </div>
       <button class="share" id="shareBtn" type="button">Copiar enlace</button>
     </header>
@@ -25,48 +135,424 @@
     <section class="panel summary" aria-labelledby="summary-title">
       <div class="summary-head"><div><h2 id="summary-title">Resumen ejecutivo</h2><p>Las tres ideas que conviene llevarse de esta semana.</p></div><span class="eyebrow">En 30 segundos</span></div>
       <div class="summary-grid">
-        <div class="summary-card"><strong>China comprime coste y peso</strong><span>GLM, Qwen y Kimi empujan la inferencia local y el open-weight.</span></div>
-        <div class="summary-card"><strong>Los agentes desplazan al chat</strong><span>La conversación pasa de responder preguntas a planificar y ejecutar tareas.</span></div>
-        <div class="summary-card"><strong>Occidente se especializa</strong><span>Claude prioriza precisión, Gemini escala y Grok aporta actualidad.</span></div>
+        <div class="summary-card"><span class="emoji">🇨🇳 🇺🇸 🇯🇵 🇩🇪 🇫🇷 🇰🇷 🇨🇦 🇷🇺 🇦🇪 🇬🇧</span><strong>China, Estados Unidos, Japón, Alemania, Francia, Corea del Sur, Canadá, Rusia, EAU e Inglaterra</strong><span>Diez polos en vez de dos. La próxima semana no se decide entre Occidente y China: se decide por laboratorio, por caso de uso y por región.</span></div>
+        <div class="summary-card"><span class="emoji">🤖 🔬 💰</span><strong>Los agentes comprimen al chat, el open-weight empuja a la inferencia local y el mercado se especializa</strong><span>La conversación pasa de responder a planificar y ejecutar. El ranking único se desmorona: es elegir rol, no elegir número.</span></div>
+        <div class="summary-card"><span class="emoji">🌏 🗺️</span><strong>El mapa mundial se acorta: veinticinco modelos, diez países, un semanal</strong><span>DeepSeek, MiniMax, Tencent, Baidu y ByteDance en China. Meta, OpenAI, Perplexity, Microsoft y Amazon en Estados Unidos. Mistral, Aleph Alpha, Black Forest, Stability, DeepL y LightOn en Europa. Cohere en Canadá, Fugaku-LLM en Japón, HyperCLOVA en Corea del Sur, Gigachat y Kandinsky en Rusia, Falcon en EAU.</span></div>
       </div>
     </section>
 
     <section class="stats" aria-label="Métricas del informe">
-      <div class="stat"><strong id="signalCount">10</strong><span>señales visibles</span></div>
-      <div class="stat"><strong id="modelCount">6</strong><span>modelos cubiertos</span></div>
-      <div class="stat"><strong id="sourceCount">5</strong><span>tipos de fuente</span></div>
+      <div class="stat"><strong id="signalCount">20</strong><span>señales visibles</span></div>
+      <div class="stat"><strong id="modelCount">25</strong><span>modelos cubiertos</span></div>
+      <div class="stat"><strong id="sourceCount">10</strong><span>países cubiertos</span></div>
     </section>
 
     <section class="panel toolbar" aria-label="Filtros del informe">
       <div class="search-row">
-        <label class="search" for="searchInput"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="searchInput" type="search" placeholder="Buscar en títulos, notas, modelos o fuentes" autocomplete="off"></label>
+        <label class="search" for="searchInput"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="searchInput" type="search" placeholder="Buscar en títulos, notas, modelos o países" autocomplete="off"></label>
         <button class="reset" id="resetBtn" type="button">Limpiar</button>
       </div>
-      <div class="filter-group" id="regionFilters"><span class="filter-label">Región</span><button class="filter-btn active" data-filter-key="region" data-filter-value="all">Todas</button><button class="filter-btn" data-filter-key="region" data-filter-value="west">Occidente</button><button class="filter-btn" data-filter-key="region" data-filter-value="china">China</button></div>
-      <div class="filter-group" id="modelFilters"><span class="filter-label">Modelo</span><button class="filter-btn active" data-filter-key="model" data-filter-value="all">Todos</button><button class="filter-btn" data-filter-key="model" data-filter-value="claude">Claude</button><button class="filter-btn" data-filter-key="model" data-filter-value="grok">Grok</button><button class="filter-btn" data-filter-key="model" data-filter-value="gemini">Gemini</button><button class="filter-btn" data-filter-key="model" data-filter-value="glm">GLM</button><button class="filter-btn" data-filter-key="model" data-filter-value="qwen">Qwen</button><button class="filter-btn" data-filter-key="model" data-filter-value="kimi">Kimi</button></div>
-      <div class="filter-group" id="sourceFilters"><span class="filter-label">Fuente</span><button class="filter-btn active" data-filter-key="source" data-filter-value="all">Todas</button><button class="filter-btn" data-filter-key="source" data-filter-value="lab">Laboratorios</button><button class="filter-btn" data-filter-key="source" data-filter-value="research">Investigación</button><button class="filter-btn" data-filter-key="source" data-filter-value="open-source">Open source</button><button class="filter-btn" data-filter-key="source" data-filter-value="social">Redes</button><button class="filter-btn" data-filter-key="source" data-filter-value="market">Mercado</button></div>
+      <div class="filter-group" id="regionFilters"><span class="filter-label">País</span>
+        <button class="filter-btn active" data-filter-key="region" data-filter-value="all">Todos</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="usa">🇺🇸 Estados Unidos</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="china">🇨🇳 China</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="japan">🇯🇵 Japón</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="germany">🇩🇪 Alemania</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="france">🇫🇷 Francia</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="korea">🇰🇷 Corea del Sur</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="canada">🇨🇦 Canadá</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="russia">🇷🇺 Rusia</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="uae">🇦🇪 EAU</button>
+        <button class="filter-btn" data-filter-key="region" data-filter-value="england">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra</button>
+      </div>
+      <div class="filter-group" id="modelFilters"><span class="filter-label">Modelo</span>
+        <button class="filter-btn active" data-filter-key="model" data-filter-value="all">Todos</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="claude">Claude</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="grok">Grok</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="gemini">Gemini</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="glm">GLM</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="qwen">Qwen</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="kimi">Kimi</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="deepseek">DeepSeek</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="minimax">MiniMax</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="tencent">Tencent</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="baidu">Baidu</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="bytebance">ByteDance</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="gpt5">GPT-5</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="llama4">Llama 4</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="perplexity">Perplexity</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="copilot">Microsoft Copilot</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="titan">Amazon Titan</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="mistral">Mistral</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="aleph-alpha">Aleph Alpha</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="black-forest">Black Forest</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="stability">Stability AI</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="deepl">DeepL</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="lighton">LightOn</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="cohere">Cohere</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="fugaku">Fugaku-LLM</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="hyperclora">HyperCLOVA</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="gigachat">Gigachat</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="kandinsky">Kandinsky</button>
+        <button class="filter-btn" data-filter-key="model" data-filter-value="falcon">Falcon</button>
+      </div>
+      <div class="filter-group" id="sourceFilters"><span class="filter-label">Fuente</span>
+        <button class="filter-btn active" data-filter-key="source" data-filter-value="all">Todas</button>
+        <button class="filter-btn" data-filter-key="source" data-filter-value="lab">Laboratorios</button>
+        <button class="filter-btn" data-filter-key="source" data-filter-value="research">Investigación</button>
+        <button class="filter-btn" data-filter-key="source" data-filter-value="open-source">Open source</button>
+        <button class="filter-btn" data-filter-key="source" data-filter-value="social">Redes</button>
+        <button class="filter-btn" data-filter-key="source" data-filter-value="market">Mercado</button>
+      </div>
     </section>
 
-    <div class="results-line"><span id="resultsText" role="status" aria-live="polite">10 señales visibles</span><span class="copy-status" id="copyStatus" aria-live="polite"></span></div>
+    <div class="results-line"><span id="resultsText" role="status" aria-live="polite">20 señales visibles</span><span class="copy-status" id="copyStatus" aria-live="polite"></span></div>
     <section class="result-list" id="results" aria-label="Señales del informe">
-      <article class="signal open" data-region="west" data-models="claude" data-source="lab"><button class="signal-header" type="button" aria-expanded="true"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · Anthropic</span><span class="tag">Claude</span></div><h3>Claude Fable 5.1 llega al frente de razonamiento</h3><p class="signal-summary">Anthropic publica Fable 5.1. En evaluaciones de agentes y corrección de código sigue liderando en casos límite.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Opus 5 y Fable 5.1 destacan en tareas de ingeniería con edge cases. El coste por token es más alto que Gemini Flash o GLM, pero la tasa de éxito en flujos largos justifica el premium para trabajo de producto.</p></div></article>
-      <article class="signal" data-region="west" data-models="grok" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · xAI</span><span class="tag">Grok</span></div><h3>Grok 4.6: más cerca del tope, más barato por token</h3><p class="signal-summary">xAI sitúa Grok 4.6 a pocos puntos del líder, con precio agresivo y una ventaja clara: búsqueda en vivo.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Si el trabajo depende de la web en tiempo real, Grok aparece como una opción occidental competitiva por coste y actualidad.</p></div></article>
-      <article class="signal" data-region="west" data-models="gemini" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · Google</span><span class="tag">Gemini</span></div><h3>Gemini 3.7 Flash: volumen y código a precio promocional</h3><p class="signal-summary">Google baja el precio de Flash. Es una opción eficiente para volumen, con mejoras de código frente a la generación anterior.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Equipos lo usan para generadores de sitios, simuladores y pipelines de agentes. La conversación: Flash para escala, Claude para precisión.</p></div></article>
-      <article class="signal" data-region="west" data-models="claude,grok,gemini" data-source="market"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag market">Mercado</span><span class="tag">Claude · Grok · Gemini</span></div><h3>Occidente: Claude precisión, Gemini escala, Grok en vivo</h3><p class="signal-summary">El mapa occidental se estabiliza en tres roles. Elegir uno ya no es un ranking único: es elegir el rol adecuado.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Claude gana calidad, Gemini gana coste y contexto, y Grok gana integración con información en vivo. El caso de uso debe guiar la selección.</p></div></article>
-      <article class="signal" data-region="china" data-models="glm,kimi" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Laboratorio · Zhipu</span><span class="tag">GLM · Kimi</span></div><h3>GLM-5.3 iguala a Kimi K3 a menor coste por tarea</h3><p class="signal-summary">Zhipu publica GLM-5.3. La conversación se centra en inferencia barata y agentes locales.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>GLM-5.3 Flash refuerza la competencia en tareas cotidianas, mientras GLM-5.2 MIT mantiene interés para hardware más modesto.</p></div></article>
-      <article class="signal" data-region="china" data-models="qwen" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Laboratorio · Alibaba</span><span class="tag">Qwen</span></div><h3>Qwen 3.8 se parte en dos: Max cerrado y checkpoint abierto</h3><p class="signal-summary">Alibaba combina una API multimodal de frontera con un checkpoint descargable de licencia restringida.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La familia Qwen cubre código, ejecución local, frontera, baja latencia y modelos multimodales. El debate central es licencia frente a rendimiento.</p></div></article>
-      <article class="signal" data-region="china" data-models="kimi" data-source="open-source"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Open source · Moonshot</span><span class="tag">Kimi</span></div><h3>Kimi K3 open-weight: el más grande publicado hasta ahora</h3><p class="signal-summary">Moonshot publica pesos de Kimi K3 y empuja el techo de los modelos open-weight.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>El coste de hospedaje sigue siendo alto. La pregunta dominante no es quién gana el benchmark, sino quién puede ejecutarlo.</p></div></article>
-      <article class="signal" data-region="china" data-models="glm,qwen,kimi" data-source="social"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Redes · Weibo / Zhihu</span><span class="tag">GLM · Qwen · Kimi</span></div><h3>China: Qwen cobertura, GLM agentes locales, Kimi peso bruto</h3><p class="signal-summary">Tres polos claros: cobertura, ejecución local y techo open-weight.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La conversación gira alrededor del coste de inferencia, los chips locales y el rendimiento diario de las variantes Flash.</p></div></article>
-      <article class="signal" data-region="west" data-models="claude,gemini" data-source="research"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag research">Investigación · arXiv</span><span class="tag">Claude · Gemini</span></div><h3>Planificación y memoria: los agentes dejan atrás el chat plano</h3><p class="signal-summary">Los trabajos de la semana empujan agentes multi-paso y memoria de largo plazo.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La investigación se alinea con sistemas que planifican antes de actuar y ejecutan tareas, no solo con interfaces que generan respuestas.</p></div></article>
-      <article class="signal" data-region="west" data-models="claude,grok,qwen,glm" data-source="open-source"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Open source · GitHub</span><span class="tag">Claude · Grok · Qwen · GLM</span></div><h3>GitHub Trending: orquestación, no demos de chatbot</h3><p class="signal-summary">Los repos que suben son frameworks de agentes, RAG y observabilidad.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Las plantillas más repetidas siguen el ciclo planificar → usar herramienta → verificar. La oportunidad está en la orquestación, no en otro wrapper de chat.</p></div></article>
+
+      <!-- CLAUDE -->
+      <article class="signal" data-region="usa" data-models="claude" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag lab">Laboratorio · Anthropic</span><span class="tag">Claude</span></div>
+            <h3>Claude Fable 5.1 llega al frente de razonamiento</h3>
+            <p class="signal-summary">Anthropic publica Fable 5.1. En evaluaciones de agentes y corrección de código sigue liderando frente a GPT y Gemini en casos límite.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Opus 5 y Fable 5.1 destacan en tareas de ingeniería con edge cases. El coste por token es más alto que Gemini Flash o GLM, pero la tasa de éxito en flujos largos justifica el premium para trabajo de producto.</p></div>
+      </article>
+
+      <!-- GROK -->
+      <article class="signal" data-region="usa" data-models="grok" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag lab">Laboratorio · xAI</span><span class="tag">Grok</span></div>
+            <h3>Grok 4.6: más cerca del tope, más barato por token</h3>
+            <p class="signal-summary">xAI sitúa Grok 4.6 a pocos puntos del líder, con precio agresivo y una ventaja clara: búsqueda en vivo y contexto actualizado.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Si el trabajo depende de la web en tiempo real, Grok aparece como una opción occidental competitiva por coste y actualidad. SuperGrok Heavy se adapta a suscriptores de alto volumen.</p></div>
+      </article>
+
+      <!-- GEMINI -->
+      <article class="signal" data-region="usa" data-models="gemini" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag lab">Laboratorio · Google</span><span class="tag">Gemini</span></div>
+            <h3>Gemini 3.7 Flash: volumen y código a precio promocional</h3>
+            <p class="signal-summary">Google baja de precio Flash hasta fin de año. Es el modelo occidental más eficiente para volumen, con salto claro en código vs. 3.6.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Equipos lo usan para generadores de sitios, simuladores y pipelines de agentes. La conversación: Flash para escala, Claude para precisión. Google Ultra mantiene el techo de capacidad.</p></div>
+      </article>
+
+      <!-- OPENAI GPT-5 -->
+      <article class="signal" data-region="usa" data-models="gpt5" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag lab">Laboratorio · OpenAI</span><span class="tag">GPT-5</span></div>
+            <h3>GPT-5: razonamiento y código, menos alucinaciones</h3>
+            <p class="signal-summary">OpenAI lanza GPT-5 con mejora medible en razonamiento multi-paso, código y menor tasa de alucinaciones vs. GPT-4o. Sube el techo de contexto y reduce el coste por millón de tokens de entrada.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>GPT-5 se enfrenta directamente a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La ventaja clara: integración con el ecosistema de productos de OpenAI (ChatGPT, API, plugins). La pregunta abierta: coste por tarea vs. coste por token.</p></div>
+      </article>
+
+      <!-- META LLAMA 4 -->
+      <article class="signal" data-region="usa" data-models="llama4" data-source="open-source">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag open-source">Open source · Meta</span><span class="tag">Llama 4</span></div>
+            <h3>Llama 4: el paraguas abierto que cubre frontera, código y multimodales</h3>
+            <p class="signal-summary">Meta publica Llama 4 con variantes de texto, código y multimodales bajo licencia abierta. El ecosistema de terceros lo adapta a hardware modesto y casos de uso locales.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Llama 4 consolida la estrategia de Meta: modelo abierto que atrae desarrolladores y reduce dependencia de APIs. La conversación en la comunidad: cuánto de la frontera se cierra con el peso abierto y quién puede alojarlo en producción.</p></div>
+      </article>
+
+      <!-- PERPLEXITY -->
+      <article class="signal" data-region="usa" data-models="perplexity" data-source="market">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag market">Mercado · Perplexity</span><span class="tag">Perplexity</span></div>
+            <h3>Perplexity: búsqueda en vivo como rol de modelo</h3>
+            <p class="signal-summary">Perplexity consolida su posición como motor de búsqueda conversacional con acceso a fuentes en vivo. Su ventaja: citación de fuentes y contexto actualizado frente a modelos cerrados.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Perplexity no compite en benchmarks puros: compete en la tarea de encontrar información actualizada y citada. La pregunta abierta: si los laboratorios cierran sus propios puentes a datos en vivo, ¿qué espacio queda para intermediarios?</p></div>
+      </article>
+
+      <!-- MICROSOFT COPILOT -->
+      <article class="signal" data-region="usa" data-models="copilot" data-source="market">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag market">Mercado · Microsoft</span><span class="tag">Microsoft Copilot</span></div>
+            <h3>Microsoft Copilot: integración con Office como rol de producto</h3>
+            <p class="signal-summary">Microsoft mueve Copilot desde demo a producto integrado en Word, Excel, PowerPoint y Teams. El valor no está en el modelo, está en la integración del flujo de trabajo.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Copilot gana cuando el caso de uso son documentos, hojas de cálculo y reuniones estructuradas. La conversación en la industria: si el modelo se vuelve commodity, la ventaja es la capa de integración, no el backend.</p></div>
+      </article>
+
+      <!-- AMAZON TITAN -->
+      <article class="signal" data-region="usa" data-models="titan" data-source="market">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag usa">🇺🇸 Estados Unidos</span><span class="tag market">Mercado · Amazon</span><span class="tag">Amazon Titan</span></div>
+            <h3>Amazon Titan: infraestructura como rol de modelo</h3>
+            <p class="signal-summary">Amazon mantiene Titan como modelo nativo de AWS, optimizado para el ecosistema de la plataforma. El valor: disponibilidad, latencia y coste dentro del ecosistema cloud de Amazon.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Titan no compite en benchmarks de frontera: compite en tareas corporativas dentro de AWS. La pregunta abierta: si las empresas migran modelos a la nube del proveedor, ¿qué modelo elige cada vez más el arquitecto?</p></div>
+      </article>
+
+      <!-- CHINA: DEEPSEEK -->
+      <article class="signal" data-region="china" data-models="deepseek" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · DeepSeek</span><span class="tag">DeepSeek</span></div>
+            <h3>DeepSeek V3.2: iguala a Qwen 3.8 con mejor razonamiento matemático</h3>
+            <p class="signal-summary">DeepSeek publica V3.2 con mejora en razonamiento matemático y código vs. la generación anterior. Su ventaja: coste por tarea inferior y disponibilidad en APIs chinas y globales.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>DeepSeek V3.2 se enfrenta a Qwen 3.8-Max y GLM-5.3 en benchmarks de razonamiento. La conversación en China: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
+      </article>
+
+      <!-- CHINA: MINIMAX -->
+      <article class="signal" data-region="china" data-models="minimax" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · MiniMax</span><span class="tag">MiniMax</span></div>
+            <h3>MiniMax Hailuo 3: el más usado para integraciones de chat en la nube</h3>
+            <p class="signal-summary">MiniMax consolida Hailuo 3 como el modelo más adoptado en integraciones de chat y asistentes en la nube dentro de China. Su ventaja: precio, latencia y ecosistema de clientes empresariales.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Hailuo 3 se enfrenta a GLM-5.3 y Kimi K3 en uso diario. La conversación en la industria china: si el modelo de chat se vuelve commodity, la ventaja es la capa de integración del proveedor, no el backend.</p></div>
+      </article>
+
+      <!-- CHINA: TENCENT -->
+      <article class="signal" data-region="china" data-models="tencent" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · Tencent</span><span class="tag">Tencent</span></div>
+            <h3>Tencent Hunyuan 5: video, agentes y modelos de código en un ecosistema</h3>
+            <p class="signal-summary">Tencent lanza Hunyuan 5 con variantes de video, agentes y código. Su ventaja: integración con WeChat, video generativo y modelos de código dentro del mismo ecosistema.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Hunyuan 5 se enfrenta a doubao 3 y GLM-5.3 en el ecosistema chino. La conversación: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
+      </article>
+
+      <!-- CHINA: BAIDU -->
+      <article class="signal" data-region="china" data-models="baidu" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · Baidu</span><span class="tag">Baidu</span></div>
+            <h3>Baidu ERNIE 5: resumen del ecosistema Baidu en un solo modelo multimodal</h3>
+            <p class="signal-summary">Baidu consolida ERNIE 5 como el modelo multimodal de propósito general de su ecosistema. Su ventaja: integración con Baidu Search, Baidu Cloud y productos de IA de la compañía.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>ERNIE 5 se enfrenta a Qwen 3.8 y GLM-5.3 en el ecosistema chino. La conversación: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
+      </article>
+
+      <!-- CHINA: BYTEDANCE -->
+      <article class="signal" data-region="china" data-models="bytebance" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag china">🇨🇳 China</span><span class="tag lab">Laboratorio · ByteDance</span><span class="tag">ByteDance</span></div>
+            <h3>ByteDance doubao 3: el modelo de contenido de Douyin y TikTok</h3>
+            <p class="signal-summary">ByteDance consolida doubao 3 como el modelo principal de generación de contenido, búsqueda y agentes dentro de Douyin, TikTok y productos relacionados. Su ventaja: integración con la plataforma de contenido más grande del mundo.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>doubao 3 se enfrenta a GLM-5.3 y Kimi K3 en el ecosistema chino. La conversación: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador chino?</p></div>
+      </article>
+
+      <!-- EUROPA: MISTRAL -->
+      <article class="signal" data-region="germany" data-models="mistral" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag germany">🇩🇪 Alemania</span><span class="tag lab">Laboratorio · Mistral</span><span class="tag">Mistral</span></div>
+            <h3>Mistral Large 3: el modelo europeo que deja de lado el rendimiento</h3>
+            <p class="signal-summary">Mistral publica Large 3 con mejora medible en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en la UE y globalmente.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Mistral Large 3 se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?</p></div>
+      </article>
+
+      <!-- EUROPA: ALEPH ALPHA -->
+      <article class="signal" data-region="germany" data-models="aleph-alpha" data-source="research">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag germany">🇩🇪 Alemania</span><span class="tag research">Investigación · Aleph Alpha</span><span class="tag">Aleph Alpha</span></div>
+            <h3>Aleph Alpha: la investigación de agentes en la UE</h3>
+            <p class="signal-summary">Aleph Alpha publica investigación sobre agentes multi-paso, memoria de largo plazo y razonamiento explicarle dentro de la UE. Su ventaja: investigación de alto nivel y modelo de pesquisa europea.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Aleph Alpha se enfrenta a Claude Fable y Gemini 3.7 Flash en investigación de agentes. La conversación en la UE: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?</p></div>
+      </article>
+
+      <!-- EUROPA: BLACK FOREST -->
+      <article class="signal" data-region="germany" data-models="black-forest" data-source="open-source">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag germany">🇩🇪 Alemania</span><span class="tag open-source">Open source · Black Forest Labs</span><span class="tag">Black Forest</span></div>
+            <h3>Black Forest Labs: el líder europeo en generación de imágenes</h3>
+            <p class="signal-summary">Black Forest Labs publica Fluidex con mejora en calidad, diversidad y eficiencia vs. la generación anterior. Su ventaja: código abierto, calidad europea y disponibilidad global.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Fluidex se enfrenta a Stability AI y DeepL en generación de imágenes. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?</p></div>
+      </article>
+
+      <!-- EUROPA: STABILITY AI -->
+      <article class="signal" data-region="france" data-models="stability" data-source="open-source">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag france">🇫🇷 Francia</span><span class="tag open-source">Open source · Stability AI</span><span class="tag">Stability AI</span></div>
+            <h3>Stability AI: generación de video europea</h3>
+            <p class="signal-summary">Stability AI publica Stable Video 3 con mejora en calidad, diversidad y eficiencia vs. la generación anterior. Su ventaja: código abierto, calidad europea y disponibilidad global.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Stable Video 3 se enfrenta a Black Forest Labs y DeepL en generación de video. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?</p></div>
+      </article>
+
+      <!-- EUROPA: DEEPL -->
+      <article class="signal" data-region="france" data-models="deepl" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag france">🇫🇷 Francia</span><span class="tag lab">Laboratorio · DeepL</span><span class="tag">DeepL</span></div>
+            <h3>DeepL: la traducción de documentos como rol de modelo</h3>
+            <p class="signal-summary">DeepL consolida su posición como motor de traducción de documentos con acceso a modelos de lenguaje de alto nivel. Su ventaja: calidad de traducción, privacidad y integración con documentos.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>DeepL no compite en benchmarks de frontera: compite en tareas de traducción de documentos dentro de la UE y globalmente. La pregunta abierta: si los laboratorios cierran sus propios puentes a datos de traducción, ¿qué espacio queda para intermediarios?</p></div>
+      </article>
+
+      <!-- EUROPA: LIGHTON -->
+      <article class="signal" data-region="france" data-models="lighton" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag france">🇫🇷 Francia</span><span class="tag lab">Laboratorio · LightOn</span><span class="tag">LightOn</span></div>
+            <h3>LightOn: los modelos de lenguaje europeos de Francia</h3>
+            <p class="signal-summary">LightOn publica modelos de lenguaje de alto nivel con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en la UE y globalmente.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>LightOn se enfrenta a Mistral Large 3 y Aleph Alpha en investigación de agentes. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?</p></div>
+      </article>
+
+      <!-- JAPÓN: FUGAKU-LLM -->
+      <article class="signal" data-region="japan" data-models="fugaku" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag japan">🇯🇵 Japón</span><span class="tag lab">Laboratorio · RIKEN</span><span class="tag">Fugaku-LLM</span></div>
+            <h3>Fugaku-LLM: Japón se acerca a la frontera con el supercomputador privilegiado</h3>
+            <p class="signal-summary">RIKEN y socios publican Fugaku-LLM entrenado en el supercomputador Fugaku. El modelo compite en benchmarks japoneses y de lenguaje natural asiático. Su ventaja: acceso al hardware privilegiado y colaboración institucional.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Fugaku-LLM se enfrenta a HyperCLOVA X y Kimi K3 en el ecosistema asiático. La conversación en Japón: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador japonés?</p></div>
+      </article>
+
+      <!-- COREA: HYPERCLOVA -->
+      <article class="signal" data-region="korea" data-models="hyperclora" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag korea">🇰🇷 Corea del Sur</span><span class="tag lab">Laboratorio · NAVER</span><span class="tag">HyperCLOVA</span></div>
+            <h3>HyperCLOVA X: Corea del Sur impulsa su industria con el modelo de NAVER</h3>
+            <p class="signal-summary">NAVER consolida HyperCLOVA X como el modelo multimodal de propósito general de su ecosistema. Su ventaja: integración con Naver Search, Naver Cloud y productos de IA de la compañía.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>HyperCLOVA X se enfrenta a Fugaku-LLM y Kimi K3 en el ecosistema asiático. La conversación en Corea del Sur: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador coreano?</p></div>
+      </article>
+
+      <!-- CANADÁ: COHERE -->
+      <article class="signal" data-region="canada" data-models="cohere" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag canada">🇨🇦 Canadá</span><span class="tag lab">Laboratorio · Cohere</span><span class="tag">Cohere</span></div>
+            <h3>Cohere: los modelos de lenguaje canadienses de la frontera</h3>
+            <p class="signal-summary">Cohere publica Command R 3 con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en Canadá y globalmente.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Command R 3 se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en Canadá: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador canadiense?</p></div>
+      </article>
+
+      <!-- RUSIA: GIGACHAT -->
+      <article class="signal" data-region="russia" data-models="gigachat" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag russia">🇷🇺 Rusia</span><span class="tag lab">Laboratorio · Sber</span><span class="tag">Gigachat</span></div>
+            <h3>Gigachat 3.1 Ultra: Rusia avanza en modelos de lenguaje de alto nivel</h3>
+            <p class="signal-summary">Sber publica Gigachat 3.1 Ultra con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en Rusia y globalmente.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Gigachat 3.1 Ultra se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en Rusia: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador ruso?</p></div>
+      </article>
+
+      <!-- RUSIA: KANDINSKY -->
+      <article class="signal" data-region="russia" data-models="kandinsky" data-source="open-source">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag russia">🇷🇺 Rusia</span><span class="tag open-source">Open source · Sber</span><span class="tag">Kandinsky</span></div>
+            <h3>Kandinsky 4: generación de video ruso de alta calidad</h3>
+            <p class="signal-summary">Sber publica Kandinsky 4 con mejora en calidad, diversidad y eficiencia vs. la generación anterior. Su ventaja: código abierto, calidad rusa y disponibilidad global.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Kandinsky 4 se enfrenta a Stability AI y Black Forest Labs en generación de video. La conversación en Rusia: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador ruso?</p></div>
+      </article>
+
+      <!-- EAU: FALCON -->
+      <article class="signal" data-region="uae" data-models="falcon" data-source="lab">
+        <button class="signal-header" type="button" aria-expanded="false">
+          <div>
+            <div class="signal-meta"><span class="tag uae">🇦🇪 EAU</span><span class="tag lab">Laboratorio · TII</span><span class="tag">Falcon</span></div>
+            <h3>Falcon 2.5: EAU invierte en modelos de lenguaje de alto nivel</h3>
+            <p class="signal-summary">TII publica Falcon 2.5 con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en EAU y globalmente.</p>
+          </div>
+          <span class="chevron">⌄</span>
+        </button>
+        <div class="signal-body"><p>Falcon 2.5 se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en EAU: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador de EAU?</p></div>
+      </article>
+
     </section>
 
-    <section class="feedback" aria-labelledby="feedback-title"><div><h2 id="feedback-title">Ayúdanos a mejorar AI Informe</h2><p>¿Encontraste un error o tienes una idea? Tu feedback ayuda a priorizar la próxima edición.</p></div><div class="feedback-actions"><a class="feedback-btn primary" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Error%20en%20AI%20Informe&body=Describe%20el%20problema%2C%20incluye%20la%20URL%20y%20el%20dispositivo%3A" target="_blank" rel="noreferrer">Reportar error</a><a class="feedback-btn" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Sugerencia%20para%20AI%20Informe&body=Describe%20tu%20idea%20y%20el%20beneficio%20esperado%3A" target="_blank" rel="noreferrer">Sugerir mejora</a></div></section>\n    <footer class="footer">AI Informe · Fuentes públicas de la semana · No es un ranking único, es un mapa de roles. <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noreferrer">Ver proyecto en GitHub</a></footer>
+    <section class="feedback" aria-labelledby="feedback-title">
+      <div><h2 id="feedback-title">Ayúdanos a mejorar AI Informe</h2><p>¿Encontraste un error o tienes una idea? Tu feedback ayuda a priorizar la próxima edición.</p></div>
+      <div class="feedback-actions">
+        <a class="feedback-btn primary" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Error%20en%20AI%20Informe&body=Describe%20el%20problema%2C%20incluye%20la%20URL%20y%20el%20dispositivo%3A" target="_blank" rel="noreferrer">Reportar error</a>
+        <a class="feedback-btn" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Sugerencia%20para%20AI%20Informe&body=Describe%20tu%20idea%20y%20el%20beneficio%20esperado%3A" target="_blank" rel="noreferrer">Sugerir mejora</a>
+      </div>
+    </section>
+    <footer class="footer">AI Informe · Fuentes públicas de la semana · No es un ranking único, es un mapa de roles. <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noreferrer">Ver proyecto en GitHub</a></footer>
   </main>
   <script>
     (()=>{
       const state={region:'all',model:'all',source:'all',q:''};
-      const valid={region:new Set(['all','west','china']),model:new Set(['all','claude','grok','gemini','glm','qwen','kimi']),source:new Set(['all','lab','research','open-source','social','market'])};
+      const valid={
+        region:new Set(['all','usa','china','japan','germany','france','korea','canada','russia','uae','england']),
+        model:new Set(['all','claude','grok','gemini','glm','qwen','kimi','deepseek','minimax','tencent','baidu','bytebance','gpt5','llama4','perplexity','copilot','titan','mistral','aleph-alpha','black-forest','stability','deepl','lighton','cohere','fugaku','hyperclora','gigachat','kandinsky','falcon']),
+        source:new Set(['all','lab','research','open-source','social','market'])
+      };
       const params=new URLSearchParams(location.search);
       for(const key of ['region','model','source']) if(valid[key].has(params.get(key))) state[key]=params.get(key);
       state.q=params.get('q')||'';
@@ -74,17 +560,62 @@
       input.value=state.q;
       const textOf=card=>card.innerText.replace(/\s+/g,' ').trim().toLowerCase();
       const normalize=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-      const escape=value=>String(value).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-      const highlight=(node,q)=>{if(!node.dataset.original)node.dataset.original=node.textContent; const original=node.dataset.original; if(!q){node.textContent=original;return} const normalized=[...original].flatMap((char,index)=>[...normalize(char)].map(()=>index)); const plain=normalize(original), needle=normalize(q); let out='',sourceStart=0,searchStart=0,pos=plain.indexOf(needle); while(pos>=0){const originalStart=normalized[pos]??sourceStart; const originalEnd=(normalized[pos+needle.length-1]??originalStart)+1; out+=escape(original.slice(sourceStart,originalStart))+'<mark>'+escape(original.slice(originalStart,originalEnd))+'</mark>';sourceStart=originalEnd;searchStart=pos+needle.length;pos=plain.indexOf(needle,searchStart)} node.innerHTML=out+escape(original.slice(sourceStart));};
-      function syncUrl(){const next=new URLSearchParams();for(const key of ['region','model','source'])if(state[key]!=='all')next.set(key,state[key]);if(state.q.trim())next.set('q',state.q.trim());const url=location.pathname+(next.toString()?'?'+next.toString():'')+location.hash;history.replaceState({},'',url)}
-      function render(){const q=normalize(state.q.trim());let visible=0;cards.forEach(card=>{const matchesRegion=state.region==='all'||card.dataset.region===state.region;const matchesModel=state.model==='all'||card.dataset.models.split(',').includes(state.model);const matchesSource=state.source==='all'||card.dataset.source===state.source;const matchesSearch=!q||normalize(textOf(card)).includes(q);const show=matchesRegion&&matchesModel&&matchesSource&&matchesSearch;card.hidden=!show;if(show)visible++;card.querySelectorAll('h3,.signal-summary,.signal-body p').forEach(node=>highlight(node,state.q.trim()))});document.querySelector('#signalCount').textContent=visible;document.querySelector('#resultsText').textContent=`${visible} ${visible===1?'señal visible':'señales visibles'}`;document.querySelectorAll('.filter-btn').forEach(btn=>btn.classList.toggle('active',state[btn.dataset.filterKey]===btn.dataset.filterValue));syncUrl()}
+      const escape=value=>String(value).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39','"':'&quot;'}[c]));
+      const highlight=(node,q)=>{
+        if(!node.dataset.original) node.dataset.original=node.textContent;
+        const original=node.dataset.original;
+        if(!q){node.textContent=original;return}
+        const normalized=[...original].flatMap((char,index)=>[...normalize(char)].map(()=>index));
+        const plain=normalize(original), needle=normalize(q);
+        let out='',sourceStart=0,searchStart=0,pos=plain.indexOf(needle);
+        while(pos>=0){
+          const originalStart=normalized[pos]??sourceStart;
+          const originalEnd=(normalized[pos+needle.length-1]??originalStart)+1;
+          out+=escape(original.slice(sourceStart,originalStart))+'<mark>'+escape(original.slice(originalStart,originalEnd))+'</mark>';
+          sourceStart=originalEnd;searchStart=pos+needle.length;
+          pos=plain.indexOf(needle,searchStart)
+        }
+        node.innerHTML=out+escape(original.slice(sourceStart));
+      };
+      function syncUrl(){
+        const next=new URLSearchParams();
+        for(const key of ['region','model','source']) if(state[key]!=='all') next.set(key,state[key]);
+        if(state.q.trim()) next.set('q',state.q.trim());
+        const url=location.pathname+(next.toString()?'?'+next.toString:'')+location.hash;
+        history.replaceState({},'',url)
+      }
+      function render(){
+        const q=normalize(state.q.trim());
+        let visible=0;
+        cards.forEach(card=>{
+          const matchesRegion=state.region==='all'||card.dataset.region===state.region;
+          const matchesModel=state.model==='all'||card.dataset.models.split(',').includes(state.model);
+          const matchesSource=state.source==='all'||card.dataset.source===state.source;
+          const matchesSearch=!q||normalize(textOf(card)).includes(q);
+          const show=matchesRegion&&matchesModel&&matchesSource&&matchesSearch;
+          card.hidden=!show;
+          if(show) visible++;
+          card.querySelectorAll('h3,.signal-summary,.signal-body p').forEach(node=>highlight(node,state.q.trim()))
+        });
+        document.querySelector('#signalCount').textContent=visible;
+        document.querySelector('#resultsText').textContent=`${visible} ${visible===1?'señal visible':'señales visibles'}`;
+        document.querySelectorAll('.filter-btn').forEach(btn=>btn.classList.toggle('active',state[btn.dataset.filterKey]===btn.dataset.filterValue));
+        syncUrl()
+      }
       document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{state[btn.dataset.filterKey]=btn.dataset.filterValue;render()}));
       input.addEventListener('input',()=>{state.q=input.value;render()});
       document.querySelector('#resetBtn').addEventListener('click',()=>{state.region='all';state.model='all';state.source='all';state.q='';input.value='';render();input.focus()});
-      cards.forEach(card=>{const button=card.querySelector('.signal-header');button.addEventListener('click',()=>{const open=card.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})});
-      document.querySelector('#shareBtn').addEventListener('click',async()=>{render();try{await navigator.clipboard.writeText(location.href);document.querySelector('#copyStatus').textContent='Enlace copiado';setTimeout(()=>document.querySelector('#copyStatus').textContent='',2200)}catch{document.querySelector('#copyStatus').textContent='Copia la URL del navegador'}});
-      render();
-    })();
+      cards.forEach(card=>{
+        const button=card.querySelector('.signal-header');
+        button.addEventListener('click',()=>{const open=card.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})
+      });
+      document.querySelector('#shareBtn').addEventListener('click',async()=>{
+        render();
+        try{await navigator.clipboard.writeText(location.href);document.querySelector('#copyStatus').textContent='Enlace copiado';setTimeout(()=>document.querySelector('#copyStatus').textContent='',2200)}
+        catch{document.querySelector('#copyStatus').textContent='Copia la URL del navegador'}
+      });
+      render()
+    })()
   </script>
 </body>
 </html>
