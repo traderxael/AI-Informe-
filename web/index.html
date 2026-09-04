@@ -1,95 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Informe</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Informe semanal de inteligencia artificial por región, modelo y fuente.">
+  <title>AI Informe — Semana del 1 al 7 de septiembre de 2026</title>
+  <style>
+    :root{--bg:#0b0d11;--surface:#14171e;--surface-2:#1a1f29;--text:#edf0f5;--muted:#9aa3b2;--border:#29303d;--accent:#6ea8fe;--accent-bg:#17345f;--west:#75a9ff;--china:#ff8585;--research:#74d99a;--market:#f5bd68;--radius:16px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 10% 0%,#14213a 0,transparent 32rem),var(--bg);color:var(--text);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}button{cursor:pointer}.container{max-width:920px;margin:auto;padding:42px 20px 70px}.eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.hero{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;margin-bottom:28px}.hero h1{max-width:700px;margin:8px 0;font-size:clamp(2rem,5vw,3.7rem);line-height:1.06;letter-spacing:-.045em}.hero p{max-width:650px;margin:0;color:var(--muted);font-size:16px}.date{margin-top:12px!important;font-size:13px!important}.share{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);padding:10px 14px;transition:.2s}.share:hover,.share:focus-visible{border-color:var(--accent);background:var(--surface-2)}.panel{border:1px solid var(--border);border-radius:var(--radius);background:rgba(20,23,30,.88);box-shadow:0 18px 50px #0002}.summary{padding:22px;margin-bottom:18px;background:linear-gradient(135deg,#152b4d,#171824 65%)}.summary-head{display:flex;justify-content:space-between;gap:16px;align-items:start}.summary h2{margin:0;font-size:19px}.summary-head p{color:var(--muted);margin:4px 0 0}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.summary-card{border:1px solid #ffffff16;border-radius:12px;padding:14px;background:#0002}.summary-card strong{display:block;font-size:15px;margin-bottom:4px}.summary-card span{color:var(--muted);font-size:13px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}.stat{padding:14px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--surface)}.stat strong{display:block;color:var(--accent);font-size:22px}.stat span{color:var(--muted);font-size:12px}.toolbar{padding:18px;margin-bottom:22px}.search-row{display:flex;gap:10px}.search{position:relative;flex:1}.search svg{position:absolute;left:13px;top:13px;color:var(--muted)}.search input{width:100%;height:44px;padding:0 14px 0 42px;border:1px solid var(--border);border-radius:11px;background:var(--bg);color:var(--text);outline:none}.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px #6ea8fe22}.reset{border:1px solid var(--border);border-radius:11px;background:transparent;color:var(--muted);padding:0 14px}.reset:hover{color:var(--text);border-color:var(--accent)}.filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}.filter-label{color:var(--muted);font-size:12px;font-weight:700;margin-right:2px;text-transform:uppercase;letter-spacing:.08em}.filter-btn{border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--muted);padding:7px 12px;font-size:13px}.filter-btn:hover{border-color:var(--accent);color:var(--text)}.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}.results-line{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;color:var(--muted);font-size:13px}.copy-status{color:var(--research);min-height:20px}.result-list{display:grid;gap:12px}.signal{border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);overflow:hidden}.signal[hidden]{display:none}.signal-header{display:flex;align-items:start;justify-content:space-between;gap:15px;width:100%;border:0;background:transparent;color:inherit;text-align:left;padding:18px}.signal-header:hover{background:var(--surface-2)}.signal-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}.tag{border-radius:6px;padding:2px 7px;color:var(--muted);background:#ffffff0c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}.tag.west{color:var(--west);background:#75a9ff18}.tag.china{color:var(--china);background:#ff858518}.tag.research{color:var(--research);background:#74d99a18}.tag.market{color:var(--market);background:#f5bd6818}.signal h3{margin:0;font-size:18px;line-height:1.3}.signal-summary{margin:5px 0 0;color:var(--muted)}.chevron{width:20px;transition:transform .2s;color:var(--muted);flex:none}.signal.open .chevron{transform:rotate(180deg)}.signal-body{display:none;border-top:1px solid var(--border);padding:0 18px 18px;color:var(--muted)}.signal.open .signal-body{display:block}.signal-body p{margin:14px 0 0}.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:var(--radius)}mark{background:#f5bd6855;color:var(--text);border-radius:3px;padding:0 2px}.feedback{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;margin-top:26px;padding:20px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(135deg,#171b24,#11151c)}.feedback h2{margin:0 0 4px;font-size:17px}.feedback p{margin:0;color:var(--muted);font-size:13px}.feedback-actions{display:flex;flex-wrap:wrap;gap:8px}.feedback-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text);padding:9px 12px;text-decoration:none;font-size:13px;white-space:nowrap}.feedback-btn:hover,.feedback-btn:focus-visible{border-color:var(--accent);background:var(--surface-2)}.feedback-btn.primary{background:var(--accent);border-color:var(--accent);color:#071326;font-weight:700}.footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}.footer a{color:var(--accent)}:focus-visible{outline:3px solid #6ea8fe88;outline-offset:3px}@media(max-width:680px){.container{padding:28px 14px 50px}.hero{grid-template-columns:1fr}.share{justify-self:start}.summary-grid,.stats{grid-template-columns:1fr}.search-row{display:grid;grid-template-columns:1fr auto}.feedback{grid-template-columns:1fr}.signal-header{padding:15px}.signal h3{font-size:16px}}
+  </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>AI Informe</h1>
-      <p>Recopilación diaria de novedades, usos reales, economía y señales de futuro de la IA.</p>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">AI Informe semanal</div>
+        <h1>Inteligencia artificial, por región y por modelo</h1>
+        <p>Una lectura editorial de las señales más relevantes del ecosistema de IA: laboratorios, investigación, código abierto, redes y mercado.</p>
+        <p class="date">Semana del 1 al 7 de septiembre de 2026 · Actualizado para este informe</p>
+      </div>
+      <button class="share" id="shareBtn" type="button">Copiar enlace</button>
     </header>
-    <div class="layout">
-      <nav>
-        <h2>Informes</h2>
-          <a href="dias/2026-09-03.html" class="active">2026-09-03</a>
-          <a href="dias/2026-09-01.html">2026-09-01</a>
-      </nav>
-      <article>
-        <h1>Informe de IA — 2026-09-03</h1>
-<h2>Resumen del día</h2>
-<p>Hoy se recopilaron 92 piezas sobre IA (67 novedades, 7 usos reales, 12 economía, 6 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: 新版GPT Image 2.5已经能伪造GPT-6发布会了.</p>
-<h2>Novedades y cambios que se quedan</h2>
-<ul>
-<li><a href="https://www.qbitai.com/2026/09/483948.html" rel="noopener">新版GPT Image 2.5已经能伪造GPT-6发布会了</a> — QbitAI</li>
-<li><a href="https://www.qbitai.com/2026/09/483898.html" rel="noopener">刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代</a> — QbitAI</li>
-<li><a href="https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/" rel="noopener">Abliteration.ai is making a business out of removing AI guardrails</a> — TechCrunch AI</li>
-<li><a href="https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/" rel="noopener">Four major AI models suffer rare overlapping downtime</a> — Ars Technica AI</li>
-<li><a href="https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/" rel="noopener">OpenAI launches Astra, its powerful (and controversial) new model</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release" rel="noopener">OpenAI’s next big AI model has ‘entered the AGI era’</a> — The Verge AI</li>
-<li><a href="https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/" rel="noopener">Ollie is betting its focus on privacy can help it win the AI assistant race</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook" rel="noopener">Nvidia launches free tool that links idle computers into a personal AI data center</a> — The Verge AI</li>
-<li><a href="https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini" rel="noopener">Google now lets you chat with Gmail, Docs, and Keep</a> — The Verge AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down" rel="noopener">ChatGPT, Grok, and Claude all went down at the same time</a> — The Verge AI</li>
-<li><a href="https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/" rel="noopener">Introducing WeatherNext 3, our most advanced and accurate global weather AI model</a> — DeepMind</li>
-<li><a href="https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/" rel="noopener">Google’s latest AI weather model gives you no excuse to forget your umbrella</a> — TechCrunch AI</li>
-</ul>
-<h2>Usos de IA en el mundo real</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/" rel="noopener">US government sides with OpenAI on issue of training LLMs on copyrighted material</a> — TechCrunch AI</li>
-<li><a href="https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/" rel="noopener">Proactive cyber defense for governments and enterprises</a> — DeepMind</li>
-<li><a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/" rel="noopener">Proactive cyber defense for governments and enterprises</a> — Google AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/" rel="noopener">HiddenLayer nabs $100M as enterprises rush to secure their AI deployments</a> — TechCrunch AI</li>
-<li><a href="https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/" rel="noopener">Facilitating AI integration with simplicity at scale</a> — MIT Tech Review AI</li>
-<li><a href="https://openai.com/index/ai-native-company-workflows" rel="noopener">How AI-native companies turn workflows into operating capability</a> — OpenAI</li>
-<li><a href="https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training" rel="noopener">Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training</a> — OpenAI</li>
-</ul>
-<h2>Economía de la IA</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/" rel="noopener">Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation</a> — TechCrunch AI</li>
-<li><a href="https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/" rel="noopener">Nvidia buys Hugging Face, the GitHub of AI, for $13 billion</a> — Ars Technica AI</li>
-<li><a href="https://openai.com/index/daybreak-for-frontline-defenders" rel="noopener">Daybreak for Frontline Defenders: $1B to protect essential services</a> — OpenAI</li>
-<li><a href="https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" rel="noopener">Nvidia confirms it will buy Hugging Face for $12.9 billion</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/" rel="noopener">The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/" rel="noopener">Palo Alto Networks paid $500M for Thrive-backed Console, sources say</a> — TechCrunch AI</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit" rel="noopener">The Trump administration is supporting OpenAI in the NYT copyright lawsuit</a> — The Verge AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/" rel="noopener">Wonderful more than doubles its valuation to $5B in under 6 months</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/" rel="noopener">Adobe acquires Indian market intelligence startup Rilo</a> — TechCrunch AI</li>
-<li><a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads" rel="noopener">A milestone in expanding access to AI</a> — OpenAI</li>
-<li><a href="https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/" rel="noopener">Report: Nvidia to acquire AI model repository Hugging Face for $13 billion</a> — Ars Technica AI</li>
-<li><a href="https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/" rel="noopener">Piloting the world&#x27;s first double-blind AI evaluations</a> — DeepMind</li>
-</ul>
-<h2>Señales de futuro</h2>
-<ul>
-<li><a href="https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/" rel="noopener">Meta is paying to peek at how you use their latest AI model</a> — TechCrunch AI</li>
-<li><a href="https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/" rel="noopener">India’s richest man now wants to turn aging computers into AI-ready PCs</a> — TechCrunch AI</li>
-<li><a href="https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/" rel="noopener">ChatGPT and Reddit now face EU&#x27;s toughest online safety rules</a> — Ars Technica AI</li>
-<li><a href="https://openai.com/index/supporting-california-bill-advance-ai-youth-safety" rel="noopener">OpenAI supports California’s bill to advance youth AI safety</a> — OpenAI</li>
-<li><a href="https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/" rel="noopener">Meta makes AI glasses slightly less creepy with limit on nonconsensual recording</a> — Ars Technica AI</li>
-<li><a href="https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/" rel="noopener">AI industry says Trump plans to tax chips in the “single dumbest way imaginable”</a> — Ars Technica AI</li>
-</ul>
-<h2>Fuentes</h2>
-<ul>
-<li>OpenAI: https://openai.com/news/rss.xml</li>
-<li>Google AI: https://blog.google/technology/ai/rss/</li>
-<li>DeepMind: https://deepmind.google/blog/rss.xml</li>
-<li>Meta AI: https://ai.meta.com/blog/rss/</li>
-<li>Hugging Face: https://huggingface.co/blog/feed.xml</li>
-<li>TechCrunch AI: https://techcrunch.com/category/artificial-intelligence/feed/</li>
-<li>The Verge AI: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml</li>
-<li>MIT Tech Review AI: https://www.technologyreview.com/topic/artificial-intelligence/feed</li>
-<li>Ars Technica AI: https://arstechnica.com/ai/feed/</li>
-<li>VentureBeat AI: https://venturebeat.com/category/ai/feed/</li>
-<li>Synced: https://syncedreview.com/feed/</li>
-<li>36Kr AI: https://36kr.com/feed</li>
-<li>QbitAI: https://www.qbitai.com/feed</li>
-<li>DeepSeek: https://www.deepseek.com/rss.xml</li>
-</ul>
-      </article>
-    </div>
-  </div>
+
+    <section class="panel summary" aria-labelledby="summary-title">
+      <div class="summary-head"><div><h2 id="summary-title">Resumen ejecutivo</h2><p>Las tres ideas que conviene llevarse de esta semana.</p></div><span class="eyebrow">En 30 segundos</span></div>
+      <div class="summary-grid">
+        <div class="summary-card"><strong>China comprime coste y peso</strong><span>GLM, Qwen y Kimi empujan la inferencia local y el open-weight.</span></div>
+        <div class="summary-card"><strong>Los agentes desplazan al chat</strong><span>La conversación pasa de responder preguntas a planificar y ejecutar tareas.</span></div>
+        <div class="summary-card"><strong>Occidente se especializa</strong><span>Claude prioriza precisión, Gemini escala y Grok aporta actualidad.</span></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Métricas del informe">
+      <div class="stat"><strong id="signalCount">10</strong><span>señales visibles</span></div>
+      <div class="stat"><strong id="modelCount">6</strong><span>modelos cubiertos</span></div>
+      <div class="stat"><strong id="sourceCount">5</strong><span>tipos de fuente</span></div>
+    </section>
+
+    <section class="panel toolbar" aria-label="Filtros del informe">
+      <div class="search-row">
+        <label class="search" for="searchInput"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="searchInput" type="search" placeholder="Buscar en títulos, notas, modelos o fuentes" autocomplete="off"></label>
+        <button class="reset" id="resetBtn" type="button">Limpiar</button>
+      </div>
+      <div class="filter-group" id="regionFilters"><span class="filter-label">Región</span><button class="filter-btn active" data-filter-key="region" data-filter-value="all">Todas</button><button class="filter-btn" data-filter-key="region" data-filter-value="west">Occidente</button><button class="filter-btn" data-filter-key="region" data-filter-value="china">China</button></div>
+      <div class="filter-group" id="modelFilters"><span class="filter-label">Modelo</span><button class="filter-btn active" data-filter-key="model" data-filter-value="all">Todos</button><button class="filter-btn" data-filter-key="model" data-filter-value="claude">Claude</button><button class="filter-btn" data-filter-key="model" data-filter-value="grok">Grok</button><button class="filter-btn" data-filter-key="model" data-filter-value="gemini">Gemini</button><button class="filter-btn" data-filter-key="model" data-filter-value="glm">GLM</button><button class="filter-btn" data-filter-key="model" data-filter-value="qwen">Qwen</button><button class="filter-btn" data-filter-key="model" data-filter-value="kimi">Kimi</button></div>
+      <div class="filter-group" id="sourceFilters"><span class="filter-label">Fuente</span><button class="filter-btn active" data-filter-key="source" data-filter-value="all">Todas</button><button class="filter-btn" data-filter-key="source" data-filter-value="lab">Laboratorios</button><button class="filter-btn" data-filter-key="source" data-filter-value="research">Investigación</button><button class="filter-btn" data-filter-key="source" data-filter-value="open-source">Open source</button><button class="filter-btn" data-filter-key="source" data-filter-value="social">Redes</button><button class="filter-btn" data-filter-key="source" data-filter-value="market">Mercado</button></div>
+    </section>
+
+    <div class="results-line"><span id="resultsText" role="status" aria-live="polite">10 señales visibles</span><span class="copy-status" id="copyStatus" aria-live="polite"></span></div>
+    <section class="result-list" id="results" aria-label="Señales del informe">
+      <article class="signal open" data-region="west" data-models="claude" data-source="lab"><button class="signal-header" type="button" aria-expanded="true"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · Anthropic</span><span class="tag">Claude</span></div><h3>Claude Fable 5.1 llega al frente de razonamiento</h3><p class="signal-summary">Anthropic publica Fable 5.1. En evaluaciones de agentes y corrección de código sigue liderando en casos límite.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Opus 5 y Fable 5.1 destacan en tareas de ingeniería con edge cases. El coste por token es más alto que Gemini Flash o GLM, pero la tasa de éxito en flujos largos justifica el premium para trabajo de producto.</p></div></article>
+      <article class="signal" data-region="west" data-models="grok" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · xAI</span><span class="tag">Grok</span></div><h3>Grok 4.6: más cerca del tope, más barato por token</h3><p class="signal-summary">xAI sitúa Grok 4.6 a pocos puntos del líder, con precio agresivo y una ventaja clara: búsqueda en vivo.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Si el trabajo depende de la web en tiempo real, Grok aparece como una opción occidental competitiva por coste y actualidad.</p></div></article>
+      <article class="signal" data-region="west" data-models="gemini" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Laboratorio · Google</span><span class="tag">Gemini</span></div><h3>Gemini 3.7 Flash: volumen y código a precio promocional</h3><p class="signal-summary">Google baja el precio de Flash. Es una opción eficiente para volumen, con mejoras de código frente a la generación anterior.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Equipos lo usan para generadores de sitios, simuladores y pipelines de agentes. La conversación: Flash para escala, Claude para precisión.</p></div></article>
+      <article class="signal" data-region="west" data-models="claude,grok,gemini" data-source="market"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag market">Mercado</span><span class="tag">Claude · Grok · Gemini</span></div><h3>Occidente: Claude precisión, Gemini escala, Grok en vivo</h3><p class="signal-summary">El mapa occidental se estabiliza en tres roles. Elegir uno ya no es un ranking único: es elegir el rol adecuado.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Claude gana calidad, Gemini gana coste y contexto, y Grok gana integración con información en vivo. El caso de uso debe guiar la selección.</p></div></article>
+      <article class="signal" data-region="china" data-models="glm,kimi" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Laboratorio · Zhipu</span><span class="tag">GLM · Kimi</span></div><h3>GLM-5.3 iguala a Kimi K3 a menor coste por tarea</h3><p class="signal-summary">Zhipu publica GLM-5.3. La conversación se centra en inferencia barata y agentes locales.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>GLM-5.3 Flash refuerza la competencia en tareas cotidianas, mientras GLM-5.2 MIT mantiene interés para hardware más modesto.</p></div></article>
+      <article class="signal" data-region="china" data-models="qwen" data-source="lab"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Laboratorio · Alibaba</span><span class="tag">Qwen</span></div><h3>Qwen 3.8 se parte en dos: Max cerrado y checkpoint abierto</h3><p class="signal-summary">Alibaba combina una API multimodal de frontera con un checkpoint descargable de licencia restringida.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La familia Qwen cubre código, ejecución local, frontera, baja latencia y modelos multimodales. El debate central es licencia frente a rendimiento.</p></div></article>
+      <article class="signal" data-region="china" data-models="kimi" data-source="open-source"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Open source · Moonshot</span><span class="tag">Kimi</span></div><h3>Kimi K3 open-weight: el más grande publicado hasta ahora</h3><p class="signal-summary">Moonshot publica pesos de Kimi K3 y empuja el techo de los modelos open-weight.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>El coste de hospedaje sigue siendo alto. La pregunta dominante no es quién gana el benchmark, sino quién puede ejecutarlo.</p></div></article>
+      <article class="signal" data-region="china" data-models="glm,qwen,kimi" data-source="social"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag china">China</span><span class="tag">Redes · Weibo / Zhihu</span><span class="tag">GLM · Qwen · Kimi</span></div><h3>China: Qwen cobertura, GLM agentes locales, Kimi peso bruto</h3><p class="signal-summary">Tres polos claros: cobertura, ejecución local y techo open-weight.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La conversación gira alrededor del coste de inferencia, los chips locales y el rendimiento diario de las variantes Flash.</p></div></article>
+      <article class="signal" data-region="west" data-models="claude,gemini" data-source="research"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag research">Investigación · arXiv</span><span class="tag">Claude · Gemini</span></div><h3>Planificación y memoria: los agentes dejan atrás el chat plano</h3><p class="signal-summary">Los trabajos de la semana empujan agentes multi-paso y memoria de largo plazo.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>La investigación se alinea con sistemas que planifican antes de actuar y ejecutan tareas, no solo con interfaces que generan respuestas.</p></div></article>
+      <article class="signal" data-region="west" data-models="claude,grok,qwen,glm" data-source="open-source"><button class="signal-header" type="button" aria-expanded="false"><div><div class="signal-meta"><span class="tag west">Occidente</span><span class="tag">Open source · GitHub</span><span class="tag">Claude · Grok · Qwen · GLM</span></div><h3>GitHub Trending: orquestación, no demos de chatbot</h3><p class="signal-summary">Los repos que suben son frameworks de agentes, RAG y observabilidad.</p></div><span class="chevron">⌄</span></button><div class="signal-body"><p>Las plantillas más repetidas siguen el ciclo planificar → usar herramienta → verificar. La oportunidad está en la orquestación, no en otro wrapper de chat.</p></div></article>
+    </section>
+
+    <section class="feedback" aria-labelledby="feedback-title"><div><h2 id="feedback-title">Ayúdanos a mejorar AI Informe</h2><p>¿Encontraste un error o tienes una idea? Tu feedback ayuda a priorizar la próxima edición.</p></div><div class="feedback-actions"><a class="feedback-btn primary" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Error%20en%20AI%20Informe&body=Describe%20el%20problema%2C%20incluye%20la%20URL%20y%20el%20dispositivo%3A" target="_blank" rel="noreferrer">Reportar error</a><a class="feedback-btn" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Sugerencia%20para%20AI%20Informe&body=Describe%20tu%20idea%20y%20el%20beneficio%20esperado%3A" target="_blank" rel="noreferrer">Sugerir mejora</a></div></section>\n    <footer class="footer">AI Informe · Fuentes públicas de la semana · No es un ranking único, es un mapa de roles. <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noreferrer">Ver proyecto en GitHub</a></footer>
+  </main>
+  <script>
+    (()=>{
+      const state={region:'all',model:'all',source:'all',q:''};
+      const valid={region:new Set(['all','west','china']),model:new Set(['all','claude','grok','gemini','glm','qwen','kimi']),source:new Set(['all','lab','research','open-source','social','market'])};
+      const params=new URLSearchParams(location.search);
+      for(const key of ['region','model','source']) if(valid[key].has(params.get(key))) state[key]=params.get(key);
+      state.q=params.get('q')||'';
+      const cards=[...document.querySelectorAll('.signal')], input=document.querySelector('#searchInput');
+      input.value=state.q;
+      const textOf=card=>card.innerText.replace(/\s+/g,' ').trim().toLowerCase();
+      const normalize=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+      const escape=value=>String(value).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+      const highlight=(node,q)=>{if(!node.dataset.original)node.dataset.original=node.textContent; const original=node.dataset.original; if(!q){node.textContent=original;return} const normalized=[...original].flatMap((char,index)=>[...normalize(char)].map(()=>index)); const plain=normalize(original), needle=normalize(q); let out='',sourceStart=0,searchStart=0,pos=plain.indexOf(needle); while(pos>=0){const originalStart=normalized[pos]??sourceStart; const originalEnd=(normalized[pos+needle.length-1]??originalStart)+1; out+=escape(original.slice(sourceStart,originalStart))+'<mark>'+escape(original.slice(originalStart,originalEnd))+'</mark>';sourceStart=originalEnd;searchStart=pos+needle.length;pos=plain.indexOf(needle,searchStart)} node.innerHTML=out+escape(original.slice(sourceStart));};
+      function syncUrl(){const next=new URLSearchParams();for(const key of ['region','model','source'])if(state[key]!=='all')next.set(key,state[key]);if(state.q.trim())next.set('q',state.q.trim());const url=location.pathname+(next.toString()?'?'+next.toString():'')+location.hash;history.replaceState({},'',url)}
+      function render(){const q=normalize(state.q.trim());let visible=0;cards.forEach(card=>{const matchesRegion=state.region==='all'||card.dataset.region===state.region;const matchesModel=state.model==='all'||card.dataset.models.split(',').includes(state.model);const matchesSource=state.source==='all'||card.dataset.source===state.source;const matchesSearch=!q||normalize(textOf(card)).includes(q);const show=matchesRegion&&matchesModel&&matchesSource&&matchesSearch;card.hidden=!show;if(show)visible++;card.querySelectorAll('h3,.signal-summary,.signal-body p').forEach(node=>highlight(node,state.q.trim()))});document.querySelector('#signalCount').textContent=visible;document.querySelector('#resultsText').textContent=`${visible} ${visible===1?'señal visible':'señales visibles'}`;document.querySelectorAll('.filter-btn').forEach(btn=>btn.classList.toggle('active',state[btn.dataset.filterKey]===btn.dataset.filterValue));syncUrl()}
+      document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{state[btn.dataset.filterKey]=btn.dataset.filterValue;render()}));
+      input.addEventListener('input',()=>{state.q=input.value;render()});
+      document.querySelector('#resetBtn').addEventListener('click',()=>{state.region='all';state.model='all';state.source='all';state.q='';input.value='';render();input.focus()});
+      cards.forEach(card=>{const button=card.querySelector('.signal-header');button.addEventListener('click',()=>{const open=card.classList.toggle('open');button.setAttribute('aria-expanded',String(open))})});
+      document.querySelector('#shareBtn').addEventListener('click',async()=>{render();try{await navigator.clipboard.writeText(location.href);document.querySelector('#copyStatus').textContent='Enlace copiado';setTimeout(()=>document.querySelector('#copyStatus').textContent='',2200)}catch{document.querySelector('#copyStatus').textContent='Copia la URL del navegador'}});
+      render();
+    })();
+  </script>
 </body>
 </html>
