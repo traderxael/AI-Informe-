@@ -14,12 +14,16 @@ No usa LLM: el resumen es el extracto original (idioma de origen).
 from __future__ import annotations
 
 import hashlib
+import json as _json
+import os
 import re
 import ssl
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor as _TPE
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -224,6 +228,82 @@ def source_kind(model_ids: list[str], source: str) -> str:
     return "news"
 
 
+# ------------------------------------------------------- traducción gratis ---
+# Google (gtx) y LibreTranslate/lingva están bloqueados desde IPs de datacenter
+# (429/403). MyMemory responde 200 sin clave. Cuota anónima ~5.000 chars/día;
+# se respeta con fallback suave (si falla, se queda el original).
+def detect_lang(text: str) -> str:
+    if re.search(r"[\u3040-\u30ff]", text):          # kana → japonés
+        return "ja"
+    if re.search(r"[\u4e00-\u9fff]", text):          # han → chino
+        return "zh"
+    if re.search(r"[\uac00-\ud7af]", text):          # hangul → coreano
+        return "ko"
+    if re.search(r"[\u0400-\u04ff]", text):          # cirílico → ruso
+        return "ru"
+    if re.search(r"[äöß]|\b(der|die|das|und|mit|für|nicht|eine|nach)\b",
+                 text, re.I):
+        return "de"
+    if re.search(r"[çàèùœêë]|\b(le|la|les|des|du|une|dans|pour|avec|sur|par)\b",
+                 text, re.I):
+        return "fr"
+    if re.search(r"[áéíóúñü¿¡]", text.lower()):
+        return "es"
+    return "en"
+
+
+def translate_es(text: str, src_lang: str) -> str:
+    pair = {"zh": "zh-CN|es", "en": "en|es", "ja": "ja|es", "ko": "ko|es",
+            "ru": "ru|es", "de": "de|es", "fr": "fr|es"}.get(src_lang)
+    if not pair:
+        return text
+    email = os.environ.get("MYMEMORY_EMAIL", "")
+    url = ("https://api.mymemory.translated.net/get?q="
+           + urllib.parse.quote(text) + "&langpair=" + pair
+           + (f"&de={urllib.parse.quote(email)}" if email else ""))
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA),
+                                    timeout=10) as r:
+            data = _json.loads(r.read().decode("utf-8", "replace"))
+        t = (data.get("responseData") or {}).get("translatedText")
+        if t and t.strip() and t.strip().lower() != text.lower():
+            return t.strip()
+    except Exception:
+        pass
+    return text
+
+
+# -------------------------------------------------- capa social (opt-in) ----
+def social_feeds() -> list[tuple[dict[str, Any], str]]:
+    """X / Instagram / TikTok / Xiaohongshu vía tu propia instancia RSSHub.
+
+    Sin credenciales NO hay datos públicos: estas redes no tienen API abierta
+    y bloquean bots sin login. Activación opcional:
+      - `RSSHUB_BASE_URL=https://tu-rsshub.com` (instancia con tus cookies)
+      - `social_sources.json` con las cuentas a seguir
+    Si falta cualquiera, devuelve [] y el pipeline sigue sin romperse.
+    """
+    base = os.environ.get("RSSHUB_BASE_URL", "").rstrip("/")
+    cfg_path = ROOT / "social_sources.json"
+    if not base or not cfg_path.exists():
+        return []
+    try:
+        cfg = _json.loads(cfg_path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    feeds: list[tuple[dict[str, Any], str]] = []
+    for platform in cfg.get("platforms", []):
+        name = platform.get("name", "Social")
+        for route in platform.get("routes", []):
+            if not route.startswith("/"):
+                continue
+            data = get(f"{base}{route}")
+            if data:
+                for it in parse_rss_items(data)[:15]:
+                    feeds.append((it, name))
+    return feeds
+
+
 # ------------------------------------------------------------------ rutina ---
 def recolectar() -> list[dict[str, Any]]:
     seen: set[str] = set()
@@ -284,6 +364,10 @@ def recolectar() -> list[dict[str, Any]]:
                 add(it, f"Reddit r/{sub}", "global")
         time.sleep(1.5)
 
+    # 5) Capa social opt-in (X / Instagram / TikTok / Xiaohongshu vía RSSHub)
+    for it, src in social_feeds():
+        add(it, src, "global")
+
     # ordenar por fecha desc
     items.sort(key=lambda x: x.get("published") or "", reverse=True)
     return items
@@ -324,8 +408,22 @@ def main() -> int:
         "sources": sorted({s["sourceLabel"] for s in final}),
         "signals": final,
     }
+
+    # Traducción gratuita de títulos (MyMemory, sin clave). Falla suave →
+    # conserva el original. El título original se guarda en `title_orig`.
+    def _tr(s: dict[str, Any]) -> None:
+        lang = detect_lang(s["title"])
+        if lang == "es":
+            return
+        s["title_orig"] = s["title"]
+        s["title"] = translate_es(s["title"], lang)
+
+    if os.environ.get("SKIP_TRANSLATE") != "1":
+        with _TPE(max_workers=5) as ex:
+            list(ex.map(_tr, final))
+
     OUT.write_text(
-        __import__("json").dumps(out, ensure_ascii=False, indent=2) + "\n",
+        _json.dumps(out, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 

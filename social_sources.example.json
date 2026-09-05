@@ -1,0 +1,9 @@
+{
+  "_comentario": "Copia este archivo a social_sources.json y configura RSSHUB_BASE_URL (variable de entorno del runner) apuntando a TU instancia de RSSHub con tus cookies. Sin esto, X / Instagram / TikTok / Xiaohongshu no devuelven datos: no tienen API pública abierta.",
+  "platforms": [
+    { "name": "X (Twitter)", "routes": ["/twitter/user/REEMPLAZA_CON_USUARIO"] },
+    { "name": "Instagram", "routes": ["/instagram/user/REEMPLAZA_CON_USUARIO"] },
+    { "name": "TikTok", "routes": ["/tiktok/user/REEMPLAZA_CON_USUARIO"] },
+    { "name": "Xiaohongshu", "routes": ["/xiaohongshu/user/REEMPLAZA_CON_USUARIO"] }
+  ]
+}
