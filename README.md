@@ -3,7 +3,8 @@
 📰 Recopilación automática diaria de **noticias de IA**, usos en el mundo real, economía y señales de futuro.
 
 **Repositorio:** [traderxael/AI-Informe-](https://github.com/traderxael/AI-Informe-)  
-**Sitio web:** [https://ai-informe.vercel.app](https://ai-informe.vercel.app)
+**Sitio web:** [https://ai-informe-dashboard.vercel.app](https://ai-informe-dashboard.vercel.app)  
+**Dashboard alternativo:** [https://ai-informe-dashboard-traderxael.vercel.app](https://ai-informe-dashboard-traderxael.vercel.app)
 
 ---
 
@@ -87,7 +88,12 @@ MOONSHOT_API_KEY=sk-...
 
 ## 🌐 Despliegue en Vercel
 
-El proyecto se despliega automáticamente desde GitHub. 
+El proyecto se despliega automáticamente desde GitHub.
+
+Hay varias instancias del dashboard:
+- **Sitio principal:** https://ai-informe-dashboard.vercel.app
+- **Sitio anterior:** https://ai-informe.vercel.app _(migrar a principal)_
+- **Sitio personal:** https://ai-informe-dashboard-traderxael.vercel.app
 
 **Nota:** Si haces cambios en el workflow, asegúrate de que el repo tenga permisos de escritura en GitHub Actions.
 

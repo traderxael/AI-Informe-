@@ -4,3 +4,22 @@ __pycache__/
 venv/
 .env
 .DS_Store
+
+# Node / Vercel / Build artifacts
+node_modules/
+node_modules.lock
+.node_modules.lock
+package-lock.json
+.vercel/
+dist/
+build/
+*.log
+
+# Grok / AI tooling
+.grok/
+
+# Environment secrets
+scripts/.env
+*.env
+.env.local
+.env.*.local
