@@ -1,20 +1,26 @@
 import { useEffect, useMemo, useState } from "react";
 import { ChevronDown, Globe2, Landmark, Search } from "lucide-react";
 import {
-  ALL_MODELS,
-  CHINA_MODELS,
+  COUNTRY_META,
+  REGION_LABEL,
   SOURCE_LABEL,
-  WEST_MODELS,
-  WEEK_LABEL,
   filterSignals,
-  type ModelId,
+  loadSignals,
+  modelMeta,
   type Region,
   type Signal,
 } from "@/lib/informe-data";
 import { cn } from "@/lib/utils";
 
 type RegionFilter = Region | "all";
-type ModelFilter = ModelId | "all";
+type StrFilter = string | "all";
+
+const REGION_CHIPS: { id: RegionFilter; label: string }[] = [
+  { id: "all", label: "Todo" },
+  { id: "west", label: "Occidente" },
+  { id: "china", label: "China" },
+  { id: "global", label: "Global" },
+];
 
 function normalizeText(value: string) {
   return value
@@ -23,71 +29,69 @@ function normalizeText(value: string) {
     .toLowerCase();
 }
 
-function initialFilters(): {
-  region: RegionFilter;
-  model: ModelFilter;
-  query: string;
-} {
-  if (typeof window === "undefined") return { region: "all", model: "all", query: "" };
-  const params = new URLSearchParams(window.location.search);
-  const regionParam = params.get("region");
-  const modelParam = params.get("model");
-  const region: RegionFilter =
-    regionParam === "west" || regionParam === "china" ? regionParam : "all";
-  const model: ModelFilter = ALL_MODELS.some((item) => item.id === modelParam)
-    ? (modelParam as ModelId)
-    : "all";
-  const regionModels =
-    region === "west" ? WEST_MODELS : region === "china" ? CHINA_MODELS : ALL_MODELS;
-  return {
-    region,
-    model: regionModels.some((item) => item.id === model) ? model : "all",
-    query: params.get("q") ?? "",
-  };
-}
-
 export function WeekView() {
-  const initial = initialFilters();
-  const [region, setRegion] = useState<RegionFilter>(initial.region);
-  const [model, setModel] = useState<ModelFilter>(initial.model);
-  const [query, setQuery] = useState(initial.query);
-  const [openId, setOpenId] = useState<string | null>("west-compare");
+  const [signals, setSignals] = useState<Signal[]>([]);
+  const [generatedAt, setGeneratedAt] = useState<string | null>(null);
+  const [region, setRegion] = useState<RegionFilter>("all");
+  const [model, setModel] = useState<StrFilter>("all");
+  const [country, setCountry] = useState<StrFilter>("all");
+  const [query, setQuery] = useState("");
+  const [openId, setOpenId] = useState<string | null>(null);
 
-  const modelOptions =
-    region === "west" ? WEST_MODELS : region === "china" ? CHINA_MODELS : ALL_MODELS;
+  useEffect(() => {
+    let alive = true;
+    loadSignals().then((bundle) => {
+      if (!alive) return;
+      setSignals(bundle.signals);
+      setGeneratedAt(bundle.generatedAt ?? null);
+    });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
-  const signals = useMemo(() => {
-    const base = filterSignals(region, model);
+  // modelos y países presentes en los datos (para chips dinámicos)
+  const presentModels = useMemo(() => {
+    const set = new Set<string>();
+    for (const s of signals) for (const m of s.models) set.add(m);
+    return [...set].map((id) => ({ id, ...modelMeta(id) })).filter((m) => m.label);
+  }, [signals]);
+
+  const presentCountries = useMemo(() => {
+    const set = new Set<string>();
+    for (const s of signals) if (s.country) set.add(s.country);
+    return [...set].sort();
+  }, [signals]);
+
+  const modelOptions = useMemo(() => {
+    if (region === "all") return presentModels;
+    return presentModels.filter((m) => m.region === region);
+  }, [presentModels, region]);
+
+  const filtered = useMemo(() => {
+    const base = filterSignals(signals, region, model, country);
     const q = normalizeText(query.trim());
     if (!q) return base;
     return base.filter(
       (s) =>
         normalizeText(s.title).includes(q) ||
-        normalizeText(s.summary).includes(q) ||
-        normalizeText(s.detail).includes(q) ||
-        s.models.some((m) => normalizeText(m).includes(q)),
+        normalizeText(s.summary || "").includes(q) ||
+        s.models.some((m) => normalizeText(m).includes(q)) ||
+        (s.country ? normalizeText(s.country).includes(q) : false),
     );
-  }, [region, model, query]);
+  }, [signals, region, model, country, query]);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (region === "all") params.delete("region");
-    else params.set("region", region);
-    if (model === "all") params.delete("model");
-    else params.set("model", model);
-    if (query.trim()) params.set("q", query.trim());
-    else params.delete("q");
-    const nextQuery = params.toString();
-    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash}`;
-    window.history.replaceState(window.history.state, "", nextUrl);
-  }, [region, model, query]);
+    if (model !== "all" && !presentModels.some((m) => m.id === model)) setModel("all");
+    if (country !== "all" && !presentCountries.includes(country)) setCountry("all");
+  }, [presentModels, presentCountries, model, country]);
 
   function pickRegion(next: RegionFilter) {
     setRegion(next);
-    if (next === "all") return;
-    if (model === "all") return;
-    const allowed = (next === "west" ? WEST_MODELS : CHINA_MODELS).map((m) => m.id);
-    if (!allowed.includes(model)) setModel("all");
+    if (next !== "all" && model !== "all") {
+      const allowed = presentModels.filter((m) => m.region === next).map((m) => m.id);
+      if (!allowed.includes(model)) setModel("all");
+    }
   }
 
   return (
@@ -96,79 +100,74 @@ export function WeekView() {
         Informe semanal
       </p>
       <h1 className="font-display text-[2rem] leading-tight tracking-tight text-fg sm:text-4xl">
-        Inteligencia artificial, por región y por modelo
+        Inteligencia artificial, por país y por modelo
       </h1>
       <p className="mt-3 max-w-xl text-sm text-muted sm:text-base">
-        Occidente: Claude, Grok, Gemini. China: GLM, Qwen, Kimi. Semana del {WEEK_LABEL}.
+        Señales reales con fuente enlazable — Occidente, China y el resto del mundo.
+        {generatedAt ? ` Actualizado: ${new Date(generatedAt).toLocaleString("es-CL")}.` : ""}
       </p>
 
       <div className="mt-8 grid grid-cols-3 gap-2">
         <Stat value={signals.length} label="Señales" />
-        <Stat
-          value={region === "china" ? "China" : region === "west" ? "West" : "Global"}
-          label="Región"
-        />
-        <Stat
-          value={model === "all" ? "Todos" : (ALL_MODELS.find((m) => m.id === model)?.label ?? "—")}
-          label="Modelo"
-        />
+        <Stat value={region === "all" ? "Todo" : REGION_LABEL[region]} label="Región" />
+        <Stat value={presentCountries.length} label="Países" />
       </div>
 
       <section className="mt-8 space-y-4" aria-label="Filtros">
         <div>
           <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Región</p>
           <div className="flex flex-wrap gap-2">
-            <Chip
-              active={region === "all"}
-              onClick={() => pickRegion("all")}
-              icon={<Globe2 className="size-3.5" />}
-              testId="region-all"
-            >
-              Todo
-            </Chip>
-            <Chip
-              active={region === "west"}
-              onClick={() => pickRegion("west")}
-              icon={<Landmark className="size-3.5" />}
-              testId="region-west"
-            >
-              Occidente
-            </Chip>
-            <Chip
-              active={region === "china"}
-              onClick={() => pickRegion("china")}
-              testId="region-china"
-            >
-              China
-            </Chip>
-          </div>
-        </div>
-
-        <div>
-          <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">
-            {region === "china"
-              ? "Modelos chinos"
-              : region === "west"
-                ? "Modelos occidentales"
-                : "Modelos"}
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <Chip active={model === "all"} onClick={() => setModel("all")} testId="model-all">
-              Todos
-            </Chip>
-            {modelOptions.map((m) => (
+            {REGION_CHIPS.map((c) => (
               <Chip
-                key={m.id}
-                active={model === m.id}
-                onClick={() => setModel(m.id)}
-                testId={`model-${m.id}`}
+                key={c.id}
+                active={region === c.id}
+                onClick={() => pickRegion(c.id)}
+                icon={c.id === "all" ? <Globe2 className="size-3.5" /> : c.id === "west" ? <Landmark className="size-3.5" /> : undefined}
+                testId={`region-${c.id}`}
               >
-                {m.label}
-                <span className="text-subtle"> · {m.lab}</span>
+                {c.label}
               </Chip>
             ))}
           </div>
         </div>
+
+        {modelOptions.length > 0 && (
+          <div>
+            <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Modelos</p>
+            <div className="flex flex-wrap gap-2">
+              <Chip active={model === "all"} onClick={() => setModel("all")} testId="model-all">
+                Todos
+              </Chip>
+              {modelOptions.map((m) => (
+                <Chip
+                  key={m.id}
+                  active={model === m.id}
+                  onClick={() => setModel(m.id)}
+                  testId={`model-${m.id}`}
+                >
+                  {m.label}
+                  <span className="text-subtle"> · {m.lab}</span>
+                </Chip>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {presentCountries.length > 0 && (
+          <div>
+            <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">País</p>
+            <div className="flex flex-wrap gap-2">
+              <Chip active={country === "all"} onClick={() => setCountry("all")} testId="country-all">
+                Todos
+              </Chip>
+              {presentCountries.map((c) => (
+                <Chip key={c} active={country === c} onClick={() => setCountry(c)} testId={`country-${c}`}>
+                  {COUNTRY_META[c]?.flag ?? "🌐"} {COUNTRY_META[c]?.label ?? c}
+                </Chip>
+              ))}
+            </div>
+          </div>
+        )}
 
         <label className="relative block">
           <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-subtle" />
@@ -176,7 +175,7 @@ export function WeekView() {
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar en títulos y notas"
+            placeholder="Buscar en títulos, notas, modelos o países"
             aria-controls="signal-results"
             className="h-11 w-full rounded-xl border border-border bg-surface pr-3 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-colors duration-150 focus:border-accent"
           />
@@ -185,14 +184,14 @@ export function WeekView() {
 
       <div id="signal-results" className="mt-8 space-y-3" aria-live="polite">
         <p className="sr-only" role="status">
-          {signals.length} {signals.length === 1 ? "señal encontrada" : "señales encontradas"}.
+          {filtered.length} {filtered.length === 1 ? "señal encontrada" : "señales encontradas"}.
         </p>
-        {signals.length === 0 ? (
+        {filtered.length === 0 ? (
           <p className="rounded-xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
-            Nada coincide con esos filtros. Prueba otra región o modelo.
+            Nada coincide con esos filtros. Prueba otra región, modelo o país.
           </p>
         ) : (
-          signals.map((s) => (
+          filtered.map((s) => (
             <SignalCard
               key={s.id}
               signal={s}
@@ -204,7 +203,8 @@ export function WeekView() {
       </div>
 
       <footer className="mt-14 border-t border-border pt-6 text-xs text-subtle">
-        AI Informe · Fuentes públicas de la semana · No es ranking único, es mapa de roles.
+        AI Informe · Datos reales con fuente · {signals.length} señales ·
+        {generatedAt ? ` generado ${new Date(generatedAt).toLocaleString("es-CL")}` : " sin fecha"}
       </footer>
     </main>
   );
@@ -239,7 +239,7 @@ function Chip({
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex min-h-11 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors duration-150",
+        "inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors duration-150",
         active
           ? "border-accent bg-accent text-accent-fg"
           : "border-border bg-surface text-muted hover:border-accent hover:text-fg",
@@ -260,7 +260,8 @@ function SignalCard({
   open: boolean;
   onToggle: () => void;
 }) {
-  const regionLabel = signal.region === "china" ? "China" : "Occidente";
+  const regionLabel = REGION_LABEL[signal.region] ?? signal.region;
+  const country = signal.country ? COUNTRY_META[signal.country] : undefined;
   return (
     <article className="overflow-hidden rounded-2xl border border-border bg-surface">
       <button
@@ -274,16 +275,23 @@ function SignalCard({
             <span
               className={cn(
                 "rounded-md px-1.5 py-0.5 text-[10px] font-medium tracking-wide uppercase",
-                signal.region === "china" ? "bg-elevated text-china" : "bg-elevated text-west",
+                signal.region === "china" ? "bg-elevated text-china" : signal.region === "west" ? "bg-elevated text-west" : "bg-elevated text-subtle",
               )}
             >
               {regionLabel}
             </span>
-            <span className="rounded-md bg-elevated px-1.5 py-0.5 text-[10px] font-medium tracking-wide text-subtle uppercase">
-              {SOURCE_LABEL[signal.source]}
-            </span>
+            {country && country.label && (
+              <span className="rounded-md bg-elevated px-1.5 py-0.5 text-[10px] font-medium tracking-wide uppercase text-subtle">
+                {country.flag} {country.label}
+              </span>
+            )}
+            {signal.source && (
+              <span className="rounded-md bg-elevated px-1.5 py-0.5 text-[10px] font-medium tracking-wide text-subtle uppercase">
+                {SOURCE_LABEL[signal.source] ?? signal.source}
+              </span>
+            )}
             {signal.models.map((m) => {
-              const meta = ALL_MODELS.find((x) => x.id === m);
+              const meta = modelMeta(m);
               return (
                 <span
                   key={m}
@@ -294,7 +302,21 @@ function SignalCard({
               );
             })}
           </div>
-          <h2 className="font-display text-lg leading-snug text-fg">{signal.title}</h2>
+          <h2 className="font-display text-lg leading-snug text-fg">
+            {signal.sourceUrl ? (
+              <a
+                href={signal.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {signal.title}
+              </a>
+            ) : (
+              signal.title
+            )}
+          </h2>
           <p className="mt-1 text-sm text-muted">{signal.summary}</p>
         </div>
         <ChevronDown
@@ -305,9 +327,19 @@ function SignalCard({
         />
       </button>
       {open ? (
-        <p className="border-t border-border px-4 pt-3 pb-4 text-sm leading-relaxed text-muted sm:px-5">
-          {signal.detail}
-        </p>
+        <div className="border-t border-border px-4 pt-3 pb-4 text-sm leading-relaxed text-muted sm:px-5">
+          <p>{signal.summary}</p>
+          {signal.sourceUrl && (
+            <a
+              href={signal.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-accent hover:underline"
+            >
+              Leer fuente original →
+            </a>
+          )}
+        </div>
       ) : null}
     </article>
   );
