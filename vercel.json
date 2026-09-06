@@ -1,3 +1,21 @@
 {
-  "version": 2
+  "version": 2,
+  "routes": [
+    {
+      "src": "/modelos.json",
+      "dest": "/web/modelos.json"
+    },
+    {
+      "src": "/informes.json",
+      "dest": "/web/informes.json"
+    },
+    {
+      "src": "/informes-data.json",
+      "dest": "/web/informes-data.json"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
