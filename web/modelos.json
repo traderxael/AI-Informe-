@@ -1,11 +1,11 @@
 {
- "actualizado": "2026-09-06T09:48:54",
+ "actualizado": "2026-09-06T18:05:23",
  "fuentes": [
   "arena.ai/leaderboard/text",
   "openrouter.ai/api/v1/models"
  ],
- "total": 40,
- "con_precio": 24,
+ "total": 60,
+ "con_precio": 36,
  "modelos": [
   {
    "modelo": "claude-fable-5",
@@ -318,6 +318,162 @@
    "precio_in": 0.435,
    "precio_out": 0.87,
    "context": 1050000
+  },
+  {
+   "modelo": "ernie-5.1",
+   "elo": 1468,
+   "org": "Baidu · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "gpt-5.6-terra-xhigh",
+   "elo": 1466,
+   "org": "OpenAI · Proprietary",
+   "licencia": "open",
+   "precio_in": 2.0,
+   "precio_out": 12.0,
+   "context": 1050000
+  },
+  {
+   "modelo": "glm-5.1",
+   "elo": 1466,
+   "org": "Z.ai · MIT",
+   "licencia": "open",
+   "precio_in": 0.966,
+   "precio_out": 3.036,
+   "context": 204800
+  },
+  {
+   "modelo": "qwen3.5-max-preview",
+   "elo": 1466,
+   "org": "Alibaba · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "gpt-5.4",
+   "elo": 1466,
+   "org": "OpenAI · Proprietary",
+   "licencia": "open",
+   "precio_in": 2.5,
+   "precio_out": 15.0,
+   "context": 1050000
+  },
+  {
+   "modelo": "grok-4.1-thinking",
+   "elo": 1465,
+   "org": "SpaceXAI · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "claude-sonnet-5-high",
+   "elo": 1462,
+   "org": "Anthropic · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 2.0,
+   "precio_out": 10.0,
+   "context": 1000000
+  },
+  {
+   "modelo": "grok-4.6-high",
+   "elo": 1461,
+   "org": "SpaceXAI · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 2.0,
+   "precio_out": 6.0,
+   "context": 500000
+  },
+  {
+   "modelo": "kimi-k2.6",
+   "elo": 1461,
+   "org": "Moonshot · Modified MIT",
+   "licencia": "open",
+   "precio_in": 0.95,
+   "precio_out": 4.0,
+   "context": 262144
+  },
+  {
+   "modelo": "qwen3.6-max-preview",
+   "elo": 1460,
+   "org": "Alibaba · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 1.027,
+   "precio_out": 6.162,
+   "context": 262144
+  },
+  {
+   "modelo": "deepseek-v4-pro-high-20260813",
+   "elo": 1460,
+   "org": "DeepSeek · MIT",
+   "licencia": "open"
+  },
+  {
+   "modelo": "grok-4.1",
+   "elo": 1459,
+   "org": "SpaceXAI · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "deepseek-v4-pro",
+   "elo": 1458,
+   "org": "DeepSeek · MIT",
+   "licencia": "open",
+   "precio_in": 0.627,
+   "precio_out": 1.253,
+   "context": 1048576
+  },
+  {
+   "modelo": "glm-5",
+   "elo": 1458,
+   "org": "Z.ai · MIT",
+   "licencia": "open",
+   "precio_in": 0.6,
+   "precio_out": 1.92,
+   "context": 204800
+  },
+  {
+   "modelo": "gemini-3.5-flash-lite",
+   "elo": 1457,
+   "org": "Google · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 0.3,
+   "precio_out": 2.5,
+   "context": 1048576
+  },
+  {
+   "modelo": "claude-sonnet-4-5-20250929-high-32k",
+   "elo": 1456,
+   "org": "Anthropic · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "dola-seed-2.0-pro",
+   "elo": 1456,
+   "org": "Bytedance · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "hy3",
+   "elo": 1455,
+   "org": "Tencent · Apache 2.0",
+   "licencia": "open",
+   "precio_in": 0.083,
+   "precio_out": 0.33,
+   "context": 262144
+  },
+  {
+   "modelo": "qwen3.7-plus",
+   "elo": 1455,
+   "org": "Alibaba · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 0.32,
+   "precio_out": 1.28,
+   "context": 1000000
+  },
+  {
+   "modelo": "claude-sonnet-4-5-20250929",
+   "elo": 1455,
+   "org": "Anthropic · Proprietary",
+   "licencia": "cerrado"
   }
  ]
 }
