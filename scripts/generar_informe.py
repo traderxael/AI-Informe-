@@ -68,7 +68,7 @@ SECTION_TITLES = {
     "futuro": "Señales de futuro",
 }
 
-SITE_URL = "https://ai-informe.vercel.app"  # se puede ajustar luego
+SITE_URL = "https://ai-informe-dashboard.vercel.app"
 SITE_NAME = "AI Informe"
 SITE_DESC = "Recopilación diaria de novedades, usos reales, economía y señales de futuro de la IA."
 
