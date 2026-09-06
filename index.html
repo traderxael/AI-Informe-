@@ -123,6 +123,27 @@
     .feedback-btn.primary{background:linear-gradient(180deg,rgba(77,141,255,.95),rgba(38,99,225,.95));
       border-color:rgba(150,185,255,.5);box-shadow:0 4px 18px rgba(77,141,255,.35)}
     .footer{margin-top:34px;color:var(--muted);font-size:13px;text-align:center}
+    .models-panel{padding:22px;margin-bottom:24px}
+    .models-head{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;position:relative}
+    .models-head h2{margin:0;font-size:19px;letter-spacing:-.02em}
+    .models-head .fuente{color:var(--muted);font-size:12px}
+    .models-head .fuente a{color:var(--blue);text-decoration:none;border-bottom:1px solid var(--blue-line)}
+    .models-scroll{overflow-x:auto;margin-top:16px;position:relative}
+    .models-table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px}
+    .models-table th{text-align:left;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em;
+      padding:8px 10px;border-bottom:1px solid var(--stroke)}
+    .models-table th.num,.models-table td.num{text-align:right;font-variant-numeric:tabular-nums}
+    .models-table td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.05)}
+    .models-table tbody tr{transition:.15s}
+    .models-table tbody tr:hover{background:rgba(255,255,255,.035)}
+    .models-table .elo{color:var(--blue);font-weight:700}
+    .models-table .model-name{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+    .models-table .lic{display:inline-block;padding:2px 8px;border-radius:999px;font-size:10.5px;font-weight:650;
+      text-transform:uppercase;letter-spacing:.05em;border:1px solid rgba(255,255,255,.09)}
+    .models-table .lic.abierto{color:#74d99a;background:rgba(116,217,154,.10)}
+    .models-table .lic.cerrado{color:rgba(255,255,255,.6);background:rgba(255,255,255,.05)}
+    .models-table .sin-precio{color:var(--muted);font-size:12px}
+    .models-foot{margin-top:10px;color:var(--muted);font-size:12px}
     @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
     @media (max-width:760px){
       .container{padding:36px 16px 60px}
@@ -506,6 +527,22 @@
 
     </section>
 
+<section class="panel models-panel" id="modelos">
+      <div class="models-head">
+        <h2>Ranking de modelos en vivo</h2>
+        <span class="fuente">Elo: <a href="https://arena.ai/leaderboard/text" target="_blank" rel="noopener">LMArena</a> · Precios: <a href="https://openrouter.ai/models" target="_blank" rel="noopener">OpenRouter</a></span>
+      </div>
+      <div class="models-scroll">
+        <table class="models-table">
+          <thead><tr>
+            <th class="num">Elo</th><th>Modelo</th><th>Organización</th><th>Licencia</th>
+            <th class="num">In $/1M</th><th class="num">Out $/1M</th><th class="num">Contexto</th>
+          </tr></thead>
+          <tbody id="modelsBody"><tr><td colspan="7" class="sin-precio">Cargando ranking…</td></tr></tbody>
+        </table>
+      </div>
+      <p class="models-foot" id="modelsFoot"></p>
+    </section>
     <section class="feedback" aria-labelledby="feedback-title">
       <div><h2 id="feedback-title">Ayúdanos a mejorar AI Informe</h2><p>¿Encontraste un error o tienes una idea? Tu feedback ayuda a priorizar la próxima edición.</p></div>
       <div class="feedback-actions">
@@ -589,5 +626,29 @@
   </script>
 
 
+
+<script>
+(function(){
+  fetch('modelos.json').then(r=>r.ok?r.json():Promise.reject(r.status)).then(d=>{
+    const tb=document.getElementById('modelsBody');
+    const fmt=v=>v==null?'—':(v>=1000?(v/1000).toFixed(0)+'K':v);
+    const $=v=>v==null?'<span class="sin-precio">—</span>':'$'+v.toFixed(2);
+    tb.innerHTML=d.modelos.map(m=>`<tr>
+      <td class="num elo">${m.elo}</td>
+      <td class="model-name">${m.modelo}</td>
+      <td>${m.org||'—'}</td>
+      <td><span class="lic ${m.licencia==='open'?'abierto':'cerrado'}">${m.licencia==='open'?'abierto':'cerrado'}</span></td>
+      <td class="num">${$(m.precio_in)}</td>
+      <td class="num">${$(m.precio_out)}</td>
+      <td class="num">${fmt(m.context)}</td>
+    </tr>`).join('');
+    document.getElementById('modelsFoot').textContent=
+      `Actualizado: ${d.actualizado} · ${d.total} modelos (${d.con_precio} con precio verificado en OpenRouter)`;
+  }).catch(e=>{
+    document.getElementById('modelsBody').innerHTML=
+      '<tr><td colspan="7" class="sin-precio">No se pudo cargar modelos.json ('+e+')</td></tr>';
+  });
+})();
+</script>
 </body>
 </html>
