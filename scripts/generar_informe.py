@@ -341,14 +341,28 @@ def classify_country(title: str, source: str) -> str:
     return "global"
 
 
-def collect_items(day: date, lookback_hours: int = 168) -> list[dict[str, Any]]:
+def _fetch_one(feed: tuple[str, str]) -> tuple[str, bytes | None]:
+    source, url = feed
+    # Cada feed se pide en paralelo con su propio timeout; un feed lento
+    # (p. ej. 36Kr que suele bloquear) ya no ralentiza al resto.
+    return source, fetch_url(url, timeout=10)
+
+
+def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -> list[dict[str, Any]]:
+    from concurrent.futures import ThreadPoolExecutor
+
     cutoff = datetime.combine(day, datetime.min.time(), tzinfo=timezone.utc)
     min_dt = cutoff - timedelta(hours=lookback_hours)
     seen: set[str] = set()
     collected: list[dict[str, Any]] = []
 
-    for source, url in FEEDS:
-        payload = fetch_url(url)
+    if parallel and len(FEEDS) > 1:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            results = list(pool.map(_fetch_one, FEEDS))
+    else:
+        results = [(f[0], fetch_url(f[1])) for f in FEEDS]
+
+    for source, payload in results:
         if not payload:
             continue
         for item in parse_feed(payload):
