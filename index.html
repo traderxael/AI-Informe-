@@ -65,24 +65,25 @@
       -webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);box-shadow:0 1px 0 rgba(255,255,255,.08) inset}
     .stat strong{display:block;font-size:26px;color:#fff;letter-spacing:-.03em;text-shadow:0 0 24px rgba(77,141,255,.55)}
     .stat span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.14em}
-    .toolbar{position:sticky;top:14px;z-index:20;padding:18px;margin-bottom:24px}
-    .search-row{display:flex;gap:10px}
-    .search{position:relative;flex:1}
-    .search svg{position:absolute;left:13px;top:13px;color:var(--muted)}
-    .search input{width:100%;height:46px;padding:0 14px 0 42px;border:1px solid var(--stroke);border-radius:12px;
-      background:rgba(0,0,0,.35);color:var(--text);outline:none;transition:.25s}
+    .toolbar{position:sticky;top:14px;z-index:20;padding:16px;margin-bottom:20px}
+    .search-row{margin-bottom:12px}
+    .search{position:relative;display:flex;align-items:center;background:rgba(0,0,0,.35);border:1px solid var(--stroke);border-radius:12px;transition:.25s;overflow:hidden}
+    .search:focus-within{border-color:var(--blue-line);box-shadow:0 0 0 4px rgba(77,141,255,.13);background:rgba(0,0,0,.5)}
+    .search-icon{position:absolute;left:14px;color:var(--muted);pointer-events:none;flex-shrink:0}
+    .search input{flex:1;height:44px;padding:0 44px 0 44px;border:none;background:transparent;color:var(--text);outline:none;font:inherit;font-size:14px;min-width:0}
     .search input::placeholder{color:rgba(139,147,161,.7)}
-    .search input:focus{border-color:var(--blue-line);box-shadow:0 0 0 4px rgba(77,141,255,.13);background:rgba(0,0,0,.5)}
-    .reset{border:1px solid var(--stroke);border-radius:12px;background:transparent;color:var(--muted);padding:0 16px;transition:.2s}
-    .reset:hover{color:#fff;border-color:var(--stroke-2)}
-    .filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px;position:relative}
-    .filter-label{color:var(--muted);font-size:11px;font-weight:700;margin-right:2px;text-transform:uppercase;letter-spacing:.1em}
+    .search-clear{position:absolute;right:10px;color:var(--muted);background:none;border:none;padding:6px;cursor:pointer;border-radius:6px;display:flex;align-items:center;justify-content:center;transition:.2s}
+    .search-clear:hover{color:#fff;background:rgba(255,255,255,.1)}
+    .search-clear:not([hidden]){display:flex}
+    .filters-row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
+    .filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:rgba(255,255,255,.03);border:1px solid var(--stroke);border-radius:12px;padding:10px 12px;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+    .filter-label{color:var(--muted);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;margin-right:8px}
     .filter-btn{border:1px solid var(--stroke);border-radius:999px;background:rgba(255,255,255,.04);color:var(--muted);
-      padding:7px 14px;font-size:12px;white-space:nowrap;transition:.2s;
-      -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+      padding:6px 12px;font-size:11px;white-space:nowrap;transition:.2s;
+      -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
     .filter-btn:hover{color:#fff;border-color:var(--stroke-2);background:rgba(255,255,255,.08);transform:translateY(-1px)}
     .filter-btn.active{background:linear-gradient(180deg,rgba(77,141,255,.95),rgba(38,99,225,.95));border-color:rgba(150,185,255,.55);
-      color:#fff;font-weight:650;box-shadow:0 4px 18px rgba(77,141,255,.38),0 1px 0 rgba(255,255,255,.25) inset}
+      color:#fff;font-weight:650;box-shadow:0 3px 14px rgba(77,141,255,.35),0 1px 0 rgba(255,255,255,.2) inset}
     .results-line{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;color:var(--muted);font-size:13px}
     .copy-status{color:var(--blue);min-height:20px}
     .result-list{display:grid;gap:12px}
@@ -188,51 +189,51 @@
         <label class="search" for="searchInput"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="searchInput" type="search" placeholder="Buscar en títulos, notas, modelos o países" autocomplete="off"></label>
         <button class="reset" id="resetBtn" type="button">Limpiar</button>
       </div>
-      <div class="filter-group" id="regionFilters"><span class="filter-label">País</span>
-        <button class="filter-btn active" data-filter-key="region" data-filter-value="all">Todos</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="usa">🇺🇸 Estados Unidos</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="china">🇨🇳 China</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="japan">🇯🇵 Japón</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="germany">🇩🇪 Alemania</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="france">🇫🇷 Francia</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="korea">🇰🇷 Corea del Sur</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="canada">🇨🇦 Canadá</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="russia">🇷🇺 Rusia</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="uae">🇦🇪 EAU</button>
-        <button class="filter-btn" data-filter-key="region" data-filter-value="england">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra</button>
+      <div class="filter-group" id="regionFilters" data-filter-key="region"><span class="filter-label">País</span>
+        <button class="filter-btn active" data-filter-value="all">Todos</button>
+        <button class="filter-btn" data-filter-value="usa">🇺🇸 EE. UU.</button>
+        <button class="filter-btn" data-filter-value="china">🇨🇳 China</button>
+        <button class="filter-btn" data-filter-value="japan">🇯🇵 Japón</button>
+        <button class="filter-btn" data-filter-value="germany">🇩🇪 Alemania</button>
+        <button class="filter-btn" data-filter-value="france">🇫🇷 Francia</button>
+        <button class="filter-btn" data-filter-value="korea">🇰🇷 Corea</button>
+        <button class="filter-btn" data-filter-value="canada">🇨🇦 Canadá</button>
+        <button class="filter-btn" data-filter-value="russia">🇷🇺 Rusia</button>
+        <button class="filter-btn" data-filter-value="uae">🇦🇪 EAU</button>
+        <button class="filter-btn" data-filter-value="england">🏴󠁧󠁢󠁥󠁮󠁧󠁿 UK</button>
       </div>
-      <div class="filter-group" id="modelFilters"><span class="filter-label">Modelo</span>
-        <button class="filter-btn active" data-filter-key="model" data-filter-value="all">Todos</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="claude">Claude</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="grok">Grok</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="gemini">Gemini</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="glm">GLM</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="qwen">Qwen</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="kimi">Kimi</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="deepseek">DeepSeek</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="minimax">MiniMax</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="tencent">Tencent</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="baidu">Baidu</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="bytebance">ByteDance</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="gpt5">GPT-5</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="llama4">Llama 4</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="perplexity">Perplexity</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="copilot">Microsoft Copilot</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="titan">Amazon Titan</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="mistral">Mistral</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="aleph-alpha">Aleph Alpha</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="black-forest">Black Forest</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="stability">Stability AI</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="deepl">DeepL</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="lighton">LightOn</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="cohere">Cohere</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="fugaku">Fugaku-LLM</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="hyperclora">HyperCLOVA</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="gigachat">Gigachat</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="kandinsky">Kandinsky</button>
-        <button class="filter-btn" data-filter-key="model" data-filter-value="falcon">Falcon</button>
+      <div class="filter-group" id="modelFilters" data-filter-key="model"><span class="filter-label">Modelo</span>
+        <button class="filter-btn active" data-filter-value="all">Todos</button>
+        <button class="filter-btn" data-filter-value="claude">Claude</button>
+        <button class="filter-btn" data-filter-value="grok">Grok</button>
+        <button class="filter-btn" data-filter-value="gemini">Gemini</button>
+        <button class="filter-btn" data-filter-value="glm">GLM</button>
+        <button class="filter-btn" data-filter-value="qwen">Qwen</button>
+        <button class="filter-btn" data-filter-value="kimi">Kimi</button>
+        <button class="filter-btn" data-filter-value="deepseek">DeepSeek</button>
+        <button class="filter-btn" data-filter-value="minimax">MiniMax</button>
+        <button class="filter-btn" data-filter-value="tencent">Tencent</button>
+        <button class="filter-btn" data-filter-value="baidu">Baidu</button>
+        <button class="filter-btn" data-filter-value="bytebance">ByteDance</button>
+        <button class="filter-btn" data-filter-value="gpt5">GPT-5</button>
+        <button class="filter-btn" data-filter-value="llama4">Llama 4</button>
+        <button class="filter-btn" data-filter-value="perplexity">Perplexity</button>
+        <button class="filter-btn" data-filter-value="copilot">Microsoft Copilot</button>
+        <button class="filter-btn" data-filter-value="titan">Amazon Titan</button>
+        <button class="filter-btn" data-filter-value="mistral">Mistral</button>
+        <button class="filter-btn" data-filter-value="aleph-alpha">Aleph Alpha</button>
+        <button class="filter-btn" data-filter-value="black-forest">Black Forest</button>
+        <button class="filter-btn" data-filter-value="stability">Stability AI</button>
+        <button class="filter-btn" data-filter-value="deepl">DeepL</button>
+        <button class="filter-btn" data-filter-value="lighton">LightOn</button>
+        <button class="filter-btn" data-filter-value="cohere">Cohere</button>
+        <button class="filter-btn" data-filter-value="fugaku">Fugaku-LLM</button>
+        <button class="filter-btn" data-filter-value="hyperclora">HyperCLOVA</button>
+        <button class="filter-btn" data-filter-value="gigachat">Gigachat</button>
+        <button class="filter-btn" data-filter-value="kandinsky">Kandinsky</button>
+        <button class="filter-btn" data-filter-value="falcon">Falcon</button>
       </div>
-      <div class="filter-group" id="sourceFilters"><span class="filter-label">Fuente</span>
+      <div class="filter-group" id="sourceFilters" data-filter-key="source"><span class="filter-label">Fuente</span>
         <button class="filter-btn active" data-filter-key="source" data-filter-value="all">Todas</button>
         <button class="filter-btn" data-filter-key="source" data-filter-value="lab">Laboratorios</button>
         <button class="filter-btn" data-filter-key="source" data-filter-value="research">Investigación</button>
