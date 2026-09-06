@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/modelos.json",
-      "dest": "/web/modelos.json"
+      "source": "/modelos.json",
+      "destination": "/web/modelos.json"
     },
     {
-      "src": "/informes.json",
-      "dest": "/web/informes.json"
+      "source": "/informes.json",
+      "destination": "/web/informes.json"
     },
     {
-      "src": "/informes-data.json",
-      "dest": "/web/informes-data.json"
+      "source": "/informes-data.json",
+      "destination": "/web/informes-data.json"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
