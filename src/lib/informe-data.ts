@@ -41,10 +41,10 @@ export const MODEL_META: Record<string, ModelMeta> = {
   ernie: { label: "ERNIE", lab: "Baidu", region: "china" },
   doubao: { label: "Doubao", lab: "ByteDance", region: "china" },
   fugaku: { label: "Fugaku", lab: "RIKEN", region: "west" },
-  hyperclova: { label: "HyperCLOVA", lab: "NAVER", region: "west" },
-  gigachat: { label: "GigaChat / Kandinsky", lab: "Sber", region: "west" },
-  falcon: { label: "Falcon", lab: "TII", region: "global" },
-};
+    hyperclova: { label: "HyperCLOVA", lab: "NAVER", region: "west" },
+    gigachat: { label: "GigaChat / Kandinsky", lab: "Sber", region: "west" },
+    falcon: { label: "Falcon", lab: "TII", region: "global" },
+  };
 
 export const COUNTRY_META: Record<string, { label: string; flag: string }> = {
   usa: { label: "Estados Unidos", flag: "🇺🇸" },
@@ -65,6 +65,18 @@ export const REGION_LABEL: Record<Region, string> = {
   china: "China",
   global: "Global",
 };
+
+// Los 7 modelos protagonistas de los países líderes (USA + China).
+// Son los que se muestran primero / destacan en el dashboard.
+export const TOP_MODELS: { id: string; countryId: keyof typeof COUNTRY_META | "global" }[] = [
+  { id: "gpt", countryId: "usa" },
+  { id: "gemini", countryId: "usa" },
+  { id: "claude", countryId: "usa" },
+  { id: "llama", countryId: "usa" },
+  { id: "deepseek", countryId: "china" },
+  { id: "qwen", countryId: "china" },
+  { id: "glm", countryId: "china" },
+];
 
 export const SOURCE_LABEL: Record<string, string> = {
   lab: "Laboratorio",
