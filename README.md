@@ -24,15 +24,10 @@
 ```
 AI-Informe-/
 ├── scripts/
-│   ├── generar_informe.py         # Script principal (RSS + scraping)
-│   ├── scraper_camoufox.py        # Scraper con Camoufox (anti-detección)
-│   └── resumir_con_llm.py         # Resúmenes con LLM (opcional)
-├── web/
-│   ├── index.html                 # Dashboard principal
-│   ├── informe.html               # Vista de un informe
-│   ├── styles.css                 # Estilos mejorados
-│   └── informes.json              # Datos para la web
-├── informes/
+│   ├── generar_informe.py         # Script principal (RSS → markdown)
+│   └── collect_signals.py         # Señales reales multi-país para la web
+├── web/                           # Generado por el pipeline (markdown → html/json)
+├── informes/                      # Informes diarios en markdown
 │   ├── _plantilla.md              # Plantilla base
 │   └── YYYY-MM-DD.md              # Informes diarios
 ├── .github/workflows/
@@ -56,20 +51,22 @@ AI-Informe-/
 # Solo RSS (rápido)
 python scripts/generar_informe.py
 
-# Con scraping avanzado (Camoufox)
-python scripts/generar_informe.py --scrape
+# Recolector de señales reales multi-país + traducción gratis
+python scripts/collect_signals.py
+```
 
-# Con resúmenes LLM
-python scripts/generar_informe.py --resumen --llm moonshot
+### Actualizar datos de la web
 
-# Forzar sobrescribir
-python scripts/generar_informe.py --force
+El sitio lee `public/signals.json` (señales reales con fuente enlazable):
+
+```bash
+python scripts/collect_signals.py   # regenera public/signals.json
 ```
 
 ### Ver la web
 
 ```bash
-cd web && python -m http.server 8080
+npm install && npm run dev
 # → http://localhost:8080
 ```
 
@@ -88,12 +85,13 @@ MOONSHOT_API_KEY=sk-...
 
 ## 🌐 Despliegue en Vercel
 
-El proyecto se despliega automáticamente desde GitHub.
+El proyecto se despliega automáticamente desde GitHub (rama `main`).
 
-Hay varias instancias del dashboard:
-- **Sitio principal:** https://ai-informe-dashboard.vercel.app
-- **Sitio anterior:** https://ai-informe.vercel.app _(migrar a principal)_
-- **Sitio personal:** https://ai-informe-dashboard-traderxael.vercel.app
+**Sitio:** https://ai-informe-dashboard.vercel.app
+
+> ⚠️ URLs eliminadas que ya no existen: `ai-informe.vercel.app` y `ai-informe-dashboard-traderxael.vercel.app` (404).
+>
+> ⚠️ `vercel.json` debe ser `"version": 2` — con `version: 3` Vercel rechaza el build por completo y la web queda congelada sin error visible.
 
 **Nota:** Si haces cambios en el workflow, asegúrate de que el repo tenga permisos de escritura en GitHub Actions.
 
@@ -103,13 +101,23 @@ Hay varias instancias del dashboard:
 
 | Fuente | Tipo | Frecuencia |
 |--------|------|------------|
-| OpenAI | Blog | Diario |
-| Google AI | Blog | Diario |
-| DeepMind | Blog | Diario |
-| TechCrunch AI | RSS | Diario |
-| The Verge AI | RSS | Diario |
-| Hacker News | Scraping | Diario |
-| ... | ... | ... |
+| Google News (global + 8 países) | RSS | Diario |
+| OpenAI / Google / DeepMind / Meta AI | Blog RSS | Diario |
+| TechCrunch / The Verge / Ars / VentureBeat / MIT TR | RSS | Diario |
+| Synced / 36Kr / QbitAI / DeepSeek | RSS | Diario |
+| Hacker News | RSS | Diario |
+| Reddit (r/artificial, r/MachineLearning…) | RSS | Diario (best-effort) |
+| X / Instagram / TikTok / Xiaohongshu | RSSHub (opt-in) | Diario si está configurado |
+
+### Capa social opt-in (X / Instagram / TikTok / Xiaohongshu)
+
+Estas redes no tienen API pública abierta. Para activarlas:
+
+1. Levanta tu propia instancia de [RSSHub](https://docs.rsshub.app/) con tus cookies/sesión.
+2. Define `RSSHUB_BASE_URL` en el environment del runner (o `.env` local).
+3. Copia `social_sources.example.json` → `social_sources.json` y rellena las cuentas.
+
+Si no está configurado, el pipeline sigue funcionando igual sin ellas.
 
 ---
 
