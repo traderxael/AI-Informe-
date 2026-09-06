@@ -4,6 +4,7 @@ import {
   COUNTRY_META,
   REGION_LABEL,
   SOURCE_LABEL,
+  TOP_MODELS,
   filterSignals,
   loadSignals,
   modelMeta,
@@ -64,9 +65,13 @@ export function WeekView() {
   }, [signals]);
 
   const modelOptions = useMemo(() => {
-    if (region === "all") return presentModels;
-    return presentModels.filter((m) => m.region === region);
-  }, [presentModels, region]);
+      // Primero los 7 modelos protagonistas (en orden curado), luego el resto.
+      const inRegion = region === "all" ? presentModels : presentModels.filter((m) => m.region === region);
+      const rank = new Map(TOP_MODELS.map((t, i) => [t.id, i]));
+      return [...inRegion].sort(
+        (a, b) => (rank.get(a.id) ?? 99) - (rank.get(b.id) ?? 99),
+      );
+    }, [presentModels, region]);
 
   const filtered = useMemo(() => {
     const base = filterSignals(signals, region, model, country);
@@ -132,42 +137,50 @@ export function WeekView() {
         </div>
 
         {modelOptions.length > 0 && (
-          <div>
-            <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Modelos</p>
-            <div className="flex flex-wrap gap-2">
-              <Chip active={model === "all"} onClick={() => setModel("all")} testId="model-all">
-                Todos
-              </Chip>
-              {modelOptions.map((m) => (
-                <Chip
-                  key={m.id}
-                  active={model === m.id}
-                  onClick={() => setModel(m.id)}
-                  testId={`model-${m.id}`}
-                >
-                  {m.label}
-                  <span className="text-subtle"> · {m.lab}</span>
-                </Chip>
-              ))}
-            </div>
-          </div>
-        )}
+                  <div>
+                    <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Modelos</p>
+                    <div className="flex flex-wrap gap-2">
+                      <Chip active={model === "all"} onClick={() => setModel("all")} testId="model-all">
+                        Todos
+                      </Chip>
+                      {modelOptions.map((m) => {
+                        const top = TOP_MODELS.find((t) => t.id === m.id);
+                        return (
+                          <Chip
+                            key={m.id}
+                            active={model === m.id}
+                            onClick={() => setModel(m.id)}
+                            testId={`model-${m.id}`}
+                          >
+                            {m.label}
+                            <span className="text-subtle"> · {m.lab}</span>
+                            {top && (
+                              <span className="text-[10px] font-semibold uppercase">
+                                {" "}{COUNTRY_META[top.countryId]?.flag}
+                              </span>
+                            )}
+                          </Chip>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
 
-        {presentCountries.length > 0 && (
-          <div>
-            <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">País</p>
-            <div className="flex flex-wrap gap-2">
-              <Chip active={country === "all"} onClick={() => setCountry("all")} testId="country-all">
-                Todos
-              </Chip>
-              {presentCountries.map((c) => (
-                <Chip key={c} active={country === c} onClick={() => setCountry(c)} testId={`country-${c}`}>
-                  {COUNTRY_META[c]?.flag ?? "🌐"} {COUNTRY_META[c]?.label ?? c}
-                </Chip>
-              ))}
-            </div>
-          </div>
-        )}
+                {presentCountries.length > 0 && (
+                  <div>
+                    <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">País</p>
+                    <div className="flex flex-wrap gap-2">
+                      <Chip active={country === "all"} onClick={() => setCountry("all")} testId="country-all">
+                        Todos
+                      </Chip>
+                      {presentCountries.map((c) => (
+                        <Chip key={c} active={country === c} onClick={() => setCountry(c)} testId={`country-${c}`}>
+                          {COUNTRY_META[c]?.flag ?? "🌐"} {COUNTRY_META[c]?.label ?? c}
+                        </Chip>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
         <label className="relative block">
           <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-subtle" />
