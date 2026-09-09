@@ -2,18 +2,6 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/modelos.json",
-      "destination": "/web/modelos.json"
-    },
-    {
-      "source": "/informes.json",
-      "destination": "/web/informes.json"
-    },
-    {
-      "source": "/informes-data.json",
-      "destination": "/web/informes-data.json"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
