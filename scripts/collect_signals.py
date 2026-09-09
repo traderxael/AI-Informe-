@@ -30,7 +30,12 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 WEB_DIR = ROOT / "public"
-OUT = WEB_DIR / "signals.json"
+# Output files: first 20, rest, and full (for backward compatibility)
+DATA_DIR = WEB_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+OUT_FIRST = DATA_DIR / "signals-first.json"
+OUT_REST = DATA_DIR / "signals-rest.json"
+OUT_FULL = WEB_DIR / "signals.json"  # backward compatibility
 
 SSL_CONTEXT = ssl.create_default_context()
 UA = {
@@ -402,6 +407,10 @@ def main() -> int:
         if len(final) >= MAX_TOTAL:
             break
 
+    # Compute statistics for printing
+    by_country = Counter(s["country"] for s in final)
+    with_model = sum(1 for s in final if s.get("models"))
+
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(final),
@@ -422,14 +431,38 @@ def main() -> int:
         with _TPE(max_workers=5) as ex:
             list(ex.map(_tr, final))
 
-    OUT.write_text(
+    # Write first 20 signals for initial load
+    signals_first = signals[:20]
+    signals_rest = signals[20:]
+
+    OUT_FIRST.write_text(
+        _json.dumps({
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "count": len(signals_first),
+            "sources": sorted({s["sourceLabel"] for s in signals_first}),
+            "signals": signals_first,
+        }, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    # Write the rest of the signals
+    OUT_REST.write_text(
+        _json.dumps({
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "count": len(signals_rest),
+            "sources": sorted({s["sourceLabel"] for s in signals_rest}),
+            "signals": signals_rest,
+        }, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    # Keep full signals.json for backward compatibility
+    OUT_FULL.write_text(
         _json.dumps(out, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
-    by_country = Counter(s["country"] for s in final)
-    with_model = sum(1 for s in final if s["models"])
-    print(f"✅ {len(final)} señales reales curadas -> {OUT}")
+    print(f"✅ {len(final)} señales reales curadas -> {OUT_FIRST} (+ {len(signals_rest)} more)")
     print(f"   países: {dict(by_country)}")
     print(f"   con modelo detectado: {with_model}/{len(final)}")
     print(f"   fuentes: {len(out['sources'])}")
