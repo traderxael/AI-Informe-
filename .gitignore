@@ -24,3 +24,4 @@ scripts/.env
 .env.local
 .env.*.local
 social_sources.json
+docker/rsshub/docker-compose.local.yml
