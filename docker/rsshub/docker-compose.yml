@@ -1,0 +1,21 @@
+# PLANTILLA / base comun (esto SI se commitea).
+# Tus cookies de verdad van en docker-compose.local.yml (INCLUDEDO en .gitignore),
+# que se junta encima y solo existe en tu maquina.
+
+services:
+  rsshub:
+    image: diygod/rsshub:latest
+    restart: unless-stopped
+    container_name: ai-informe-rsshub
+    ports:
+      - "1200:1200"
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: memory
+      PUPPETEER_WS_ENDPOINT: "ws://browserless:3000"
+      # Cookies reales: NO aqui. Ver docker-compose.local.yml (local solamente).
+
+  browserless:
+    image: browserless/chrome:latest
+    restart: unless-stopped
+    container_name: ai-informe-browserless
