@@ -1,0 +1,327 @@
+[
+  {
+    "region": "usa",
+    "models": "claude",
+    "source": "lab",
+    "title": "Claude Fable 5.1 llega al frente de razonamiento",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Laboratorio · Anthropic",
+      "Claude"
+    ],
+    "summary": "Anthropic publica Fable 5.1. En evaluaciones de agentes y corrección de código sigue liderando frente a GPT y Gemini en casos límite.",
+    "body": "Opus 5 y Fable 5.1 destacan en tareas de ingeniería con edge cases. El coste por token es más alto que Gemini Flash o GLM, pero la tasa de éxito en flujos largos justifica el premium para trabajo de producto."
+  },
+  {
+    "region": "usa",
+    "models": "grok",
+    "source": "lab",
+    "title": "Grok 4.6: más cerca del tope, más barato por token",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Laboratorio · xAI",
+      "Grok"
+    ],
+    "summary": "xAI sitúa Grok 4.6 a pocos puntos del líder, con precio agresivo y una ventaja clara: búsqueda en vivo y contexto actualizado.",
+    "body": "Si el trabajo depende de la web en tiempo real, Grok aparece como una opción occidental competitiva por coste y actualidad. SuperGrok Heavy se adapta a suscriptores de alto volumen."
+  },
+  {
+    "region": "usa",
+    "models": "gemini",
+    "source": "lab",
+    "title": "Gemini 3.7 Flash: volumen y código a precio promocional",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Laboratorio · Google",
+      "Gemini"
+    ],
+    "summary": "Google baja de precio Flash hasta fin de año. Es el modelo occidental más eficiente para volumen, con salto claro en código vs. 3.6.",
+    "body": "Equipos lo usan para generadores de sitios, simuladores y pipelines de agentes. La conversación: Flash para escala, Claude para precisión. Google Ultra mantiene el techo de capacidad."
+  },
+  {
+    "region": "usa",
+    "models": "gpt5",
+    "source": "lab",
+    "title": "GPT-5: razonamiento y código, menos alucinaciones",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Laboratorio · OpenAI",
+      "GPT-5"
+    ],
+    "summary": "OpenAI lanza GPT-5 con mejora medible en razonamiento multi-paso, código y menor tasa de alucinaciones vs. GPT-4o. Sube el techo de contexto y reduce el coste por millón de tokens de entrada.",
+    "body": "GPT-5 se enfrenta directamente a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La ventaja clara: integración con el ecosistema de productos de OpenAI (ChatGPT, API, plugins). La pregunta abierta: coste por tarea vs. coste por token."
+  },
+  {
+    "region": "usa",
+    "models": "llama4",
+    "source": "open-source",
+    "title": "Llama 4: el paraguas abierto que cubre frontera, código y multimodales",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Open source · Meta",
+      "Llama 4"
+    ],
+    "summary": "Meta publica Llama 4 con variantes de texto, código y multimodales bajo licencia abierta. El ecosistema de terceros lo adapta a hardware modesto y casos de uso locales.",
+    "body": "Llama 4 consolida la estrategia de Meta: modelo abierto que atrae desarrolladores y reduce dependencia de APIs. La conversación en la comunidad: cuánto de la frontera se cierra con el peso abierto y quién puede alojarlo en producción."
+  },
+  {
+    "region": "usa",
+    "models": "perplexity",
+    "source": "market",
+    "title": "Perplexity: búsqueda en vivo como rol de modelo",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Mercado · Perplexity",
+      "Perplexity"
+    ],
+    "summary": "Perplexity consolida su posición como motor de búsqueda conversacional con acceso a fuentes en vivo. Su ventaja: citación de fuentes y contexto actualizado frente a modelos cerrados.",
+    "body": "Perplexity no compite en benchmarks puros: compete en la tarea de encontrar información actualizada y citada. La pregunta abierta: si los laboratorios cierran sus propios puentes a datos en vivo, ¿qué espacio queda para intermediarios?"
+  },
+  {
+    "region": "usa",
+    "models": "copilot",
+    "source": "market",
+    "title": "Microsoft Copilot: integración con Office como rol de producto",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Mercado · Microsoft",
+      "Microsoft Copilot"
+    ],
+    "summary": "Microsoft mueve Copilot desde demo a producto integrado en Word, Excel, PowerPoint y Teams. El valor no está en el modelo, está en la integración del flujo de trabajo.",
+    "body": "Copilot gana cuando el caso de uso son documentos, hojas de cálculo y reuniones estructuradas. La conversación en la industria: si el modelo se vuelve commodity, la ventaja es la capa de integración, no el backend."
+  },
+  {
+    "region": "usa",
+    "models": "titan",
+    "source": "market",
+    "title": "Amazon Titan: infraestructura como rol de modelo",
+    "tags": [
+      "🇺🇸 Estados Unidos",
+      "Mercado · Amazon",
+      "Amazon Titan"
+    ],
+    "summary": "Amazon mantiene Titan como modelo nativo de AWS, optimizado para el ecosistema de la plataforma. El valor: disponibilidad, latencia y coste dentro del ecosistema cloud de Amazon.",
+    "body": "Titan no compite en benchmarks de frontera: compite en tareas corporativas dentro de AWS. La pregunta abierta: si las empresas migran modelos a la nube del proveedor, ¿qué modelo elige cada vez más el arquitecto?"
+  },
+  {
+    "region": "china",
+    "models": "deepseek",
+    "source": "lab",
+    "title": "DeepSeek V3.2: sparse attention, código y razonamiento a costo menor",
+    "tags": [
+      "🇨🇳 China",
+      "Laboratorio · DeepSeek",
+      "DeepSeek"
+    ],
+    "summary": "DeepSeek publica V3.2 en diciembre 2025 con 671B parámetros totales (37B activos por token), 128K contexto y DeepSeek Sparse Attention que reduce costo de contexto largo ~50%. SWE-bench Verified 67.8%, LiveCodeBench 74.1%, AIME 2025 89.3%.",
+    "body": "V3.2 es MoE con 256 experts + 1 shared expert, MLA, FP8 training, multi-token prediction y DSA. Precios: $0.25/1M input, $0.80/1M output. MIT license, open weights en HuggingFace. Fue flag ship hasta V4 (24-abril-2026)."
+  },
+  {
+    "region": "china",
+    "models": "minimax",
+    "source": "lab",
+    "title": "MiniMax Hailuo 3: el más usado para integraciones de chat en la nube",
+    "tags": [
+      "🇨🇳 China",
+      "Laboratorio · MiniMax",
+      "MiniMax"
+    ],
+    "summary": "MiniMax consolida Hailuo 3 como el modelo más adoptado en integraciones de chat y asistentes en la nube dentro de China. Su ventaja: precio, latencia y ecosistema de clientes empresariales.",
+    "body": "Hailuo 3 se enfrenta a GLM-5.3 y Kimi K3 en uso diario. La conversación en la industria china: si el modelo de chat se vuelve commodity, la ventaja es la capa de integración del proveedor, no el backend."
+  },
+  {
+    "region": "china",
+    "models": "tencent",
+    "source": "lab",
+    "title": "Tencent HunyuanVideo 1.5: video generativo open-source con 8.3B parámetros",
+    "tags": [
+      "🇨🇳 China",
+      "Laboratorio · Tencent",
+      "Tencent"
+    ],
+    "summary": "Tencent publica HunyuanVideo 1.5, modelo de video de 8.3B parámetros con calidad SOTA entre open-source, corrección física, coherencia de escena, cámara nativa y acción continua. Soporta T2V e I2V en 480p y 720p.",
+    "body": "Arquitectura DiT con SSTA (selective + sliding tile attention), codificación de texto glyph-aware, pre-entrenamiento progresivo y red de super-resolución video. Optimizado para GPUs de consumo: RTX 4090 con step-distilled genera en 8-12 steps (~75% más rápido)."
+  },
+  {
+    "region": "china",
+    "models": "baidu",
+    "source": "lab",
+    "title": "Baidu ERNIE 5.0: multimodal unificado de 2.4T parámetros",
+    "tags": [
+      "🇨🇳 China",
+      "Laboratorio · Baidu",
+      "Baidu"
+    ],
+    "summary": "Baidu lanza ERNIE 5.0 el 22-enero-2026 con 2.4T parámetros, arquitectura de modelo multimodal unificado nativo (texto, imagen, video, audio en mismo backbone autoregresivo). Top #1 en LMArena texto en China, #8 global con score 1460 (15-jan-2026), superando GPT-5.1-High y Gemini-2.5-Pro.",
+    "body": "ERNIE 5.0 supera limitaciones de late-fusion (decoders especializados pegados a backbone de lenguaje). Soporta entrada/salida de texto, imagen, audio y video. ERNIE 5.1 (mayo 2026) mejora agentes y razonamiento con disaggregated asynchronous RL; arquitectura unificada de Baidu: texto + imagen + video + audio."
+  },
+  {
+    "region": "china",
+    "models": "bytebance",
+    "source": "lab",
+    "title": "ByteDance doubao 3: el modelo de contenido de Douyin y TikTok",
+    "tags": [
+      "🇨🇳 China",
+      "Laboratorio · ByteDance",
+      "ByteDance"
+    ],
+    "summary": "ByteDance consolida doubao 3 como el modelo principal de generación de contenido, búsqueda y agentes dentro de Douyin, TikTok y productos relacionados. Su ventaja: integración con la red social global más grande.",
+    "body": "doubao 3 es el modelo multimodal de ByteDance para generación de contenido, búsqueda conversacional y agentes. Se despliega dentro de Douyin (China) y TikTok (global) como el modelo de generación de contenido principal."
+  },
+  {
+    "region": "germany",
+    "models": "mistral",
+    "source": "lab",
+    "title": "Mistral Large 3: el modelo europeo de frontera",
+    "tags": [
+      "🇩🇪 Alemania",
+      "Laboratorio · Mistral",
+      "Mistral"
+    ],
+    "summary": "Mistral publica Large 3 con mejora en razonamiento, código y capacidades multimodales vs. la generación anterior. Combina estado de la frontera con precio competitivo y disponibilidad global.",
+    "body": "Mistral Large 3 se posiciona como el modelo europeo de referencia para empresas y desarrolladores. Su ventaja: coste por millón de tokens competitivo frente a los laboratorios americanos, disponibilidad en la UE y opciones de despliegue local."
+  },
+  {
+    "region": "germany",
+    "models": "aleph-alpha",
+    "source": "research",
+    "title": "Aleph Alpha: la investigación de agentes en la UE",
+    "tags": [
+      "🇩🇪 Alemania",
+      "Investigación · Aleph Alpha",
+      "Aleph Alpha"
+    ],
+    "summary": "Aleph Alpha publica investigación sobre agentes multi-paso, memoria de largo plazo y razonamiento explicarle dentro de la UE. Su ventaja: investigación de alto nivel y modelo de pesquisa europea.",
+    "body": "Aleph Alpha se enfrenta a Claude Fable y Gemini 3.7 Flash en investigación de agentes. La conversación en la UE: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?"
+  },
+  {
+    "region": "germany",
+    "models": "black-forest",
+    "source": "open-source",
+    "title": "Black Forest Labs: el líder europeo en generación de imágenes",
+    "tags": [
+      "🇩🇪 Alemania",
+      "Open source · Black Forest Labs",
+      "Black Forest"
+    ],
+    "summary": "Black Forest Labs publica Fluidex con mejora en calidad, diversidad y eficiencia vs. la generación anterior. Su ventaja: código abierto, calidad europea y disponibilidad global.",
+    "body": "Fluidex se enfrenta a Stability AI y DeepL en generación de imágenes. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?"
+  },
+  {
+    "region": "france",
+    "models": "stability",
+    "source": "open-source",
+    "title": "Stability AI: generación de video europea",
+    "tags": [
+      "🇫🇷 Francia",
+      "Open source · Stability AI",
+      "Stability AI"
+    ],
+    "summary": "Stability AI publica Stable Video 3 con mejora en calidad, diversidad y eficiencia vs. la generación anterior. Su ventaja: código abierto, calidad europea y disponibilidad global.",
+    "body": "Stable Video 3 se enfrenta a Black Forest Labs y DeepL en generación de video. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?"
+  },
+  {
+    "region": "france",
+    "models": "deepl",
+    "source": "lab",
+    "title": "DeepL: la traducción de documentos como rol de modelo",
+    "tags": [
+      "🇫🇷 Francia",
+      "Laboratorio · DeepL",
+      "DeepL"
+    ],
+    "summary": "DeepL consolida su posición como motor de traducción de documentos con acceso a modelos de lenguaje de alto nivel. Su ventaja: calidad de traducción, privacidad y integración con documentos.",
+    "body": "DeepL no compite en benchmarks de frontera: compite en tareas de traducción de documentos dentro de la UE y globalmente. La pregunta abierta: si los laboratorios cierran sus propios puentes a datos de traducción, ¿qué espacio queda para intermediarios?"
+  },
+  {
+    "region": "france",
+    "models": "lighton",
+    "source": "lab",
+    "title": "LightOn: los modelos de lenguaje europeos de Francia",
+    "tags": [
+      "🇫🇷 Francia",
+      "Laboratorio · LightOn",
+      "LightOn"
+    ],
+    "summary": "LightOn publica modelos de lenguaje de alto nivel con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en la UE y globalmente.",
+    "body": "LightOn se enfrenta a Mistral Large 3 y Aleph Alpha en investigación de agentes. La conversación en Europa: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador europeo?"
+  },
+  {
+    "region": "japan",
+    "models": "fugaku",
+    "source": "lab",
+    "title": "Fugaku-LLM: Japón se acerca a la frontera con el supercomputador privilegiado",
+    "tags": [
+      "🇯🇵 Japón",
+      "Laboratorio · RIKEN",
+      "Fugaku-LLM"
+    ],
+    "summary": "RIKEN y socios publican Fugaku-LLM entrenado en el supercomputador Fugaku. El modelo compite en benchmarks japoneses y de lenguaje natural asiático. Su ventaja: acceso al hardware privilegiado y colaboración institucional.",
+    "body": "Fugaku-LLM se enfrenta a HyperCLOVA X y Kimi K3 en el ecosistema asiático. La conversación en Japón: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador japonés?"
+  },
+  {
+    "region": "korea",
+    "models": "hyperclora",
+    "source": "lab",
+    "title": "HyperCLOVA X: Corea del Sur impulsa su industria con el modelo de NAVER",
+    "tags": [
+      "🇰🇷 Corea del Sur",
+      "Laboratorio · NAVER",
+      "HyperCLOVA"
+    ],
+    "summary": "NAVER consolida HyperCLOVA X como el modelo multimodal de propósito general de su ecosistema. Su ventaja: integración con Naver Search, Naver Cloud y productos de IA de la compañía.",
+    "body": "HyperCLOVA X se enfrenta a Fugaku-LLM y Kimi K3 en el ecosistema asiático. La conversación en Corea del Sur: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador coreano?"
+  },
+  {
+    "region": "canada",
+    "models": "cohere",
+    "source": "lab",
+    "title": "Cohere: los modelos de lenguaje canadienses de la frontera",
+    "tags": [
+      "🇨🇦 Canadá",
+      "Laboratorio · Cohere",
+      "Cohere"
+    ],
+    "summary": "Cohere publica Command R 3 con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en Canadá y globalmente.",
+    "body": "Command R 3 se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en Canadá: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador canadiense?"
+  },
+  {
+    "region": "russia",
+    "models": "gigachat",
+    "source": "lab",
+    "title": "Gigachat 3.1 Ultra: Rusia avanza en modelos de lenguaje de alto nivel",
+    "tags": [
+      "🇷🇺 Rusia",
+      "Laboratorio · Sber",
+      "Gigachat"
+    ],
+    "summary": "Sber publica Gigachat 3.1 Ultra con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en Rusia y globalmente.",
+    "body": "Gigachat 3.1 Ultra se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en Rusia: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador ruso?"
+  },
+  {
+    "region": "russia",
+    "models": "kandinsky",
+    "source": "open-source",
+    "title": "Kandinsky 4: generación de video ruso de alta calidad",
+    "tags": [
+      "🇷🇺 Rusia",
+      "Open source · Sber",
+      "Kandinsky"
+    ],
+    "summary": "Sber publica Kandinsky 4 con mejora en calidad, diversidad y eficiencia vs. la generación anterior. Su ventaja: código abierto, calidad rusa y disponibilidad global.",
+    "body": "Kandinsky 4 se enfrenta a Stability AI y Black Forest Labs en generación de video. La conversación en Rusia: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador ruso?"
+  },
+  {
+    "region": "uae",
+    "models": "falcon",
+    "source": "lab",
+    "title": "Falcon 2.5: EAU invierte en modelos de lenguaje de alto nivel",
+    "tags": [
+      "🇦🇪 EAU",
+      "Laboratorio · TII",
+      "Falcon"
+    ],
+    "summary": "TII publica Falcon 2.5 con mejora en razonamiento, código y multimodales vs. la generación anterior. Su ventaja: precio, latencia y disponibilidad en EAU y globalmente.",
+    "body": "Falcon 2.5 se enfrenta a Claude Fable y Gemini 3.7 Flash en benchmarks de agentes. La conversación en EAU: si el modelo de código abierto o semi-abierto puede competir con frontera cerrada, ¿qué modelo elige cada vez más el desarrollador de EAU?"
+  }
+]
