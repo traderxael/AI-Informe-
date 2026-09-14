@@ -2,8 +2,44 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/pwa/(.*)",
+      "destination": "/pwa/$1"
+    },
+    {
+      "source": "/web/(.*)",
+      "destination": "/web/$1"
+    },
+    {
+      "source": "/sw.js",
+      "destination": "/sw.js"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Service-Worker-Allowed",
+          "value": "/"
+        }
+      ]
+    },
+    {
+      "source": "/pwa/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=3600"
+        }
+      ]
     }
   ]
 }
