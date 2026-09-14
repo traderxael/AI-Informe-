@@ -1,23 +1,5 @@
 {
   "version": 2,
-  "rewrites": [
-    {
-      "source": "/pwa/(.*)",
-      "destination": "/pwa/$1"
-    },
-    {
-      "source": "/web/(.*)",
-      "destination": "/web/$1"
-    },
-    {
-      "source": "/sw.js",
-      "destination": "/sw.js"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
   "headers": [
     {
       "source": "/sw.js",

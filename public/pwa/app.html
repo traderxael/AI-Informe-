@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#0a0a0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>AI Informe</title>
+  <link rel="manifest" href="/pwa/manifest.json">
+  <link rel="icon" href="/pwa/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/pwa/icons/icon-192.png">
+  <link rel="stylesheet" href="/web/styles.css">
+  <style>
+    /* PWA Mobile App Shell */
+    body {
+      overscroll-behavior: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .pwa-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16162a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .pwa-header h1 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+    }
+    .pwa-header .badge {
+      font-size: 0.6rem;
+      background: var(--accent);
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .pwa-nav {
+      display: flex;
+      gap: 0.25rem;
+      overflow-x: auto;
+      padding: 0.5rem 1rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+    .pwa-nav::-webkit-scrollbar { display: none; }
+    .pwa-nav-btn {
+      flex-shrink: 0;
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .pwa-nav-btn.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    .pwa-content {
+      padding: 1rem;
+      padding-bottom: 4rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .pwa-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      transition: all 0.2s;
+    }
+    .pwa-card:active {
+      transform: scale(0.98);
+    }
+    .pwa-card h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+    .pwa-card .meta {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .pwa-card .summary {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+    .pwa-card .tag {
+      display: inline-block;
+      font-size: 0.6rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      background: var(--surface2);
+      color: var(--accent2);
+      margin-right: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+    .pwa-section-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent2);
+      margin: 1.5rem 0 0.75rem;
+      font-weight: 700;
+    }
+    .pwa-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 0.5rem 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .pwa-footer a {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.15rem;
+    }
+    .pwa-footer a.active {
+      color: var(--accent);
+    }
+    .pwa-footer .icon {
+      font-size: 1.2rem;
+    }
+    .install-btn {
+      position: fixed;
+      bottom: 4rem;
+      right: 1rem;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 999px;
+      padding: 0.6rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      display: none;
+      z-index: 99;
+    }
+    .loading {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+    }
+    .skeleton {
+      background: linear-gradient(90deg, var(--surface) 25%, var(--surface2) 50%, var(--surface) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: var(--radius);
+      height: 80px;
+      margin-bottom: 0.75rem;
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="pwa-header">
+    <h1>AI Informe</h1>
+    <span class="badge">HOY</span>
+  </header>
+
+  <nav class="pwa-nav" id="pwaNav">
+    <button class="pwa-nav-btn active" data-filter="all">Todos</button>
+    <button class="pwa-nav-btn" data-filter="ia">IA</button>
+    <button class="pwa-nav-btn" data-filter="china">China</button>
+    <button class="pwa-nav-btn" data-filter="tech">Nuevas Tech</button>
+    <button class="pwa-nav-btn" data-filter="guerra">Guerra</button>
+    <button class="pwa-nav-btn" data-filter="mercados">Mercados</button>
+  </nav>
+
+  <main class="pwa-content" id="pwaContent">
+    <div class="loading">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <p>Cargando informes…</p>
+    </div>
+  </main>
+
+  <button class="install-btn" id="installBtn">📲 Instalar App</button>
+
+  <footer class="pwa-footer">
+    <a href="/" class="active" data-nav="home">
+      <span class="icon">📰</span>
+      Inicio
+    </a>
+    <a href="/pwa/app.html" data-nav="app">
+      <span class="icon">📱</span>
+      App
+    </a>
+    <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noopener" data-nav="repo">
+      <span class="icon">💻</span>
+      Repo
+    </a>
+  </footer>
+
+  <script>
+    // Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(reg => console.log('SW registered:', reg.scope))
+          .catch(err => console.log('SW registration failed:', err));
+      });
+    }
+
+    // PWA Install Prompt
+    let deferredPrompt;
+    const installBtn = document.getElementById('installBtn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      installBtn.style.display = 'block';
+    });
+
+    installBtn.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      if (outcome === 'accepted') installBtn.style.display = 'none';
+      deferredPrompt = null;
+    });
+
+    // App State
+    let allReports = [];
+    let currentFilter = 'all';
+
+    // DOM Elements
+    const content = document.getElementById('pwaContent');
+    const nav = document.getElementById('pwaNav');
+
+    // Navigation
+    nav.addEventListener('click', (e) => {
+      if (!e.target.dataset.filter) return;
+      currentFilter = e.target.dataset.filter;
+      nav.querySelectorAll('.pwa-nav-btn').forEach(btn => {
+        btn.classList.toggle('active', btn === e.target);
+      });
+      render();
+    });
+
+    // Footer navigation
+    document.querySelectorAll('[data-nav]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        document.querySelectorAll('[data-nav]').forEach(l => l.classList.remove('active'));
+        e.currentTarget.classList.add('active');
+      });
+    });
+
+    // Parse report data inline (from informes.json structure)
+    async function loadReports() {
+      try {
+        const res = await fetch('/web/informes.json');
+        const data = await res.json();
+        allReports = data.map(r => ({
+          ...r,
+          category: categorize(r.title, r.summary)
+        }));
+        render();
+      } catch (err) {
+        content.innerHTML = '<div class="loading"><p>Error cargando informes. Verifica tu conexión.</p></div>';
+      }
+    }
+
+    function categorize(title, summary) {
+      const text = (title + ' ' + summary).toLowerCase();
+      if (text.includes('guerra') || text.includes('oil') || text.includes('ucrania') || text.includes('saudi') || text.includes('iran')) return 'guerra';
+      if (text.includes('shanghai') || text.includes('hang seng') || text.includes('s&p') || text.includes('ftse') || text.includes('mercado') || text.includes('stock')) return 'mercados';
+      if (text.includes('deepseek') || text.includes('enflame') || text.includes('huawei') || text.includes('china') || text.includes('moonshot')) return 'china';
+      if (text.includes('quantum') || text.includes('fusion') || text.includes('perovskite') || text.includes('robot') || text.includes('tech') || text.includes('tecnolog')) return 'tech';
+      return 'ia';
+    }
+
+    function render() {
+      const filtered = currentFilter === 'all'
+        ? allReports
+        : allReports.filter(r => r.category === currentFilter);
+
+      if (filtered.length === 0) {
+        content.innerHTML = '<div class="loading"><p>No hay informes en esta categoría.</p></div>';
+        return;
+      }
+
+      const sections = {
+        ia: '🧠 Inteligencia Artificial',
+        china: '🇨🇳 China y Tecnología',
+        tech: '🚀 Nuevas Tecnologías',
+        guerra: '⚔️ Guerra y Geopolítica',
+        mercados: '📈 Mercados'
+      };
+
+      let html = '';
+      const grouped = {};
+
+      filtered.forEach(r => {
+        if (!grouped[r.category]) grouped[r.category] = [];
+        grouped[r.category].push(r);
+      });
+
+      for (const [cat, reports] of Object.entries(grouped)) {
+        html += `<h2 class="pwa-section-title">${sections[cat] || cat}</h2>`;
+        reports.forEach(r => {
+          const dateStr = r.date || '';
+          const title = r.title || 'Informe';
+          const summary = (r.summary || '').substring(0, 120);
+          const link = r.file || '#';
+          html += `
+            <a href="/web/${link}" class="pwa-card" style="text-decoration:none;color:inherit;display:block;">
+              <div class="meta">${dateStr}</div>
+              <h3>${title}</h3>
+              <div class="summary">${summary}…</div>
+              <div style="margin-top:0.5rem;">
+                <span class="tag">${cat.toUpperCase()}</span>
+              </div>
+            </a>
+          `;
+        });
+      }
+
+      content.innerHTML = html;
+    }
+
+    // Initialize
+    loadReports();
+  </script>
+</body>
+</html>
