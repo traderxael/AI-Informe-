@@ -14,6 +14,7 @@ No usa LLM: el resumen es el extracto original (idioma de origen).
 from __future__ import annotations
 
 import hashlib
+import html as _html
 import json as _json
 import os
 import re
@@ -160,6 +161,23 @@ def parse_date(v: str) -> str | None:
         return None
 
 
+def clean_text(v: str) -> str:
+    """Decodifica entidades HTML (&nbsp; &amp; ...) y colapsa espacios."""
+    v = _html.unescape(v)
+    return re.sub(r"\s+", " ", v).strip()
+
+
+def split_gnews_title(title: str) -> tuple[str, str]:
+    """Google News anteponga el medio al final: 'Titular - The Washington Post'.
+
+    Devuelve (titular, medio). Si no hay sufijo reconocible, medio=''.
+    """
+    m = re.match(r"^(.*?)\s+-\s+(\S[^:]{0,60})$", title)
+    if m and m.group(1).strip():
+        return m.group(1).strip(), m.group(2).strip()
+    return title, ""
+
+
 # ------------------------------------------------------------------ parseo ---
 def parse_rss_items(data: bytes) -> list[dict[str, Any]]:
     try:
@@ -175,14 +193,13 @@ def parse_rss_items(data: bytes) -> list[dict[str, Any]]:
         for child in list(node):
             c = local(child.tag).lower()
             if c == "title":
-                title = re.sub(r"\s+", " ", txt(child))
+                title = clean_text(txt(child))
             elif c == "link":
                 href = child.attrib.get("href") or txt(child)
                 if href:
                     link = href.strip()
             elif c in {"description", "summary", "content"} and not summary:
-                summary = re.sub(r"<[^>]+>", " ", txt(child))
-                summary = re.sub(r"\s+", " ", summary).strip()[:400]
+                summary = clean_text(re.sub(r"<[^>]+>", " ", txt(child)))[:400]
             elif c in {"pubdate", "published", "updated", "date"}:
                 published = parse_date(txt(child)) or published
         if title:
@@ -320,14 +337,26 @@ def recolectar() -> list[dict[str, Any]]:
             return
         seen.add(key)
         title = it["title"]
+        publisher = ""
+        if source.startswith("Google News"):
+            # 'Titular - Medio' -> titular limpio + medio real guardado aparte.
+            title, publisher = split_gnews_title(title)
         models = classify_models(f"{title} {source}")
         country = classify_country(title, source, hint)
+        summary = it.get("summary") or ""
+        if publisher and summary.endswith(publisher):
+            # El extracto de Google News termina pegado al medio: '... says  The Washington Post'
+            summary = summary[: -len(publisher)].rstrip(" -–  ")
+        if summary.strip().lower() == title.strip().lower():
+            # El RSS duplica el titular como descripción: mejor sin resumen.
+            summary = ""
         items.append({
             "id": hashlib.sha1(key.encode()).hexdigest()[:12],
             "title": title,
-            "summary": it.get("summary") or "",
+            "summary": summary,
             "sourceUrl": it.get("url") or "",
             "sourceLabel": source,
+            "publisher": publisher,
             "region": ("china" if country == "china" else
                        "west" if country in
                        {"usa", "japan", "germany", "france", "korea", "canada",

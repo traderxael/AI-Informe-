@@ -6,6 +6,7 @@ export type Signal = {
   summary: string;
   sourceUrl?: string;
   sourceLabel?: string;
+  publisher?: string;
   region: Region;
   country?: string;
   models: string[];
