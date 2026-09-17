@@ -108,27 +108,50 @@ export function filterSignals(
 
 export type SignalsBundle = { signals: Signal[]; generatedAt?: string };
 
-// Datos reales de public/signals.json. Si falla (offline/dev), caen en
-// un fallback mínimo para que la página nunca quede en blanco.
+type SignalsPayload = { signals?: Signal[]; generated_at?: string };
+
+// Carga progresiva: los primeros 20 (signals-first.json) para pintar al
+// instante con payload mínimo. Si falta (run viejo / dev), cae al JSON
+// completo y después a un fallback mínimo: la página nunca queda en blanco.
 export async function loadSignals(): Promise<SignalsBundle> {
+  try {
+    const res = await fetch("/data/signals-first.json", { cache: "no-store" });
+    if (res.ok) {
+      const data = (await res.json()) as SignalsPayload;
+      if (data && Array.isArray(data.signals) && data.signals.length) {
+        return { signals: data.signals, generatedAt: data.generated_at };
+      }
+    }
+  } catch {
+    // fallback abajo
+  }
   try {
     const res = await fetch("/signals.json", { cache: "no-store" });
     if (res.ok) {
-      const data = (await res.json()) as {
-        signals?: Signal[];
-        generated_at?: string;
-      };
+      const data = (await res.json()) as SignalsPayload;
       if (data && Array.isArray(data.signals) && data.signals.length) {
-        return {
-          signals: data.signals,
-          generatedAt: data.generated_at,
-        };
+        return { signals: data.signals, generatedAt: data.generated_at };
       }
     }
   } catch {
     // fetch fallback abajo
   }
   return { signals: DEFAULT_SIGNALS };
+}
+
+// El resto de las señales (signals-rest.json), para cargar en segundo plano
+// tras el primer render. Devuelve [] si falta el archivo o no hay red.
+export async function loadRestSignals(): Promise<Signal[]> {
+  try {
+    const res = await fetch("/data/signals-rest.json", { cache: "no-store" });
+    if (res.ok) {
+      const data = (await res.json()) as SignalsPayload;
+      if (data && Array.isArray(data.signals)) return data.signals;
+    }
+  } catch {
+    // sin red / dev: quedarse con lo cargado
+  }
+  return [];
 }
 
 // Fallback mínimo (solo para no mostrar página vacía si no hay datos).
