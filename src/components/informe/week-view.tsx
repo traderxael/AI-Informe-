@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
-import { ChevronDown, ExternalLink, Globe2, Landmark, Search } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search } from "lucide-react";
 import {
   COUNTRY_META,
   SOURCE_LABEL,
   TOP_MODELS,
   filterSignals,
+  loadRestSignals,
   loadSignals,
   modelMeta,
   type Region,
@@ -41,6 +42,30 @@ function relativeDate(iso?: string): string {
   return new Date(iso).toLocaleDateString("es-CL", { month: "short", day: "numeric" });
 }
 
+function dayKey(iso?: string): string {
+  if (!iso) return "sin fecha";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "sin fecha";
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const that = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const diffDays = Math.round((today.getTime() - that.getTime()) / 86_400_000);
+  if (diffDays === 0) return "Hoy";
+  if (diffDays === 1) return "Ayer";
+  return d.toLocaleDateString("es-CL", { weekday: "long", day: "numeric", month: "short" });
+}
+
+function groupByDay(signals: Signal[]): [string, Signal[]][] {
+  const groups = new Map<string, Signal[]>();
+  for (const s of signals) {
+    const k = dayKey(s.published);
+    const list = groups.get(k);
+    if (list) list.push(s);
+    else groups.set(k, [s]);
+  }
+  return [...groups.entries()];
+}
+
 export function WeekView() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
@@ -50,17 +75,78 @@ export function WeekView() {
   const [query, setQuery] = useState("");
   const [openId, setOpenId] = useState<string | null>(null);
   const [moreFilters, setMoreFilters] = useState(false);
+  const [showTop, setShowTop] = useState(false);
+  const searchRef = useRef<HTMLInputElement>(null);
 
+  // Carga progresiva: 20 señales al instante, el resto en segundo plano.
   useEffect(() => {
     let alive = true;
     loadSignals().then((bundle) => {
       if (!alive) return;
       setSignals(bundle.signals);
       setGeneratedAt(bundle.generatedAt ?? null);
+      loadRestSignals().then((rest) => {
+        if (!alive || rest.length === 0) return;
+        setSignals((cur) => {
+          const seen = new Set(cur.map((s) => s.id));
+          return [...cur, ...rest.filter((s) => !seen.has(s.id))];
+        });
+      });
     });
     return () => {
       alive = false;
     };
+  }, []);
+
+  // Filtros en la URL: compartir / bookmarkear un estado del informe.
+  useEffect(() => {
+    const p = new URLSearchParams(window.location.search);
+    const r = p.get("region") as RegionFilter | null;
+    const m = p.get("model");
+    const c = p.get("country");
+    const q = p.get("q");
+    if (r && ["west", "china", "global"].includes(r)) setRegion(r);
+    if (m) setModel(m);
+    if (c) setCountry(c);
+    if (q) {
+      setQuery(q);
+      setMoreFilters(true);
+    }
+    if (m || c) setMoreFilters(true);
+  }, []);
+
+  useEffect(() => {
+    const p = new URLSearchParams();
+    if (region !== "all") p.set("region", region);
+    if (model !== "all") p.set("model", model);
+    if (country !== "all") p.set("country", country);
+    if (query.trim()) p.set("q", query.trim());
+    const qs = p.toString();
+    window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
+  }, [region, model, country, query]);
+
+  // Atajo "/" enfoca la búsqueda (como GitHub).
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      const t = e.target as HTMLElement | null;
+      const typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+      if (e.key === "/" && !typing) {
+        e.preventDefault();
+        searchRef.current?.focus();
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  // Botón "volver arriba" tras hacer scroll.
+  useEffect(() => {
+    function onScroll() {
+      setShowTop(window.scrollY > 600);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   // modelos y países presentes en los datos (para chips dinámicos)
@@ -247,6 +333,7 @@ export function WeekView() {
           <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-subtle" />
           <span className="sr-only">Buscar en el informe</span>
           <input
+            ref={searchRef}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar en títulos, notas, modelos o países"
@@ -256,25 +343,64 @@ export function WeekView() {
         </label>
       </section>
 
-      <div id="signal-results" className="mt-8 space-y-3" aria-live="polite">
+      <div id="signal-results" className="mt-8 space-y-6" aria-live="polite">
         <p className="sr-only" role="status">
           {filtered.length} {filtered.length === 1 ? "señal encontrada" : "señales encontradas"}.
         </p>
         {filtered.length === 0 ? (
-          <p className="rounded-xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
-            Nada coincide con esos filtros. Prueba otra región, modelo o país.
-          </p>
+          <div className="rounded-xl border border-border bg-surface px-4 py-10 text-center">
+            <p className="text-sm text-muted">
+              Nada coincide con esos filtros.
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                setRegion("all");
+                setModel("all");
+                setCountry("all");
+                setQuery("");
+              }}
+              className="mt-3 inline-flex min-h-9 items-center rounded-full border border-border bg-elevated px-4 text-sm text-fg transition-colors duration-150 hover:border-accent"
+            >
+              Limpiar filtros
+            </button>
+          </div>
         ) : (
-          filtered.map((s) => (
-            <SignalCard
-              key={s.id}
-              signal={s}
-              open={openId === s.id}
-              onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
-            />
+          groupByDay(filtered).map(([day, daySignals]) => (
+            <section key={day} aria-label={day}>
+              <div className="sticky top-0 z-10 -mx-4 mb-3 bg-bg/85 px-4 py-2 backdrop-blur-sm sm:-mx-6 sm:px-6">
+                <h3 className="text-xs font-medium tracking-[0.18em] text-subtle uppercase">
+                  {day}{" "}
+                  <span className="ml-1 tracking-normal normal-case">
+                    · {daySignals.length}
+                  </span>
+                </h3>
+              </div>
+              <div className="space-y-3">
+                {daySignals.map((s) => (
+                  <SignalCard
+                    key={s.id}
+                    signal={s}
+                    open={openId === s.id}
+                    onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
+                  />
+                ))}
+              </div>
+            </section>
           ))
         )}
       </div>
+
+      {showTop && (
+        <button
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          aria-label="Volver arriba"
+          className="fixed right-5 bottom-6 z-20 inline-flex size-11 items-center justify-center rounded-full border border-border bg-elevated text-muted shadow-lg transition-colors duration-150 hover:border-accent hover:text-fg"
+        >
+          <ArrowUp className="size-5" />
+        </button>
+      )}
 
       <footer className="mt-14 border-t border-border pt-6 text-xs text-subtle">
         AI Informe · Datos reales con fuente · {signals.length} señales ·

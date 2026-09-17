@@ -460,9 +460,11 @@ def main() -> int:
         with _TPE(max_workers=5) as ex:
             list(ex.map(_tr, final))
 
-    # Write first 20 signals for initial load
-    signals_first = signals[:20]
-    signals_rest = signals[20:]
+    # Write first 20 signals for initial load. Cortes sobre la lista CURADA
+    # y traducida (final), no sobre la cruda: antes signals[:20] podía
+    # incluir señales viejas (>21 días) sin balancear por país.
+    signals_first = final[:20]
+    signals_rest = final[20:]
 
     OUT_FIRST.write_text(
         _json.dumps({
