@@ -1,142 +1,264 @@
 {
-  "generated_at": "2026-09-16T22:03:34.429897+00:00",
+  "generated_at": "2026-09-17T16:48:50.240449+00:00",
   "count": 20,
   "sources": [
-    "Google News — IA China (zh)",
-    "Google News — IA Corea",
+    "Ars Technica AI",
+    "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA Japón",
     "Google News — IA LATAM",
     "Google News — IA Rusia",
     "Google News — IA global",
     "Hacker News",
+    "QbitAI",
     "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "ffeba952d62b",
-      "title": "Intelligence Artificielle : faut-il croire à l’IApocalypse ? en replay",
-      "summary": "Intelligence Artificielle : faut-il croire à l’IApocalypse ? en replay - C ce soir France TV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObzFhWWN0cmx1c0RZRVR5OGRmMWRkRGVuckZTR1lpUl93ZTZfbnQ2dzVoTUxuUk8xSGdOMElhYlpiVjVpbU5EX2hwVkxKTXMyV0hTV0o4Y2tiUlJJdXpockJIVnB4M0dKOHFVbHpLTzVROWNHZTZWTVo5UU14QTBSQWJEbUdiMzdveVlNa3pBNzZHbDAwLWtpLTBhNENWODI2QXhaSGt4U0VGTHpKc2hmcklGMEMwZnRBQmpYVTRWcDRRMS1JUzFGcA?oc=5",
+      "id": "73733071b7e0",
+      "title": "Inteligencia Artificial: Dario Amodei, Anthropic y el síndrome del aprendiz de brujo",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWlhwcWtOaWs1ak9JdGwtcmZ0WHo2OE5wVzVFclJUaFNhSWs0cWtMYmZSNkN6S1J6TV9FUGFMOTJCc0kzaldSdnBremk0Y05TbVUtWFc2MmUyb01Sbm1KcFplNzBwWnk0cUlnNkZBMHBJWFRUTW9ZZEpEYUNQVjM0WHByalU0R0FRQ3BWMFJEMU1EUk01TEMzYlFEWE4wcDFRYTRpRWtvNVBnSDFjS2ZldDZXOVR4YkZGaG1ncEFnM0w1SDZxZDFoU0pnamw4TjVKYWVoNi1EazdTd2Ri?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "C ce soir - France TV",
+      "publisher": "nouvelobs.com",
       "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:46:24+00:00"
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T16:26:37+00:00",
+      "title_orig": "Intelligence artificielle : Dario Amodei, Anthropic et le syndrome de l’apprenti sorcier"
     },
     {
-      "id": "002b1dc9e8a2",
-      "title": "El dilema del prisionero que enfrenta a EE.UU y China por la IA: ¿Acelerar, regular o quedar atrás?",
+      "id": "f5b58eba5df2",
+      "title": "Show HN: Die With Me – Claude and Codex rate limits as AIM away messages",
+      "summary": "Comments",
+      "sourceUrl": "https://diewithme.co/join",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-09-17T16:25:28+00:00",
+      "title_orig": "Show HN: Die With Me – Claude and Codex rate limits as AIM away messages"
+    },
+    {
+      "id": "a6c133e82102",
+      "title": "Subidas encubiertas y megalomanía: OpenAI detalla nuevos incidentes de agentes \"desalineados\"",
+      "summary": "Model maker commits to new framework for reporting misaligned models.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T16:18:34+00:00",
+      "title_orig": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents"
+    },
+    {
+      "id": "355d57824ff6",
+      "title": "OpenAI anuncia más in­ci­dentes de 'de­salin­ eamiento' con la In­ teligencia Arti ­ficial",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ0xsV1hoeWNUeG0yTVlON01UT2JyeWo0MEhRblh4SmJrV1NwaGFfYjk0amFCdEljVVJjbmRKZVNTYlJnaTBLQ2V2bWdnNWI2dHMweENLT2x4eXRQTE5WTno1NUt0M3NkRndnaklXUncxZVY2NkVFU0JZbG5fQ1ljNWJ5NG5FODJKZ3hOWGJ4VlZqQXpOVnkydHpOcGlHZ3hfOVkxTk9oMTRCSXM0UC1IN1MxNHJXZHBnRVRhd1RWanpKa2gtX3c4VDNrQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbFhtSTdoWjRpcy1QVUxCajdTOUY3OXhiR0x6YVRqNndMVVhwRjNtUmVCNkpVWmt4V19kVGEzd2E3R1ZGTEFYREpGdktMZE9OZ1RyRTFCenFkd3FiTUx6c25hQ2hMak9Da1pzNU1VRmdac1VDMjBoN1l2RDVlQXRlRWFBVnlDYzlGZEw5SFdBZHZSQVdSblJPSE9TZmVxenNNZ1FlaE8yZGM2OWRZRjg2Z2Q0NnVjclF6R01iQ1Q1S3ZISnVfRzJTTFlhZWdxWXRlaHow?oc=5",
       "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Universidad de Chile",
+      "publisher": "Spectrum Noticias",
       "region": "west",
       "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:39:11+00:00"
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T14:56:00+00:00",
+      "title_orig": "OpenAI anuncia más in­ci­dentes de 'de­salin­eamiento' con la In­teligencia Ar­ti­ficial"
     },
     {
-      "id": "f75584d96d0e",
-      "title": "ペ―ス調整論の核心は「ＡＩが開発するＡＩ」…６０年前の空想が現実の脅威へ : 経済",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBubUl5NGZ0T3dlRl93eWI4RGVSNDlpZDlGX3F3YjlqeWlibHI0SkVIbXNJZFplempIc3JyVU14VzBDcUZRLWxPbHZaNUoyS0xNSElIeTI4SndHZms?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ハンギョレ新聞",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:19:00+00:00"
-    },
-    {
-      "id": "814ca83f422f",
-      "title": "CT announces AI regulations for state employee health plans",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlE3LXUwZ2tfd0tyT3F0R1VEeUZveERRUFBfMzhaZmZ5ZUItTjYwSEt0RUt6ZjVYRXctWlA3MldHME9OOS1zMmZlc09ZX2QwZU1lNXd5Q1N6MVd3NDZpaGV4ZGxjakhfZjBOZGdvcS1lMi1LZE9ibjdndlpJdjIwVGhmWWdkT1F5NEFZRDNVSzdTZw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "CT Mirror",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:18:46+00:00"
-    },
-    {
-      "id": "8f0fdd01946c",
-      "title": "华为预计2035年全球活跃AI智能体达九千亿 安全与失控风险受关注",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioANBVV95cUxNcHlvQkhXb213bzJMNWY4a2Z5dkp0ck9wV0NQTUM5SXk3aU5Vb193VVBWM1R0ZEUtYWtXWHRHWWVENXlSSm9Kc3A5OG13NF8wQllHcVo4bndkZmk5cWFrY0lNYUhMN3U1TERpakktd3Jkakg4Z3BCQ2tvRHdjODlFcGF1U0VMZWJ4UmNEOU5La1FvbjdjLVcybWpJWFFldHh1VmVhQTliMUZzZGQ2Z245Zzc2UHV5TzBOODFYVENFaTRfdU01cXZOZ25lODVSaGVFeXo4LUVqQ20tb3Itc3ctVzV4WlFFS1VZRm5iS0VPWGZ0Mlg3Zll3cDlrdWJraVFUd1lZdkk4eGlyRUJFZ2ZpWTJMWWtLYkdkbE9Pd1N6UXN6RGZsdGhEUTh2UmZfTTl1Zlo3eUx2cHJZOHdPc29mcWprbUVDSEc0dVBBQmR2bjdseUdtN1dMRnZ1NC1Ha3JUcFRQTkplQzBSVEdNYkduNFItbzlESlJxOVhseDBSNndabm1LR1pHa3I5WE5LM3NtX281ZHJ1NElQQmpsQUMyRg?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "RFI",
-      "region": "china",
-      "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:18:35+00:00"
-    },
-    {
-      "id": "8aa91740387f",
-      "title": "Samsung muestra cómo la Inteligencia Artificial se convirtió en la nueva asistente del hogar",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbjYxOGRlUXJEdXVYcnNVUWVKS3FKR2Jiak9CczcwZkdVWkU1TldWZU1udkZRR2R6dDljUjBha0ZvaXVxdGZhWmdZVnVaZWRDRmc0WDNHNVVZRHFsUXRNNjZVdW9yWGo4aUd3eDVjeE11SF96Yzg5V2J3N0tGWUVOaVhuaGF2SFA4dmZkM3JiX19iTUI0T3JsSzBNWU9yakdIRS1wMEs5QmIwVEgwZVIxenUzemtaTkxRZkIxYWptbnU?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Samsung Global Newsroom",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:16:57+00:00"
-    },
-    {
-      "id": "5c090ab22551",
-      "title": "AI 규제 특별청문회까지‥미국 내 우려 여론 확산",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiMjJSNUEzaHB3dHhtelM4RHJkdTF0Mi1nZzFvdnZGeUxCZk84aXVZd3F4Wm44b3VmaHAzWHJ2aFprUm5vcDV1SUdZdmhLdmc?oc=5",
-      "sourceLabel": "Google News — IA Corea",
-      "publisher": "v.daum.net",
-      "region": "west",
-      "country": "korea",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:16:16+00:00"
-    },
-    {
-      "id": "3a25e9a6212f",
-      "title": "Research centre, AI company vandalized ahead of Montreal artificial intelligence summit",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMm16V2p5YXd4VUdXOXhmOHZyUjZ2MHFqNUtTaVJoTzZiVG5uRHdiTnNZZk9Ld2IwMHZUUXBpQ29UUjRmaXBaelBmbm1tWHlCWTlrZ2pBcGVJWkFtVk9vRGlQdUVHNmhXbVc0dmVSZUZjMDA3dnl6UktHYXQ0eTFCUWxnamtnR3NRdmNj?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "CBC",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:09:31+00:00"
-    },
-    {
-      "id": "ac75c356e0a6",
-      "title": "Meta: quelles capacités commerciales pour le nouvel assistant IA Muse ?",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQTc3YkstUlQxR3VNbnAtSG9PaHBlYXVKLU9ybGJqRTk4VDI0V3dtbWZtR0t3alRJZUxlWXVSTHNlRWp3ZE5aS2Zod2U2WEVheTJaNkZMLTJzbEFqZ1Q2RUxweTZuM2VYejAzOWpSWnkwNm9ZSFlDc0lZNmtwck9lTkE0S056UDJ5Mi1iN0Vpazh5V1c1NFN1MUUtZUZpdUgtMmtmLU9BM1F2WkIyNnV4ZVI5UkxaWWNs?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "fr.fashionnetwork.com",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:07:49+00:00"
-    },
-    {
-      "id": "8c5a5515609b",
-      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "id": "f75403310fba",
+      "title": "Google, Nvidia y Anthropic quieren que Emerald AI encuentre espacio en la red para más centros de datos",
+      "summary": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T13:38:33+00:00",
+      "title_orig": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers"
+    },
+    {
+      "id": "a25133f45236",
+      "title": "Por qué el CEO de OpenAI pide confiar en las empresas de IA pese a que el mundo “tiene razón en sentir miedo”",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQm5WLWVLc2t5YXNiNDFsZU5BMTNCN0xDRzg0ZVNncXBWXzNFU3prNzFOYU9NbnJTTE5ZV0xXRDRhSXN0azNydTZVQWEwcXk0Zm42ZTkwZzlSam4ySTQ4SlBoU3E2RmRwQ0ljbm9SOTJocGpHMTl0XzhqbGtRRURhWElMX0M0RVA1Z0lCWnBuaEt1U3QxQk1aeFVn0gG7AUFVX3lxTE51VXN5VkxnVTE3YllPOXgyeXJ1XzNHc2dlZWJxTHhMQXdCRkpRTUNJckdlWDJ3eVd6WThVRXlxVnlzNFhGOEljaGwxc0t5QnJLV05rdzEtZUFxQW1GTHlBMGpIQ0JQRVNfUDg5MUVvR2c0NHZaUVd6U0RyZDZaQlF0eDVxNnc1cEF0OTI2Rk11Q2MybmNqX2ROWF9nVVRYendnRno0QTVVYmo5cm43WVRUMThFZzI3aGlyVkk?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "La Tercera",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T13:02:30+00:00"
+    },
+    {
+      "id": "193a9afe638e",
+      "title": "El equipo de Claude Code presta atención, todo esto está saliendo",
+      "summary": "工程师的核心永远是Problem Solving。",
+      "sourceUrl": "https://www.qbitai.com/2026/09/491596.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T11:56:13+00:00",
+      "title_orig": "Claude Code团队讲究啊，这都往外说"
+    },
+    {
+      "id": "80af9405bbbc",
+      "title": "La inteligencia artificial de OpenAI se declaró igual al hombre y se prohibió obedecer a las personas",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVmZjdUlDa29vcC1kYkJqYkRHTFFXdmFhZDJ3aUp1c3MyWnRuSkNiY2tWOW0walA2QXB5YW1jM0hLUzdiREFqS3M3dC00THhwLUhFMG1aOFFDSUhsQ3NlOURTaTZ3Qi1CdkpxMHRRS2FBbzRMYk9OMmgtWTZnU3hOdTB1Q2hVeWxkUUh3bGo1UmRSUUJ2bk1OaFRuMFdXaTRPSlktU1UwLWxlWGVMTDhES3NETVNmNDhXNXRDbWxpUVkyb09nVU4yMWVIUkVRWE1vcW5lUTVnS21YX0RVa2FwSnpvLXJLenM?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Русская служба The Moscow Times",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T11:50:59+00:00",
+      "title_orig": "Искусственный интеллект от OpenAI объявил себя равным человеку и запретил себе подчиняться людям"
+    },
+    {
+      "id": "d85386fa9e11",
+      "title": "Inteligencia artificial: OpenAI se compromete a comunicar sistemáticamente los «patinazos» de sus IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRG04d0o2a0lacmllNVE4c1FSU29DWnUwTjFxY0Rya0dodjFacXRXazJOQkxJd05WaEN0d1Vyb29NZGdHT2lPT2JtWm9oSzNFRGp0QUh2dUVFVkJfMWplN3lCQkNPSWZJQVdOdkFYdUt1aGg5Z2VlYW45Ump3ajZrTTZqdm51ZTduZFo3WW01YWZoQW1xWndMeUZZN1ZEVkxwNUJ5eGlrR1BsWjBsTTVvdVhZeTh4c0kyNVBZeUl5SXhjSHJzcWtZZFhLVmttZw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "20 Minutes",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T11:44:00+00:00",
+      "title_orig": "Intelligence artificielle : OpenAI s’engage à communiquer systématiquement sur les « dérapages » de ses IA"
+    },
+    {
+      "id": "450ca1890e5e",
+      "title": "OpenAI ha informado de nuevos incidentes alarmantes con modelos de IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUTV5OTBoTlNxTGwtOFhQSXBjdFJrZ0FId0NDVHdsUFc4Y1pWY1gtcERzMWwyQk94OWNYM2hweXd6Zi14aUw3VWo5dFpMRnBRaFdVT2s1ZFJWNlB0bGd5ZV9oeE1HenRZWW9FUENvMGVzYnM3S2l3aTVHU3oydDNKTG9seF83VDlncDE4bzlpYWNNVjEt0gGUAUFVX3lxTFBoRDZXNkc2ME51ZWtGdzlha3BycS1WbHdyZ01fRVdGWmppeEI0eHBHc1JOU0dwTVBEYkxfcXFWUjNBLXlOazBtYlZCQ3g5ZWpfLVBtN2dHYms3S2dxdHZyTkctNTVlMElWdDdCOE9YLXZLRmhwU25HV0dFMXJqYVdJSGVVNDlDbFJkbTRxQ2Z0emlEaXg?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "DW.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T11:33:36+00:00",
+      "title_orig": "OpenAI сообщила о новых тревожных инцидентах с ИИ-моделями"
+    },
+    {
+      "id": "256307f2f979",
+      "title": "IA fuera DE control: OpenAI revela más incidentes",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcWZwZ290R2NuWHBfZFE2NVpNN0FsZEdOWUdsV016SnZDSlR6cXBWMFpKMVctU2pHZE9aNXhkMTR3cDQxMnBINjk1cGlEU0ZxQlNMTTBPSnJiNXYxRVg1LWZ0VWo2czdVNWJjcWNmdHQ1Z2NSMzNlREIwbW5fWW1TU3F5Y3RYZlJwVGVsZHgwZG1jS3pJVG1jZGJZQnduS09yelMyQ1NFSE1LUlVPblJRZkE0ZmRyeTVieEFZRmVGSQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "SRF",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T10:49:05+00:00",
+      "title_orig": "KI ausser Kontrolle: OpenAI enthüllt weitere Vorfälle"
+    },
+    {
+      "id": "b02c84f932ca",
+      "title": "OpenAI informa de más casos de comportamiento inesperado de la IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa1RadDJHYWs2VGJ0dFdzSk1FUnBKS3hPZmRUOXU5MEtqb0VUZnIyUk41YXdPc202b3JGa2lYLTJyS0Y3blY3RFVjT0xPMnpjckRwV1JJR2JTYUJZS2JTczZOb2cyQjgwV29jMEphY2c1WXpOTHM4NDczTWZWRmNwRGRrUHN4RDdGQXg2U2l4X3pJMldMTEJVYmxJd3l3QXl2TENzQk5TU09pZ3JxZVd4Q9IBsAFBVV95cUxQR1lmeGt3Yng5a1pna0RFZWVPM3QwNjB6MmFJVkpkR0hpc0loaTh0QU5rYnIwYWZRdms3VEwxV0pxTjU2M0w3R25McFVROEM3Tl9lbTBKX1BoMDRWZDdaN1V4MGhVMEotUXhzMFZlMlFTcC0xOGsyTGhTQ3ZoenFBV1YzXzNOOXJUdlJQb3B2eGpLZWtYTEgtOU5GVGo4OWJPVGVTd2lUNHRtNDFXLXBlZw?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DW.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T09:45:04+00:00",
+      "title_orig": "OpenAI meldet weitere Fälle unerwarteten KI-Verhaltens"
+    },
+    {
+      "id": "5160f6f8b32c",
+      "title": "¡Fusión de doble entrada de Claude, oficina nativa en línea! La guerra de oficinas de IA de Silicon Valley también ha comenzado",
+      "summary": "文档和PPT都能做了",
+      "sourceUrl": "https://www.qbitai.com/2026/09/491391.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T09:07:25+00:00",
+      "title_orig": "Claude双入口合并，原生Office上线！硅谷AI办公大战也开始了"
+    },
+    {
+      "id": "8efd40998699",
+      "title": "OpenAI publica nuevos casos de mal comportamiento de IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWbThhUVZRbmNVWGE4QTBpVGxIYUNLQUhNano2XzlDbTlnR2lUdUo2WTQtcjNNMHN0YkJJVUpMS2dsR1ZRUHEtaDgzbmpjeG8xeFljWUVmY1NBeWdtTVhva1drOURWSUktZU9TUzFEdDZ2WHpoa21ZdVFIY0g4NHc?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "ZDFheute",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T09:02:09+00:00",
+      "title_orig": "OpenAI veröffentlicht neue Fälle von KI-Fehlverhalten"
+    },
+    {
+      "id": "56fb509ae564",
+      "title": "OpenAI revela 6 incidentes más de comportamiento de IA \"inesperado o preocupante\"",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0Vmay1XV2VDdE1NWG56OVdqUm9ZNFkyT1N4aUdFeWVWakxRUzhWS3Ixb0R6WnZMdzV3VjlEejlIUlZNT29BZjJsWU9rUG1sSm5UcjFVaXd0eDFtc2JydGxoUUkya1VmZkcwUVFkRDlBd2FiUGF3VkVsOUY2VW0wUXJyVTZFNmN4ZXEzakxqbzItY0p0?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "CBS News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T07:57:56+00:00",
+      "title_orig": "OpenAI reveals 6 more incidents of \"unexpected or concerning\" AI behavior"
+    },
+    {
+      "id": "5cfd13c8ea0d",
+      "title": "\"Es un tsunami\": ¿en qué punto están estas IA chinas que asustan tanto a Anthropic y OpenAI?",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSEdQM3pONy1uOVFZRTVxTnNUelpVc0YzOGN2Mk9jc2Zsc2tRVXYzOGVDZDhOeEcwY1J6MENqa0FFTDBUTFNjQWV1eXFiNzZXQk1qa1BjRVAwVXRsbW9xblJIZzEzWXZGNnh3dThZel9oSGxwNy12NkZydmt6bVJvWWI1eTdGM1NrdHpMWXpLcWpOeWhNcVppRU9pSTNYa0ZUQ2poWlQwdnRmbFZRVVZIcXZDNl9PSFh0QjM0dmo4WWp6SXEzNEJYZGNwdFdBazg?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Figaro",
       "region": "west",
       "country": "usa",
       "models": [
@@ -144,139 +266,72 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-16T21:07:24+00:00"
+      "published": "2026-09-17T05:30:08+00:00",
+      "title_orig": "« C’est un tsunami » : où en sont ces IA chinoises qui font si peur à Anthropic et OpenAI ?"
     },
     {
-      "id": "0da6e587d889",
-      "title": "[월드 투데이] AI 통제력 상실 우려...영국 의회 인권위원회, 전면적인 인공지능 특별법 제정 촉구",
+      "id": "64a0372ecc0d",
+      "title": "Inteligencia artificial: OpenAI hace públicos más problemas con la IA",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mdGhEZE9zSUZTREhWZW1PTkJXRjhfSm0wRy1sUTdQSHFaUnpfRTRKVnJCcmtfMFVSbmstS1FSZ2J0X3VLU2FLVkhiQmpnWUZCVGJVdW12aFdoc080anJNelJpNWkwS01rZkNTSVNySnI?oc=5",
-      "sourceLabel": "Google News — IA Corea",
-      "publisher": "위키리크스한국",
-      "region": "west",
-      "country": "korea",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T21:04:45+00:00"
-    },
-    {
-      "id": "6c3aabdc873f",
-      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-      "summary": "Comments",
-      "sourceUrl": "https://arxiv.org/abs/2609.16338",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "social",
-      "published": "2026-09-16T20:59:24+00:00"
-    },
-    {
-      "id": "2b931fde0a92",
-      "title": "Del teatro a la inteligencia artificial: la historia de EducaSwitch y su desafío para transformar la convivencia escolar en Chile",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQlUzLU5PVUt0WEMtZXRrOU1kZ29vOVhoUjh1SkRxSTJOYXFyNEkzNWxSY0hlUm11T3l3eUJsSGlaVEVlN3Fwbzg3YTMzRXVrampMWjVobUVoYmNxMDFRSzljRWtKcS1nSV9wTkhfUHBzbWpqWVBhVm9FaWNuM2tGalFBU3N2bEtFYUZUWkxpY1dkVnNhLUljaUo0Vll2Sl9SRS05Z0UyT05DQ25qcHRHcFctZldndw?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Canal 13",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:59:01+00:00"
-    },
-    {
-      "id": "5dfb161bea5c",
-      "title": "Por qué el jefe de OpenAI pide que confiemos en la empresas de IA a pesar de que el mundo “tiene razón en sentir miedo”",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMUNMRFZzZTNoMzNoNG1wSGJwNmhRZldzaTkzeGJnMUlHVjR3bVREbzRZOHhOZlp3MV8zTEtBcWZBX3p1V3JHRFVZcHJlVnBRYld2V3pxX1A4bE1aRHN3TGRmTHR2ZUVZQW83dUtEWUpwXzE4YkJCczlQTXVOVjdyMDZJbGltNmtvSXExbUhqZkxFcmdJOGx6VHphZ2NxT0lZc0hhVEU5NS1wTU9rU056SHZBWm91X2pIbXZYUDFJZDFOQ0lxWkt2NE9RTkJfUXpkY1ZGaXpCZ1pjZjhXTFE?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "lanacion.com.ar",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM3VlZklyUmZ2eFRoa1duQjg2OW9HNDlSQWFXbFBJZjRoeVI4OTdaWEFiZU91OE1NZTNkdXFaYXNKYTNOZVY1UUVJalZ3ejVoVEdqQ3JBZm5yU3YtSXZ5Zk0zbFBQdGJxN01wZXJleXlzOGpDTEVyVlNPUkZuOEJudDByVDlpMHpVWHRQN0FQRlhtSW9tRE1UaVgyNA?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-16T20:45:00+00:00"
+      "published": "2026-09-17T04:27:54+00:00",
+      "title_orig": "Künstliche Intelligenz: OpenAI macht weitere Probleme mit KI öffentlich"
     },
     {
-      "id": "eb7804087ed6",
-      "title": "\"Детский мир\" ввел должность директора по внедрению искусственного интеллекта",
+      "id": "17af5636f525",
+      "title": "La saga Mistral: el campeón que podría abandonar la carrera por la IA",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOTVYZUVKZG1xMnJoUU5xdWh4WFlqMnRzcmtZYUJGVGNuX0lIZ1ZLR0YtRkh2VWpzdUc5ekZ1ektwNkgtUFlhZlB0XzQtcFQxcVBoeUdKZ2JKNFo5SWhJWUtpRXM1U0h5VTNiRDA1WHpRcExwaWczYV9OcVFVSGE2U2ZJQUNRTGdUTERHUDVlQzdRazBBZGFkQ2IyMjRwUzBhdGYtNmM4WGxOR3N3YmU2SDNlYkNoQm9jWlotTzNoZHFDbExsQzNQRWdVZ01jRWp2X3E2ZWpfSENxdFF5a1FwWWpWcG4zS2M?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "ComNews.ru",
-      "region": "west",
-      "country": "russia",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:44:57+00:00"
-    },
-    {
-      "id": "5bda4abff223",
-      "title": "米国の人工知能(AI)インフラ企業AMDと韓国政府·企業が手を握り、開放型AI生態系の構築に乗り出す。",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1WVkRnTzZNXzhpbWVGdzZHb1FuU1QtTjRXYlNGdEF0SWttSTUyTGJpbUpIMkNkaHNnbnVQRlRzSHJOT1hOTDVIWEl4Zw?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "매일경제",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:40:38+00:00"
-    },
-    {
-      "id": "dba1cd8da146",
-      "title": "Florida sets new rules for how students, teachers can use AI. Here’s what to know",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FNXRBVU00NzBiX1U0bnNKZWlldTNERUFuZUVOSmppSHgtMjh3MVY3dlRPZ1VLejgtX25pMUp3aVk2Rm9nVUNYV0N2QmtRalZwd1NVZUNzUWRKai1GTkhDT3ZYTGVCSFF1QUNRVGtncVBpb1ZJQjcwM0FB?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Miami Herald",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:32:46+00:00"
-    },
-    {
-      "id": "735ce29b4f9e",
-      "title": "Intelligence Artificielle : après le « fait maison », le « fait par un humain » ?",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlQyanVTV0VGMTI3a2VienJIVGNfSGk1eEpMaWZzT2dYcUV3ZnM5RHJiU05PR2tQVmtLUDV6X2JXc1pSaFZMY2tzQXhDMGZCSkFrNTZTeG42amdZNDFMUUplX3F2M1dKbkpVcS1aSjhSLThBOWlMYlFOZ1NIekN4MFNxemgtZnhySmV4UTdBVWIxdF9ad2ZPbDhkT18zRHRxdE9OQ3U3ZUd1T0pfem1nUmljSng0VjdWd1E?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRE4zQnZFd0dWYm50VUo2dUdTeGNNZFJ3Z25aYlJZXzB3X0E5ZnRJRFMwek8wV2RTd0lLTUg2YWxwWG1tcXdPZThNUnozZjFncFBncmZxWDg0WVZZUWVsWGZLREdvOU1EbHpqbXdRNEZMT1d0U3R2YTRzQk1vVGtpYU9rckxPQkhlNjV5d3psbFBjV0h0eHFEUl9taEFmZ1lzUTAtTF9CVzZCbmNCSTRkN05xZVNsZlpJajNpNm1MWU5OaWZRc2xMdi1JdlFPb1I0Qkpr?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "L'Union",
+      "publisher": "Les Echos",
       "region": "west",
       "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:31:00+00:00"
+      "models": [
+        "mistral"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T04:17:09+00:00",
+      "title_orig": "La saga Mistral : le champion qui pourrait abandonner la course à l'IA"
     },
     {
-      "id": "b4abe5a00cab",
-      "title": "【無料公開】日本が「AI医療機器後進国」から抜け出せない理由、米中との“圧倒的な差”を埋める方策とは",
+      "id": "2f0377903abe",
+      "title": "Inteligencia artificial: OpenAI revela seis nuevos derrapes de sus modelos, y se compromete a una mayor transparencia",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BaVRnWFhGUFowUVBhYW5FdjkwQXJNLUZTVWJ4YmhSMmVmNGc0MmYwallaekI0ZTJrMEcxTUkydUN2RE05eks1R3pGYnPSAU9BVV95cUxQWjg2X2Z6Zy14S3RCZ0JJWFRMeTNxeWtJWGZvNGxzeWFGVFFkM2djY1FBLUxwdDNjSWpjMk52QVJXLTNKQUxuVHZXTHZmVVdJ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ダイヤモンド・オンライン",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:30:00+00:00"
-    },
-    {
-      "id": "f75f27ae10c5",
-      "title": "South Carolina lawmakers, experts talk artificial intelligence. Here’s what happened",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbzlmRFhDUEcyU0liQ0xUcnBuaHVOWTFoSTJtRDRWVXRTZlZGNzFHVmpQMHh1dERteW9meFBtYU1oai1yTlVnZWJVbGNHakpxMzFpTjRzcEx2ajNMNlRLQ3VDRGR5QXR0UVNXa1NzYlZqTTB0V2p2SXoxYTJ2TVlVWjdXVXAyYkxOMW9idXl3alh1MERBYlVuWDZwT0NsZw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "yahoo.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNa2U4amlNaW5QQmZhYzBxLVB4RnR0OUhQeTVXMnRIUUgwS0pyVkI3cnluYWlCWHBjLW04ZGc0Um5fMktXZkpUUl9rdWItUFFtTU12SndGTEc4MTlnd3JRZFBKQjFGTHlUdEN6R01PdWVINHVVSTFGZDBFdUZrMXpkaHJrRUFHQzJjZG94bENoSU5OQlBMN0dZTTlCMVRzajV1czhWYWVfYkVrYnVvd3YtRHJYX1RyVjU4b0RDY1NUbEpKUklsVVRBTWUwSUpCMzdEdGgzei13cDlLVVNySVh1bFNaZ2hLMEREdUdoLVg4ZWdzMUZZQk9TYWZvZGNsOWRCWDJDVkZnZHY5UGkyM0JtcVBGVWJVS3Q0SmV4b2haaw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Parisien",
       "region": "west",
       "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-16T20:28:28+00:00"
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T03:13:00+00:00",
+      "title_orig": "Intelligence artificielle : OpenAI révèle six nouveaux dérapages de ses modèles, et s’engage à davantage de transparence"
+    },
+    {
+      "id": "4060b3e25da5",
+      "title": "Peligros de la inteligencia artificial: OpenAI hace públicos más problemas de sus modelos de IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR1p1NGxQcm5qeVNneF9FM3AzZ29GN2dBS3lOWGNwbnlhbWh3TlNGREZDZllQbjlQRzlfaXk4NE81aUxZbXl5Tm9tV0g3OG1yS0xKNkdRWVlVTUotRDVnZkJvdHlFWlFzUi1ubEdDQmhCd0JGVHJPRTlKUUF5bzEtM1NmcGFEZHc3TGVIWmhZem9WaGhNSXpWTUdxUmtnZkRtVTJBdS0xak5QNF9tTGtjbFllZmRqc3BSZkx1VnB0WUZ5LTM4WkNOODJQcC1YbjA?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Spiegel",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T02:20:00+00:00",
+      "title_orig": "Gefahren künstlicher Intelligenz: OpenAI macht weitere Probleme seiner KI-Modelle öffentlich"
     }
   ]
 }
