@@ -1,0 +1,26 @@
+# Base44 dev environment — runs the app from the cloned source with live reload.
+# Vite dev server (TanStack Start) on container port 8080, mapped to host 3000.
+# The app uses embedded PGLite (Postgres-in-WASM) as its DB, so no external
+# database service is needed. Auth is disabled (dev user) via VITE_AUTH_ENABLED.
+services:
+  web:
+    image: node:22-slim
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    ports:
+      - "3000:8080"
+    environment:
+      # Auth off in preview -> dev user, no auth broker needed to boot.
+      - VITE_AUTH_ENABLED=false
+      # Vite >= 6.1 appends this to allowedHosts so the preview proxy host is accepted.
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+      # Skip Playwright browser download (devDependency, not needed for dev server).
+      - PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+    command: sh -c "npm install --no-audit --no-fund && npm run dev"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8080/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
