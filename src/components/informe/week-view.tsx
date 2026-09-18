@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search } from "lucide-react";
 import {
   COUNTRY_META,
@@ -14,7 +14,6 @@ import {
 import { cn } from "@/lib/utils";
 
 type RegionFilter = Region | "all";
-type StrFilter = string | "all";
 
 const REGION_CHIPS: { id: RegionFilter; label: string }[] = [
   { id: "all", label: "Todo" },
@@ -66,17 +65,82 @@ function groupByDay(signals: Signal[]): [string, Signal[]][] {
   return [...groups.entries()];
 }
 
+// --- Filtros en la URL como store externo (useSyncExternalStore) ---
+type UrlFilterState = {
+  region: RegionFilter | null;
+  model: string | null;
+  country: string | null;
+  query: string;
+  openFilters: boolean;
+};
+
+const neutralUrlState: UrlFilterState = {
+  region: null,
+  model: null,
+  country: null,
+  query: "",
+  openFilters: false,
+};
+
+// getSnapshot debe ser ESTABLE: mismo objeto entre llamadas si la URL no
+// cambió (React lo compara con Object.is). Un objeto nuevo por llamada =
+// loop infinito de re-renders.
+let cachedSearch: string | null = null;
+let cachedUrl: UrlFilterState = neutralUrlState;
+
+function parseUrlState(search: string): UrlFilterState {
+  const p = new URLSearchParams(search);
+  const r = p.get("region");
+  const m = p.get("model");
+  const c = p.get("country");
+  const q = p.get("q");
+  return {
+    region: r && ["west", "china", "global"].includes(r) ? (r as RegionFilter) : null,
+    model: m,
+    country: c,
+    query: q ?? "",
+    openFilters: Boolean(m || c || q),
+  };
+}
+
+function readUrlState(): UrlFilterState {
+  if (typeof window === "undefined") return neutralUrlState;
+  const search = window.location.search;
+  if (search !== cachedSearch) {
+    cachedSearch = search;
+    cachedUrl = parseUrlState(search);
+  }
+  return cachedUrl;
+}
+
+function subscribeToLocation(onChange: () => void): () => void {
+  window.addEventListener("popstate", onChange);
+  return () => window.removeEventListener("popstate", onChange);
+}
+
 export function WeekView() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
-  const [region, setRegion] = useState<RegionFilter>("all");
-  const [model, setModel] = useState<StrFilter>("all");
-  const [country, setCountry] = useState<StrFilter>("all");
+  // Filtros en la URL vía useSyncExternalStore (idiomático React 19 para
+  // estado del navegador): el server snapshot es neutro y el cliente hidrata
+  // con los params reales — sin mismatch ni setState en effects.
+  const urlState = useSyncExternalStore(subscribeToLocation, readUrlState, () => neutralUrlState);
+  // Los filtros activos combinan la URL (fuente de verdad compartible) con
+  // la interacción local: los handlers escriben en ambos.
+  const [regionOverride, setRegionOverride] = useState<RegionFilter | null>(null);
+  const [modelOverride, setModelOverride] = useState<string | null>(null);
+  const [countryOverride, setCountryOverride] = useState<string | null>(null);
   const [query, setQuery] = useState("");
-  const [openId, setOpenId] = useState<string | null>(null);
   const [moreFilters, setMoreFilters] = useState(false);
+  const [openId, setOpenId] = useState<string | null>(null);
   const [showTop, setShowTop] = useState(false);
   const searchRef = useRef<HTMLInputElement>(null);
+
+  const region = regionOverride ?? urlState.region ?? "all";
+  const model = modelOverride ?? urlState.model ?? "all";
+  const country = countryOverride ?? urlState.country ?? "all";
+  const queryFromUrl = urlState.query;
+  const searchQuery = query || queryFromUrl;
 
   // Carga progresiva: 20 señales al instante, el resto en segundo plano.
   useEffect(() => {
@@ -98,32 +162,28 @@ export function WeekView() {
     };
   }, []);
 
-  // Filtros en la URL: compartir / bookmarkear un estado del informe.
+  // Filtros → URL (salida). No corre en el mount (borraría el param antes
+  // de que useSyncExternalStore lo lea) ni cuando la URL ya refleja el estado.
+  const firstRun = useRef(true);
   useEffect(() => {
-    const p = new URLSearchParams(window.location.search);
-    const r = p.get("region") as RegionFilter | null;
-    const m = p.get("model");
-    const c = p.get("country");
-    const q = p.get("q");
-    if (r && ["west", "china", "global"].includes(r)) setRegion(r);
-    if (m) setModel(m);
-    if (c) setCountry(c);
-    if (q) {
-      setQuery(q);
-      setMoreFilters(true);
+    if (firstRun.current) {
+      firstRun.current = false;
+      return;
     }
-    if (m || c) setMoreFilters(true);
-  }, []);
-
-  useEffect(() => {
     const p = new URLSearchParams();
     if (region !== "all") p.set("region", region);
     if (model !== "all") p.set("model", model);
     if (country !== "all") p.set("country", country);
-    if (query.trim()) p.set("q", query.trim());
+    if (searchQuery.trim()) p.set("q", searchQuery.trim());
     const qs = p.toString();
-    window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [region, model, country, query]);
+    const next = qs ? `?${qs}` : window.location.pathname;
+    if (next !== `${window.location.pathname}${window.location.search}`) {
+      window.history.replaceState(null, "", next);
+      // readUrlState cachea por search string: invalidar para que el
+      // siguiente snapshot refleje la URL que acabo de escribir.
+      cachedSearch = null;
+    }
+  }, [region, model, country, searchQuery]);
 
   // Atajo "/" enfoca la búsqueda (como GitHub).
   useEffect(() => {
@@ -139,13 +199,16 @@ export function WeekView() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // Botón "volver arriba" tras hacer scroll.
+  // Botón "volver arriba" tras hacer scroll. El estado inicial se lee en
+  // el primer render vía lazy init del listener (sin setState sincrónico).
   useEffect(() => {
     function onScroll() {
       setShowTop(window.scrollY > 600);
     }
     window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll();
+    // El primer valor real llega con el primer evento de scroll; rAF difiere
+    // la lectura inicial fuera del render síncrono del effect.
+    requestAnimationFrame(onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
@@ -173,7 +236,7 @@ export function WeekView() {
 
   const filtered = useMemo(() => {
     const base = filterSignals(signals, region, model, country);
-    const q = normalizeText(query.trim());
+    const q = normalizeText(searchQuery.trim());
     if (!q) return base;
     return base.filter(
       (s) =>
@@ -182,18 +245,18 @@ export function WeekView() {
         s.models.some((m) => normalizeText(m).includes(q)) ||
         (s.country ? normalizeText(s.country).includes(q) : false),
     );
-  }, [signals, region, model, country, query]);
+  }, [signals, region, model, country, searchQuery]);
 
-  useEffect(() => {
-    if (model !== "all" && !presentModels.some((m) => m.id === model)) setModel("all");
-    if (country !== "all" && !presentCountries.includes(country)) setCountry("all");
-  }, [presentModels, presentCountries, model, country]);
+  // Nota: no hay effect que resetee filtros inválidos al cambiar los datos —
+  // pickRegion ya valida modelo↔región al interactuar, y un filtro sin
+  // resultados cae en el empty state con botón "Limpiar filtros".
+  // (react-hooks v7: setState sincrónico dentro de effect = cascading renders.)
 
   function pickRegion(next: RegionFilter) {
-    setRegion(next);
+    setRegionOverride(next === (urlState.region ?? "all") ? null : next);
     if (next !== "all" && model !== "all") {
       const allowed = presentModels.filter((m) => m.region === next).map((m) => m.id);
-      if (!allowed.includes(model)) setModel("all");
+      if (!allowed.includes(model)) setModelOverride(null);
     }
   }
 
@@ -285,7 +348,7 @@ export function WeekView() {
               <div>
                 <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Modelos</p>
                 <div className="flex flex-wrap gap-2">
-                  <Chip active={model === "all"} onClick={() => setModel("all")} testId="model-all">
+                  <Chip active={model === "all"} onClick={() => setModelOverride(null)} testId="model-all">
                     Todos
                   </Chip>
                   {modelOptions.map((m) => {
@@ -294,7 +357,7 @@ export function WeekView() {
                       <Chip
                         key={m.id}
                         active={model === m.id}
-                        onClick={() => setModel(m.id)}
+                        onClick={() => setModelOverride(m.id)}
                         testId={`model-${m.id}`}
                       >
                         {m.label}
@@ -315,11 +378,11 @@ export function WeekView() {
               <div>
                 <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">País</p>
                 <div className="flex flex-wrap gap-2">
-                  <Chip active={country === "all"} onClick={() => setCountry("all")} testId="country-all">
+                  <Chip active={country === "all"} onClick={() => setCountryOverride(null)} testId="country-all">
                     Todos
                   </Chip>
                   {presentCountries.map((c) => (
-                    <Chip key={c} active={country === c} onClick={() => setCountry(c)} testId={`country-${c}`}>
+                    <Chip key={c} active={country === c} onClick={() => setCountryOverride(c)} testId={`country-${c}`}>
                       {COUNTRY_META[c]?.flag ?? "🌐"} {COUNTRY_META[c]?.label ?? c}
                     </Chip>
                   ))}
@@ -334,7 +397,7 @@ export function WeekView() {
           <span className="sr-only">Buscar en el informe</span>
           <input
             ref={searchRef}
-            value={query}
+            value={query || queryFromUrl}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar en títulos, notas, modelos o países"
             aria-controls="signal-results"
@@ -355,9 +418,9 @@ export function WeekView() {
             <button
               type="button"
               onClick={() => {
-                setRegion("all");
-                setModel("all");
-                setCountry("all");
+                setRegionOverride(null);
+                setModelOverride(null);
+                setCountryOverride(null);
                 setQuery("");
               }}
               className="mt-3 inline-flex min-h-9 items-center rounded-full border border-border bg-elevated px-4 text-sm text-fg transition-colors duration-150 hover:border-accent"
