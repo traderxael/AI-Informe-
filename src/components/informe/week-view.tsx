@@ -1,5 +1,16 @@
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
-import { ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search } from "lucide-react";
+import {
+  ArrowUp,
+  ChevronDown,
+  ExternalLink,
+  Globe2,
+  Home,
+  LayoutGrid,
+  Landmark,
+  Search,
+  Settings,
+  Swords,
+} from "lucide-react";
 import {
   COUNTRY_META,
   SOURCE_LABEL,
@@ -13,13 +24,21 @@ import {
 } from "@/lib/informe-data";
 import { cn } from "@/lib/utils";
 
-type RegionFilter = Region | "all";
+type RegionFilter = Region | "all" | "war";
 
-const REGION_CHIPS: { id: RegionFilter; label: string }[] = [
-  { id: "all", label: "Todo" },
-  { id: "west", label: "Occidente" },
+const REGION_FILTERS: { id: RegionFilter; label: string; icon?: React.ReactNode }[] = [
+  { id: "all", label: "Todo", icon: <Globe2 className="size-3.5" /> },
+  { id: "west", label: "Occidente", icon: <Landmark className="size-3.5" /> },
   { id: "china", label: "China" },
   { id: "global", label: "Global" },
+  { id: "war", label: "Guerra", icon: <Swords className="size-3.5" /> },
+];
+
+const WAR_KEYWORDS = [
+  "guerra", "war", "militar", "military", "defense", "defensa",
+  "armament", "drone", "dron", "ciberataque", "cyber", "weapons",
+  "armas", "pentagon", "ejercito", "nato", "otan", "belico",
+  "conflicto", "ataque", "armed", "troops", "combate",
 ];
 
 function normalizeText(value: string) {
@@ -27,6 +46,11 @@ function normalizeText(value: string) {
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
+}
+
+function isWarSignal(s: Signal): boolean {
+  const text = normalizeText(`${s.title} ${s.summary || ""}`);
+  return WAR_KEYWORDS.some((kw) => text.includes(kw));
 }
 
 function relativeDate(iso?: string): string {
@@ -41,31 +65,7 @@ function relativeDate(iso?: string): string {
   return new Date(iso).toLocaleDateString("es-CL", { month: "short", day: "numeric" });
 }
 
-function dayKey(iso?: string): string {
-  if (!iso) return "sin fecha";
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return "sin fecha";
-  const now = new Date();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const that = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-  const diffDays = Math.round((today.getTime() - that.getTime()) / 86_400_000);
-  if (diffDays === 0) return "Hoy";
-  if (diffDays === 1) return "Ayer";
-  return d.toLocaleDateString("es-CL", { weekday: "long", day: "numeric", month: "short" });
-}
-
-function groupByDay(signals: Signal[]): [string, Signal[]][] {
-  const groups = new Map<string, Signal[]>();
-  for (const s of signals) {
-    const k = dayKey(s.published);
-    const list = groups.get(k);
-    if (list) list.push(s);
-    else groups.set(k, [s]);
-  }
-  return [...groups.entries()];
-}
-
-// --- Filtros en la URL como store externo (useSyncExternalStore) ---
+// --- URL filter state via useSyncExternalStore ---
 type UrlFilterState = {
   region: RegionFilter | null;
   model: string | null;
@@ -82,9 +82,6 @@ const neutralUrlState: UrlFilterState = {
   openFilters: false,
 };
 
-// getSnapshot debe ser ESTABLE: mismo objeto entre llamadas si la URL no
-// cambió (React lo compara con Object.is). Un objeto nuevo por llamada =
-// loop infinito de re-renders.
 let cachedSearch: string | null = null;
 let cachedUrl: UrlFilterState = neutralUrlState;
 
@@ -95,7 +92,7 @@ function parseUrlState(search: string): UrlFilterState {
   const c = p.get("country");
   const q = p.get("q");
   return {
-    region: r && ["west", "china", "global"].includes(r) ? (r as RegionFilter) : null,
+    region: r && ["west", "china", "global", "war"].includes(r) ? (r as RegionFilter) : null,
     model: m,
     country: c,
     query: q ?? "",
@@ -118,22 +115,23 @@ function subscribeToLocation(onChange: () => void): () => void {
   return () => window.removeEventListener("popstate", onChange);
 }
 
+const REGION_GRADIENTS: Record<string, string> = {
+  west: "from-blue-500/20 to-blue-700/10",
+  china: "from-red-500/20 to-red-700/10",
+  global: "from-teal-500/20 to-teal-700/10",
+  war: "from-amber-500/20 to-amber-700/10",
+};
+
 export function WeekView() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
-  // Filtros en la URL vía useSyncExternalStore (idiomático React 19 para
-  // estado del navegador): el server snapshot es neutro y el cliente hidrata
-  // con los params reales — sin mismatch ni setState en effects.
   const urlState = useSyncExternalStore(subscribeToLocation, readUrlState, () => neutralUrlState);
-  // Los filtros activos combinan la URL (fuente de verdad compartible) con
-  // la interacción local: los handlers escriben en ambos.
   const [regionOverride, setRegionOverride] = useState<RegionFilter | null>(null);
   const [modelOverride, setModelOverride] = useState<string | null>(null);
   const [countryOverride, setCountryOverride] = useState<string | null>(null);
   const [query, setQuery] = useState("");
-  const [moreFilters, setMoreFilters] = useState(false);
-  const [openId, setOpenId] = useState<string | null>(null);
   const [showTop, setShowTop] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const searchRef = useRef<HTMLInputElement>(null);
 
   const region = regionOverride ?? urlState.region ?? "all";
@@ -142,7 +140,7 @@ export function WeekView() {
   const queryFromUrl = urlState.query;
   const searchQuery = query || queryFromUrl;
 
-  // Carga progresiva: 20 señales al instante, el resto en segundo plano.
+  // Progressive loading
   useEffect(() => {
     let alive = true;
     loadSignals().then((bundle) => {
@@ -157,19 +155,13 @@ export function WeekView() {
         });
       });
     });
-    return () => {
-      alive = false;
-    };
+    return () => { alive = false; };
   }, []);
 
-  // Filtros → URL (salida). No corre en el mount (borraría el param antes
-  // de que useSyncExternalStore lo lea) ni cuando la URL ya refleja el estado.
+  // Sync filters to URL
   const firstRun = useRef(true);
   useEffect(() => {
-    if (firstRun.current) {
-      firstRun.current = false;
-      return;
-    }
+    if (firstRun.current) { firstRun.current = false; return; }
     const p = new URLSearchParams();
     if (region !== "all") p.set("region", region);
     if (model !== "all") p.set("model", model);
@@ -179,13 +171,11 @@ export function WeekView() {
     const next = qs ? `?${qs}` : window.location.pathname;
     if (next !== `${window.location.pathname}${window.location.search}`) {
       window.history.replaceState(null, "", next);
-      // readUrlState cachea por search string: invalidar para que el
-      // siguiente snapshot refleje la URL que acabo de escribir.
       cachedSearch = null;
     }
   }, [region, model, country, searchQuery]);
 
-  // Atajo "/" enfoca la búsqueda (como GitHub).
+  // "/" focuses search
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const t = e.target as HTMLElement | null;
@@ -199,20 +189,14 @@ export function WeekView() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // Botón "volver arriba" tras hacer scroll. El estado inicial se lee en
-  // el primer render vía lazy init del listener (sin setState sincrónico).
+  // Scroll-to-top button
   useEffect(() => {
-    function onScroll() {
-      setShowTop(window.scrollY > 600);
-    }
+    function onScroll() { setShowTop(window.scrollY > 600); }
     window.addEventListener("scroll", onScroll, { passive: true });
-    // El primer valor real llega con el primer evento de scroll; rAF difiere
-    // la lectura inicial fuera del render síncrono del effect.
     requestAnimationFrame(onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // modelos y países presentes en los datos (para chips dinámicos)
   const presentModels = useMemo(() => {
     const set = new Set<string>();
     for (const s of signals) for (const m of s.models) set.add(m);
@@ -225,17 +209,30 @@ export function WeekView() {
     return [...set].sort();
   }, [signals]);
 
+  const regionCounts = useMemo(() => {
+    const counts: Record<string, number> = { all: signals.length, west: 0, china: 0, global: 0, war: 0 };
+    for (const s of signals) {
+      counts[s.region] = (counts[s.region] ?? 0) + 1;
+      if (isWarSignal(s)) counts.war++;
+    }
+    return counts;
+  }, [signals]);
+
   const modelOptions = useMemo(() => {
-    // Primero los 7 modelos protagonistas (en orden curado), luego el resto.
-    const inRegion = region === "all" ? presentModels : presentModels.filter((m) => m.region === region);
+    const inRegion = region === "all" || region === "war"
+      ? presentModels
+      : presentModels.filter((m) => m.region === region);
     const rank = new Map(TOP_MODELS.map((t, i) => [t.id, i]));
-    return [...inRegion].sort(
-      (a, b) => (rank.get(a.id) ?? 99) - (rank.get(b.id) ?? 99),
-    );
+    return [...inRegion].sort((a, b) => (rank.get(a.id) ?? 99) - (rank.get(b.id) ?? 99));
   }, [presentModels, region]);
 
   const filtered = useMemo(() => {
-    const base = filterSignals(signals, region, model, country);
+    let base: Signal[];
+    if (region === "war") {
+      base = signals.filter(isWarSignal);
+    } else {
+      base = filterSignals(signals, region === "all" ? "all" : region, model, country);
+    }
     const q = normalizeText(searchQuery.trim());
     if (!q) return base;
     return base.filter(
@@ -247,356 +244,367 @@ export function WeekView() {
     );
   }, [signals, region, model, country, searchQuery]);
 
-  // Nota: no hay effect que resetee filtros inválidos al cambiar los datos —
-  // pickRegion ya valida modelo↔región al interactuar, y un filtro sin
-  // resultados cae en el empty state con botón "Limpiar filtros".
-  // (react-hooks v7: setState sincrónico dentro de effect = cascading renders.)
-
   function pickRegion(next: RegionFilter) {
     setRegionOverride(next === (urlState.region ?? "all") ? null : next);
-    if (next !== "all" && model !== "all") {
+    if (next !== "all" && next !== "war" && model !== "all") {
       const allowed = presentModels.filter((m) => m.region === next).map((m) => m.id);
       if (!allowed.includes(model)) setModelOverride(null);
     }
   }
 
-  const activeFilterCount =
-    (region !== "all" ? 1 : 0) + (model !== "all" ? 1 : 0) + (country !== "all" ? 1 : 0);
+  function clearFilters() {
+    setRegionOverride(null);
+    setModelOverride(null);
+    setCountryOverride(null);
+    setQuery("");
+  }
 
   return (
-    <main className="mx-auto min-h-screen max-w-3xl px-4 pb-20 pt-10 sm:px-6">
-      <header className="border-b border-border pb-6">
-        <p className="mb-3 text-xs font-medium tracking-[0.18em] text-subtle uppercase">
-          Informe semanal
-        </p>
-        <h1 className="font-display text-[2rem] leading-tight tracking-tight text-fg sm:text-4xl">
-          Inteligencia artificial, por país y por modelo
-        </h1>
-        <p className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted">
-          <span>Señales reales con fuente enlazable — Occidente, China y el resto del mundo.</span>
-          {generatedAt && (
-            <span className="inline-flex items-center gap-1.5 text-subtle">
-              <span className="inline-block size-1.5 rounded-full bg-emerald-400" aria-hidden />
-              Actualizado {relativeDate(generatedAt)}
-            </span>
-          )}
-        </p>
-      </header>
-
-      <div className="mt-6 flex items-baseline gap-6">
-        <div>
-          <span className="font-display text-3xl tabular-nums text-fg sm:text-4xl">
-            {signals.length}
-          </span>
-          <span className="ml-1.5 text-sm text-subtle">señales</span>
-        </div>
-        <div>
-          <span className="font-display text-3xl tabular-nums text-fg sm:text-4xl">
-            {presentCountries.length}
-          </span>
-          <span className="ml-1.5 text-sm text-subtle">países</span>
-        </div>
-        <div className="ml-auto text-xs text-subtle">
-          {filtered.length !== signals.length && (
-            <span>
-              {filtered.length} de {signals.length} con filtros
-            </span>
-          )}
-        </div>
-      </div>
-
-      <section className="mt-6 space-y-3" aria-label="Filtros">
-        <div className="flex flex-wrap items-center gap-2">
-          {REGION_CHIPS.map((c) => (
-            <Chip
-              key={c.id}
-              active={region === c.id}
-              onClick={() => pickRegion(c.id)}
-              icon={
-                c.id === "all" ? (
-                  <Globe2 className="size-3.5" />
-                ) : c.id === "west" ? (
-                  <Landmark className="size-3.5" />
-                ) : undefined
-              }
-              testId={`region-${c.id}`}
-            >
-              {c.label}
-            </Chip>
-          ))}
-          <button
-            type="button"
-            onClick={() => setMoreFilters((v) => !v)}
-            aria-expanded={moreFilters}
-            className="ml-auto inline-flex min-h-9 items-center gap-1.5 rounded-full border border-border bg-surface px-3.5 text-sm text-muted transition-colors duration-150 hover:border-accent hover:text-fg"
-          >
-            {activeFilterCount > 0 && (
-              <span className="rounded-full bg-accent px-1.5 text-[11px] font-semibold text-accent-fg">
-                {activeFilterCount}
-              </span>
-            )}
-            {moreFilters ? "Menos filtros" : "Más filtros"}
-            <ChevronDown
-              className={cn("size-3.5 transition-transform duration-200", moreFilters && "rotate-180")}
-            />
-          </button>
-        </div>
-
-        {moreFilters && (
-          <div className="space-y-3 rounded-xl border border-border bg-surface p-3">
-            {modelOptions.length > 0 && (
-              <div>
-                <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Modelos</p>
-                <div className="flex flex-wrap gap-2">
-                  <Chip active={model === "all"} onClick={() => setModelOverride(null)} testId="model-all">
-                    Todos
-                  </Chip>
-                  {modelOptions.map((m) => {
-                    const top = TOP_MODELS.find((t) => t.id === m.id);
-                    return (
-                      <Chip
-                        key={m.id}
-                        active={model === m.id}
-                        onClick={() => setModelOverride(m.id)}
-                        testId={`model-${m.id}`}
-                      >
-                        {m.label}
-                        <span className="text-subtle"> · {m.lab}</span>
-                        {top && (
-                          <span className="text-[10px] font-semibold uppercase">
-                            {" "}{COUNTRY_META[top.countryId]?.flag}
-                          </span>
-                        )}
-                      </Chip>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {presentCountries.length > 0 && (
-              <div>
-                <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">País</p>
-                <div className="flex flex-wrap gap-2">
-                  <Chip active={country === "all"} onClick={() => setCountryOverride(null)} testId="country-all">
-                    Todos
-                  </Chip>
-                  {presentCountries.map((c) => (
-                    <Chip key={c} active={country === c} onClick={() => setCountryOverride(c)} testId={`country-${c}`}>
-                      {COUNTRY_META[c]?.flag ?? "🌐"} {COUNTRY_META[c]?.label ?? c}
-                    </Chip>
-                  ))}
-                </div>
-              </div>
-            )}
+    <div className="flex min-h-screen">
+      {/* --- Dock --- */}
+      <nav className="fixed bottom-0 left-0 right-0 z-30 flex items-center justify-around border-t border-border bg-surface/80 backdrop-blur-xl md:sticky md:top-0 md:h-screen md:w-14 md:flex-col md:justify-start md:gap-2 md:border-r md:border-t-0 md:py-5">
+        <div className="hidden md:block">
+          <div className="flex size-9 items-center justify-center rounded-xl bg-accent/10 text-accent">
+            <span className="font-display text-lg">A</span>
           </div>
+        </div>
+        <DockButton icon={<Home className="size-5" />} label="Inicio" />
+        <DockButton icon={<LayoutGrid className="size-5" />} label="Señales" active />
+        <button
+          type="button"
+          onClick={() => { setSidebarOpen((v) => !v); }}
+          className="flex size-10 items-center justify-center rounded-xl text-muted transition-colors hover:bg-white/5 hover:text-fg md:hidden"
+          aria-label="Filtros"
+        >
+          <Search className="size-5" />
+        </button>
+        <DockButton icon={<Globe2 className="size-5" />} label="Global" />
+        <DockButton icon={<Swords className="size-5" />} label="Guerra" />
+        <div className="hidden md:mt-auto">
+          <DockButton icon={<Settings className="size-5" />} label="Ajustes" />
+        </div>
+      </nav>
+
+      {/* --- Sidebar --- */}
+      <aside
+        className={cn(
+          "fixed inset-y-0 left-0 z-20 w-72 border-r border-border bg-surface/70 backdrop-blur-xl p-5 transition-transform duration-300 md:translate-x-0",
+          "bottom-16 top-auto md:top-0 md:bottom-0 md:h-screen md:overflow-y-auto",
+          sidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0",
+        )}
+      >
+        {/* Branding */}
+        <div className="mb-5">
+          <p className="text-[10px] font-medium tracking-[0.18em] text-subtle uppercase">AI Informe</p>
+          <h2 className="font-display text-xl text-fg">Champions</h2>
+        </div>
+
+        {/* Stats */}
+        <div className="mb-5 flex gap-4">
+          <Stat value={signals.length} label="señales" />
+          <Stat value={presentCountries.length} label="países" />
+          <Stat value={presentModels.length} label="modelos" />
+        </div>
+
+        {generatedAt && (
+          <p className="mb-4 flex items-center gap-1.5 text-[11px] text-subtle">
+            <span className="inline-block size-1.5 rounded-full bg-emerald-400" aria-hidden />
+            Actualizado {relativeDate(generatedAt)}
+          </p>
         )}
 
-        <label className="relative block">
+        {/* Search */}
+        <label className="relative mb-5 block">
           <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-subtle" />
-          <span className="sr-only">Buscar en el informe</span>
+          <span className="sr-only">Buscar</span>
           <input
             ref={searchRef}
             value={query || queryFromUrl}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar en títulos, notas, modelos o países"
+            placeholder="Buscar señales…"
             aria-controls="signal-results"
-            className="h-11 w-full rounded-xl border border-border bg-surface pr-3 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-colors duration-150 focus:border-accent"
+            className="h-10 w-full rounded-xl border border-border bg-elevated/60 pr-3 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-colors focus:border-accent"
           />
         </label>
-      </section>
 
-      <div id="signal-results" className="mt-8 space-y-6" aria-live="polite">
-        <p className="sr-only" role="status">
-          {filtered.length} {filtered.length === 1 ? "señal encontrada" : "señales encontradas"}.
-        </p>
-        {filtered.length === 0 ? (
-          <div className="rounded-xl border border-border bg-surface px-4 py-10 text-center">
-            <p className="text-sm text-muted">
-              Nada coincide con esos filtros.
-            </p>
-            <button
-              type="button"
-              onClick={() => {
-                setRegionOverride(null);
-                setModelOverride(null);
-                setCountryOverride(null);
-                setQuery("");
-              }}
-              className="mt-3 inline-flex min-h-9 items-center rounded-full border border-border bg-elevated px-4 text-sm text-fg transition-colors duration-150 hover:border-accent"
+        {/* Region filters */}
+        <FilterSection title="Región">
+          {REGION_FILTERS.map((f) => (
+            <FilterRow
+              key={f.id}
+              active={region === f.id}
+              onClick={() => pickRegion(f.id)}
+              count={regionCounts[f.id] ?? 0}
+              icon={f.icon}
             >
-              Limpiar filtros
-            </button>
-          </div>
-        ) : (
-          groupByDay(filtered).map(([day, daySignals]) => (
-            <section key={day} aria-label={day}>
-              <div className="sticky top-0 z-10 -mx-4 mb-3 bg-bg/85 px-4 py-2 backdrop-blur-sm sm:-mx-6 sm:px-6">
-                <h3 className="text-xs font-medium tracking-[0.18em] text-subtle uppercase">
-                  {day}{" "}
-                  <span className="ml-1 tracking-normal normal-case">
-                    · {daySignals.length}
-                  </span>
-                </h3>
-              </div>
-              <div className="space-y-3">
-                {daySignals.map((s) => (
-                  <SignalCard
-                    key={s.id}
-                    signal={s}
-                    open={openId === s.id}
-                    onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
-                  />
-                ))}
-              </div>
-            </section>
-          ))
-        )}
-      </div>
+              {f.label}
+            </FilterRow>
+          ))}
+        </FilterSection>
 
+        {/* Model filters */}
+        {modelOptions.length > 0 && (
+          <FilterSection title="Modelos">
+            <FilterRow active={model === "all"} onClick={() => setModelOverride(null)} count={0}>
+              Todos
+            </FilterRow>
+            {modelOptions.slice(0, 12).map((m) => {
+              const top = TOP_MODELS.find((t) => t.id === m.id);
+              return (
+                <FilterRow
+                  key={m.id}
+                  active={model === m.id}
+                  onClick={() => setModelOverride(m.id)}
+                  count={0}
+                >
+                  {m.label}
+                  {top && <span className="ml-1 text-xs">{COUNTRY_META[top.countryId]?.flag}</span>}
+                </FilterRow>
+              );
+            })}
+          </FilterSection>
+        )}
+
+        {/* Country filters */}
+        {presentCountries.length > 0 && (
+          <FilterSection title="País">
+            <FilterRow active={country === "all"} onClick={() => setCountryOverride(null)} count={0}>
+              Todos
+            </FilterRow>
+            {presentCountries.map((c) => (
+              <FilterRow key={c} active={country === c} onClick={() => setCountryOverride(c)} count={0}>
+                {COUNTRY_META[c]?.flag ?? "🌐"} {COUNTRY_META[c]?.label ?? c}
+              </FilterRow>
+            ))}
+          </FilterSection>
+        )}
+
+        {(region !== "all" || model !== "all" || country !== "all" || searchQuery) && (
+          <button
+            type="button"
+            onClick={clearFilters}
+            className="mt-4 w-full rounded-lg border border-border bg-elevated/40 py-2 text-xs text-muted transition-colors hover:border-accent hover:text-fg"
+          >
+            Limpiar filtros
+          </button>
+        )}
+      </aside>
+
+      {/* --- Main content --- */}
+      <main className="flex-1 overflow-y-auto md:ml-0">
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+          {/* Header */}
+          <header className="mb-6">
+            <h1 className="font-display text-2xl text-fg sm:text-3xl">Champions</h1>
+            <p className="mt-1 text-sm text-muted">
+              Descubre las últimas señales de IA, tecnología de China y guerra
+            </p>
+            {filtered.length !== signals.length && (
+              <p className="mt-1 text-xs text-subtle">
+                {filtered.length} de {signals.length} señales
+              </p>
+            )}
+          </header>
+
+          {/* Card grid */}
+          <div id="signal-results" className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3" aria-live="polite">
+            <p className="sr-only" role="status">
+              {filtered.length} {filtered.length === 1 ? "señal encontrada" : "señales encontradas"}.
+            </p>
+            {filtered.length === 0 ? (
+              <div className="col-span-full rounded-xl border border-border bg-surface/50 px-4 py-10 text-center backdrop-blur-sm">
+                <p className="text-sm text-muted">Nada coincide con esos filtros.</p>
+                <button
+                  type="button"
+                  onClick={clearFilters}
+                  className="mt-3 inline-flex min-h-9 items-center rounded-full border border-border bg-elevated px-4 text-sm text-fg transition-colors hover:border-accent"
+                >
+                  Limpiar filtros
+                </button>
+              </div>
+            ) : (
+              filtered.map((s) => (
+                <SignalGridCard key={s.id} signal={s} />
+              ))
+            )}
+          </div>
+
+          <footer className="mt-10 border-t border-border pt-5 text-xs text-subtle">
+            AI Informe · Champions Hub · {signals.length} señales ·
+            {generatedAt ? ` ${new Date(generatedAt).toLocaleString("es-CL")}` : " sin fecha"}
+          </footer>
+        </div>
+      </main>
+
+      {/* Scroll to top */}
       {showTop && (
         <button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           aria-label="Volver arriba"
-          className="fixed right-5 bottom-6 z-20 inline-flex size-11 items-center justify-center rounded-full border border-border bg-elevated text-muted shadow-lg transition-colors duration-150 hover:border-accent hover:text-fg"
+          className="fixed right-5 bottom-20 z-30 inline-flex size-10 items-center justify-center rounded-full border border-border bg-elevated text-muted shadow-lg backdrop-blur-xl transition-colors hover:border-accent hover:text-fg md:bottom-6"
         >
           <ArrowUp className="size-5" />
         </button>
       )}
-
-      <footer className="mt-14 border-t border-border pt-6 text-xs text-subtle">
-        AI Informe · Datos reales con fuente · {signals.length} señales ·
-        {generatedAt ? ` generado ${new Date(generatedAt).toLocaleString("es-CL")}` : " sin fecha"}
-      </footer>
-    </main>
+    </div>
   );
 }
 
-function Chip({
-  active,
-  onClick,
-  children,
+function DockButton({
   icon,
-  testId,
+  label,
+  active,
 }: {
-  active: boolean;
-  onClick: () => void;
-  children: React.ReactNode;
-  icon?: React.ReactNode;
-  testId?: string;
+  icon: React.ReactNode;
+  label: string;
+  active?: boolean;
 }) {
   return (
     <button
       type="button"
-      data-testid={testId}
-      onClick={onClick}
-      aria-pressed={active}
+      aria-label={label}
       className={cn(
-        "inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors duration-150",
+        "flex size-10 items-center justify-center rounded-xl transition-colors",
         active
-          ? "border-accent bg-accent text-accent-fg"
-          : "border-border bg-surface text-muted hover:border-accent hover:text-fg",
+          ? "bg-accent/10 text-accent"
+          : "text-muted hover:bg-white/5 hover:text-fg",
       )}
     >
       {icon}
-      {children}
     </button>
   );
 }
 
-function SignalCard({
-  signal,
-  open,
-  onToggle,
-}: {
-  signal: Signal;
-  open: boolean;
-  onToggle: () => void;
-}) {
-  const when = relativeDate(signal.published);
+function Stat({ value, label }: { value: number; label: string }) {
   return (
-    <article className="overflow-hidden rounded-2xl border border-border bg-surface transition-colors duration-150 hover:border-accent/40">
-      <button
-        type="button"
-        onClick={onToggle}
-        aria-expanded={open}
-        className="flex w-full items-start gap-3 px-4 py-4 text-left sm:px-5"
-      >
-        <div className="min-w-0 flex-1">
-          <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-subtle">
-            <span>{when || "sin fecha"}</span>
-            <span aria-hidden>·</span>
-            <span>{signal.sourceLabel ?? SOURCE_LABEL[signal.source ?? ""] ?? "Noticias"}</span>
-            {signal.publisher && (
-              <>
-                <span aria-hidden>·</span>
-                <span>{signal.publisher}</span>
-              </>
-            )}
+    <div>
+      <span className="font-display text-2xl tabular-nums text-fg">{value}</span>
+      <span className="ml-1 text-xs text-subtle">{label}</span>
+    </div>
+  );
+}
+
+function FilterSection({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="mb-5">
+      <p className="mb-2 text-[10px] font-medium tracking-[0.15em] text-subtle uppercase">{title}</p>
+      <div className="space-y-0.5">{children}</div>
+    </div>
+  );
+}
+
+function FilterRow({
+  active,
+  onClick,
+  count,
+  icon,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  count: number;
+  icon?: React.ReactNode;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "flex w-full items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm transition-colors",
+        active
+          ? "bg-accent/10 text-accent"
+          : "text-muted hover:bg-white/5 hover:text-fg",
+      )}
+    >
+      {icon}
+      <span className="flex-1 text-left">{children}</span>
+      {count > 0 && (
+        <span className={cn("text-xs tabular-nums", active ? "text-accent/70" : "text-subtle")}>
+          {count}
+        </span>
+      )}
+    </button>
+  );
+}
+
+function SignalGridCard({ signal }: { signal: Signal }) {
+  const when = relativeDate(signal.published);
+  const gradient = REGION_GRADIENTS[signal.region] ?? REGION_GRADIENTS.global;
+  const isWar = isWarSignal(signal);
+
+  return (
+    <article className="group overflow-hidden rounded-2xl border border-border bg-surface/40 backdrop-blur-xl transition-all duration-200 hover:border-accent/30 hover:bg-surface/60">
+      {/* Gradient header */}
+      <div className={cn("relative h-16 bg-gradient-to-br", gradient)}>
+        {isWar && (
+          <span className="absolute top-2 left-2 rounded-md bg-amber-500/20 px-1.5 py-0.5 text-[9px] font-semibold tracking-wide text-amber-400 uppercase">
+            Guerra
+          </span>
+        )}
+        {signal.models.length > 0 && (
+          <div className="absolute right-2 bottom-2 flex flex-wrap justify-end gap-1">
+            {signal.models.slice(0, 3).map((m) => {
+              const meta = modelMeta(m);
+              return (
+                <span
+                  key={m}
+                  className={cn(
+                    "rounded-md px-1.5 py-0.5 text-[9px] font-medium tracking-wide uppercase",
+                    meta?.region === "china"
+                      ? "bg-red-500/15 text-china"
+                      : meta?.region === "west"
+                        ? "bg-blue-500/15 text-west"
+                        : "bg-teal-500/15 text-accent",
+                  )}
+                >
+                  {meta?.label ?? m}
+                </span>
+              );
+            })}
           </div>
-          <h2 className="font-display text-lg leading-snug text-fg">
-            {signal.sourceUrl ? (
-              <a
-                href={signal.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-                onClick={(e) => e.stopPropagation()}
-              >
-                {signal.title}
-              </a>
-            ) : (
-              signal.title
-            )}
-          </h2>
-          {signal.summary && !open && (
-            <p className="mt-1 line-clamp-2 text-sm text-muted">{signal.summary}</p>
-          )}
-          {signal.models.length > 0 && (
-            <div className="mt-2 flex flex-wrap gap-1.5">
-              {signal.models.map((m) => {
-                const meta = modelMeta(m);
-                return (
-                  <span
-                    key={m}
-                    className={cn(
-                      "rounded-md px-1.5 py-0.5 text-[10px] font-medium tracking-wide uppercase",
-                      meta?.region === "china"
-                        ? "bg-elevated text-china"
-                        : "bg-elevated text-fg",
-                    )}
-                  >
-                    {meta?.label ?? m}
-                  </span>
-                );
-              })}
-            </div>
-          )}
+        )}
+      </div>
+
+      {/* Body */}
+      <div className="p-4">
+        <div className="mb-2 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-subtle">
+          <span>{when || "sin fecha"}</span>
+          <span aria-hidden>·</span>
+          <span className="truncate">
+            {signal.sourceLabel ?? SOURCE_LABEL[signal.source ?? ""] ?? "Noticias"}
+          </span>
         </div>
-        <ChevronDown
-          className={cn(
-            "mt-1 size-5 shrink-0 text-subtle transition-transform duration-200 ease-[var(--ease-out-smooth)]",
-            open && "rotate-180",
-          )}
-        />
-      </button>
-      {open ? (
-        <div className="border-t border-border px-4 pt-3 pb-4 text-sm leading-relaxed text-muted sm:px-5">
-          {signal.summary && <p>{signal.summary}</p>}
-          {signal.sourceUrl && (
+        <h3 className="font-display text-base leading-snug text-fg">
+          {signal.sourceUrl ? (
             <a
               href={signal.sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-3 inline-flex items-center gap-1.5 text-accent hover:underline"
+              className="transition-colors hover:text-accent"
             >
-              <ExternalLink className="size-3.5" />
-              Leer fuente original
+              {signal.title}
             </a>
+          ) : (
+            signal.title
           )}
-        </div>
-      ) : null}
+        </h3>
+        {signal.summary && (
+          <p className="mt-1.5 line-clamp-2 text-sm text-muted">{signal.summary}</p>
+        )}
+        {signal.sourceUrl && (
+          <a
+            href={signal.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-accent/10 px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
+          >
+            <ExternalLink className="size-3" />
+            Leer fuente
+          </a>
+        )}
+      </div>
     </article>
   );
 }
