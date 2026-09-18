@@ -5,17 +5,19 @@
   --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
 
-  --color-bg: #0a0a0b;
-  --color-surface: #121214;
-  --color-elevated: #1a1a1e;
-  --color-fg: #f4f4f5;
-  --color-muted: #a1a1aa;
-  --color-subtle: #71717a;
-  --color-border: #2a2a2e;
-  --color-accent: #c8ccd4;
-  --color-accent-fg: #0a0a0b;
-  --color-west: #9aa7b8;
-  --color-china: #c4b8a8;
+  /* Champions Hub — dark teal glassmorphism palette */
+  --color-bg: #0a0f14;
+  --color-surface: #0f171c;
+  --color-elevated: #142028;
+  --color-fg: #f0fdfa;
+  --color-muted: #94a3b8;
+  --color-subtle: #64748b;
+  --color-border: #1e2935;
+  --color-accent: #22d3ee;
+  --color-accent-fg: #0a0f14;
+  --color-west: #60a5fa;
+  --color-china: #f87171;
+  --color-war: #fbbf24;
 
   --radius-xs: 4px;
   --radius-sm: 8px;
@@ -36,7 +38,7 @@
   body,
   #app {
     min-height: 100%;
-    background: var(--color-bg);
+    background: linear-gradient(135deg, #0a0f14 0%, #0f171c 45%, #0d1a1a 100%);
     color: var(--color-fg);
   }
 
@@ -59,6 +61,22 @@
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
+  }
+
+  /* Custom scrollbar — slim, teal-tinted */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(34, 211, 238, 0.15);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(34, 211, 238, 0.3);
   }
 }
 
