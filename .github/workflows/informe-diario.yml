@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: informe-diario
+  cancel-in-progress: false
+
 jobs:
   generar:
     runs-on: ubuntu-latest
