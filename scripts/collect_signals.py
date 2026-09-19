@@ -48,22 +48,8 @@ UA = {
 
 # ---------------------------------------------------------------- fuentes ---
 # RSS de laboratorios / medios (reutilizado de generar_informe.py)
-LAB_FEEDS = [
-    ("OpenAI", "https://openai.com/news/rss.xml"),
-    ("Google AI", "https://blog.google/technology/ai/rss/"),
-    ("DeepMind", "https://deepmind.google/blog/rss.xml"),
-    ("Meta AI", "https://ai.meta.com/blog/rss/"),
-    ("Hugging Face", "https://huggingface.co/blog/feed.xml"),
-    ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
-    ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
-    ("MIT Tech Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
-    ("Ars Technica AI", "https://arstechnica.com/ai/feed/"),
-    ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
-    ("Synced", "https://syncedreview.com/feed/"),
-    ("36Kr AI", "https://36kr.com/feed"),
-    ("QbitAI", "https://www.qbitai.com/feed"),
-    ("DeepSeek", "https://www.deepseek.com/rss.xml"),
-]
+# Fuente única de verdad: ver scripts/sources.py (hallazgo 4 de la auditoría)
+from sources import FEEDS as LAB_FEEDS  # noqa: E402
 
 # Google News: (etiqueta, query, idioma/región, país_hint)
 GNEWS_QUERIES = [
