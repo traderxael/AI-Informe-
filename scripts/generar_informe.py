@@ -8,6 +8,7 @@ import html
 import json
 import re
 import ssl
+import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -156,7 +157,9 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
 SSL_CONTEXT = ssl.create_default_context()
 
 
-def fetch_url(url: str, timeout: int = 20) -> bytes | None:
+def fetch_url(url: str, timeout: int = 20, retries: int = 2, backoff: float = 2.0) -> bytes | None:
+    """Fetch con reintentos exponenciales (hallazgo 8: feeds que bloquean
+    transitoriamente, p. ej. 36Kr, ya no se pierden en silencio)."""
     req = urllib.request.Request(
         url,
         headers={
@@ -164,11 +167,14 @@ def fetch_url(url: str, timeout: int = 20) -> bytes | None:
             "Accept": "application/rss+xml, application/xml, text/xml, */*",
         },
     )
-    try:
-        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
-            return resp.read()
-    except (urllib.error.URLError, TimeoutError, OSError):
-        return None
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
+                return resp.read()
+        except (urllib.error.URLError, TimeoutError, OSError):
+            if attempt < retries:
+                time.sleep(backoff * (attempt + 1))
+    return None
 
 
 def local_tag(tag: str) -> str:
@@ -310,6 +316,30 @@ def classify_country(title: str, source: str) -> str:
     return "global"
 
 
+# Ranking de relevancia (hallazgo 7): score = recencia × peso de fuente.
+# Los HN points y Reddit score viven en collect_signals.py (señales), no aquí.
+RELEVANCIA_WEIGHTS = {
+    "OpenAI": 1.5, "Google AI": 1.5, "DeepMind": 1.5, "Meta AI": 1.4,
+    "Anthropic": 1.5, "TechCrunch AI": 1.3, "The Verge AI": 1.3,
+    "MIT Tech Review AI": 1.4, "Ars Technica AI": 1.3,
+    "VentureBeat AI": 1.2, "Hugging Face": 1.2,
+    "Synced": 1.1, "QbitAI": 1.1, "36Kr AI": 1.0, "DeepSeek": 1.4,
+}
+DEFAULT_WEIGHT = 1.0
+RECENCY_DECAY_HOURS = 36.0  # la recencia decae a ~1/e en 36h
+
+
+def relevancia(item: dict[str, Any], now: datetime) -> float:
+    w = RELEVANCIA_WEIGHTS.get(item.get("source", ""), DEFAULT_WEIGHT)
+    pub = item.get("published")
+    if pub is None:
+        return w * 0.5  # sin fecha: mitad de peso
+    hours = max(0.0, (now - pub).total_seconds() / 3600.0)
+    recency = pow(2.718281828, -hours / RECENCY_DECAY_HOURS)
+    bonus = 0.1 if item.get("summary") else 0.0
+    return w * (0.3 + 0.7 * recency) + bonus
+
+
 def _fetch_one(feed: tuple[str, str]) -> tuple[str, bytes | None]:
     source, url = feed
     # Cada feed se pide en paralelo con su propio timeout; un feed lento
@@ -365,11 +395,14 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
     for item in items:
         by_section[item["section"]].append(item)
 
+    now = datetime.now(timezone.utc)
+
     def block(section: str, empty: str) -> str:
-        rows = by_section[section][:12]
+        rows = sorted(by_section[section],
+                      key=lambda _it: relevancia(_it, now), reverse=True)[:12]
         if not rows:
             return empty
-        return "\n".join(bullet(it) for it in rows)
+        return "\n".join(bullet(_it) for _it in rows)
 
     n_nov = len(by_section["novedades"])
     n_uso = len(by_section["usos"])
