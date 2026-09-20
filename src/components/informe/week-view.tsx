@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "reac
 import { ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search } from "lucide-react";
 import {
   COUNTRY_META,
+  REGION_LABEL,
   SOURCE_LABEL,
   TOP_MODELS,
   filterSignals,
@@ -296,6 +297,23 @@ export function WeekView() {
           </span>
           <span className="ml-1.5 text-sm text-subtle">países</span>
         </div>
+        <div className="flex flex-col gap-0.5">
+          {(["west", "china", "global"] as Region[]).map((r) => {
+            const count = signals.filter((s) => s.region === r).length;
+            return (
+              <div key={r} className="flex items-center gap-1.5 text-xs text-subtle">
+                <span className={cn(
+                  "inline-block size-2 rounded-full",
+                  r === "west" && "bg-west",
+                  r === "china" && "bg-china",
+                  r === "global" && "bg-accent",
+                )} />
+                <span>{REGION_LABEL[r]}</span>
+                <span className="tabular-nums">{count}</span>
+              </div>
+            );
+          })}
+        </div>
         <div className="ml-auto text-xs text-subtle">
           {filtered.length !== signals.length && (
             <span>
@@ -515,6 +533,7 @@ function SignalCard({
   onToggle: () => void;
 }) {
   const when = relativeDate(signal.published);
+  const countryMeta = signal.country ? COUNTRY_META[signal.country] : undefined;
   return (
     <article className="overflow-hidden rounded-2xl border border-border bg-surface transition-colors duration-150 hover:border-accent/40">
       <button
@@ -532,6 +551,15 @@ function SignalCard({
               <>
                 <span aria-hidden>·</span>
                 <span>{signal.publisher}</span>
+              </>
+            )}
+            {countryMeta && (
+              <>
+                <span aria-hidden>·</span>
+                <span className="inline-flex items-center gap-1">
+                  <span aria-hidden>{countryMeta.flag}</span>
+                  {countryMeta.label}
+                </span>
               </>
             )}
           </div>
@@ -566,8 +594,10 @@ function SignalCard({
                         ? "bg-elevated text-china"
                         : "bg-elevated text-fg",
                     )}
+                    title={meta ? `${meta.label} · ${meta.lab}` : m}
                   >
                     {meta?.label ?? m}
+                    {meta && <span className="ml-1 text-subtle normal-case font-normal">· {meta.lab}</span>}
                   </span>
                 );
               })}
@@ -583,7 +613,16 @@ function SignalCard({
       </button>
       {open ? (
         <div className="border-t border-border px-4 pt-3 pb-4 text-sm leading-relaxed text-muted sm:px-5">
-          {signal.summary && <p>{signal.summary}</p>}
+          {(signal as Signal & { title_orig?: string }).title_orig && (
+            <p className="mb-2 text-xs italic text-subtle">
+              Título original: {(signal as Signal & { title_orig?: string }).title_orig}
+            </p>
+          )}
+          {signal.summary ? (
+            <p>{signal.summary}</p>
+          ) : (
+            <p className="text-subtle italic">Sin resumen disponible.</p>
+          )}
           {signal.sourceUrl && (
             <a
               href={signal.sourceUrl}
