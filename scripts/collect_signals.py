@@ -315,18 +315,25 @@ def social_feeds() -> list[tuple[dict[str, Any], str]]:
 # ------------------------------------------------------------------ rutina ---
 def recolectar() -> list[dict[str, Any]]:
     seen: set[str] = set()
+    seen_titles: set[frozenset[str]] = set()
     items: list[dict[str, Any]] = []
 
     def add(it: dict[str, Any], source: str, hint: str) -> None:
         key = (it.get("url") or it["title"]).lower()
         if key in seen:
             return
-        seen.add(key)
         title = it["title"]
         publisher = ""
         if source.startswith("Google News"):
             # 'Titular - Medio' -> titular limpio + medio real guardado aparte.
             title, publisher = split_gnews_title(title)
+        # Dedupe por similitud de título (hallazgo 6): la misma noticia
+        # sindicada (Reuters/AP) llega con URL distinta pero titular casi igual.
+        toks = frozenset(re.findall(r"[a-z0-9]+", title.lower()))
+        if toks and any(len(toks & v) / len(toks | v) >= 0.8 for v in seen_titles):
+            return
+        seen.add(key)
+        seen_titles.add(toks)
         models = classify_models(f"{title} {source}")
         country = classify_country(title, source, hint)
         summary = it.get("summary") or ""
