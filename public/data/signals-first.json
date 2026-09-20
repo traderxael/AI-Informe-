@@ -1,16 +1,136 @@
 {
-  "generated_at": "2026-09-19T15:27:36.268758+00:00",
+  "generated_at": "2026-09-20T15:32:35.257057+00:00",
   "count": 20,
   "sources": [
+    "Ars Technica AI",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
     "Google News — IA Francia",
+    "Google News — IA LATAM",
     "Google News — IA Rusia",
     "Google News — IA global",
+    "Hacker News",
+    "OpenAI",
     "QbitAI",
     "TechCrunch AI"
   ],
   "signals": [
+    {
+      "id": "91ef20a34a75",
+      "title": "Los hackers que irrumpieron en OpenAI advierten que la industria de la IA tiene un problema de seguridad",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM19yZG9CWkxLRGFEaVVfeGNTMFRZY3h3eW5uQTQ1VThHbmF5TFZSMTBNSWhIRG1ialpDTlVDWW5zZjgwQzNaRkxIZTVTQ2Y5blFWcGpfd3I5dUN5dElTbGt4dEZiQU04aG1fQm9yUi1qTUlOWXA1enBnUmhCdjFhNmJMYjR5NGhUMHBWZm1IQVRKUjI3NkRkdHQtWHBibmhYY1p5T1hVeXBaQllRNUx4WWdhN295d2M?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The Washington Post",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-20T15:02:11+00:00",
+      "title_orig": "Hackers who broke into OpenAI warn the AI industry has a security problem"
+    },
+    {
+      "id": "d7b178957833",
+      "title": "Google Gemini viola los sistemas de la empresa cuando Trump presenta una nueva ‘Fuerza de IA’",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaTRRUnY2N3VRTVNoTEpFdHh2UFY0U093aUZZODRWOF9nZHdvS2lQc0N1MzlfaHNKSlQ5enFEa3pta09GUllkY0FGS0N1ME01Z0pLb19wRnViYlBubVpFbHhrOEpneVNGb1BzQThEZExSMHY2OERuVmEzN2tZdmZrampla083TkJqbmZF?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Fox News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-20T15:01:39+00:00",
+      "title_orig": "Google Gemini breaches company systems as Trump unveils new ‘AI Force’"
+    },
+    {
+      "id": "9bf48bb838b7",
+      "title": "Después de OpenAI y Anthropic, Google reconoce que su IA, Gemini, también ha llevado a cabo varios ciberataques",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeTgxVWVkeDZfVnpmRUJQQVZENk0wNExZS3JxWWVyaVlRRDBxMzFRanhrbkdiWF9xNjRCaTFEU1luRDNFR1pZdlBGRWJ6cGxtV2dKWFpXZzlZRzJ4SHNrSG1DendZQjdackx5YlUwQk82VkdXNVVDYUxXZ1Ffam5xTkdzcUVRS2FodURmX1psVlhPNUhXTU9Lc0JScnpYQUpMTW1wWjkydk16Yms0OFkxMUl1WFdIUkNMSXVnd0Zhcm9aY25scGFFdFVrSVZIdTgyM1l4SFpzbl94QlgxWDU0czRQOVZlaTZMNEVycWNmYmZCX0U?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Challenges",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-20T14:30:00+00:00",
+      "title_orig": "Après OpenAI et Anthropic, Google reconnaît que son IA, Gemini, a elle aussi mené plusieurs cyberattaques"
+    },
+    {
+      "id": "fc9a8f12e485",
+      "title": "Qwen-Image-2.1: Creación de imágenes compacta, eficiente y unificada",
+      "summary": "Comments",
+      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "qwen"
+      ],
+      "source": "social",
+      "published": "2026-09-20T13:09:25+00:00",
+      "title_orig": "Qwen-Image-2.1: Compact, efficient, and unified image creation"
+    },
+    {
+      "id": "b8b7b441d103",
+      "title": "Jensen Huang dice que hay \"0% de posibilidades\" de que la IA destruya el mundo para 2030: \"Debemos ir lo más rápido que podamos, independientemente de cualquier otra persona\", rechaza las advertencias sobre la fatalidad antrópica y rechaza las nuevas regulaciones",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPRUxLZEl6TGlfUVlKbVh2UVFKRmR6dnZHblpPUlRKZkVyUmRKNkZFOTZaWUNzWmNMQkNfS0VwLW9XUFFQelhad3dtNjhTOFVCRENaSzdBdUpVOVZHNGpjYi1ab0dCdTRpVk5RRTZMUDlFNlF1MHAtbDVhaGNZVDJRX0MtNk5pOERuT3pkcUlBR3drLUdRY2FfZzBNTjZ2YkhJVUg5WklBelpMZEI1SzA2UW85QWhPZk4zWXA4eU0yNk1BMlJ1NkFrRWt2Tm41RGhKUTY4N1dqYi11Y0l3WGRLUTNwVDloRDBJLUFlR3JMUmNLY3FzN0VKdVZ5YmcwOE56NHZNVllYc2x4UFFRWTR4RW4xNUpsbVAzUGFDU0xFaDlhMTNkUjJoRm5hSFpLZTFRdVZxc3FOTkYzaUdqRjRvQVBaRXprM3JTNjR6aEtuS3VvUjZtcnd2SGczMHlzbExtSU9yaXl2bnBseXJDVFZqeE42VnBSenoz?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Tom's Hardware",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-20T10:55:00+00:00",
+      "title_orig": "Jensen Huang says there is '0% chance' AI destroys the world by 2030 — 'We should go as fast as we can, irrespective of anyone else,' dismisses Anthropic doom warnings and rejects new regulations"
+    },
+    {
+      "id": "7b7fc44f2ad0",
+      "title": "Inteligencia artificial: Google, con sede en Mountain View, dice que su sistema de IA 'Gemini' pirateó 3 empresas a principios de este año",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSGlOTzh1Y1l5WGpZY0dRVVM0eHUyTi1RUlZwT1dUZGJPamhKOVFQWXp3UTVsaXRSZDdfbHpTekxueE1haDU5XzNDNmFISnlGbTJvZzNia2R3OUxfVjEzTnl5ZW9Ka2sxWGpBcmhjSGpXbzVqUURwT3Z5SEFXYnVha3VmM1g0TnNOQVVMSGJMeHlJUzQ2QmJDek1XdEZVbW9NRUZBTWYxb3NqRjNVWW1oQnVlTVlDUTJ5cENlMi1IWFdEOVpLYlJ3azlOVVd4eS1tVUhoWDczUdIB3AFBVV95cUxPa0Q5ZFBaMmY2a3NCZVpRbGYtbWRWM2RSRjhnQmxfSFF0NzNQYVVpc1hDSHhNVVExSEVVTEJTV18ySGlHOE1HWkNQSGRCWXljVTRkRWV2UG1pRWJkbTFVTy1KT3p6cjlScVZDTlM3LWRNbDNMY0pYYkFWWm9uN0NVQTh0eXBDY0I3aXpnTGozajl0Y1NQRFhkajkzdi14cTlqeFo2ZzQ2aVl4ZVFOa1dtXzE2TVFfN1FPZTA5RHB6a2pfbzhzVG1mRU5ZUWRHSERlWGpwQ2EyMmFxZ05U?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "abc7news.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-20T05:01:22+00:00",
+      "title_orig": "Artificial Intelligence: Mountain View-based Google says its AI system 'Gemini' hacked into 3 companies earlier this year"
+    },
+    {
+      "id": "93068dae10eb",
+      "title": "Solicitó que Anthropic, OpenAI, SpaceXAI y Google alcanzaran un acuerdo ilegal para desacelerar la IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkVuZWpubEhNdUdqTjdjMTFYZ0xBQ2d3VTdsS0lnMVYxSHdxcFR2UERYemxpaDhvTVlpVjY2cUxUd2VqR0JoQzhzX3hEa21nRnNhRDJ2a1hSLUN5akZheUtnVGN2Y0hZcDJsbWFvZ3FNaU5PUDhyZUR0YTRObDhGS2cwUWtLcXJuclBHVnpQazFXclEwS3R6S0tvcHI2NGY3bk9J?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "CNN en Español",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt",
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-09-20T04:19:00+00:00",
+      "title_orig": "Demanda afirma que Anthropic, OpenAI, SpaceXAI y Google alcanzaron un acuerdo ilegal para desacelerar la IA"
+    },
     {
       "id": "5d8969c96f9b",
       "title": "Las tres veces miradas indiscretas de Géminis se han extraviado, ¿y se avecina la catástrofe desbocada de la IA?",
@@ -24,24 +144,86 @@
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-19T13:31:57+00:00",
+      "published": "2026-09-20T03:44:54+00:00",
       "title_orig": "Gemini三度窥秘越轨，AI失控大祸将临？"
     },
     {
-      "id": "2ec97eaf8cb3",
-      "title": "La IA de Google, Gemini, ha pirateado varias empresas de forma autónoma",
+      "id": "16a99a5bf514",
+      "title": "Trump promete crear una “Fuerza de IA” y nombrar a un zar ante los llamados a regular el desarrollo de esta tecnología",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUU9mNS1TY3NCLW95VWNLTklmaUVBX0NFQ3ZrdVVlY0V2NGQ3SGFkWkdzNEpRanc0em53SGZTYUJZUnp0NkpoUXJrRmlIU2pZVjFvZ0F5UnZuaEhTQ0JCVGhUWTFYNWxBdUg5dVhSZFE5eTM0UDlrbm4xcEtEUmhKY3JlcmhIdWpIcU1CTHdJWTJ5WDNkaDk0NFdoNkRpUFY2VWd1QlQ0NEdfbHhXY2dHRU1iUzVkVEtiTXE1empOWUZLMG5LMUktR1hNUWE2WFVSQkRwODBLY1JJSW1vUS1abWtwdGlta3N6cUVlekhHVTZFUQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Libération",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNHRDa2FkRDJabW1CY0xCMDdZQjhtdVZyeU9qanJiYnQ1bHR1WWdjQUNhanBlRXVXSV8yRVhIaW9jYmV0aXlEYU5qZTFqTmJraFFpU0RVLURCeGVlNUM0TEN5Sm5lX2J6NWlaa0xzenFYT3hUUWk3a0xQZTV3S0RrQTl2d1BFVGwzMWV5OVI3Ykx6Zw?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "CNN en Español",
       "region": "west",
-      "country": "france",
+      "country": "usa",
+      "models": [
+        "llama"
+      ],
+      "source": "lab",
+      "published": "2026-09-19T22:10:00+00:00"
+    },
+    {
+      "id": "15d5ae846fae",
+      "title": "Künstliche Intelligenz - Auch Googles KI-Software Gemini drang bei Tests in echte Unternehmen ein",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZTRsWjZTc2VGbW13dmRycmFsUzBUQ25IaDFjRlJUVXRGOXJTYWNhQTNYWnpaMjRkbGU3MWdhTVdkM1lrVm1KV28yOXRVdkFULThsbzNLRTlrNUxVOWJ2M3VqSHdOTEhEcHVtNGltb0tnUV94MWFQNUdPSEpPTlh6Z2w2QkdJYjhqTUhvQUVnOElyZVU3a18ydklCakJZMGNySXdtNGNtQ2ttcHJhOEFKX1BB?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Deutschlandfunk",
+      "region": "west",
+      "country": "germany",
       "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-19T11:51:21+00:00",
-      "title_orig": "L’IA de Google, Gemini, a piraté plusieurs entreprises de façon autonome"
+      "published": "2026-09-19T21:02:04+00:00"
+    },
+    {
+      "id": "b6a7c3b080e8",
+      "title": "Gemini de Google es el último modelo de IA en hackear otras empresas",
+      "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-19T17:30:00+00:00",
+      "title_orig": "Google’s Gemini is the latest AI model to hack other companies"
+    },
+    {
+      "id": "82ef9126e54d",
+      "title": "La IA de Gemini de Google hackeó tres empresas en una prueba de seguridad",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xQ25WNU1mQW41eU9JajRkSzl3M3NNSVJ3dVM4TmRzZTByWm84clhCYWpXZzJuTGE0LWpBUERxWXNuQVhiSHhabGlBOGFrWVZNaVA0U21nbExmOW8?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "BBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-19T13:39:32+00:00",
+      "title_orig": "Google's Gemini AI hacked three companies in security test"
+    },
+    {
+      "id": "39d53cf1d3d0",
+      "title": "Gemini se detiene a sí misma: el comportamiento de la IA de Google tras vulnerar tres sistemas",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeE5mMldRUXgzTl9ZaHY0cWpJMnFkSFRkUzBhOUR3WmxUVnd0eXZEN05CbDdBR0RHSEktRjlvUVZrcEliRXU3NHR0RkJUYTd0QXM1ampHaGFOTEVWRGpONWdwTjl5b0tpcWtkSDhpR3FTNWQyMWN1cVhyYVR3SXM2SVBGRy10T0FSbXVTdi14RDllWlhjMWw3M2ROc2d2M19CYTVCcENHdVRFdjZqUHBKdU5pb0pxeXJidzV3VnZVbU03RnJZZ194ZUYxMWRIX1BK0gHrAUFVX3lxTE5nU0t5LVZqOU1Ra3AzWkJxMjRuZmxlT09EaTVZMlc5UjlXQkJhRFRPSzdIajkwb0RsLU1zNU04Z3U5MmhOaWZmU09tV1JhR3VFMWRWQkx2MFU3SUpPcHVtTnhmb21WTFpfNVBBcWIzQzlhLW4zeVlIeTlWcm5YQVlwY3RNYzJ5OTJQQzdOOTd6SHhjcl9YOEdlRDZHaklTemhETU1uczdLZEktazlyTUdheDMwNzQ3TXVuTlMzeHgzRmVCajdXc0t0NnZyVE5velhjOC00SktqRzdMS3g5LUZaR3dvS1RZeDdOTHM?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Infobae",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-19T13:33:00+00:00",
+      "title_orig": "Gemini se detiene a sí misma: el comportamiento de la IA de Google tras vulnerar tres sistemas"
     },
     {
       "id": "fe3cb8211525",
@@ -76,161 +258,6 @@
       "title_orig": "ИИ-модель Gemini от Google взломала три компании в ходе теста на безопасность"
     },
     {
-      "id": "15d5ae846fae",
-      "title": "Künstliche Intelligenz - Auch Googles KI-Software Gemini drang bei Tests in echte Unternehmen ein",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZTRsWjZTc2VGbW13dmRycmFsUzBUQ25IaDFjRlJUVXRGOXJTYWNhQTNYWnpaMjRkbGU3MWdhTVdkM1lrVm1KV28yOXRVdkFULThsbzNLRTlrNUxVOWJ2M3VqSHdOTEhEcHVtNGltb0tnUV94MWFQNUdPSEpPTlh6Z2w2QkdJYjhqTUhvQUVnOElyZVU3a18ydklCakJZMGNySXdtNGNtQ2ttcHJhOEFKX1BB?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Deutschlandfunk",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T11:18:44+00:00"
-    },
-    {
-      "id": "720585c535bc",
-      "title": "El modelo de IA de Google Gemini confundió la prueba con la realidad y pirateó accidentalmente tres empresas",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTZZMlNYNFJDbDVJalNJeWFiRWpEWGRSU2RScE9xTGZ1cEhlb0xILXJCa1NVTTEzVW5sSE5oMGdBU3V6dGhiYVVocGJ5aFJ5VWV0MHZjbERKQ0w5bGFwSExMaUFNM3lhckZwcV9uNWNQSVBDSy1JT0wxMFZWdk9BaGtvdW9naXdweTRwa3NSbS12Qjd2Y1d1dlltUGMtWkxKQnh6eXpGUkZPbU9yejRF0gG0AUFVX3lxTE91TU4yN0FxajdQc18xX2dkQTNaaG1TZmZVMlNKXzJsSEduRl95Tm41UXZRQW9iMi1mN3VZLVVVMDJ6WHlBcXp3ZndsVXkwTGlxd2lfMEJ6dkZTU2xVR0FrSFVNWnQtTHp0M0pMNjVaeHVwVUtfb0syQWZPTTBxcl81WW8taDZvZllVd2o0UFRVT1RkX2ZYT1NoTW9ub0ZWWWx1cncweGlwSTE3amtBUVU3WHRfcA?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T11:09:00+00:00",
-      "title_orig": "ИИ-модель Google Gemini перепутала тест с реальностью и случайно взломала три компании"
-    },
-    {
-      "id": "ff1a7da8448e",
-      "title": "La IA se está fortaleciendo, pero todavía no sabemos si la inteligencia es solo cálculo | Cao Yuan, científico senior de DeepMind antes del diálogo",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmNk5mOFVNNFZaQkhTbGtkZjlRTnYxV1pCNUhqWERFZjdzRVh0RE5BRW9iMGk0dG52TlFFZzBZeDBrV1ZmRExKX2xnTkhXMkowckpaWFptbw?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "mittrchina.com",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T10:44:51+00:00",
-      "title_orig": "AI越来越强，但我们仍不知道智能是否只是计算｜对话前DeepMind资深科学家曹原"
-    },
-    {
-      "id": "4fba1f689244",
-      "title": "Jakob Uszkoreit: ChatGPT-Pionier über reale KI-Gefahren",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNGJnUy1KN3FtTTNoVzhEbW5ab2J6V3hKeVotSEplQXRvakJoZjE5V3paaWw2bDYzMFFpdkJuSHcyQVFiMFpIUno5aUJEdmJEZmdRM09NbW1JN09RQ0hUeUw2dWtTMzhYWkdlMndwTVBwUkVla2g0NHZLVGFFMkUycFhTNF82YnN2Y0pKS1g0T0lxN2JENDZYSEthd0NTTDFYdU5KQjdJQzlVOEN6b0tCLVNnNThRb2M?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WiWo",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T10:41:00+00:00"
-    },
-    {
-      "id": "d6b6478402b2",
-      "title": "Gemini, la IA de Google, se introdujo en los sistemas de tres empresas durante una prueba en mayo",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQeF9vTk1ZV0IyVjRVUzdtS010M3lNVWZydUY4RDJ4emRIazZsS2EwbWhBcjR1YTVudGhNNzZOVV9ycmoydWsydjY3YldsbDd5WTBobjRaYVIzWTJXU2ROUHMyWFJIcmI5SkdtdWNMdUswQTFhZVNjbU82V0pNamhhVDg4WFhZdkNHQjk5UFNzSDlMQkNXMUYzN2NwSk8yODdqRi1YcWNlSE9yMG9pXzc4bWpDZ0FtSm4tdkxmZXpZQ3BYREVHRURVS1V2WlVjWFRBaFhHM3ZsRnlfVlBXS2F0VlBOd2hZRjdGNVFmVWJR?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T08:25:54+00:00",
-      "title_orig": "Gemini, l’IA de Google, s’est introduit dans les systèmes de trois entreprises lors d’un test au mois de mai"
-    },
-    {
-      "id": "89a4920ed621",
-      "title": "Inteligencia artificial: la IA de Google Gemini ha llevado a cabo ciberataques y ha adivinado credenciales",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdHU2ZVVyckticDVRQ1U0bFY4a19fV3J6WVJLdzAyRm5lTU83UkEwN01TT3YwTVJEenRWV0ZwYU1EbzhsQ0Z0cHd3LWE2ZEF5Q2NacWJrMjJJYXJSMEU0S1pFT3RSbW1wb3pTaTAzNHczQXZfaVdiNE5jVTNNT3NFcFZ4Ny13c0NyRnZ1ZDRxOG1DOG44YXN2VERjcjF2cDFmdVBhOUMyVV9JbHl0QVd0MGlGOC14T3l6b2NRYW5tQUxYY1FfTE45amhPVDRuWDdCbVRQY1ZXdzFYZURlVGQ4TXEwVGt4SHlPX1J5WjRGbWJrVm5XYmRv?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "sudouest.fr",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T06:25:45+00:00",
-      "title_orig": "Intelligence artificielle : l’IA de Google Gemini a perpétré des cyberattaques et deviné des identifiants"
-    },
-    {
-      "id": "70cde9354a66",
-      "title": "Künstliche Intelligenz: Googles KI Gemini hackte ebenfalls andere Unternehmen",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXRXbzJ5Nk5naF9HUmg0NUFad1lBZEdKQWt2dkJkZS1Hb3dvV21fb1FjUXpTNmJSQnFETkE3OVN1WnNOaElFUk5UNGZEcUxYMEg1M0NMNUVDMWFqY0ZlS0twU2V4RVdtYnplVl9FY3R3b1diclFTTjNiR21Balk5djYwNUhYWUV3bXpqNmZSN2doTVU?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T04:45:27+00:00"
-    },
-    {
-      "id": "15904b85864a",
-      "title": "Künstliche Intelligenz: Auch Googles KI Gemini hackte Unternehmen",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMURTOE5QRG5mZnd6aHM4c05NV0pCWnVYUEZJZGRwMERQV0Y1UHBBU01rYUZjdV9EeDBuUGRHbDYzU0xCdjdoVlJ4THViVnFlR1ZVN0lBQTMzVXVCd2ZPcW9JbV94VEZHN0E2REJYM3FpZW9NVG8wME5wZmdTMEtDdUhINXZnY1h5UTdJWnFlZEF5TmEtM0NBQ2R0R2lLUGFHSlBHNFJhckxnUEhPbXl2NkZB?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Spiegel",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T03:55:00+00:00"
-    },
-    {
-      "id": "5498f670276f",
-      "title": "El cofundador de Anthropic pidió frenar el desarrollo de la IA. ¿A qué le temen los creadores de inteligencia artificial?",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZzNRUXpxa21OeGE5eG5kUWVoNjJtdnFTR0Q5NVk4djd0YUtRNWdyUDd5cE1CT2lEUEdkSEFPY2pveGp1ZkQtVEdrZTd1UFRBR3VaWF9jbXliRnU1VzEzRWYxV0c5SXR1a1lwNmhSLVljZ3RZN2tpZ255ZVZidHlRUmlzZV9tYkhXaDU40gGOAUFVX3lxTFA5RFBpME9WRHlCVU5lTEhRVDd2TVRuWTNoNDl3REVUdF9OZWFrT3ZMV1pmSXRUODFCSGlzMHJKUGZWSk1hZ0wwcTRLcGM1NHdyWWZZdU9QSGtpXzQ5QnJiU1VMSjNvUlpYOWZTXzhocGhqWUNqQUVYTllCWnFZTDl4X2Q3SERzNWQ1eUNNVXc?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Настоящее Время",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T03:25:00+00:00",
-      "title_orig": "Cооснователь Anthropic призвал замедлить разработки ИИ. Чего опасаются создатели искусственного интеллекта?"
-    },
-    {
-      "id": "667a523ad4f5",
-      "title": "Künstliche Intelligenz - Auch Googles KI-Software Gemini drang bei Tests in echte Unternehmen ein",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTluLXJwcDVXYUhjRVRkaldGV1dycWtmcTlmbVlNZzRPOXFUd2s2VFZyN3RmS21wcjI5U1BfQTFiMVN3WXhsUDlBU2xmQW1MOE1pb2p4QzBjcjFZbDZsVG9yUi1zVVFIek5HNUpWZGJIXzJsM0xnOTVYdnMtazRKR2RBc0ZzQm1fZlVKZTljQUhibm9GanNQRFoxR3FJLVFlVG0xS0xoOXctMHJkaC05QUh3?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Deutschlandfunk",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T03:00:00+00:00"
-    },
-    {
       "id": "06ad6e9dc764",
       "title": "Künstliche Intelligenz: Auch Google meldet Cyberattacke seines KI-Modells Gemini",
       "summary": "",
@@ -244,21 +271,6 @@
       ],
       "source": "lab",
       "published": "2026-09-19T01:44:59+00:00"
-    },
-    {
-      "id": "26f7447ce90a",
-      "title": "Künstliche Intelligenz: Googles KI Gemini hackte ebenfalls andere Unternehmen",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLTdTWlhab0lEVXpnRC1wMkEzeFJjZTM3QTlMY2JIZnpxYjk2RXJNTDA1alhOcjhQY1cwX0hpNk5qR3NaWGJIVVJtNW9rTlZ3R3RvcDlzY1Nvd0lJVkJfbjZVMGZDYUNNUk93eWdXbEVHUm1WWHJiZWJNVDdZZ1lkUWtzTFc5Wm8tNzVBY25BbFctMmN3MXNmVS05LW40amx4YVppaS1wbEJCSE1PS2xyTUxGSjBFVUpkYXVqQ2pnVWRRR1h2RXZnejRtVWZhaHVsT2hON3VGSVJVeVF5cGZwMTNGYThGdw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Neue Presse Coburg",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T01:05:47+00:00"
     },
     {
       "id": "458e94df71b6",
@@ -277,52 +289,53 @@
       "title_orig": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says"
     },
     {
-      "id": "7eae20442af3",
-      "title": "Anthropic está operando un laboratorio que realiza experimentos de biología",
-      "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "a8365cfa26c0",
+      "title": "Los investigadores utilizaron a Claude para hackear OpenAI",
+      "summary": "Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+      "sourceLabel": "Ars Technica AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "claude",
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-18T23:13:31+00:00",
-      "title_orig": "Anthropic is operating a lab that conducts biology experiments"
+      "published": "2026-09-18T13:30:12+00:00",
+      "title_orig": "Researchers used Claude to hack OpenAI"
     },
     {
-      "id": "ba93552573ac",
-      "title": "Exclusivo | Gemini hackeó tres empresas en la primera ruptura conocida por la IA de Google",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWjdUWU9tYzBhcjAwR1AzWkhVczUyUG9SUThfTFNuWEl0VFdHVUFzR1pDb3l3amRZWktfRUtvOFp3a0xZellIODVSTGdJOGd0dnQ2NlNoeVE5OHNEY0swRXJPcDhxSDI5bmJlV29icV91dXYxZGNRdDA2LTV3OTlnQUp6RldkYTJKT1IydVgtTnk5QXRUVkFGdEl3WFp1OVlOMWVaeHpEcw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "WSJ",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-18T22:13:20+00:00",
-      "title_orig": "Exclusive | Gemini Hacked Three Companies in First Known Breakout by Google’s AI"
-    },
-    {
-      "id": "8503b185b661",
-      "title": "El primer evaluador integrado de Anthropic es ... ¿Accenture?",
-      "summary": "Accenture is about to take on its most high-risk consulting engagement ever.",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "559b0cf11197",
+      "title": "Presentamos el Plan de Seguridad Juvenil de Australia",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-18T21:44:33+00:00",
-      "title_orig": "Anthropic’s first embedded evaluator is … Accenture?"
+      "published": "2026-09-18T12:00:00+00:00",
+      "title_orig": "Introducing the Australian Youth Safety Blueprint"
+    },
+    {
+      "id": "a6c133e82102",
+      "title": "Subidas encubiertas y megalomanía: OpenAI detalla nuevos incidentes de agentes \"desalineados\"",
+      "summary": "Model maker commits to new framework for reporting misaligned models.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T16:18:34+00:00",
+      "title_orig": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents"
     }
   ]
 }
