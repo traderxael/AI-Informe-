@@ -25,6 +25,12 @@ FEEDS = [
     ("36Kr AI", "https://36kr.com/feed"),
     ("QbitAI", "https://www.qbitai.com/feed"),
     ("DeepSeek", "https://www.deepseek.com/rss.xml"),
+    # --- Finanzas China ---
+    ("SCMP Business", "https://www.scmp.com/rss/92/feed"),
+    # --- Tecnologia general ---
+    ("The Verge", "https://www.theverge.com/rss/index.xml"),
+    ("Wired", "https://www.wired.com/feed/rss"),
+    ("Hacker News", "https://hnrss.org/frontpage"),
 ]
 
 # Alias: collect_signals.py históricamente llama a LAB_FEEDS
@@ -42,5 +48,6 @@ FUENTES_CHINA = {
     "Synced", "36Kr AI", "QbitAI", "DeepSeek", "Baidu", "Alibaba",
     "Tencent", "ByteDance", "Huawei", "SenseTime", "iFlytek",
     "Zhipu AI", "Moonshot", "MiniMax", "StepFun", "Yi", "Qwen",
-    "Pandaily", "Technode", "Radii", "Sixth Tone"
+    "Pandaily", "Technode", "Radii", "Sixth Tone",
+    "SCMP Business", "Caixin", "Nikkei Asia",
 }
