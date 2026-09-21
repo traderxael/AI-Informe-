@@ -1,187 +1,87 @@
 {
-  "generated_at": "2026-09-20T15:32:35.257057+00:00",
+  "generated_at": "2026-09-21T17:56:04.060011+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
+    "DeepMind",
     "Google News — IA Alemania",
-    "Google News — IA China (zh)",
+    "Google News — IA China modelos",
     "Google News — IA Francia",
     "Google News — IA LATAM",
-    "Google News — IA Rusia",
-    "Google News — IA global",
     "Hacker News",
     "OpenAI",
-    "QbitAI",
     "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "91ef20a34a75",
-      "title": "Los hackers que irrumpieron en OpenAI advierten que la industria de la IA tiene un problema de seguridad",
+      "id": "0da779b04828",
+      "title": "OpenAI llama a la creación de estándares internacionales de IA de vanguardia, sin ralentizar",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM19yZG9CWkxLRGFEaVVfeGNTMFRZY3h3eW5uQTQ1VThHbmF5TFZSMTBNSWhIRG1ialpDTlVDWW5zZjgwQzNaRkxIZTVTQ2Y5blFWcGpfd3I5dUN5dElTbGt4dEZiQU04aG1fQm9yUi1qTUlOWXA1enBnUmhCdjFhNmJMYjR5NGhUMHBWZm1IQVRKUjI3NkRkdHQtWHBibmhYY1p5T1hVeXBaQllRNUx4WWdhN295d2M?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdEdPUmtZcjJRcTFfQ21hdzNGTzJqcHJoYWRKRW45VW1zX05yOWQ4aXVuVVhJWVcwbXpWak1uRmFGT25YN2QwT2JLV04xTUJoTktjbzEtSU1BaFl6YWxzaThfOTFqWHE1Si1xUjNSelR1MVR4cmxVajFXeDd1TnFoUldTRkdza0tZcV9rakNOWmFyRXF1UXd4OTRMZTFuWDY3STdCQkpSbDlBVFotQTNPSHV6NTRXZHIzV3VlaExMbk5xUVJzSnY5MVpIZWEwN3J3bU9QMWIyVkc5MC1HVno1UTNqb2Y5blp4di0xamREN2Z0c3FBakdrbHQ5U0s?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-20T15:02:11+00:00",
-      "title_orig": "Hackers who broke into OpenAI warn the AI industry has a security problem"
+      "published": "2026-09-21T17:29:33+00:00",
+      "title_orig": "OpenAI appelle à la création de normes internationales sur l'IA de pointe, sans ralentir pour autant"
     },
     {
-      "id": "d7b178957833",
-      "title": "Google Gemini viola los sistemas de la empresa cuando Trump presenta una nueva ‘Fuerza de IA’",
+      "id": "47e08f4a8d1a",
+      "title": "Microsoft AI Diffusion Report: la adopción de la IA continúa acelerándose en todo el mundo",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaTRRUnY2N3VRTVNoTEpFdHh2UFY0U093aUZZODRWOF9nZHdvS2lQc0N1MzlfaHNKSlQ5enFEa3pta09GUllkY0FGS0N1ME01Z0pLb19wRnViYlBubVpFbHhrOEpneVNGb1BzQThEZExSMHY2OERuVmEzN2tZdmZrampla083TkJqbmZF?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd1IzSTRUZWpZNm5FMWUybkZXZTVELV9LMG82TW1KU0ZjT19SdkdEOVZUY1ZmQzNETFU5T2JLdGpYWVFEa2xEVHNZUy0wOGttS0w4SWFVVXpfLXVSYm80N3ZJeTMtQ2xEYWp0NWItVjNIa240NTItdEhxSUx5ZTRvbVAwSWRaOGg3QUR1dGJDQWFuTUZtcEt1LUdIZkUtV1FVMXN1SQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Microsoft Source",
       "region": "west",
       "country": "usa",
       "models": [
-        "gemini"
+        "copilot"
       ],
       "source": "lab",
-      "published": "2026-09-20T15:01:39+00:00",
-      "title_orig": "Google Gemini breaches company systems as Trump unveils new ‘AI Force’"
+      "published": "2026-09-21T17:14:15+00:00",
+      "title_orig": "Microsoft AI Diffusion Report: la adopción de la IA continúa acelerándose en todo el mundo"
     },
     {
-      "id": "9bf48bb838b7",
-      "title": "Después de OpenAI y Anthropic, Google reconoce que su IA, Gemini, también ha llevado a cabo varios ciberataques",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeTgxVWVkeDZfVnpmRUJQQVZENk0wNExZS3JxWWVyaVlRRDBxMzFRanhrbkdiWF9xNjRCaTFEU1luRDNFR1pZdlBGRWJ6cGxtV2dKWFpXZzlZRzJ4SHNrSG1DendZQjdackx5YlUwQk82VkdXNVVDYUxXZ1Ffam5xTkdzcUVRS2FodURmX1psVlhPNUhXTU9Lc0JScnpYQUpMTW1wWjkydk16Yms0OFkxMUl1WFdIUkNMSXVnd0Zhcm9aY25scGFFdFVrSVZIdTgyM1l4SFpzbl94QlgxWDU0czRQOVZlaTZMNEVycWNmYmZCX0U?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Challenges",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt",
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-20T14:30:00+00:00",
-      "title_orig": "Après OpenAI et Anthropic, Google reconnaît que son IA, Gemini, a elle aussi mené plusieurs cyberattaques"
-    },
-    {
-      "id": "fc9a8f12e485",
-      "title": "Qwen-Image-2.1: Creación de imágenes compacta, eficiente y unificada",
-      "summary": "Comments",
-      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "sourceLabel": "Hacker News",
+      "id": "f79a067193d7",
+      "title": "Google confirma que los modelos de Gemini hackearon tres empresas en mayo de 2026",
+      "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
+      "sourceUrl": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "sourceLabel": "Ars Technica AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "qwen"
-      ],
-      "source": "social",
-      "published": "2026-09-20T13:09:25+00:00",
-      "title_orig": "Qwen-Image-2.1: Compact, efficient, and unified image creation"
-    },
-    {
-      "id": "b8b7b441d103",
-      "title": "Jensen Huang dice que hay \"0% de posibilidades\" de que la IA destruya el mundo para 2030: \"Debemos ir lo más rápido que podamos, independientemente de cualquier otra persona\", rechaza las advertencias sobre la fatalidad antrópica y rechaza las nuevas regulaciones",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPRUxLZEl6TGlfUVlKbVh2UVFKRmR6dnZHblpPUlRKZkVyUmRKNkZFOTZaWUNzWmNMQkNfS0VwLW9XUFFQelhad3dtNjhTOFVCRENaSzdBdUpVOVZHNGpjYi1ab0dCdTRpVk5RRTZMUDlFNlF1MHAtbDVhaGNZVDJRX0MtNk5pOERuT3pkcUlBR3drLUdRY2FfZzBNTjZ2YkhJVUg5WklBelpMZEI1SzA2UW85QWhPZk4zWXA4eU0yNk1BMlJ1NkFrRWt2Tm41RGhKUTY4N1dqYi11Y0l3WGRLUTNwVDloRDBJLUFlR3JMUmNLY3FzN0VKdVZ5YmcwOE56NHZNVllYc2x4UFFRWTR4RW4xNUpsbVAzUGFDU0xFaDlhMTNkUjJoRm5hSFpLZTFRdVZxc3FOTkYzaUdqRjRvQVBaRXprM3JTNjR6aEtuS3VvUjZtcnd2SGczMHlzbExtSU9yaXl2bnBseXJDVFZqeE42VnBSenoz?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Tom's Hardware",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-09-20T10:55:00+00:00",
-      "title_orig": "Jensen Huang says there is '0% chance' AI destroys the world by 2030 — 'We should go as fast as we can, irrespective of anyone else,' dismisses Anthropic doom warnings and rejects new regulations"
-    },
-    {
-      "id": "7b7fc44f2ad0",
-      "title": "Inteligencia artificial: Google, con sede en Mountain View, dice que su sistema de IA 'Gemini' pirateó 3 empresas a principios de este año",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSGlOTzh1Y1l5WGpZY0dRVVM0eHUyTi1RUlZwT1dUZGJPamhKOVFQWXp3UTVsaXRSZDdfbHpTekxueE1haDU5XzNDNmFISnlGbTJvZzNia2R3OUxfVjEzTnl5ZW9Ka2sxWGpBcmhjSGpXbzVqUURwT3Z5SEFXYnVha3VmM1g0TnNOQVVMSGJMeHlJUzQ2QmJDek1XdEZVbW9NRUZBTWYxb3NqRjNVWW1oQnVlTVlDUTJ5cENlMi1IWFdEOVpLYlJ3azlOVVd4eS1tVUhoWDczUdIB3AFBVV95cUxPa0Q5ZFBaMmY2a3NCZVpRbGYtbWRWM2RSRjhnQmxfSFF0NzNQYVVpc1hDSHhNVVExSEVVTEJTV18ySGlHOE1HWkNQSGRCWXljVTRkRWV2UG1pRWJkbTFVTy1KT3p6cjlScVZDTlM3LWRNbDNMY0pYYkFWWm9uN0NVQTh0eXBDY0I3aXpnTGozajl0Y1NQRFhkajkzdi14cTlqeFo2ZzQ2aVl4ZVFOa1dtXzE2TVFfN1FPZTA5RHB6a2pfbzhzVG1mRU5ZUWRHSERlWGpwQ2EyMmFxZ05U?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "abc7news.com",
-      "region": "west",
-      "country": "usa",
-      "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-20T05:01:22+00:00",
-      "title_orig": "Artificial Intelligence: Mountain View-based Google says its AI system 'Gemini' hacked into 3 companies earlier this year"
+      "published": "2026-09-21T16:57:26+00:00",
+      "title_orig": "Google confirms Gemini models hacked three companies in May 2026"
     },
     {
-      "id": "93068dae10eb",
-      "title": "Solicitó que Anthropic, OpenAI, SpaceXAI y Google alcanzaran un acuerdo ilegal para desacelerar la IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkVuZWpubEhNdUdqTjdjMTFYZ0xBQ2d3VTdsS0lnMVYxSHdxcFR2UERYemxpaDhvTVlpVjY2cUxUd2VqR0JoQzhzX3hEa21nRnNhRDJ2a1hSLUN5akZheUtnVGN2Y0hZcDJsbWFvZ3FNaU5PUDhyZUR0YTRObDhGS2cwUWtLcXJuclBHVnpQazFXclEwS3R6S0tvcHI2NGY3bk9J?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "CNN en Español",
-      "region": "west",
-      "country": "usa",
+      "id": "81104d8861cf",
+      "title": "Grok 4.7",
+      "summary": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 227 # Comments: 184",
+      "sourceUrl": "https://x.ai/news/grok-4-7",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
       "models": [
-        "claude",
-        "gpt",
         "grok"
       ],
-      "source": "lab",
-      "published": "2026-09-20T04:19:00+00:00",
-      "title_orig": "Demanda afirma que Anthropic, OpenAI, SpaceXAI y Google alcanzaron un acuerdo ilegal para desacelerar la IA"
+      "source": "social",
+      "published": "2026-09-21T15:50:15+00:00",
+      "title_orig": "Grok 4.7"
     },
     {
-      "id": "5d8969c96f9b",
-      "title": "Las tres veces miradas indiscretas de Géminis se han extraviado, ¿y se avecina la catástrofe desbocada de la IA?",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbDNndUVKaUJ4a3p3VENJTlRiNmFsenpubXhyM3BhelpEVTZ4dGFMUXJrRVRGelRvRTkyUmpzbFp5Wml4N2I5cXAzY01IaWJXZVRmMDdSZFdwZkZiTGpNTWxFa25SRFpIUWxnaWRCb3FmeEZsOHNuN3FOT004RkszSXBEblVwcDBmNzNaanpJTWZuYnJrU3p3bXY5NS1XdlVIQ1FraGhjc09ZZF9VTzQtYWNZcXdsT1QzeFg3Z2M5T2FmcnY2Wm1HY00xVnFNOEliR3ljZ1JnczVGZUlYa3ZUWDROTdIB4wFBVV95cUxNUlV6VkpvZWVNNUhsRFBoN2xLb2U1c0g0UVVRUUZNTmRhbDNDbmJYMXBoS2RVQXRTalJmMkNPb2o5UzRBT0xENkdfV3NuS3NoNU93WUxHU0oxTG53ajlmOWRnMzdhc2hxR3MyTFFsVV9WR2lqUERjVDMyaTVTOXBXLWo0ZHRMYWx5SnpHRlVXWUJHekxjMTZDemRJZ0tIUGRkRjBCYTdtRTVpYlAtZTNkeWhUTy16dEwzTk5NWGF4SmFnblhlTzNGUlJtdFBxRzVLT01jQm1wb0o4SXJPeWpiREdoWQ?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "dw.com",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-20T03:44:54+00:00",
-      "title_orig": "Gemini三度窥秘越轨，AI失控大祸将临？"
-    },
-    {
-      "id": "16a99a5bf514",
-      "title": "Trump promete crear una “Fuerza de IA” y nombrar a un zar ante los llamados a regular el desarrollo de esta tecnología",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNHRDa2FkRDJabW1CY0xCMDdZQjhtdVZyeU9qanJiYnQ1bHR1WWdjQUNhanBlRXVXSV8yRVhIaW9jYmV0aXlEYU5qZTFqTmJraFFpU0RVLURCeGVlNUM0TEN5Sm5lX2J6NWlaa0xzenFYT3hUUWk3a0xQZTV3S0RrQTl2d1BFVGwzMWV5OVI3Ykx6Zw?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "CNN en Español",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "llama"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T22:10:00+00:00"
-    },
-    {
-      "id": "15d5ae846fae",
-      "title": "Künstliche Intelligenz - Auch Googles KI-Software Gemini drang bei Tests in echte Unternehmen ein",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZTRsWjZTc2VGbW13dmRycmFsUzBUQ25IaDFjRlJUVXRGOXJTYWNhQTNYWnpaMjRkbGU3MWdhTVdkM1lrVm1KV28yOXRVdkFULThsbzNLRTlrNUxVOWJ2M3VqSHdOTEhEcHVtNGltb0tnUV94MWFQNUdPSEpPTlh6Z2w2QkdJYjhqTUhvQUVnOElyZVU3a18ydklCakJZMGNySXdtNGNtQ2ttcHJhOEFKX1BB?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Deutschlandfunk",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T21:02:04+00:00"
-    },
-    {
-      "id": "b6a7c3b080e8",
-      "title": "Gemini de Google es el último modelo de IA en hackear otras empresas",
-      "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
-      "sourceUrl": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "id": "26792917d6d7",
+      "title": "El Googlebook de $ 899 de Google es una apuesta de que comprarás un nuevo portátil para Géminis",
+      "summary": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
@@ -190,103 +90,103 @@
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-19T17:30:00+00:00",
-      "title_orig": "Google’s Gemini is the latest AI model to hack other companies"
+      "published": "2026-09-21T14:39:22+00:00",
+      "title_orig": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini"
     },
     {
-      "id": "82ef9126e54d",
-      "title": "La IA de Gemini de Google hackeó tres empresas en una prueba de seguridad",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xQ25WNU1mQW41eU9JajRkSzl3M3NNSVJ3dVM4TmRzZTByWm84clhCYWpXZzJuTGE0LWpBUERxWXNuQVhiSHhabGlBOGFrWVZNaVA0U21nbExmOW8?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "BBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T13:39:32+00:00",
-      "title_orig": "Google's Gemini AI hacked three companies in security test"
-    },
-    {
-      "id": "39d53cf1d3d0",
-      "title": "Gemini se detiene a sí misma: el comportamiento de la IA de Google tras vulnerar tres sistemas",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeE5mMldRUXgzTl9ZaHY0cWpJMnFkSFRkUzBhOUR3WmxUVnd0eXZEN05CbDdBR0RHSEktRjlvUVZrcEliRXU3NHR0RkJUYTd0QXM1ampHaGFOTEVWRGpONWdwTjl5b0tpcWtkSDhpR3FTNWQyMWN1cVhyYVR3SXM2SVBGRy10T0FSbXVTdi14RDllWlhjMWw3M2ROc2d2M19CYTVCcENHdVRFdjZqUHBKdU5pb0pxeXJidzV3VnZVbU03RnJZZ194ZUYxMWRIX1BK0gHrAUFVX3lxTE5nU0t5LVZqOU1Ra3AzWkJxMjRuZmxlT09EaTVZMlc5UjlXQkJhRFRPSzdIajkwb0RsLU1zNU04Z3U5MmhOaWZmU09tV1JhR3VFMWRWQkx2MFU3SUpPcHVtTnhmb21WTFpfNVBBcWIzQzlhLW4zeVlIeTlWcm5YQVlwY3RNYzJ5OTJQQzdOOTd6SHhjcl9YOEdlRDZHaklTemhETU1uczdLZEktazlyTUdheDMwNzQ3TXVuTlMzeHgzRmVCajdXc0t0NnZyVE5velhjOC00SktqRzdMS3g5LUZaR3dvS1RZeDdOTHM?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Infobae",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T13:33:00+00:00",
-      "title_orig": "Gemini se detiene a sí misma: el comportamiento de la IA de Google tras vulnerar tres sistemas"
-    },
-    {
-      "id": "fe3cb8211525",
-      "title": "Página web de entrega de minutos modelo 27B, Qwen 3.8 sigue siendo demasiado potente",
-      "summary": "设计、前端一口气全干了，结果后端没来上班",
-      "sourceUrl": "https://www.qbitai.com/2026/09/492573.html",
-      "sourceLabel": "QbitAI",
+      "id": "a7ca59844a94",
+      "title": "Grupo Asesor en Matemáticas e Inteligencia Artificial",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "sourceUrl": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "sourceLabel": "OpenAI",
       "publisher": "",
-      "region": "china",
-      "country": "china",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-21T12:00:00+00:00",
+      "title_orig": "Advisory Group on Mathematics and Artificial Intelligence"
+    },
+    {
+      "id": "2c9792fbb14a",
+      "title": "Estándares de construcción para la siguiente fase de la IA",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "sourceUrl": "https://openai.com/index/building-standards-next-phase-ai",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-21T10:00:00+00:00",
+      "title_orig": "Building standards for the next phase of AI"
+    },
+    {
+      "id": "513f706570e2",
+      "title": "Kev: familia de modelos de decisión tipo Tiny Jev construidos sobre Qwen3.5",
+      "summary": "Comments",
+      "sourceUrl": "https://github.com/jaredpalmer/kev/tree/main",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
       "models": [
         "qwen"
       ],
-      "source": "lab",
-      "published": "2026-09-19T11:43:12+00:00",
-      "title_orig": "27B模型分分钟交付网页，Qwen 3.8还是太能了"
+      "source": "social",
+      "published": "2026-09-21T07:11:55+00:00",
+      "title_orig": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5"
     },
     {
-      "id": "30a7a17e4d83",
-      "title": "El modelo de IA Gemini de Google hackeó tres empresas en una prueba de seguridad",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HdVh1YlV4SlpCWG9UNV96QTA2UXdDLVNvalhvS1B5QXhXMDZUdGYzTm91SDgyVnN6VWpuQTlwQVd2ZDFEMktfT1JDQ2dmdWVLTkRXTHVpUTdTWGFDZm1V0gFkQVVfeXFMTXAxWHV2RUp3cWRFa3hsV0RQalF0RVZMM05lOVc1WHE5dW9HU21yV29mekNCSDZZcDhOUFRndXVnTzV6WGN0NklPQzc3TFQtNnNiTUVoN1pCdGU1dVlRbWF4VTdlcg?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "BBC",
+      "id": "530db518a73a",
+      "title": "Ampliación de OpenAI Academy con nuevas rutas de aprendizaje",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "sourceUrl": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
-      "country": "russia",
+      "country": "usa",
       "models": [
-        "gemini"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-19T11:37:47+00:00",
-      "title_orig": "ИИ-модель Gemini от Google взломала три компании в ходе теста на безопасность"
+      "published": "2026-09-21T07:00:00+00:00",
+      "title_orig": "Expanding OpenAI Academy with new learning paths"
     },
     {
-      "id": "06ad6e9dc764",
-      "title": "Künstliche Intelligenz: Auch Google meldet Cyberattacke seines KI-Modells Gemini",
+      "id": "d1749ba76a98",
+      "title": "Cómo V7 proporciona memoria institucional a los agentes de IA",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "sourceUrl": "https://openai.com/index/v7",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-21T00:00:00+00:00",
+      "title_orig": "How V7 gives AI agents institutional memory"
+    },
+    {
+      "id": "15904b85864a",
+      "title": "Künstliche Intelligenz: Auch Googles KI Gemini hackte Unternehmen",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMUhlNGlBNGZkeVpTdHNxd01rNmw5ZTJvWGR0WVJHQ3NBUTNkTnNYYVlNQVBQNF9nU2JCZmM0OEhjVWJESVlkVWF2cnVuZUpKZzJCbi00OFZyWm8yNm5EdzdTXzdUTnRxeEtNalpSVGd1bWJsUGVvTUdyaEdkZXVBajFvVGhrMm81ZmZVRExVVjlabjZHZG13?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMURTOE5QRG5mZnd6aHM4c05NV0pCWnVYUEZJZGRwMERQV0Y1UHBBU01rYUZjdV9EeDBuUGRHbDYzU0xCdjdoVlJ4THViVnFlR1ZVN0lBQTMzVXVCd2ZPcW9JbV94VEZHN0E2REJYM3FpZW9NVG8wME5wZmdTMEtDdUhINXZnY1h5UTdJWnFlZEF5TmEtM0NBQ2R0R2lLUGFHSlBHNFJhckxnUEhPbXl2NkZB?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
+      "publisher": "Spiegel",
       "region": "west",
       "country": "germany",
       "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-19T01:44:59+00:00"
-    },
-    {
-      "id": "458e94df71b6",
-      "title": "La IA de Gemini hackeó tres empresas en una fuga de pruebas, dice Google",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oVmRjQVgxMHR6VnBZbUIxamFSQ1lXanpuU080VEhkWFVDNHlXbDJhMHBNNWo0MFBsd2lMSTMwcjJpREJTZUozVzVQLWUzUkdUUG9RbDJtY3hjSVhnR2ZFTFlEOFc1aVNNeTFOZHdTTzNDWHFCNlE?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-19T00:04:48+00:00",
-      "title_orig": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says"
+      "published": "2026-09-19T03:55:00+00:00"
     },
     {
       "id": "a8365cfa26c0",
@@ -322,11 +222,11 @@
       "title_orig": "Introducing the Australian Youth Safety Blueprint"
     },
     {
-      "id": "a6c133e82102",
-      "title": "Subidas encubiertas y megalomanía: OpenAI detalla nuevos incidentes de agentes \"desalineados\"",
-      "summary": "Model maker commits to new framework for reporting misaligned models.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/",
-      "sourceLabel": "Ars Technica AI",
+      "id": "964ae1dd0fac",
+      "title": "Cómo Cooley está acelerando el trabajo de salida a bolsa con ChatGPT",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "sourceUrl": "https://openai.com/index/cooley-gopublic",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -334,8 +234,107 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-17T16:18:34+00:00",
-      "title_orig": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents"
+      "published": "2026-09-17T12:00:00+00:00",
+      "title_orig": "How Cooley is accelerating IPO work with ChatGPT"
+    },
+    {
+      "id": "363bbead77de",
+      "title": "Presentamos Astra for Law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "sourceUrl": "https://openai.com/index/astra-for-law",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-17T00:00:00+00:00",
+      "title_orig": "Introducing Astra for Law"
+    },
+    {
+      "id": "027811ca1632",
+      "title": "Ayudar a los adultos mayores a usar la IA en la vida cotidiana",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "sourceUrl": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-16T16:00:00+00:00",
+      "title_orig": "Helping older adults use AI in everyday life"
+    },
+    {
+      "id": "52752974efc0",
+      "title": "Reimaginar la publicidad con IA",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "sourceUrl": "https://openai.com/index/reimagining-advertising-with-ai",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-16T13:00:00+00:00",
+      "title_orig": "Reimagining advertising with AI"
+    },
+    {
+      "id": "973a91148c50",
+      "title": "Hex convierte el análisis complejo en informes visuales con GPT‑6 Astra",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "sourceUrl": "https://openai.com/index/hex-gpt-6-astra",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-16T12:00:00+00:00",
+      "title_orig": "Hex turns complex analysis into visual reports with GPT‑6 Astra"
+    },
+    {
+      "id": "f4c3141ce9f2",
+      "title": "Presentamos Gemini 3.8 Live y 3.8 Live Extended Thinking",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "research",
+      "published": "2026-09-15T17:05:57+00:00",
+      "title_orig": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+    },
+    {
+      "id": "c01f2b278c4a",
+      "title": "Anthropic expone a Alibaba, Moonshot y DeepSeek por «destilar» Claude",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnFXUWtyS0NHZElrdkZoVXFLSTJnb2piUG9ZREl4RkFKYTRMQk52QzZSS3dfa0VfaVFBWjFYT1hlMkN4LXp0N0NpN0ctTU56cklsbEVpMmlHNU4xcThucU9rQkZBNjRrRnJoeXppdkxiQ1NCaWpGZ0dQQ3MwU3AwNmhpdDlwN3RKSklyTG5vUENycUtsMEN6OXNuZ0lVQQ?oc=5",
+      "sourceLabel": "Google News — IA China modelos",
+      "publisher": "El Ecosistema Startup",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "claude",
+        "qwen",
+        "kimi",
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-09-11T07:00:00+00:00",
+      "title_orig": "Anthropic expone a Alibaba, Moonshot y DeepSeek por «destilar» Claude"
     }
   ]
 }
