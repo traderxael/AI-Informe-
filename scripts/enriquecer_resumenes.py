@@ -39,7 +39,7 @@ def extraer_resumen_url(url: str) -> str:
                 return text[:200]
         
         return ""
-    except:
+    except (OSError, ValueError, AttributeError):
         return ""
 
 

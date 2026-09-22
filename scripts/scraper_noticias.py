@@ -141,7 +141,7 @@ def guardar_historial(noticias: list[dict]):
     if HISTORIAL_PATH.exists():
         try:
             historial = json.loads(HISTORIAL_PATH.read_text(encoding="utf-8"))
-        except:
+        except (OSError, ValueError):
             historial = []
     
     # Agregar nuevas

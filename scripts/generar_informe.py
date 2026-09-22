@@ -685,7 +685,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     if historial_path.exists():
         try:
             historial = json.loads(historial_path.read_text(encoding="utf-8"))
-        except:
+        except (OSError, ValueError):
             historial = []
     
     # Evitar duplicados del mismo día
@@ -706,7 +706,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     if simple_path.exists():
         try:
             existing_simple = json.loads(simple_path.read_text(encoding="utf-8"))
-        except:
+        except (OSError, ValueError):
             existing_simple = []
     
     existing_simple = [x for x in existing_simple if x.get("fecha") != day.isoformat()]
