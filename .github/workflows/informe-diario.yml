@@ -24,11 +24,20 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Tests de clasificación
+        run: python scripts/test_pipeline.py
+
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
 
       - name: Recolectar signals reales (Google News + RSS + Reddit + HN)
         run: python scripts/collect_signals.py
+        env:
+          TRANSLATE_MAX: "40"
+
+      - name: Ranking de modelos (LMArena + OpenRouter)
+        continue-on-error: true
+        run: python scripts/actualizar_modelos.py --max 60
 
       - name: Commit cambios
         run: |
