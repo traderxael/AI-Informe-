@@ -248,7 +248,9 @@ def parse_feed(xml_bytes: bytes) -> list[dict[str, Any]]:
         if title:
             items.append(
                 {
-                    "title": re.sub(r"\s+", " ", title),
+                    # html.unescape: algunos feeds escapan comillas/guiones como
+                    # entidades (&#8216;) y se veian crudos en la web.
+                    "title": re.sub(r"\s+", " ", html.unescape(title)).strip(),
                     "link": link.strip(),
                     "summary": strip_tags(summary)[:400],
                     "published": published,
@@ -333,7 +335,7 @@ RELEVANCIA_WEIGHTS = {
     "VentureBeat AI": 1.2, "Hugging Face": 1.2,
     "Synced": 1.1, "QbitAI": 1.1, "36Kr AI": 1.0, "DeepSeek": 1.4,
     "The Verge": 1.2, "Wired": 1.2, "Hacker News": 1.1,
-    "AI Revolution": 1.2,  # analisis en video: buena senal, pero no fuente primaria
+    "AI Revolution": 1.3,  # canal de resumen de noticias IA: mismo tier que TechCrunch/The Verge AI
 }
 DEFAULT_WEIGHT = 1.0
 RECENCY_DECAY_HOURS = 36.0  # la recencia decae a ~1/e en 36h
@@ -662,14 +664,22 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     china_count = sum(1 for i in items if i.get("country") == "china")
     global_count = sum(1 for i in items if i.get("country") == "global")
     
+    # Mismo ranking de relevancia que el markdown: antes el JSON exportaba los
+    # primeros 10 en orden crudo y la web en vivo mostraba piezas distintas.
+    _now = datetime.now(timezone.utc)
+
+    def _top(section: str, limite: int = 15) -> list:
+        return sorted(by_section[section],
+                      key=lambda _it: relevancia(_it, _now), reverse=True)[:limite]
+
     data = {
         "fecha": day.isoformat(),
         "total": len(items),
         "por_seccion": {
-            "novedades": [item_to_json(i) for i in by_section["novedades"][:10]],
-            "usos": [item_to_json(i) for i in by_section["usos"][:10]],
-            "economia": [item_to_json(i) for i in by_section["economia"][:10]],
-            "futuro": [item_to_json(i) for i in by_section["futuro"][:10]],
+            "novedades": [item_to_json(i) for i in _top("novedades", 25)],
+            "usos": [item_to_json(i) for i in _top("usos", 20)],
+            "economia": [item_to_json(i) for i in _top("economia", 20)],
+            "futuro": [item_to_json(i) for i in _top("futuro", 20)],
         },
         "por_pais": {
             "usa": usa_count,
