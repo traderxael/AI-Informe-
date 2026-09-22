@@ -1,49 +1,145 @@
 {
-  "generated_at": "2026-09-21T17:56:04.060011+00:00",
+  "generated_at": "2026-09-22T16:23:05.997274+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "DeepMind",
     "Google News — IA Alemania",
-    "Google News — IA China modelos",
-    "Google News — IA Francia",
-    "Google News — IA LATAM",
+    "Google News — IA Rusia",
+    "Google News — IA global",
     "Hacker News",
+    "Hugging Face",
     "OpenAI",
+    "QbitAI",
     "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "0da779b04828",
-      "title": "OpenAI llama a la creación de estándares internacionales de IA de vanguardia, sin ralentizar",
+      "id": "516aa4393674",
+      "title": "Alibaba busca fortalecer la posición de la inteligencia artificial después de presentar nuevos chips y modelos",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdEdPUmtZcjJRcTFfQ21hdzNGTzJqcHJoYWRKRW45VW1zX05yOWQ4aXVuVVhJWVcwbXpWak1uRmFGT25YN2QwT2JLV04xTUJoTktjbzEtSU1BaFl6YWxzaThfOTFqWHE1Si1xUjNSelR1MVR4cmxVajFXeDd1TnFoUldTRkdza0tZcV9rakNOWmFyRXF1UXd4OTRMZTFuWDY3STdCQkpSbDlBVFotQTNPSHV6NTRXZHIzV3VlaExMbk5xUVJzSnY5MVpIZWEwN3J3bU9QMWIyVkc5MC1HVno1UTNqb2Y5blp4di0xamREN2Z0c3FBakdrbHQ5U0s?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcTAzQ0dOS3poenhSZENOSWRmeF9xRkxVNjNmU2dfaDBSY3dvSzBoejVPNGE1Q3pkc2U0M2JMQ2g0a0V3UUF6UF9jb0ZuakxJLURRSFRvRnJteWE5Vk50RXpRZDZtRnpJOVpBTm1GUjZHVzZJYnA4eEJRU2xYbGlDZ2F6bkJ3UnJtVlpESklKRDdzQm94cDJ1YWFYa0paT1N5SUJpZVFLNXNvMjdxVVZUeWVB?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Yahoo Finance",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-09-22T14:54:52+00:00",
+      "title_orig": "Alibaba Looks to Strengthen Artificial Intelligence Position After Unveiling New Chips, Models"
+    },
+    {
+      "id": "dfd1d2a423f9",
+      "title": "OpenAI está a punto de comer el almuerzo de Jev – Arcturus Labs",
+      "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 88 # Comments: 72",
+      "sourceUrl": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-09-22T14:42:59+00:00",
+      "title_orig": "OpenAI is about to eat Jev's lunch – Arcturus Labs"
+    },
+    {
+      "id": "0f1ff99a4515",
+      "title": "OpenAI GPT-6 Astra rompe el mensaje de Enigma que se ha resistido a la solución desde 2005",
+      "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 230 # Comments: 239",
+      "sourceUrl": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-09-22T13:52:15+00:00",
+      "title_orig": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005"
+    },
+    {
+      "id": "1dfed892d5b9",
+      "title": "OpenAI establecerá un grupo asesor sobre matemáticas e IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Bd3ZVZ1BjYkNLWjFiYUcteUJPN0FEZ3JRcktCUGR1UG9aQzhRUzN6d3RRT2RUZUtXNzlJYXhoeWJBbk1Kay1BbtIBWEFVX3lxTE53QzBBUWFIMW5WN0dETGU4SzVzd1RLS0luNnAyMkFHOVlwVXZib29aVk9nd3FveFgtYkFWT01KMnRCdE93Z3RxUk9vem13ejZiTU5EcGt0MWI?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Хабр",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-21T17:29:33+00:00",
-      "title_orig": "OpenAI appelle à la création de normes internationales sur l'IA de pointe, sans ralentir pour autant"
+      "published": "2026-09-22T08:57:08+00:00",
+      "title_orig": "OpenAI создаст консультативную группу по математике и ИИ"
     },
     {
-      "id": "47e08f4a8d1a",
-      "title": "Microsoft AI Diffusion Report: la adopción de la IA continúa acelerándose en todo el mundo",
+      "id": "b147a84534ed",
+      "title": "El investigador de Ali revela que el modelo se expandirá a parámetros de 5-10T después de Qwen4.5",
+      "summary": "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。",
+      "sourceUrl": "https://www.qbitai.com/2026/09/493629.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-09-22T03:48:05+00:00",
+      "title_orig": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数"
+    },
+    {
+      "id": "7ba72be8cb1b",
+      "title": "Ali anuncia nuevos avances en modelos modales completos, Qwen4 y modelos de vídeo de próxima generación están en formación",
+      "summary": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。",
+      "sourceUrl": "https://www.qbitai.com/2026/09/493625.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-09-22T03:42:43+00:00",
+      "title_orig": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中"
+    },
+    {
+      "id": "98acfe91fd30",
+      "title": "Transformers ahora ejecuta llama.cpp quants",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd1IzSTRUZWpZNm5FMWUybkZXZTVELV9LMG82TW1KU0ZjT19SdkdEOVZUY1ZmQzNETFU5T2JLdGpYWVFEa2xEVHNZUy0wOGttS0w4SWFVVXpfLXVSYm80N3ZJeTMtQ2xEYWp0NWItVjNIa240NTItdEhxSUx5ZTRvbVAwSWRaOGg3QUR1dGJDQWFuTUZtcEt1LUdIZkUtV1FVMXN1SQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Microsoft Source",
+      "sourceUrl": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "sourceLabel": "Hugging Face",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "llama"
+      ],
+      "source": "lab",
+      "published": "2026-09-22T00:00:00+00:00",
+      "title_orig": "Transformers now runs llama.cpp quants"
+    },
+    {
+      "id": "5310781f5f6f",
+      "title": "OpenAI forma un grupo asesor de matemáticas a medida que su IA resuelve más de 100 problemas abiertos",
+      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "copilot"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-21T17:14:15+00:00",
-      "title_orig": "Microsoft AI Diffusion Report: la adopción de la IA continúa acelerándose en todo el mundo"
+      "published": "2026-09-21T20:15:58+00:00",
+      "title_orig": "OpenAI forms math advisory group as its AI resolves more than 100 open problems"
     },
     {
       "id": "f79a067193d7",
@@ -62,42 +158,10 @@
       "title_orig": "Google confirms Gemini models hacked three companies in May 2026"
     },
     {
-      "id": "81104d8861cf",
-      "title": "Grok 4.7",
-      "summary": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 227 # Comments: 184",
-      "sourceUrl": "https://x.ai/news/grok-4-7",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "social",
-      "published": "2026-09-21T15:50:15+00:00",
-      "title_orig": "Grok 4.7"
-    },
-    {
-      "id": "26792917d6d7",
-      "title": "El Googlebook de $ 899 de Google es una apuesta de que comprarás un nuevo portátil para Géminis",
-      "summary": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-21T14:39:22+00:00",
-      "title_orig": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini"
-    },
-    {
-      "id": "a7ca59844a94",
-      "title": "Grupo Asesor en Matemáticas e Inteligencia Artificial",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "sourceUrl": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "id": "d37f5b2c5927",
+      "title": "Higgsfield AI lanza nuevas funciones de vídeo en un día con GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "sourceUrl": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -107,7 +171,7 @@
       ],
       "source": "lab",
       "published": "2026-09-21T12:00:00+00:00",
-      "title_orig": "Advisory Group on Mathematics and Artificial Intelligence"
+      "title_orig": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
     },
     {
       "id": "2c9792fbb14a",
@@ -124,22 +188,6 @@
       "source": "lab",
       "published": "2026-09-21T10:00:00+00:00",
       "title_orig": "Building standards for the next phase of AI"
-    },
-    {
-      "id": "513f706570e2",
-      "title": "Kev: familia de modelos de decisión tipo Tiny Jev construidos sobre Qwen3.5",
-      "summary": "Comments",
-      "sourceUrl": "https://github.com/jaredpalmer/kev/tree/main",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "qwen"
-      ],
-      "source": "social",
-      "published": "2026-09-21T07:11:55+00:00",
-      "title_orig": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5"
     },
     {
       "id": "530db518a73a",
@@ -284,57 +332,6 @@
       "source": "lab",
       "published": "2026-09-16T13:00:00+00:00",
       "title_orig": "Reimagining advertising with AI"
-    },
-    {
-      "id": "973a91148c50",
-      "title": "Hex convierte el análisis complejo en informes visuales con GPT‑6 Astra",
-      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "sourceUrl": "https://openai.com/index/hex-gpt-6-astra",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-16T12:00:00+00:00",
-      "title_orig": "Hex turns complex analysis into visual reports with GPT‑6 Astra"
-    },
-    {
-      "id": "f4c3141ce9f2",
-      "title": "Presentamos Gemini 3.8 Live y 3.8 Live Extended Thinking",
-      "summary": "",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "research",
-      "published": "2026-09-15T17:05:57+00:00",
-      "title_orig": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
-    },
-    {
-      "id": "c01f2b278c4a",
-      "title": "Anthropic expone a Alibaba, Moonshot y DeepSeek por «destilar» Claude",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnFXUWtyS0NHZElrdkZoVXFLSTJnb2piUG9ZREl4RkFKYTRMQk52QzZSS3dfa0VfaVFBWjFYT1hlMkN4LXp0N0NpN0ctTU56cklsbEVpMmlHNU4xcThucU9rQkZBNjRrRnJoeXppdkxiQ1NCaWpGZ0dQQ3MwU3AwNmhpdDlwN3RKSklyTG5vUENycUtsMEN6OXNuZ0lVQQ?oc=5",
-      "sourceLabel": "Google News — IA China modelos",
-      "publisher": "El Ecosistema Startup",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "claude",
-        "qwen",
-        "kimi",
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-09-11T07:00:00+00:00",
-      "title_orig": "Anthropic expone a Alibaba, Moonshot y DeepSeek por «destilar» Claude"
     }
   ]
 }
