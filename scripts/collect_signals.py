@@ -99,12 +99,12 @@ MODEL_KEYWORDS: dict[str, tuple[str, ...]] = {
 }
 
 COUNTRY_KEYWORDS: dict[str, tuple[str, ...]] = {
-    "usa": ("united states", "us ", "u.s.", "america", "silicon valley", "openai",
-            "google", "microsoft", "nvidia", "anthropic", "meta", "tesla", "mit",
+    "usa": ("united states", "u.s.", "silicon valley", "openai",
+            "microsoft", "nvidia", "anthropic", "meta", "tesla",
             "stanford", "california", "new york"),
     "china": ("china", "chinese", "beijing", "shanghai", "shenzhen", "baidu",
               "alibaba", "tencent", "bytedance", "huawei", "deepseek", "qwen",
-              "moonshot", "zhipu", "minimax", "senseTime", "iflytek"),
+              "moonshot", "zhipu", "minimax", "sensetime", "iflytek"),
     "japan": ("japan", "japanese", "tokyo", "softbank", "hitachi", "ntt", "riken"),
     "germany": ("germany", "german", "berlin", "munich", "aleph alpha", "deepl",
                 "sap", "bosch", "black forest labs"),
@@ -114,7 +114,7 @@ COUNTRY_KEYWORDS: dict[str, tuple[str, ...]] = {
     "canada": ("canada", "canadian", "toronto", "montreal", "cohere"),
     "russia": ("russia", "russian", "moscow", "sber", "gigachat", "kandinsky"),
     "uae": ("uae", "emirates", "united arab", "abu dhabi", "dubai", "falcon"),
-    "uk": ("uk ", "united kingdom", "britain", "london", "deepmind"),
+    "uk": ("united kingdom", "britain", "london", "deepmind"),
 }
 
 
@@ -204,19 +204,28 @@ def query_gnews(q: str, hl: str, gl: str) -> list[dict[str, Any]]:
     return parse_rss_items(data)[:20]
 
 
+def _has_kw(blob: str, kw: str) -> bool:
+    kw = kw.lower()
+    if any(ord(c) > 127 for c in kw):
+        return kw in blob
+    return re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", blob) is not None
+
+
 def classify_models(blob: str) -> list[str]:
     b = blob.lower()
-    return [m for m, kws in MODEL_KEYWORDS.items()
-            if any(k in b for k in kws)]
+    return [m for m, kws in MODEL_KEYWORDS.items() if any(_has_kw(b, k) for k in kws)]
 
 
 def classify_country(title: str, source: str, hint: str) -> str:
+    # No pasar "Google News — …": la palabra Google empujaba LATAM/China a USA.
     blob = f"{title} {source}".lower()
+    if source.lower().startswith("google news"):
+        blob = title.lower()
     scored: list[tuple[int, str]] = []
     for c, kws in COUNTRY_KEYWORDS.items():
-        s = sum(1 for k in kws if k.lower() in blob)
+        s = sum(1 for k in kws if _has_kw(blob, k))
         if c == hint:
-            s += 2  # el idioma/región de la query es una pista fuerte
+            s += 3
         if s:
             scored.append((s, c))
     if not scored:
@@ -227,13 +236,27 @@ def classify_country(title: str, source: str, hint: str) -> str:
 
 def source_kind(model_ids: list[str], source: str) -> str:
     src = source.lower()
+    if src.startswith("google news"):
+        return "news"
     if any(k in src for k in ("hacker news", "reddit")):
         return "social"
-    if any(k in src for k in ("arxiv", "mit", "research", "deepmind")):
+    if any(k in src for k in ("arxiv", "mit tech", "research")):
         return "research"
+    if any(k in src for k in ("openai", "deepmind", "meta ai", "google ai", "anthropic",
+                              "hugging face", "qbit", "synced", "deepseek")):
+        return "lab"
     if model_ids:
         return "lab"
     return "news"
+
+
+def is_junk_title(title: str) -> bool:
+    t = title.lower()
+    if len(title) > 280:
+        return True
+    if re.search(r"without ai|sin ia|hacker news,\s*without", t):
+        return True
+    return False
 
 
 # ------------------------------------------------------- traducción gratis ---
@@ -323,6 +346,8 @@ def recolectar() -> list[dict[str, Any]]:
         if key in seen:
             return
         title = it["title"]
+        if is_junk_title(title):
+            return
         publisher = ""
         if source.startswith("Google News"):
             # 'Titular - Medio' -> titular limpio + medio real guardado aparte.
@@ -335,7 +360,7 @@ def recolectar() -> list[dict[str, Any]]:
         seen.add(key)
         seen_titles.add(toks)
         models = classify_models(f"{title} {source}")
-        country = classify_country(title, source, hint)
+        country = classify_country(title, publisher or source, hint)
         summary = it.get("summary") or ""
         if publisher and summary.endswith(publisher):
             # El extracto de Google News termina pegado al medio: '... says  The Washington Post'
@@ -450,8 +475,10 @@ def main() -> int:
         s["title"] = translate_es(s["title"], lang)
 
     if os.environ.get("SKIP_TRANSLATE") != "1":
+        cap = int(os.environ.get("TRANSLATE_MAX", "40"))
+        batch = [s for s in final[:cap] if detect_lang(s["title"]) != "es"]
         with _TPE(max_workers=5) as ex:
-            list(ex.map(_tr, final))
+            list(ex.map(_tr, batch))
 
     # Write first 20 signals for initial load. Cortes sobre la lista CURADA
     # y traducida (final), no sobre la cruda: antes signals[:20] podía
