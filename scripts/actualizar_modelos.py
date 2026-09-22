@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Actualiza web/modelos.json con datos en vivo:
+"""Actualiza public/data/modelos.json (y copias de compatibilidad) con datos en vivo:
 - Elo de LMArena (arena.ai, tablas server-rendered)
 - Precios por token de OpenRouter (api/v1/models)
 
 Uso: python scripts/actualizar_modelos.py [--max N]
-Salida: web/modelos.json
+Salida: public/data/modelos.json, public/modelos.json, web/modelos.json
 """
 from __future__ import annotations
 
@@ -16,7 +16,11 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "web" / "modelos.json"
+OUT_PATHS = [
+    ROOT / "web" / "modelos.json",
+    ROOT / "public" / "data" / "modelos.json",
+    ROOT / "public" / "modelos.json",
+]
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/152.0.0.0"
 
 BOARDS = {
@@ -47,12 +51,29 @@ def fetch_lmarena(board: str) -> dict[str, dict]:
             r'<span class="text-text-secondary truncate text-xs">([^<]+)</span>', seg
         )
         if elo:
-            org_txt = org.group(1) if org else ""
-            lic = "open" if any(
-                k in org_txt.lower() for k in ("mit", "apache", "license", "open")
-            ) else "cerrado"
-            out[model] = {"elo": int(elo.group(1)), "org": org_txt, "licencia": lic}
+            org_txt = normalize_org(org.group(1) if org else "")
+            out[model] = {
+                "elo": int(elo.group(1)),
+                "org": org_txt,
+                "licencia": infer_licencia(org_txt),
+            }
     return out
+
+
+def normalize_org(org_txt: str) -> str:
+    t = org_txt.strip()
+    low = t.lower()
+    if "spacexai" in low or (low.startswith("spacex") and "ai" in low):
+        return "xAI · Proprietary"
+    return t
+
+
+def infer_licencia(org_txt: str) -> str:
+    """No usar substring 'open': matcheaba OpenAI y marcaba GPT como open-weight."""
+    t = org_txt.lower()
+    if re.search(r"\b(mit|apache|bsd|open[-\s]?weight|open[-\s]?source)\b", t):
+        return "open"
+    return "cerrado"
 
 
 def fetch_openrouter() -> dict[str, dict]:
@@ -147,8 +168,11 @@ def main() -> None:
         "con_precio": con_precio,
         "modelos": rows,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"OK -> {OUT} ({len(rows)} modelos, {con_precio} con precio)")
+    text = json.dumps(payload, ensure_ascii=False, indent=1)
+    for path in OUT_PATHS:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+    print(f"OK -> {OUT_PATHS[1]} ({len(rows)} modelos, {con_precio} con precio)")
 
 
 if __name__ == "__main__":

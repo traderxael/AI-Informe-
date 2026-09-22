@@ -24,13 +24,15 @@ FEEDS = [
     ("Synced", "https://syncedreview.com/feed/"),
     ("36Kr AI", "https://36kr.com/feed"),
     ("QbitAI", "https://www.qbitai.com/feed"),
+    # DeepSeek RSS suele 404; se deja por si vuelve, el fetch ya es soft-fail.
     ("DeepSeek", "https://www.deepseek.com/rss.xml"),
+    ("arXiv cs.AI", "https://rss.arxiv.org/rss/cs.AI"),
+    ("arXiv cs.CL", "https://rss.arxiv.org/rss/cs.CL"),
     # --- Finanzas China ---
     ("SCMP Business", "https://www.scmp.com/rss/92/feed"),
     # --- Tecnologia general ---
     ("The Verge", "https://www.theverge.com/rss/index.xml"),
     ("Wired", "https://www.wired.com/feed/rss"),
-    ("Hacker News", "https://hnrss.org/frontpage"),
     # --- Video / analisis (YouTube) ---
     ("AI Revolution", "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"),
 ]
@@ -44,7 +46,7 @@ FUENTES_USA = {
     "TechCrunch AI", "The Verge AI", "MIT Tech Review AI",
     "Ars Technica AI", "VentureBeat AI", "Anthropic", "Microsoft AI",
     "NVIDIA", "Apple AI", "Amazon AI", "xAI", "Cohere", "Perplexity",
-    "The Verge", "Wired", "Hacker News", "AI Revolution",
+    "The Verge", "Wired", "AI Revolution", "arXiv cs.AI", "arXiv cs.CL",
 }
 
 FUENTES_CHINA = {
