@@ -235,6 +235,14 @@ def parse_feed(xml_bytes: bytes) -> list[dict[str, Any]]:
             elif cname in {"description", "summary", "content"}:
                 if not summary:
                     summary = text_of(child)
+            elif cname == "group":
+                # Feeds Atom de YouTube/Media: la descripcion vive dentro de
+                # <media:group><media:description>. Sin esto, los videos entran
+                # sin resumen y caen en el ranking de relevancia.
+                for sub in child.iter():
+                    if local_tag(sub.tag).lower() == "description" and not summary:
+                        summary = text_of(sub)
+                        break
             elif cname in {"pubdate", "published", "updated", "date"}:
                 published = parse_date(text_of(child)) or published
         if title:
@@ -324,6 +332,8 @@ RELEVANCIA_WEIGHTS = {
     "MIT Tech Review AI": 1.4, "Ars Technica AI": 1.3,
     "VentureBeat AI": 1.2, "Hugging Face": 1.2,
     "Synced": 1.1, "QbitAI": 1.1, "36Kr AI": 1.0, "DeepSeek": 1.4,
+    "The Verge": 1.2, "Wired": 1.2, "Hacker News": 1.1,
+    "AI Revolution": 1.2,  # analisis en video: buena senal, pero no fuente primaria
 }
 DEFAULT_WEIGHT = 1.0
 RECENCY_DECAY_HOURS = 36.0  # la recencia decae a ~1/e en 36h
@@ -398,11 +408,17 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
     now = datetime.now(timezone.utc)
 
     def block(section: str, empty: str) -> str:
+        # Novedades muestra mas (20) porque es la seccion mas densa; el resto 12.
+        limite = 20 if section == "novedades" else 12
         rows = sorted(by_section[section],
-                      key=lambda _it: relevancia(_it, now), reverse=True)[:12]
+                      key=lambda _it: relevancia(_it, now), reverse=True)[:limite]
         if not rows:
             return empty
-        return "\n".join(bullet(_it) for _it in rows)
+        txt = "\n".join(bullet(_it) for _it in rows)
+        resto = len(by_section[section]) - len(rows)
+        if resto > 0:
+            txt += f"\n- _(y {resto} piezas más en esta sección)_"
+        return txt
 
     n_nov = len(by_section["novedades"])
     n_uso = len(by_section["usos"])
@@ -417,8 +433,9 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
             "Abajo van las más recientes, agrupadas por tema."
         )
         if items:
-            top = items[0]["title"]
-            resumen += f" Lo más visible: {top}."
+            # El destacado sale del ranking de relevancia (no del orden crudo).
+            top = max(items, key=lambda _it: relevancia(_it, now))
+            resumen += f" Lo más visible: {top['title']} ({top.get('source', '')})."
     else:
         resumen = (
             "No llegaron ítems nuevos de los feeds en la ventana de las últimas horas. "

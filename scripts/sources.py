@@ -31,6 +31,8 @@ FEEDS = [
     ("The Verge", "https://www.theverge.com/rss/index.xml"),
     ("Wired", "https://www.wired.com/feed/rss"),
     ("Hacker News", "https://hnrss.org/frontpage"),
+    # --- Video / analisis (YouTube) ---
+    ("AI Revolution", "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"),
 ]
 
 # Alias: collect_signals.py históricamente llama a LAB_FEEDS
@@ -41,7 +43,8 @@ FUENTES_USA = {
     "OpenAI", "Google AI", "DeepMind", "Meta AI", "Hugging Face",
     "TechCrunch AI", "The Verge AI", "MIT Tech Review AI",
     "Ars Technica AI", "VentureBeat AI", "Anthropic", "Microsoft AI",
-    "NVIDIA", "Apple AI", "Amazon AI", "xAI", "Cohere", "Perplexity"
+    "NVIDIA", "Apple AI", "Amazon AI", "xAI", "Cohere", "Perplexity",
+    "The Verge", "Wired", "Hacker News", "AI Revolution",
 }
 
 FUENTES_CHINA = {
