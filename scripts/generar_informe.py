@@ -681,44 +681,58 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     
     # Append al historial (últimos 30 días)
     historial_path = WEB_DIR / "informes-data.json"
-    historial = []
-    if historial_path.exists():
-        try:
-            historial = json.loads(historial_path.read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            historial = []
-    
-    # Evitar duplicados del mismo día
+    public_data_dir = ROOT / "public" / "data"
+    public_historial_path = public_data_dir / "informes-data.json"
+
+    def _load(path) -> list:
+        if path.exists():
+            try:
+                return json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                return []
+        return []
+
+    # Fusionar web/ + public/data/ por fecha: cualquiera de los dos puede tener
+    # días que el otro no (antes se perdían). Se conserva la versión más nueva.
+    merged: dict[str, dict] = {}
+    for entry in _load(historial_path) + _load(public_historial_path):
+        fecha = entry.get("fecha")
+        if fecha:
+            merged[fecha] = entry
+    historial = [merged[f] for f in sorted(merged)]
+    # Evitar duplicados del mismo día y quedarse con los últimos 30 días
     historial = [h for h in historial if h.get("fecha") != day.isoformat()]
     historial.append(data)
-    historial = historial[-30:]  # Últimos 30 días
-    
-    historial_path.write_text(
-        json.dumps(historial, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8"
-    )
-    
+    historial = sorted(historial, key=lambda h: h.get("fecha", ""))[-30:]
+
+    payload = json.dumps(historial, ensure_ascii=False, indent=2) + "\n"
+    historial_path.write_text(payload, encoding="utf-8")
+    # El sitio desplegado (app React en Vercel) lee public/data/; antes este
+    # directorio quedaba huérfano y la web en vivo se congelaba (bug detectado).
+    if public_data_dir.exists():
+        public_historial_path.write_text(payload, encoding="utf-8")
+
     # También exportar a formato simple para compatibilidad
     simple_data = [{"fecha": day.isoformat(), "total": len(items), "items": data["por_seccion"]["novedades"]}]
     simple_path = WEB_DIR / "informes.json"
-    
-    existing_simple = []
-    if simple_path.exists():
-        try:
-            existing_simple = json.loads(simple_path.read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            existing_simple = []
-    
+    public_simple_path = public_data_dir / "informes.json"
+
+    simple_merged: dict[str, dict] = {}
+    for entry in _load(simple_path) + _load(public_simple_path):
+        f = entry.get("fecha")
+        if f:
+            simple_merged[f] = entry
+    existing_simple = [simple_merged[f] for f in sorted(simple_merged)]
     existing_simple = [x for x in existing_simple if x.get("fecha") != day.isoformat()]
     existing_simple.append(simple_data[0])
-    existing_simple = existing_simple[-30:]
-    
-    simple_path.write_text(
-        json.dumps(existing_simple, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8"
-    )
-    
-    print(f"  JSON exportado: {historial_path}")
+    existing_simple = sorted(existing_simple, key=lambda x: x.get("fecha", ""))[-30:]
+
+    simple_payload = json.dumps(existing_simple, ensure_ascii=False, indent=2) + "\n"
+    simple_path.write_text(simple_payload, encoding="utf-8")
+    if public_data_dir.exists():
+        public_simple_path.write_text(simple_payload, encoding="utf-8")
+
+    print(f"  JSON exportado: {historial_path} (+ public/data/)")
 
 
 def write_informe(day: date, force: bool) -> Path:
