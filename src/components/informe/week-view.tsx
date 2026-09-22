@@ -37,7 +37,7 @@ export function WeekView({
   const [feed, setFeed] = useState<Signal[]>(SIGNALS);
   const [live, setLive] = useState(false);
   const [week, setWeek] = useState(WEEK_LABEL);
-  const [loading, setLoading] = useState(true);
+  const [showAll, setShowAll] = useState(false);
   const [arena, setArena] = useState<LiveModelRow[] | null>(null);
   const [arenaAt, setArenaAt] = useState<string | null>(null);
 
@@ -102,6 +102,10 @@ export function WeekView({
   }, [signals, openId]);
 
   const filtered = region !== "all" || model !== "all" || query.trim().length > 0;
+  const shown = useMemo(() => {
+    if (filtered || showAll) return signals;
+    return signals.slice(0, 24);
+  }, [filtered, showAll, signals]);
   const cheapestId = pricedModels[0]?.id;
   const cheapestBlend = pricedModels[0] ? blendedPerM(pricedModels[0]) : 0;
 
@@ -287,7 +291,7 @@ export function WeekView({
               Nada coincide. Quita filtros o cambia de modelo.
             </p>
           ) : (
-            signals.map((s) => (
+            shown.map((s) => (
               <SignalCard
                 key={s.id}
                 signal={s}
@@ -297,6 +301,15 @@ export function WeekView({
               />
             ))
           )}
+          {!loading && !filtered && !showAll && signals.length > shown.length ? (
+            <button
+              type="button"
+              className="flex min-h-11 w-full items-center justify-center rounded-xl border border-border bg-surface text-sm text-muted hover:text-fg"
+              onClick={() => setShowAll(true)}
+            >
+              Ver las {signals.length - shown.length} señales restantes
+            </button>
+          ) : null}
         </div>
       )}
 
