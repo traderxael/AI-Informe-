@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.error
@@ -52,22 +53,33 @@ def cargar_api_key() -> str:
 
 
 def groq_chat(prompt: str, api_key: str, max_tokens: int, modelo: str) -> str:
-    req = urllib.request.Request(
-        "https://api.groq.com/openai/v1/chat/completions",
-        data=json.dumps({
-            "model": modelo,
-            "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": max_tokens,
-            "temperature": 0.2,
-        }).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        },
+    # Vía curl (subprocess): el fingerprint TLS de Python urllib dispara el
+    # 403/1010 de Cloudflare de forma intermitente; curl pasa consistente.
+    payload = json.dumps({
+        "model": modelo,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": max_tokens,
+        "temperature": 0.2,
+        "reasoning_effort": "low",  # gpt-oss-120b es reasoning: sin esto quema los tokens en razoning y devuelve content vacío
+    })
+    proc = subprocess.run(
+        [
+            "curl", "-s", "--max-time", "45",
+            "https://api.groq.com/openai/v1/chat/completions",
+            "-H", f"Authorization: Bearer {api_key}",
+            "-H", "Content-Type: application/json",
+            "-d", payload,
+        ],
+        capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
-    with urllib.request.urlopen(req, timeout=45) as resp:
-        data = json.loads(resp.read().decode("utf-8", "replace"))
-    return (data["choices"][0]["message"]["content"] or "").strip()
+    if proc.returncode != 0:
+        raise OSError(f"curl exit {proc.returncode}: {proc.stderr[:120]}")
+    data = json.loads(proc.stdout)
+    if "error" in data:
+        msg = (data["error"] or {}).get("message", "")
+        code = (data["error"] or {}).get("code", "")
+        raise ValueError(f"groq error {code}: {msg[:120]}")
+    return ((data["choices"][0]["message"] or {}).get("content") or "").strip()
 
 
 def groq_chat_robusto(prompt: str, api_key: str, max_tokens: int) -> tuple[str, str]:
@@ -82,6 +94,17 @@ def groq_chat_robusto(prompt: str, api_key: str, max_tokens: int) -> tuple[str, 
             texto = groq_chat(prompt, api_key, max_tokens, _modelo_activo)
             if texto:
                 return texto, _modelo_activo
+            # 200 con content vacío: el reasoning consumió max_tokens (finish_reason=length).
+            # Estrategia: subir max_tokens x2 (cap 1200) en el reintento; si sigue
+            # vacío, rotar de modelo (los textos ambiguos disparan razonamientos largos).
+            if max_tokens < 1200:
+                max_tokens = min(max_tokens * 2, 1200)
+                print(f"  ⚠️ content vacío → reintento con max_tokens={max_tokens}")
+            else:
+                idx = MODELOS.index(_modelo_activo) if _modelo_activo in MODELOS else 0
+                if idx + 1 < len(MODELOS):
+                    print(f"  ⚠️ content vacío persistente → rotando a {MODELOS[idx + 1]}")
+                    _modelo_activo = MODELOS[idx + 1]
             intentos += 1
         except urllib.error.HTTPError as e:
             if e.code in (400, 404):
@@ -146,7 +169,7 @@ def resumen_dia(api_key: str, force: bool) -> bool:
             "repetir los títulos literalmente. Devuelve SOLO el texto del resumen.\n\n"
             "Titulares del día:\n" + "\n".join(titulos[:14])
         )
-        texto, modelo = groq_chat_robusto(prompt, api_key, 220)
+        texto, modelo = groq_chat_robusto(prompt, api_key, 350)
         if not texto:
             print(f"⚠️ LLM no disponible para resumen_dia ({path.name})")
             continue
@@ -169,18 +192,19 @@ def traducir_signals(api_key: str, max_items: int, force: bool) -> bool:
     cambios = 0
     for s in señales:
         summary = (s.get("summary") or "").strip()
-        if not summary or summary == (s.get("title") or "").strip():
+        if summary == (s.get("title") or "").strip():
             continue
-        if es_espanol(summary) and not force:
+        if summary and es_espanol(summary) and not force:
             continue
         if not s.get("summary_orig"):
             s["summary_orig"] = summary
+        base = summary if summary else f"{s.get('title', '')} — {s.get('publisher', '')}"
         prompt = (
-            "Traduce al español y pule este extracto de una noticia de IA. "
-            "Devuelve 1 oración natural (máximo 160 caracteres), SOLO el texto "
-            "traducido, sin comillas ni prefijos:\n\n" + summary[:400]
+            "Traduce al español (o resume, si solo hay título) este extracto de una "
+            "noticia de IA. Devuelve 1 oración natural (máximo 160 caracteres), SOLO "
+            "el texto, sin comillas ni prefijos:\n\n" + base[:400]
         )
-        texto, modelo = groq_chat_robusto(prompt, api_key, 100)
+        texto, modelo = groq_chat_robusto(prompt, api_key, 400)
         if not texto:
             print("  ⚠️ LLM no disponible, corto la traducción")
             break
