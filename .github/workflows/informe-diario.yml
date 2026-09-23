@@ -35,6 +35,12 @@ jobs:
         env:
           TRANSLATE_MAX: "40"
 
+      - name: Resúmenes LLM (Groq) — resumen del día + traducción de señales
+        run: python scripts/resumir_groq.py --max 24
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        continue-on-error: true
+
       - name: Ranking de modelos (LMArena + OpenRouter)
         continue-on-error: true
         run: python scripts/actualizar_modelos.py --max 60
