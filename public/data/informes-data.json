@@ -4734,5 +4734,835 @@
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"
       }
     ]
+  },
+  {
+    "fecha": "2026-09-23",
+    "total": 692,
+    "por_seccion": {
+      "novedades": [
+        {
+          "titulo": "Advancing Private AI Compute with secure, server-side memory",
+          "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+          "fuente": "DeepMind",
+          "resumen": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Two years of OpenAI Academy",
+          "url": "https://openai.com/index/two-years-of-openai-academy",
+          "fuente": "OpenAI",
+          "resumen": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Gemini 3.8 text-to-speech says hello",
+          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+          "fuente": "DeepMind",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "YouTube Music gets more conversational with new AI features",
+          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+          "fuente": "TechCrunch AI",
+          "resumen": "YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this yea...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+          "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
+          "fuente": "TechCrunch AI",
+          "resumen": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join this exclusive session. Save $200 before September 25, 11:59 p.m. PT.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "YouTube will let you build your own algorithm with AI",
+          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
+          "fuente": "TechCrunch AI",
+          "resumen": "YouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "YouTube releases new AI features for creators within its Studio app",
+          "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+          "fuente": "TechCrunch AI",
+          "resumen": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "YouTube is building AI creator tools that do almost everything for them",
+          "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+          "fuente": "The Verge AI",
+          "resumen": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but Yo...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026/",
+          "fuente": "TechCrunch AI",
+          "resumen": "3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second. Make impactful connections with 10,000+ tech leaders. Last day to save is September 25, 11:59 p.m. PT. Register h...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Spotify is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’",
+          "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Spotify is rolling out Taste Profile to Premium users in the U.S., letting listeners see how the streamer understands their tastes and use natural language to reshape their recommendations.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Logitech’s new Blue Yeti 2 mic adjusts itself to where you are",
+          "url": "https://www.theverge.com/gadgets/999406/blue-yeti-2-usb-microphone-price-availability",
+          "fuente": "The Verge",
+          "resumen": "The original Blue Yeti has been one of the most recognizable go-to USB microphones for content creators since it launched in 2009, and now it finally has a successor. Launching today under Logitech G,...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Logitech’s new haptics-based gaming mouse is a little better and $20 more",
+          "url": "https://www.theverge.com/news/998266/logitech-x3-pro-superstrike-specs-price",
+          "fuente": "The Verge",
+          "resumen": "The G Pro Superstrike mouse is one of Logitech's most interesting products. Unlike other gaming mice, it has haptic actuators beneath its two main buttons instead of mechanical switches, which decreas...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Xbox’s Mythic achievements sound like PlayStation’s Platinum trophy",
+          "url": "https://www.theverge.com/news/999404/xbox-mythic-achievement-feature",
+          "fuente": "The Verge",
+          "resumen": "Xbox appears to be ready to launch its own version of PlayStation's platinum trophies. A new update to the Xbox PC app has revealed Mythic achievements, which according to data in the app will appear ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+          "fuente": "The Verge AI",
+          "resumen": "OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, cofounder and technology chief Sam Yam announced...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "One of the best Metroid games for the Switch is 30 percent off",
+          "url": "https://www.theverge.com/gadgets/999329/metroid-prime-remastered-nintendo-flow-usbc-apple-deal-sale",
+          "fuente": "The Verge",
+          "resumen": "Nintendo’s “Customer Appreciation” sale continues through September 26th. It includes discounts on Switch games and accessories, and I thought I’d call out one of my favorite games that’s cheaper than...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "This $199 GPS sports watch is repairable, modular, and open-source",
+          "url": "https://www.theverge.com/gadgets/999380/una-watch-sports-gps-modular",
+          "fuente": "The Verge",
+          "resumen": "The Una Watch costs less than most Garmin watches now that its price has been lowered from the Kickstarter offer of $350 to $199, but its modular, repairable design grabbed my attention first. It feat...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "YouTube’s Custom Feeds Give You More Control Over the Algorithm",
+          "url": "https://www.wired.com/story/youtube-custom-feeds-let-you-steer-the-algorithm-without-breaking-it/",
+          "fuente": "Wired",
+          "resumen": "In YouTube’s latest update, viewers can tweak what the algorithm shows on their front page and curate it to a specific vibe.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Discord will now automatically estimate your age",
+          "url": "https://www.theverge.com/tech/999305/discord-updated-age-assurance-global-rollout",
+          "fuente": "The Verge",
+          "resumen": "Discord is rolling out a new global age assurance system, seven months after pausing its previous verification measures following backlash from users. Starting today in every country except Australia ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "McDonald’s is testing ads on its drive-thru menus",
+          "url": "https://www.theverge.com/tech/999295/mcdonalds-drive-thru-menu-ads",
+          "fuente": "The Verge",
+          "resumen": "McDonald's is putting ads on its drive-thru menu as part of a \"limited\" pilot at company-owned restaurants, according to a report from Bloomberg. Drive-thru locations included in the test will show ad...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Nobody does it like Remedy",
+          "url": "https://www.theverge.com/games/999268/control-resonant-review-ps5-xbox",
+          "fuente": "The Verge",
+          "resumen": "Video games have given us plenty of ways to traverse huge open worlds, but none have felt quite as oddly exhilarating as manipulating gravity in Control Resonant's twisted version of New York City. It...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+          "fuente": "Wired",
+          "resumen": "Meta says it issued a fix for the Muse zero-day vulnerability that would have let attackers do “whatever” they wanted on a victim’s Mac, highlighting the inherent dangers of AI helpers.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Xiaomi’s new 18 Pro phones improve on Samsung’s privacy display",
+          "url": "https://www.theverge.com/tech/999253/xiaomi-18-pro-max-privacy-display-launch-china",
+          "fuente": "The Verge",
+          "resumen": "Xiaomi's new 18 Pro and 18 Pro Max launched in China today, and feature a more flexible take on the privacy display tech introduced this year on Samsung's Galaxy S26 Ultra. They combine it with return...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "The Best Samsung Phones of 2026: Ultra, Fold, Budget",
+          "url": "https://www.wired.com/gallery/best-samsung-phones/",
+          "fuente": "Wired",
+          "resumen": "From flagship and budget to flipping and folding, Samsung’s Galaxy range spans the breadth of the smartphone cosmos. WIRED’s here to help you make your choice.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "A Startup Wants to Power Data Centers With ‘Supercritical’ Carbon Dioxide",
+          "url": "https://www.wired.com/story/startup-power-data-centers-supercritical-co2/",
+          "fuente": "Wired",
+          "resumen": "The technology could strap onto existing gas turbines and make them more efficient—but it wouldn’t do away with their emissions entirely.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        }
+      ],
+      "usos": [
+        {
+          "titulo": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "AI Robots Are Beating Humans Now",
+          "url": "https://www.youtube.com/watch?v=5gXmCb1ceGE",
+          "fuente": "AI Revolution",
+          "resumen": "A six-foot REK humanoid robot just entered the cage against Frankie LaPenna and kicked him across the ring in what’s being called the first human vs robot fight. Meanwhile UBTECH starts mass-producing...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Ema raises $77M as AI starts eating into enterprise software and services",
+          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+          "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Bad money decisions are coming home to roost for the US and Japan",
+          "url": "https://www.scmp.com/opinion/asia-opinion/article/3368448/bad-money-decisions-are-coming-home-roost-us-and-japan?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "The US Treasury market is in trouble, oil prices have been surging and the yen might slide again. Whatever Treasury Secretary Scott Bessent might have said, the United States government isn’t big enou...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+          "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+          "fuente": "TechCrunch AI",
+          "resumen": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to s...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
+          "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a se...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Chinese EV battery giant CATL starts trial production at Hungarian factory",
+          "url": "https://www.scmp.com/business/china-business/article/3368463/chinese-ev-battery-giant-catl-starts-trial-production-hungarian-factory?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Contemporary Amperex Technol­ogy Ltd (CATL) has cleared all regulatory hurdles for its mega factory in Hungary, a development that analysts expect will help the world’s largest producer of electric ve...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Hong Kong energised as global investment hub for green technology",
+          "url": "https://www.scmp.com/native/business/topics/domestic-global-success/article/3367933/hong-kong-energised-global-investment-hub-green-technology?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Record-breaking heat, devastating droughts, deadly wildfires and heavy rain and severe floods around the world over recent months have sparked a new urgency in the search for practical solutions to cl...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "SWE-Universe: Scale Real-World Verifiable Environments to Millions",
+          "url": "https://arxiv.org/abs/2602.02361",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2602.02361v2 Announce Type: replace-cross Abstract: We propose SWE-Universe, a scalable and efficient framework for automatically constructing real-world software engineering (SWE) verifiable en...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport",
+          "url": "https://arxiv.org/abs/2606.14157",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2606.14157v2 Announce Type: replace-cross Abstract: Cities deliver basic services through mixed public-private facility networks, including schools, clinics, transit providers, and subsidized se...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Rising US scrutiny on clinical trials could threaten China’s biotech advantage: analysts",
+          "url": "https://www.scmp.com/business/markets/article/3368445/rising-us-scrutiny-clinical-trials-could-threaten-chinas-biotech-advantage-analysts?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "China’s edge in fast, cost-effective early clinical trials has propelled its emergence as a global biopharmaceutical powerhouse, but there is a risk that the United States could take steps to curb tha...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "China’s cancer breakthrough on CAR-T cell therapy shows progress",
+          "url": "https://www.scmp.com/plus/news/china/science/article/3368352/chinas-cancer-breakthrough-car-t-cell-therapy-shows-progress?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "In June, Chinese regulators approved the world’s first CAR-T cell therapy for solid tumour cancers, developed by a drug company based in Shanghai. One month later, at a hospital in the city, a New Zea...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "The UK Government Faces a Reckoning Over Palantir",
+          "url": "https://www.wired.com/story/the-uk-government-faces-a-reckoning-over-palantir/",
+          "fuente": "Wired",
+          "resumen": "Andy Burnham once kept Palantir out of Greater Manchester. His first test as prime minister is whether to cut the company’s £330 million NHS contract—and risk a rupture with Big Tech and Washington.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+          "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and a...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "4 ways to address the failures we found along the US border’s “virtual wall”",
+          "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. W...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Despite higher costs, Hong Kong’s student residences attract mainland Chinese renters",
+          "url": "https://www.scmp.com/property/article/3368296/despite-higher-costs-hong-kongs-student-residences-attract-mainland-chinese-renters?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Purpose-built student accommodation is drawing mainland Chinese university students away from Hong Kong’s traditional rental market, as professionally managed residences gain favour despite charging h...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Expect ‘high tide’ of Chinese biotech deals as threat of US curbs fades: analysts",
+          "url": "https://www.scmp.com/business/china-business/article/3368249/expect-high-tide-chinese-biotech-deals-threat-us-curbs-fades-analysts?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "US-China biotech deals are expected to thrive because Washington is reportedly leaning away from sweeping restrictions, according to analysts, giving Chinese healthcare firms a major boost following B...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Apple reportedly building server packed with M-series Ultra chips for AI",
+          "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+          "fuente": "Ars Technica AI",
+          "resumen": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "China’s CXMT touts new chip manufacturing platform as close to ‘world’s most advanced’",
+          "url": "https://www.scmp.com/tech/article/3368154/chinas-cxmt-touts-new-chip-manufacturing-platform-close-worlds-most-advanced?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Chinese memory chip giant Changxin Memory Technologies (CXMT) said on Sunday that it adopted its new-generation technology platform for mass production, narrowing the advantage of global leaders inclu...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        }
+      ],
+      "economia": [
+        {
+          "titulo": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+          "fuente": "Hugging Face",
+          "resumen": "",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Nike Promo Codes and Discounts: 30% for September 2026",
+          "url": "https://www.wired.com/story/nike-promo-code/",
+          "fuente": "Wired",
+          "resumen": "Check out our deals for Nike this September 2026, including 15% off select purchases.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Uber Eats Promo Codes: $15 Off │September 2026",
+          "url": "https://www.wired.com/story/uber-eats-promo-code/",
+          "fuente": "Wired",
+          "resumen": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Valvoline Coupons and Promo Codes for September 2026",
+          "url": "https://www.wired.com/story/valvoline-coupons/",
+          "fuente": "Wired",
+          "resumen": "We've gathered all the top Valvoline coupons and promo codes for September 2026, including deals on full synthetic oil changes and other essential maintenance.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Hostinger Promo Code: 79% Off for September 2026",
+          "url": "https://www.wired.com/story/hostinger-coupon-code/",
+          "fuente": "Wired",
+          "resumen": "Discover exclusive Hostinger promo codes, discounts, and deals on web hosting, cloud plans, and domain registration. Save big on your next Hostinger purchase today.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "AT&T Promo Codes: $50 Off This September 2026",
+          "url": "https://www.wired.com/story/att-promo-code/",
+          "fuente": "Wired",
+          "resumen": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&T coupons and deals.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "HP Coupon Codes and Deals September 2026",
+          "url": "https://www.wired.com/story/hp-coupon-code/",
+          "fuente": "Wired",
+          "resumen": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+          "fuente": "TechCrunch AI",
+          "resumen": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Trump offloads tens of millions in AI, tech shares, led by Microsoft, Amazon, Meta",
+          "url": "https://www.scmp.com/tech/article/3368525/trump-offloads-tens-millions-ai-tech-shares-led-microsoft-amazon-meta?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "US President Donald Trump has sold shares worth tens of millions of US dollars in major tech companies, including Microsoft, Amazon and Meta Platforms in July, a move that may reveal some of his views...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+          "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save live...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+          "fuente": "The Verge AI",
+          "resumen": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will lau...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
+          "fuente": "TechCrunch AI",
+          "resumen": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at ...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Chinese maker of robot-vacuum sensors launches Hong Kong IPO, undeterred by US ban",
+          "url": "https://www.scmp.com/business/markets/article/3368466/chinese-maker-robot-vacuum-sensors-launches-hong-kong-ipo-undeterred-us-ban?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Shenzhen Camsense Technologies, a maker of spatial sensors for robotic vacuum cleaners, launched a Hong Kong initial public offering (IPO) that aims to raise about HK$680 million (US$86.7 million), de...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Weakly Supervised Quantum Error Mitigation",
+          "url": "https://arxiv.org/abs/2609.25555",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.25555v1 Announce Type: new Abstract: Supervised approaches to quantum error mitigation learn a map from noisy circuit outputs to ideal ones, and therefore require the ideal outputs. Produci...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+          "url": "https://arxiv.org/abs/2609.26779",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.26779v1 Announce Type: new Abstract: Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context w...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "EndoCogniAgent: Closed-Loop Agentic Reasoning with Self-Consistency Validation for Endoscopic Diagnosis",
+          "url": "https://arxiv.org/abs/2508.07292",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2508.07292v4 Announce Type: replace Abstract: Endoscopic diagnosis is an iterative process in which clinicians acquire, compare, and verify local visual evidence before reaching a conclusion. Cu...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "China’s AI self-reliance presents opportunities but valuations, geopolitics are risks: BofA",
+          "url": "https://www.scmp.com/business/china-business/article/3368401/chinas-ai-self-reliance-presents-opportunities-valuations-geopolitics-are-risks-bofa?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "China’s push for tech self-reliance is opening new investment opportunities in artificial intelligence stocks, but stretched valuations and geopolitical tensions make the sector an increasingly risky ...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Is a Home Security System Subscription Worth It? (2026)",
+          "url": "https://www.wired.com/story/how-to-design-a-subscription-free-home-security-system/",
+          "fuente": "Wired",
+          "resumen": "Just about every home security system has paid options, but with a little effort and a focus on local storage, you can build your own without the recurring costs.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Building standards for the next phase of AI",
+          "url": "https://openai.com/index/building-standards-next-phase-ai",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Meta Quest Promo Codes and Coupons for September 2026",
+          "url": "https://www.wired.com/story/meta-quest-promo-code/",
+          "fuente": "Wired",
+          "resumen": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        }
+      ],
+      "futuro": [
+        {
+          "titulo": "Hong Kong sets yuan trading timeline, backing Beijing’s push to boost currency’s use",
+          "url": "https://www.scmp.com/business/banking-finance/article/3368537/hong-kong-sets-yuan-trading-timeline-backing-beijings-push-boost-currencys-use?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Hong Kong’s securities regulator aims to include a yuan trading counter in a cross-border channel linked with mainland Chinese investors by July 1, marking the latest step in the city’s efforts to adv...",
+          "seccion": "futuro",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+          "url": "https://arxiv.org/abs/2609.25036",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Towards Omni-dimensional GUI Agent Navigation with Masked Trajectory Prediction",
+          "url": "https://arxiv.org/abs/2609.25769",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.25769v1 Announce Type: new Abstract: Graphical User Interface (GUI) Agents autonomously interact with software to fulfill user requests, where GUI navigation stands out as the most critical...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "A Multi-Timestep LSTM Ensemble regressor for Enhanced Short-Term Runoff Prediction",
+          "url": "https://arxiv.org/abs/2609.26244",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.26244v1 Announce Type: new Abstract: Accurately forecasting river runoff is key to managing water resources, controlling floods, and planning agriculture. This study examines the Ajichay Ri...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Risk-Aware Online Conformal State Probing",
+          "url": "https://arxiv.org/abs/2609.25889",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.25889v1 Announce Type: cross Abstract: AI-based autonomous agents, typically hosted at data centers, must acquire state information from robots or edge devices in order to issue informed co...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
+          "url": "https://arxiv.org/abs/2609.26682",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.26682v1 Announce Type: cross Abstract: Generative AI (GenAI) applications have flourished enabling users to chat with large language models, and to create agents to act on their behalf for ...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+          "url": "https://arxiv.org/abs/2609.11873",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.11873v3 Announce Type: replace-cross Abstract: Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabiliti...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Power, not chips, will decide where Asia’s AI gets built",
+          "url": "https://www.scmp.com/presented/business/topics/aesieap-ceo-conference-2026/article/3368225/power-not-chips-will-decide-where-asias-ai-gets-built?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "[The content of this article has been produced by our advertising partner.] Hong Kong is asking for more computing power and for the electricity to stay clean and steady while it arrives. That was the...",
+          "seccion": "futuro",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "I Built AI Clones of My Coworkers. Things Got Weird",
+          "url": "https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/",
+          "fuente": "Wired",
+          "resumen": "Brian Bot loved talking about improv, while Sophie Bot wouldn’t stop calling me “big dog.” Welcome to the future of work.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
+          "url": "https://www.wired.com/story/big-interview-patti-harrison/",
+          "fuente": "Wired",
+          "resumen": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Hong Kong regulators to flesh out new yuan strategy after Beijing meetings",
+          "url": "https://www.scmp.com/business/banking-finance/article/3368367/hong-kong-regulators-flesh-out-new-yuan-strategy-after-beijing-meetings?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Beijing and Hong Kong are laying the groundwork for a new phase of offshore yuan development and other goals after the city unveiled its first five-year plan, with banking and securities regulators se...",
+          "seccion": "futuro",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Co-creating the future of fashion with Google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+          "fuente": "Google AI",
+          "resumen": "Jane Wade and Sergio Hudson",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Introducing the Australian Youth Safety Blueprint",
+          "url": "https://openai.com/index/australian-youth-safety-blueprint",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "fuente": "OpenAI",
+          "resumen": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "As Chinese consumption of gold jewellery slumps 34%, sellers look to markets abroad: WGC",
+          "url": "https://www.scmp.com/business/commodities/article/3368110/chinese-consumption-gold-jewellery-slumps-34-sellers-look-markets-abroad-wgc?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Chinese gold jewellers are seeking opportunities in the Middle East and India, leveraging their advanced crafting technologies as the industry struggles amid the precious metal’s price volatility, acc...",
+          "seccion": "futuro",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        },
+        {
+          "titulo": "Betting on People-First Banking",
+          "url": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3367536/betting-people-first-banking?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "China CITIC Bank International’s Wendy Yuen says the future of finance will not be won by technology alone, but by banks that combine digital speed with human trust, cross-border insight and lifelong ...",
+          "seccion": "futuro",
+          "pais": "china",
+          "fecha": "2026-09-23"
+        }
+      ]
+    },
+    "por_pais": {
+      "usa": 632,
+      "china": 60,
+      "global": 0
+    },
+    "fuentes": [
+      {
+        "nombre": "OpenAI",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "nombre": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/"
+      },
+      {
+        "nombre": "DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml"
+      },
+      {
+        "nombre": "Meta AI",
+        "url": "https://ai.meta.com/blog/rss/"
+      },
+      {
+        "nombre": "Hugging Face",
+        "url": "https://huggingface.co/blog/feed.xml"
+      },
+      {
+        "nombre": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      },
+      {
+        "nombre": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      {
+        "nombre": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+      },
+      {
+        "nombre": "Ars Technica AI",
+        "url": "https://arstechnica.com/ai/feed/"
+      },
+      {
+        "nombre": "VentureBeat AI",
+        "url": "https://venturebeat.com/category/ai/feed/"
+      },
+      {
+        "nombre": "Synced",
+        "url": "https://syncedreview.com/feed/"
+      },
+      {
+        "nombre": "36Kr AI",
+        "url": "https://36kr.com/feed"
+      },
+      {
+        "nombre": "QbitAI",
+        "url": "https://www.qbitai.com/feed"
+      },
+      {
+        "nombre": "DeepSeek",
+        "url": "https://www.deepseek.com/rss.xml"
+      },
+      {
+        "nombre": "arXiv cs.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI"
+      },
+      {
+        "nombre": "arXiv cs.CL",
+        "url": "https://rss.arxiv.org/rss/cs.CL"
+      },
+      {
+        "nombre": "SCMP Business",
+        "url": "https://www.scmp.com/rss/92/feed"
+      },
+      {
+        "nombre": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml"
+      },
+      {
+        "nombre": "Wired",
+        "url": "https://www.wired.com/feed/rss"
+      },
+      {
+        "nombre": "AI Revolution",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"
+      }
+    ]
   }
 ]

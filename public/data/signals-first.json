@@ -1,167 +1,38 @@
 {
-  "generated_at": "2026-09-22T16:23:05.997274+00:00",
+  "generated_at": "2026-09-23T16:12:51.051163+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
+    "DeepMind",
     "Google News — IA Alemania",
-    "Google News — IA Rusia",
-    "Google News — IA global",
+    "Google News — IA Francia",
+    "Google News — IA LATAM",
     "Hacker News",
-    "Hugging Face",
     "OpenAI",
-    "QbitAI",
-    "TechCrunch AI"
+    "QbitAI"
   ],
   "signals": [
     {
-      "id": "516aa4393674",
-      "title": "Alibaba busca fortalecer la posición de la inteligencia artificial después de presentar nuevos chips y modelos",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcTAzQ0dOS3poenhSZENOSWRmeF9xRkxVNjNmU2dfaDBSY3dvSzBoejVPNGE1Q3pkc2U0M2JMQ2g0a0V3UUF6UF9jb0ZuakxJLURRSFRvRnJteWE5Vk50RXpRZDZtRnpJOVpBTm1GUjZHVzZJYnA4eEJRU2xYbGlDZ2F6bkJ3UnJtVlpESklKRDdzQm94cDJ1YWFYa0paT1N5SUJpZVFLNXNvMjdxVVZUeWVB?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Yahoo Finance",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-09-22T14:54:52+00:00",
-      "title_orig": "Alibaba Looks to Strengthen Artificial Intelligence Position After Unveiling New Chips, Models"
-    },
-    {
-      "id": "dfd1d2a423f9",
-      "title": "OpenAI está a punto de comer el almuerzo de Jev – Arcturus Labs",
-      "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 88 # Comments: 72",
-      "sourceUrl": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "sourceLabel": "Hacker News",
+      "id": "4c4abcff4acd",
+      "title": "Avanzar en la computación privada de IA con memoria segura del lado del servidor",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "sourceUrl": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "sourceLabel": "DeepMind",
       "publisher": "",
       "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-09-22T14:42:59+00:00",
-      "title_orig": "OpenAI is about to eat Jev's lunch – Arcturus Labs"
-    },
-    {
-      "id": "0f1ff99a4515",
-      "title": "OpenAI GPT-6 Astra rompe el mensaje de Enigma que se ha resistido a la solución desde 2005",
-      "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 230 # Comments: 239",
-      "sourceUrl": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-09-22T13:52:15+00:00",
-      "title_orig": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005"
-    },
-    {
-      "id": "1dfed892d5b9",
-      "title": "OpenAI establecerá un grupo asesor sobre matemáticas e IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Bd3ZVZ1BjYkNLWjFiYUcteUJPN0FEZ3JRcktCUGR1UG9aQzhRUzN6d3RRT2RUZUtXNzlJYXhoeWJBbk1Kay1BbtIBWEFVX3lxTE53QzBBUWFIMW5WN0dETGU4SzVzd1RLS0luNnAyMkFHOVlwVXZib29aVk9nd3FveFgtYkFWT01KMnRCdE93Z3RxUk9vem13ejZiTU5EcGt0MWI?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Хабр",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-22T08:57:08+00:00",
-      "title_orig": "OpenAI создаст консультативную группу по математике и ИИ"
-    },
-    {
-      "id": "b147a84534ed",
-      "title": "El investigador de Ali revela que el modelo se expandirá a parámetros de 5-10T después de Qwen4.5",
-      "summary": "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。",
-      "sourceUrl": "https://www.qbitai.com/2026/09/493629.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-09-22T03:48:05+00:00",
-      "title_orig": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数"
-    },
-    {
-      "id": "7ba72be8cb1b",
-      "title": "Ali anuncia nuevos avances en modelos modales completos, Qwen4 y modelos de vídeo de próxima generación están en formación",
-      "summary": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。",
-      "sourceUrl": "https://www.qbitai.com/2026/09/493625.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-09-22T03:42:43+00:00",
-      "title_orig": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中"
-    },
-    {
-      "id": "98acfe91fd30",
-      "title": "Transformers ahora ejecuta llama.cpp quants",
-      "summary": "",
-      "sourceUrl": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "sourceLabel": "Hugging Face",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "llama"
-      ],
-      "source": "lab",
-      "published": "2026-09-22T00:00:00+00:00",
-      "title_orig": "Transformers now runs llama.cpp quants"
-    },
-    {
-      "id": "5310781f5f6f",
-      "title": "OpenAI forma un grupo asesor de matemáticas a medida que su IA resuelve más de 100 problemas abiertos",
-      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-21T20:15:58+00:00",
-      "title_orig": "OpenAI forms math advisory group as its AI resolves more than 100 open problems"
-    },
-    {
-      "id": "f79a067193d7",
-      "title": "Google confirma que los modelos de Gemini hackearon tres empresas en mayo de 2026",
-      "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
-      "sourceUrl": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "country": "uk",
       "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-21T16:57:26+00:00",
-      "title_orig": "Google confirms Gemini models hacked three companies in May 2026"
+      "published": "2026-09-23T16:00:57+00:00",
+      "title_orig": "Advancing Private AI Compute with secure, server-side memory"
     },
     {
-      "id": "d37f5b2c5927",
-      "title": "Higgsfield AI lanza nuevas funciones de vídeo en un día con GPT-6 Astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "sourceUrl": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "id": "9d02eeb8cef1",
+      "title": "Dos años de OpenAI Academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "sourceUrl": "https://openai.com/index/two-years-of-openai-academy",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -170,77 +41,190 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-21T12:00:00+00:00",
-      "title_orig": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+      "published": "2026-09-23T16:00:00+00:00",
+      "title_orig": "Two years of OpenAI Academy"
     },
     {
-      "id": "2c9792fbb14a",
-      "title": "Estándares de construcción para la siguiente fase de la IA",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "sourceUrl": "https://openai.com/index/building-standards-next-phase-ai",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-21T10:00:00+00:00",
-      "title_orig": "Building standards for the next phase of AI"
-    },
-    {
-      "id": "530db518a73a",
-      "title": "Ampliación de OpenAI Academy con nuevas rutas de aprendizaje",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "sourceUrl": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-21T07:00:00+00:00",
-      "title_orig": "Expanding OpenAI Academy with new learning paths"
-    },
-    {
-      "id": "d1749ba76a98",
-      "title": "Cómo V7 proporciona memoria institucional a los agentes de IA",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "sourceUrl": "https://openai.com/index/v7",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-21T00:00:00+00:00",
-      "title_orig": "How V7 gives AI agents institutional memory"
-    },
-    {
-      "id": "15904b85864a",
-      "title": "Künstliche Intelligenz: Auch Googles KI Gemini hackte Unternehmen",
+      "id": "6ddcb66e40c5",
+      "title": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMURTOE5QRG5mZnd6aHM4c05NV0pCWnVYUEZJZGRwMERQV0Y1UHBBU01rYUZjdV9EeDBuUGRHbDYzU0xCdjdoVlJ4THViVnFlR1ZVN0lBQTMzVXVCd2ZPcW9JbV94VEZHN0E2REJYM3FpZW9NVG8wME5wZmdTMEtDdUhINXZnY1h5UTdJWnFlZEF5TmEtM0NBQ2R0R2lLUGFHSlBHNFJhckxnUEhPbXl2NkZB?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWGp1VTJfMHUzUlU2SjVEUlVMU3pBTUhIZ2U0b2xhcmJVeGxHc1dwMjlfZWFGQmtYamlhWTZmY0lXZXlXUkVBaTNZa19aQldoTU1DVS1zZW1FcUt6eTJpUHlyRENOOGgyVTZPVlBERnVaemI0d3loUWxUclEzZnBud1NWaUh0NWtwVUNsWHU3eE5ITnVKYU5VdFV2cHkzWkdQRHJiZGNTaWhkUE42VE4yV2g1TEM5c2g0S1dFeVAzR1VYOEF0a1FSR1JCNk1XVTBjckxKSHpEakdfVkZfRklmRzRyOHY2dkZVR2FSSGJXbC1OMVM3a0R4NS1GOHY2cmZZMVdDTXZBdzFCWTNUVlhPRW9nb2lNT1U?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "BioBioChile",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T15:53:54+00:00",
+      "title_orig": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días"
+    },
+    {
+      "id": "6bf552a2badd",
+      "title": "Amazon introduce una IA conectada por Claude para asesorar a sus vendedores externos",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS0ZnYjZJek5UX1h1VUlnRUNRRG9NVlVpRDM3bDVQd1p1YmRyUW9uYVNTMmg4Y2VDV2N2bVdaYUQ2WFdsTGt0Q2VBQ0dpbmM5cjE0UngzRGVWN1RmUEpCTm1WNk9MeFRpOW9wX3lub1RwSS1ZanlVU0R1VG42RlJTU0JZLW9SY1JWWXNSVV96NGkyYl93eFhnaUx6S1B3UVp1S2VEZlllWEJIcWQxQTJhdHRWOXJsY2JqWTlqMUJVbXUyRUF5OUE?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "FashionNetwork France",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-09-23T15:41:13+00:00",
+      "title_orig": "Amazon introduit une IA connectée par Claude pour conseiller ses vendeurs tiers"
+    },
+    {
+      "id": "be2314c62992",
+      "title": "Géminis 3.8 de texto a voz dice hola",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T15:25:14+00:00",
+      "title_orig": "Gemini 3.8 text-to-speech says hello"
+    },
+    {
+      "id": "1d77064cbebb",
+      "title": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T13:00:00+00:00",
+      "title_orig": "OpenAI extends cyber access to Ukraine for civilian defense"
+    },
+    {
+      "id": "a7287952979c",
+      "title": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1diT1RiV3JMMFRYMC1Xc2ZYLUZNUmNpOG41Qms3RXFKcVZrTTdNeGlabTkya3FCU09wd2ZmcWIwSWRHZ1ZuRGhkNGNkblNhNERJeUpnQWxQQks1MGtvTUtmVWhHMGJ1c3hvQVR4Z2dWMjBlX2NWM1B4UnFXYXpFOWszR2RHM3pZRGx4UkxWenF2cFJCWXp0azBZbzFiMWJHTW1iTV9oNjdNYjlIUXdNdlpLcFJlRHcw0gHaAUFVX3lxTE8wWFdEVlZXNzhzeVJEWktYbTdXUFZLWUtqbkExUzFxWUVPV1dqX2JwNEg2eVRDb3ZWQ2pCNHNibXZQSThpSDE0UnJ5bFBKRnZuY3k4dWI4YS04WXU5U19wTmVQWmdwcTRtSkZkbllDT1NDZVJrZ25LeWxFNW5sdmRkdGFXaVl2Ujh2SFpPWDNOX3U2am9SS1dxQU5KemYtamNOTnhUMnJRZHAwWFBJZ3JWMVQyT3gxVjZjZTlfWTNEdnEtZkdpU0N1RllEaHRZMVhRSnVhTlRBRFRn?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "latercera.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T12:54:57+00:00",
+      "title_orig": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial"
+    },
+    {
+      "id": "5f54a61aa382",
+      "title": "Claude Code lee AGENTS.md solo cuando la telemetría está encendida [fijo]",
+      "summary": "Comments",
+      "sourceUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-09-23T12:15:33+00:00",
+      "title_orig": "Claude Code reads AGENTS.md only when telemetry is on [fixed]"
+    },
+    {
+      "id": "36c3867e24b9",
+      "title": "Sam Altman de OpenAI plantará crear estándares globales para la inteligencia artificial en su discurso ante la ONU",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY2VXamlhUGRacElVYXIzekc3eTVyelZHeHVGZ1FvcGV2U1NKY1NTS3dMWHV4X0k4d3VBenNodkJQZHc3dFJ5VVZpU2hTa09pWlFNMDIyZGxhZ2tiUVFaTU1YZ0dQd3EwU2QtYmFFOXBidV9jdDNJaXNIdjlxYW1NbnZXWFhDVEprSnJBZk9DRHdMb2VVdVY5MENiRQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Diario Financiero",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T11:25:00+00:00",
+      "title_orig": "Sam Altman de OpenAI planteará crear estándares globales para la inteligencia artificial en su discurso ante la ONU"
+    },
+    {
+      "id": "729f55492a1c",
+      "title": "¿AI fuera de control? Cómo Donald Trump y Xi Jinping luchan por el poder sobre ChatGPT y compañía",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlBFZGxHeGFTMVJXdXRDVkVFaUl6TTd6WmxFWVRxWWtKMFhSREdoZ2VVdWpIVE1RQUxBc1RjVFJsLTRGb3hOMGFYbHFIQ1JWMkpEbXByVEc1dHRxdDJoX05VY2M1dllJby1OMHZiQWhqZnlycU5DNGZwMnZOcm5zYXNZU1Bic29HMVZYeDQyVQ?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Spiegel",
+      "publisher": "ZDFheute",
       "region": "west",
       "country": "germany",
       "models": [
-        "gemini"
+        "gpt"
       ],
-      "source": "lab",
-      "published": "2026-09-19T03:55:00+00:00"
+      "source": "news",
+      "published": "2026-09-23T10:55:00+00:00",
+      "title_orig": "KI außer Kontrolle? Wie Donald Trump und Xi Jinping um die Macht über ChatGPT und Co. ringen"
     },
     {
-      "id": "a8365cfa26c0",
-      "title": "Los investigadores utilizaron a Claude para hackear OpenAI",
-      "summary": "Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+      "id": "2086bf74eb89",
+      "title": "¡Entrenamiento de agentes abiertos de DeepSeek New Paper! Firmado por Liang Wenfeng",
+      "summary": "每秒能产生5000+个沙盒",
+      "sourceUrl": "https://www.qbitai.com/2026/09/496393.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T07:29:50+00:00",
+      "title_orig": "DeepSeek新论文公开Agent训练！梁文锋署名"
+    },
+    {
+      "id": "4903dbec2266",
+      "title": "¡Qwen No. 1 está listo! Liu Daiyiheng toma el testigo",
+      "summary": "与稚晖君同届天才少年",
+      "sourceUrl": "https://www.qbitai.com/2026/09/496384.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T07:27:49+00:00",
+      "title_orig": "Qwen一号位定了！刘大一恒接棒"
+    },
+    {
+      "id": "09a0c6dbf1c6",
+      "title": "Grab y OpenAI aportan habilidades prácticas de IA al sudeste asiático",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "sourceUrl": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T00:00:00+00:00",
+      "title_orig": "Grab and OpenAI bring practical AI skills to Southeast Asia"
+    },
+    {
+      "id": "5618ffbe19d5",
+      "title": "Los nuevos modelos OpenAI de Anthropic prometen lo mismo: un poco más por mucho menos dinero",
+      "summary": "The frontier AI model race has entered its comparison shopping phase.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
       "sourceLabel": "Ars Technica AI",
       "publisher": "",
       "region": "west",
@@ -250,14 +234,14 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-18T13:30:12+00:00",
-      "title_orig": "Researchers used Claude to hack OpenAI"
+      "published": "2026-09-22T21:25:18+00:00",
+      "title_orig": "New Anthropic, OpenAI models make same promise: A little more for a lot less money"
     },
     {
-      "id": "559b0cf11197",
-      "title": "Presentamos el Plan de Seguridad Juvenil de Australia",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "id": "b6b1e4118cdb",
+      "title": "Mejor almacenamiento en caché rápido para GPT-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "sourceUrl": "https://openai.com/index/better-prompt-caching-for-gpt-6",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -266,14 +250,30 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-18T12:00:00+00:00",
-      "title_orig": "Introducing the Australian Youth Safety Blueprint"
+      "published": "2026-09-22T21:00:00+00:00",
+      "title_orig": "Better prompt caching for GPT-6"
     },
     {
-      "id": "964ae1dd0fac",
-      "title": "Cómo Cooley está acelerando el trabajo de salida a bolsa con ChatGPT",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "sourceUrl": "https://openai.com/index/cooley-gopublic",
+      "id": "f5795de5b2fb",
+      "title": "Demanda exige que OpenAI pague por una nueva escuela después de que ChatGPT se usara en el tiroteo",
+      "summary": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-22T19:28:23+00:00",
+      "title_orig": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting"
+    },
+    {
+      "id": "3d48e529ad7a",
+      "title": "Presentamos GPT-6 sol y luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -282,14 +282,30 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-17T12:00:00+00:00",
-      "title_orig": "How Cooley is accelerating IPO work with ChatGPT"
+      "published": "2026-09-22T18:00:00+00:00",
+      "title_orig": "Introducing GPT-6 Sol and Luna"
     },
     {
-      "id": "363bbead77de",
-      "title": "Presentamos Astra for Law",
-      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "sourceUrl": "https://openai.com/index/astra-for-law",
+      "id": "0c90c73c08cf",
+      "title": "Claude Opus 5.5",
+      "summary": "Comments",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-09-22T16:29:05+00:00",
+      "title_orig": "Claude Opus 5.5"
+    },
+    {
+      "id": "ce45d8dc0f6c",
+      "title": "Reducción paralela del tiempo y el coste de la investigación a la mitad con GPT‑6 Astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "sourceUrl": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -298,14 +314,14 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-17T00:00:00+00:00",
-      "title_orig": "Introducing Astra for Law"
+      "published": "2026-09-22T12:00:00+00:00",
+      "title_orig": "Parallel cut research time and cost in half with GPT‑6 Astra"
     },
     {
-      "id": "027811ca1632",
-      "title": "Ayudar a los adultos mayores a usar la IA en la vida cotidiana",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "sourceUrl": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "id": "b4fb82cc1313",
+      "title": "Prioridades y principios para evaluaciones efectivas de terceros",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "sourceUrl": "https://openai.com/index/priorities-principles-third-party-assessments",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -314,24 +330,8 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-16T16:00:00+00:00",
-      "title_orig": "Helping older adults use AI in everyday life"
-    },
-    {
-      "id": "52752974efc0",
-      "title": "Reimaginar la publicidad con IA",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "sourceUrl": "https://openai.com/index/reimagining-advertising-with-ai",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-16T13:00:00+00:00",
-      "title_orig": "Reimagining advertising with AI"
+      "published": "2026-09-22T00:00:00+00:00",
+      "title_orig": "Priorities and principles for effective third party assessments"
     }
   ]
 }
