@@ -33,6 +33,17 @@ FEEDS = [
     # --- Tecnologia general ---
     ("The Verge", "https://www.theverge.com/rss/index.xml"),
     ("Wired", "https://www.wired.com/feed/rss"),
+    # --- Ciencia + biotech (nicho 23-sep-2026) ---
+    ("ScienceDaily AI", "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"),
+    ("ScienceDaily Biotech", "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"),
+    ("Nature Biotech", "https://www.nature.com/nbt/rss/current"),
+    # --- Cripto ---
+    ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+    ("Cointelegraph", "https://cointelegraph.com/rss"),
+    # --- Seguridad tecnológica ---
+    ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews"),
+    ("Schneier on Security", "https://www.schneier.com/feed/atom/"),
+    ("Krebs on Security", "https://krebsonsecurity.com/feed/"),
     # --- Video / analisis (YouTube) ---
     ("AI Revolution", "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"),
 ]
