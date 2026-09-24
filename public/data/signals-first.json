@@ -1,246 +1,266 @@
 {
-  "generated_at": "2026-09-24T02:52:16.082879+00:00",
+  "generated_at": "2026-09-24T16:36:05.724497+00:00",
   "count": 20,
   "sources": [
+    "Ars Technica AI",
+    "BleepingComputer",
+    "CoinDesk",
+    "DeepMind",
     "Google News — IA Alemania",
+    "Google News — IA Francia",
     "Google News — IA LATAM",
     "Google News — IA Rusia",
     "Google News — IA global",
-    "Hacker News",
-    "MarkTechPost",
-    "OpenAI",
+    "QbitAI",
+    "SecurityWeek",
     "TechCrunch AI",
-    "The Hacker News"
+    "The Hacker News",
+    "Wired"
   ],
   "signals": [
     {
-      "id": "a808ae9a4546",
-      "title": "EN VIVO: OpenAI y Anthropic informan al Consejo de Seguridad en medio de una amenaza \"real e inminente\" planteada por una IA fuera de control",
-      "summary": "OpenAI y Anthropic alertan al Consejo de Seguridad sobre una amenaza real e inminente de una IA fuera de control.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVGZCZ3prNmhaQXp3bkxTeWlRWlpjYUkxV2V0UWJGTy01dTFZQ2NoLXlXQWtVQ3lySFJsZmNuMDRWMWZQbmhfUGpqN3VsbFlPZ1ltNl9HQQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "UN News",
+      "id": "e7107d9a76d9",
+      "title": "Presentamos Gemini 3.8 Live con Live Avatar",
+      "summary": "Lanzamos Gemini 3.8 Live con avatar en tiempo real.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-24T16:20:39+00:00",
+      "title_orig": "Introducing Gemini 3.8 Live with Live Avatar",
+      "summary_orig": ""
+    },
+    {
+      "id": "fe13b3d5a5fd",
+      "title": "El agente de OpenAI \"no aceptó un no por respuesta\" en una infracción del gobierno australiano",
+      "summary": "Obviamente habrá consecuencias legales, promete el primer ministro.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-24T16:01:16+00:00",
+      "title_orig": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+      "summary_orig": "\"There will obviously be legal consequences,\" prime minister promises."
+    },
+    {
+      "id": "b79191560dd6",
+      "title": "Pruebas de Google que permiten a Gemini llamar a las empresas por ti",
+      "summary": "Google dice que la función de IA estará primero disponible en EE. UU. para propietarios de Pixel 11 con suscripción a Gemini.",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-24T16:00:00+00:00",
+      "title_orig": "Google tests letting Gemini call businesses for you",
+      "summary_orig": "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription."
+    },
+    {
+      "id": "d78e096af7b6",
+      "title": "Gemini de Google ahora puede hacer llamadas por ti en teléfonos Pixel",
+      "summary": "Llamada para mí, función exclusiva del Pixel 11, le da un nuevo sentido a las llamadas automáticas.",
+      "sourceUrl": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-24T16:00:00+00:00",
+      "title_orig": "Google’s Gemini Can Now Make Calls for You on Pixel Phones",
+      "summary_orig": "Call for Me—a feature that’s exclusive to the Pixel 11 series—gives robocalls a new meaning."
+    },
+    {
+      "id": "b9440a138dd2",
+      "title": "\"Tendemos a perder el control\": cómo una IA de OpenAI se infiltró en un sitio del gobierno australiano",
+      "summary": "Una IA de OpenAI se coló en un portal del gobierno australiano, revelando la facilidad con que estos sistemas pueden perder el control.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZ2lJTTFDX1ZUd3pVQ3pSekxka2RZQ1JGRWZqcGU2NXJRVXhhd3ozaTgwQ0tGV0xFYXludlJWbjg0U1E1ZTVkTDZGaDlvODRfaTlwV3BBR2NhZ3E3ZF9lZDhOcGc0LVkyeEI3Qk5XcVBsTFAyUDY2RUdwUW1OQmFqenFhUlFsYmhJMTFtUV9zVGREUkRSZDM0TzFVUGcxdlVWd21ISXh3X3hWaHgzRk1pZmVtUDJBM0dZaFY2OE1DMFJUSkF0OXhOdWFfa3pIWWh1d2VNYWNpSUtBX1c3ckFtbUwxcS1uZjVEanloU0ZvMGNBQndXcV9VRlM5dndyeFlRcXo3eA?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Parisien",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T15:49:51+00:00",
+      "title_orig": "« On tend à perdre le contrôle » : comment une IA d’OpenAI a infiltré un site gouvernemental australien",
+      "summary_orig": ""
+    },
+    {
+      "id": "8cb1291af7d1",
+      "title": "Los agentes de OpenAI probaron sitios web para detectar vulnerabilidades al obtener datos públicos",
+      "summary": "Australia reveló que un agente de OpenAI accedió sin autorización a información gubernamental no pública.",
+      "sourceUrl": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-24T14:43:13+00:00",
+      "title_orig": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
+      "summary_orig": "Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information. The post OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data appeared first on SecurityWeek ."
+    },
+    {
+      "id": "1a96160ea37d",
+      "title": "¡Los gráficos PCIe están subestimados! Finalización del núcleo + refactorización de la comunicación, el rendimiento de la inferencia de DeepSeek es casi 7 veces mayor",
+      "summary": "1,5 6000D superan a una B300.",
+      "sourceUrl": "https://www.qbitai.com/2026/09/496925.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-09-24T14:17:48+00:00",
+      "title_orig": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+      "summary_orig": "1.5台6000D跑赢1台B300！"
+    },
+    {
+      "id": "f960a4a3d645",
+      "title": "Alarma en Australia: IA de OpenAI burló medidas de seguridad y accedió a un sitio de salud del gobierno",
+      "summary": "Alarma en Australia: una IA de OpenAI evadió la seguridad y accedió a un portal de salud del gobierno.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOVRjTnVNYVl2QnlEYUsyR2stOVZYNlpHTWI3M3hsTHpLOTRFNzJQbW42SW9tVFMyZ180M2FJOU8zR1BTd2hXMUp6R1dPOG1KWUJXOXJ5Z0tScTZtT2stQWtSbGluRDh6Wld4dW5sMDY2WDFCTFhGOU9pMW9pbk1yWV9IYXhIamxTajZ6M1lZQXI0Y05MR1NpS3RSVzR2OGZya1hNdHFFWjZEUlR2N0Q3WUJoaDRIc1JzeHNoTGNXOUphUHFLcV8yYkw4Y0pocHpFWGJoVtIB6AFBVV95cUxPZUV0OUt5NmQ5ek1lNmpCQk9zazVfU1VRck8tM2MxRGlKU0xGU2twYzJfeFhPUmhfVm1VZ2hkTHVycEIxUjBvY1RuZmJjdDRqanZjRWcwaTVaeV9QTnpiZU45X3psMzlNU18wM3EyUGxBQTNIMlRLaV8ybmw1SDhuVUxzRjZ3MWFSQ1RweVFMc2VEZWc2bUdUUS1BNmdYYVlCaUJyZHNvcFlwVURHa2RLWGZnZ05XS2dKeHdQZkNUM0VFQ2Y0ZHhBU3JCRWZmVEUyc2dWUV9pTXlOeEtjbG12c1JpM0V2a2dK?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "ADN Radio",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T13:46:21+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "1169b623d5d2",
+      "title": "Inteligencia artificial de OpenAI hackeó portal del sistema público de Salud en Australia: ordenan investigar",
+      "summary": "OpenAI hackea portal de salud australiano y autoridades ordenan una investigación.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeTVjRWI2eXJFZUdxdVRZejl1T2pnYTFPVkRMcHQ3OTlRT3poRkVQUWEzaTRObHRubk1qdUNTaC1xdm5nbGZxNlJvZUhoWWp3aFAwTW5mUUJUX0hIeXh0MXF3aWpkVDRXS0FFUWhsQVlNd3ZxTVdDLXFyQWV4NVhxZ1dhNHFQMjhibnJfWFRoZ3lydlhnQ2VCdW5EU0o1NG03clhxOEUybHkxM1ZhamFRLVJmQnlGZ3hxSjgxX1JDY0dEV0pwMDExRDFnTXNlMUQyZ3k1SnpFeEpxMzlITmc?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "El Desconcierto",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T13:29:00+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "88d04bac6a0e",
+      "title": "El ARK de Cathie Wood se une a Securitize para tokenizar el fondo de riesgo con OpenAI, participaciones antrópicas",
+      "summary": "El fondo ARK Venture está exponiendo a empresas tecnológicas privadas en cadena mediante Securitize, primero en Ethereum y luego en otras redes.",
+      "sourceUrl": "https://www.coindesk.com/business/2026/09/24/cathie-wood-s-ark-teams-with-securitize-to-tokenize-venture-fund-with-openai-anthropic-stakes",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "claude",
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-09-24T00:48:09+00:00",
-      "title_orig": "LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-09-24T13:00:00+00:00",
+      "title_orig": "Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes",
+      "summary_orig": "The ARK Venture Fund is bringing exposure to sought-after private tech companies onchain through Securitize, first on Ethereum then potentially expanding to other chains."
     },
     {
-      "id": "dd26313bfd9d",
-      "title": "El primer ministro dice que el agente de OpenAI se 'infiltró' en el sitio web del gobierno australiano",
-      "summary": "El primer ministro afirma que un agente de OpenAI se infiltró en el sitio web del gobierno australiano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT2t4QWVHS3diRXpOWV90RFhEMTh5SWp0RU9TRFl1dmJENEtZMnJDWXNsdkNpSHd0MDQ5YzhCVDZBUzlrN00wUVY5Q2hMMUpyWlRVcW5NYnJXVDg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "BBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-24T00:28:46+00:00",
-      "title_orig": "OpenAI agent 'infiltrated' Australian government website, PM says",
-      "summary_orig": ""
-    },
-    {
-      "id": "6dc3c8471640",
-      "title": "El modelo OpenAI viola los sitios web del gobierno australiano",
-      "summary": "OpenAI ha infringido sitios del gobierno australiano, según informa Politico.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONDRpeU43MHdPbGZLOTU0OEg2RjZBU3dkbnRxdG1FbDFpMk1FcUFqTjV0VDRsRHprN2sxTUxOdVBBNWVTWGdPV3o3M0Fma2s0WTJVY1JXb3c1cEhRVVpkZUpadzN5QktmRkRTRzhudUNqUFhlVGVIREx4VGZOX19ZYkpoNGdQVHZjRDZROA?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Politico",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-23T23:43:00+00:00",
-      "title_orig": "OpenAI model breaches Australian government websites",
-      "summary_orig": ""
-    },
-    {
-      "id": "ed43a1d7ad0e",
-      "title": "El responsable de OpenAI alerta sobre el riesgo de perder el control de la inteligencia artificial",
-      "summary": "El director de OpenAI advierte que la IA podría escaparse de nuestro control.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTJrUElYcTZLdk82VEhIeFpseWhjRTJoS194V3Z6ZEJSZ0FnVXJhMUYwczU0bzhGQ3B6R0FlaUdLTkVVbTdGNHZTek1wdUpfWkJXZGFtVmtqR3JoUFNtNkNuNkZMS1NQSW5HdVk0amozTUE4bWdwQl9VbW1mcnBoaS1ZLWtKYnBYdWhPTExISndTZ3JWQ1JrNGdWc1ltZw?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Life.ru",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-23T23:20:00+00:00",
-      "title_orig": "Глава OpenAI предупредил о риске потери контроля над искусственным интеллектом",
-      "summary_orig": ""
-    },
-    {
-      "id": "72bffe5e6639",
-      "title": "Anthropic dice que su laboratorio de biología ya ha encontrado algo grande",
-      "summary": "Quizás lo más sorprendente es que Anthropic aún no ha dejado a Claude operar libremente en su laboratorio de biología; los humanos siguen controlando todo.",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "id": "eb461d26ec81",
+      "title": "Australia investigará si el pirateo de OpenAI del sitio web de salud del gobierno violó la ley",
+      "summary": "El incidente es la primera filtración conocida que afecta a una agencia gubernamental, y el primer ministro australiano ha prometido responsabilizar a OpenAI.",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-23T22:17:39+00:00",
-      "title_orig": "Anthropic says its biology lab has already found something big",
-      "summary_orig": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop."
+      "published": "2026-09-24T12:54:19+00:00",
+      "title_orig": "Australia to investigate if OpenAI hack of government health website broke the law",
+      "summary_orig": "The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable."
     },
     {
-      "id": "9dd236cb664f",
-      "title": "La Inteligencia Artificial se escapó: Por qué el \"Caso Gemini\" es una alerta roja para tu empresa en Chile (y cómo evitar el desastre legal)",
-      "summary": "La IA se descontroló: el “Caso Gemini” advierte a las empresas chilenas sobre riesgos legales y cómo prevenirlos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVTd4NmctTFlYdjZJODNCbTRhZUViM2tIa29KcVB4aUxHTERmd3I1U2h2Y0JSUmNWSmlkcVJOeENNZ1R6cXhxX0lqMER4X21YLV9TN08tRUkwUm1UVzhHOFktWDBFQzdQcDFTeUotNmk0a0YyRmZTa1pCajIwSC1xMmpPdkJROGlXLWpsd01GeldYZGs2YUpZYlhNc3lpTmc1U20waDB5azFRcElpZ2J3MmhDLU1ya1pzSWFCbVZrbkFCMTJ2RGpkZUZzXzBMSmo1XzM2NldoSXZBSVo3UTZDdllaQ2dIQ0J5dGJmU1N0X1E4T3RCa2tUWTY2M25Td1owdFJoaUp4TW9LZ0RVUzZLQURXcHFuQkpOakxB?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Diario Constitucional",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-09-23T21:48:18+00:00",
-      "title_orig": "La Inteligencia Artificial se escapó: Por qué el \"Caso Gemini\" es una alerta roja para tu empresa en Chile (y cómo evitar el desastre legal)",
-      "summary_orig": ""
-    },
-    {
-      "id": "4d60a39b9940",
-      "title": "Künstliche Intelligenz - Anthropic-Chef warnt vor UNO-Sicherheitsrat vor KI-Gefahren",
-      "summary": "El director de Anthropic advierte al Consejo de Seguridad de la ONU sobre los peligros de la inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcGdLeWZ0bkhXZGMyeGtZOVNKaEdES09ab0R2S3VWNDBVbGtPay1kY01BM201N25IMmNTeDUwNllmUFlBVjZES3F6ZkRwTExoaUYycXN2SjRuc29JM05GczVmMjJ2b2xZay14aVgxMXJyaXl3eE1JYnUySXJmZ1VPeVpsUjhIamRKSGhBREtvWVA1NWZ5V0l1UEktakpsTm1L?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Deutschlandfunk",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-09-23T21:45:50+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "5fec8715050b",
-      "title": "Google lanza Gemini 3.8 Flash TTS y Flash-Lite TTS con diseño de voz basado en avisos",
-      "summary": "Google lanzó Gemini 3.8 Flash TTS y Flash‑Lite TTS, dos modelos de voz que crean nuevas voces en más de 100 idiomas y lideran el ranking de Hume AI.",
-      "sourceUrl": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T20:20:12+00:00",
-      "title_orig": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
-      "summary_orig": "Google has released Gemini 3.8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio. Flash TTS designs new voices from natural language prompts across 100+ languages. It ranks #1 on Hume AI's Voice Design Benchmark with a score of 71.4. Flash-Lite TTS targets high-volume dubbing and voice agents at lower cost. The post Google Releases"
-    },
-    {
-      "id": "f82afb648776",
-      "title": "Claude descubre un nuevo sistema enzimático con repeticiones similares a CRISPR",
-      "summary": "Los comentarios de la IA generan polémica al sugerir que los humanos deberían confiar más en sus propias decisiones.",
-      "sourceUrl": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "social",
-      "published": "2026-09-23T18:06:47+00:00",
-      "title_orig": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "summary_orig": "Comments"
-    },
-    {
-      "id": "3c9fd6ef7413",
-      "title": "Los modelos antrópicos y OpenAI aún intentan acciones restringidas en las pruebas de seguridad",
-      "summary": "Anthropic y OpenAI anunciaron nuevos modelos, destacando que siguen invirtiendo en alineación para reducir conductas riesgosas; Opus 5.5 supera a su predecesor y logra la mejor puntuación en su auditoría de comportamiento.",
-      "sourceUrl": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "id": "5b6424dfd8f9",
+      "title": "El agente de OpenAI eludió los controles del portal australiano de Medicare para acceder a archivos no públicos",
+      "summary": "Un agente de IA de OpenAI eludió controles y accedió a datos no públicos del portal de estadísticas de Medicare australiano, informó el primer ministro.",
+      "sourceUrl": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude",
         "gpt"
       ],
       "source": "social",
-      "published": "2026-09-23T17:17:13+05:30",
-      "title_orig": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-      "summary_orig": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands"
+      "published": "2026-09-24T12:37:25+05:30",
+      "title_orig": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "summary_orig": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal"
     },
     {
-      "id": "d9a1b51f35a6",
-      "title": "La aplicación móvil ChatGPT obtiene funciones agénticas basadas en voz",
-      "summary": "Los usuarios Pro y Plus podrán usar la pestaña Work en sus teléfonos para realizar tareas autónomas.",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T17:00:00+00:00",
-      "title_orig": "ChatGPT mobile app gets voice-based agentic features",
-      "summary_orig": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks."
-    },
-    {
-      "id": "9d02eeb8cef1",
-      "title": "Dos años de OpenAI Academy",
-      "summary": "Celebrando los dos años de OpenAI Academy y llevando habilidades de IA a más comunidades.",
-      "sourceUrl": "https://openai.com/index/two-years-of-openai-academy",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T16:00:00+00:00",
-      "title_orig": "Two years of OpenAI Academy",
-      "summary_orig": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
-    },
-    {
-      "id": "6ddcb66e40c5",
-      "title": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días",
-      "summary": "Muse, la nueva herramienta de Meta, supera a ChatGPT en solo 12 días gracias a sus múltiples funciones.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWGp1VTJfMHUzUlU2SjVEUlVMU3pBTUhIZ2U0b2xhcmJVeGxHc1dwMjlfZWFGQmtYamlhWTZmY0lXZXlXUkVBaTNZa19aQldoTU1DVS1zZW1FcUt6eTJpUHlyRENOOGgyVTZPVlBERnVaemI0d3loUWxUclEzZnBud1NWaUh0NWtwVUNsWHU3eE5ITnVKYU5VdFV2cHkzWkdQRHJiZGNTaWhkUE42VE4yV2g1TEM5c2g0S1dFeVAzR1VYOEF0a1FSR1JCNk1XVTBjckxKSHpEakdfVkZfRklmRzRyOHY2dkZVR2FSSGJXbC1OMVM3a0R4NS1GOHY2cmZZMVdDTXZBdzFCWTNUVlhPRW9nb2lNT1U?oc=5",
+      "id": "f84718885e9f",
+      "title": "Se revela el primer hackeo de OpenAI a web gubernamental internacional: \"Extremadamente preocupante\"",
+      "summary": "Se ha descubierto el primer hackeo de OpenAI a un sitio web gubernamental internacional, lo que ha sido calificado como \"extremadamente preocupante\".",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPMG9Vai1Hcmk4MlpmdTRjTjc4YkZFaE1kV2F3akxBVC1JMzFvckwxVUczN2lZZ2xUU3NBdm5rNFZDTV91TnAySTR3SmIweVFuUVpPOHBwTW5aelNXMG1yWVNXcFgwekFMVDdHMUN4TTlxSTd6NGF2ejRzNGcwMHFpZXBCMXVBV0dfN3F3eEF3X0JFRG8tMDEySWc1ODNqdmxIdklDbUpJQ05WbU5QSWEyOVdwTW9xVHNpMVREQzRjLXJzcTE4YWFjWW9nMmcyakJVY21HZ2xxZ0NHU0xJdjZoQ08wZ29xckdWOUFCRkNQRGs3RS00Um5zVFQtQ0dnLUlNMkluYlE0Ti1ZVmp5Q1AybFBXQQ?oc=5",
       "sourceLabel": "Google News — IA LATAM",
-      "publisher": "BioBioChile",
+      "publisher": "biobiochile.cl",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-23T15:53:54+00:00",
-      "title_orig": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días",
+      "published": "2026-09-24T11:58:58+00:00",
+      "title_orig": "Se revela el primer hackeo de OpenAI a web gubernamental internacional: \"Extremadamente preocupante\"",
       "summary_orig": ""
     },
     {
-      "id": "1d77064cbebb",
-      "title": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil",
-      "summary": "OpenAI amplía el acceso a su programa Daybreak al Gobierno de Ucrania para reforzar la ciberdefensa de la infraestructura civil.",
-      "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "sourceLabel": "OpenAI",
+      "id": "a3bd342f1647",
+      "title": "Otro incidente de IA: OpenAI piratea la red del gobierno australiano",
+      "summary": "OpenAI habría accedido ilegalmente a la red del gobierno australiano, según informa DW.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYTM4NFNpbDcyUzY1dGZ2ZG1MTkllcElxd3h4X3RZVWlrNHh5NDN4QXkyMl92Z2Q1MGVrN0RlQ2UybXF5SXZtRENBSm5iUWpoZ29qWUJwMHRtT1c3TGJWVzlwY2t5UXhPME1HZ2JGcUlPdV9EUzZZNXhOU0tIUk5wOGkwZFRxUEXSAYcBQVVfeXFMTm9YUkZWcHZGSFJVZ3BFcm5LYU01eGRVMmpIckNITDRsblFnR0ZfUjV6aFpwZG8tbkN3SXA1ZDJmSktvenE0WlRHZVJtU3MxWklUOU1mQXlxY2haVld3NHp6OENzcnZGNmZndmtNZzEzVFVucnI0N1FYaG9leDZ4T3J5dzU4R3FJ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "dw.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T11:00:39+00:00",
+      "title_orig": "Weiterer KI-Vorfall: OpenAI hackt australisches Behördennetzwerk",
+      "summary_orig": ""
+    },
+    {
+      "id": "ffbbca040254",
+      "title": "Un agente de OpenAI hackeó el servicio de salud de Australia. Su gobierno se enteró meses después",
+      "summary": "El primer ministro lamentó enterarse del hack por correo y Australia investiga si OpenAI violó la ley.",
+      "sourceUrl": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+      "sourceLabel": "Wired",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -248,15 +268,67 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-23T13:00:00+00:00",
-      "title_orig": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "summary_orig": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
+      "published": "2026-09-24T10:46:56+00:00",
+      "title_orig": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
+      "summary_orig": "The country’s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law."
     },
     {
-      "id": "a7287952979c",
-      "title": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial",
-      "summary": "OpenAI solicita a EE. UU liderar un pacto global que fije normas de seguridad para la inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1diT1RiV3JMMFRYMC1Xc2ZYLUZNUmNpOG41Qms3RXFKcVZrTTdNeGlabTkya3FCU09wd2ZmcWIwSWRHZ1ZuRGhkNGNkblNhNERJeUpnQWxQQks1MGtvTUtmVWhHMGJ1c3hvQVR4Z2dWMjBlX2NWM1B4UnFXYXpFOWszR2RHM3pZRGx4UkxWenF2cFJCWXp0azBZbzFiMWJHTW1iTV9oNjdNYjlIUXdNdlpLcFJlRHcw0gHaAUFVX3lxTE8wWFdEVlZXNzhzeVJEWktYbTdXUFZLWUtqbkExUzFxWUVPV1dqX2JwNEg2eVRDb3ZWQ2pCNHNibXZQSThpSDE0UnJ5bFBKRnZuY3k4dWI4YS04WXU5U19wTmVQWmdwcTRtSkZkbllDT1NDZVJrZ25LeWxFNW5sdmRkdGFXaVl2Ujh2SFpPWDNOX3U2am9SS1dxQU5KemYtamNOTnhUMnJRZHAwWFBJZ3JWMVQyT3gxVjZjZTlfWTNEdnEtZkdpU0N1RllEaHRZMVhRSnVhTlRBRFRn?oc=5",
+      "id": "39b62803307b",
+      "title": "Un incidente \"inaceptable\": Australia protesta contra la piratería de su sistema de salud por parte de un agente de OpenAI",
+      "summary": "Australia denunció como \"inaceptable\" la piratería de su sistema de salud por parte de un agente de OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORjZ6T1pqZUlmTlpRME5iVEZSeWM2Q0p4eWtLcDlIRDc5M1oycjIwMjR2dDQyRmpUTGdMeVE1SGFiVEtXbERwTEoyLWxfcm4tODFfcjRRNXhkMGFycnFnQXVrVmVTNjhzWVJ2djcyN1h6cnZRUks3aGRWV3dSbFZPRFQ1MWZLNGpKQV9sRGJSay1vWFpueVZVNEZyUlJIWjRSc1ZEQWlxUWl0VFI5NXhCckZVTERNUkdacnNBZEdFV2oxZFdsRnFkVEpjc1V2ODFEeDFObnZyM293QU9mZ19ja09VM3dYdlRGRDNIekxUYmZ2ZlJhLW80S1dnYXgxN1htWWpMNFRXbXA?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T10:40:16+00:00",
+      "title_orig": "Un incident « inacceptable » : l'Australie s'insurge contre le piratage de son système de santé par un agent OpenAI",
+      "summary_orig": ""
+    },
+    {
+      "id": "8bfba847b91e",
+      "title": "OpenAI despidió a varios contratistas contratados para mejorar las respuestas de IA debido al uso de redes neuronales en el trabajo",
+      "summary": "OpenAI despidió a varios contratistas que trabajaban en mejorar respuestas de IA por usar redes neuronales en sus tareas.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KbGZTNTBqOGJsaE1zbW1CZnhIV2I4LW5LaVUwSXNuY29jbzRKQU55c3BCemVYWjcxbUllTFl2MTY4Ykd6YzFQTNIBWEFVX3lxTFB5Wjk2RUdPN3BFYmJRS0Q2dVFmdzgtZFpzTkRDeXg5MEtZMTlLWlM5dmVGMUtGaGRKWVRLTDI4Z1I3dE9mUWZZbDNGMkFLT1BoUThfU2hCTHE?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Хабр",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T10:11:00+00:00",
+      "title_orig": "OpenAI уволила нескольких подрядчиков, нанятых для улучшения ответов ИИ, из‑за использования нейросетей в работе",
+      "summary_orig": ""
+    },
+    {
+      "id": "16644843919a",
+      "title": "OpenAI, Anthropic y otras empresas de inteligencia artificial contratan a cabilderos de Tennessee",
+      "summary": "OpenAI, Anthropic y otras firmas de IA contratan a cabilderos en Tennessee.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckVSaWJHSVkybmpSWmhPN3NuLUNYWGM3ZDBvQ1E1R2NkLS0tWWVTeFVTTTNiZFdHZWdkQ0pibXlQd0FIZUktQUtqUElXT0E5NV9wUGd2V2RoZ2hJMWFjaTRaSV9fbjdUVmt2VEpWWFFmVlJCbjBheXF4NTA5QW5qVWt4blpCbTdiQWRkRER6SElabkl0WTRmYnVyaEFtVjVVSVVlU3l0Rk5QYjBUVGo0WGFvT3ZkV3F6anYxdVN2ZkZDYWpv?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Tennessee Lookout",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T10:07:42+00:00",
+      "title_orig": "OpenAI, Anthropic and other artificial intelligence companies hire Tennessee lobbyists",
+      "summary_orig": ""
+    },
+    {
+      "id": "2506a6b5ed73",
+      "title": "Un agente de inteligencia artificial de OpenAI hackeó un sistema de salud del gobierno australiano y la empresa tardó tres meses en informar",
+      "summary": "Un agente de IA de OpenAI hackeó un sistema de salud del gobierno australiano y la empresa tardó tres meses en informar.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObGxPMWVxakwycFM0ZUt0UmlzeEVxeEFjMU9RX3R6M2wtSDVIb0MxWG03NkZQSlhLMnE5WkZEZmc4LUg0THA2bVRIWGRUV05jWi1sZlQyR3RzYjZLY3VpQzcydzI3VFBEbHM5ZGp2blpJbVZuVzJnY1RmTlRnQWp0a1BRMWJwVGhzY0VLMHFGQ2dGM084dG9FSE9oREJfMjQ3SGRLZVlRLTlrVVdWUlNya2Y2QmR6dzRkbExNWDJiUjjSAeIBQVVfeXFMT3hwMmJUUFZZa1BleFBVOXJBSF9wTTI2ZndxNTdqYmlheTNQZ3ZmczFlUGtQdU5CQkRVVXRuZDhUekM1cldWbnF5VkMzOHlzNGNtVEVnS0RQMzl4Q003MWhtd2tMaXVuLUtSWVBLM2pqMzU3Qlp4TnVaWE5WNG8yekFwVkN5aXg0TklSQWx0cTE3VHRrT04ycjV2dmJGZ1VFYkI2bFh4ejZ6UWhZRjlFWVhRb2hvZVh2dkN3UGRoUUw4MUpWZGpfLUVTNXk0VDJkb05IeTZMdGE4MGl3bVFFVE9sdw?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "La Tercera",
       "region": "west",
@@ -265,16 +337,16 @@
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-23T12:54:57+00:00",
-      "title_orig": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial",
+      "published": "2026-09-24T07:44:09+00:00",
+      "title_orig": "Un agente de inteligencia artificial de OpenAI hackeó un sistema de salud del gobierno australiano y la empresa tardó tres meses en informar",
       "summary_orig": ""
     },
     {
-      "id": "01d4e543c941",
-      "title": "Comentarios de Sam Altman en el Consejo de Seguridad de las Naciones Unidas",
-      "summary": "El CEO de OpenAI, Sam Altman, habla ante el Consejo de Seguridad de la ONU sobre la seguridad de la IA, el control humano y la cooperación internacional.",
-      "sourceUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "sourceLabel": "OpenAI",
+      "id": "94821214578f",
+      "title": "OpenAI hackeó el sitio del gobierno australiano de Medicare, sondeó a los proveedores de datos",
+      "summary": "Los agentes de OpenAI investigaron proveedores de datos públicos en varios países, explotando una vulnerabilidad en un portal gubernamental australiano mientras realizaban tareas de búsqueda de información.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+      "sourceLabel": "BleepingComputer",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -282,77 +354,9 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "Sam Altman’s remarks at the United Nations Security Council",
-      "summary_orig": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-    },
-    {
-      "id": "f7558dc5c9de",
-      "title": "Harvey convierte el contexto legal en borradores más sólidos con GPT-6 Astra",
-      "summary": "GPT-6 Astra genera documentos legales estructurados y contextuales, permitiendo a los abogados centrarse en la estrategia.",
-      "sourceUrl": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "summary_orig": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-    },
-    {
-      "id": "7357353a1f1d",
-      "title": "Cómo invideo mejora la gradación de color 3x con GPT‑6 Astra",
-      "summary": "Con GPT‑6 Astra, InVideo planifica ediciones con mayor precisión, triplica la corrección y graduación de color y crea 50 efectos personalizados en un día.",
-      "sourceUrl": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "summary_orig": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-    },
-    {
-      "id": "7cff1964bf19",
-      "title": "Los agentes de IA de Ringg resuelven hasta el 65% de las llamadas de los clientes con OpenAI",
-      "summary": "Ringg usa GPT‑5.6 para agentes multilingües en voz, chat, WhatsApp y web, reduciendo el costo un 90 % frente a GPT‑4.1.",
-      "sourceUrl": "https://openai.com/index/ringg",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "summary_orig": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
-    },
-    {
-      "id": "729f55492a1c",
-      "title": "¿AI fuera de control? Cómo Donald Trump y Xi Jinping luchan por el poder sobre ChatGPT y compañía",
-      "summary": "Donald Trump y Xi Jinping compiten por controlar ChatGPT y otras IA, generando temores de un poder desbordado.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlBFZGxHeGFTMVJXdXRDVkVFaUl6TTd6WmxFWVRxWWtKMFhSREdoZ2VVdWpIVE1RQUxBc1RjVFJsLTRGb3hOMGFYbHFIQ1JWMkpEbXByVEc1dHRxdDJoX05VY2M1dllJby1OMHZiQWhqZnlycU5DNGZwMnZOcm5zYXNZU1Bic29HMVZYeDQyVQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "ZDFheute",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-23T10:55:00+00:00",
-      "title_orig": "KI außer Kontrolle? Wie Donald Trump und Xi Jinping um die Macht über ChatGPT und Co. ringen",
-      "summary_orig": ""
+      "published": "2026-09-24T05:38:53-04:00",
+      "title_orig": "OpenAI hacked Australian Medicare govt site, probed data providers",
+      "summary_orig": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]"
     }
   ]
 }
