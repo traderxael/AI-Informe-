@@ -10,6 +10,7 @@ import json
 import re
 import ssl
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -32,6 +33,12 @@ SECTIONS = (
     "futuro",
     "seguridad",
 )
+
+# Orden de desempate cuando dos secciones empatan en puntaje, de mas especifica
+# a mas difusa. "seguridad" describe un riesgo concreto (CVE, exploit, fuga) y
+# sus titulares casi siempre mencionan tambien "hospital"/"government", que
+# suman a "usos"; sin este orden la nota se va a la seccion equivocada.
+SECTION_DESEMPATE = ("seguridad", "economia", "futuro", "usos", "novedades")
 
 SECTION_TITLES = {
     "novedades": "Novedades y cambios que se quedan",
@@ -67,6 +74,10 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "revenue",
         "billion",
         "million",
+        # Formas abreviadas: "$150M", "$6.4B", "USD 400M". Con \b el "150m" de
+        # "$150M" no matcheaba "million" y la nota caia en "novedades".
+        r"\$\d+(?:\.\d+)?[bm]\b",
+        r"usd\s?\d+(?:\.\d+)?[bm]\b",
         "acquisition",
         "acquire",
         "deal",
@@ -83,7 +94,6 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "adquisición",
         "bolsa",
         "economía",
-        "economia",
     ),
     "usos": (
         "healthcare",
@@ -105,9 +115,7 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "farmer",
         "doctor",
         "salud",
-        "hospital",
         "educación",
-        "educacion",
         "empresa",
         "gobierno",
         "industria",
@@ -130,14 +138,13 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "alignment",
         "legislat",
         "regulación",
-        "regulacion",
         "ley",
         "futuro",
         "hoja de ruta",
         # "seguridad" se movió a su propia sección (arregla el solape: las
         # alertas de CISA/Hacker News caían acá en vez de en seguridad).
     ),
-    "novedades": (
+"novedades": (
         "model",
         "gpt",
         "claude",
@@ -160,11 +167,17 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
     # Ciberseguridad (seccion propia, 24-sep-2026). Se evalua con la misma
     # regla de limites de palabra que el resto; "seguridad" sola quedo en
     # "futuro" y por eso las alertas de CISA/Hacker News caian ahi.
-    "seguridad": (
+"seguridad": (
+        # Las keywords se matchean por palabra COMPLETA (\b), asi que la forma
+        # singular y la plural tienen que estar las dos: un titular con
+        # "vulnerability" (singular) no matcheaba "vulnerabilities" y caia en
+        # "novedades". Mismo criterio para exploit/exploited, breach/breaches.
         "vulnerability",
         "vulnerabilities",
+        "vulnerability's",
         "exploit",
         "exploited",
+        "exploits",
         "zero-day",
         "zero day",
         "ransomware",
@@ -196,6 +209,65 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "infostealers",
         "data leak",
         "wiper",
+        # Castellano (24-sep): el paso "Resúmenes LLM (Groq)" traduce los
+        # summary de signals Y el informe se arma sobre titulares ya traducidos en
+        # algunas corridas, asi que un titular como "OpenAI agents hacked an
+        # Australian government website" llega en español ("hackearon") y las
+        # keywords en ingles dejan de matchear -> caia en "usos" o "economia".
+        "hack",
+        "hackear",
+        "hackearon",
+        "ciberataque",
+        "ciberataques",
+        "infiltracion",
+        "infiltraron",
+        "filtracion de datos",
+        "robo de datos",
+        "vulnerabilidades",
+        "vulnerabilidad",
+        # Formas verbales/singulares en ingles. 24-sep: "Autonomous AI Hacks
+        # Raise Thorny Questions" daba 0 matches porque la lista solo tenia
+        # "hackers"/"hacked" en pasado y no el sustantivo "hacks" ni el verbo
+        # "hack" en presente; "Australia says OpenAI agent hacked government
+        # site" caia en "usos" porque "government" suma ahi y "hacked" no
+        # matcheaba nada. Con \b hace falta la raiz en las tres formas.
+        "hacks",
+        "hacked",
+        "hacking",
+        "crack",
+        "cracks",
+        "cracked",
+        "breaches",
+        "leak",
+        "leaks",
+        "leaked",
+        "intrusion",
+        "attack",
+        "attacks",
+        "attacked",
+        "attacker",
+        "malicious",
+        "backdoors",
+        "software malicioso",
+        "ciberdelito",
+        "ciberdelincuencia",
+        "suplantacion",
+        "ingenieria social",
+        "estafa",
+        "fraude",
+        "chantaje",
+        "rescate",
+        "atacar",
+        "ataque",
+        "ataques",
+        "brecha",
+        "brechas",
+        "amenaza",
+        "amenazas",
+        "defensa",
+        "parche",
+        "parches",
+        "cve",
     ),
 }
 
@@ -322,23 +394,54 @@ def strip_tags(raw: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _norm(texto: str) -> str:
+    """Minúsculas sin acentos: "filtración" y "filtracion" deben matchear igual."""
+    return "".join(
+        c for c in unicodedata.normalize("NFD", texto.lower())
+        if unicodedata.category(c) != "Mn"
+    )
+
+
+def _keyword_hay(blob: str, word: str) -> bool:
+    """True si `word` aparece como palabra completa dentro de `blob`.
+
+    Una keyword que ya empieza con un metacarácter se trata como regex
+    (ej. r"\\d+b\\b" para "$6.4B") y se usa TAL CUAL, sin envolverla en \\b otra
+    vez — hacerlo produce "\\b\\d+b\\b\\b", que exige dos limites de palabra
+    seguidos y nunca matchea. Las keywords literales si llevan \\b para que
+    "api" no matchee "capital" ni "hack" matchee "shack".
+    """
+    if word[:1] in r"\\^$.|?*+()[":
+        return bool(re.search(word, blob))
+    return bool(re.search(rf"\b{re.escape(word)}\b", blob))
+
+
 def classify(title: str, summary: str) -> str:
-    blob = f"{title} {summary}".lower()
+    blob = _norm(f"{title} {summary}")
     scores = {section: 0 for section in SECTIONS}
     for section, words in KEYWORDS.items():
         for word in words:
-            if word.lower() in blob:
+            if _keyword_hay(blob, word):
                 scores[section] += 1
-    best = max(SECTIONS, key=lambda s: scores[s])
-    if scores[best] == 0:
+    best = max(scores.values())
+    if best == 0:
         return "novedades"
-    return best
+    # Desempate por especificidad de seccion. 24-sep: "Researchers find data
+    # breach in hospital AI triage system" daba usos=2 (porque "hospital" estaba
+    # DUPLICADO en la lista, ingles + espanol) contra seguridad=1 ("breach"), y
+    # ganaba usos. Lo mismo con "government"/"gobierno" en titulares de
+    # ciberseguridad. Seguridad describe un RIESGO concreto, asi que si empata
+    # con una seccion mas difusa, gana seguridad.
+    for section in SECTION_DESEMPATE:
+        if scores[section] == best:
+            return section
+    return "novedades"
 
 
 def classify_country(title: str, source: str) -> str:
     """Clasifica por país: 'usa', 'china', o 'global'."""
     text = f"{title} {source}".lower()
-    
+
     # Palabras clave China (mucho más específicas)
     china_words = {
         "china", "chinese", "beijing", "shanghai", "shenzhen", "hangzhou",
@@ -350,7 +453,7 @@ def classify_country(title: str, source: str) -> str:
         "binance", "okx", "bybit", "gate.io", "huobi",
         "mandarin", "cantonese", "simplified chinese", "traditional chinese"
     }
-    
+
     # Palabras clave USA (más específicas)
     usa_words = {
         "openai", "google", "meta", "facebook", "microsoft", "apple",
@@ -365,7 +468,7 @@ def classify_country(title: str, source: str) -> str:
         "stanford", "mit", "harvard", "princeton", "yale", "columbia",
         "uc berkeley", "cmu", "uiuc", "gatech", "caltech"
     }
-    
+
     # Contadores. Se usan límites de palabra (\b) en vez de `w in text`: las
     # palabras cortas (ap, yi, sec, amd) matcheaban como substring dentro de
     # "capable", "happens", "graph" y clasificaban la noticia como USA/China
@@ -375,13 +478,13 @@ def classify_country(title: str, source: str) -> str:
 
     china_score = _hits(china_words)
     usa_score = _hits(usa_words)
-    
+
     # Bonus por fuente conocida
     if source in FUENTES_CHINA:
         china_score += 5
     elif source in FUENTES_USA:
         usa_score += 5
-    
+
     if china_score > usa_score:
         return "china"
     elif usa_score > china_score:
@@ -422,6 +525,147 @@ def _fetch_one(feed: tuple[str, str]) -> tuple[str, bytes | None]:
     return source, fetch_url(url, timeout=10)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Filtro de relevancia (24-sep-2026). Los feeds "generalistas" (Wired completo,
+# The Verge completo, Cointelegraph, CoinDesk) aportan-BAJA de AI real pero
+# inundan el informe con ofertas, clima, salud general y vida adulta. Sin este
+# filtro, 9 de los 20 titulares principales del dia eran publicidad o notas
+# que nada tenian que ver con IA.
+#
+# REGLA: una noticia de una fuente generalista solo entra si su titular (o su
+# resumen) tiene senal de IA. Las fuentes que ya son exclusivamente de IA
+# (OpenAI, DeepMind, Hugging Face, TechCrunch AI...) NO se filtran: alli el
+# filtro solo produciria falsos negativos.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Weighted token matching: "AI" no matchea "said"/"rain" (word boundary), pero
+# si matchea "AI-powered" / "AI." porque el guion y el punto son separadores.
+AI_SIGNAL = re.compile(
+    r"\b(?:"
+    # "AI" y sus plurales/guiones. \b despues de "ai" NO matchea "AIs"
+    # (la S es alfanumerica, no un separador), asi que "ais" va explicito.
+    r"ai|ais|aix|a\.i\.|"
+    r"artificial intelligence|machine learning|deep learning|neural|llm|large language model|"
+    r"genai|generative|rpa|"
+    r"gpt|chatgpt|openai|anthropic|claude|gemini|deepmind|deepseek|qwen|llama|mistral|"
+    r"grok|gemini|kimi|manus|perplexity|hugging ?face|transformer|diffusion|"
+    r"copilot|chatbot|chatbots|prompt|prompts|prompting|token|tokens|context window|"
+    r"fine-?tun|inference|embedding|embeddings|multimodal|agentic|ai agent|agents|"
+    r"open-?weight|foundation model|"
+    r"robot|robotics|humanoid|"
+    r"superintelligence|singularity|"
+    r"automatiz|inteligencia artificial|aprendizaje automatico|redes neuronales|modelo de lenguaje|"
+    r"robotica|robotico|agente"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# Fuentes que por definicion hablan de IA: no se les exige senal de IA.
+AI_NATIVE_SOURCES = frozenset({
+    "OpenAI", "Google AI", "DeepMind", "Anthropic", "Meta AI", "MIT Tech Review AI",
+    "TechCrunch AI", "The Verge AI", "Ars Technica AI", "VentureBeat AI", "Hugging Face",
+    "Synced", "QbitAI", "DeepSeek", "36Kr AI", "BAAI", "Google Developers",
+    "Microsoft Research", "NVIDIA Blog", "MarkTechPost", "AI Revolution",
+    "BAIR Berkeley", "NVIDIA Developer", "Mistral AI", "Stability AI",
+    # arXiv por categoria: cs.AI y cs.CL son IA por definicion, pero sus
+    # titulares usan vocabulario academico que AI_SIGNAL no cubre ("Which
+    # Objectives Need a Dial?", "Are Stated Reasoning Steps Causally
+    # Load-Bearing?"). Filtrarlos dejaba fuera 128 papers legitimos.
+    "arXiv cs.AI", "arXiv cs.CL", "arXiv cs.LG", "arXiv stat.ML",
+    # The Hacker News es 100% ciberseguridad: sus titulares dicen "Unpatched
+    # OnePlus Flaws", "CVE-2026-87902", "ClickFix", "Spyware", "Exploit" sin
+    # mencionar IA. AI_SIGNAL solo exigiria "ai"/"model"/"agent" y descartaria
+    # 35 alertas reales. Sigue pasando por es_promo() (no es publicidad).
+    "The Hacker News",
+    # Las 6 fuentes de seguridad son seguridad POR DEFINICION. Sus titulares son
+    # nomenclatura de producto ("Eufy Omni C20", "Botslab G980H Dashcams",
+    # "Siemens Mendix Runtime") sin una sola palabra de IA, y el filtro las
+    # tiraba. Para un informe de IA, una vulnerabilidad que rompe un modelo o
+    # una cadena de suministro de chips sigue siendo relevante como riesgo.
+    "CISA Advisories", "BleepingComputer", "SecurityWeek", "Dark Reading",
+    "Google Security Blog",
+})
+
+# Estructura de titulo comercial/oferta. Se evalua sobre el TITULAR original
+# en ingles (no sobre el resumen en espanol, que ya no trae el ruido).
+# Todo lo que se ve seguido en informes reales cabia en estos 4 grupos:
+#   1) codigo promocional / cupon
+#   2) descuento monetario o porcentual  ("$100 Off", "40% Off", "25% Off")
+#   3) urgencia temporal de venta     ("2 days left to save up to $200")
+#   4) catalogo de producto + oferta  ("Best Prime Day Robot Vacuum Sales")
+PROMO_PATTERN = re.compile(
+    r"(?:"
+    r"\b(?:promo ?codes?|coupons?|vouchers?|discount codes?)\b|"
+    r"\$\s?\d+(?:\.\d+)?\s?(?:off\b|was\b|now\b)|"
+    r"\b\d{1,3}\s?%\s?off\b|"
+    r"\b\d+\s?(?:days?|hours?)\s+(?:left|remaining|to go)\b|"
+    r"\bsave up to\b|\blast (?:chance|days?)\b|"
+    r"\b(?:best|top|prime|early|best early)\s+\w*\s*(?:deals?|sales|discounts?)\b|"
+    r"\bdeals? of the (?:day|week)\b|"
+    r"\bbest .+? (?:robot vacuum|gaming mouse|earbuds|headphones|laptop|phone|camera|monitor|sale)\b|"
+    r"\bsubscribe(?: now)?\b|"
+    r"\b(?:limited time|while supplies last|free trial|giveaway)\b|"
+    # 5) eventos y conferences. 24-sep: sobrevivieron
+    # "TechCrunch Disrupt 2026: Cal AI's Zach Yadegari on how to create viral
+    # growth" y "[Virtual Event] Cybersecurity Outlook 2027" porque ninguna
+    # regla anterior cubre un nombre de conferencia. El filtro de senal IA
+    # tampoco las frena: son fuentes en AI_NATIVE_SOURCES, asi que pasaban
+    # directo a la seccion "Lo mas visible".
+    r"\b(?:disrupt|summit|confex|conf|expo|devday|devfest|keynote)\s*'?20\d\d\b|"
+    r"\[\s*virtual event\s*\]|"
+    r"\bvirtual (?:event|conference|summit)\b|"
+    r"\b(?:live|online) (?:webinar|event|stream)\b|"
+    r"\bwebinar\b|"
+    r"\bregister (?:now|for|at)\b|"
+    r"\bjoin us (?:live|online|for|at)\b|"
+    r"\bstartup battlefield\b|"
+    r"\beverything you need to know about\b"
+    r")",
+    re.IGNORECASE,
+)
+
+
+def es_promo(titulo: str, resumen: str = "") -> bool:
+    """True si el titular es publicidad/oferta y no una noticia.
+
+    Solo mira el TITULAR: un resumen de oferta puede colarse en la nota real
+    ("...con descuento en planes") y el filtro no debe descartar la noticia.
+    """
+    return bool(PROMO_PATTERN.search(titulo))
+
+def tiene_senal_ia(titulo: str, resumen: str = "") -> bool:
+    """True si el titular o el resumen mencionan IA/modelos/agentes/robotica."""
+    return bool(AI_SIGNAL.search(f"{titulo}\n{resumen}"))
+
+
+def filtrar_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    """Aplica los filtros de relevancia y publicidad.
+
+    Devuelve (items_limpios, stats) con stats = {fuente: items_descartados}.
+    Se invoca desde collect_items, despues de clasificar, para que el markdown,
+    el JSON y los tests vean exactamente la misma lista.
+    """
+    stats: dict[str, int] = {}
+    limpio: list[dict[str, Any]] = []
+    for item in items:
+        title = (item.get("title") or "").strip()
+        summary = (item.get("summary") or "").strip()
+        source = item.get("source") or ""
+
+        # 1) publicidad: se descarta siempre, sin importar la fuente
+        if es_promo(title, summary):
+            stats[source] = stats.get(source, 0) + 1
+            continue
+
+        # 2) senal de IA: solo exigida a las fuentes generalistas
+        if source not in AI_NATIVE_SOURCES and not tiene_senal_ia(title, summary):
+            stats[source] = stats.get(source, 0) + 1
+            continue
+
+        limpio.append(item)
+    return limpio, stats
+
+
 def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -> list[dict[str, Any]]:
     from concurrent.futures import ThreadPoolExecutor
 
@@ -453,7 +697,16 @@ def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -
             collected.append(item)
 
     collected.sort(key=lambda it: it.get("published") or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-    return collected
+
+    # Filtro de relevancia + publicidad (24-sep-2026). Aplica a la lista final,
+    # antes de que llegue al markdown, al JSON y a la web: asi las tres salidas
+    # ven exactamente los mismos items.
+    limpio, stats = filtrar_items(collected)
+    if stats:
+        total_descartados = sum(stats.values())
+        detalle = ", ".join(f"{k or '?':24s} {v}" for k, v in sorted(stats.items(), key=lambda kv: -kv[1])[:6])
+        print(f"  Filtro: {len(collected)} -> {len(limpio)} items ({total_descartados} descartados). {detalle}")
+    return limpio
 
 
 def bullet(item: dict[str, Any]) -> str:
@@ -710,7 +963,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     by_section: dict[str, list[dict[str, Any]]] = {s: [] for s in SECTIONS}
     for item in items:
         by_section[item["section"]].append(item)
-    
+
     # Convertir items a formato JSON
     def item_to_json(item: dict) -> dict:
         return {
@@ -722,12 +975,12 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
             "pais": item.get("country", "global"),
             "fecha": day.isoformat(),
         }
-    
+
     # Contar por país
     usa_count = sum(1 for i in items if i.get("country") == "usa")
     china_count = sum(1 for i in items if i.get("country") == "china")
     global_count = sum(1 for i in items if i.get("country") == "global")
-    
+
     # Mismo ranking de relevancia que el markdown: antes el JSON exportaba los
     # primeros 10 en orden crudo y la web en vivo mostraba piezas distintas.
     _now = datetime.now(timezone.utc)
@@ -756,7 +1009,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
         },
         "fuentes": [{"nombre": s, "url": u} for s, u in FEEDS],
     }
-    
+
     # Append al historial (últimos 30 días)
     historial_path = WEB_DIR / "informes-data.json"
     public_data_dir = ROOT / "public" / "data"
