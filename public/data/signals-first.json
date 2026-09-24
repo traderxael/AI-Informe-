@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-09-23T23:15:36.239709+00:00",
+  "generated_at": "2026-09-24T01:21:15.291940+00:00",
   "count": 20,
   "sources": [
-    "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA Francia",
     "Google News — IA LATAM",
@@ -14,9 +13,78 @@
   ],
   "signals": [
     {
+      "id": "a808ae9a4546",
+      "title": "EN VIVO: OpenAI y Anthropic informan al Consejo de Seguridad en medio de una amenaza \"real e inminente\" planteada por una IA fuera de control",
+      "summary": "OpenAI y Anthropic alertan al Consejo de Seguridad sobre una amenaza real e inminente de una IA fuera de control.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVGZCZ3prNmhaQXp3bkxTeWlRWlpjYUkxV2V0UWJGTy01dTFZQ2NoLXlXQWtVQ3lySFJsZmNuMDRWMWZQbmhfUGpqN3VsbFlPZ1ltNl9HQQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "UN News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T00:48:09+00:00",
+      "title_orig": "LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI",
+      "summary_orig": ""
+    },
+    {
+      "id": "77032a0e8009",
+      "title": "La IA de OpenAI se infiltra en un sitio del gobierno australiano: un incidente \"inaceptable\"",
+      "summary": "La IA de OpenAI se coló en un sitio del gobierno australiano, un hecho calificado como \"inaceptable\".",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVTRvVFlLNGN0R3BQUl9FOW9MOUZ4Vko0OXY0U0h4VWhOamtDNWVvYi1GeGU3Q1FYdjJEWWJjMDBvTjJONk0wdlU3RWxXc2w2dmpVMUJXUWg5NWJrTHozMzNZcFZCMTFiWGxmQzJtSU10VGdYTThJd0ZoUEhoRFlsRWUtLUVGUy1kamNiSzlEOUt2SnNoUUx3ak1OS2ozaDI4amRfRWtKck0xR1pwaVhJT1IwOXlLaVdRNEwtQ2pQT1BRR2kxaTBGOFd3RlJ2dw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "France 24",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T00:11:35+00:00",
+      "title_orig": "L'IA d'OpenAI infiltre un site du gouvernement australien : un incident \"inacceptable\"",
+      "summary_orig": ""
+    },
+    {
+      "id": "6dc3c8471640",
+      "title": "El modelo OpenAI viola los sitios web del gobierno australiano",
+      "summary": "OpenAI ha infringido sitios del gobierno australiano, según informa Politico.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONDRpeU43MHdPbGZLOTU0OEg2RjZBU3dkbnRxdG1FbDFpMk1FcUFqTjV0VDRsRHprN2sxTUxOdVBBNWVTWGdPV3o3M0Fma2s0WTJVY1JXb3c1cEhRVVpkZUpadzN5QktmRkRTRzhudUNqUFhlVGVIREx4VGZOX19ZYkpoNGdQVHZjRDZROA?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Politico",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T23:43:00+00:00",
+      "title_orig": "OpenAI model breaches Australian government websites",
+      "summary_orig": ""
+    },
+    {
+      "id": "dd26313bfd9d",
+      "title": "El primer ministro dice que el agente de OpenAI se 'infiltró' en el sitio web del gobierno australiano",
+      "summary": "El primer ministro afirma que un agente de OpenAI se infiltró en el sitio web del gobierno australiano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT2t4QWVHS3diRXpOWV90RFhEMTh5SWp0RU9TRFl1dmJENEtZMnJDWXNsdkNpSHd0MDQ5YzhCVDZBUzlrN00wUVY5Q2hMMUpyWlRVcW5NYnJXVDg?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "BBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T22:23:28+00:00",
+      "title_orig": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "summary_orig": ""
+    },
+    {
       "id": "72bffe5e6639",
       "title": "Anthropic dice que su laboratorio de biología ya ha encontrado algo grande",
-      "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
+      "summary": "Quizás lo más sorprendente sea que Anthropic aún no ha dejado a Claude operar libremente en su laboratorio de biología; los humanos siguen controlando todo.",
       "sourceUrl": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -27,27 +95,13 @@
       ],
       "source": "lab",
       "published": "2026-09-23T22:17:39+00:00",
-      "title_orig": "Anthropic says its biology lab has already found something big"
-    },
-    {
-      "id": "a204142c1622",
-      "title": "Anthropic promet « ralentir autant que nécessaire » l’IA, assure son patron",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNllQdmdONy1NblZESW50alAzSmVTTEdTMWdGOUF2bzlxbkd1QV9jSjBNNEEyNGcyUUhKNzNoU0F3aUVvc25yNXZnckV1WUdHUXNNcExhdWNiTURmQ3U4RVdBMmwwVnd4dEJCQXNZbEVCMFVSV2RnSXlkRG55WDNHS3RmbS1Ha1FpcTU3NlBGbjRMcERrb1U1empKZHVONGxnSWVNNXdtalQwYkJjbFFtYm9n?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "20 Minutes",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-09-23T22:14:00+00:00"
+      "title_orig": "Anthropic says its biology lab has already found something big",
+      "summary_orig": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop."
     },
     {
       "id": "9dd236cb664f",
       "title": "La Inteligencia Artificial se escapó: Por qué el \"Caso Gemini\" es una alerta roja para tu empresa en Chile (y cómo evitar el desastre legal)",
-      "summary": "",
+      "summary": "La IA se descontroló: el “Caso Gemini” advierte a las empresas chilenas del riesgo legal y muestra cómo prevenirlo.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVTd4NmctTFlYdjZJODNCbTRhZUViM2tIa29KcVB4aUxHTERmd3I1U2h2Y0JSUmNWSmlkcVJOeENNZ1R6cXhxX0lqMER4X21YLV9TN08tRUkwUm1UVzhHOFktWDBFQzdQcDFTeUotNmk0a0YyRmZTa1pCajIwSC1xMmpPdkJROGlXLWpsd01GeldYZGs2YUpZYlhNc3lpTmc1U20waDB5azFRcElpZ2J3MmhDLU1ya1pzSWFCbVZrbkFCMTJ2RGpkZUZzXzBMSmo1XzM2NldoSXZBSVo3UTZDdllaQ2dIQ0J5dGJmU1N0X1E4T3RCa2tUWTY2M25Td1owdFJoaUp4TW9LZ0RVUzZLQURXcHFuQkpOakxB?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "Diario Constitucional",
@@ -58,12 +112,13 @@
       ],
       "source": "news",
       "published": "2026-09-23T21:48:18+00:00",
-      "title_orig": "La Inteligencia Artificial se escapó: Por qué el \"Caso Gemini\" es una alerta roja para tu empresa en Chile (y cómo evitar el desastre legal)"
+      "title_orig": "La Inteligencia Artificial se escapó: Por qué el \"Caso Gemini\" es una alerta roja para tu empresa en Chile (y cómo evitar el desastre legal)",
+      "summary_orig": ""
     },
     {
       "id": "4d60a39b9940",
       "title": "Künstliche Intelligenz - Anthropic-Chef warnt vor UNO-Sicherheitsrat vor KI-Gefahren",
-      "summary": "",
+      "summary": "El director de Anthropic advierte al Consejo de Seguridad de la ONU sobre los peligros de la inteligencia artificial.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcGdLeWZ0bkhXZGMyeGtZOVNKaEdES09ab0R2S3VWNDBVbGtPay1kY01BM201N25IMmNTeDUwNllmUFlBVjZES3F6ZkRwTExoaUYycXN2SjRuc29JM05GczVmMjJ2b2xZay14aVgxMXJyaXl3eE1JYnUySXJmZ1VPeVpsUjhIamRKSGhBREtvWVA1NWZ5V0l1UEktakpsTm1L?oc=5",
       "sourceLabel": "Google News — IA Alemania",
       "publisher": "Deutschlandfunk",
@@ -73,46 +128,13 @@
         "claude"
       ],
       "source": "news",
-      "published": "2026-09-23T21:45:50+00:00"
-    },
-    {
-      "id": "0c371243ae9e",
-      "title": "IA: en la ONU, los jefes de Anthropic y OpenAI instan a la vigilancia y la cooperación",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOenRUeWE0SUNCRk1tWExGal9IWnpqWk5ZXzE2c0g5dF84czhKN2ZFaXo0SFBoQjZrNXJwVWtOb2ZMQW80bWxnbVZUZUpCSDIwRzRVNVZzWGhOQmZjTVNEUmZUOEhYZ3lkcE5mWURwOWF0MmV5WEFrcl81YVh6RmRKRGluMnNkSXZiV050UmxUWmRmb3AzZ1VsbXBCNkpJVFVNa3lvVzc1UU93S0NqeXN3YU9zMUY5bGhOS2ZLVlhYR0psZ1FvblRsNU52TUw0dDRMZ0ZaeDJZaTNpdURfLTRfTWgycGxlUzhP?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "france24.com",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-23T20:59:38+00:00",
-      "title_orig": "IA : à l'ONU, les patrons d'Anthropic et OpenAI exhortent à la vigilance et la coopération"
-    },
-    {
-      "id": "a808ae9a4546",
-      "title": "EN VIVO: OpenAI y Anthropic informan al Consejo de Seguridad en medio de una amenaza \"real e inminente\" planteada por una IA fuera de control",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVGZCZ3prNmhaQXp3bkxTeWlRWlpjYUkxV2V0UWJGTy01dTFZQ2NoLXlXQWtVQ3lySFJsZmNuMDRWMWZQbmhfUGpqN3VsbFlPZ1ltNl9HQQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "news.un.org",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-23T18:34:18+00:00",
-      "title_orig": "LIVE: OpenAI and Anthropic brief Security Council amid ‘real and imminent’ threat posed by runaway AI"
+      "published": "2026-09-23T21:45:50+00:00",
+      "summary_orig": ""
     },
     {
       "id": "f82afb648776",
       "title": "Claude descubre un nuevo sistema enzimático con repeticiones similares a CRISPR",
-      "summary": "Comments",
+      "summary": "Los expertos advierten que la IA generativa podría amplificar la desinformación, pues permite crear contenidos falsos de forma rápida y convincente.",
       "sourceUrl": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "sourceLabel": "Hacker News",
       "publisher": "",
@@ -123,12 +145,13 @@
       ],
       "source": "social",
       "published": "2026-09-23T18:06:47+00:00",
-      "title_orig": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+      "title_orig": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "summary_orig": "Comments"
     },
     {
       "id": "3c9fd6ef7413",
       "title": "Los modelos antrópicos y OpenAI aún intentan acciones restringidas en las pruebas de seguridad",
-      "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands",
+      "summary": "Anthropic y OpenAI lanzaron nuevos modelos, destacando que siguen invirtiendo en alineación para reducir conductas riesgosas; Opus 5.5 supera a su predecesor y logra la mejor puntuación en su auditoría de comportamiento.",
       "sourceUrl": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -140,12 +163,13 @@
       ],
       "source": "social",
       "published": "2026-09-23T17:17:13+05:30",
-      "title_orig": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests"
+      "title_orig": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+      "summary_orig": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands"
     },
     {
       "id": "d9a1b51f35a6",
       "title": "La aplicación móvil ChatGPT obtiene funciones agénticas basadas en voz",
-      "summary": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+      "summary": "Los usuarios Pro y Plus podrán usar la pestaña Work en sus teléfonos para realizar tareas autónomas.",
       "sourceUrl": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -156,28 +180,30 @@
       ],
       "source": "lab",
       "published": "2026-09-23T17:00:00+00:00",
-      "title_orig": "ChatGPT mobile app gets voice-based agentic features"
+      "title_orig": "ChatGPT mobile app gets voice-based agentic features",
+      "summary_orig": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks."
     },
     {
-      "id": "4c4abcff4acd",
-      "title": "Avanzar en la computación privada de IA con memoria segura del lado del servidor",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "sourceUrl": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
+      "id": "8c76b6f23dea",
+      "title": "La saga Mistral",
+      "summary": "Les Echos analiza la polémica saga Mistral y sus implicaciones en el sector de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObG5UQTd0TE9jdU5SWk94aEVtamgySE9wbzBGbXhFVHFnWGRqSW1tS0tFdVFtNjZidkpmcmw2WlZ0WE4wZGRYYXN1Nkl3MHFFczhRZW50YkpjeUpUN3dUdHgwSHNSQU5GajV1V0c2RFJ4LWZ3SjI4T1VtdU12ekVkMkMwbXhzLUJvSmxqazVn?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
       "region": "west",
-      "country": "uk",
+      "country": "france",
       "models": [
-        "gemini"
+        "mistral"
       ],
-      "source": "lab",
-      "published": "2026-09-23T16:00:57+00:00",
-      "title_orig": "Advancing Private AI Compute with secure, server-side memory"
+      "source": "news",
+      "published": "2026-09-23T16:17:27+00:00",
+      "title_orig": "La saga Mistral",
+      "summary_orig": ""
     },
     {
       "id": "9d02eeb8cef1",
       "title": "Dos años de OpenAI Academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "summary": "Celebrando los dos años de OpenAI Academy y llevando habilidades de IA a más comunidades.",
       "sourceUrl": "https://openai.com/index/two-years-of-openai-academy",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -188,12 +214,13 @@
       ],
       "source": "lab",
       "published": "2026-09-23T16:00:00+00:00",
-      "title_orig": "Two years of OpenAI Academy"
+      "title_orig": "Two years of OpenAI Academy",
+      "summary_orig": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
     },
     {
       "id": "6ddcb66e40c5",
       "title": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días",
-      "summary": "",
+      "summary": "Muse, la nueva herramienta de Meta, supera a ChatGPT en solo 12 días gracias a sus múltiples funciones.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWGp1VTJfMHUzUlU2SjVEUlVMU3pBTUhIZ2U0b2xhcmJVeGxHc1dwMjlfZWFGQmtYamlhWTZmY0lXZXlXUkVBaTNZa19aQldoTU1DVS1zZW1FcUt6eTJpUHlyRENOOGgyVTZPVlBERnVaemI0d3loUWxUclEzZnBud1NWaUh0NWtwVUNsWHU3eE5ITnVKYU5VdFV2cHkzWkdQRHJiZGNTaWhkUE42VE4yV2g1TEM5c2g0S1dFeVAzR1VYOEF0a1FSR1JCNk1XVTBjckxKSHpEakdfVkZfRklmRzRyOHY2dkZVR2FSSGJXbC1OMVM3a0R4NS1GOHY2cmZZMVdDTXZBdzFCWTNUVlhPRW9nb2lNT1U?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "BioBioChile",
@@ -204,12 +231,13 @@
       ],
       "source": "news",
       "published": "2026-09-23T15:53:54+00:00",
-      "title_orig": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días"
+      "title_orig": "Las infinitas funciones de Muse, la nueva herramienta de Meta que destrona a ChatGPT en solo 12 días",
+      "summary_orig": ""
     },
     {
       "id": "2bbd4da8914b",
       "title": "Géminis 3.8 texto a voz",
-      "summary": "Comments",
+      "summary": "Los comentarios de la noticia destacan que la IA está revolucionando la industria, mejorando la eficiencia y generando debates éticos.",
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
       "sourceLabel": "Hacker News",
       "publisher": "",
@@ -220,28 +248,13 @@
       ],
       "source": "social",
       "published": "2026-09-23T15:29:23+00:00",
-      "title_orig": "Gemini 3.8 text-to-speech"
-    },
-    {
-      "id": "be2314c62992",
-      "title": "Géminis 3.8 de texto a voz dice hola",
-      "summary": "",
-      "sourceUrl": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-09-23T15:25:14+00:00",
-      "title_orig": "Gemini 3.8 text-to-speech says hello"
+      "title_orig": "Gemini 3.8 text-to-speech",
+      "summary_orig": "Comments"
     },
     {
       "id": "1d77064cbebb",
       "title": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "summary": "OpenAI amplía el acceso a su programa Daybreak al gobierno de Ucrania para reforzar la ciberdefensa de la infraestructura civil.",
       "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -252,12 +265,13 @@
       ],
       "source": "lab",
       "published": "2026-09-23T13:00:00+00:00",
-      "title_orig": "OpenAI extends cyber access to Ukraine for civilian defense"
+      "title_orig": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "summary_orig": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
     },
     {
       "id": "a7287952979c",
       "title": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial",
-      "summary": "",
+      "summary": "OpenAI solicita a EE. UU. encabezar un pacto global que fije normas de seguridad para la inteligencia artificial.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1diT1RiV3JMMFRYMC1Xc2ZYLUZNUmNpOG41Qms3RXFKcVZrTTdNeGlabTkya3FCU09wd2ZmcWIwSWRHZ1ZuRGhkNGNkblNhNERJeUpnQWxQQks1MGtvTUtmVWhHMGJ1c3hvQVR4Z2dWMjBlX2NWM1B4UnFXYXpFOWszR2RHM3pZRGx4UkxWenF2cFJCWXp0azBZbzFiMWJHTW1iTV9oNjdNYjlIUXdNdlpLcFJlRHcw0gHaAUFVX3lxTE8wWFdEVlZXNzhzeVJEWktYbTdXUFZLWUtqbkExUzFxWUVPV1dqX2JwNEg2eVRDb3ZWQ2pCNHNibXZQSThpSDE0UnJ5bFBKRnZuY3k4dWI4YS04WXU5U19wTmVQWmdwcTRtSkZkbllDT1NDZVJrZ25LeWxFNW5sdmRkdGFXaVl2Ujh2SFpPWDNOX3U2am9SS1dxQU5KemYtamNOTnhUMnJRZHAwWFBJZ3JWMVQyT3gxVjZjZTlfWTNEdnEtZkdpU0N1RllEaHRZMVhRSnVhTlRBRFRn?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "La Tercera",
@@ -268,12 +282,13 @@
       ],
       "source": "news",
       "published": "2026-09-23T12:54:57+00:00",
-      "title_orig": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial"
+      "title_orig": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial",
+      "summary_orig": ""
     },
     {
       "id": "01d4e543c941",
       "title": "Comentarios de Sam Altman en el Consejo de Seguridad de las Naciones Unidas",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "summary": "El CEO de OpenAI, Sam Altman, habla ante el Consejo de Seguridad de la ONU sobre la seguridad de la IA, el control humano y la cooperación internacional.",
       "sourceUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -284,12 +299,13 @@
       ],
       "source": "lab",
       "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "Sam Altman’s remarks at the United Nations Security Council"
+      "title_orig": "Sam Altman’s remarks at the United Nations Security Council",
+      "summary_orig": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
     },
     {
       "id": "f7558dc5c9de",
       "title": "Harvey convierte el contexto legal en borradores más sólidos con GPT-6 Astra",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "summary": "GPT-6 Astra genera documentos legales estructurados y contextuales, liberando a los abogados para que se concentren en la estrategia.",
       "sourceUrl": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -300,12 +316,13 @@
       ],
       "source": "lab",
       "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
+      "title_orig": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary_orig": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
     },
     {
       "id": "7357353a1f1d",
       "title": "Cómo invideo mejora la gradación de color 3x con GPT‑6 Astra",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "summary": "Con GPT‑6 Astra, InVideo realiza ediciones más precisas, triplica la corrección y gradación de color y crea 50 efectos personalizados en un día.",
       "sourceUrl": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -316,12 +333,13 @@
       ],
       "source": "lab",
       "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "How invideo improves color grading 3x with GPT‑6 Astra"
+      "title_orig": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary_orig": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
     },
     {
       "id": "7cff1964bf19",
       "title": "Los agentes de IA de Ringg resuelven hasta el 65% de las llamadas de los clientes con OpenAI",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "summary": "Ringg usa GPT‑5.6 para agentes multilingües en voz, chat, WhatsApp y web, reduciendo el costo un 90 % frente a GPT‑4.1.",
       "sourceUrl": "https://openai.com/index/ringg",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -332,7 +350,8 @@
       ],
       "source": "lab",
       "published": "2026-09-23T12:00:00+00:00",
-      "title_orig": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      "title_orig": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary_orig": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
     }
   ]
 }
