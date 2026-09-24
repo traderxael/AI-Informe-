@@ -1070,9 +1070,15 @@ def write_informe(day: date, force: bool) -> Path:
     INFORMES_DIR.mkdir(parents=True, exist_ok=True)
     dest = INFORMES_DIR / f"{day.isoformat()}.md"
     if dest.exists() and not force:
-        print(f"Ya existe {dest.name}. Usa --force para regenerarlo.")
-        regenerate_web()
-        return dest
+        # 24-sep: este guard hacia que el cron NUNCA aplicara una mejora de
+        # clasificacion o de filtro a un informe del mismo dia. El runner
+        # hace checkout del repo (que ya trae el markdown commiteado por el
+        # run anterior) y exits sin regenerar: un fix de "filtro antibacterial"
+        # llegaba al codigo pero el informe publicado seguia con publicidad.
+        # La regeneracion es idempotente y cuesta ~35s, asi que la correcta es
+        # regenerar siempre y que `--force` solo exista para uso manual.
+        print(f"Regenerando {dest.name} (el filtro del dia pudo cambiar).")
+        force = True
     items = collect_items(day)
     dest.write_text(render_markdown(day, items), encoding="utf-8")
     export_web_json(day, items)  # Exportar para la web moderna
