@@ -46,6 +46,37 @@ class ClassifyTests(unittest.TestCase):
         )
         self.assertEqual(country, "global")
 
+    def test_hint_no_pisa_evidencia_del_titulo(self) -> None:
+        # Regression: el hint de la consulta pesaba +3 y ganaba siempre, asi que
+        # un titular de otro pais caia en la region de la busqueda.
+        self.assertEqual(
+            cs.classify_country(
+                "OpenAI releases a new model in the US",
+                "Google News — IA China modelos",
+                "china",
+            ),
+            "usa",
+        )
+        self.assertEqual(
+            cs.classify_country(
+                "Anthropic open-sources Claude in California",
+                "Google News — IA China modelos",
+                "china",
+            ),
+            "usa",
+        )
+
+    def test_hint_sigue_ganando_sin_evidencia(self) -> None:
+        # Sin evidencia en el titulo, el hint de la consulta manda.
+        self.assertEqual(
+            cs.classify_country("Nuevo chip para数据中心", "Google News — IA China modelos", "china"),
+            "china",
+        )
+        self.assertEqual(
+            cs.classify_country("Nueva ley de IA", "Google News — IA global", "global"),
+            "global",
+        )
+
     def test_junk_hn_without_ai(self) -> None:
         self.assertTrue(cs.is_junk_title("Show HN: Hacker News, without AI"))
         self.assertFalse(cs.is_junk_title("OpenAI launches GPT-6 Astra"))
