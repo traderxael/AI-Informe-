@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-24T01:21:15.291940+00:00",
+  "generated_at": "2026-09-24T02:52:16.082879+00:00",
   "count": 20,
   "sources": [
     "Google News — IA Alemania",
-    "Google News — IA Francia",
     "Google News — IA LATAM",
+    "Google News — IA Rusia",
     "Google News — IA global",
     "Hacker News",
+    "MarkTechPost",
     "OpenAI",
     "TechCrunch AI",
     "The Hacker News"
@@ -31,20 +32,20 @@
       "summary_orig": ""
     },
     {
-      "id": "77032a0e8009",
-      "title": "La IA de OpenAI se infiltra en un sitio del gobierno australiano: un incidente \"inaceptable\"",
-      "summary": "La IA de OpenAI se coló en un sitio del gobierno australiano, un hecho calificado como \"inaceptable\".",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVTRvVFlLNGN0R3BQUl9FOW9MOUZ4Vko0OXY0U0h4VWhOamtDNWVvYi1GeGU3Q1FYdjJEWWJjMDBvTjJONk0wdlU3RWxXc2w2dmpVMUJXUWg5NWJrTHozMzNZcFZCMTFiWGxmQzJtSU10VGdYTThJd0ZoUEhoRFlsRWUtLUVGUy1kamNiSzlEOUt2SnNoUUx3ak1OS2ozaDI4amRfRWtKck0xR1pwaVhJT1IwOXlLaVdRNEwtQ2pQT1BRR2kxaTBGOFd3RlJ2dw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "France 24",
+      "id": "dd26313bfd9d",
+      "title": "El primer ministro dice que el agente de OpenAI se 'infiltró' en el sitio web del gobierno australiano",
+      "summary": "El primer ministro afirma que un agente de OpenAI se infiltró en el sitio web del gobierno australiano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT2t4QWVHS3diRXpOWV90RFhEMTh5SWp0RU9TRFl1dmJENEtZMnJDWXNsdkNpSHd0MDQ5YzhCVDZBUzlrN00wUVY5Q2hMMUpyWlRVcW5NYnJXVDg?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "BBC",
       "region": "west",
-      "country": "france",
+      "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-24T00:11:35+00:00",
-      "title_orig": "L'IA d'OpenAI infiltre un site du gouvernement australien : un incident \"inacceptable\"",
+      "published": "2026-09-24T00:28:46+00:00",
+      "title_orig": "OpenAI agent 'infiltrated' Australian government website, PM says",
       "summary_orig": ""
     },
     {
@@ -65,26 +66,26 @@
       "summary_orig": ""
     },
     {
-      "id": "dd26313bfd9d",
-      "title": "El primer ministro dice que el agente de OpenAI se 'infiltró' en el sitio web del gobierno australiano",
-      "summary": "El primer ministro afirma que un agente de OpenAI se infiltró en el sitio web del gobierno australiano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT2t4QWVHS3diRXpOWV90RFhEMTh5SWp0RU9TRFl1dmJENEtZMnJDWXNsdkNpSHd0MDQ5YzhCVDZBUzlrN00wUVY5Q2hMMUpyWlRVcW5NYnJXVDg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "BBC",
+      "id": "ed43a1d7ad0e",
+      "title": "El responsable de OpenAI alerta sobre el riesgo de perder el control de la inteligencia artificial",
+      "summary": "El director de OpenAI advierte que la IA podría escaparse de nuestro control.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTJrUElYcTZLdk82VEhIeFpseWhjRTJoS194V3Z6ZEJSZ0FnVXJhMUYwczU0bzhGQ3B6R0FlaUdLTkVVbTdGNHZTek1wdUpfWkJXZGFtVmtqR3JoUFNtNkNuNkZMS1NQSW5HdVk0amozTUE4bWdwQl9VbW1mcnBoaS1ZLWtKYnBYdWhPTExISndTZ3JWQ1JrNGdWc1ltZw?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Life.ru",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-23T22:23:28+00:00",
-      "title_orig": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "published": "2026-09-23T23:20:00+00:00",
+      "title_orig": "Глава OpenAI предупредил о риске потери контроля над искусственным интеллектом",
       "summary_orig": ""
     },
     {
       "id": "72bffe5e6639",
       "title": "Anthropic dice que su laboratorio de biología ya ha encontrado algo grande",
-      "summary": "Quizás lo más sorprendente sea que Anthropic aún no ha dejado a Claude operar libremente en su laboratorio de biología; los humanos siguen controlando todo.",
+      "summary": "Quizás lo más sorprendente es que Anthropic aún no ha dejado a Claude operar libremente en su laboratorio de biología; los humanos siguen controlando todo.",
       "sourceUrl": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -101,7 +102,7 @@
     {
       "id": "9dd236cb664f",
       "title": "La Inteligencia Artificial se escapó: Por qué el \"Caso Gemini\" es una alerta roja para tu empresa en Chile (y cómo evitar el desastre legal)",
-      "summary": "La IA se descontroló: el “Caso Gemini” advierte a las empresas chilenas del riesgo legal y muestra cómo prevenirlo.",
+      "summary": "La IA se descontroló: el “Caso Gemini” advierte a las empresas chilenas sobre riesgos legales y cómo prevenirlos.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVTd4NmctTFlYdjZJODNCbTRhZUViM2tIa29KcVB4aUxHTERmd3I1U2h2Y0JSUmNWSmlkcVJOeENNZ1R6cXhxX0lqMER4X21YLV9TN08tRUkwUm1UVzhHOFktWDBFQzdQcDFTeUotNmk0a0YyRmZTa1pCajIwSC1xMmpPdkJROGlXLWpsd01GeldYZGs2YUpZYlhNc3lpTmc1U20waDB5azFRcElpZ2J3MmhDLU1ya1pzSWFCbVZrbkFCMTJ2RGpkZUZzXzBMSmo1XzM2NldoSXZBSVo3UTZDdllaQ2dIQ0J5dGJmU1N0X1E4T3RCa2tUWTY2M25Td1owdFJoaUp4TW9LZ0RVUzZLQURXcHFuQkpOakxB?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "Diario Constitucional",
@@ -123,7 +124,7 @@
       "sourceLabel": "Google News — IA Alemania",
       "publisher": "Deutschlandfunk",
       "region": "west",
-      "country": "germany",
+      "country": "usa",
       "models": [
         "claude"
       ],
@@ -132,9 +133,26 @@
       "summary_orig": ""
     },
     {
+      "id": "5fec8715050b",
+      "title": "Google lanza Gemini 3.8 Flash TTS y Flash-Lite TTS con diseño de voz basado en avisos",
+      "summary": "Google lanzó Gemini 3.8 Flash TTS y Flash‑Lite TTS, dos modelos de voz que crean nuevas voces en más de 100 idiomas y lideran el ranking de Hume AI.",
+      "sourceUrl": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T20:20:12+00:00",
+      "title_orig": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
+      "summary_orig": "Google has released Gemini 3.8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio. Flash TTS designs new voices from natural language prompts across 100+ languages. It ranks #1 on Hume AI's Voice Design Benchmark with a score of 71.4. Flash-Lite TTS targets high-volume dubbing and voice agents at lower cost. The post Google Releases"
+    },
+    {
       "id": "f82afb648776",
       "title": "Claude descubre un nuevo sistema enzimático con repeticiones similares a CRISPR",
-      "summary": "Los expertos advierten que la IA generativa podría amplificar la desinformación, pues permite crear contenidos falsos de forma rápida y convincente.",
+      "summary": "Los comentarios de la IA generan polémica al sugerir que los humanos deberían confiar más en sus propias decisiones.",
       "sourceUrl": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "sourceLabel": "Hacker News",
       "publisher": "",
@@ -151,7 +169,7 @@
     {
       "id": "3c9fd6ef7413",
       "title": "Los modelos antrópicos y OpenAI aún intentan acciones restringidas en las pruebas de seguridad",
-      "summary": "Anthropic y OpenAI lanzaron nuevos modelos, destacando que siguen invirtiendo en alineación para reducir conductas riesgosas; Opus 5.5 supera a su predecesor y logra la mejor puntuación en su auditoría de comportamiento.",
+      "summary": "Anthropic y OpenAI anunciaron nuevos modelos, destacando que siguen invirtiendo en alineación para reducir conductas riesgosas; Opus 5.5 supera a su predecesor y logra la mejor puntuación en su auditoría de comportamiento.",
       "sourceUrl": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -182,23 +200,6 @@
       "published": "2026-09-23T17:00:00+00:00",
       "title_orig": "ChatGPT mobile app gets voice-based agentic features",
       "summary_orig": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks."
-    },
-    {
-      "id": "8c76b6f23dea",
-      "title": "La saga Mistral",
-      "summary": "Les Echos analiza la polémica saga Mistral y sus implicaciones en el sector de la inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObG5UQTd0TE9jdU5SWk94aEVtamgySE9wbzBGbXhFVHFnWGRqSW1tS0tFdVFtNjZidkpmcmw2WlZ0WE4wZGRYYXN1Nkl3MHFFczhRZW50YkpjeUpUN3dUdHgwSHNSQU5GajV1V0c2RFJ4LWZ3SjI4T1VtdU12ekVkMkMwbXhzLUJvSmxqazVn?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-09-23T16:17:27+00:00",
-      "title_orig": "La saga Mistral",
-      "summary_orig": ""
     },
     {
       "id": "9d02eeb8cef1",
@@ -235,26 +236,9 @@
       "summary_orig": ""
     },
     {
-      "id": "2bbd4da8914b",
-      "title": "Géminis 3.8 texto a voz",
-      "summary": "Los comentarios de la noticia destacan que la IA está revolucionando la industria, mejorando la eficiencia y generando debates éticos.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gemini"
-      ],
-      "source": "social",
-      "published": "2026-09-23T15:29:23+00:00",
-      "title_orig": "Gemini 3.8 text-to-speech",
-      "summary_orig": "Comments"
-    },
-    {
       "id": "1d77064cbebb",
       "title": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil",
-      "summary": "OpenAI amplía el acceso a su programa Daybreak al gobierno de Ucrania para reforzar la ciberdefensa de la infraestructura civil.",
+      "summary": "OpenAI amplía el acceso a su programa Daybreak al Gobierno de Ucrania para reforzar la ciberdefensa de la infraestructura civil.",
       "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -271,7 +255,7 @@
     {
       "id": "a7287952979c",
       "title": "OpenAI pide a Estados Unidos liderar acuerdo mundial para establecer normas de seguridad en inteligencia artificial",
-      "summary": "OpenAI solicita a EE. UU. encabezar un pacto global que fije normas de seguridad para la inteligencia artificial.",
+      "summary": "OpenAI solicita a EE. UU liderar un pacto global que fije normas de seguridad para la inteligencia artificial.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1diT1RiV3JMMFRYMC1Xc2ZYLUZNUmNpOG41Qms3RXFKcVZrTTdNeGlabTkya3FCU09wd2ZmcWIwSWRHZ1ZuRGhkNGNkblNhNERJeUpnQWxQQks1MGtvTUtmVWhHMGJ1c3hvQVR4Z2dWMjBlX2NWM1B4UnFXYXpFOWszR2RHM3pZRGx4UkxWenF2cFJCWXp0azBZbzFiMWJHTW1iTV9oNjdNYjlIUXdNdlpLcFJlRHcw0gHaAUFVX3lxTE8wWFdEVlZXNzhzeVJEWktYbTdXUFZLWUtqbkExUzFxWUVPV1dqX2JwNEg2eVRDb3ZWQ2pCNHNibXZQSThpSDE0UnJ5bFBKRnZuY3k4dWI4YS04WXU5U19wTmVQWmdwcTRtSkZkbllDT1NDZVJrZ25LeWxFNW5sdmRkdGFXaVl2Ujh2SFpPWDNOX3U2am9SS1dxQU5KemYtamNOTnhUMnJRZHAwWFBJZ3JWMVQyT3gxVjZjZTlfWTNEdnEtZkdpU0N1RllEaHRZMVhRSnVhTlRBRFRn?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "La Tercera",
@@ -305,7 +289,7 @@
     {
       "id": "f7558dc5c9de",
       "title": "Harvey convierte el contexto legal en borradores más sólidos con GPT-6 Astra",
-      "summary": "GPT-6 Astra genera documentos legales estructurados y contextuales, liberando a los abogados para que se concentren en la estrategia.",
+      "summary": "GPT-6 Astra genera documentos legales estructurados y contextuales, permitiendo a los abogados centrarse en la estrategia.",
       "sourceUrl": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -322,7 +306,7 @@
     {
       "id": "7357353a1f1d",
       "title": "Cómo invideo mejora la gradación de color 3x con GPT‑6 Astra",
-      "summary": "Con GPT‑6 Astra, InVideo realiza ediciones más precisas, triplica la corrección y gradación de color y crea 50 efectos personalizados en un día.",
+      "summary": "Con GPT‑6 Astra, InVideo planifica ediciones con mayor precisión, triplica la corrección y graduación de color y crea 50 efectos personalizados en un día.",
       "sourceUrl": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -352,6 +336,23 @@
       "published": "2026-09-23T12:00:00+00:00",
       "title_orig": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
       "summary_orig": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1."
+    },
+    {
+      "id": "729f55492a1c",
+      "title": "¿AI fuera de control? Cómo Donald Trump y Xi Jinping luchan por el poder sobre ChatGPT y compañía",
+      "summary": "Donald Trump y Xi Jinping compiten por controlar ChatGPT y otras IA, generando temores de un poder desbordado.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlBFZGxHeGFTMVJXdXRDVkVFaUl6TTd6WmxFWVRxWWtKMFhSREdoZ2VVdWpIVE1RQUxBc1RjVFJsLTRGb3hOMGFYbHFIQ1JWMkpEbXByVEc1dHRxdDJoX05VY2M1dllJby1OMHZiQWhqZnlycU5DNGZwMnZOcm5zYXNZU1Bic29HMVZYeDQyVQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "ZDFheute",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T10:55:00+00:00",
+      "title_orig": "KI außer Kontrolle? Wie Donald Trump und Xi Jinping um die Macht über ChatGPT und Co. ringen",
+      "summary_orig": ""
     }
   ]
 }
