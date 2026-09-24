@@ -1,0 +1,13 @@
+stateDiagram-v2
+    [*] --> Recolectando
+    Recolectando --> Clasificando: 28 feeds OK
+    Recolectando --> Degradado: feed caído
+    Degradado --> Recolectando: soft-fail y sigue
+    Clasificando --> Resumiendo: 4 secciones
+    Resumiendo --> Commit: Groq OK
+    Resumiendo --> CommitSinLLM: Groq caído (continue-on-error)
+    CommitSinLLM --> Commit
+    Commit --> Desplegado: push main
+    Desplegado --> [*]
+    Commit --> SinCambios: sin diff
+    SinCambios --> [*]

@@ -1,0 +1,30 @@
+flowchart LR
+    subgraph FUENTES["🌐 Fuentes"]
+        RSS["28 feeds RSS<br/>sources.py"]
+        GN["Google News<br/>9 regiones"]
+        HN["Hacker News"]
+        RD["Reddit"]
+        FX["X / FxTwitter<br/>fx_viral.py"]
+    end
+    SCRIPTS["🐍 Scripts Python<br/>generar_informe.py<br/>collect_signals.py"]
+    LLM["🤖 Resúmenes LLM<br/>resumir_groq.py<br/>Groq API"]
+    DATA["📦 Datos<br/>public/data/"]
+    COMMIT["bot commit → main"]
+    VERCEL["▲ Vercel<br/>auto-redeploy"]
+    TG["📱 Telegram<br/>avisos 09:00 / 13:10"]
+    SITE["🌍 Web pública<br/>ai-informe-dashboard"]
+    CLI["💻 Axael en CLI"]
+
+    RSS --> SCRIPTS
+    GN --> SCRIPTS
+    HN --> SCRIPTS
+    RD --> SCRIPTS
+    FX --> DATA
+    SCRIPTS --> DATA
+    SCRIPTS --> LLM
+    LLM --> DATA
+    DATA --> COMMIT
+    COMMIT --> VERCEL
+    VERCEL --> SITE
+    DATA --> TG
+    CLI -->|"lee / edita"| SCRIPTS

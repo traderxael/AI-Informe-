@@ -1,0 +1,25 @@
+sequenceDiagram
+    autonumber
+    participant CRON as ⏰ GitHub Actions
+    participant GEN as 🐍 generar_informe.py
+    participant SRC as 📡 28 feeds RSS
+    participant SIG as 🔍 collect_signals.py
+    participant LLM as 🤖 Groq LLM
+    participant GIT as ☁️ GitHub main
+    participant V as ▲ Vercel
+    participant TG as 📱 Telegram
+
+    CRON->>GEN: 12:00 UTC — Ejecuta pipeline
+    GEN->>SRC: Descarga feeds
+    SRC-->>GEN: XML noticias
+    GEN->>GEN: Clasifica keywords
+    GEN-->>GIT: informes/*.md + web/
+    GEN->>SIG: Corre señales
+    SIG->>SIG: Google News 9 regiones
+    SIG->>SIG: Reddit + Hacker News
+    SIG-->>GIT: signals-first/rest.json
+    GIT->>LLM: resumen_dia + traducción
+    LLM-->>GIT: resumen_dia (es) + summary es
+    GIT->>V: Push a main
+    V-->>CRON: Redeploy automático
+    CRON->>TG: 09:00 / 13:10 avisos

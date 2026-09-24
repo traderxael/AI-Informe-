@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1390.166 523.95" width="1390.166" height="523.95" style="--bg:#0d1117;--fg:#e6edf3;--line:#3d444d;--accent:#4493f8;--muted:#9198a1;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="FUENTES" data-label="🌐 Fuentes">
+  <rect x="82.86799999999997" y="92.75" width="153.237" height="391.20000000000005" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="82.86799999999997" y="92.75" width="153.237" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="94.86799999999997" y="106.75" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">🌐 Fuentes</text>
+</g>
+<polyline class="edge" data-from="SCRIPTS" data-to="DATA" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="449.1329999999999,261.7833333333334 469.1329999999999,261.7833333333334 469.1329999999999,284.95833333333337 688.9019999999999,284.95833333333337" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SCRIPTS" data-to="LLM" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="449.1329999999999,261.7833333333334 469.1329999999999,261.7833333333334 469.1329999999999,284.95833333333337 489.1329999999999,284.95833333333337" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="LLM" data-to="DATA" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="648.9019999999999,284.95833333333337 668.9019999999999,284.95833333333337 668.9019999999999,284.95833333333337 688.9019999999999,284.95833333333337" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DATA" data-to="COMMIT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="799.0239999999999,284.95833333333337 819.0239999999999,284.95833333333337 819.0239999999999,250.28333333333336 839.0239999999999,250.28333333333336" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="COMMIT" data-to="VERCEL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="978.0449999999998,250.28333333333336 1018.0449999999998,250.2833333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="VERCEL" data-to="SITE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1142.2459999999999,250.2833333333334 1182.2459999999999,250.2833333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DATA" data-to="TG" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="799.0239999999999,284.95833333333337 819.0239999999999,284.95833333333337 819.0239999999999,319.6333333333333 839.0239999999999,319.6333333333333" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CLI" data-to="SCRIPTS" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="lee / edita" points="173.09299999999996,58.45 278.10499999999996,58.45 278.10499999999996,238.21666666666673 290.10499999999996,238.21666666666673" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RSS" data-to="SCRIPTS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="222.32799999999995,163.65 266.10499999999996,163.65 266.10499999999996,250.00000000000006 290.10499999999996,250.00000000000006" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GN" data-to="SCRIPTS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="220.10499999999996,241.45000000000002 254.10499999999996,241.45000000000002 254.10499999999996,261.7833333333334 290.10499999999996,261.7833333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="HN" data-to="SCRIPTS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="223.06899999999996,310.8 266.10499999999996,310.8 266.10499999999996,273.5666666666667 290.10499999999996,273.5666666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RD" data-to="SCRIPTS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="220.10499999999996,371.70000000000005 278.10499999999996,371.70000000000005 278.10499999999996,285.35 290.10499999999996,285.35" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="FX" data-to="DATA" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="217.14099999999996,441.05 668.9019999999999,441.05 668.9019999999999,284.95833333333337 688.9019999999999,284.95833333333337" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="CLI" data-to="SCRIPTS" data-label="lee / edita">
+  <rect x="209.09299999999996" y="42.45" width="61.01200000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="239.59899999999996" y="57.6" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">lee / edita</text>
+</g>
+<g class="node" data-id="SCRIPTS" data-label="🐍 Scripts Python
+generar_informe.py
+collect_signals.py" data-shape="rectangle">
+  <rect x="290.10499999999996" y="226.4333333333334" width="159.028" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="369.61899999999997" y="261.7833333333334" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="369.61899999999997" dy="-12.350000000000001">🐍 Scripts Python</tspan><tspan x="369.61899999999997" dy="16.900000000000002">generar_informe.py</tspan><tspan x="369.61899999999997" dy="16.900000000000002">collect_signals.py</tspan></text>
+</g>
+<g class="node" data-id="LLM" data-label="🤖 Resúmenes LLM
+resumir_groq.py
+Groq API" data-shape="rectangle">
+  <rect x="489.1329999999999" y="249.60833333333335" width="159.769" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="569.0174999999999" y="284.95833333333337" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="569.0174999999999" dy="-12.350000000000001">🤖 Resúmenes LLM</tspan><tspan x="569.0174999999999" dy="16.900000000000002">resumir_groq.py</tspan><tspan x="569.0174999999999" dy="16.900000000000002">Groq API</tspan></text>
+</g>
+<g class="node" data-id="DATA" data-label="📦 Datos
+public/data/" data-shape="rectangle">
+  <rect x="688.9019999999999" y="258.0583333333334" width="110.122" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="743.963" y="284.95833333333337" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="743.963" dy="-3.9000000000000012">📦 Datos</tspan><tspan x="743.963" dy="16.900000000000002">public/data/</tspan></text>
+</g>
+<g class="node" data-id="COMMIT" data-label="bot commit → main" data-shape="rectangle">
+  <rect x="839.0239999999999" y="231.83333333333337" width="139.02100000000002" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="908.5344999999999" y="250.28333333333336" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">bot commit → main</text>
+</g>
+<g class="node" data-id="VERCEL" data-label="▲ Vercel
+auto-redeploy" data-shape="rectangle">
+  <rect x="1018.0449999999998" y="223.38333333333338" width="124.20099999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1080.1454999999999" y="250.2833333333334" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1080.1454999999999" dy="-3.9000000000000012">▲ Vercel</tspan><tspan x="1080.1454999999999" dy="16.900000000000002">auto-redeploy</tspan></text>
+</g>
+<g class="node" data-id="TG" data-label="📱 Telegram
+avisos 09:00 / 13:10" data-shape="rectangle">
+  <rect x="839.0239999999999" y="292.73333333333335" width="148.654" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="913.3509999999999" y="319.6333333333333" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="913.3509999999999" dy="-3.9000000000000012">📱 Telegram</tspan><tspan x="913.3509999999999" dy="16.900000000000002">avisos 09:00 / 13:10</tspan></text>
+</g>
+<g class="node" data-id="SITE" data-label="🌍 Web pública
+ai-informe-dashboard" data-shape="rectangle">
+  <rect x="1182.2459999999999" y="223.38333333333338" width="167.92" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1266.206" y="250.2833333333334" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1266.206" dy="-3.9000000000000012">🌍 Web pública</tspan><tspan x="1266.206" dy="16.900000000000002">ai-informe-dashboard</tspan></text>
+</g>
+<g class="node" data-id="CLI" data-label="💻 Axael en CLI" data-shape="rectangle">
+  <rect x="40" y="40" width="133.09299999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="106.54649999999998" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">💻 Axael en CLI</text>
+</g>
+<g class="node" data-id="RSS" data-label="28 feeds RSS
+sources.py" data-shape="rectangle">
+  <rect x="101.83199999999997" y="136.75" width="120.49599999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="162.07999999999996" y="163.65" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="162.07999999999996" dy="-3.9000000000000012">28 feeds RSS</tspan><tspan x="162.07999999999996" dy="16.900000000000002">sources.py</tspan></text>
+</g>
+<g class="node" data-id="GN" data-label="Google News
+9 regiones" data-shape="rectangle">
+  <rect x="101.83199999999997" y="214.55" width="118.273" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="160.96849999999995" y="241.45000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="160.96849999999995" dy="-3.9000000000000012">Google News</tspan><tspan x="160.96849999999995" dy="16.900000000000002">9 regiones</tspan></text>
+</g>
+<g class="node" data-id="HN" data-label="Hacker News" data-shape="rectangle">
+  <rect x="101.83199999999997" y="292.35" width="121.237" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="162.45049999999998" y="310.8" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Hacker News</text>
+</g>
+<g class="node" data-id="RD" data-label="Reddit" data-shape="rectangle">
+  <rect x="141.10499999999996" y="353.25" width="79" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="180.60499999999996" y="371.7" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Reddit</text>
+</g>
+<g class="node" data-id="FX" data-label="X / FxTwitter
+fx_viral.py" data-shape="rectangle">
+  <rect x="101.83199999999997" y="414.15000000000003" width="115.30900000000001" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="159.48649999999998" y="441.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="159.48649999999998" dy="-3.9000000000000012">X / FxTwitter</tspan><tspan x="159.48649999999998" dy="16.900000000000002">fx_viral.py</tspan></text>
+</g>
+</svg>
