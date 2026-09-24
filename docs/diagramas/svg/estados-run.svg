@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.65150000000006 947.8" width="340.65150000000006" height="947.8" style="--bg:#0d1117;--fg:#e6edf3;--line:#3d444d;--accent:#4493f8;--muted:#9198a1;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="_start" data-to="Recolectando" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="249.47950000000003,137.2 249.47950000000003,165.2 216.53233333333333,165.2 216.53233333333333,177.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Recolectando" data-to="Clasificando" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="28 feeds OK" points="185.66733333333332,214.10000000000002 185.66733333333332,314.40000000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Recolectando" data-to="Degradado" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="feed caído" points="154.80233333333334,177.2 154.80233333333334,165.2 91.19150000000002,165.2 91.19150000000002,104.9 108.12883333333332,104.9 108.12883333333332,76.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Degradado" data-to="Recolectando" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="soft-fail y sigue" points="144.34216666666666,76.9 144.34216666666666,104.9 172.5195,104.9 172.5195,165.2 185.66733333333332,165.2 185.66733333333332,177.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Clasificando" data-to="Resumiendo" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="4 secciones" points="185.66733333333332,351.3 185.66733333333332,451.6000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Resumiendo" data-to="Commit" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Groq OK" points="166.5726666666667,488.50000000000006 166.5726666666667,516.5000000000001 107.2415,516.5000000000001 107.2415,653.7 172.00666666666666,653.7 172.00666666666666,665.7" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Resumiendo" data-to="CommitSinLLM" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Groq caído (continue-on-error)" points="204.762,488.50000000000006 204.762,516.5000000000001 222.1895,516.5000000000001 222.1895,588.8000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CommitSinLLM" data-to="Commit" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="222.1895,625.7 222.1895,653.7 199.32799999999997,653.7 199.32799999999997,665.7" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Commit" data-to="Desplegado" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="push main" points="172.00666666666666,702.6 172.00666666666666,714.6 96.543,714.6 96.543,794.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Desplegado" data-to="_end" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="96.543,831.8 96.543,871.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Commit" data-to="SinCambios" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="sin diff" points="199.32799999999997,702.6 199.32799999999997,730.6 232.88800000000003,730.6 232.88800000000003,794.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SinCambios" data-to="_end2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="232.88800000000003,831.8 232.88800000000003,871.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="Recolectando" data-to="Clasificando" data-label="28 feeds OK">
+  <rect x="148.66733333333332" y="249.1" width="73.48599999999999" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="185.4103333333333" y="264.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">28 feeds OK</text>
+</g>
+<g class="edge-label" data-from="Recolectando" data-to="Degradado" data-label="feed caído">
+  <rect x="56.191500000000005" y="111.9" width="69.328" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="90.8555" y="127.05000000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">feed caído</text>
+</g>
+<g class="edge-label" data-from="Degradado" data-to="Recolectando" data-label="soft-fail y sigue">
+  <rect x="129.5195" y="111.9" width="85.96000000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="172.4995" y="127.05000000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">soft-fail y sigue</text>
+</g>
+<g class="edge-label" data-from="Clasificando" data-to="Resumiendo" data-label="4 secciones">
+  <rect x="147.66733333333332" y="386.30000000000007" width="75.268" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="185.30133333333333" y="401.45000000000005" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">4 secciones</text>
+</g>
+<g class="edge-label" data-from="Resumiendo" data-to="Commit" data-label="Groq OK">
+  <rect x="78.2415" y="616.4000000000001" width="57.448" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="106.9655" y="631.5500000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Groq OK</text>
+</g>
+<g class="edge-label" data-from="Resumiendo" data-to="CommitSinLLM" data-label="Groq caído (continue-on-error)">
+  <rect x="139.6895" y="523.5000000000001" width="164.96200000000005" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="222.17050000000003" y="538.6500000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Groq caído (continue-on-error)</text>
+</g>
+<g class="edge-label" data-from="Commit" data-to="Desplegado" data-label="push main">
+  <rect x="64.043" y="721.6" width="64.57600000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="96.33100000000002" y="736.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">push main</text>
+</g>
+<g class="edge-label" data-from="Commit" data-to="SinCambios" data-label="sin diff">
+  <rect x="209.38800000000003" y="737.6" width="46.756" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="232.76600000000002" y="752.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">sin diff</text>
+</g>
+<g class="node" data-id="_start" data-label="" data-shape="state-start">
+  <circle cx="249.47950000000003" cy="123.2" r="12" fill="var(--_text)" stroke="none" />
+</g>
+<g class="node" data-id="Recolectando" data-label="Recolectando" data-shape="rounded">
+  <rect x="123.93733333333334" y="177.2" width="123.46" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.66733333333335" y="195.64999999999998" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Recolectando</text>
+</g>
+<g class="node" data-id="Clasificando" data-label="Clasificando" data-shape="rounded">
+  <rect x="128.38333333333333" y="314.40000000000003" width="114.568" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.66733333333332" y="332.85" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Clasificando</text>
+</g>
+<g class="node" data-id="Degradado" data-label="Degradado" data-shape="rounded">
+  <rect x="71.91549999999998" y="40" width="108.64" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="126.23549999999997" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Degradado</text>
+</g>
+<g class="node" data-id="Resumiendo" data-label="Resumiendo" data-shape="rounded">
+  <rect x="128.38333333333333" y="451.6000000000001" width="114.568" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.66733333333332" y="470.05000000000007" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Resumiendo</text>
+</g>
+<g class="node" data-id="Commit" data-label="Commit" data-shape="rounded">
+  <rect x="144.68533333333335" y="665.7" width="81.964" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.66733333333335" y="684.1500000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Commit</text>
+</g>
+<g class="node" data-id="CommitSinLLM" data-label="CommitSinLLM" data-shape="rounded">
+  <rect x="157.125" y="588.8000000000001" width="130.12900000000002" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="222.1895" y="607.2500000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">CommitSinLLM</text>
+</g>
+<g class="node" data-id="Desplegado" data-label="Desplegado" data-shape="rounded">
+  <rect x="40" y="794.9" width="113.086" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="96.543" y="813.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Desplegado</text>
+</g>
+<g class="node" data-id="_end" data-label="" data-shape="state-end">
+  <circle cx="96.543" cy="885.8" r="12" fill="none" stroke="var(--_text)" stroke-width="1.5" />
+  <circle cx="96.543" cy="885.8" r="8" fill="var(--_text)" stroke="none" />
+</g>
+<g class="node" data-id="SinCambios" data-label="SinCambios" data-shape="rounded">
+  <rect x="177.086" y="794.9" width="111.604" height="36.900000000000006" rx="6" ry="6" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="232.888" y="813.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">SinCambios</text>
+</g>
+<g class="node" data-id="_end2" data-label="" data-shape="state-end">
+  <circle cx="232.88800000000003" cy="885.8" r="12" fill="none" stroke="var(--_text)" stroke-width="1.5" />
+  <circle cx="232.88800000000003" cy="885.8" r="8" fill="var(--_text)" stroke="none" />
+</g>
+</svg>

@@ -1,0 +1,16 @@
+flowchart TD
+    START(["⏰ GitHub Action<br/>cron 12:00 UTC"]) --> PY["🐍 setup-python 3.12"]
+    PY --> TESTS["🧪 test_pipeline.py<br/>clasificación"]
+    TESTS --> GEN["📰 generar_informe.py<br/>RSS → markdown + web"]
+    GEN --> COL["🔍 collect_signals.py<br/>GN + RSS + HN + Reddit"]
+    COL --> LLM["🤖 resumir_groq.py --max 24<br/>resumen del día + traducción"]
+    LLM --> MOD["🏆 actualizar_modelos.py<br/>LMArena + OpenRouter"]
+    MOD --> ADD["git add informes web public"]
+    ADD --> DIFF{"¿Hay cambios?"}
+    DIFF -->|"No"| SKIP(["Sin cambios"])
+    DIFF -->|"Sí"| COMMIT["commit bot → push main"]
+    COMMIT --> DEPLOY(["▲ Vercel redeploy"])
+    style START fill:#8957e5,stroke:#5a32a3,color:#fff
+    style COMMIT fill:#238636,stroke:#0f5323,color:#fff
+    style DEPLOY fill:#1f6feb,stroke:#0d419d,color:#fff
+    style LLM fill:#d29922,stroke:#8a6116,color:#fff

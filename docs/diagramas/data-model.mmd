@@ -1,0 +1,57 @@
+erDiagram
+    USERS {
+        string id PK
+        string email
+        string name
+        datetime createdAt
+    }
+    SESSIONS {
+        string token PK
+        string userId FK
+        datetime expiresAt
+    }
+    ACCOUNTS {
+        string userId FK
+        string providerId
+        string password
+    }
+    REPORTS {
+        string slug PK
+        date fecha
+        string markdown
+        json secciones
+    }
+    MODELS {
+        string id PK
+        string name
+        int rank
+        string source
+    }
+    SIGNALS {
+        string id PK
+        string title
+        string source
+        string url
+        string summary
+        string resumen
+        string tema
+    }
+    SOURCES {
+        string name PK
+        string url
+        string region
+    }
+    VIRAL {
+        string id PK
+        string handle
+        int views
+        string tema
+        string resumen
+    }
+    USERS ||--o{ SESSIONS : "inicia"
+    USERS ||--o| ACCOUNTS : "provee"
+    USERS ||--o{ REPORTS : "lee"
+    SOURCES ||--o{ SIGNALS : "produce"
+    SOURCES ||--o{ REPORTS : "alimenta"
+    SOURCES ||--o{ VIRAL : "monitorea"
+    MODELS ||--o{ REPORTS : "menciona"

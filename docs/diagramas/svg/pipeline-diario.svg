@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 387.2289999999999 1166.3110000000001" width="387.2289999999999" height="1166.3110000000001" style="--bg:#0d1117;--fg:#e6edf3;--line:#3d444d;--accent:#4493f8;--muted:#9198a1;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="START" data-to="PY" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,93.80000000000001 178.97975,133.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PY" data-to="TESTS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,170.70000000000002 178.97975,210.70000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TESTS" data-to="GEN" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,264.5 178.97975,304.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GEN" data-to="COL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,358.3 178.97975,398.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="COL" data-to="LLM" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,452.1 178.97975,492.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="LLM" data-to="MOD" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,545.9000000000001 178.97975,585.9000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MOD" data-to="ADD" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,639.7 178.97975,679.7" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="ADD" data-to="DIFF" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="178.97975,716.6 178.97975,756.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DIFF" data-to="SKIP" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="No" points="153.04458333333332,886.2758333333334 153.04458333333332,940.211 96.17250000000001,940.211 96.1725,1012.511" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DIFF" data-to="COMMIT" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sí" points="204.91491666666667,886.2758333333334 204.91491666666667,940.2110000000001 261.787,940.2110000000001 261.787,1012.5110000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="COMMIT" data-to="DEPLOY" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="261.787,1049.411 261.787,1089.411" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="DIFF" data-to="SKIP" data-label="No">
+  <rect x="80.67250000000001" y="947.211" width="30.718000000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="96.03150000000002" y="962.361" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">No</text>
+</g>
+<g class="edge-label" data-from="DIFF" data-to="COMMIT" data-label="Sí">
+  <rect x="246.28699999999995" y="947.2110000000001" width="30.718000000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="261.64599999999996" y="962.3610000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Sí</text>
+</g>
+<g class="node" data-id="START" data-label="⏰ GitHub Action
+cron 12:00 UTC" data-shape="stadium">
+  <rect x="110.58075" y="40" width="136.798" height="53.800000000000004" rx="26.900000000000002" ry="26.900000000000002" fill="#8957e5" stroke="#5a32a3" stroke-width="0.75" />
+  <text x="178.97975" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="#fff"><tspan x="178.97975" dy="-3.9000000000000012">⏰ GitHub Action</tspan><tspan x="178.97975" dy="16.900000000000002">cron 12:00 UTC</tspan></text>
+</g>
+<g class="node" data-id="PY" data-label="🐍 setup-python 3.12" data-shape="rectangle">
+  <rect x="99.83624999999999" y="133.8" width="158.287" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="152.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">🐍 setup-python 3.12</text>
+</g>
+<g class="node" data-id="TESTS" data-label="🧪 test_pipeline.py
+clasificación" data-shape="rectangle">
+  <rect x="103.54124999999999" y="210.70000000000002" width="150.877" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="237.60000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="178.97975" dy="-3.9000000000000012">🧪 test_pipeline.py</tspan><tspan x="178.97975" dy="16.900000000000002">clasificación</tspan></text>
+</g>
+<g class="node" data-id="GEN" data-label="📰 generar_informe.py
+RSS → markdown + web" data-shape="rectangle">
+  <rect x="90.57375" y="304.5" width="176.81199999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="331.4" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="178.97975" dy="-3.9000000000000012">📰 generar_informe.py</tspan><tspan x="178.97975" dy="16.900000000000002">RSS → markdown + web</tspan></text>
+</g>
+<g class="node" data-id="COL" data-label="🔍 collect_signals.py
+GN + RSS + HN + Reddit" data-shape="rectangle">
+  <rect x="90.57375000000002" y="398.3" width="176.81199999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="425.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="178.97975" dy="-3.9000000000000012">🔍 collect_signals.py</tspan><tspan x="178.97975" dy="16.900000000000002">GN + RSS + HN + Reddit</tspan></text>
+</g>
+<g class="node" data-id="LLM" data-label="🤖 resumir_groq.py --max 24
+resumen del día + traducción" data-shape="rectangle">
+  <rect x="72.04875" y="492.1" width="213.862" height="53.800000000000004" rx="0" ry="0" fill="#d29922" stroke="#8a6116" stroke-width="0.75" />
+  <text x="178.97975" y="519" text-anchor="middle" font-size="13" font-weight="500" fill="#fff"><tspan x="178.97975" dy="-3.9000000000000012">🤖 resumir_groq.py --max 24</tspan><tspan x="178.97975" dy="16.900000000000002">resumen del día + traducción</tspan></text>
+</g>
+<g class="node" data-id="MOD" data-label="🏆 actualizar_modelos.py
+LMArena + OpenRouter" data-shape="rectangle">
+  <rect x="82.79325000000001" y="585.9000000000001" width="192.37299999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="612.8000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="178.97975" dy="-3.9000000000000012">🏆 actualizar_modelos.py</tspan><tspan x="178.97975" dy="16.900000000000002">LMArena + OpenRouter</tspan></text>
+</g>
+<g class="node" data-id="ADD" data-label="git add informes web public" data-shape="rectangle">
+  <rect x="80.94075000000001" y="679.7" width="196.07799999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="698.1500000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">git add informes web public</text>
+</g>
+<g class="node" data-id="DIFF" data-label="¿Hay cambios?" data-shape="diamond">
+  <polygon points="178.97975,756.6000000000001 256.78525,834.4055000000001 178.97975,912.211 101.17425,834.4055000000001" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="178.97975" y="834.4055000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">¿Hay cambios?</text>
+</g>
+<g class="node" data-id="SKIP" data-label="Sin cambios" data-shape="stadium">
+  <rect x="40" y="1012.511" width="112.345" height="36.900000000000006" rx="18.450000000000003" ry="18.450000000000003" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="96.1725" y="1030.961" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Sin cambios</text>
+</g>
+<g class="node" data-id="COMMIT" data-label="commit bot → push main" data-shape="rectangle">
+  <rect x="176.345" y="1012.5110000000001" width="170.88399999999996" height="36.900000000000006" rx="0" ry="0" fill="#238636" stroke="#0f5323" stroke-width="0.75" />
+  <text x="261.787" y="1030.961" text-anchor="middle" font-size="13" font-weight="500" fill="#fff" dy="4.55">commit bot → push main</text>
+</g>
+<g class="node" data-id="DEPLOY" data-label="▲ Vercel redeploy" data-shape="stadium">
+  <rect x="188.20099999999996" y="1089.411" width="147.17200000000003" height="36.900000000000006" rx="18.450000000000003" ry="18.450000000000003" fill="#1f6feb" stroke="#0d419d" stroke-width="0.75" />
+  <text x="261.787" y="1107.861" text-anchor="middle" font-size="13" font-weight="500" fill="#fff" dy="4.55">▲ Vercel redeploy</text>
+</g>
+</svg>
