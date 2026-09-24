@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:38:55.151959+00:00",
+  "generated_at": "2026-09-24T21:46:29.760327+00:00",
   "count": 206,
   "sources": [
     "AI Revolution",
@@ -21,7 +21,7 @@
     "Google News — IA global",
     "Hacker News",
     "Hugging Face",
-    "Microsoft Research",
+    "MarkTechPost",
     "NVIDIA Blog",
     "Nature Biotech",
     "OpenAI",
@@ -31,28 +31,11 @@
     "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News",
-    "The Verge",
     "The Verge AI",
     "Wired",
     "arXiv cs.CL"
   ],
   "signals": [
-    {
-      "id": "94821214578f",
-      "title": "OpenAI hackeó el sitio del gobierno australiano de Medicare, sondeó a los proveedores de datos",
-      "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-24T05:38:53-04:00",
-      "title_orig": "OpenAI hacked Australian Medicare govt site, probed data providers"
-    },
     {
       "id": "135452387bd1",
       "title": "Tencent lanza una aplicación de pago para viajeros extranjeros antes de la cumbre de la APEC",
@@ -102,20 +85,53 @@
       "title_orig": "Digitale Sicherheit: KI-Agent von OpenAI hackt sich eigenständig in australische Regierungswebsite"
     },
     {
-      "id": "affe655de199",
-      "title": "En la ONU, el jefe de Anthropic promete \"reducir la velocidad tanto como sea necesario\" para garantizar que la IA \"sea segura\"",
+      "id": "0cca4522ee68",
+      "title": "Un agente de IA de la compañía OpenAI se infiltró en un sitio del gobierno australiano, un incidente \"inaceptable\", denuncia el primer ministro",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQZjJzVDg5QjBEZXp4bHpSa0JGVEwwamZuQzNwX2VrVE5RU3NrZzkwN0oyQlNpYjlYRHhRUk9kaUl5dFhqMFFsTm1JZGtQT182Z0cyVWdmN0xqbDhLYnlMNV8xcUF1bWoyWi1kUmlZSS1hNjVrVVF3WVgxZVFwSEpFUFltV1FtMGFDLWxISGp1LVJMVXplQ3JDOUJXVjRwZmcyUzZETnNfaE14enZSMzE2akJFVGw3aVFUcU8yZDI0b1lLQ0NWb2hCOFRUSE9QTlgwR1k4QnZiNkZ2Vkl4c0xBdFE0MkFVRHZ5ajVSVU1ucVRqZWRkU0xzSy1VcEVCOTZ1TkNpbEZfUUc1NnEwTms1LWZ4V2h0NXRQcndWV0RuZXdyWjNuUkhz?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNczRRR1pjNVQ3d0NVbWMzSWptaS1GMl9KRUFVT3BReHI2blA1aGdlV0RNQWFIUGxXMEpTWFczZ010WTNoX3VoUVZ5QV9WZ2FkQVJIVF9aaVRKQUJDVGdCV2JjOW8yYWdxUUoxd3NYWVhQbUZ0SU90VG9PNTFwVF9qRjM2bEItbkRveEprRzM5RTZCVktOdVpsWVI3eHhVZU5rQlN2ZzItcmNnc1B3TGJsc0dVZzh3bHFhdUFiQk41ZFlLQk83UnhNTU1SN043eXNtM2Y2RWxZNWtfWmNxNi01Y3NqM1d6ZlkxOXYtX0ZoZ291a3ZEcDZzVm45RllvZ0lfTzJ1Mm9OOE1SUWprRUdDTGc1aw?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Ouest-France",
+      "publisher": "Le Monde.fr",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-24T01:10:49+00:00",
+      "title_orig": "Un agent d’IA de la société OpenAI a infiltré un site gouvernemental australien, un incident « inacceptable », dénonce le premier ministre"
+    },
+    {
+      "id": "0c371243ae9e",
+      "title": "IA: en la ONU, los jefes de Anthropic y OpenAI instan a la vigilancia y la cooperación",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOenRUeWE0SUNCRk1tWExGal9IWnpqWk5ZXzE2c0g5dF84czhKN2ZFaXo0SFBoQjZrNXJwVWtOb2ZMQW80bWxnbVZUZUpCSDIwRzRVNVZzWGhOQmZjTVNEUmZUOEhYZ3lkcE5mWURwOWF0MmV5WEFrcl81YVh6RmRKRGluMnNkSXZiV050UmxUWmRmb3AzZ1VsbXBCNkpJVFVNa3lvVzc1UU93S0NqeXN3YU9zMUY5bGhOS2ZLVlhYR0psZ1FvblRsNU52TUw0dDRMZ0ZaeDJZaTNpdURfLTRfTWgycGxlUzhP?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "France 24",
       "region": "west",
       "country": "france",
       "models": [
-        "claude"
+        "claude",
+        "gpt"
       ],
       "source": "news",
-      "published": "2026-09-23T20:04:38+00:00",
-      "title_orig": "À l’Onu, le patron d’Anthropic promet de « ralentir autant que nécessaire » pour s’assurer que l’IA « est sûre »"
+      "published": "2026-09-23T20:59:38+00:00",
+      "title_orig": "IA : à l'ONU, les patrons d'Anthropic et OpenAI exhortent à la vigilance et la coopération"
+    },
+    {
+      "id": "5fec8715050b",
+      "title": "Google lanza Gemini 3.8 Flash TTS y Flash-Lite TTS con diseño de voz basado en avisos",
+      "summary": "Google has released Gemini 3.8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio. Flash TTS designs new voices from natural language prompts across 100+ languages. It ranks #1 on Hume AI's Voice Design Benchmark with a score of 71.4. Flash-Lite TTS targets high-volume dubbing and voice agents at lower cost. The post Google Releases ",
+      "sourceUrl": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T20:20:12+00:00",
+      "title_orig": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design"
     },
     {
       "id": "4c4abcff4acd",
@@ -262,6 +278,22 @@
       "title_orig": "Introducing MentalHealthBench"
     },
     {
+      "id": "8ef31ccf0de5",
+      "title": "OpenAI lanza GPT-6 Sol y Luna: precios y puntos de referencia de API un 50% más baratos",
+      "summary": "OpenAI has released GPT-6 Sol and GPT-6 Luna, 2 lower-cost models trained with methods similar to GPT-6 Astra. Sol costs $2/$10 and Luna $0.10/$0.50 per 1M tokens. Both are available now in the API, ChatGPT Work and Codex. They come with improved prompt caching for long-running agents. The post OpenAI Releases GPT-6 Sol and Luna: 50% Cheaper API Pricing and Benchmarks appeared first on MarkTechPos",
+      "sourceUrl": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-23T05:18:36+00:00",
+      "title_orig": "OpenAI Releases GPT-6 Sol and Luna: 50% Cheaper API Pricing and Benchmarks"
+    },
+    {
       "id": "1dd9ce125c6e",
       "title": "ChatGPT Ads se expande al sudeste asiático y Taiwán",
       "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
@@ -327,24 +359,23 @@
       "title_orig": "New Anthropic, OpenAI models make same promise: A little more for a lot less money"
     },
     {
-      "id": "a24ccf40970c",
-      "title": "Alibaba desvela “el chip de IA más potente de China”",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMGZtN1NoZUx1TkNFRWRvZE81OWlieVZFYzBtYXB1QjVUdmtrRE1zUUNmelVvTDZQcFBXcTBxSW1ucFJwZC1MSllULVlHNnVfMk5KYS0yUG40Yl90WXByRWN0Q1F6azYwUWwxSjNnSl9zTEFQbWN6enJlbVNHSWhjS1NiRVJaZUV0MU1FalJ5eEt4ZGl2YlJIYk1hWHc1YWlmYjdrSUNTYmM5MW5vSE5CTklvcWlpOXIzYklpaDJKY0hGXzB4ay1WdTFGYw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Courrier international",
-      "region": "china",
-      "country": "china",
+      "id": "8158ae47c8ab",
+      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+      "summary": "Anthropic has released Claude Opus 5.5, the first model in its new Claude 5.5 family. The team states it performs at the level of Claude Fable 5.1 on most work. It also costs 40% less to run than Opus 5 on typical workloads at default settings. On Anthropic’s own benchmarks, it leads in agentic coding, […] The post Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Runnin",
+      "sourceUrl": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "qwen"
+        "claude"
       ],
-      "source": "news",
-      "published": "2026-09-22T14:35:36+00:00",
-      "title_orig": "Alibaba dévoile “la plus puissante puce d’IA de Chine”"
+      "source": "lab",
+      "published": "2026-09-22T18:59:35+00:00"
     },
     {
       "id": "98acfe91fd30",
-      "title": "Transformers ahora ejecuta llama.cpp quants",
+      "title": "Transformers now runs llama.cpp quants",
       "summary": "",
       "sourceUrl": "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "sourceLabel": "Hugging Face",
@@ -355,8 +386,7 @@
         "llama"
       ],
       "source": "lab",
-      "published": "2026-09-22T00:00:00+00:00",
-      "title_orig": "Transformers now runs llama.cpp quants"
+      "published": "2026-09-22T00:00:00+00:00"
     },
     {
       "id": "dd159ca5bed4",
@@ -364,7 +394,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMzVFUTBFNzVidWl6VUlISWN2dXJnS0NUTjFORHFhWGMydEZhUWhkd1d4TURQNGRFaF9KZVBqX3JRVjRaUmUycm5Ockwwd2s1S1FGLWtGWEJMSmhXaUE1QUNUNGFDbWp5X3hTTGFHckdiMWNGS3ppQ2ZDemJGY2N3VHFqczBnbTJyN21mcnkzV0J1dzU1czVoNF9ObmFvbGpkTHYxeDR2bDBkVGt2XzlSVEs2U0RoZk1QWDdQNmdGSkFBSGNkdkHSAcsBQVVfeXFMT2FDX1FOa21EWVpMX0N1dmdZN1JYTkZ6Y1pCWlQzU1ViNjRTZDB6RGNReXp5RF9QZWVwclZ5bDk1UjVEZU1uZFhTWkRqYi1LWW0zODVJMWoxU2VtMUhrLU1kMEs3ajJUTzVlMFNka25iYkF5dWd4ekZxSk1Bc1RtYjhhSE5zWUNFXzRsbHNZUEF2RzV2UUR2S09DcGhnNFpxNHVfOWFUR2pVbzlqWkE0T0xKYzhXM0xaUzBzZm9sTXRjTmJ1V3ZhaE41SWc?oc=5",
       "sourceLabel": "Google News — IA China modelos",
-      "publisher": "xataka.com",
+      "publisher": "Xataka",
       "region": "china",
       "country": "china",
       "models": [
@@ -454,10 +484,10 @@
       "published": null
     },
     {
-      "id": "69d34719f9a1",
-      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
-      "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, […]",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+      "id": "ee9698a7fdb9",
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 […]",
+      "sourceUrl": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
       "sourceLabel": "The Verge AI",
       "publisher": "",
       "region": "global",
@@ -469,11 +499,11 @@
       "published": null
     },
     {
-      "id": "ee9698a7fdb9",
-      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
-      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 […]",
-      "sourceUrl": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-      "sourceLabel": "The Verge",
+      "id": "69d34719f9a1",
+      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, […]",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+      "sourceLabel": "The Verge AI",
       "publisher": "",
       "region": "global",
       "country": "global",
@@ -570,17 +600,17 @@
       "published": "2026-09-24T23:22:43+05:30"
     },
     {
-      "id": "8cf6bc7f56a6",
+      "id": "d0a609e313d1",
       "title": "Trump, Xi meet at White House with trade, AI and global tensions in focus",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHlTT1VNcEFrWUFqTkxpX2lBN1JOcWdjV2dmZkhTaEN6clRCVDFwZUlRVVpOX1RrSWZ6em1fMk5JZEowMlRoZkpyLWZ2S3VnNEpMbGRwSDh2VmtTVTR5RVdGZTdwSW94ekttc1lDV200dXN1Mm5xbTBGM05pNlc4NjJYYi1RRXEwT1l2d1h5ZnlNODVWd25NMDJBcjQ1bXdab3Qxb1hxMjNqMjh1dHFJVnVvazgxR3h3Zms0VQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNczJ6OGhaXzBqRmdaN2ZfN2E1U2tSdV9aOFpZM0ROdmk0eEI1RzJ5NTdBRHIyTFUyWTRIcVNrOHd5MGVwbGpwRFpFVlRBMUJvbHJsYXlFN0tmVmQ2b21NUFNINXpUNGQ4NEJZTzE2aVZEa3NhTGNpUk5HWTEyOXhIeDFpX0x1LTRYMWdIU1NDMlZud1g0Ykc1M0xoRTVNYnFOUDFOc096MDdXYWhvTFF6QlB4WFdQRFNGR013WUxPdDUxS0hHazU4eUUzQUF6NTE3SWdkV1hrQXhBdw?oc=5",
       "sourceLabel": "Google News — IA global",
       "publisher": "KATU",
       "region": "global",
       "country": "global",
       "models": [],
       "source": "news",
-      "published": "2026-09-24T21:34:13+00:00"
+      "published": "2026-09-24T21:38:16+00:00"
     },
     {
       "id": "9ad5b9dd0fda",
@@ -588,7 +618,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80YUpRamNpcTVCSEZTamE1dV94M3BVeDhZMUFNLUxQUi1BM0VISlpWcG5WVC1SZ3o3cEJLaWFwelF6UVFvX0tVc2VIZTdnaHNpdGRiUUR6VU5ibkNMbTFBUlpRR1JVZHV1d05kRWJ4RzN3WjZRWTEtdQ?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "theguardian.com",
+      "publisher": "The Guardian",
       "region": "global",
       "country": "global",
       "models": [],
@@ -960,17 +990,17 @@
       "published": "2026-09-24T19:00:42+00:00"
     },
     {
-      "id": "c516348ffaeb",
-      "title": "The turbulent AI era is here. The choices we make now are critical.",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gates Notes",
+      "id": "b0b00da04cc4",
+      "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+      "summary": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewer thinking tokens across 12 benchmarks. Macro accuracy moves from 86.65% to 85.79%, and long-context AA-LCR improves by 2.25pp. The model is a drop-in replacement on vLLM and SGLang, with FP8, NVFP4, GGUF and MLX builds. The post BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking To",
+      "sourceUrl": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
       "region": "global",
       "country": "global",
       "models": [],
       "source": "news",
-      "published": "2026-09-24T18:59:19+00:00"
+      "published": "2026-09-24T18:58:56+00:00"
     },
     {
       "id": "10413b9bf540",
@@ -991,7 +1021,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNclRDdWtPcVpQV0dTYVhkZ1dIUWp4Zk03ekNUUGNtcmVUbU1XaWF3WEw3RTlPM2ZnZ3lDd19DTWxqcFpPLTlHNkthQnB4c1RJandheXdMRi1ZakZXemE0TlRMT3FCNW5ldzlYRGktVHdYZ3FkWUFwTlBDTTBFY0dGNm1PZmFFbUNfeWluSEtSNmVSb3FrZi1USGJoNW5ENm9nbmlSQXltbWVfeWFuZ29Lcm51TWpER0pwZk5oZXBsZ2RkbkdVZW1ZWllPVlRVWFlBc2lpUWI2Q3ZKTUdrYUpLS0EwY0hNQVBTd3N3ZnFKcw?oc=5",
       "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Lo Barnechea",
+      "publisher": "lobarnechea.cl",
       "region": "global",
       "country": "global",
       "models": [],
@@ -1064,10 +1094,10 @@
       "published": "2026-09-24T18:11:44+00:00"
     },
     {
-      "id": "1120f78b9b2e",
+      "id": "41b23a3d022e",
       "title": "Diplomats ordered to use ‘super intelligence’ instead of ‘artificial intelligence’ in Trump push",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONGozbTN6WUprdTNWTzFEemhVemQ3Zl9TTXBWVy03QVFxVnpweldHRU1hUmtOa3Y0ZHlXNGFRRkcxTzJaWEQ2ZXotVHFnQkpVUUxHT2xjYnJpa1YxdDBsSEFzNUJhRjQwSnhNcTF4R0NzTjlYTE80YkFVWU85eEVFYUsxekVJcHJ4V2JSNQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONGozbTN6WUprdTNWTzFEemhVemQ3Zl9TTXBWVy03QVFxVnpweldHRU1hUmtOa3Y0ZHlXNGFRRkcxTzJaWEQ2ZXotVHFnQkpVUUxHT2xjYnJpa1YxdDBsSEFzNUJhRjQwSnhNcTF4R0NzTjlYTE80YkFVWU85eEVFYUsxekVJcHJ4V2JSNdIBkgFBVV95cUxNQUNPOEgtT1F0UXB1YW9rcGkwcVZWckhwN0k4bTVXdWV1aDV6MVh1c0hKR1hVVGtPWDNpMlQtZ1ZZOVV0clg3dU5XaUJKTUhabGU3Y3lFZkFPRTNxUzFyUTcyRkY3dm1TREFJdFB2Q0ZPM2RYcE5mZUFIRmN2YTBBY3VnWE51MUtBXzV5UFY2Z3poUQ?oc=5",
       "sourceLabel": "Google News — IA global",
       "publisher": "The Hill",
       "region": "global",
@@ -1342,7 +1372,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQV25wYlJpRXZIVDNKT1N5NFpKSmhsNmQ5NTV2RGpQYUg2S29aUW9aLW8yUW5mSkNEUG5PdWh3MTZoWFAxZmJzQ2FqVk1YRWxYaHJFZU02U2VzUFJJOUdzNDJsRWt4QVk3ZFhaTDREdzdRb1FBSmxPX2Z6cTVrOEhaU1pzbUprVkFiTUsxZGo3SXU1V1JZNFF2alFLeWVVUFZ0MXpjWTFqazlMTTJ3eDNJNWRRQlJpb0hwbXR1V2tjSWNXVnFtRG01SHFhWWttdjBSSFpxVWJxTG9MUG5GQWtrMGw1N3N3djQ0WnBRWWY2aWd1QmYtZ0xaaktONkZFaDB1THV2VEpNWFRQczVrcEhsdG5DWmg?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Radio France",
+      "publisher": "radiofrance.fr",
       "region": "west",
       "country": "france",
       "models": [],
@@ -1389,6 +1419,19 @@
       "published": "2026-09-24T16:03:36+00:00"
     },
     {
+      "id": "c516348ffaeb",
+      "title": "The turbulent AI era is here. The choices we make now are critical.",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "gatesnotes.com",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-24T16:02:21+00:00"
+    },
+    {
       "id": "e931846b0f74",
       "title": "[권희춘 교수의 재미난 인공지능(AI) 드론 이야기] (9편) 드론에게 눈(카메라)을 달아줬더니 세상이 달라졌다",
       "summary": "",
@@ -1420,7 +1463,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xZEFTLXZnOERIX3lNYlpFaUl3SzlvSTFwTWJQVWViLWhtSlhKMjU1SnFxZERCNlRsZ3RBSU11SHUyanV4S0RzWkdMeHBHbmZld0YyVGk0U0tYSkpaVVNsd3F0LXdGZDVmZ2F5ZlJ4VTBXTl9Kai13OA?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "CNews.ru",
+      "publisher": "cnews.ru",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -1452,6 +1495,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-24T15:48:20+00:00"
+    },
+    {
+      "id": "db32a8121d51",
+      "title": "OPINION. « Quelle place donnez-vous au droit d’auteur à l’heure de l’intelligence artificielle ? », par Cécile Rap-Veber, directrice générale de la Sacem",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPQ1p6bl9sT0w3bTQtb3VMemRIQnIxUFhlV0lua0lDbkNfbEVQbUhURVdfdU9hSjByMGM3ZkxpSXFFUVVMbHlmaXNSSVF2NWZvTEFPTFJFS1UzWWRaR0FUQS1HZHFiZVg0MTQ2RElEQVhyc0J1WXpCNU9vcDBNU1pCWGtRVDVWbnIwWWZpcHVsaUlaZUNITUR4QzNBZEhTYWVyTS1xT3A3MUpHcms0WUtZSzhTR1BMaEo4M2steVJxUnpEZUxCa3MxcVV4MmM1aElTOFdvY2tJTEMxeHBLZUpaenc0UXM5Vmx0QVNPTG5wM09MT2tKbm51ZDZLTTBLRjZxY3EyeDVSUUx0NUdtYUcyMVZ3NkdfdEpsYVNaaFh1cXNNV0tEbWljUEJseTdDMHRSZTlmeHgzSDI5SV9rWjNwbmYtZw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "La Tribune",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-24T15:33:18+00:00"
     },
     {
       "id": "a263df88fb0b",
@@ -1558,43 +1614,17 @@
       "published": "2026-09-24T15:01:22+00:00"
     },
     {
-      "id": "5b513703eb7f",
-      "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
-      "summary": "Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off.",
-      "sourceUrl": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T15:00:00+00:00"
-    },
-    {
-      "id": "6e04c06ad184",
-      "title": "La Chine et les États-Unis ont la responsabilité de « mettre l’intelligence artificielle (IA) au service du bien », affirme Xi",
+      "id": "36a24e90610e",
+      "title": "« Après le débat sur les risques des IA, un autre sur leur “conscience” se profile dans la Silicon Valley »",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRUxSY3YxbDZld25OMkZpelFGU2VibFNUMU1fX2Q4TmRTc0l6SDlEV1I0UE9UbUtjUVdZeEhJUXVGYkR0dDdGUWFEQ0dVbTdqclQzT0F6b0dUUGtRNjlna2E2OGNwbUR3LVlya0hrdFJrbDFlaG90YVpLbm1TQXpCRzFwRjVzRlhoTjBvTE95eExTakFoS0lmV2VDRWNzdENtN21XcFRXRXhtbGhSemgzR3JPdWpCQ1pmcTNvektoREFOWkJlVlhlU1g2ak00R0pBV2xQX2dqdDBILXJ1amVPY2ZWdmUxamlGc3dNZA?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOS0Y0ZzhOTHFUOENCTncyOUJRNTE0NzhocUhZNnhXT1FpSTNfT0RyX2k2LUlsSEE5WVNSSFhmSFRYZk0tc0tjcTlkVDlhaWVPVk5PR3dzMW52cjRfd1AzejIwVTBZcjdaVnh4SDdVRllqelp0Zmsxby1FdkYzMHpneWFnclJTTk9FTnc5djFfa3h3ZDJiZkZ3ejhVYzFqejRlUmhpZEdxV2psRW9mRm0zTy1QNkU1LXJSZjdYVURZN2pzckZzNF9PR1pHby1aVXBBTU8zOGEtOFF3RUdTYWFqVEE2Z05kYzRkM0w1WFluSVVrbzR6enJ5VVNn?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Zonebourse",
+      "publisher": "Le Monde.fr",
       "region": "west",
-      "country": "france",
+      "country": "usa",
       "models": [],
       "source": "news",
-      "published": "2026-09-24T14:57:21+00:00"
-    },
-    {
-      "id": "bbcb3053872f",
-      "title": "El estudio que utilizó Kast en la ONU para resaltar el impacto de la IA en la economía chilena",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSVdMY0h4aGp3eFlWSVc2WWJyUmdCeWROdncxM1RPeEJvN2tTelRIaDYwM3IwRG1ibjl1LWJhVWJRSDV1VWZudlE2YXliVm1DSDBqeTRQNWtPanp4TnNtVi1RTFBGaEIzbGhVN21FM2VHY2JGMmhCRXVITGFBUGdTX1kzam8zNnRLUktETnFNclBRWGI3YU81d1FXTUJqRXI2SDg2RXZxMFJXMnlmZm1kZHNwdUpKdjhHdndDcWpOeGZ5TmtfOUpVYVNHaU04WnZD0gHyAUFVX3lxTE8wRW4zMWdlbW9RbnF1MzdYN09WdWJ6N1B4RmlVMTZTRTQ5Vi01aXVSaDdLbUQzSmZodFc3Vkt2VmJvMDZSR1NlWThnZUZmbHczdjdQeEFVY3VHdlRTQVk5ZEY0aTlCM05mc3c4Z2hzQ0Q3Skpub1EwRzVlSFlsajNZMDBWblg5eGRqQ2J2ai1GS0hDTk9KS2NjZHpCS3lVSkZGNDF1Sk9SbFo5RjBSZVZZTGtjQ0xWMjVKYl9adXc4ZnF1bjZMVFdVeDlKeXBhX0dvTXpldFhETlJMRVZHZEJiWXVlVVI5b2JzcTNYZUtWQVZR?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "La Tercera",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T14:57:16+00:00"
+      "published": "2026-09-24T15:00:24+00:00"
     },
     {
       "id": "17c003a8137b",
@@ -1602,7 +1632,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMThMd2ZURlVmOTRpS0dzNmNSSFVfZ1dzNDZrd19YTUprcTA5dHM3NkFRekJsemdBd2hmak9INnpYSWlncXRVd1VpVkM0TnQ4OXFET3Jpb2xxd054cVJWLUt4WFlQSmxYTU5VdEJXbEhHbzRILTRuQUY1LWtKMmZwRF9VdzZCRUN4UVpoZmtBMF92dWRCUm5Pbkt5OHlnNXpQeHpzcWpkZWU2QngxNWJMWWNMS2pCd1BqeXZXYno4cms?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "Bloomberg.com",
+      "publisher": "bloomberg.com",
       "region": "west",
       "country": "usa",
       "models": [],
@@ -1647,6 +1677,32 @@
       "models": [],
       "source": "news",
       "published": "2026-09-24T14:49:50+00:00"
+    },
+    {
+      "id": "953dc59f8513",
+      "title": "Schulen in Bayern: 80 Prozent der Gymnasiallehrer nutzen KI",
+      "summary": "Schulen in Bayern: 80 Prozent der Gymnasiallehrer nutzen KI - Bayern - SZ.de sueddeutsche.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOFBkTkp0OENrYkZMdURreERKOGNzLUdKQV9DQkdQX1BUM0xZcTFJcE5LWFpfMG0yY0tDb0Z0SnNUN3BERTViejZ0Z3BaSUs4dGMwQV9MeHNlWEFlMklGY05VTE9pTTYxaENheUxZclhPQzM3TWNiNENqdG5kSURkelltSXVLZ19SdThPamY5SmRWXzVGX2xNeGRUNEY3Q3prSXRtOGhoc04?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Bayern - SZ.de - sueddeutsche.de",
+      "region": "west",
+      "country": "germany",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-24T14:44:05+00:00"
+    },
+    {
+      "id": "767748fae5b0",
+      "title": "Japanese used bookstores see 5x sales surge as books are being bought by the ton, one 50-ton order sent to the US for AI scanning and destruction — multitude of suspicious bulk buys thought to end up in foreign AI scan and shred facilities",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisANBVV95cUxQVFllYWRSRDM4UWxYWlJLZE1DNG9OMzhLMDBsV2VTdjVEZEdPTVRxbXlianBSSng0c3Zab0RYMnRjNWdYakQ0TzJIYnVPQ0RZX3NNTmlFUExnQlgzY2tBdmtqNDNVcmE2X3cxTmp4UTI2TmIwczhxRVkyRmNfdEhXdkNMUzJkM0NOSUNoMkRZWjRmdXl3b0UzVHlMMk92enN0U2RCakFGOVloRzQ1aVoxTGtaUUdaSUdveGlvYUNPNm1rVVd3enlGQmlVWWVhVkJZQlF3Qkt6bUg4WGI5SHotN0dzMHRtSEYwNHlxWFZRd2pKNVoyUjh4ck96MGdna1NaaWRvcGxMYVQ1UkY0YWRTY191MzBPZmh1NHhLVktWVUpILU9lLUtUdFZmMmdJY2FFVjZfazFNYXlaZUprLUZtQll4WWZXd0p5bGdIRWNXZ0JPYXdZajBoUlZEOTVEMHF5NWkyWk9MWURxa25XNTR6YXdGT3lEUWdZWG1vdXAycHNKM21qaUlqcEpwV3Z3RjlhZU5pSkItcGFkSUZMRDFhVTJCTkVnYUx5TFNjU2dMTTQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Tom's Hardware",
+      "region": "west",
+      "country": "japan",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-24T14:35:12+00:00"
     },
     {
       "id": "6832f654b475",
@@ -1706,7 +1762,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPSFo0UXpVaG9yMXJYdkJJNm5uVmVmZVp1aFhWNkhWUTNUOXJzZFVxcTAwWlk0RmhkWk9raFNVUFdJV3VlQ2RiM2F5bjQ4ZWpCV2NuWVlFUmF3eS13bTh3aE9EWGprcXRHaDAwYjVB?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "xn--80aeeqaabljrdbg6a3ahhcl4ay9hsa.xn--p1ai",
+      "publisher": "Президентский Фонд Культурных Инициатив",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -1714,12 +1770,25 @@
       "published": "2026-09-24T13:59:15+00:00"
     },
     {
+      "id": "edd60673360d",
+      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "summary": "Comments",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
+      "published": "2026-09-24T13:53:29+00:00"
+    },
+    {
       "id": "929d8b8de721",
       "title": "CSIS｜全球AI治理走向“三轨并行”，中美对话找到交集了吗？【智库观察】",
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LYm5lZEdGalZkNWR3c3pDVWszckk4UXBmdnZfdXBHQkZQYUdFWXZqeG84clE2a0U2Z3BZOXo1RVRTNFhsU1gxYg?oc=5",
       "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "智源社区",
+      "publisher": "hub.baai.ac.cn",
       "region": "china",
       "country": "china",
       "models": [],
@@ -1745,7 +1814,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ObkFnU3lHS0xWZDc1ZXh6X1JNNVNLQWFvS2FDWlNhZGcwT3B0R1ZiSEtUSEd5ZDUyVnhPMi1DM3VnU0ZmZkluRnozVzJwd1RjVHY3QWJReFBwNWJmUkdWMVU1ZXJNMHlF?oc=5",
       "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "news.cnnb.com.cn",
+      "publisher": "中国宁波网",
       "region": "china",
       "country": "china",
       "models": [],
@@ -1875,7 +1944,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WTlhUemNLU3pzcVZpbnFzbUxwak9ydnJ5eDNtTjRoRXJVcWptRU1FVTh2SnRqYV9BWlBCb3IweGd4R2tLTjJaQVBPWlplYXlEMHRxQU9QekJON0Z1QkNDeE5nbHh5NE5CcXhoS2Z3?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "unric.org",
+      "publisher": "Unric",
       "region": "west",
       "country": "france",
       "models": [],
@@ -1966,7 +2035,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVBxcTdsRWFIY09IU2h5dHBzRTFGSTR3dmpZb3lyd0wta0h3NFV5NUNOZlR1S3k1S2lJbE9fS2hWWW5xRmVrdmdGZTdvTXg1ZEgwQ2oxQVhxR2Z1STNoRWQxcmJnODlkRnp2VEZRcEg3TU0xbkFfYjJoc2o3SUE2dkh4ZTB3bDVNZ0JIX0ZoX1V3ZERHWENncUlpUWFicVZZU2lN0gGjAUFVX3lxTFBYa19HWWZDem94bUZtbThPenR6MlFqWFBDUGEyMlowTDR0VVZWVUJ2eDdaT0JPNDN6ODRTRE5wNW4xRy15Vnh6QzFjMFNiQXBXTlBaMnRlTnVTc2lSVXhIeHJEX05fc0tGWUJ2QXRsaFVGY0dUeVFTRENpUm5MZ2xHLVZobGZuS0IwbWlLcnVpdHgxNm1vMzB4SjlfdnMta1dkalU?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "DW.com",
+      "publisher": "dw.com",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -2005,7 +2074,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84OVJ3eFR4aEphQTZqZE4zS2VGS0lrUzFQWE5wbWRQM08xN2lXWkNWMWtuUmdpOUJVWFI0amtDQS1nQzBsMnBvbFZ2MWZ3Nm4yQ3ZaVmtFSFBaUQ?oc=5",
       "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "news.tongji.edu.cn",
+      "publisher": "同济大学新闻网",
       "region": "china",
       "country": "china",
       "models": [],
@@ -2057,7 +2126,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52V0VOTzlFQkI4TWROLU9FNC02TnM1UTFtcFVkeDNEOVo2MFVJV1VCSGNwYUJRSnota2lOZ0ZFMFoyTGhDWHRhZk0tcmpTVnZ4MmZZRGxwOWNKRHpYXzdXeldEV1FENnJMZ2V5RXlLWGVHYkt0MmxFdW5HZkpsUQ?oc=5",
       "sourceLabel": "Google News — IA Japón",
-      "publisher": "reuters.com",
+      "publisher": "Reuters",
       "region": "west",
       "country": "japan",
       "models": [],
@@ -2076,6 +2145,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-24T08:00:34+00:00"
+    },
+    {
+      "id": "eea65f2688d2",
+      "title": "Yoshua Bengio : « Fabriquer des IA capables de s’autorépliquer, c’est signer l’arrêt de mort de l’humanité »",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNeG9fQnNiU3hJYzNnYXhHcVpVay1mVWlDM3g4ZGVjZENfSVkxNHNkX1hOZDgtSkJfZy1vU0RIb0dDNHk0Z1RwLWpPN1hDcnp0Z1prX2xnSDNvdENFYVdQNUpUTUNjSUFuZHBnWVY5WEVOY1JURGI1b1dzd3ZGaFpjYnNDb09aMk9aVnctSDhiRXlFVk1EWi1lUlNXVjdoSk9ySGw3QjZoMWlzNENsUjBNWHgxR096VVd6b2Y2YlRVVUZRTXVPZnJOMlZJUmlGelUxWmVLY1Q3VUZfR1l3QTFuNkF2bElhRzZSeVRGSkRKT1pKR1U?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Point",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-24T07:56:50+00:00"
     },
     {
       "id": "0ecf90b90801",
@@ -2109,7 +2191,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmplYnRVNlpfaW1VWHpMeE16Y01kaDNIWUwxcjRucFdFTzJCWGNteHdxQXFLaVpidUtCbXg4ejEtbkphcHJ6MWVid1Q3cGFFOGhaTUZ5UHowMjdmZEtSY29Ea3lxT2ltbXV6U3RqS0ptcHhKZWk3OE8xVDZWTUpMX3M4c25LNS1xRFlJZTNFenBNMHl0MlJIQmxSR2R1cjNDdm1sZ290WU9XYTRCMnNxZDB3cUVtN3p5?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Logistik Heute",
+      "publisher": "logistik-heute.de",
       "region": "west",
       "country": "usa",
       "models": [],
@@ -2128,19 +2210,6 @@
       "models": [],
       "source": "news",
       "published": "2026-09-24T06:51:55+00:00"
-    },
-    {
-      "id": "21679671c609",
-      "title": "Keine KI im Depot: Diese vier Aktien sind unabhängig vom KI-Boom",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNFIyVnpUV0tsbVFZMi1mbTJHb0hIQTYyNWI4UE4wYkZuZWlQS3BhNVRtb2R5MkM5UGo0SnR1VjBJdmtnVEM4bjdDS2JMeDdaREYzeUlFV3dKb2RKbXpyZndya3hXUk4wR0VmTmhyV0o5dGJMbHVMazdmdE9SeEZBcmp3QWJ0YXRxSlVLQkpNZ05sWW93aG1MeS1VeWxORWpGRXNSZnFYRGgySW5DQ21HZmp6M1dRcEJUQ3dVcVRR?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "FAZ",
-      "region": "west",
-      "country": "germany",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T06:36:53+00:00"
     },
     {
       "id": "9c4b04187d0b",
@@ -2200,7 +2269,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BQVE0eDBYNG9qNmM3RzVZTWQ5d3dfVkRPTEt4N3c2amVLbTd1QWw2aEFfSzI2MXVqaXA2SkNlSHNLeVlOcmlyS1JqSmQ1ZEhzNGNPdjVBYkV0YmR1Wk52WDFucnczWEE1Zl9LM3JBREQzeUhod2R2Vw?oc=5",
       "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "finance.sina.cn",
+      "publisher": "新浪财经",
       "region": "china",
       "country": "china",
       "models": [],
@@ -2210,10 +2279,10 @@
     {
       "id": "46dbb2b3a118",
       "title": "Newsblog zu KI: Open-AI-Agent hackt australisches Regierungsportal",
-      "summary": "Newsblog zu KI: Open-AI-Agent hackt australisches Regierungsportal - Politik - SZ.de SZ.de",
+      "summary": "Newsblog zu KI: Open-AI-Agent hackt australisches Regierungsportal - Politik - SZ.de sueddeutsche.de",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZS12NnFId3FTRVR6VzY0eW9OblFEZnYxQktaYmxhRlU1bm1DdzJhVmNTQ09idnNESlNGWkFJWXVVc09Sa3pvNDBnUVlnLTNWcGU2R2dNZWZSLTNWXzZCYXp6dy1LbFBQd0EyMjluWWlaRGxSX2Rrc191NU8wRnBfV1l0aTUtcEltZE42T1A2SURtb3VqaHdlQzBDeTB4eWJ3aE9CMFFMOXpSeFZNWmVmQXZZc0ltQ2I2NTBCWHpCaU82T28?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Politik - SZ.de - SZ.de",
+      "publisher": "Politik - SZ.de - sueddeutsche.de",
       "region": "west",
       "country": "germany",
       "models": [],
@@ -2273,25 +2342,12 @@
       "published": "2026-09-24T04:02:26+00:00"
     },
     {
-      "id": "2241f1d719bf",
-      "title": "IA : le difficile dialogue entre la Chine et les Etats-Unis, plombé par la course à la performance",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZFFEd2FqTHBiekY1Y3NVcTVkNDdZa0I5bzZJMndxSmV2SFdFU0FQZFNWenJ6cjZBLVZEdjZWd0ZTMFlHdFNLTWdWbUtFdGFGZnlRc0xsdFRkdWFNam5CaDFuTUV5Mnl0NDBFNXNjbWxOWVZ6Z2NRWktMcUhxMjRGVXY4eTdDVi1kVmdUSjRtY3A0OGNQZDlZZGRSZ1NhUG5FMDIwZ2hYUFpFc2N3Vkd2SmhEcHZZR0l3TkV1eHVlbFJyVUpGcWIzdnh6TUZ0MjVlNlltTGlWTmROanJGempDQjZvVXhBWDRJai1wV0VTYUZZSW1iMURmN0hVd2hBaXFxU1FHVExIZXZzZjVOMTEtRVNGUU52UQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Libération",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T04:01:59+00:00"
-    },
-    {
       "id": "720b449adeec",
       "title": "재계 총수들 연일 'AI 메시지'…경영 전반에 '인공지능 DNA' 이식",
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5naUFnNkNpa1B1QjBiNVlaQktxSVFuLXdIU0dNeGd4WVZvMElvY0NuSGZvNWZVX3ExOW5PWVlsVDFxbE45cUZDZ0E4OEc5X2o4UXlibFNjQ1d4amJIV2N6OdIBeEFVX3lxTE16X2RiVVk5VHF3UWZ2LXF6NFhhWl9TU1FpdEJjRFo2WHB1Y3hEMzdxSzgxaEYzdlE3c0J2b3NjTk04UWs1TDVxb0JmU21WQUZ5WVVRaTd3b3hBRHh4dnIzcEs5MVd1S2V0SzZrbDJ5dEs0NEZxT3FKVA?oc=5",
       "sourceLabel": "Google News — IA Corea",
-      "publisher": "newsis.com",
+      "publisher": "뉴시스",
       "region": "west",
       "country": "korea",
       "models": [],
@@ -2481,6 +2537,19 @@
       "published": "2026-09-23T20:52:28+00:00"
     },
     {
+      "id": "e901427b8c1c",
+      "title": "Where Is the U.S. Beating China on A.I., and Where Is It Lagging?",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNem8xbkdnZmlJMGlOaG42RHkxRDZaT2Uzd0IyVGZ1MWcyM01YOVpEbDg4WkVIam9MSThGSm12SjlsaE1WUnp0a2VOTHdCd1kxSUZPXzliLXRmQ2g0Wl9jV2w5M21BNGdIVi1xb01ZMDBhbVRuTHMwWXBiWjF0T2FHWjVhSVFWR28?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The New York Times",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T20:05:47+00:00"
+    },
+    {
       "id": "a70f8ac64edf",
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
       "summary": "",
@@ -2507,19 +2576,6 @@
       "published": "2026-09-23T17:39:39+00:00"
     },
     {
-      "id": "c5e21f336237",
-      "title": "Offloaded inference for real-world physical AI robotics",
-      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-      "sourceLabel": "Microsoft Research",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "research",
-      "published": "2026-09-23T16:01:36+00:00"
-    },
-    {
       "id": "affa11854209",
       "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
       "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
@@ -2531,32 +2587,6 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T16:01:00+00:00"
-    },
-    {
-      "id": "e5abccb241d6",
-      "title": "Rails World 2026 Opening Keynote [video]",
-      "summary": "Comments",
-      "sourceUrl": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "social",
-      "published": "2026-09-23T15:33:33+00:00"
-    },
-    {
-      "id": "a1700d1f6b37",
-      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-      "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T15:00:32+00:00"
     },
     {
       "id": "a62ce2ee9d79",
@@ -2590,7 +2620,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3MzUGk2T0Nobm81V3ZrMnVncFo3OWpjMnMzSlowdFdUV1Q2c2FUa1ljVW1ranRQa1JKQmc2NEl5T2ppR0RKUmhxdk5ZQUlTcEZnUkZpSEZyMG5odFF2UFREUEpQUl9Va1lRM0lrWWdLSUc3RnB3SWc0c3J1QXZMSkV2LVRRWWFiNlV1X0RVWXJoeVJNODBZd1JXRFI2ek90YklHaXhJQnFidw?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "heise online",
+      "publisher": "Heise Online",
       "region": "west",
       "country": "germany",
       "models": [],
@@ -2611,19 +2641,6 @@
       "published": "2026-09-23T03:00:00+00:00"
     },
     {
-      "id": "301ba2c6df75",
-      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T02:30:22+00:00"
-    },
-    {
       "id": "62d96f2a045f",
       "title": "Rare look at the remote engine rooms fuelling China's AI boom",
       "summary": "",
@@ -2639,7 +2656,7 @@
     {
       "id": "dacec16bfc70",
       "title": "Thélyson Orélien accusé d’avoir utilisé l’IA pour son livre « C’était ça ou mourir »",
-      "summary": "Thélyson Orélien accusé d’avoir utilisé l’IA pour son livre « C’était ça ou mourir » Le Monde.fr Lire « C’était ça ou mourir » de Thélyson Orélien ? La polémique sur l’IA attise la curiosité des lecteurs huffingtonpost.fr Thélyson Orélien, soupçonné d’avoir utilisé l’IA pour écrire son roman, exclu d'un Salon du livre au Québec Le Figaro",
+      "summary": "Thélyson Orélien accusé d’avoir utilisé l’IA pour son livre « C’était ça ou mourir » Le Monde.fr Lire « C’était ça ou mourir » de Thélyson Orélien ? La polémique sur l’IA attise la curiosité des lecteurs Le HuffPost Thélyson Orélien, soupçonné d’avoir utilisé l’IA pour écrire son roman, exclu d'un Salon du livre au Québec Le Figaro",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPb0oyMlVGQXc0bnpFNDVLc3RBOTc1R25RemtRYWNNbC1FeFhBWHJmTDVwYVMtWlpNRjZYNjQ4NGhSY2VvS1lDbFhVZlZBRnk2V19jU1JWd1lxbjhSRkhlQ0ptZGREZmtrdkZVTVhGbzhyU3BEVUNJSlUzMTJsd0RBNmwyV1A5T2ZoMlp5MmZzTTFXSldXSXZwbUhqbGlGQlg0bnd0S3Q5SUlnZEZjclJrNVhja0lKNVY5eGRpdkhtLWkybVlsVkNpQWNyYVhQQVd4ZnI1ZzZDRFhBNThNdTl3WkdnTWU?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "Le Monde.fr",
@@ -2648,19 +2665,6 @@
       "models": [],
       "source": "news",
       "published": "2026-09-22T21:55:21+00:00"
-    },
-    {
-      "id": "69bd5b227657",
-      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
-      "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
-      "sourceUrl": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-22T19:45:47+00:00"
     },
     {
       "id": "5dc312452c0b",
@@ -2678,10 +2682,10 @@
     {
       "id": "7ef457c4cfec",
       "title": "Newsblog zu KI: Trump will Begriff KI mit „Superintelligenz“ ersetzen",
-      "summary": "Newsblog zu KI: Trump will Begriff KI mit „Superintelligenz“ ersetzen - Politik - SZ.de SZ.de",
+      "summary": "Newsblog zu KI: Trump will Begriff KI mit „Superintelligenz“ ersetzen - Politik - SZ.de sueddeutsche.de",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR1JOdlZuNm9GLUJkVVI2NnBWRUUtU3lDeHN0dGVrRTgyU1BiODRDUlB5Z2VhSU9NOXMxcXNzZ0xERTJGSFhFM1pUMXZyMC1TS0w4RkxIX3V4eVM1dFdWdjBCVUE1U2NGY0FCYjlwR2RMYUFEYkNxdVFoV0dDOGFkeG9zYndRNU1vc0xoMmFmVGFfUlN3TGxTdnJ1YlpKcFM3SE44ei1RMl81ekR5MVE?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Politik - SZ.de - SZ.de",
+      "publisher": "Politik - SZ.de - sueddeutsche.de",
       "region": "west",
       "country": "germany",
       "models": [],
