@@ -51,6 +51,15 @@ FEEDS = [
     ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews"),
     ("Schneier on Security", "https://www.schneier.com/feed/atom/"),
     ("Krebs on Security", "https://krebsonsecurity.com/feed/"),
+    # Ciberseguridad general (nicho 24-sep-2026, pedido de Axael). Los 5
+    # verificados con scripts/auditar_feeds.py + el fetch_url real del pipeline:
+    # BleepingComputer 15, SecurityWeek 10, Dark Reading 50, CISA 30,
+    # Google Security Blog 25. Troy Hunt (/blog/rss/) devolvio 0 items: excluido.
+    ("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
+    ("SecurityWeek", "https://www.securityweek.com/feed/"),
+    ("Dark Reading", "https://www.darkreading.com/rss.xml"),
+    ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
+    ("Google Security Blog", "https://security.googleblog.com/feeds/posts/default"),
     # --- Video / analisis (YouTube) ---
     ("AI Revolution", "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"),
 ]

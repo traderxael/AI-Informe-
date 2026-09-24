@@ -30,6 +30,7 @@ SECTIONS = (
     "usos",
     "economia",
     "futuro",
+    "seguridad",
 )
 
 SECTION_TITLES = {
@@ -37,11 +38,13 @@ SECTION_TITLES = {
     "usos": "Usos de IA en el mundo real",
     "economia": "Economía de la IA",
     "futuro": "Señales de futuro",
+    "seguridad": "Ciberseguridad y riesgos",
 }
 
 SITE_URL = "https://ai-informe-dashboard.vercel.app"
 SITE_NAME = "AI Informe"
-SITE_DESC = "Recopilación diaria de novedades, usos reales, economía y señales de futuro de la IA."
+SITE_DESC = ("Recopilación diaria de novedades, usos reales, economía, señales de "
+             "futuro y ciberseguridad de la IA.")
 
 DIAS_SEMANA = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -131,7 +134,8 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "ley",
         "futuro",
         "hoja de ruta",
-        "seguridad",
+        # "seguridad" se movió a su propia sección (arregla el solape: las
+        # alertas de CISA/Hacker News caían acá en vez de en seguridad).
     ),
     "novedades": (
         "model",
@@ -152,6 +156,46 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "benchmark",
         "weight",
         "checkpoint",
+    ),
+    # Ciberseguridad (seccion propia, 24-sep-2026). Se evalua con la misma
+    # regla de limites de palabra que el resto; "seguridad" sola quedo en
+    # "futuro" y por eso las alertas de CISA/Hacker News caian ahi.
+    "seguridad": (
+        "vulnerability",
+        "vulnerabilities",
+        "exploit",
+        "exploited",
+        "zero-day",
+        "zero day",
+        "ransomware",
+        "malware",
+        "phishing",
+        "breach",
+        "backdoor",
+        "botnet",
+        "trojan",
+        "spyware",
+        "cve-",
+        "cve ",
+        "patch",
+        "vulnerability scanner",
+        "penetration test",
+        "pen test",
+        "infostealer",
+        "credential",
+        "supply chain",
+        "ddos",
+        "cybersecurity",
+        "cyber attack",
+        "security flaw",
+        "security bug",
+        "security advisory",
+        "compromise",
+        "attackers",
+        "hackers",
+        "infostealers",
+        "data leak",
+        "wiper",
     ),
 }
 
@@ -441,31 +485,46 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
             txt += f"\n- _(y {resto} piezas más en esta sección)_"
         return txt
 
-    n_nov = len(by_section["novedades"])
-    n_uso = len(by_section["usos"])
-    n_eco = len(by_section["economia"])
-    n_fut = len(by_section["futuro"])
-    total = len(items)
+    n_total = len(items)
+    total = n_total
 
+    fuentes = []
+    for source, url in FEEDS:
+        fuentes.append(f"- {source}: {url}")
+
+    # Los bloques de sección se generan desde SECTION_TITLES: antes el markdown
+    # tenía las 4 secciones escritas a mano y la nueva "seguridad" (24-sep) no
+    # aparecía en el informe, solo en el JSON.
+    _vacio = {
+        "novedades": "- Sin novedades claras en los feeds de hoy.",
+        "usos": "- Sin casos de uso destacados en los feeds de hoy.",
+        "economia": "- Sin notas económicas destacadas en los feeds de hoy.",
+        "futuro": "- Sin señales de regulación o horizonte en los feeds de hoy.",
+        "seguridad": "- Sin alertas de ciberseguridad en los feeds de hoy.",
+    }
+    secciones_md = "\n\n".join(
+        f"## {SECTION_TITLES[s]}\n\n{block(s, _vacio.get(s, '- Sin nada en esta sección.'))}"
+        for s in SECTIONS
+    )
+
+    _corto = {"novedades": "novedades", "usos": "usos reales", "economia": "economía",
+              "futuro": "señales de futuro", "seguridad": "seguridad"}
+    conteo = ", ".join(
+        f"{len(by_section[s])} {_corto.get(s, s)}" for s in SECTIONS if by_section[s]
+    )
     if total:
         resumen = (
-            f"Hoy se recopilaron {total} piezas sobre IA "
-            f"({n_nov} novedades, {n_uso} usos reales, {n_eco} economía, {n_fut} futuro). "
+            f"Hoy se recopilaron {total} piezas sobre IA ({conteo}). "
             "Abajo van las más recientes, agrupadas por tema."
         )
-        if items:
-            # El destacado sale del ranking de relevancia (no del orden crudo).
-            top = max(items, key=lambda _it: relevancia(_it, now))
-            resumen += f" Lo más visible: {top['title']} ({top.get('source', '')})."
+        # El destacado sale del ranking de relevancia (no del orden crudo).
+        top = max(items, key=lambda _it: relevancia(_it, now))
+        resumen += f" Lo más visible: {top['title']} ({top.get('source', '')})."
     else:
         resumen = (
             "No llegaron ítems nuevos de los feeds en la ventana de las últimas horas. "
             "Revisa las fuentes o vuelve a ejecutar con `--force` más tarde."
         )
-
-    fuentes = []
-    for source, url in FEEDS:
-        fuentes.append(f"- {source}: {url}")
 
     return f"""# Informe de IA — {day.isoformat()}
 
@@ -473,21 +532,7 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
 
 {resumen}
 
-## Novedades y cambios que se quedan
-
-{block("novedades", "- Sin novedades claras en los feeds de hoy.")}
-
-## Usos de IA en el mundo real
-
-{block("usos", "- Sin casos de uso destacados en los feeds de hoy.")}
-
-## Economía de la IA
-
-{block("economia", "- Sin notas económicas destacadas en los feeds de hoy.")}
-
-## Señales de futuro
-
-{block("futuro", "- Sin señales de regulación o horizonte en los feeds de hoy.")}
+{secciones_md}
 
 ## Fuentes
 
@@ -691,14 +736,18 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
         return sorted(by_section[section],
                       key=lambda _it: relevancia(_it, _now), reverse=True)[:limite]
 
+    # Tope por sección. El dict se construye desde SECTIONS para que agregar una
+    # sección nueva (ej. "seguridad", 24-sep) no requiera editar este bloque y
+    # volver a olvidarlo: antes por_seccion estaba hardcodeado con 4 claves y la
+    # sección nueva se perdía silenciosamente en el JSON de la web.
+    _TOP_POR_SECCION = {"novedades": 25, "usos": 20, "economia": 20,
+                        "futuro": 20, "seguridad": 20}
     data = {
         "fecha": day.isoformat(),
         "total": len(items),
         "por_seccion": {
-            "novedades": [item_to_json(i) for i in _top("novedades", 25)],
-            "usos": [item_to_json(i) for i in _top("usos", 20)],
-            "economia": [item_to_json(i) for i in _top("economia", 20)],
-            "futuro": [item_to_json(i) for i in _top("futuro", 20)],
+            section: [item_to_json(i) for i in _top(section, _TOP_POR_SECCION.get(section, 20))]
+            for section in SECTIONS
         },
         "por_pais": {
             "usa": usa_count,
