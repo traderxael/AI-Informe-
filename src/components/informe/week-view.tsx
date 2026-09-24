@@ -36,6 +36,10 @@ export function WeekView({
   const [priceDir, setPriceDir] = useState<"asc" | "desc">("asc");
   const [feed, setFeed] = useState<Signal[]>(SIGNALS);
   const [live, setLive] = useState(false);
+  // El efecto de carga termina con setLoading(false) y el render lo consulta
+  // (lineas 285/304), pero el estado no estaba declarado: con strict:true eso
+  // es TS2304 "Cannot find name 'loading' / 'setLoading'" y rompia el build.
+  const [loading, setLoading] = useState(true);
   const [week, setWeek] = useState(WEEK_LABEL);
   const [showAll, setShowAll] = useState(false);
   const [arena, setArena] = useState<LiveModelRow[] | null>(null);
@@ -69,8 +73,11 @@ export function WeekView({
     void navigate({
       search: (prev) => {
         const merged = { ...prev, ...next };
-        let regionNext = merged.region;
-        let modelNext = merged.model;
+        // `prev`/`next` son Partial, así que region/model pueden venir
+        // undefined: TS2345 al pasarlos a modelsForRegion(). Se coalescen a
+        // "all" antes de usar, que es el valor neutro de los filtros.
+        let regionNext: InformeSearch["region"] = merged.region ?? "all";
+        let modelNext: InformeSearch["model"] = merged.model ?? "all";
         if (regionNext !== "all" && modelNext !== "all") {
           const allowed = modelsForRegion(regionNext).some((m) => m.id === modelNext);
           if (!allowed) modelNext = "all";
