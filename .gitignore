@@ -9,7 +9,9 @@ venv/
 node_modules/
 node_modules.lock
 .node_modules.lock
-package-lock.json
+# package-lock.json SI se versiona (lo necesita `npm ci` en el gate de
+# typecheck/tests del workflow). No ignorarlo: sin lockfile en el repo,
+# npm ci falla y el gate del frontend no puede correr.
 .vercel/
 dist/
 build/
