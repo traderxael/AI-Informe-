@@ -32,8 +32,10 @@ jobs:
         with:
           node-version: "22"
 
+      # npm ci exige que package.json y package-lock.json esten en sync.
+      # Abajo se declara lru-cache>=11 explicitamente (ver paso siguiente).
       - name: Instalar dependencias web
-        run: npm ci
+        run: npm ci --no-audit --no-fund
 
       - name: Typecheck del frontend
         run: npm run typecheck
