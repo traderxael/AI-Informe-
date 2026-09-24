@@ -221,17 +221,25 @@ def classify_country(title: str, source: str, hint: str) -> str:
     blob = f"{title} {source}".lower()
     if source.lower().startswith("google news"):
         blob = title.lower()
-    scored: list[tuple[int, str]] = []
+    scored: list[tuple[int, int, str]] = []
     for c, kws in COUNTRY_KEYWORDS.items():
         s = sum(1 for k in kws if _has_kw(blob, k))
+        if not s:
+            continue
+        # El hint de la consulta (p. ej. "China") pesa SOLO cuando el título no
+        # aporta evidencia de otro país. Antes +3 ganaba siempre: "OpenAI
+        # releases a new model in the US" con hint=china devolvía "china".
         if c == hint:
-            s += 3
-        if s:
-            scored.append((s, c))
+            s += 1
+        scored.append((s, 1 if c == hint else 0, c))
     if not scored:
         return hint if hint != "global" else "global"
-    scored.sort(reverse=True)
-    return scored[0][1]
+    # Mayor score; a empate gana la evidencia del hint y después el país con
+    # nombre más corto (más específico: "china" sobre "united states"). El
+    # reverse=True sobre la tupla (score, pais) resolvía los empates por orden
+    # alfabético inverso, que es arbitrario.
+    scored.sort(key=lambda t: (t[0], t[1], -len(t[2])), reverse=True)
+    return scored[0][2]
 
 
 def source_kind(model_ids: list[str], source: str) -> str:
