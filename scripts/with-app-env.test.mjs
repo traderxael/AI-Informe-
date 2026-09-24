@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
-import { mkdirSync, mkdtempSync, symlinkSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, mkdtempSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { test } from "node:test";
@@ -59,8 +59,15 @@ test("an explicit process-env override wins over the file", () => {
   assert.equal(merged.PATH, "/usr/bin");
 });
 
-test("the template ships auth off", () => {
-  assert.deepEqual(readAppEnv(projectRoot()), { VITE_AUTH_ENABLED: "false" });
+test("the shipped app-env turns auth off when the file is present", () => {
+  // Antes este test leia projectRoot() y exigia que el repo trajera
+  // .grok/app-env.json. Ese path esta en .gitignore a proposito, asi que en un
+  // clon limpio y en CI el archivo nunca existio y el test fallaba siempre.
+  // Ahora se verifica el contrato real (un app-env presente desactiva auth)
+  // sobre un workspace temporal; el caso "sin archivo" se cubre arriba con {}.
+  const root = makeWorkspace('{"VITE_AUTH_ENABLED":"false"}');
+  assert.deepEqual(readAppEnv(root), { VITE_AUTH_ENABLED: "false" });
+  assert.deepEqual(readAppEnv(makeWorkspace(undefined)), {});
 });
 
 test("vite loadEnv resolves the wrapped value", () => {
@@ -74,12 +81,17 @@ test("vite loadEnv resolves the wrapped value", () => {
 });
 
 test("the wrapped command runs with the app env applied", async () => {
-  const { stdout } = await execFileAsync(process.execPath, [
-    WRAPPER,
+  // El wrapper resuelve el app-env con projectRoot() (derivado de import.meta.url
+  // del propio script), asi que el fixture va en el cwd del hijo con una copia
+  // real de scripts/ y no en el repo: .grok/ esta gitignored y en CI no existe.
+  const root = makeWorkspace('{"VITE_AUTH_ENABLED":"false"}');
+  mkdirSync(join(root, "scripts"), { recursive: true });
+  copyFileSync(WRAPPER, join(root, "scripts", "with-app-env.mjs"));
+  const { stdout } = await execFileAsync(
     process.execPath,
-    "-e",
-    PRINT_FLAG,
-  ]);
+    [join(root, "scripts", "with-app-env.mjs"), process.execPath, "-e", PRINT_FLAG],
+    { cwd: root },
+  );
   assert.equal(stdout, "false");
 });
 
@@ -116,13 +128,24 @@ test("a signal-killed command is never reported as success", async () => {
 test("the CLI still runs when invoked through a symlinked path", async () => {
   // node realpaths import.meta.url but not process.argv[1], so a raw comparison
   // turns the wrapper into a no-op that exits 0 without starting anything.
+  // Crear symlinks en Windows exige Developer Mode o privilegios de admin; en
+  // GitHub Actions (ubuntu) y en un clon unix el test corre de verdad. En Windows
+  // sin privilegios se omite en vez de reportar EPERM como falla del codigo.
   const link = join(mkdtempSync(join(tmpdir(), "app-env-link-")), "scripts");
-  symlinkSync(join(projectRoot(), "scripts"), link);
-  const { stdout } = await execFileAsync(process.execPath, [
-    join(link, "with-app-env.mjs"),
+  try {
+    symlinkSync(join(projectRoot(), "scripts"), link, process.platform === "win32" ? "junction" : "dir");
+  } catch (err) {
+    if (err.code === "EPERM" || err.code === "EACCES") return;
+    throw err;
+  }
+  // Lo que se verifica aqui es que el CLI ARRANCA por una ruta symlinkeada
+  // (si isMainModule hiciera comparacion cruda, no ejecutaria nada y la
+  // salida seria "undefined"). El valor concreto del flag depende del app-env
+  // local, asi que se toma el env explicito en vez del archivo gitignored.
+  const { stdout } = await execFileAsync(
     process.execPath,
-    "-e",
-    PRINT_FLAG,
-  ]);
+    [join(link, "with-app-env.mjs"), process.execPath, "-e", PRINT_FLAG],
+    { env: { ...process.env, VITE_AUTH_ENABLED: "false" } },
+  );
   assert.equal(stdout, "false");
 });

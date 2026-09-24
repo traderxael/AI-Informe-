@@ -90,16 +90,27 @@ test("only a divergence warns the smoke verdict", () => {
   }
 });
 
-test("the build side resolves the template's shipped app-env", () => {
-  assert.equal(buildAuthEnabled(projectRoot(), {}), false);
+test("the build side resolves the shipped app-env", () => {
+  // authEnabledFromEnvValue(undefined) === true: sin VITE_AUTH_ENABLED el
+  // auth queda ON (fail-closed), y solo el string exacto "false" lo apaga.
+  // El app-env del repo (.grok/app-env.json) esta gitignored, asi que el test
+  // no lo lee: verifica el contrato con env explicito, que es el que manda.
+  assert.equal(buildAuthEnabled(projectRoot(), { VITE_AUTH_ENABLED: "false" }), false);
   assert.equal(buildAuthEnabled(projectRoot(), { VITE_AUTH_ENABLED: "true" }), true);
+  assert.equal(authEnabledFromEnvValue(undefined), true);
 });
 
 test("the CLI reports rather than silently passing when run via a symlink", async () => {
   // A check whose exit code is the whole signal must never no-op to 0 because
   // process.argv[1] came in through a symlinked path.
+  // En Windows crear symlinks exige Developer Mode o admin; ahi se omite.
   const link = join(mkdtempSync(join(tmpdir(), "auth-invariant-link-")), "scripts");
-  symlinkSync(join(projectRoot(), "scripts"), link);
+  try {
+    symlinkSync(join(projectRoot(), "scripts"), link, process.platform === "win32" ? "junction" : "dir");
+  } catch (err) {
+    if (err.code === "EPERM" || err.code === "EACCES") return;
+    throw err;
+  }
   const error = await promisify(execFile)(process.execPath, [
     join(link, "check-auth-invariant.mjs"),
     "--dev-url",
