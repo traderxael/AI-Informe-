@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import html
 import json
 import re
@@ -159,19 +160,31 @@ SSL_CONTEXT = ssl.create_default_context()
 
 def fetch_url(url: str, timeout: int = 20, retries: int = 2, backoff: float = 2.0) -> bytes | None:
     """Fetch con reintentos exponenciales (hallazgo 8: feeds que bloquean
-    transitoriamente, p. ej. 36Kr, ya no se pierden en silencio)."""
+    transitoriamente, p. ej. 36Kr, ya no se pierden en silencio).
+
+    Además descomprime gzip: algunos servidores (DeepMind) responden
+    Content-Encoding: gzip según el cliente, y parse_feed() solo entiende XML
+    plano — sin esto el feed devolvía 0 items y se perdían en silencio.
+    """
     req = urllib.request.Request(
         url,
         headers={
             "User-Agent": "AI-Informe/1.0 (+https://github.com/traderxael/AI-Informe-)",
             "Accept": "application/rss+xml, application/xml, text/xml, */*",
+            "Accept-Encoding": "gzip",
         },
     )
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
-                return resp.read()
-        except (urllib.error.URLError, TimeoutError, OSError):
+                raw = resp.read()
+                if raw[:2] == b"\x1f\x8b":  # magic gzip
+                    try:
+                        raw = gzip.decompress(raw)
+                    except OSError:
+                        raw = b""  # cuerpo gzip corrupto: tratalo como fallo blando
+                return raw
+        except (urllib.error.URLError, TimeoutError, OSError, gzip.BadGzipFile):
             if attempt < retries:
                 time.sleep(backoff * (attempt + 1))
     return None
@@ -309,9 +322,15 @@ def classify_country(title: str, source: str) -> str:
         "uc berkeley", "cmu", "uiuc", "gatech", "caltech"
     }
     
-    # Contadores
-    china_score = sum(1 for w in china_words if w in text)
-    usa_score = sum(1 for w in usa_words if w in text)
+    # Contadores. Se usan límites de palabra (\b) en vez de `w in text`: las
+    # palabras cortas (ap, yi, sec, amd) matcheaban como substring dentro de
+    # "capable", "happens", "graph" y clasificaban la noticia como USA/China
+    # sin ningún indicio real del país.
+    def _hits(words: set[str]) -> int:
+        return sum(1 for w in words if re.search(rf"\b{re.escape(w)}\b", text))
+
+    china_score = _hits(china_words)
+    usa_score = _hits(usa_words)
     
     # Bonus por fuente conocida
     if source in FUENTES_CHINA:

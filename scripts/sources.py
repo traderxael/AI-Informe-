@@ -13,23 +13,30 @@ FEEDS = [
     ("OpenAI", "https://openai.com/news/rss.xml"),
     ("Google AI", "https://blog.google/technology/ai/rss/"),
     ("DeepMind", "https://deepmind.google/blog/rss.xml"),
-    ("Meta AI", "https://ai.meta.com/blog/rss/"),
+    # Meta AI (ai.meta.com/blog/rss/) -> 404; VentureBeat -> 429 permanente.
+    # Ambos reemplazados por feeds vivos verificados el 24-sep-2026 con
+    # scripts/auditar_feeds.py (que usa el fetch_url real del pipeline).
+    ("NVIDIA Blog", "https://blogs.nvidia.com/feed/"),
+    ("Microsoft Research", "https://www.microsoft.com/en-us/research/feed/"),
+    ("MarkTechPost", "https://www.marktechpost.com/feed/"),
+    ("BAIR Berkeley", "https://bair.berkeley.edu/blog/feed.xml"),
+    ("Google Developers", "https://developers.googleblog.com/feeds/posts/default"),
     ("Hugging Face", "https://huggingface.co/blog/feed.xml"),
     ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
     ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("MIT Tech Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
     ("Ars Technica AI", "https://arstechnica.com/ai/feed/"),
-    ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
     # --- China ---
     ("Synced", "https://syncedreview.com/feed/"),
-    ("36Kr AI", "https://36kr.com/feed"),
     ("QbitAI", "https://www.qbitai.com/feed"),
-    # DeepSeek RSS suele 404; se deja por si vuelve, el fetch ya es soft-fail.
-    ("DeepSeek", "https://www.deepseek.com/rss.xml"),
+    # 36Kr (36kr.com/feed) devuelve HTML sin items -> retirado; RSSHub local
+    # en docker/rsshub/ lo cubre si se levanta la instancia.
+    # DeepSeek RSS -> 404 desde 2024; sus lanzamientos llegan vía
+    # Synced/QbitAI + el monitor de X (scripts/fx_viral.py).
+    ("SCMP Business", "https://www.scmp.com/rss/92/feed"),
+    # --- Papers ---
     ("arXiv cs.AI", "https://rss.arxiv.org/rss/cs.AI"),
     ("arXiv cs.CL", "https://rss.arxiv.org/rss/cs.CL"),
-    # --- Finanzas China ---
-    ("SCMP Business", "https://www.scmp.com/rss/92/feed"),
     # --- Tecnologia general ---
     ("The Verge", "https://www.theverge.com/rss/index.xml"),
     ("Wired", "https://www.wired.com/feed/rss"),
@@ -58,6 +65,9 @@ FUENTES_USA = {
     "Ars Technica AI", "VentureBeat AI", "Anthropic", "Microsoft AI",
     "NVIDIA", "Apple AI", "Amazon AI", "xAI", "Cohere", "Perplexity",
     "The Verge", "Wired", "AI Revolution", "arXiv cs.AI", "arXiv cs.CL",
+    # Reemplazos de los feeds caidos, verificados 24-sep-2026.
+    "NVIDIA Blog", "Microsoft Research", "MarkTechPost",
+    "BAIR Berkeley", "Google Developers",
 }
 
 FUENTES_CHINA = {

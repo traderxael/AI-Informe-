@@ -45,11 +45,19 @@ jobs:
         continue-on-error: true
         run: python scripts/actualizar_modelos.py --max 60
 
+      # Fuente de X: monitor de viralidad (16 cuentas + 4 searches de nicho).
+      # Soft-fail: si la API de FxEmbed falla, el informe diario sigue igual.
+      - name: Señales de X - FxTwitter (cuentas + searches de nicho)
+        continue-on-error: true
+        run: python scripts/fx_viral.py
+
       - name: Commit cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add informes web public
+          # datos/ incluye el JSON diario de X (fx_viral_*.json) para que
+          # los clips de AutoClip tengan la cola de contenido versionada.
+          git add informes web public datos
           if git diff --staged --quiet; then
             echo "Sin cambios"
           else
