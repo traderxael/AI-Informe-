@@ -59,6 +59,9 @@ CUENTAS = [
     ("WatcherGuru", "trading", "mercado"),
     # --- Biotecnología / seguridad tech (nicho solicitado) ---
     ("biobio", "bioseguridad", None),  # prensa CL, cubre ciencia/tech
+    # --- Ciberseguridad (publica en árabe; tema_fijo evita depender de
+    # keywords en inglés para clasificar) ---
+    ("UCybersX", "seguridad", "seguridad"),
 ]
 
 # Búsquedas por nicho (search es intermitente; soft-fail):
@@ -68,6 +71,8 @@ SEARCHES = [
     ("China AI safety policy", "china-ai", "china"),
     ("AI biotechnology security", "bioseguridad", "biotech"),
     ("AI security vulnerability", "bioseguridad", "seguridad"),
+    #Arabic: audit/pen-test de redes (el nicho de @UCybersX)
+    ("أمن الشبكات", "seguridad", "seguridad"),
 ]
 
 MIN_VIEWS = 50_000  # umbral viral para el informe
