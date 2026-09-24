@@ -2,7 +2,10 @@
 """Tests locales del pipeline (sin red)."""
 from __future__ import annotations
 
+import tempfile
 import unittest
+from datetime import date, datetime, timezone
+from pathlib import Path
 
 import actualizar_modelos as am
 import collect_signals as cs
@@ -262,6 +265,68 @@ class AiSignalFilterTests(unittest.TestCase):
         ]:
             limpio, _ = gi.filtrar_items([{"title": titulo, "summary": "", "source": fuente}])
             self.assertEqual(limpio, [], f"{fuente}: {titulo}")
+
+
+class RegenGuardTests(unittest.TestCase):
+    """Regression 24-sep: el guard "si el informe ya existe, salir" hacia que
+    el cron NUNCA aplicara una mejora de clasificación o de filtro a un
+    informe del mismo día. El runner hace checkout del repo — que ya trae el
+    markdown commiteado por el run anterior — y salía sin regenerar. El fix del
+    filtro antibacterial llegaba al código pero el informe publicado seguía
+    con publicidad: verificado en GitHub, 844 items y cero sección de
+    seguridad después de un run en verde.
+    """
+
+    def _con_informe_previo(self, force: bool) -> tuple[tempfile.TemporaryDirectory, dict]:
+        tmp = tempfile.TemporaryDirectory()
+        root = Path(tmp.name)
+        (root / "informes").mkdir()
+        (root / "informes" / "2026-09-24.md").write_text("VIEJO", encoding="utf-8")
+        (root / "web").mkdir()
+        (root / "public").mkdir()
+
+        original = (gi.ROOT, gi.INFORMES_DIR, gi.collect_items, gi.export_web_json,
+                    gi.regenerate_web)
+        llamadas: dict = {}
+
+        def fake_collect(day, *a, **k):
+            llamadas["collect"] = True
+            return [{"title": "item nuevo", "summary": "", "source": "OpenAI",
+                     "published": datetime(2026, 9, 24, 12, 0, tzinfo=timezone.utc),
+                     "url": "https://ejemplo/x", "pais": "global",
+                     "section": "novedades"}]
+
+        gi.ROOT = root
+        gi.INFORMES_DIR = root / "informes"
+        gi.collect_items = fake_collect
+        gi.export_web_json = lambda day, items: None
+        gi.regenerate_web = lambda: None
+        try:
+            gi.write_informe(date(2026, 9, 24), force=force)
+        finally:
+            (gi.ROOT, gi.INFORMES_DIR, gi.collect_items,
+             gi.export_web_json, gi.regenerate_web) = original
+        return tmp, llamadas
+
+    def test_regenera_aunque_el_informe_exista(self) -> None:
+        tmp, llamadas = self._con_informe_previo(force=False)
+        try:
+            self.assertTrue(llamadas.get("collect"),
+                            "write_informe no regeneró: collect_items no se llamó")
+            texto = (Path(tmp.name) / "informes" / "2026-09-24.md").read_text(encoding="utf-8")
+            self.assertNotEqual(texto, "VIEJO", "el markdown viejo sobrevivió")
+            self.assertIn("item nuevo", texto)
+        finally:
+            tmp.cleanup()
+
+    def test_force_tambien_regenera(self) -> None:
+        tmp, llamadas = self._con_informe_previo(force=True)
+        try:
+            self.assertTrue(llamadas.get("collect"))
+            texto = (Path(tmp.name) / "informes" / "2026-09-24.md").read_text(encoding="utf-8")
+            self.assertIn("item nuevo", texto)
+        finally:
+            tmp.cleanup()
 
 
 class KeywordsInvariantsTests(unittest.TestCase):
