@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-24T01:21:15.292640+00:00",
-  "count": 201,
+  "generated_at": "2026-09-23T23:15:36.239709+00:00",
+  "count": 205,
   "sources": [
+    "AI Revolution",
     "Ars Technica AI",
     "CoinDesk",
     "Cointelegraph",
+    "DeepMind",
     "Google AI",
-    "Google Developers",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
     "Google News — IA China modelos",
@@ -18,19 +19,36 @@
     "Google News — IA global",
     "Hacker News",
     "Hugging Face",
-    "Microsoft Research",
-    "NVIDIA Blog",
+    "Krebs on Security",
     "Nature Biotech",
     "OpenAI",
     "QbitAI",
     "Reddit r/artificial",
     "SCMP Business",
+    "ScienceDaily Biotech",
     "TechCrunch AI",
     "The Hacker News",
+    "The Verge",
     "The Verge AI",
     "Wired"
   ],
   "signals": [
+    {
+      "id": "36c3867e24b9",
+      "title": "Sam Altman de OpenAI plantará crear estándares globales para la inteligencia artificial en su discurso ante la ONU",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY2VXamlhUGRacElVYXIzekc3eTVyelZHeHVGZ1FvcGV2U1NKY1NTS3dMWHV4X0k4d3VBenNodkJQZHc3dFJ5VVZpU2hTa09pWlFNMDIyZGxhZ2tiUVFaTU1YZ0dQd3EwU2QtYmFFOXBidV9jdDNJaXNIdjlxYW1NbnZXWFhDVEprSnJBZk9DRHdMb2VVdVY5MENiRQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "df.cl",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-23T11:25:00+00:00",
+      "title_orig": "Sam Altman de OpenAI planteará crear estándares globales para la inteligencia artificial en su discurso ante la ONU"
+    },
     {
       "id": "729f55492a1c",
       "title": "¿AI fuera de control? Cómo Donald Trump y Xi Jinping luchan por el poder sobre ChatGPT y compañía",
@@ -193,12 +211,28 @@
       "title_orig": "Transformers now runs llama.cpp quants"
     },
     {
+      "id": "f4c3141ce9f2",
+      "title": "Presentamos Gemini 3.8 Live y 3.8 Live Extended Thinking",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-15T17:05:57+00:00",
+      "title_orig": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+    },
+    {
       "id": "c01f2b278c4a",
       "title": "Anthropic expone a Alibaba, Moonshot y DeepSeek por «destilar» Claude",
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnFXUWtyS0NHZElrdkZoVXFLSTJnb2piUG9ZREl4RkFKYTRMQk52QzZSS3dfa0VfaVFBWjFYT1hlMkN4LXp0N0NpN0ctTU56cklsbEVpMmlHNU4xcThucU9rQkZBNjRrRnJoeXppdkxiQ1NCaWpGZ0dQQ3MwU3AwNmhpdDlwN3RKSklyTG5vUENycUtsMEN6OXNuZ0lVQQ?oc=5",
       "sourceLabel": "Google News — IA China modelos",
-      "publisher": "ecosistemastartup.com",
+      "publisher": "El Ecosistema Startup",
       "region": "china",
       "country": "china",
       "models": [
@@ -217,7 +251,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTllwR0hQNkpRcmUxdjBSakhneHFrZ1pTN25oZk13cDd4TTlfQ3N5SHVzQW45QnM2b1ZPdk9OYnlfRUNqbXdyS2xwV1J5VHdJUWI5VEVGTTJVVWRVOEl1ZUViRHVFWlVzREp0ZDBRajNXakZLMWI1ODgyMkV6WV90QmNwM01XZ2swOHp0Ty1qRzNWcVF4TmdnT1FQY3k?oc=5",
       "sourceLabel": "Google News — IA China modelos",
-      "publisher": "ecosistemastartup.com",
+      "publisher": "El Ecosistema Startup",
       "region": "china",
       "country": "china",
       "models": [
@@ -227,20 +261,36 @@
       "published": "2026-09-10T07:00:00+00:00"
     },
     {
-      "id": "f10ecafae009",
-      "title": "Detección de anomalías en el agente, ahora en vista previa privada en la plataforma de agentes de Gemini Enterprise",
-      "summary": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based reasoning—to identify logical anomalies and policy violations g",
-      "sourceUrl": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "sourceLabel": "Google Developers",
+      "id": "80d284f58871",
+      "title": "Atlas de AlphaGenome: un mapa predictivo de todos los posibles cambios en las letras del ADN en el genoma humano",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "sourceLabel": "DeepMind",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "uk",
       "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": null,
-      "title_orig": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform"
+      "published": "2026-09-08T14:00:15+00:00",
+      "title_orig": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome"
+    },
+    {
+      "id": "56da2c8ef803",
+      "title": "Presentamos WeatherNext 3, nuestro modelo de IA meteorológica global más avanzado y preciso",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-03T15:02:08+00:00",
+      "title_orig": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model"
     },
     {
       "id": "ad93c749ed65",
@@ -307,176 +357,65 @@
       "title_orig": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity"
     },
     {
-      "id": "c80c38927a4f",
-      "title": "Integración del cambio climático y la sostenibilidad con la inteligencia artificial: una revisión bibliométrica integral",
+      "id": "165b140df81c",
+      "title": "Gemini 4 RSI Leak Destroys Astra and Fable in Benchmarks",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VQnZPeVRGMC1vamd6d1FmUnNoWVVQSURGWUh3WnBpZzAtZ0lOVUR3c2lhODB5RlZSZlBGTmxtQWdNT3BoYzVPb0dqNzhoVTdsdzFTU1kzOUtoZFNXdFJsaUxFaUxJbFFuTER5Xw?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "生物通",
-      "region": "china",
-      "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T01:16:43+00:00",
-      "title_orig": "人工智能整合气候变化与可持续发展：一项综合性文献计量综述"
-    },
-    {
-      "id": "5f9b2dff770e",
-      "title": "Todo lo nuevo que viene al agente de IA de Meta, Muse",
-      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T01:13:32+00:00",
-      "title_orig": "Everything new coming to Meta’s AI agent Muse"
-    },
-    {
-      "id": "27b78c220b1f",
-      "title": "China ha desechado dos tercios de sus centrales eléctricas de carbón planificadas en el extranjero: informe",
-      "summary": "Five years after China pledged to stop building or financing new coal-fired power plants overseas, the country’s state sector has made “significant progress” towards meeting that goal, though private projects are still being developed, according to a new report. Two-thirds of China’s overseas coal power projects planned five years ago have since been cancelled, a 61.5-gigawatt (GW) cut in capacity",
-      "sourceUrl": "https://www.scmp.com/economy/china-economy/article/3368556/china-has-scrapped-two-thirds-its-planned-coal-power-plants-abroad-report?utm_source=rss_feed",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T01:00:09+00:00",
-      "title_orig": "China has scrapped two-thirds of its planned coal power plants abroad: report"
-    },
-    {
-      "id": "742e7dae936a",
-      "title": "Kalshi says CFTC hasn’t contacted it over ‘unusual’ $5B trading activity",
-      "summary": "Kalshi said nearly $5 billion in similarly sized Ether perpetual trades reflected its liquidity incentive programs and rejected allegations that the activity was wash trading.",
-      "sourceUrl": "https://cointelegraph.com/news/kalshi-says-cftc-hasnt-contacted-it-over-unusual-5b-trading-activity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "sourceLabel": "Cointelegraph",
+      "sourceUrl": "https://www.youtube.com/watch?v=Pic4NLTjx6w",
+      "sourceLabel": "AI Revolution",
       "publisher": "",
       "region": "global",
       "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T00:57:37+00:00"
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": null
     },
     {
-      "id": "b03075519864",
-      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-      "summary": "The tiny hardware device creates another mobile home for its AI agent Muse.",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "11a9ec99ef10",
+      "title": "OpenAI Just Revealed Something More Dangerous Than AGI",
+      "summary": "",
+      "sourceUrl": "https://www.youtube.com/watch?v=QW6jxDLvtOw",
+      "sourceLabel": "AI Revolution",
       "publisher": "",
       "region": "west",
       "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T00:46:17+00:00"
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": null
     },
     {
-      "id": "582293e1866f",
-      "title": "特朗普与习近平会晤之际，AI竞争正重塑全球权力格局",
+      "id": "be0df909c18d",
+      "title": "OpenAI Agents Just Invent Their Own Language (Beats Human Language)",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGYk15SVBtU2N1RHVVb2VqR1gzdTVEbDlBUHI2VExXcXY1MEtyTHlmem11WTE0RjdLeG5LQ1djcU12elRlWm5BWGNaT1FZZ0RseEEzRXZGdDZISi1XWG9qY0V4c2VkSmPSAWxBVV95cUxOTVpNRnNuZ2hNNXNuUUVKUldQb3hoSUVhWjdva3RFMGJJR2tVeE15Uk5Ia2drOE1oUWpVSFhzQ0JLUFlmczU5ZjhFN2JwajVmMUlIUmJzNEdTeTdlc1lZY1lkYzdoZTVOUjhIYU0?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "BBC",
-      "region": "china",
-      "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T00:06:24+00:00"
+      "sourceUrl": "https://www.youtube.com/watch?v=vhMfIY3t5-E",
+      "sourceLabel": "AI Revolution",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": null
     },
     {
-      "id": "49da7e3c5794",
-      "title": "探路医学人工智能，浙江建起“医疗Token工厂”",
+      "id": "a0107a4224b3",
+      "title": "GPT 6 SOL Leak, Gemini 4.0, DeepSeek V4.1 and More AI News",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fSEhNRzJVYXNsUUJWUXBhUnlRSWxPd2JLNVA1UHZ1VFo1VUs2ZU1CN0J1WWVOVV9aMG02LVZiVXRLV3lneVo3S3o2YTAtQUNqR1JSNTF6NnFYUU5seUtSWUlwc2k0RTZDZ2txYi1YdXIteVRfSnNBUnpHVFN4QQ?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "手机新浪网",
-      "region": "china",
-      "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T00:04:00+00:00"
-    },
-    {
-      "id": "19fc45253228",
-      "title": "How China’s growing Reit sector is giving foreign property investors a route back in",
-      "summary": "Foreign investors are starting to look again at mainland China’s commercial property market after years of retreat, drawn by sharply lower asset prices, wider yields and cheaper yuan financing, even though cross-border capital remains a small fraction of the overall market, analysts said. The shift did not yet amount to a broad return of foreign money, they added. Instead, some international inves",
-      "sourceUrl": "https://www.scmp.com/property/hong-kong-china/article/3368521/how-chinas-growing-reit-sector-giving-foreign-property-investors-route-back?utm_source=rss_feed",
-      "sourceLabel": "SCMP Business",
+      "sourceUrl": "https://www.youtube.com/watch?v=DsBGYh3KOh4",
+      "sourceLabel": "AI Revolution",
       "publisher": "",
       "region": "china",
       "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T00:00:10+00:00"
-    },
-    {
-      "id": "1850364dd521",
-      "title": "Meta Pinky Promises Its Smart Glasses Will Be Private Soon",
-      "summary": "The company is bringing its Private Processing encryption service to its much-maligned smart glasses.",
-      "sourceUrl": "https://www.wired.com/story/meta-pinky-promises-its-smart-glasses-are-going-to-be-private-soon/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-24T00:00:00+00:00"
-    },
-    {
-      "id": "f1e5592d44e4",
-      "title": "Meta lance de nouvelles lunettes connectées sans caméra et dopées à l’IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc19ULVV3c3p3TG1HQzRPM09rNHNBTVg1SG54bVRWY3ZXanFKNFduaXd1VGwyNHVFZTQyWHVVR1NyUDY3WTZmSkxUeGZYTUhhNm1NcG9GbzVWRGNsSUhVQjJwa2hhR29sLWJOcXpjcFdGdmwtTFNRczZ3UlJ4ZkhxRk9jNzRCNTFsWjJhVnItQnFaVzVKTmlBWGJPWGhNMjBoTi1LRWREQUJIQlQ0bkRHZmFTZkRocHVqWHAtQTFpX0g?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T23:53:36+00:00"
-    },
-    {
-      "id": "6b5eff58280f",
-      "title": "Meta VR Glasses",
-      "summary": "Comments",
-      "sourceUrl": "https://www.meta.com/vr-glasses/",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "social",
-      "published": "2026-09-23T23:47:56+00:00"
-    },
-    {
-      "id": "9a13df0d58ad",
-      "title": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices",
-      "summary": "At its Meta Connect event, CEO Mark Zuckerberg announced a handful of new smart glasses, including a slimmed-down VR headset and the company’s first camera-free glasses.",
-      "sourceUrl": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T23:42:44+00:00"
-    },
-    {
-      "id": "b8569e46aaee",
-      "title": "Meta introduces camera-free AI glasses",
-      "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T23:39:44+00:00"
+      "models": [
+        "gemini",
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": null
     },
     {
       "id": "94586560c596",
@@ -490,32 +429,6 @@
       "models": [],
       "source": "social",
       "published": "2026-09-23T23:36:30+05:30"
-    },
-    {
-      "id": "630d8879d87c",
-      "title": "Tech leaders to UN: For the sake of humanity, please control the AI technology we created",
-      "summary": "Tech leaders to UN: For the sake of humanity, please control the AI technology we created AP News Artificial Intelligence CEOs Brief the U.N. Security Council on the Risks of AI C-SPAN AI corporate leaders tell UN the industry needs global regulation Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSHBObE1ZM3ZSc0QwNURQWkZkS2tORVNRMHhNUUhvNjNZRjR4RHNIVWlyUE5qZV82WVowbEFFX2RhR09TeE5WMHQ4S3l0TkdZTjN3YWdvVUNfRUZYdTZVOW9jc3YtQlNHdWNjcFh4cl9jNlk4VDkxMlFJc18ybzlLN3B4NjZxZVB3cFNBTy1mSXlLVmZlbDRpdXd4WVljVEtaZGxkRHpIMTBSZw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "AP News",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T23:12:00+00:00"
-    },
-    {
-      "id": "8e8b7fbf90c5",
-      "title": "‘A tool to help’: Sheffield City leaders approve usage of artificial intelligence to help with city projects",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPczM0dVljamxiZnBiU1VjWVdxWkM0MWFZenJvQlNEZTk0ZE9sTEw3aXI5Q0hWcEs5blJDMmxBSThIMEdMYnJuZFdvc2lMNjRmczNxWC1tQldGLWFtczhtUkRZeUhOZ1d1dTJBRlBaellCbUkwMFNGQ3kwcUlTejRDVHQ0QUdYTlk0WUQ1R19abTZ3VjROdy1wTWE3SDNFXy1fck5veXBYejBGV2lSamtnTVFPTVZ1UFdYSDhURkc4ZkRLT3NVSEHSAdoBQVVfeXFMT3huWUQ3YWNraF9wLWhXSlAzb280YndaQU9CcjhoNGl6Znh1VWwwZjVfRFBZdHJHcThta0pXNDlNY2YwM3pQc3pleEVNVk1JLWs5Vkh3VVczM25EWG1WXzBJdWRWcXlGQl9VTkpheGZxOEdpNXJzWmEzMnZlbzZfaGwtYURHUTE3VU5VTlZLN0k3Q3AtQVp3QVpBOXFjXzU3cktmNE9vUVFwMFd4V2ZUeHJLVU84dHhrUlV0MlpVakhwTFpGb1NVNzZHQUR6RHo4R2wwTXhycXUxYWc?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "WAFF",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T23:12:00+00:00"
     },
     {
       "id": "681cb4d53235",
@@ -544,19 +457,6 @@
       "published": "2026-09-23T22:51:23+00:00"
     },
     {
-      "id": "b8a00fb73adf",
-      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
-      "summary": "Comments",
-      "sourceUrl": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "social",
-      "published": "2026-09-23T22:45:49+00:00"
-    },
-    {
       "id": "4de1641fc6e4",
       "title": "Linux support is coming to Snapdragon X2 Series",
       "summary": "Comments",
@@ -570,19 +470,6 @@
       "published": "2026-09-23T22:38:16+00:00"
     },
     {
-      "id": "cdbcd8c10603",
-      "title": "【速報】豪首相は、米オープンＡＩの人工知能（ＡＩ）モデルによる不正侵入について「断じて容認できない」と述べた",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rM2NEcTdIWXM0dXpSU0tJTTNZQlhBZGVYVlh1M2g1SnN0UHByMDlmYlA5TGlNMHpVUHg3WkVXSi0xZVROTkhBcWs2dk50aEdmTW50WFJhYWZCYWYtUTU0dUVfZklsQQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "時事ドットコム",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T22:38:00+00:00"
-    },
-    {
       "id": "ad5229b9ac24",
       "title": "Milei promete ante la ONU poca regulación y beneficios fiscales para empresas de inteligencia artificial",
       "summary": "",
@@ -594,6 +481,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T22:37:45+00:00"
+    },
+    {
+      "id": "56c44fe1a03b",
+      "title": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbUltSlJxSkJ1WklvTmllQ2tFV3FYSjY2SHJmVm5ENEg3Um9CT3Z3WDdzeVU0Ty1Ya3cxTExXb01OTnRtcG9rU2RIUWpZYW8xUmU1QlNnNVFVSXJvbVU1Y05QdWpmTDk3NFY2dGlzeklwWk1pOGlJQkM4ajY3U3BWSERpcnZvSkhCMG1MWG9MVURBTno3OVM1Rk9SS2diWXFNajlfVjlaZjdaMmRyQUZJa05UTWJ6U3hyQVhTQ1lPcFRoNm9VUzRtczBfbmRzMC1SZWhHS21nUTlfX3NMaS1TSVR5WkRLTTFWcmVFNGtLZ9IBigJBVV95cUxNMWR1UktvN2NTWUNqRlVrLXVlZVhpWnBWbzFxdURpSWtWd0NPRkVYVU1OeXZqejVCTXdlZE4xVFRVYnMzMW8wcGVaNzc4NlM4eENDVUlPSU0yalo0QjB0QlRvd3VadFo2bnhSQ2hKTHY3UnNYNmRvUVZXaVZSN0o4ZW9IY0NTUEVldnEyYXBrcjJjSjFMT0RKNlVUWXR2RFVSOUJCUThfekpsLVRhT2ZqQUJIaWRJbUpvSF92bWVsUWNmSjJYeUluNl82bl9IN1N0Y1J1cnJfa1FVTkhQc3JPR3NIcmMtc25vNFBzZVRmUURsV3ZzUWw0UDVSRG4xbzJ4NmlSUWtWcTBGUQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Infobae",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T22:36:56+00:00"
     },
     {
       "id": "286c177e003c",
@@ -648,17 +548,17 @@
       "published": "2026-09-23T22:20:00+00:00"
     },
     {
-      "id": "9c2f631dad34",
-      "title": "Mercury 2.5 LLM hits 770 tokens per second",
-      "summary": "Comments",
-      "sourceUrl": "https://artificialanalysis.ai/models/mercury-2-5",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "id": "2b68da2eb613",
+      "title": "Gallup poll reveals widespread global AI optimism, not doom and gloom",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMWRBeklLd0tsZnB5SzBUMGVIbVNrMnB5UXh6N0VpRmtfVjV6SGxVLV8tb3dZR2E1NjZGX0JyMERtTDhEQWlaZGszd0lkelhobEphX0Q1REhwbTlCZXUwcm9XeHNjQXRzUFh2NzlDN29MTkZJMEk1YTNoZkxPbDRiYw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Mashable",
+      "region": "global",
+      "country": "global",
       "models": [],
-      "source": "social",
-      "published": "2026-09-23T22:16:19+00:00"
+      "source": "news",
+      "published": "2026-09-23T22:19:35+00:00"
     },
     {
       "id": "34b4c886a854",
@@ -675,7 +575,7 @@
     },
     {
       "id": "f665e9d50590",
-      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "title": "We just shipped support for the ugliest part of HTTP: Vary – Cloudflare Blog",
       "summary": "Comments",
       "sourceUrl": "https://blog.cloudflare.com/vary-support/",
       "sourceLabel": "Hacker News",
@@ -685,6 +585,19 @@
       "models": [],
       "source": "social",
       "published": "2026-09-23T22:03:21+00:00"
+    },
+    {
+      "id": "630d8879d87c",
+      "title": "Heads of AI firms tell UN Security Council that it could be a risk to all humanity",
+      "summary": "Heads of AI firms tell UN Security Council that it could be a risk to all humanity AP News Artificial Intelligence CEOs Brief the U.N. Security Council on the Risks of AI C-SPAN AI firm leaders tell UN Security Council that it could be a risk to all humanity PBS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSHBObE1ZM3ZSc0QwNURQWkZkS2tORVNRMHhNUUhvNjNZRjR4RHNIVWlyUE5qZV82WVowbEFFX2RhR09TeE5WMHQ4S3l0TkdZTjN3YWdvVUNfRUZYdTZVOW9jc3YtQlNHdWNjcFh4cl9jNlk4VDkxMlFJc18ybzlLN3B4NjZxZVB3cFNBTy1mSXlLVmZlbDRpdXd4WVljVEtaZGxkRHpIMTBSZw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "AP News",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T21:54:00+00:00"
     },
     {
       "id": "9b2776d01b4a",
@@ -713,19 +626,6 @@
       "published": "2026-09-23T21:41:03+00:00"
     },
     {
-      "id": "3258ec1c6d09",
-      "title": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EZG9RdWlqZ1RNX0dCc1NLT0FDZkJEZ3ZEdDR2VUtTRjB1bndGRGFWV2I3MUtLYzd0NW9hWS01LWhoNnpMSjRFN3U3VkNaT29CbGtSS2JLT0piYUFj?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "BBC",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T21:40:59+00:00"
-    },
-    {
       "id": "4ed756926488",
       "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
       "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
@@ -739,30 +639,30 @@
       "published": "2026-09-23T21:36:41+05:30"
     },
     {
-      "id": "f80cc6eda010",
-      "title": "A l'ONU, les grands patrons de l'intelligence artificielle appellent à la vigilance et la coopération",
+      "id": "558dc0384754",
+      "title": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNbTJHVkMzU1BpQVBSTGZrazQ5R243VjlicndMaW5EV1Naak5TOHAtLUtmeXJSN0MyWXdLZHJ3RDE4V3ptTnVXd3BxZHZPaVc1YnBVLWFBTG9FRkpHR3VuT3dpNWh1azVERHVFdkliY0dBaldCczE4VFNRNFlQbUhJM0lsR3F1RHhLY0ZhQ0tDQ1c2Q1BwVFVtNTFZcjBDX1NNNkN5RWUtVmQya1Zfb2NmVGtoczJneDhyS3NBLW5wZDZFTTJUOVJTWjNWbWpyWWhPck1jT04zb2M4bU1Ga001RXlCZWYxTEZJVHRhS25LVzYtX3AtRGxZa0VqWXpERnQ2NEZ3dQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "franceinfo",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T21:23:27+00:00"
-    },
-    {
-      "id": "faaeb502c85a",
-      "title": "AI firm leaders tell UN Security Council that it could be a risk to all humanity",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDY3NVVfOWVmSUQzeGNOVzNINFZ5T014ZVVYV1RkZGVYdXdNMlZodnF6MUY5VUdnakx1YmFBbl93WW42alY5RDluc0FrTlgyMU8xN3pXMC1YckxKenhPN1R2c0d3Y003ZllNaWhsUTVRdTJYaF9hbS1CMWRPMW9tenlHdHYwSzJwTUVHMnNXeDNOaVhUbXAzS2tZc2ZUc2FjUUlMcVhaeTVoUVpLNV9sNk53dFc4UdIBuwFBVV95cUxQRFFnS1M5WENMU2FQMVpQczNnQng4bXJCNnkybEVYTkQyWnhVYm8xY1hwX2hJNlVsOVlLSUdleUtIUUUwT1VhVHFNUFdvcERpbHhoY2F1SmgteTVxZHNIQU91am52dFF6VVIyTGhuTTdYRjFNTEhoNnJnYjQ1dDJHVXpEVk5MRkJnWWF6dVNqWlIzdUFIaXhfSnhDMUhEVGZCbUJkeFh5cmxrd2Z0QWZEY0ZCZ1AwMEZUNWdN?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "PBS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EZG9RdWlqZ1RNX0dCc1NLT0FDZkJEZ3ZEdDR2VUtTRjB1bndGRGFWV2I3MUtLYzd0NW9hWS01LWhoNnpMSjRFN3U3VkNaT29CbGtSS2JLT0piYUFj0gFiQVVfeXFMTk9rTnhSdFc2MVRNcFhLQnByQVVUanM5OXdReE41NTZXbWNlYzMxRDk3NmYtdVM1Y2ItcWFvQ3NTTGg0Qm5BcFJIbGU4bkh1cFcyZDJSLUY3LXBrUGc2aDJnNkE?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "BBC",
       "region": "global",
       "country": "global",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T21:23:19+00:00"
+      "published": "2026-09-23T21:33:45+00:00"
+    },
+    {
+      "id": "f7efda09b147",
+      "title": "Accusé d’avoir écrit son livre avec l’IA, Thélyson Orélien désormais soupçonné de nombreux plagiats",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQd0RpUVcxXzNxSGx5TnlnQmtnMVNoMkcyV1lGa2xPSy1keU5hbTdiU1IyQTc5VWVBNE5EaWRlRWRSQS0zVmF1eVZOMU8wcnVuNTBuX0VqNXVhdEpxLVB3RGg4eGp2bUNnOVdUSzUtQkZJaHdoZGM1WWdPWndjaGxuZFdIN2Exck1STHl1YjE4Wm8xMkZzVzZsRVhaUms4cFZTSHA3Y1VrOWF3ZHU4RUdwVlR6VkY1Y2ZheUpWOEFNTmlXVXhvMkhvX0lPLVh2cVlpVHJuVQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Figaro",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T21:29:52+00:00"
     },
     {
       "id": "262d772839e9",
@@ -778,17 +678,17 @@
       "published": "2026-09-23T21:18:57+00:00"
     },
     {
-      "id": "0223bd4cd629",
-      "title": "Bernie Sanders Shows There's a Big Problem With Trump Renaming AI to 'Super Intelligence'",
+      "id": "c516348ffaeb",
+      "title": "The turbulent AI era is here. The choices we make now are critical.",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2dDN1ZrbFZsZ1Bna3c4eFZUUGloRFViUW1ONWtSem5vUGh4OVRFLUpKeFVnM01ta0FmdG1mU0hFdzllc0h2SDJRR2d4ZUFNWUlaZmpzMDNSTnAxdFhJQ2pMdlFOaHl2UHdIZzVkSTRHS1A5MTc1YU5hbkpMdEtnMmRneUZiMDRFZk1KOXZQV09VODBmbk5mOWU3SkFfc1duSlJ5amlUamR5cG5SZ25weENxdE9JU3Zs?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "Gizmodo",
+      "publisher": "Gates Notes",
       "region": "global",
       "country": "global",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T21:10:05+00:00"
+      "published": "2026-09-23T21:05:30+00:00"
     },
     {
       "id": "522af5193d62",
@@ -830,6 +730,19 @@
       "published": "2026-09-23T21:00:00+00:00"
     },
     {
+      "id": "ff29b20d0ec7",
+      "title": "US diplomats told to use term ‘super intelligence’ not ‘artificial intelligence’ after Trump’s call",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWDBXSVlKYjVLV1hzNnphbmpRampOMGcxUDBCVDdfanV2QmNUWk5fTW5PMFJ1SzB1VUZUQ25GUG55YXgycE13eU5jSlNiUGk5MUZTSFhHQU9pSlJXX1g3Uk82QXc4YktHdVUycnF4OEplZWRyY2txSVZEQTBHMHU3VHhHSW9NUW9HdnUwelBYdHFFSWlhWnJyUVdTUWI4dE5IODNGY2NDZC0?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "AP News",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T20:59:00+00:00"
+    },
+    {
       "id": "227d49278a40",
       "title": "Lawyers Discuss Artificial Intelligence's Risks & Rewards For Hollywood",
       "summary": "",
@@ -854,19 +767,6 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T20:52:28+00:00"
-    },
-    {
-      "id": "5051d211e5d7",
-      "title": "Proponen que la IA se desarrolle bajo licencia, al igual que la medicina, la aviación y la energía nuclear",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CQ2V1Tk1VMFZsV0lnVF9ZT0tGcGZVM3ktanA0YXV4NVdLd3NVQVVuMTZiOElISnpMNXpHQVk0c3E5YzNmSFo1Q05JUzVOX0JmeWl2VHZ0aw?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "UN News",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T20:50:59+00:00"
     },
     {
       "id": "a9ad61db8077",
@@ -1012,19 +912,6 @@
       "published": "2026-09-23T19:19:09+00:00"
     },
     {
-      "id": "57c28b81482f",
-      "title": "VK и «Яндекс» создают совместное предприятие в сфере искусственного интеллекта",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTnRwVTZVc0JhbjNHVlFRMzR6MHZYZVhzbENHTTFIeDVOWUpzYmg4endWaGs4c2RiX1JKa0xnR1oxaTRseUdfaFQtdnZKMng4NlllSThISm03bjYxeC1Zb3FfSU43dld0MFJacFowV3lDUGh2SUg1RVFlSTlMYlE2R3c2YkM2aWpBVUl3THNHWFY3S2p0NGg2ek1tc1U2RHQ2TmdiNHRvQzRwMS1LSEE?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Портал РЕПОСТ",
-      "region": "west",
-      "country": "russia",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T19:13:35+00:00"
-    },
-    {
       "id": "1094e5ab6fe3",
       "title": "Trump reveals up to $100K Strategy stock purchase in ethics filing",
       "summary": "President Donald Trump disclosed a July purchase of Strategy shares as his administration continues to advance crypto policy through federal regulators and Congress.",
@@ -1051,19 +938,6 @@
       "published": "2026-09-23T19:09:50+00:00"
     },
     {
-      "id": "336a75096be5",
-      "title": "An Uncharted Path: How Clinicians are Implementing Artificial Intelligence Across Cardiology",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDZIVlNxMDRQS3dOcFlkbzlJc2x0VzNHNHBrbzE4M1N5ZTVJcHNtNmhWNVJSV3ZVTzk0YjR2VmN4bXlGX3gxaGVYNWtaVndDbjZOS2NJcTNyU2pGVk1aR1BhOE5pZmNKYkNvUXRiNW1YcUwwV2NLMzMxa1JEelY2RkR3aVk5M0psaktpLWtjNmFiTDFzUnNNWm42ZktDT2wwOWxod1RSTWgzSTNidFdVWHFQc0tRaTE5UUdZQg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "HCPLive",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T19:06:46+00:00"
-    },
-    {
       "id": "808660cdba3e",
       "title": "Искусственный интеллект проверит молоко: учёные научили ИИ искать подделки",
       "summary": "",
@@ -1075,6 +949,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T19:06:00+00:00"
+    },
+    {
+      "id": "57c28b81482f",
+      "title": "VK и «Яндекс» создают совместное предприятие в сфере искусственного интеллекта",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTnRwVTZVc0JhbjNHVlFRMzR6MHZYZVhzbENHTTFIeDVOWUpzYmg4endWaGs4c2RiX1JKa0xnR1oxaTRseUdfaFQtdnZKMng4NlllSThISm03bjYxeC1Zb3FfSU43dld0MFJacFowV3lDUGh2SUg1RVFlSTlMYlE2R3c2YkM2aWpBVUl3THNHWFY3S2p0NGg2ek1tc1U2RHQ2TmdiNHRvQzRwMS1LSEE?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "repost.news",
+      "region": "west",
+      "country": "russia",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T19:05:51+00:00"
     },
     {
       "id": "185b3a53c729",
@@ -1116,6 +1003,19 @@
       "published": "2026-09-23T19:01:28+00:00"
     },
     {
+      "id": "e901427b8c1c",
+      "title": "In A.I. Race, U.S. Models Have the Edge, but China Has Other Advantages",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNem8xbkdnZmlJMGlOaG42RHkxRDZaT2Uzd0IyVGZ1MWcyM01YOVpEbDg4WkVIam9MSThGSm12SjlsaE1WUnp0a2VOTHdCd1kxSUZPXzliLXRmQ2g0Wl9jV2w5M21BNGdIVi1xb01ZMDBhbVRuTHMwWXBiWjF0T2FHWjVhSVFWR28?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The New York Times",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T19:00:08+00:00"
+    },
+    {
       "id": "4e5c139a7de5",
       "title": "Japan will mit künstlicher Intelligenz den Personalmangel in Behörden bekämpfen",
       "summary": "",
@@ -1142,19 +1042,6 @@
       "published": "2026-09-23T18:59:36+00:00"
     },
     {
-      "id": "c516348ffaeb",
-      "title": "The turbulent AI era is here. The choices we make now are critical.",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gates Notes",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T18:50:23+00:00"
-    },
-    {
       "id": "a70f8ac64edf",
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
       "summary": "",
@@ -1168,17 +1055,17 @@
       "published": "2026-09-23T18:41:40+00:00"
     },
     {
-      "id": "4a22ad6d2a78",
-      "title": "« La Chine se positionne comme le fer de lance de l’IA open source à l’échelle internationale »",
+      "id": "d804d152b9a6",
+      "title": "L’IA s’impose au menu de la visite de Xi Jinping à Washington",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYVpiTWlQTjhGLXBCUVRLQnBzSmJuLVctNWM3X0pCUkxHcmpTZUJ4YnJ0NnhnVUdUTzlEN1BLQVFuQzlxdUxwNFFrZ0N4MEtQaFluTWk3OGEydXBqcEFQNHEyRFdjQnpERjZmUHVtRm0yOHRvbktGS1ZBd1B0MmVEazU5ZlJuSmVzVlhMOFQ1NzdWZlltamZUZ0QwWmRCZ0V5ZENac0RHMTZ1eVRkU1dQQWtkbnlZWW91WE5WOVFGS2lDUk5PcWZ4N3hiLWNxSTQ4Rnd6aFlPYVdvVnc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWmloMjluRmh6MTdlRDlRdV92OS1VdGFDeUI0alF0anlRSFBnV0JzazBweDdUeFpqUVJQalZSNlJzYmwzUElibU9GclBhYUdlN2pRUlhHck0wTGVUSC1nR1VQM25fQ1JZN0pZV0RDUUZjbXRzNzZPcFVZeE1ZX1lIMlFYVFNpX0FDR093ZHAydFRsMl9QNnROMk0xVGgzQXQ4aXZFd1pEa3o0dkx6cUNLVmlrcw?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "Mediapart",
       "region": "west",
       "country": "france",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T18:36:40+00:00"
+      "published": "2026-09-23T18:36:52+00:00"
     },
     {
       "id": "242281718ace",
@@ -1246,19 +1133,6 @@
       "published": "2026-09-23T18:30:00+00:00"
     },
     {
-      "id": "570961d7bc05",
-      "title": "IA et littérature : le logiciel Pangram est-il vraiment fiable ?",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYWJmYy1ESHQtb1owOUNsdHhqRlJFUF9VWUJYQ21yamNHR1dSQVpDMHFkMjRSNDJnMGFRc3FTWHozMlFVRnU1TGdMODlUMmM5UXhiM25QOEZ2ampJOWhESnRJOEZoWVpRQXcyQ1FNYzNWUmVjcHNuZXhCdzZNanFCY3RxaXRJSkc2a2p0a2dhMDhqZkhjNkhRcnFiaUVzUzJWSEw3dTZ1NmJqaXRWUWNJWV9pZl90bEZOd2dxQ2ZWZlBKMHNYd1VzbmM4YjBXQQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Libération",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T18:18:27+00:00"
-    },
-    {
       "id": "01af7a7270f7",
       "title": "Bentley Wants Its Torcal SUV to Break the Curse of the Luxury EV",
       "summary": "The British high-end auto company reveals its first-ever full EV: 330 miles of range, 0 to 60 mph in under 3 seconds, and an orchestra under the hood. Will it be enough to lure high-rollers?",
@@ -1324,19 +1198,6 @@
       "published": "2026-09-23T18:02:08+00:00"
     },
     {
-      "id": "2b68da2eb613",
-      "title": "Gallup poll reveals widespread global AI optimism, not doom and gloom",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMWRBeklLd0tsZnB5SzBUMGVIbVNrMnB5UXh6N0VpRmtfVjV6SGxVLV8tb3dZR2E1NjZGX0JyMERtTDhEQWlaZGszd0lkelhobEphX0Q1REhwbTlCZXUwcm9XeHNjQXRzUFh2NzlDN29MTkZJMEk1YTNoZkxPbDRiYw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Mashable",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T18:02:06+00:00"
-    },
-    {
       "id": "8a86c97089bb",
       "title": "Google Beam expands with new regions, partners, and customers",
       "summary": "Google Beam promotional animation",
@@ -1348,32 +1209,6 @@
       "models": [],
       "source": "lab",
       "published": "2026-09-23T18:00:00+00:00"
-    },
-    {
-      "id": "51126c6da112",
-      "title": "Making Tailscale Faster",
-      "summary": "Comments",
-      "sourceUrl": "https://tailscale.com/blog/making-tailscale-faster",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "social",
-      "published": "2026-09-23T17:49:07+00:00"
-    },
-    {
-      "id": "2750779f0490",
-      "title": "Expertos advierten la necesidad de enfocarse en la implementación de la IA y no en su control",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbnZHWmtqZ09YT1Fwa2NkVFdQU3ZYSFg0NUI4eXl6bWlxRHFHS3lJTXNCNzFtSmNxRHVtWExQWVFxanB6SEJJU0wxRmhscE5ZcDltMTNKaWxVWHFMN3Z2LTlrdFpoSWJ6SnhIX3JhRmpBdmk0UnJ0RkNfT1VvSWdpQUhKVVlBX3lSUjI2MTdEdy1NOFE5QngxMzVncXRDUFpsT211dHBEaDB0NWhxVlR2djhmeVFvQkRSOXMzbHAzOFlESnR3NWNiSktyaWtIWTY1OWd1QXVxd3Zadw?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Revista Gerencia",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T17:48:37+00:00"
     },
     {
       "id": "8e0ee533a357",
@@ -1400,6 +1235,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T17:39:39+00:00"
+    },
+    {
+      "id": "599838febe6d",
+      "title": "Donald Trump et Xi Jinping se disputent la gouvernance mondiale de l’intelligence artificielle",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWGhDajZXTklhLWo0UDFfNi10YXBlZzFYYnRJaDlUcWhMN2lqa0NHR0JsYmNwclkxR2lTckUyNk1yRGVDSmxJNGNvU2xhWURIaG1XSHJNUjdyeGRLTldFVEpuUnQ2eHlvdDNnZDdQWDBzdGJZUFdCRFJ0VU5ldlNNREFOUW1CV2w1bnFvSlJSUW1VUUNUM2VDYXdpM0ZzOWFZR25WaUdaUVBYUWJPeU9reTdQVURwQ0hjdlJHZklxbm5oN2ltaGtWTQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "L'Humanité",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T17:32:37+00:00"
     },
     {
       "id": "444d38401354",
@@ -1480,6 +1328,19 @@
       "published": "2026-09-23T16:37:42+00:00"
     },
     {
+      "id": "2317f1592d1b",
+      "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSl9wWHFxSHhqR1VGbUY3QjdTY0hxM1lOb1F5Q2NscmlkTlRQcG9Ea1dQVVdPczVKYnkwYlpQbEJQWDVucTRrVEZ3ZHdxaEo1a0ktWTRhYTIxU3lTYWRVcGkyYTRLMV9nODJxc3d3QWQwRDBaaVlISHZ1YzYyQWkxRGpGV3NzYkhoejdXN2lubC1aYXlRTDQ4ZTdfYTUzTnBsMkN1Zw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The Verge",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T16:23:05+00:00"
+    },
+    {
       "id": "9532cdef2254",
       "title": "Песня про ГИТР и искусственный интеллект",
       "summary": "",
@@ -1498,7 +1359,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tbUgxbzdXRDhiNjNJRTFobEJoSjllaXBuaVVpUUdhaGtNOFh2MzMxaHpYYWZXTEhLVjJCcWRiYUczRUJCSUhoMWwtR25kQdIBWEFVX3lxTE9FZFZKQ1lOeks0b2NmdjBEc2JkRHpCX1dWTThTamhxRTVJTUtOUXd5VWZCeEVlMlNza0tpNC1mN1ZiUTVBMC1oTUlIZWM5NXdwMi1Rb2JEYmQ?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Хабр",
+      "publisher": "habr.com",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -1532,17 +1393,17 @@
       "published": "2026-09-23T16:12:40+00:00"
     },
     {
-      "id": "c5e21f336237",
-      "title": "Offloaded inference for real-world physical AI robotics",
-      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-      "sourceLabel": "Microsoft Research",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "id": "d776eac9f887",
+      "title": "Prince Harry warns AI chatbots can be more dangerous than social media for the young",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnV5UDN6QTRmeVpnQVhDWlZQdjJjLVAyUGNyVXJ2RDg5eGVNUS1FOG80U0RqQk13VlJVYjQ1UlF4a0o5ZHlTajBXNTlUdUJHMloxcVAxdXpXelhNWFZzMC1QMkprVFdmbEoyVVNud3dneTZWTHEwdDczQy1vNFNVckw1ZWswWm9SaUdVeno1aTBYeXdlbjN3dEozRGlwVEplemlXMDItMNIBrAFBVV95cUxOajFfUWMtSUxtRTBkUEVHMFpWNkwxVm9aMFZybHhMOWRqNmpUcWRIWTVvVmpQOFhNdzBiUHhBREU4b1ZRYTFNMFROdElaMk1hbUpVWEliSFFXdGppWlBjRFZ4R1l4aHI5OE9PM3dPcjNBM3NIcjhHOTZScHFzNVhmeGdDOWpqUUhMTThnQWlNOUpncC1vNC1hWnVCY29IRDhiTnRtRWlhMEpscDRF?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "ABC News - Breaking News, Latest News and Videos",
+      "region": "global",
+      "country": "global",
       "models": [],
-      "source": "research",
-      "published": "2026-09-23T16:01:36+00:00"
+      "source": "news",
+      "published": "2026-09-23T16:01:15+00:00"
     },
     {
       "id": "c1965fa15d30",
@@ -1556,6 +1417,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T16:00:27+00:00"
+    },
+    {
+      "id": "5e76a9fe093a",
+      "title": "Malvinas, Trump, Israel e Inteligencia Artificial: las principales frases del discurso de Milei",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORkZ2QnlpRG90U1ZYSERyRi1nNmkyNUo4eGp3M1E1dV9lRFdVZ3cyOEhZZlVIbVp6UTFOajhsRHRYVkR3bWlMc19iWS12eG5oMzVZLTVzN3BvbXJCV3YwcjZRb2EwUWZHOHdvTkFONEtDRHY0Uzc0QkF2XzNYcF8xazJCT3ZLRl9UUzhyLXp2NW5Uc2tocVpFdXNXeWpGLXFhdVAxVlJtbllsYnlyRkpDdS1Kb0hCUkpUWWxXOFdqZ3F4emZHY0hGd1F5RE0?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Página|12",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T15:57:13+00:00"
     },
     {
       "id": "97382374688b",
@@ -1582,6 +1456,32 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T15:26:35+00:00"
+    },
+    {
+      "id": "2579d672c212",
+      "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
+      "summary": "Comments",
+      "sourceUrl": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
+      "published": "2026-09-23T15:23:05+00:00"
+    },
+    {
+      "id": "944edf6b49a0",
+      "title": "Plus compacts, moins gourmands en énergie : face à l'explosion de la demande de capacités de calcul, le succès croissant des micro data centers",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQc21RNzM1akFmVTh6dFRlWGlmVE9sMzVrX3RTNDg1VkdaWjM5d1hwVWdmRnhEVXIzMTNjSHV6ZlhBUU1vNDZxUTc1NVh2elpYXy1LT1RydXgtTkdPVzBXMWNfRFRENGFzOWdUb21QZVZGd1ZJemdvbGhXVDYxdXBVYUhnb200OFc0UGFPOUYzMmdLbGNuVS1iaG9CWHByRUFJTnA3OTJ0eWd5S0xaZ1ZqUWRFSDJBZHNNdm9JMVVpVTZjdV9YNUJ5c2IxQ2NXbWw0ZkswcUlVdmZ5OTFSaDlvYzJSUUljbVFCV2RDa1FDRVdyZnF2S1RCTEZ0WExBcXJjcnNBZHRVemNVT2Fia0k2czFTTGhzbVlmVUdOaWk4NjN6VFJIQ1BnTEV5c050WjRJMFE?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T15:23:01+00:00"
     },
     {
       "id": "8138d300d9ea",
@@ -1662,19 +1562,6 @@
       "published": "2026-09-23T15:02:29+00:00"
     },
     {
-      "id": "a1700d1f6b37",
-      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-      "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T15:00:32+00:00"
-    },
-    {
       "id": "556d2e38a9fd",
       "title": "인공지능 쓰레기 – 대응에서 예방으로의 전환",
       "summary": "",
@@ -1688,23 +1575,36 @@
       "published": "2026-09-23T14:55:16+00:00"
     },
     {
-      "id": "e7bbeeaa5227",
-      "title": "Los focos de la AI Week Latam 2026: aprendizaje práctico y aplicaciones de inteligencia artificial en el mundo real",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORlpDcHFIWHFhNXNPLXVGTkQ5akNlMzBjdHMtZlI3N1RpbnVQOHRTbUxCNUFha2ZYaE5vLW50Q09wQkJsaWdZVXM4M0pyblhVNXROWW1LOWZoR3o3RFptNDAzbmZadjQ4Z3QxUXdINjdsSi05aXUwbERNWHZ6Qld6RWgwSFF1N1czcVBEZk9EOGc5eWwtV2c?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Diario Financiero",
+      "id": "e63ca28861d2",
+      "title": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
+      "summary": "Bitpanda will provide crypto infrastructure to Raiffeisen network banks, potentially extending digital asset access to about 18 million customers.",
+      "sourceUrl": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
       "region": "global",
       "country": "global",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T14:45:00+00:00"
+      "published": "2026-09-23T14:33:12+00:00"
     },
     {
       "id": "ec5172ddcc94",
       "title": "YouTube will let you build your own algorithm with AI",
       "summary": "YouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.",
       "sourceUrl": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T14:30:00+00:00"
+    },
+    {
+      "id": "33d4153d9366",
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "global",
@@ -1745,7 +1645,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNb1JVc2ZRR0E0MXRld2FGSlRRVFdDTjhKcWo1RTc5bWZYWjFMWjFvMzQ1a093bS1oRWVmRmticmNaeWRmR2tmZmF3bmlISkFCTS1xOFUxeERSejNsRnNfU1dOcXN1dE5idlJWRUlDSUpqYVlOaEhlcXBUWjVxVHZWUWFBcFVLWG95WUN1aks3Vmh4Z2FLLVhhY1ZtTjEwQmRfWXJ5MXpqZUV1MWdyNm9YWEJrc1pra2lPcVJFLTZYdWh4MllIQ1hKNXFUV1pYWUZKMUlHUEZfMnl4MldLOE9OSw?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "NDR.de",
+      "publisher": "ndr.de",
       "region": "west",
       "country": "germany",
       "models": [],
@@ -1766,17 +1666,17 @@
       "published": "2026-09-23T14:05:47+00:00"
     },
     {
-      "id": "b431abef8f27",
-      "title": "Xiaomiが人工知能（AI）を搭載した5人分の食器を収納できるスマート卓上食洗機「Mijia」を発表。",
+      "id": "9ac657889c2f",
+      "title": "Atrocity Alert No. 495: Artificial Intelligence and Climate Change",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUVo2eGFEZXFHaTEwdFJJdTdFenBzaC1nWno4NlV4eEZjR2dkMlJLYWhubnVxRE1tbVNZbXowal9pTmM4UVJYUzhGVTE1elZsQldlN3M4TGRZTTFiSzV0dXNWVXFCM1ZGNnNLZEVMTjYxRDE4blRlbDY4a1hxQXRBeDh5UGd1VkNORFVaYkdvc1ZXbjFXaV9nNDRMT1VYVm12OUt6SzM1eU9iaGNmTGlUb0h6ZVVSQQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "Vietnam.vn",
-      "region": "west",
-      "country": "japan",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3YlE4S2d0ZnlWRE5oVGNGb2hzaHI3WVJuU1JtZllEUnZIdmw2ZXVZbnoxaXlxMGszR3lZY1k2cGNMZ0hiWU5IMjREd2JoamRuU3Q4bldpa2cxM0RNdVUwbks3Y1phbk04T3NmLUR3?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Global Centre for the Responsibility to Protect",
+      "region": "global",
+      "country": "global",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T13:55:41+00:00"
+      "published": "2026-09-23T14:04:13+00:00"
     },
     {
       "id": "7afb0ed386ec",
@@ -1810,7 +1710,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1ODVjcWtQQnNKVDVwSjhaTWJ4NWZNTng4aTU5TE5rcFFuMEY5Wi1fbmdkZEFMM1VodWxSR05QeXV0bTQ0TlRsa0pscEZpQkx5REp0S0ZUWmdPcFcydXpXbQ?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Атомная энергия 2.0",
+      "publisher": "atomic-energy.ru",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -1823,7 +1723,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVBxcTdsRWFIY09IU2h5dHBzRTFGSTR3dmpZb3lyd0wta0h3NFV5NUNOZlR1S3k1S2lJbE9fS2hWWW5xRmVrdmdGZTdvTXg1ZEgwQ2oxQVhxR2Z1STNoRWQxcmJnODlkRnp2VEZRcEg3TU0xbkFfYjJoc2o3SUE2dkh4ZTB3bDVNZ0JIX0ZoX1V3ZERHWENncUlpUWFicVZZU2lN0gGjAUFVX3lxTFBYa19HWWZDem94bUZtbThPenR6MlFqWFBDUGEyMlowTDR0VVZWVUJ2eDdaT0JPNDN6ODRTRE5wNW4xRy15Vnh6QzFjMFNiQXBXTlBaMnRlTnVTc2lSVXhIeHJEX05fc0tGWUJ2QXRsaFVGY0dUeVFTRENpUm5MZ2xHLVZobGZuS0IwbWlLcnVpdHgxNm1vMzB4SjlfdnMta1dkalU?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "dw.com",
+      "publisher": "DW.com",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -1844,17 +1744,17 @@
       "published": "2026-09-23T13:38:27+00:00"
     },
     {
-      "id": "617069a4a6b7",
-      "title": "Состоялось заседание объединенной рабочей группы Синодальной комиссии по биоэтике и Технического комитета 164 «Искусственный интеллект",
+      "id": "ae87966f64e3",
+      "title": "Новиков предложил способы переключения подростков от ИИ",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfamFwandHQ0NaM0cwVDY0bkpCaFQ2RDFwYWNxcnBjWlcydnVqaXZTVlREYnBWbk51em5vUVZaMUVWTGpoTXZWU2RxV1BGQQ?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEbklLQ0lEQ3NBbEdUa1k5TG9ObHEtZGs2STllS1VIaDJPRFFWYnR0dnU0TGRnbjVWbXVLMXBRVHg0bkFzVmd5Q2p2S3ZyZ0EzREpuQU1sTVNka0tWcGxWbU1rdjVzU3M4Wmc?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "patriarchia.ru",
+      "publisher": "Российское агентство правовой и судебной информации - РАПСИ",
       "region": "west",
       "country": "russia",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T13:25:52+00:00"
+      "published": "2026-09-23T13:08:33+00:00"
     },
     {
       "id": "efa67800074e",
@@ -1875,7 +1775,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTHFDdmJQbFpCWW1aYzFPTklVUHc1N1h6VlRDNVc0RFN3LWNpeVplazlURHNxRW02MENDMTRCMF84WHVXelNRRnNTUzNpcERWNHN6a0o3Vkp6d1hUbks3TzNhbGJodGtqMnpHdUJIR3VuWHZnVFkwdFU4cndzMjhMd2ZlLV9zcWFRV3k4RXgxSmJ1V2RZYXRDb01hdw?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Наука Mail",
+      "publisher": "science.mail.ru",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -1935,6 +1835,19 @@
       "published": "2026-09-23T11:49:14+00:00"
     },
     {
+      "id": "754d43478622",
+      "title": "Российские компании могут оценить готовность собственной инфраструктуры к агентной разработке",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaFRZQjF5Zi1lbFlYUXZTbERKcGFCVG1QbkRGU0xHcVBaT3FFNXFJNW1uRW55Wk43R3ZDNHFld3Z5ZERSdEdZMDY2Y0FKdElJOGo4WWxscmExNXVNdlJWN2ZNNndwZVliTkg4Q3RZWUN0T0xVYmdMWlRMN2VDS1Axay1uUS1Rako1ck1LM0FYemJNWlduTFlxYmE3RHp2UDQ2cko0RmNqelNEbUVnQjAwNFQ5RFFybVRqcnU1UFJKaGZES2cwU3FiaGNTMA?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Пензенская правда",
+      "region": "west",
+      "country": "russia",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T11:43:56+00:00"
+    },
+    {
       "id": "78b00518c45f",
       "title": "The Best Samsung Phones of 2026: Ultra, Fold, Budget",
       "summary": "From flagship and budget to flipping and folding, Samsung’s Galaxy range spans the breadth of the smartphone cosmos. WIRED’s here to help you make your choice.",
@@ -1966,7 +1879,7 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mRXRmS2k5eXlXN2V6TWVnTkRLc2dwOEFXRFRyb2l3bmxuQjlXTVdvUkJ3ZGVpcUp4blVJWEgzazllazFacTQ3OS1HbXMxMGFHZ0FwemRyM2xDNTVnb3BiTEF1eDM?oc=5",
       "sourceLabel": "Google News — IA Corea",
-      "publisher": "djournal.co.kr",
+      "publisher": "외교저널",
       "region": "west",
       "country": "korea",
       "models": [],
@@ -1974,25 +1887,12 @@
       "published": "2026-09-23T10:30:58+00:00"
     },
     {
-      "id": "22ceb1440975",
-      "title": "Un spécialiste de l’IA décrypte la polémique Thélyson Orélien : “Les indices sont assez parlants…”",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMEU4WTBVRFUyeGVpZ2VTY1lQQkFvTmduY1k0Q21BVWc2VXBRdWZ6b25PN3JFX2FtTElOY1J0N0RDWDVSUzFhbVlpWWh0VlNiT2N4RTR3NlhzRzFkMVJxTnhXZDczSEtYMXRIMkpHdDNCa250LTg2ZnlTN1BlS3EtMmJyY0xlck5EVUdMVVZRYTJnelBPZTdzeXdDLTgzQ3NwU2hhTkRyMmFJMW5hOFZHMDdRbVZFWlRqZDB2c1FmMXlWa0NNcXVnSHhpNExQa3RJWHdGX2tVRU11eWhoQkdVV2l3QjR0UUk?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "nouvelobs.com",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T10:30:14+00:00"
-    },
-    {
       "id": "a7da9715d377",
       "title": "东莞ALL in AI！超50场人工智能+活动将全域铺开",
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHVXE3T1gwcWhhMl9tczZFYXJxcEVkMlJaUXI3VGNZWHRmWTk2czlqVTNCcjFfdEJ0LWN5LXBsVlpjM1h3WVdsNXNfbVNyTmxhZElyeDRCVmtodDRNTWpPbXBvYk02QQ?oc=5",
       "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "mp.oeeee.com",
+      "publisher": "奥一网",
       "region": "china",
       "country": "china",
       "models": [],
@@ -2052,17 +1952,17 @@
       "published": "2026-09-23T09:43:00+00:00"
     },
     {
-      "id": "a62ce2ee9d79",
-      "title": "L’IA pour la première fois en débat au Conseil de sécurité de l’ONU",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUG9MSkQyM1N3REp6RUFJU2VCSE9BNS1xdDBHNlRpRHJTODRWMHFsc2Z1ZUNuLXo0ZjI1ZG9fZmE4WDRDUTRhOVFYZXJJSHVGUmZLRndLaGx5cW5ET1l2YjREQ21hbGtKNExpWGttb0wzYk5uNmdHS09VSlRQRFluMFU4MFhjRjRIb1NjQ21uSGFJNFlJODNUWnBRSEZYNjgyWVE2LUdVNEZRLTY4M0tlVDZXRTh1c01JVEJLT01EdlpEZm5POWNEN2tzTG9RZDcyLTQ0amh3OFA?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "lemonde.fr",
+      "id": "e04ccb3e3a75",
+      "title": "Tokens too cheap to meter",
+      "summary": "Comments",
+      "sourceUrl": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
       "region": "west",
-      "country": "france",
+      "country": "usa",
       "models": [],
-      "source": "news",
-      "published": "2026-09-23T09:28:27+00:00"
+      "source": "social",
+      "published": "2026-09-23T09:21:17+00:00"
     },
     {
       "id": "d042faa955f9",
@@ -2070,25 +1970,12 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPV3hncmVnWkgtZ2h2Mkx3NThmMTRBVkk0TGw2eUxtNFFXcEd6d3JXNnd1eWVqOUQ1QUVFbFRJS2d5WjhyODhEWkRldDhwQ3BMd3gwRGZjbGphM29iZ1Bza3BEZ09oTnQxQm5QckRHVmFlazBkbThaTS1KQUhST3hFRmtMTVRsX1NMOU1kelk1WHRXanNUc3FtTnNISVNuR2p5aHFSelMtOV9UdnFwYjNmNXYxZzN3b3c2NnBjNWNDS2J5WWswVUdMZ0tTX1QxbVNsSWIxZUpZVEVjU3RycjRUYUJTUkg3ZzVrcmRaeVd3?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "rosbalt.ru",
+      "publisher": "Росбалт",
       "region": "west",
       "country": "russia",
       "models": [],
       "source": "news",
       "published": "2026-09-23T08:02:36+00:00"
-    },
-    {
-      "id": "1cfa81489a73",
-      "title": "Ключевой навык — критическое мышление: в НИУ ВШЭ обсудили, как ИИ меняет требования к работникам",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KYU1IMTktS3lTLWZiakxuT3R1Y09GcnVLOVdYaHpVS0x0NW9Qc2Q5cVg4RUNLNUw5UGgtVmc1d2xtbEg2c3FBMmxPVi1wbUFXclp4QmlIZzVoeGpzVkE?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Высшая школа экономики",
-      "region": "west",
-      "country": "russia",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-23T07:41:16+00:00"
     },
     {
       "id": "0bc0d139c1bb",
@@ -2130,17 +2017,30 @@
       "published": "2026-09-23T07:31:46+00:00"
     },
     {
-      "id": "b5387670a892",
+      "id": "be1bf06843ed",
+      "title": "Jev in 25 Lines of Python",
+      "summary": "Comments",
+      "sourceUrl": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
+      "published": "2026-09-23T07:26:23+00:00"
+    },
+    {
+      "id": "30634ed1d5fd",
       "title": "광진구, ‘인공지능(AI) 기반 씨씨티비(CCTV) 고속검색시스템’으로 실종자 등 사회적 약자 골든타임 지킨다",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uS3JXeVVjeFFiOThPMzZZV0h6MnE0N3h5X041N1FNblR4UGUySVByY181TDQwOXVkTHpENHRZeEh4VFZQS0JTSVJIdkxoU0tSZWJpZTFuQXdMcUdKVC1hNFNNV2NvUGc?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBTT2REaXQyaTZmTFNIQTNuUFZvaWctbU5TaHVXWEpaSGJmTWxGbWtIY3JLaVpZUTlMT1JnNF9hZVoycjZtT2c?oc=5",
       "sourceLabel": "Google News — IA Corea",
-      "publisher": "경인신문",
+      "publisher": "newszoom.kr",
       "region": "west",
       "country": "korea",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T07:17:34+00:00"
+      "published": "2026-09-23T07:17:00+00:00"
     },
     {
       "id": "88c105754d61",
@@ -2156,6 +2056,19 @@
       "published": "2026-09-23T07:00:00+00:00"
     },
     {
+      "id": "f2fa047a1ce4",
+      "title": "任务成本相差30倍！麦肯锡警示：AI智能体将进一步增加企业开支",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXVmNaNkxTTVZGSF9IcmRGTmxsRm9GYy12NVRjM1E1bXU3UjRDYnpJZHFEcTJaMlhtOVE3SjN3Vms4RFhoNi10eQ?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "财联社",
+      "region": "china",
+      "country": "china",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T06:59:19+00:00"
+    },
+    {
       "id": "8104932eddf3",
       "title": "トランプ大統領、「人工知能（AI）」を「スーパー・インテリジェンス（SI）」へ 呼称変更を表明",
       "summary": "",
@@ -2169,6 +2082,19 @@
       "published": "2026-09-23T06:14:29+00:00"
     },
     {
+      "id": "e98721386fdd",
+      "title": "トランプ大統領、「人工知能（AI）」を「スーパー・インテリジェンス（SI）」へ 呼称変更を表明（TBS NEWS DIG Powered by JNN）",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96M2pXdnNWdC1iT3Z5ZzJxYUczaGhfUlpnVnFZdUhRZnB6UWpaY0xFeHJBaEk2ZkNVY0FPYjYwSVJRMHo2VGxDR3dKckFVZU5EMEVLajJpUkV0djlXN2pCVXRPb2JDOTlsMXJLQTUyUDJwdUFPRUxTak55eHRzcVU?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "Yahoo!ニュース",
+      "region": "west",
+      "country": "japan",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T06:13:18+00:00"
+    },
+    {
       "id": "f2bcc480f789",
       "title": "Chinese EV battery giant CATL starts trial production at Hungarian factory",
       "summary": "Contemporary Amperex Technol­ogy Ltd (CATL) has cleared all regulatory hurdles for its mega factory in Hungary, a development that analysts expect will help the world’s largest producer of electric vehicle (EV) batteries extend its reach to international marques like BMW and Volkswagen. Production of battery cells at the €7.3 billion (US$8.35 billion) plant in Debrecen, the second-largest city in ",
@@ -2180,6 +2106,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-23T06:00:04+00:00"
+    },
+    {
+      "id": "4017cb0fb7ba",
+      "title": "AI重塑科学研究新范式 广东“人工智能+”科技成果亮相",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uaXg3T2c5UmdJWWN5UmJYTC1lbWZOaGVNTFoxWkJySGFZX0ZaMmtNYTNKdGtiUDNfVjlZNjlrTjF3ai1YcDI4OG45bldHMnlIZDA5b0lCa2RnT3JEbFR4OV9TWVVKQjlEYXJvM3Z5b1o?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "中国科技网",
+      "region": "china",
+      "country": "china",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T05:51:22+00:00"
     },
     {
       "id": "28c06a441e85",
@@ -2208,6 +2147,45 @@
       "published": "2026-09-23T05:02:40+00:00"
     },
     {
+      "id": "fe7780d0a9da",
+      "title": "Chinese maker of robot-vacuum sensors launches Hong Kong IPO, undeterred by US ban",
+      "summary": "Shenzhen Camsense Technologies, a maker of spatial sensors for robotic vacuum cleaners, launched a Hong Kong initial public offering (IPO) that aims to raise about HK$680 million (US$86.7 million), despite headwinds from Washington’s recent import ban on foreign-made vacuum robots. “The export and procurement for our existing client products remain normal, with potential disruption limited to new ",
+      "sourceUrl": "https://www.scmp.com/business/markets/article/3368466/chinese-maker-robot-vacuum-sensors-launches-hong-kong-ipo-undeterred-us-ban?utm_source=rss_feed",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T05:00:09+00:00"
+    },
+    {
+      "id": "06de265054c4",
+      "title": "AI 인프라부터 서비스까지 한자리에…내달 1일 'AI-클라우드 빅테크' 개최",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XM2puTk91V0JBZlVoX1BGYk1BWHV6V3IxMXBCZkF3S1NBc0MtVXZleV95MkdYbFZYSzJYUzFDR1hqTkdKeUxtSjZaNUR5WHpnQmZpQm9n?oc=5",
+      "sourceLabel": "Google News — IA Corea",
+      "publisher": "지디넷코리아",
+      "region": "west",
+      "country": "korea",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T04:46:15+00:00"
+    },
+    {
+      "id": "f5f0f3869053",
+      "title": "Des dirigeants réclament des garde-fous renforcés sur l'IA à l'ONU, Trump vante une \"Super Intelligence\"",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUU1EZTVNd3BWT0FMSkJ3bkpIYXEwUXNGZThhc3dqal9RaVJTUGdHZ0dCZ1ZIejNscVlsVzhBY0RDSXN6ck1rdHM4NTFhRzBpWTlka2N0MGdaV0VGM1FVS21neG93dF9QZGkyejRvZmJPSjFTelZWdFotUTdjVTM3MnpFU3ZEN3BwMVlXdUdWSVFVamtMX0hPeldIUFFRTk51cUx5TFJJVHc3NmpOdG43Mm9NdG44NG05akVRS0czY1BpRnM?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Euronews.com",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-23T04:36:56+00:00"
+    },
+    {
       "id": "7642dbfd50fc",
       "title": "Dassault Aviation dope le Rafale à l’intelligence artificielle.",
       "summary": "",
@@ -2221,17 +2199,30 @@
       "published": "2026-09-23T04:00:32+00:00"
     },
     {
-      "id": "301ba2c6df75",
-      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
-      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "id": "8806043973d9",
+      "title": "南方基金旗下科创人工智能ETF南方(589230)跟踪标的指数上证科创板人工智能指数(950180.CSI) 昨日上涨2.98%",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KNjJyQndEQXpkT1cxN0gtMXZ5QkJFLWFsY3IzRTQyNTloVVp1VkpPWjdRb0VLbEltTVkxSTZiclZmbVJzdnVteg?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "财联社",
+      "region": "china",
+      "country": "china",
       "models": [],
       "source": "news",
-      "published": "2026-09-23T02:30:22+00:00"
+      "published": "2026-09-23T03:22:25+00:00"
+    },
+    {
+      "id": "438280717d1f",
+      "title": "オープンＡＩ、外部検証拡大 人工知能暴走懸念で安全策 | 全国のニュース",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaZ1VpOFNLb1gycFdKeTRYNFVQamkxWktvaFFxVmVyQVJESlo2eWdsRjJHWmkza1pHZi00Z3JlOXB6eHJsU3dNcHhVYTNFWlFkbEFyQ3djamthV0F5bnc?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "福井新聞社",
+      "region": "west",
+      "country": "japan",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-22T22:50:50+00:00"
     },
     {
       "id": "dacec16bfc70",
@@ -2247,6 +2238,19 @@
       "published": "2026-09-22T21:55:21+00:00"
     },
     {
+      "id": "5a587f3df2b6",
+      "title": "“엄마, 저 바보 되어가요” 아이의 충격 고백…AI항복 막을 15분 [AI발 인류지능 퇴보]",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WaVpnYkQzM1hxY25QWTBOWVU5NzRjbkFNUHlSdC1EQVdpbXB0YWhqRUw2R0YxS09QSmY4T0lzSEVTQmxPc3lyLVFuem1aMDQ?oc=5",
+      "sourceLabel": "Google News — IA Corea",
+      "publisher": "v.daum.net",
+      "region": "west",
+      "country": "korea",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-22T20:03:08+00:00"
+    },
+    {
       "id": "69bd5b227657",
       "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
       "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
@@ -2260,17 +2264,30 @@
       "published": "2026-09-22T19:45:47+00:00"
     },
     {
-      "id": "bcfac8d89c45",
-      "title": "Meta智能体火爆 AI应用板块大幅飙升",
+      "id": "4882be37fa24",
+      "title": "Guerre à Gaza, Ukraine, intelligence artificielle… Ce qu’il faut retenir du discours d’Emmanuel Macron à l’Onu",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhYUhlOGRpdS12Nnh1TU0tWWhicWR5XzBNVlJXMlQ3d2hGNlNCeFl4YVNVcjRMMGF6cnRfX2lmb1dOdFd5RlJUVnFVamxrazBXblFIV3Nsa0pQbTQ5V28yLVpOeVhPdw?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "东方财富",
-      "region": "china",
-      "country": "china",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPQTJTSTZDZExrN2FrSUJkZmVTQXJ1ZVpQcmZ5eVhtVzctd2YyZEhGdUh3U0RPTzFWZnRvd2ZLMVVZYUxIYW1ldm1SRU1WMGhqQlp6YmRLczFXYk5tV0J4MDVQUlF1TVpjc1gzaTI0RnhtVkhDOU90S3F5dnByT2VmdDFBWWlFSnJNY2F5SGNWMTRIQ2tqeVlGRTVFSFYxbmt6V2JDNXJ2Y1U2SGlqZnN2X3FqZEdPNkMtdnIxRi05Sml0S3Y4THR5QXZlTWpvdDdBTnZIT1dTbzUzWUthbEQ4TGtrdW90UkMxNmc3akRqRFdJRkRmR1V5elJKckpmczJTNEdVV2oxRm9yc1JTcl9zamxWeW5QWlQwVG5NTGJncHo?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "ouest-france.fr",
+      "region": "west",
+      "country": "france",
       "models": [],
       "source": "news",
-      "published": "2026-09-22T18:11:50+00:00"
+      "published": "2026-09-22T19:40:22+00:00"
+    },
+    {
+      "id": "54f2bdbbf4b3",
+      "title": "The Curious Power of Punctuation",
+      "summary": "Comments",
+      "sourceUrl": "https://www.newyorker.com/magazine/2026/09/28/on-the-mark-louis-menand-book-review",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
+      "published": "2026-09-22T19:02:37+00:00"
     },
     {
       "id": "175717292e82",
@@ -2312,19 +2329,6 @@
       "published": "2026-09-22T16:10:00+00:00"
     },
     {
-      "id": "2b6b46a0c4a6",
-      "title": "任务成本相差30倍！麦肯锡警示：AI智能体将进一步增加企业开支",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE11dmQ4ZFNoblFBeVZUVWlDbWJVY1FpMGZhM0FXbmtqTjZySzBPRkg3OXBrZTJoNklCV25SWVVpd05zRGpWSFE?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "财联社",
-      "region": "china",
-      "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-22T15:58:00+00:00"
-    },
-    {
       "id": "7ef457c4cfec",
       "title": "Newsblog zu KI: Trump will Begriff KI mit „Superintelligenz“ ersetzen",
       "summary": "Newsblog zu KI: Trump will Begriff KI mit „Superintelligenz“ ersetzen - Politik - SZ.de SZ.de",
@@ -2351,19 +2355,6 @@
       "published": "2026-09-22T14:55:00+00:00"
     },
     {
-      "id": "193bdb306b4d",
-      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-22T12:00:41+00:00"
-    },
-    {
       "id": "1d9e4b3f6c90",
       "title": "The mystery animal on an ancient god's head",
       "summary": "Comments",
@@ -2388,6 +2379,19 @@
       "models": [],
       "source": "news",
       "published": "2026-09-22T12:00:00+00:00"
+    },
+    {
+      "id": "26eecd805f08",
+      "title": "Show HN: An atlas of system designs with interactive architecture diagrams",
+      "summary": "Comments",
+      "sourceUrl": "https://atlas-sysdes.vercel.app/",
+      "sourceLabel": "Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
+      "published": "2026-09-22T10:54:31+00:00"
     },
     {
       "id": "695eb70799db",
@@ -2442,30 +2446,43 @@
       "published": "2026-09-22T07:00:09+00:00"
     },
     {
+      "id": "5e316c88cba9",
+      "title": "人工知能（AI）チップの世界市場（2026年～2032年）、市場規模（GPU、ASIC、FPGA、CPU、NPU）・分析レポートを発表",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15SHpZaUNhOE8wZDBvQ1FaMlVhT0VRNF8xTEh3bmQwWlk2OTJMeVVFYWhsQmdoMTV3SE1lUkJ3MHIzbjF4dHZQSmdObm0xdUU?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "アットプレス",
+      "region": "west",
+      "country": "japan",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-22T07:00:00+00:00"
+    },
+    {
+      "id": "94cbd6d41664",
+      "title": "“採用最前線”に人工知能 相次ぐ職場との“ミスマッチ” AI面接官vs記者 住宅営業マンに転職なるか 【福岡発】",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5feEZuZ3d1M0ZzdG9VRFR2UDFZOFU3ME4yRUFPTlZfelNGWm1pNzFITFo5RGFLN2hjeF9Fb19oeFBac1JmWm5aUHpDbUlXa0RtakZLUm14MTVMUkdOR09LaDhVRExPWFFpQk5GNGVWVE81WG00RTlWMkUwQmFoWEk?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "Yahoo!ニュース",
+      "region": "west",
+      "country": "japan",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-22T04:47:18+00:00"
+    },
+    {
       "id": "4f4d6aebeb24",
       "title": "向上向善向未来 发展智能经济新形态",
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IN1BLYzd5cE5KWjZHekpNWjBtTzdwR0lpMk5HV0lhczZrd2EwMTVqRU8wQmphNmctWFAtck1jQWdUNTlILTZBQ216Zkp6Zml2SGlVTXdMZk5Fdw?oc=5",
       "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "air.tsinghua.edu.cn",
+      "publisher": "清华大学智能产业研究院",
       "region": "china",
       "country": "china",
       "models": [],
       "source": "news",
       "published": "2026-09-22T04:11:11+00:00"
-    },
-    {
-      "id": "ec468fcbad62",
-      "title": "The \"Windows XP Box\" (2003)",
-      "summary": "Comments",
-      "sourceUrl": "https://www.mini-itx.com/projects/windowsxpbox/",
-      "sourceLabel": "Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "social",
-      "published": "2026-09-22T03:09:04+00:00"
     },
     {
       "id": "b2c543ac59e1",
@@ -2481,82 +2498,17 @@
       "published": "2026-09-21T22:24:38+00:00"
     },
     {
-      "id": "9ee6cf4f42f1",
-      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-21T18:00:07+00:00"
-    },
-    {
       "id": "3c41983e1676",
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50TVpFbHFkWkJyVkNRV1l3T0VTb3V4YmFhOWZsd19nNEYwV0ZsVURHeElOMG8zYVNRc0NEYUxMYkNua3ozeXBGTTdoRlY5amo1b3dIU3o3TkxUQ0VHRnZ1STYta0FkM3NxZ0dob2Npdw?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "OpenAI",
+      "publisher": "openai.com",
       "region": "west",
       "country": "usa",
       "models": [],
       "source": "news",
       "published": "2026-09-21T17:32:19+00:00"
-    },
-    {
-      "id": "173eb9a2ab25",
-      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
-      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-21T16:00:46+00:00"
-    },
-    {
-      "id": "2776c8ddc12b",
-      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-      "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead […]",
-      "sourceUrl": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-21T16:00:10+00:00"
-    },
-    {
-      "id": "ce92ef014f89",
-      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
-      "sourceLabel": "Microsoft Research",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "research",
-      "published": "2026-09-21T15:30:19+00:00"
-    },
-    {
-      "id": "dd63189f99f4",
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software ope",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-21T14:51:34+00:00"
     },
     {
       "id": "accfd3766f8a",
@@ -2572,25 +2524,12 @@
       "published": "2026-09-21T13:52:12+00:00"
     },
     {
-      "id": "405872456e62",
-      "title": "5 Companies Using NVIDIA AI for Clean Energy",
-      "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception",
-      "sourceUrl": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-21T10:00:35+00:00"
-    },
-    {
       "id": "f18a0762d496",
       "title": "Как цифровизация и искусственный интеллект меняют международный арбитраж",
-      "summary": "Как цифровизация и искусственный интеллект меняют международный арбитраж - новости Право.ру ПРАВО.Ru",
+      "summary": "Как цифровизация и искусственный интеллект меняют международный арбитраж - новости Право.ру pravo.ru",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pVWVZcGRlR0hkTFYzeGNLQmxGa1hCZTB5ME1EcVZsVDBDQ0xTOWZDZElfSHZBUlQ0N1MwRldFVHdYMVZI0gFKQVVfeXFMTzlwbkdzSzF6R0dyWmtabnpSNkRpRzlreWNkMmlSVUx5SjIwb3Eyb2ZjWjFEcTdSX2xDRzBxdHVkdEtXTWlING9COUE?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "новости Право.ру - ПРАВО.Ru",
+      "publisher": "новости Право.ру - pravo.ru",
       "region": "west",
       "country": "russia",
       "models": [],
@@ -2637,19 +2576,6 @@
       "published": "2026-09-21T08:22:00+00:00"
     },
     {
-      "id": "f9c068167ae2",
-      "title": "人工知能開発に制限は必要か AIと人類は共存できる？ 記者ノートfrom湊町（産経新聞）",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16d3RiMGpXeU9ZbTJNWmJiOVNfU0ZtWDBhczM0bjRVSENCUjVKSFZ6WFZ3bW1GSWtCbnA1ekhBT3MwcDZxTVhlaXlFTXd2LU1wY2EwdzNNanlJX3ZUUGpDcXdqcTlYcUFlT3NpRVM3OXJPMjdVbUd2eXZSTjNOMWs?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "news.yahoo.co.jp",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-09-19T00:15:51+00:00"
-    },
-    {
       "id": "c1b68c8a4936",
       "title": "Los mejores modelos de IA chinos para programar, edición septiembre 2026",
       "summary": "",
@@ -2668,12 +2594,129 @@
       "summary": "",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMWpsbTVwS1RWTGl1WGJuN0hJRTdVY185dkNwcE1mU1BYOEZKZTNuLVIyTlN4Nzd5NUtMZGFMUzJtTlZTRVgyTWtkRGMxNGtqZTRGZ25qS0djQUxGc1RBMXROQThXeDNxODN5VFI2NDFKbm9CY2NQR0RteVhfXzZCanVFNEZTQm5jWEpRZEE5cDM0NzBFNWstRHJTQQ?oc=5",
       "sourceLabel": "Google News — IA China modelos",
-      "publisher": "ecosistemastartup.com",
+      "publisher": "El Ecosistema Startup",
       "region": "china",
       "country": "china",
       "models": [],
       "source": "news",
       "published": "2026-09-15T07:00:00+00:00"
+    },
+    {
+      "id": "c7e7ad60970c",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d",
+      "sourceUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "sourceLabel": "Krebs on Security",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-08T21:44:22+00:00"
+    },
+    {
+      "id": "f28694a19101",
+      "title": "Stanford scientists discover a seafood that can reverse signs of aging",
+      "summary": "A substance found in edible sea squirts appeared to reverse several signs of aging in older mice. Plasmalogen supplements improved memory and learning, strengthened connections between brain cells, reduced inflammation, and even helped the mice grow thicker, darker hair. Researchers believe the compounds may encourage brain regeneration and protect aging synapses.",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
+      "sourceLabel": "ScienceDaily Biotech",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": "2026-09-04T08:29:06-04:00"
+    },
+    {
+      "id": "54336ea97e9a",
+      "title": "Meta’s AI agent is a cute little guy who’s great at spending my money",
+      "summary": "Modern life comes with an unending, auto-populating to-do list. It never ceases to amaze me how I can be doing nothing at all, minding my own business, and suddenly something needs to be taken care of. You're telling me a tree branch fell in the backyard and now I have to figure out what to […]",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
+      "sourceLabel": "The Verge AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
+    },
+    {
+      "id": "211a6281fee6",
+      "title": "Data centers are black boxes, but California wants to change that",
+      "summary": "California Gov. Gavin Newsom signed a slate of bills on Monday that could finally give communities better data - and more say - on how data centers impact their electricity bills and water supply. As data centers invade a growing number of communities across the US, they've triggered protests over how the infrastructure underpinning AI […]",
+      "sourceUrl": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
+      "sourceLabel": "The Verge AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
+    },
+    {
+      "id": "97f4d9447dab",
+      "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+      "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. […]",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "sourceLabel": "The Verge AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
+    },
+    {
+      "id": "be0bf243840e",
+      "title": "Meta Connect 2026: The biggest news and announcements",
+      "summary": "It’s about time for Meta Connect, the company’s annual product launch event. This year, given the company’s major focus on AI and wearables like smart glasses, it seems likely that we’ll see updates from CEO Mark Zuckerberg and his team on those categories. The company has been facing significant scrutiny because of how some users […]",
+      "sourceUrl": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
+      "sourceLabel": "The Verge",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
+    },
+    {
+      "id": "cb0c28937af7",
+      "title": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
+      "summary": "It's time once again for Meta's annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live. Meta says that today's keynote by Mark Zuckerberg will be about how \"Meta is building a future for everyone\" - something he wrote at length about in a recent […]",
+      "sourceUrl": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
+      "sourceLabel": "The Verge",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
+    },
+    {
+      "id": "19eb49086388",
+      "title": "Microsoft refreshes its smaller Surface Pro and Laptop with Qualcomm’s X2 Plus",
+      "summary": "Microsoft is refreshing its Surface Pro 12-inch and Surface Laptop 13-inch devices with Qualcomm's latest Snapdragon X2 Plus chips. The smaller Surface devices retain the same design and hardware features from last year, with faster and more capable chips inside and higher price tags (thanks RAMageddon!). While the 12-inch Surface Pro started at $799.99 last […]",
+      "sourceUrl": "https://www.theverge.com/news/999195/microsoft-surface-pro-12-inch-surface-laptop-13-inch-qualcomm-x2-plus",
+      "sourceLabel": "The Verge",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
+    },
+    {
+      "id": "27ff4f7d1655",
+      "title": "Microsoft’s new Surface Mouse has haptic feedback and a customizable action button",
+      "summary": "Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Surface Mouse also has a customizable action button for the first time, which is primarily designed for quick access to Copilot (of course), but can be configured to work with other shortcuts from the Surface app. \"Its […]",
+      "sourceUrl": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
+      "sourceLabel": "The Verge",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": null
     },
     {
       "id": "8925237846f4",
@@ -2686,6 +2729,32 @@
       "country": "china",
       "models": [],
       "source": "news",
+      "published": null
+    },
+    {
+      "id": "bee0f403c7e2",
+      "title": "Amazon Blocks Meta’s Muse AI Agent From Amazon.com Shopping After Meta Rejects Removal Request",
+      "summary": "submitted by /u/coolbern [link] [comments]",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wmxpow/amazon_blocks_metas_muse_ai_agent_from_amazoncom/",
+      "sourceLabel": "Reddit r/artificial",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
+      "published": null
+    },
+    {
+      "id": "7d8744723b48",
+      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,' new unredacted filings reveal",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkwa0a/microsoft_exec_called_ai_scraping_the_largest/",
+      "sourceLabel": "Reddit r/artificial",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "social",
       "published": null
     },
     {
