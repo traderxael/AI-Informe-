@@ -66,7 +66,8 @@ scripts/
   resumir_groq.py         # resúmenes LLM en español (Groq) + traducción de señales
   actualizar_modelos.py   # LMArena + OpenRouter → public/data/modelos.json
   auditar_feeds.py        # diagnóstico: cuántos items trae cada feed (herramienta)
-  test_pipeline.py        # tests sin red (44 tests) + regresión Windows del wrapper
+  test_pipeline.py        # tests sin red (44 tests)
+  with-app-env.brace-regression.test.mjs # regresión del wrapper en Windows
 informes/                 # un markdown por día
 datos/                    # JSON diario de señales de X (cola de clips AutoClip)
 public/data/              # JSON que consume la web
