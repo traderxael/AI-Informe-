@@ -46,6 +46,12 @@ jobs:
       - name: Tests de clasificación
         run: python scripts/test_pipeline.py
 
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
 

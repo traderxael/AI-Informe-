@@ -14,7 +14,6 @@ import {
   type InformeSearch,
   type ModelId,
   type ModelInfo,
-  type Region,
   type Signal,
 } from "@/lib/informe-data";
 import { loadLiveModels, loadLiveSignals, weekLabelFrom, type LiveModelRow } from "@/lib/live-feed";
@@ -76,7 +75,7 @@ export function WeekView({
         // `prev`/`next` son Partial, así que region/model pueden venir
         // undefined: TS2345 al pasarlos a modelsForRegion(). Se coalescen a
         // "all" antes de usar, que es el valor neutro de los filtros.
-        let regionNext: InformeSearch["region"] = merged.region ?? "all";
+        const regionNext: InformeSearch["region"] = merged.region ?? "all";
         let modelNext: InformeSearch["model"] = merged.model ?? "all";
         if (regionNext !== "all" && modelNext !== "all") {
           const allowed = modelsForRegion(regionNext).some((m) => m.id === modelNext);
@@ -104,9 +103,9 @@ export function WeekView({
     return filterSignals(feed, region, model).filter((s) => matchesQuery(s, q));
   }, [feed, region, model, query]);
 
-  useEffect(() => {
-    if (openId && !signals.some((s) => s.id === openId)) setOpenId(null);
-  }, [signals, openId]);
+  // Derive the visible open signal instead of synchronising state from an effect.
+  // When a filter change removes the selected signal, none is rendered open.
+  const visibleOpenId = openId && signals.some((s) => s.id === openId) ? openId : null;
 
   const filtered = region !== "all" || model !== "all" || query.trim().length > 0;
   const shown = useMemo(() => {
@@ -302,7 +301,7 @@ export function WeekView({
               <SignalCard
                 key={s.id}
                 signal={s}
-                open={openId === s.id}
+                open={visibleOpenId === s.id}
                 onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
                 onModel={(id) => patch({ model: id, region: MODEL_BY_ID[id].region })}
               />
