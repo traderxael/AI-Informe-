@@ -29,6 +29,11 @@ jobs:
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
 
+      - name: Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
       - name: Lint
         run: npm run lint
 
@@ -37,6 +42,9 @@ jobs:
 
       - name: Frontend tests
         run: npm test
+
+      - name: Python tests
+        run: python scripts/test_pipeline.py
 
       - name: Build
         run: npm run build
