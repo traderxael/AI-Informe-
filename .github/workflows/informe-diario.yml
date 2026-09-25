@@ -28,7 +28,7 @@ jobs:
       # componente roto (p. ej. week-view.tsx usando `loading` sin declararlo)
       # llegaba a Vercel y rompia la portada en runtime, no en el build.
       - name: Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "22"
 

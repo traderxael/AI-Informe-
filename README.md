@@ -95,7 +95,7 @@ npm install && npm run dev
 
 ## GitHub Actions
 
-- `ci.yml`: ejecuta en cada PR y en `main` `npm ci`, lint, typecheck, tests y build.
+- `ci.yml`: ejecuta en cada PR y en `main` `npm ci`, lint, typecheck, tests frontend/Python y build.
 - `informe-diario.yml`: cron `0 12 * * *` (09:00 Chile) o manual con `workflow_dispatch`. Pasos, todos con `continue-on-error` donde corresponde:
 
 1. Tests de clasificación (`test_pipeline.py`)
