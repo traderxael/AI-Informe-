@@ -501,7 +501,7 @@ RELEVANCIA_WEIGHTS = {
     "VentureBeat AI": 1.2, "Hugging Face": 1.2,
     "Synced": 1.1, "QbitAI": 1.1, "36Kr AI": 1.0, "DeepSeek": 1.4,
     "The Verge": 1.2, "Wired": 1.2, "Hacker News": 1.1,
-    "AI Revolution": 1.3,  # canal de resumen de noticias IA: mismo tier que TechCrunch/The Verge AI
+    "AI News": 1.3,  # medio editorial de noticias IA: mismo tier que TechCrunch/The Verge AI
 }
 DEFAULT_WEIGHT = 1.0
 RECENCY_DECAY_HOURS = 36.0  # la recencia decae a ~1/e en 36h
@@ -565,7 +565,7 @@ AI_NATIVE_SOURCES = frozenset({
     "OpenAI", "Google AI", "DeepMind", "Anthropic", "Meta AI", "MIT Tech Review AI",
     "TechCrunch AI", "The Verge AI", "Ars Technica AI", "VentureBeat AI", "Hugging Face",
     "Synced", "QbitAI", "DeepSeek", "36Kr AI", "BAAI", "Google Developers",
-    "Microsoft Research", "NVIDIA Blog", "MarkTechPost", "AI Revolution",
+    "Microsoft Research", "NVIDIA Blog", "MarkTechPost", "AI News",
     "BAIR Berkeley", "NVIDIA Developer", "Mistral AI", "Stability AI",
     # arXiv por categoria: cs.AI y cs.CL son IA por definicion, pero sus
     # titulares usan vocabulario academico que AI_SIGNAL no cubre ("Which
