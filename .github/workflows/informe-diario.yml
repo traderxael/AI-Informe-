@@ -70,7 +70,7 @@ jobs:
         continue-on-error: true
         run: python scripts/actualizar_modelos.py --max 60
 
-      # Fuente de X: monitor de viralidad (16 cuentas + 4 searches de nicho).
+      # Fuente de X: monitor de viralidad (17 cuentas + 5 searches de nicho).
       # Soft-fail: si la API de FxEmbed falla, el informe diario sigue igual.
       - name: Señales de X - FxTwitter (cuentas + searches de nicho)
         continue-on-error: true

@@ -105,7 +105,10 @@ export function WeekView({
 
   // Derive the visible open signal instead of synchronising state from an effect.
   // When a filter change removes the selected signal, none is rendered open.
-  const visibleOpenId = openId && signals.some((s) => s.id === openId) ? openId : null;
+  const visibleOpenId = useMemo(
+    () => (openId && signals.some((s) => s.id === openId) ? openId : null),
+    [openId, signals],
+  );
 
   const filtered = region !== "all" || model !== "all" || query.trim().length > 0;
   const shown = useMemo(() => {
