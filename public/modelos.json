@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-09-25T16:41:49",
+ "actualizado": "2026-09-26T15:55:31",
  "fuentes": [
   "arena.ai/leaderboard/text",
   "openrouter.ai/api/v1/models"
  ],
  "total": 60,
- "con_precio": 37,
+ "con_precio": 39,
  "modelos": [
   {
-   "modelo": "claude-fable-5-high",
-   "elo": 1506,
+   "modelo": "claude-opus-5.5-high",
+   "elo": 1509,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado",
-   "precio_in": 10.0,
-   "precio_out": 50.0,
+   "precio_in": 4.0,
+   "precio_out": 20.0,
    "context": 1000000
   },
   {
@@ -23,6 +23,15 @@
    "licencia": "cerrado"
   },
   {
+   "modelo": "claude-fable-5-high",
+   "elo": 1504,
+   "org": "Anthropic · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 10.0,
+   "precio_out": 50.0,
+   "context": 1000000
+  },
+  {
    "modelo": "claude-opus-4-7-high",
    "elo": 1502,
    "org": "Anthropic · Proprietary",
@@ -30,7 +39,7 @@
   },
   {
    "modelo": "claude-fable-5.1-max",
-   "elo": 1498,
+   "elo": 1501,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado",
    "precio_in": 10.0,
@@ -39,19 +48,19 @@
   },
   {
    "modelo": "claude-opus-4-6",
-   "elo": 1497,
+   "elo": 1498,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado"
   },
   {
    "modelo": "claude-opus-4-7",
-   "elo": 1494,
+   "elo": 1495,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado"
   },
   {
    "modelo": "muse-spark-1.3-max",
-   "elo": 1493,
+   "elo": 1494,
    "org": "Meta · Proprietary",
    "licencia": "cerrado",
    "precio_in": 1.25,
@@ -60,7 +69,7 @@
   },
   {
    "modelo": "gemini-3.8-flash-high",
-   "elo": 1493,
+   "elo": 1492,
    "org": "Google · Proprietary",
    "licencia": "cerrado",
    "precio_in": 0.75,
@@ -69,7 +78,7 @@
   },
   {
    "modelo": "claude-opus-5-high",
-   "elo": 1493,
+   "elo": 1491,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado",
    "precio_in": 5.0,
@@ -78,7 +87,7 @@
   },
   {
    "modelo": "muse-spark-1.1",
-   "elo": 1493,
+   "elo": 1491,
    "org": "Meta · Proprietary",
    "licencia": "cerrado",
    "precio_in": 1.25,
@@ -86,17 +95,8 @@
    "context": 1048576
   },
   {
-   "modelo": "gemini-3.7-flash-high",
-   "elo": 1490,
-   "org": "Google · Proprietary",
-   "licencia": "cerrado",
-   "precio_in": 0.75,
-   "precio_out": 3.75,
-   "context": 1048576
-  },
-  {
    "modelo": "muse-spark",
-   "elo": 1488,
+   "elo": 1489,
    "org": "Meta · Proprietary",
    "licencia": "cerrado",
    "precio_in": 1.25,
@@ -105,12 +105,30 @@
   },
   {
    "modelo": "claude-opus-5-max",
-   "elo": 1487,
+   "elo": 1488,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
+  },
+  {
+   "modelo": "gemini-3.7-flash-high",
+   "elo": 1488,
+   "org": "Google · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 0.75,
+   "precio_out": 3.75,
+   "context": 1048576
+  },
+  {
+   "modelo": "kimi-k3-max",
+   "elo": 1488,
+   "org": "Moonshot · Kimi K3 license",
+   "licencia": "cerrado",
+   "precio_in": 3.0,
+   "precio_out": 15.0,
+   "context": 1048576
   },
   {
    "modelo": "gemini-3.1-pro-preview",
@@ -131,15 +149,6 @@
    "context": 131072
   },
   {
-   "modelo": "kimi-k3-max",
-   "elo": 1485,
-   "org": "Moonshot · Kimi K3 license",
-   "licencia": "cerrado",
-   "precio_in": 3.0,
-   "precio_out": 15.0,
-   "context": 1048576
-  },
-  {
    "modelo": "gpt-5.6-sol-xhigh",
    "elo": 1483,
    "org": "OpenAI · Proprietary",
@@ -149,17 +158,17 @@
    "context": 1050000
   },
   {
-   "modelo": "glm-5.3-max",
-   "elo": 1483,
-   "org": "Z.ai · MIT",
-   "licencia": "open",
-   "precio_in": 1.4,
-   "precio_out": 4.4,
-   "context": 1310720
+   "modelo": "gemini-3.6-flash-high",
+   "elo": 1482,
+   "org": "Google · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 0.75,
+   "precio_out": 3.75,
+   "context": 1048576
   },
   {
    "modelo": "gpt-5.5-high",
-   "elo": 1482,
+   "elo": 1481,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado",
    "precio_in": 5.0,
@@ -168,13 +177,31 @@
   },
   {
    "modelo": "claude-opus-4-8-high",
-   "elo": 1481,
+   "elo": 1480,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado"
   },
   {
+   "modelo": "mimo-v2.6-pro",
+   "elo": 1480,
+   "org": "Xiaomi · MIT",
+   "licencia": "open",
+   "precio_in": 0.435,
+   "precio_out": 0.87,
+   "context": 1050000
+  },
+  {
+   "modelo": "glm-5.3-max",
+   "elo": 1480,
+   "org": "Z.ai · MIT",
+   "licencia": "open",
+   "precio_in": 0.379,
+   "precio_out": 1.192,
+   "context": 1310720
+  },
+  {
    "modelo": "qwen3.8-max",
-   "elo": 1481,
+   "elo": 1479,
    "org": "Alibaba · Proprietary",
    "licencia": "cerrado",
    "precio_in": 2.0,
@@ -182,17 +209,8 @@
    "context": 1000000
   },
   {
-   "modelo": "gemini-3.6-flash-high",
-   "elo": 1480,
-   "org": "Google · Proprietary",
-   "licencia": "cerrado",
-   "precio_in": 0.75,
-   "precio_out": 3.75,
-   "context": 1048576
-  },
-  {
    "modelo": "gpt-6-astra-max",
-   "elo": 1480,
+   "elo": 1478,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado",
    "precio_in": 10.0,
@@ -201,7 +219,7 @@
   },
   {
    "modelo": "gemini-3.5-flash-high",
-   "elo": 1478,
+   "elo": 1477,
    "org": "Google · Proprietary",
    "licencia": "cerrado",
    "precio_in": 1.5,
@@ -209,13 +227,22 @@
    "context": 1048576
   },
   {
-   "modelo": "gpt-5.4-high",
-   "elo": 1476,
+   "modelo": "gpt-5.5",
+   "elo": 1477,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado",
-   "precio_in": 2.5,
-   "precio_out": 15.0,
+   "precio_in": 5.0,
+   "precio_out": 30.0,
    "context": 1050000
+  },
+  {
+   "modelo": "deepseek-v4.1-flash-max",
+   "elo": 1477,
+   "org": "DeepSeek · MIT",
+   "licencia": "open",
+   "precio_in": 0.3,
+   "precio_out": 1.2,
+   "context": 1048576
   },
   {
    "modelo": "gpt-5.2-chat-latest-20260210",
@@ -224,22 +251,28 @@
    "licencia": "cerrado"
   },
   {
-   "modelo": "gpt-5.5",
+   "modelo": "glm-5.2-max",
    "elo": 1476,
+   "org": "Z.ai · MIT",
+   "licencia": "open",
+   "precio_in": 0.65,
+   "precio_out": 2.042,
+   "context": 1048576
+  },
+  {
+   "modelo": "gpt-5.4-high",
+   "elo": 1475,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado",
-   "precio_in": 5.0,
-   "precio_out": 30.0,
+   "precio_in": 2.5,
+   "precio_out": 15.0,
    "context": 1050000
   },
   {
-   "modelo": "glm-5.3-flash",
+   "modelo": "qwen3.7-max-preview",
    "elo": 1475,
-   "org": "Z.ai · MIT",
-   "licencia": "open",
-   "precio_in": 0.045,
-   "precio_out": 0.14,
-   "context": 1310720
+   "org": "Alibaba · Proprietary",
+   "licencia": "cerrado"
   },
   {
    "modelo": "grok-4.20-beta1",
@@ -248,20 +281,41 @@
    "licencia": "cerrado"
   },
   {
+   "modelo": "glm-5.3-flash",
+   "elo": 1474,
+   "org": "Z.ai · MIT",
+   "licencia": "open",
+   "precio_in": 0.04,
+   "precio_out": 0.5,
+   "context": 1310720
+  },
+  {
    "modelo": "gemini-3.5-flash-medium",
    "elo": 1474,
    "org": "Google · Proprietary",
    "licencia": "cerrado"
   },
   {
-   "modelo": "gpt-5.5-instant",
+   "modelo": "claude-opus-4-8",
    "elo": 1474,
+   "org": "Anthropic · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "claude-opus-4-5-20251101-high-32k",
+   "elo": 1474,
+   "org": "Anthropic · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "gpt-5.5-instant",
+   "elo": 1473,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado"
   },
   {
    "modelo": "gemini-3-flash",
-   "elo": 1474,
+   "elo": 1473,
    "org": "Google · Proprietary",
    "licencia": "cerrado",
    "precio_in": 0.5,
@@ -269,37 +323,10 @@
    "context": 1048576
   },
   {
-   "modelo": "qwen3.7-max-preview",
-   "elo": 1473,
-   "org": "Alibaba · Proprietary",
-   "licencia": "cerrado"
-  },
-  {
-   "modelo": "claude-opus-4-8",
-   "elo": 1473,
-   "org": "Anthropic · Proprietary",
-   "licencia": "cerrado"
-  },
-  {
-   "modelo": "claude-opus-4-5-20251101-high-32k",
-   "elo": 1473,
-   "org": "Anthropic · Proprietary",
-   "licencia": "cerrado"
-  },
-  {
    "modelo": "claude-sonnet-4-6",
-   "elo": 1473,
+   "elo": 1472,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado"
-  },
-  {
-   "modelo": "glm-5.2-max",
-   "elo": 1472,
-   "org": "Z.ai · MIT",
-   "licencia": "open",
-   "precio_in": 0.65,
-   "precio_out": 2.042,
-   "context": 1048576
   },
   {
    "modelo": "grok-4.20-beta-0309-reasoning",
@@ -315,18 +342,9 @@
   },
   {
    "modelo": "claude-opus-4-5-20251101",
-   "elo": 1469,
+   "elo": 1470,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado"
-  },
-  {
-   "modelo": "grok-4.5",
-   "elo": 1468,
-   "org": "xAI · Proprietary",
-   "licencia": "cerrado",
-   "precio_in": 2.0,
-   "precio_out": 6.0,
-   "context": 500000
   },
   {
    "modelo": "ernie-5.1",
@@ -344,8 +362,32 @@
    "context": 1050000
   },
   {
+   "modelo": "grok-4.5",
+   "elo": 1465,
+   "org": "xAI · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 2.0,
+   "precio_out": 6.0,
+   "context": 500000
+  },
+  {
+   "modelo": "grok-4.1-thinking",
+   "elo": 1465,
+   "org": "xAI · Proprietary",
+   "licencia": "cerrado"
+  },
+  {
+   "modelo": "glm-5.1",
+   "elo": 1465,
+   "org": "Z.ai · MIT",
+   "licencia": "open",
+   "precio_in": 0.965,
+   "precio_out": 3.032,
+   "context": 204800
+  },
+  {
    "modelo": "gpt-5.6-terra-xhigh",
-   "elo": 1466,
+   "elo": 1465,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado",
    "precio_in": 2.0,
@@ -354,27 +396,12 @@
   },
   {
    "modelo": "gpt-5.4",
-   "elo": 1466,
+   "elo": 1465,
    "org": "OpenAI · Proprietary",
    "licencia": "cerrado",
    "precio_in": 2.5,
    "precio_out": 15.0,
    "context": 1050000
-  },
-  {
-   "modelo": "glm-5.1",
-   "elo": 1466,
-   "org": "Z.ai · MIT",
-   "licencia": "open",
-   "precio_in": 0.965,
-   "precio_out": 3.032,
-   "context": 204800
-  },
-  {
-   "modelo": "grok-4.1-thinking",
-   "elo": 1465,
-   "org": "xAI · Proprietary",
-   "licencia": "cerrado"
   },
   {
    "modelo": "qwen3.5-max-preview",
@@ -384,13 +411,13 @@
   },
   {
    "modelo": "deepseek-v4-pro-high-20260813",
-   "elo": 1463,
+   "elo": 1464,
    "org": "DeepSeek · MIT",
    "licencia": "open"
   },
   {
    "modelo": "claude-sonnet-5-high",
-   "elo": 1461,
+   "elo": 1462,
    "org": "Anthropic · Proprietary",
    "licencia": "cerrado",
    "precio_in": 2.0,
@@ -399,7 +426,7 @@
   },
   {
    "modelo": "kimi-k2.6",
-   "elo": 1460,
+   "elo": 1461,
    "org": "Moonshot · Modified MIT",
    "licencia": "open",
    "precio_in": 0.95,
@@ -422,8 +449,26 @@
    "licencia": "cerrado"
   },
   {
-   "modelo": "glm-5",
+   "modelo": "deepseek-v4-pro",
    "elo": 1458,
+   "org": "DeepSeek · MIT",
+   "licencia": "open",
+   "precio_in": 0.348,
+   "precio_out": 0.696,
+   "context": 1048576
+  },
+  {
+   "modelo": "gpt-6-sol-max",
+   "elo": 1457,
+   "org": "OpenAI · Proprietary",
+   "licencia": "cerrado",
+   "precio_in": 2.0,
+   "precio_out": 10.0,
+   "context": 1050000
+  },
+  {
+   "modelo": "glm-5",
+   "elo": 1457,
    "org": "Z.ai · MIT",
    "licencia": "open",
    "precio_in": 0.6,
@@ -431,52 +476,13 @@
    "context": 204800
   },
   {
-   "modelo": "deepseek-v4-pro",
-   "elo": 1457,
-   "org": "DeepSeek · MIT",
-   "licencia": "open",
-   "precio_in": 0.713,
-   "precio_out": 1.426,
-   "context": 1048576
-  },
-  {
-   "modelo": "claude-sonnet-4-5-20250929-high-32k",
-   "elo": 1456,
-   "org": "Anthropic · Proprietary",
-   "licencia": "cerrado"
-  },
-  {
-   "modelo": "gemini-3.5-flash-lite",
-   "elo": 1456,
-   "org": "Google · Proprietary",
-   "licencia": "cerrado",
-   "precio_in": 0.3,
-   "precio_out": 2.5,
-   "context": 1048576
-  },
-  {
    "modelo": "hy3",
-   "elo": 1456,
+   "elo": 1457,
    "org": "Tencent · Apache 2.0",
    "licencia": "open",
-   "precio_in": 0.083,
-   "precio_out": 0.33,
+   "precio_in": 0.132,
+   "precio_out": 0.528,
    "context": 262144
-  },
-  {
-   "modelo": "dola-seed-2.0-pro",
-   "elo": 1456,
-   "org": "Bytedance · Proprietary",
-   "licencia": "cerrado"
-  },
-  {
-   "modelo": "qwen3.7-plus",
-   "elo": 1456,
-   "org": "Alibaba · Proprietary",
-   "licencia": "cerrado",
-   "precio_in": 0.32,
-   "precio_out": 1.28,
-   "context": 1000000
   }
  ]
 }
