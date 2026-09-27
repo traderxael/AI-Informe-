@@ -28,7 +28,7 @@ jobs:
       # componente roto (p. ej. week-view.tsx usando `loading` sin declararlo)
       # llegaba a Vercel y rompia la portada en runtime, no en el build.
       - name: Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "22"
 
@@ -45,6 +45,12 @@ jobs:
 
       - name: Tests de clasificación
         run: python scripts/test_pipeline.py
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
 
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
@@ -64,7 +70,7 @@ jobs:
         continue-on-error: true
         run: python scripts/actualizar_modelos.py --max 60
 
-      # Fuente de X: monitor de viralidad (16 cuentas + 4 searches de nicho).
+      # Fuente de X: monitor de viralidad (17 cuentas + 5 searches de nicho).
       # Soft-fail: si la API de FxEmbed falla, el informe diario sigue igual.
       - name: Señales de X - FxTwitter (cuentas + searches de nicho)
         continue-on-error: true
