@@ -20,9 +20,9 @@
  * `process.env`, which is why the merge has to happen before Vite starts.
  */
 import { spawn } from "node:child_process";
-import { readFileSync, realpathSync } from "node:fs";
+import { readFileSync, existsSync, realpathSync } from "node:fs";
 import { constants as osConstants } from "node:os";
-import { dirname, join } from "node:path";
+import { dirname, delimiter, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const APP_ENV_REL_PATH = ".grok/app-env.json";
@@ -104,6 +104,22 @@ export function isMainModule(moduleUrl) {
   }
 }
 
+/**
+ * Windows npm/Vite commands may resolve to a `.cmd`/`.bat` shim. Only those
+ * shims need `shell: true`; running native executables through cmd.exe can
+ * reinterpret JavaScript (`>` in `() => {}`) as shell redirection.
+ */
+function commandNeedsShell(command) {
+  if (process.platform !== "win32") return false;
+  const lower = command.toLowerCase();
+  if (lower.endsWith(".cmd") || lower.endsWith(".bat")) return true;
+  if (lower.endsWith(".exe") || lower.includes("\\") || lower.includes("/")) return false;
+  // npm installs Vite as `vite.cmd` on Windows; a bare `vite` may be a shim.
+  return (process.env.PATH || "").split(delimiter).some((dir) =>
+    existsSync(join(dir, `${lower}.cmd`)) || existsSync(join(dir, `${lower}.bat`)),
+  );
+}
+
 function main(argv) {
   const [command, ...args] = argv;
   if (!command) {
@@ -114,8 +130,7 @@ function main(argv) {
     const child = spawn(command, args, {
       stdio: "inherit",
       env,
-      // Windows: `spawn` con el binario a secas (sin .cmd) falla con ENOENT.
-      shell: process.platform === "win32",
+      shell: commandNeedsShell(command),
     });
   // The dev server is long-running and is stopped by signalling this wrapper.
   for (const signal of ["SIGINT", "SIGTERM", "SIGHUP"]) {

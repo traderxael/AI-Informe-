@@ -121,6 +121,14 @@ class SourceKindTests(unittest.TestCase):
     def test_google_news_es_news(self) -> None:
         self.assertEqual(cs.source_kind(["claude"], "Google News — IA global"), "news")
 
+    def test_ai_revolution_feed_muerto_no_esta_registrado(self) -> None:
+        self.assertNotIn(
+            "AI Revolution",
+            {name for name, _url in gi.FEEDS},
+        )
+        self.assertIn("AI News", gi.AI_NATIVE_SOURCES)
+        self.assertEqual(gi.RELEVANCIA_WEIGHTS["AI News"], 1.3)
+
     def test_hn_es_social(self) -> None:
         self.assertEqual(cs.source_kind([], "Hacker News"), "social")
 

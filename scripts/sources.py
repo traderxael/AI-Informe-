@@ -60,8 +60,10 @@ FEEDS = [
     ("Dark Reading", "https://www.darkreading.com/rss.xml"),
     ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
     ("Google Security Blog", "https://security.googleblog.com/feeds/posts/default"),
-    # --- Video / analisis (YouTube) ---
-    ("AI Revolution", "https://www.youtube.com/feeds/videos.xml?channel_id=UC5l7RouTQ60oUjLjt1Nh-UQ"),
+    # --- RSS editorial ---
+    # El feed Atom de YouTube del antiguo "AI Revolution" devuelve 404.
+    # Reemplazo verificado con el parser real del pipeline: 12 items.
+    ("AI News", "https://www.artificialintelligence-news.com/feed/"),
 ]
 
 # Alias: collect_signals.py históricamente llama a LAB_FEEDS
