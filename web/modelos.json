@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-26T15:55:31",
+ "actualizado": "2026-09-27T16:30:54",
  "fuentes": [
   "arena.ai/leaderboard/text",
   "openrouter.ai/api/v1/models"
@@ -195,8 +195,8 @@
    "elo": 1480,
    "org": "Z.ai · MIT",
    "licencia": "open",
-   "precio_in": 0.379,
-   "precio_out": 1.192,
+   "precio_in": 1.4,
+   "precio_out": 4.4,
    "context": 1310720
   },
   {
@@ -240,8 +240,8 @@
    "elo": 1477,
    "org": "DeepSeek · MIT",
    "licencia": "open",
-   "precio_in": 0.3,
-   "precio_out": 1.2,
+   "precio_in": 0.035,
+   "precio_out": 0.29,
    "context": 1048576
   },
   {
@@ -285,8 +285,8 @@
    "elo": 1474,
    "org": "Z.ai · MIT",
    "licencia": "open",
-   "precio_in": 0.04,
-   "precio_out": 0.5,
+   "precio_in": 0.045,
+   "precio_out": 0.14,
    "context": 1310720
   },
   {
@@ -480,8 +480,8 @@
    "elo": 1457,
    "org": "Tencent · Apache 2.0",
    "licencia": "open",
-   "precio_in": 0.132,
-   "precio_out": 0.528,
+   "precio_in": 0.083,
+   "precio_out": 0.33,
    "context": 262144
   }
  ]

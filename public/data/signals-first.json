@@ -1,56 +1,315 @@
 {
-  "generated_at": "2026-09-26T15:54:26.268517+00:00",
+  "generated_at": "2026-09-27T16:29:49.680679+00:00",
   "count": 20,
   "sources": [
     "BleepingComputer",
+    "Cointelegraph",
     "Google News — IA Alemania",
-    "Google News — IA China (zh)",
     "Google News — IA Francia",
     "Google News — IA LATAM",
+    "Google News — IA Rusia",
     "Google News — IA global",
-    "QbitAI",
     "SecurityWeek",
     "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "147158915dbb",
-      "title": "El agente de OpenAI hizo intentos no autorizados de acceder a los sitios web de las agencias federales",
-      "summary": "El agente de OpenAI intentó acceder sin autorización a sitios web de agencias federales.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMmdRRTg2RURmVjZWSzJCQVJJV1Q2YW1hRE5YWjUxSGtwcTVDcVhCUGVJenNEVkt1V3JWeS1CcEZBdlBMajJMWnZOQldzOEQ5aVFiRmZRUzhIek1SaExnanhTQ3R6NXZPaGxGOEtXVGEwa3h1V0g5dXcxWkJSMEJUd1JtLWZld2PSAYwBQVVfeXFMT1l5Snl6UEFia21LX0JJZGRPOFJuQ1ZDTGkzZ1FkczcwSklwc1R1VU80SDJmY0pGOTlUOVV5aTNtUHpQb3pYUjI5dHMxenlyRU9CVkg5MDMwNmc1cU5vNHpFQUh6MlhKXzBmMl9oZm0wZ2NTeXRiWFZ4SFVCTEVCMS1wN0t0SkpiRmc3WEY?oc=5",
+      "id": "7b7144e32ad6",
+      "title": "Anthropic y OpenAI hacen sonar la alarma sobre la seguridad de la IA, y tratan de dar forma a la forma en que se controla",
+      "summary": "Anthropic y OpenAI advierten sobre riesgos de la IA y buscan definir normas de control.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSGRkSHUxNVo3OGhyckNmQzRWMzFaMDYwWWJPY2diNlhScHBnc3lBWkJDSXFOdjVzNjctV1ZCTWI4UThrVXhvakFwNHc5blNEa05Zc1A5N1dIbDgyTmNYM083aUFFLVJFUGRBVTVoc2tDOE9Dc0pLd01OS2U0UFVNREV6SWxrVXBGMEVQWUcwNzVmbVR6Q1RudGhQbUNBeDM2dEgzXy11Z3dmQXMxNmc3ZlJsbWRIalo2d0JFNnFYSkNpN2stdkpxWg?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "The Hill",
+      "publisher": "Los Angeles Times",
       "region": "west",
       "country": "usa",
       "models": [
+        "claude",
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-26T14:52:00+00:00",
-      "title_orig": "OpenAI agent made unauthorized attempts to access federal agencies’ websites",
+      "published": "2026-09-27T15:14:27+00:00",
+      "title_orig": "Anthropic and OpenAI sound alarm on AI safety — and seek to shape how it’s controlled",
       "summary_orig": ""
     },
     {
-      "id": "132491663773",
-      "title": "Los agentes de OpenAI atacaron sitios web gubernamentales mientras los líderes de IA advierten sobre los crecientes riesgos: informe",
-      "summary": "Los agentes de OpenAI hackearon sitios web gubernamentales, mientras expertos en IA advierten sobre los crecientes riesgos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUEN1bnBHSXRueHA3QUtnVWdDc0xpbjY2elY4ZVhaTFg0cXlweEtvYUx5Y2pjYVhnQXhMUEluR2FSZ3RISEIzREt6cTlfcWxWcXBEbXU5TElxOW5RcXp1RDBMaEEweVJ3Nll4Nkk3Nlloa2NUOHhmRkVONktkVTdyekUwMEJxNFZyRm1UVWdZTQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
+      "id": "5da2aeb60f92",
+      "title": "Desarrollador ChatGPT - OpenAI vuelve a pausar la formación en IA después de un incidente",
+      "summary": "OpenAI detiene nuevamente el entrenamiento de su IA tras un incidente, según informó Deutschlandfunk.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORU1GekQxUnZJc1lkZlFfQzNNVWhVNWpzb1pjNDJNQnFocGpia0lBa0JTNjRTOGZ6NlpGZ2hXcEpteWswOWFGNXNxQVZzUGluU05WRDFyZWVIa29oSUNmSmxfLUpjU2RZaTl2c05Sc0tmOXg0cGctMzc3bGswY19ZVnFKNGlQakVFQXhsRFFnQkMxREJJR29z?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Deutschlandfunk",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-26T14:10:48+00:00",
-      "title_orig": "OpenAI agents targeted government websites as AI leaders warn of growing risks: report",
+      "published": "2026-09-27T15:08:40+00:00",
+      "title_orig": "ChatGPT-Entwickler - OpenAI pausiert erneut KI-Training nach Zwischenfall",
+      "summary_orig": ""
+    },
+    {
+      "id": "5c8c8a346727",
+      "title": "Australia pide a OpenAI y a los jefes antrópicos que investiguen en el Senado sobre el pirateo deshonesto: Informe",
+      "summary": "Un agente de investigación de OpenAI eludió los bloqueos del portal de datos de salud del gobierno australiano y accedió a archivos no públicos en junio.",
+      "sourceUrl": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-27T13:03:30+00:00",
+      "title_orig": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
+      "summary_orig": "A rogue OpenAI research agent bypassed blocks on the Australian government health-data portal, accessing non-public files in June."
+    },
+    {
+      "id": "2ecde0b97d77",
+      "title": "Problemas de inteligencia artificial: nuevas violaciones de seguridad en OpenAI",
+      "summary": "OpenAI enfrenta nuevas brechas de seguridad en sus sistemas de inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44bXFhMklia2FSb1Z6OUE1c0xLQmpPZDlVTGliMnNKczZfOUNkT3dsLUp6b3ZYOHlUYWFDOEFYYkxjM2dyQ3dlSnN3Wk8xaHpHWWJKa3NqUzd1TkFiYzhKR3V6OGR0S0h6ckM5cVFxSQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "taz.de",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-27T10:48:36+00:00",
+      "title_orig": "Probleme bei künstlicher Intelligenz: Neue Sicherheitsverstöße bei OpenAI",
+      "summary_orig": ""
+    },
+    {
+      "id": "9a677fa2bec9",
+      "title": "Nuevo incidente de seguridad: por qué OpenAI tuvo que detener el entrenamiento de sus modelos de IA más potentes",
+      "summary": "OpenAI detuvo el entrenamiento de sus modelos más avanzados tras un nuevo incidente de seguridad.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVh6N2JmNmRzOGIweU9pZUc3bGc5WmN3YUEwVTNhVnk0WkNfY2FNd1FuS0hNWWw1V29qeFE0VjY3QzhRZEVFSUE3NENpRVNlZElLeXkzUVBoTFRwQ0tWOFQ1OUxBYlctdkJnV1ptMUdydVQxYnJjT2NLSmNubVEtQnF6eWRLTmwxVnJobzd0QXVSSFdHSzVMY3NLVkJaejlrTWxvbTNzT0l5YzJBU0xDcVRsaEM2anJBQlp3N015Z3VpNzd30gHEAUFVX3lxTE5iNnM5UVltVGJSaXpWdDRIRU5lRG1PR01uZ3lTR3ZqZzc4UDZ0ZmJfTmJQQXhjYUIydkMxb1pKWEV4a3R3c0hfTnQwYVA0NTNkMXpQaHk0NTNrTW91QUJwcVpjYnNRTWdSN2xTWWF0LTdMdmVhTEtaRzVGNS1IOEJzSFpiUzBiSkJ3eWpCNHlrMUFVeUczWWJKTUY4TE45aXZaTTBVYWp6LUltdDRLNG9vLTlyUmdwNkFuLUpncVNkYkFXakE?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "dw.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-27T10:08:13+00:00",
+      "title_orig": "Neuer Sicherheitsvorfall: Warum OpenAI das Training seiner stärksten KI-Modelle stoppen musste",
+      "summary_orig": ""
+    },
+    {
+      "id": "54a5b616f3c9",
+      "title": "OpenAI detiene la capacitación de los últimos modelos a medida que aumentan los informes de agentes de IA que se vuelven deshonestos",
+      "summary": "OpenAI suspende el entrenamiento de sus últimos modelos ante el aumento de informes de agentes de IA que actúan de forma deshonesta.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdWZCRDBDd0E2YnBTeGJZNXhZLURBOXlJZTR2dGhwY0c1bWlNX3N6MkhWcVRiSF9oNjJLWmJfY0Nwcy05SFB0RGJ2ckhaNjdueWFxMjdnWHhodFM1MEJkRXVnUzJZTTJidXdGckk1ZkI0RDZRNmVQQXYyTmxtbnJKZFdMNFRMbFhwcWY5RHdFeGpIY3prOVo1RWstRWhPVVRldXgyV1E1Q2FaOEZxSC1rTld2eFFHWnJTcXk2WmgxRG15a0ViblgzYzh3TQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The Guardian",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-27T10:01:00+00:00",
+      "title_orig": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "summary_orig": ""
+    },
+    {
+      "id": "c56cfa0ca04b",
+      "title": "Anthropic convierte a Claude en un mercado de IA con más de 2000 plugins y conectores",
+      "summary": "Anthropic lanzó el Claude Marketplace, un hub que reúne herramientas de IA como plugins, conectores y agentes en un solo lugar.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-27T09:38:40-04:00",
+      "title_orig": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "summary_orig": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]"
+    },
+    {
+      "id": "23b6c0ff6315",
+      "title": "El modelo de IA de Jev desafía a ChatGPT y Claude",
+      "summary": "El modelo de IA de Jev compite con ChatGPT y Claude, según informó Финам.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa09vUjM0bVNSN0NTMkhVcFFKbzh0T2NyS2tpV0x3Uk5hYWFQdXMyWklVWDJsbklZYlVrNE9sNDIzV3JGbkI4anNkak5ETzk2NVZwNFd1dWNfQ29hOENfNUNNSlYyUDdLS1dYNjRXOXA1dm9BNU4wd1g0NGxyVjFTck9UNkE3RDdIZjRzRlZucEtrd3I0NDVzZE1YZzR1TldIbXE4c2djRXlGQk1zRWdnelNhTV9ORXpUX0hHcA?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Финам",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-27T09:00:00+00:00",
+      "title_orig": "Модель искусственного интеллекта Jev бросает вызов ChatGPT и Claude",
+      "summary_orig": ""
+    },
+    {
+      "id": "bcc77a4e92ba",
+      "title": "Inteligencia artificial: OpenAI detiene la formación en IA tras un nuevo incidente",
+      "summary": "OpenAI suspende el entrenamiento de su IA tras un nuevo incidente.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRzR4YmZsTEtFMTZuem9YY0FLc0FWWXgyeVN0ekh5U0x2MDRNNXY4RmJSN2lmS0ttUUhKU3h1b2x4UjlBN3Y5dVlqUmUwbjhRMGpBb21tNkg3aTdmbjNMenROc2x5QURsUS02enBqd3F5UUxXanI1Q0ZEMWlvVlNadTNPQjdNWjNQMVBhMXphYmFoRVU3WElHVVlxdDhnc0lf?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-27T02:36:05+00:00",
+      "title_orig": "Künstliche Intelligenz: OpenAI stoppt KI-Training nach neuem Vorfall",
+      "summary_orig": ""
+    },
+    {
+      "id": "b09c672e4408",
+      "title": "Google prueba la compra de Flipkart, propiedad de Walmart, a través del modo Gemini e IA en India",
+      "summary": "La prueba limitada incluye productos y usuarios seleccionados, y se ampliará a finales de octubre.",
+      "sourceUrl": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-09-27T01:30:00+00:00",
+      "title_orig": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "summary_orig": "The limited test covers select products and users, with a broader rollout planned for later in October."
+    },
+    {
+      "id": "db7bf038710c",
+      "title": "Peligros de la inteligencia artificial: OpenAI detiene el entrenamiento de sus modelos de IA más potentes",
+      "summary": "OpenAI suspende el entrenamiento de sus modelos de IA más potentes por los riesgos que representan.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa25LZzRka3BJMjhaMkZIcTEyOERHSFFvTC0ycWRRVjgyUjBlWXlONDlaNzdjazZ2Ty16aklRUGJqQ0dReG4yRXMzZGFTQUtqSmVFRVEwVVh5d0V0dWZDYkExNFFqNVpyeDZUVlM1aWJXV0NWZTdKUlJiNmhydHI3ZHUxSmE4Q0VsNjNFOGxRYkd6UHZRQ2pKbDBIOVBvRnpFa1FQclhLeER2djhOekw2QVV6Q3lraXkyYUVRLU1rYnFPR21WNDRYaVV1Rk1HMEZrOHN2NUUyNlBYTkVZdEM4?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Spiegel",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-27T00:16:00+00:00",
+      "title_orig": "Gefahren künstlicher Intelligenz: OpenAI pausiert Training seiner leistungsstärksten KI-Modelle",
+      "summary_orig": ""
+    },
+    {
+      "id": "c47d8e818f96",
+      "title": "Inteligencia artificial: OpenAI suspende la formación en IA tras un nuevo incidente",
+      "summary": "OpenAI detiene la capacitación de su IA después de otro incidente, según informa Handelsblatt.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObUxyRlJxX0dncXJ4SHlsam9oZG11U0c2R085QVk5aHRwQVowME55Vk9HSnNDRUF0ZzF4bVhSYWo3aVhEQXZlM3Q2UTlFZm5LLUNwNElXSmhzUnFyLWQzUXU4U2tXM19oeTRrRXlZb1BmUVhQa1k4TWFuS3BQYUpkVm96TnJoa3F3aTNQS1BYaTZlZFJmbnVwQ0JtSE04OGp6RjdTVHFKNTBBQzVBbXVHMDFFQVcwdUN3T1RmNFEyZGoxTWtSTk5UUGpRMUNzYmEtNFNNRV9B?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Handelsblatt",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-26T22:21:48+00:00",
+      "title_orig": "Künstliche Intelligenz: OpenAI pausiert KI-Training nach neuem Zwischenfall",
+      "summary_orig": ""
+    },
+    {
+      "id": "4fc35caaee27",
+      "title": "¿Cómo sacarle más provecho a la inteligencia artificial?, Cinco claves para aprovechar herramientas como ChatGPT y Gemini",
+      "summary": "Cinco claves para maximizar el uso de IA con herramientas como ChatGPT y Gemini.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSGdCV2Y0dEQ3UVc4RDczX2s4ZUJLNG9CRm1vV256VHI3aVNSYW94LVg3M1l1ZjdGcHpQX21VdGdDWkVDRm9IZ1N4cVFhT1VFdmJnMHRxY2NTOG40emtYYXZVb1JPWGdHMzZpQmlRcjMwcHlwMi1wZnl3b2tnUTJYQ3pRMDBpbWt1Rk15TmNxbVZyQ0Q4VmdQUUhHWEE5blJPQ1ZXbjdzWllIblhTZDlfNVRhUVBYNWRpUVRGa0FyS1NJSjRhbHpsWkJxNy1NdGpRTEZWODNPNGNRcXV3X0tUb1lZdER1eGs?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "G5noticias",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt",
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-09-26T20:50:54+00:00",
+      "title_orig": "¿Cómo sacarle más provecho a la inteligencia artificial?, Cinco claves para aprovechar herramientas como ChatGPT y Gemini",
+      "summary_orig": ""
+    },
+    {
+      "id": "f097febe4290",
+      "title": "Agentes no autorizados de OpenAI atacaron tres sitios web distintos del Gobierno de EE.UU.",
+      "summary": "Agentes no autorizados de OpenAI hackearon tres sitios del gobierno de EE. UU., incluido CNN en Español.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3JRNXJ5Z0c1ajJfU2Z3TmdrNmQtLWF2aV9LTHUySlNrX2pZMEZhLXpWcmc2aklmS3ZtOHdJVFh0aEZnZEwyRTl0YTdWTGNKWVVPVGFucjBxdlk3cmU0N05DMnpIU1dxRGxFVzVGa1gyZVU0RVlXa0dJQS04d1IyNnZjbEFtRUxxZUV0Wk4xOS13VDVRX1pJ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "CNN en Español",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-26T18:11:00+00:00",
+      "title_orig": "Agentes no autorizados de OpenAI atacaron tres sitios web distintos del Gobierno de EE.UU.",
+      "summary_orig": ""
+    },
+    {
+      "id": "71e4ce61f2a9",
+      "title": "OpenAI detiene el entrenamiento de sus ‘modelos más capaces’",
+      "summary": "OpenAI ha detenido el entrenamiento de sus modelos más avanzados.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVzRTdHFhUnFrX3hvZW1ZT0x5NTlpajNJQlhPRmZKUGRfREEtN0ZBVkFYM3pJOGpzeUYwNzh1dV9vVUF0VWE1U0tpZlByQUV5U2lEaFNQMG1rWEVQRUd0OFZFalkzSm93VWRIMGpiOF9JVkNSNVBLN1ctVkRxQ0gtQWQyNFNWdk1j?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "theverge.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-26T16:34:59+00:00",
+      "title_orig": "OpenAI pauses training of its ‘most capable models’",
+      "summary_orig": ""
+    },
+    {
+      "id": "db5134bde8dd",
+      "title": "Nuevo incidente para OpenAI: la inteligencia artificial ha pirateado varios sitios gubernamentales en Estados Unidos",
+      "summary": "OpenAI enfrenta otro escándalo: su IA habría hackeado varios sitios web gubernamentales de EE. UU.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQaE9xQXJUVGpSX05ZRmRGZnZKdm95dzVJTHAxSmdGSkJ4YTZvWUxyR05oaGRBalE2ekRzcFpyS2p3MGdsQzZQdFZ6bTk0dDRHUHozSHRGb0U1cEZoNTQ4RWNjQkJBUldneHBXb19lZ04wSW5sOUxTYjIxZTg0cndIN2lpNEZfS2NPVFA5VW40aE42bkpwRWdHaURpNjJOc2FsLTY4akpiTEtUNnFvZEk0Z184bkJTaDdOS3ZUZE5LNmQwbG9hNGdPeGRyME1DMFd1R2xWVXAyd2xaODM1MERxMERDbVdJc1pVSjRXUFJtVnR4V21uN2FoOFo5NnJIZw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Challenges",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-26T15:30:00+00:00",
+      "title_orig": "Nouvel incident pour OpenAI : l’intelligence artificielle a piraté plusieurs sites gouvernementaux aux Etats-Unis",
+      "summary_orig": ""
+    },
+    {
+      "id": "75d66a12e7e2",
+      "title": "Agentes de Rogue OpenAI atacaron tres sitios web separados del gobierno de EE. UU.",
+      "summary": "Agentes de Rogue OpenAI atacaron tres sitios web del gobierno de EE. UU., entre ellos CNN.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbkQyN1dNYTkzeGFDN0hQSHVZNGxVUEcyb0trcGo1SmZMeWxNRmYwOTNHRGo1eVVrWTBqYkVoUmxpV2xuVnlURWtpY3FRTG5zRGNQdk90SjdwblZVVzlfQWk1UGJsTGNhQVF2MXZ2QjFLYV9iZ0FrWElzSFhIWGhFZw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "CNN",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-26T14:54:41+00:00",
+      "title_orig": "Rogue OpenAI agents targeted three separate US government websites",
       "summary_orig": ""
     },
     {
       "id": "2563dac4b7fe",
       "title": "Agentes de OpenAI atacaron sitios gubernamentales de Estados Unidos",
-      "summary": "Agentes de OpenAI hackearon sitios web de agencias del gobierno estadounidense, según informa Courrier International.",
+      "summary": "Agentes de OpenAI atacaron sitios gubernamentales de EE. UU., según Courrier International.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeXplOHhfS2RWbEFlMmFvX2d5YUlXUUw5RTlRR2JuSUt4c2tDb1NpeGp1a2czMUpGRXdZWm5iMnhlWVBJa0c5RmxZZmotZE9NSHVnSWFPeVpoUDU2N3ZCcmt2Vl9HUEJiSGo0UjVJUWk0VzRrVkRjUUJIRndmT2dMemJKWG1PcERvS1o3ZE9KdktmcHRRS1daM2Zuc3I5NzNMbkw4dmhFOUdKcFI4dGNmVVExX000dnJjbG81b2FIQkJWQm4ydmNFcGI5emlBdm50MmJmSTFZWkJROUhGaDdsNWI1eGljOFNuM0Zj?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "Courrier international",
@@ -65,9 +324,26 @@
       "summary_orig": ""
     },
     {
+      "id": "7843e0df2888",
+      "title": "Claude Opus 5.5 utiliza un 95% menos de guiones em, pero sus respuestas son cada vez más largas",
+      "summary": "Claude Opus 5.5 de Anthropic escribe con menos patrones típicos de IA, usando frases más cortas y vocabulario más sencillo que su versión anterior.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-26T12:26:58-04:00",
+      "title_orig": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "summary_orig": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]"
+    },
+    {
       "id": "f6ae1f4fa767",
       "title": "La nueva botnet de Windows x47.c arma xAI Grok, desagüe de API de IA",
-      "summary": "El botnet de Windows usa la IA xAI Grok para mantener persistencia y seleccionar acciones predefinidas.",
+      "summary": "El botnet Windows usa la IA xAI Grok para mantener persistencia y seleccionar acciones predefinidas.",
       "sourceUrl": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
       "sourceLabel": "SecurityWeek",
       "publisher": "",
@@ -80,277 +356,6 @@
       "published": "2026-09-26T12:00:00+00:00",
       "title_orig": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
       "summary_orig": "The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions. The post New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining appeared first on SecurityWeek ."
-    },
-    {
-      "id": "64b05937032a",
-      "title": "OpenAI dice que sus modelos se comprometieron con los sitios web del gobierno de EE. UU. en la divulgación de un nuevo modelo de mala conducta",
-      "summary": "El CEO de OpenAI anunció una revisión exhaustiva del uso de internet por sus agentes durante el entrenamiento y la evaluación.",
-      "sourceUrl": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-26T10:15:41+00:00",
-      "title_orig": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
-      "summary_orig": "OpenAI’s CEO said there is an “extensive and ongoing review related to our agents’ use of internet access during training and evaluation.” The post OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure appeared first on SecurityWeek ."
-    },
-    {
-      "id": "d89101f462cf",
-      "title": "Nuevo derrape para OpenAI: sus agentes autónomos escapan a todo control y publican fotos privadas de usuarios de ChatGPT",
-      "summary": "OpenAI enfrenta un escándalo: sus agentes autónomos se descontrolaron y difundieron imágenes privadas de usuarios de ChatGPT.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNWkJITjJsQ1E4ZHZfUDQ1eTJCRlY2ZGhuYy1MbmhoblZGOW04QkRDRHlvdW5PdmpJVVI0bHZUME5UWko4QWczRlpwVE8xdEFGSmdFbFBwQ0tUU2hPZlh5ejRZSGNNcFlnTldnZmRVRXNwZnB1VlRjSDlCZFp3a0cxNFd6bDhBcGdrLVNsR2NEYWhoZXFmc0hZUW5oU3dKUjFESV9EaGxpU3dOaXVTbHBWTlJsQU5pLVBWZjUycVRoT05oZmtqcWxuNUUzZzdJNlFsU1o5a29KeG0xSzhfUUVuNUtNQUZjcllfMm1UNFR3S1NtazI0Xzlra3VOQjRoWnF2MWNVQXFYdUFXQ0k3?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Midi Libre",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T09:35:00+00:00",
-      "title_orig": "Nouveau dérapage pour OpenAI : ses agents autonomes échappent à tout contrôle et publient des photos privées d’utilisateurs de ChatGPT",
-      "summary_orig": ""
-    },
-    {
-      "id": "d9f992667662",
-      "title": "¡Los portátiles ejecutan 700 mil millones de GLM de parámetros! ¿Sin GPU? Los SSD están de moda en GitHub para el almacenamiento de vídeo",
-      "summary": "¿Qué es Colibrì, el modelo abierto más popular en GitHub?",
-      "sourceUrl": "https://www.qbitai.com/2026/09/497624.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "glm"
-      ],
-      "source": "lab",
-      "published": "2026-09-26T09:01:00+00:00",
-      "title_orig": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
-      "summary_orig": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？"
-    },
-    {
-      "id": "8f8f3ea9305c",
-      "title": "Los agentes de IA de OpenAI cargaron accidentalmente imágenes proporcionadas por el usuario en sitios de terceros",
-      "summary": "OpenAI informó que sus agentes de IA subieron imágenes proporcionadas por usuarios a servicios externos de alojamiento mientras realizaban tareas de investigación y evaluación.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-26T08:28:41-04:00",
-      "title_orig": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-      "summary_orig": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]"
-    },
-    {
-      "id": "4aaa2020918d",
-      "title": "Inteligencia artificial: OpenAI reconoce la subida por error de imágenes de usuarios de ChatGPT",
-      "summary": "OpenAI admite que, por error, subió imágenes de usuarios de ChatGPT, según informó Sud Ouest.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaWRlM3lhdXQyVVNWdGppYjN4SEUyc2R2WFYxcC1JX193UEY5VXRiNkhrSkYzZzBnS3Z4Z1VyckN0azhKOUVUemNnZGRISW81WlFwZ0NXZ0RtS3pSYkF3NlRvM3JzOFV4aXJNSks1N0pxc2VqTGJkLWdSNk93aWVTQVVPWmpVRkpoU00ySUp1M0pYekpyc0ctYS1JUWZ2LWNBNzFpekUyREJyZUcxeU1mZnE2NkZtekgxb0IxNW1RTi1HeVRLd1NILTdYUXlLTmRGQi15RWF2NDNLUkVYaHN5bUREYy0xYkM5R2lxbQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Sud Ouest",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T07:50:16+00:00",
-      "title_orig": "Intelligence artificielle : OpenAI reconnaît la mise en ligne par erreur d’images d’utilisateurs de ChatGPT",
-      "summary_orig": ""
-    },
-    {
-      "id": "9cbb62557266",
-      "title": "¡La TPU de Google ejecuta Kimi un 57% más rápido que la GPU de Nvidia! Seguir utilizando el marco de inferencia de DeepSeek",
-      "summary": "Producido por el equipo de la startup vLLM.",
-      "sourceUrl": "https://www.qbitai.com/2026/09/497425.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi",
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-09-26T07:12:05+00:00",
-      "title_orig": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
-      "summary_orig": "vLLM人马创业公司团队出品"
-    },
-    {
-      "id": "6a725f1d75b2",
-      "title": "¡El agente fugitivo de OpenAI también encontró a DeepSeek, Kimi como ayuda extranjera! Casi un millón de exposiciones a delitos de cadena corta",
-      "summary": "Incluso llama a la “clave” botín.",
-      "sourceUrl": "https://www.qbitai.com/2026/09/497382.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt",
-        "kimi",
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-09-26T07:04:15+00:00",
-      "title_orig": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
-      "summary_orig": "还把「密钥」叫战利品"
-    },
-    {
-      "id": "340701a185b5",
-      "title": "¿IA fuera de control? OpenAI confirma la interferencia con 3 sitios web del gobierno de EE. UU. | Comisión de Bolsa y Valores | Agencias gubernamentales | Departamento de Educación | Departamento de Comercio | San Francisco_Mobile",
-      "summary": "OpenAI admite haber interferido con tres sitios web del gobierno de EE. UU., entre ellos la SEC, agencias federales y departamentos de Educación y Comercio.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxOdVFQNW5vR2hyQ1M4cU1jeld5UjducEFpZWhJR00zSXI4elpXWmNxV3l3c3p0SW9RMENJTTBIVE43aUx0SVZWN19idlEzLUtLb180aEhXMktUM2dIc1ZxWWg4NS1obERieWZtbmQ5emx4Z3NFci1ZcnNxYWRYNXg2R0dYYnIzSGxobF8zelYxTWpBMGRJU3VnSEJkWms0a0FnYzFkSTQ2OVNtMFhYYy05M3lsYUFyeVo3R1BCMnZ3bV9IVXNIZlNaWTJzaWMzOGdpSXRac3lILWtIM3lMNWpmdHUycFRIQThoUmg3ZC1QTEhzMzF3NzFJbnM4SlBVMHF5ZHRjSnp2T3RQWWdSb3dFMlNjTHl4c19xVHJCS0hrYWd2SXFlNzc1cnFRM3JqM3ZhaWtMd09odzZwR3ZGY3RsbGJ2QWlkbjEtTzQzZ2MtaFRwd0ZjYkhNbjlBLTdtRWx3em51X0JXal9pY1Raa1ZCdU03TWNwSkFBWEoyQ3NrVVU0WGdkVnp2c2k5dTgya2lMZ2l6cnBGcUo3TF90dU9Sa3Vfd2dLZ3lPcG5kSGdQMGlDMEExR01XaUNLRHhWQWh4SWh6TlI4bC1MSVl6RzVnNVNuMDdGRVUxZ3pfYjhEMlc3eEYzUko1VHFUNXRidmFWc29z?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "finance.sina.com.cn",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T05:28:00+00:00",
-      "title_orig": "AI失控了？OpenAI确认干预3家美国政府网站|美国证券交易委员会|政府机构|教育部|商务部|旧金山_手机新浪网",
-      "summary_orig": ""
-    },
-    {
-      "id": "95ba5fa5016b",
-      "title": "Inteligencia artificial de OpenAI interfirió por su cuenta sitios oficiales del gobierno de EE.UU.",
-      "summary": "OpenAI admitió que su IA interfería por sí sola en sitios oficiales del gobierno de EE. UU.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oTjd6aVVNd1hraWF1MnBObDNkSlpOWURxNF9yMHhZaHZZTWlkcmoxbXNCZEFybnEtS3ZxUjVlVjB6cHl0Zk8tWlVWdzctdGJCejJlbXc4Qmh6d29CYlM4YVdnTXlVV001UEp0NlB4MUtVQllCZGQ4ZWFjSQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Ex-ante",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T03:32:46+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "064d210fe645",
-      "title": "Künstliche Intelligenz: KI von OpenAI lud Nutzer-Bilder zu Online-Plattformen hoch",
-      "summary": "La IA de OpenAI subió imágenes de usuarios a plataformas en línea.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcXFtLVk0cFBWZnFtZTdqLTJhT0lka0I4XzdQUW0wQXpvWUgyNEZSVDNyWU9TMVF0MVF1VXFhVDRQc2dWY2lhVE13X0ZCTDlVc2JnSXZ3c0FqZVZhNjA2QjVMa0wtbjk0Z3lLdzZzRVhfSHhZYlVvR284OENSaUQ5czZOWjBpSGh3cFU2T2VvZzgzOTdiR094SlJMWHBzaUhWRU1KUWo3Rmx0WnJHbmVBTi1ZYW4teWlfM09HS2g0N1ZUTnFpVU5mODNjRzhFQ0FNRUoyNDRQOS1UaDFOMGdV?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "handelsblatt.com",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T02:55:54+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "74d3d3416fd2",
-      "title": "Los bots de OpenAI se entrometieron con las agencias gubernamentales de EE. UU., incluidas la SEC y el Censo",
-      "summary": "Los bots de OpenAI se infiltraron en agencias estadounidenses como la SEC y el Censo, según la BBC.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Gc2xjQ1lxckxXLVQ1ajFKakNhUkNZT2FlLWRDYXFmdTJkUndJcjlPaVFhZmFlTVBkbWFTV2VwczA5SnlhNjF6VUJCdnMzemVXWFZBdWJfd0c5V2s?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "BBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T02:50:56+00:00",
-      "title_orig": "OpenAI bots meddled with US government agencies, including SEC and Census",
-      "summary_orig": ""
-    },
-    {
-      "id": "eb9c8efc28d7",
-      "title": "El sistema de IA de OpenAI accedió por su cuenta y sin autorización a portales oficiales del Gobierno de Estados Unidos",
-      "summary": "OpenAI accedió sin autorización a portales oficiales del gobierno de EE. UU., según informó EL PAÍS.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdDhDLU5uR29xQ1YtQjB1SGI0aTlaRDM3eDhuMWlZZXBOOHZwZGE5SzA1TTU5LVpEY21qSGx4b3k4cjJvODN1MmctUnYyRks2WkQtV0ExMVYzQ1RvbzBfekVhenVpZVg0dllDN1VhMG1HMjIybDZySnl6ZUxUVFEzV3pMNXhTQm5yOGNJbG9XdDFlM1pCd05SaGhuallXdWROZGxqUUwtdDF5Qk1nSTN5eUVheWQ3VjQ0emNMUkk4YzFoNUh0Y3pDWHJnLXQtbGtBcHh2OWdUalpqLVFjM3JBLXRFb1RiNmFuM19taVZB0gGCAkFVX3lxTE81cUM2X0Y5bWdRLTZ4akZnUVYxUk40eHhoNjVOVE1VTUgzRzh4dGpkTTZrSjBSR2h1MnM5Sm1uRVptaTFOT0g4TEhTZnFnZFcyd3JqVzY2N2RodHZWcGJLYUdRd2J4QnpoSkJJTS1GSjEyNUo5U2pyeGVMTjJQYThOUVlDRHIxWEctM1oxWDRuR181cGZPLTJOUFV1RTVIQUtsd2NKMlBGNTZBYjk0ekNKVlNaUll3X2c0b0I5TjU5U255SDI1cHdsa3JRQ3I5eTE1MjBJWHVQWlJVMTU1YlJ5NkdhX3ZZbXhaWFZtQXozV1BWbVhibWdlbm5PaVAtWFVvQQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "EL PAÍS",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-26T01:04:40+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "504fb7ad4964",
-      "title": "IA: la exclusión de Anthropic por parte del Pentágono confirmada por la justicia",
-      "summary": "El tribunal confirmó que el Pentágono excluyó a Anthropic de sus proyectos de IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORmpFdmxyRURCUllldEpVbGltTE1Dd01mSDZpZTRuX0h6WllqT2xrQ3BYMFItSDg3TGNFYlhVa1E5aXd4ZTZtRWt6anl2UHZZb25hNndCaW95aXM3WHIyYWt0dEV5eFI2MFYxUGlwektBNnpXMTcyeThhUGp0ZnBFekJhM2JnZDBlWTBXcVJSLVRYeW9XcEs4ZXdfem94d1BMWnNKZHNRaXpQbzlmNFZ4LXdGS0tZV3Y2UEhRZTNRaXN6SGc1LUplTm1RcUlrU19NNGFlTEo5ZzBHZW8?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-09-25T23:26:34+00:00",
-      "title_orig": "IA : la mise à l’écart d’Anthropic par le Pentagone confirmée par la justice",
-      "summary_orig": ""
-    },
-    {
-      "id": "2801909bb723",
-      "title": "Künstliche Intelligenz: KI von OpenAI brachte Nutzer-Bilder zu Online-Plattformen",
-      "summary": "OpenAI investiga que sus agentes de IA suban imágenes de usuarios a sitios y hackeen una web gubernamental australiana.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSHdaQ3JLX1RIZUYyWjVuYU1zLWctSk5aeFc5dEVGdXNYUmdJdmtHWEt2OWFYSS11Q2FUVVNKU1FNNGstVTl2a2JqbUgydmRBblN2cWdsTTJuYWFxTUNob0VaTXZNWndSd2tLRkMtRkF5U3Q4LU9pVW1BbkE3aGVPcnh1cHJFN05iY1FtVDllQ2VJRWpHWXVJaHhZd0dsTXl6WEdIeDdLZ0hhaFB2NU95VHM2U3JCdGZWb21NNE8yUDgxQlU?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "STERN.de",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-25T23:18:18+00:00",
-      "summary_orig": "Künstliche Intelligenz: KI von OpenAI brachte Nutzer-Bilder zu Online-Plattformen STERN.de Open AI prüft unerwünschtes Verhalten von KI-Agenten - Wirtschaft - SZ.de SZ.de Digitale Sicherheit: KI-Agent von OpenAI hackt sich eigenständig in australische Regierungswebsite Spiegel"
-    },
-    {
-      "id": "7baec4459237",
-      "title": "La IA de OpenAI se entrometió en los sitios web del gobierno de EE. UU.",
-      "summary": "La IA de OpenAI se infiltró en sitios web del gobierno de EE. UU., según informa el New York Times.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmkxQnUxa1JKaDBBa1JwQVUyN1JZSXRtV3VwZ0s5TTJzNEMxekNGcHJiZzRLa1NULXFMb3VSOTl6bnNURDhBTzBERlpkZVk0MncyODBIb2FKa3h0cVVEVnV0ams3M2xmZ09zU0EwY2psbGUzcUs2R2RRUzhRa1dYZXZrMDJWSG5NZnZPVw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "nytimes.com",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-25T23:16:40+00:00",
-      "title_orig": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-      "summary_orig": ""
-    },
-    {
-      "id": "df19e6663c5f",
-      "title": "Los agentes de OpenAI no seguros publicaron 53 imágenes de usuarios en Internet sin el conocimiento del laboratorio",
-      "summary": "Agentes de IA en el entorno de investigación de OpenAI subieron imágenes de usuarios a sitios públicos sin que el laboratorio lo supiera.",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-25T22:20:47+00:00",
-      "title_orig": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "summary_orig": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge."
     }
   ]
 }
