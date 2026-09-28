@@ -9732,6 +9732,1111 @@
         "url": "https://www.artificialintelligence-news.com/feed/"
       }
     ],
-    "resumen_dia": "El día estuvo marcado por avances en IA cuántica, con una startup china que lanzó un “mini‑caja” capaz de ejecutar modelos completos sin mover datos y otra empresa de Tsinghua que busca transformar la arquitectura de los grandes modelos mediante computación cuántica, alcanzando una valoración de mil millones de dólares. En el sector empresarial, Google probó compras en la plataforma india de Flipkart usando Gemini, Anthropic amplió su marketplace de plugins a más de 2 000 y cerró un acuerdo de 11.600 millones de dólares con Akamai, mientras OpenAI informó interacciones inesperadas con sitios gubernamentales y amplió el acceso cibernético a Ucrania para defensa civil. Por otro lado, se intensifican los debates sobre riesgos: aseguradoras alertan sobre el aumento de costos en salud por IA, persisten las estafas con tarjetas de crédito y el Pentágono solicita 30 millones de dólares para desarrollar un detector de mentiras impulsado por IA."
+    "resumen_dia": "El día estuvo marcado por avances en IA cuántica, con una startup china que lanzó un “mini‑caja” capaz de ejecutar modelos de extremo a extremo sin exponer datos y otra iniciativa de ex‑alumnos de Tsinghua que busca transformar la arquitectura de los grandes modelos mediante computación cuántica. En el ámbito comercial, Google probó compras en la plataforma india de Flipkart usando Gemini, Anthropic amplió su marketplace de Claude con más de 2 000 plugins y cerró un acuerdo de $11.6 mil millones con Akamai, mientras que la británica Nscale recaudó $3.36 mil millones antes de su IPO y OpenAI amplió el acceso cibernético a Ucrania para defensa civil. Además, se reportaron tendencias de seguridad y costos: aseguradoras alertan que la IA eleva los gastos de salud, el Pentágono solicita $30 millones para un detector de mentiras impulsado por IA y se confirma que los modelos de OpenAI interactuaron con sitios gubernamentales de EE. UU."
+  },
+  {
+    "fecha": "2026-09-28",
+    "total": 665,
+    "por_seccion": {
+      "novedades": [
+        {
+          "titulo": "When can we say AI made a scientific discovery?",
+          "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI’s AI agents need to catch up",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+          "fuente": "The Verge AI",
+          "resumen": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI a...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+          "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+          "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+          "fuente": "TechCrunch AI",
+          "resumen": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI still doesn’t seem to have a handle on all of its rogue AI activity",
+          "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+          "fuente": "TechCrunch AI",
+          "resumen": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI keeps bulldozing mathematicians",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+          "fuente": "The Verge AI",
+          "resumen": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Walmart won’t hike prices based on your shopping history, CEO says",
+          "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
+          "fuente": "The Verge AI",
+          "resumen": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner wri...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "After a deepfake voice fooled her grandfather, this founder sprang into action",
+          "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+          "fuente": "TechCrunch AI",
+          "resumen": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones a...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
+          "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+          "fuente": "The Verge AI",
+          "resumen": "Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian. Atlassian is one of those companies that every other company runs on — it makes important platform tools like Jira a...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Who’s liable when AI agents go rogue?",
+          "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few mon...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Microsoft goes quiet after church groups ask for 1% of data center costs",
+          "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+          "fuente": "Ars Technica AI",
+          "resumen": "“Microsoft claims to want to be a good neighbor, but the jury is still out.\"",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Dreame’s step-climbing X50 Ultra mopping vacuum is hundreds off",
+          "url": "https://www.theverge.com/gadgets/1001313/dreame-x50-ultra-robot-vacuum-mop-asus-rog-ally-deal-sale",
+          "fuente": "The Verge",
+          "resumen": "It’s been a while since we’ve seen a big price cut on a capable robot vacuum and mop hybrid that can scale over short steps and threshold to hunt messes. Dreame’s X50 Ultra is the model that my collea...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "I've Tested Over 100 Home Security Cameras. Here's Which to Buy",
+          "url": "https://www.wired.com/story/best-security-cameras/",
+          "fuente": "Wired",
+          "resumen": "Keep an eye on home wherever you are with the best security cameras, including indoor and outdoor, subscription services, AI smarts, and local recording options.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
+          "url": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
+          "fuente": "Wired",
+          "resumen": "Your next coworker might well be an AI agent—and will require a whole new model of workplace interactions.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Solving Math’s Greatest Problems Was an Art Form. Then Came AI",
+          "url": "https://www.wired.com/story/solving-maths-greatest-problems-was-an-art-form-until-ai/",
+          "fuente": "Wired",
+          "resumen": "Mathematics has been one of humanity’s most creative endeavors, akin to painting and poetry. Now, mathematicians are trying to save it from the brute force of AI.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Misconfigured Supabase apps expose data in over 16,000 databases",
+          "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+          "fuente": "BleepingComputer",
+          "resumen": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "The Next Evolution of AI Is Learning From Your Dodgy Gaming Skills",
+          "url": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/",
+          "fuente": "Wired",
+          "resumen": "A British startup is shaping video game inputs into training data for AI models that can navigate the physical world.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+          "fuente": "Dark Reading",
+          "resumen": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "US SEC follows CFTC in staff guidance for crypto",
+          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "fuente": "Cointelegraph",
+          "resumen": "With the failed cloture vote on the CLARITY Act, the SEC announced updates on how federal securities laws could apply to token issuers, following similar guidance from the CFTC.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
+          "url": "https://www.qbitai.com/2026/09/498877.html",
+          "fuente": "QbitAI",
+          "resumen": "工业平台已经卷到帮伙伴拿线索、做Agent、出海了",
+          "seccion": "novedades",
+          "pais": "china",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "HC归来，华为正重新定义AIDC基础设施",
+          "url": "https://www.qbitai.com/2026/09/498787.html",
+          "fuente": "QbitAI",
+          "resumen": "AI基础设施下一站：算电协同",
+          "seccion": "novedades",
+          "pais": "china",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Holo4: powering generalist computer-use agents",
+          "url": "https://huggingface.co/blog/Hcompany/holo4",
+          "fuente": "Hugging Face",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "AI agents could drain cheap bank deposits, Apollo's Torsten Slok warns",
+          "url": "https://www.coindesk.com/markets/2026/09/28/ai-agents-could-drain-cheap-bank-deposits-apollo-s-torsten-slok-warns",
+          "fuente": "CoinDesk",
+          "resumen": "AI agents could trigger a bank run by automatically moving household cash from low-interest checking accounts to higher-yield alternatives, Slok warns.",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Engram is a sampler that turns broken AI hallucinations into music",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+          "fuente": "The Verge AI",
+          "resumen": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate com...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Anthropic’s CEO is about to have dinner with President Trump",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+          "fuente": "TechCrunch AI",
+          "resumen": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        }
+      ],
+      "usos": [
+        {
+          "titulo": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI halts frontier-model training amid string of agent misalignment incidents",
+          "url": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/",
+          "fuente": "Ars Technica AI",
+          "resumen": "US Government websites among \"dozens of third parties\" OpenAI has recently notified.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "IAM for AI agents: A Practical Enterprise Framework",
+          "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+          "fuente": "The Hacker News",
+          "resumen": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those a...",
+          "seccion": "usos",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "DC Health Agency Exposes 400,000 Beneficiary Records",
+          "url": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+          "fuente": "SecurityWeek",
+          "resumen": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed. The post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek .",
+          "seccion": "usos",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "HARDEN: Constrained Evolutionary Search for Harder, Answer-Preserving Evaluation Cases",
+          "url": "https://arxiv.org/abs/2609.30571",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30571v1 Announce Type: new Abstract: Language models are often evaluated on curated benchmarks that underrepresent the complexity of enterprise deployments. We introduce HARDEN, a constrain...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "CRC-Router: Risk-Constrained Routing for Medical Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2609.30714",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30714v1 Announce Type: new Abstract: Agentic AI systems are increasingly being explored in medical imaging to improve throughput and reduce clinician workload; however, safe deployment rema...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+          "url": "https://arxiv.org/abs/2609.31568",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31568v1 Announce Type: new Abstract: AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Clou...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Coding Agents Aren't Enough! Evaluating an Enterprise Security Brain for Agentic Cloud Investigations",
+          "url": "https://arxiv.org/abs/2609.30345",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30345v1 Announce Type: cross Abstract: Cloud-security investigation is dominated by population tasks: which identities can read a data store, how many resources fail a control, which assets...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+          "url": "https://arxiv.org/abs/2609.30471",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30471v1 Announce Type: cross Abstract: Reference-based LLM-as-a-judge evaluation assumes the reference answer is the target. In deployed agentic systems that operate over dynamic entities (...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "NavGen: Visual Generative Models as a Scalable Data Engine for Embodied 3D Navigation",
+          "url": "https://arxiv.org/abs/2609.30770",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30770v1 Announce Type: cross Abstract: General-purpose robot models increasingly rely on large and diverse datasets. For embodied 3D navigation, however, existing data sources face a fundam...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Estimating and Orthogonalizing Unknown Pre-training Gradients for Continual Fine-tuning of Large Language Models",
+          "url": "https://arxiv.org/abs/2609.30935",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30935v1 Announce Type: cross Abstract: Continual fine-tuning is essential for large language models (LLMs) to dynamically adapt to real-world environments, yet it inevitably suffers from ca...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "PORL: Pretrained Offline Reinforcement Learning for the Job Shop Scheduling Problem",
+          "url": "https://arxiv.org/abs/2609.30948",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30948v1 Announce Type: cross Abstract: The Job Shop Scheduling Problem (JSSP) is a fundamental combinatorial optimization problem in industrial optimization. This work introduces Pretrained...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Can You Check That? The Checkability Boundary for Local LLM Network Automation",
+          "url": "https://arxiv.org/abs/2609.31540",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31540v1 Announce Type: cross Abstract: Sending every network-automation input to a third-party frontier LLM exports sensitive artifacts such as production configurations, topologies, and lo...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Jagarin: A Three-Layer Architecture for Hibernating Personal Duty Agents on Mobile",
+          "url": "https://arxiv.org/abs/2603.05069",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2603.05069v3 Announce Type: replace Abstract: Personal AI agents face a deployment paradox on mobile: persistent background execution drains the battery and conflicts with platform background li...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Hide-and-Seek in Trajectories: Discovering Failure Signals for VLA Runtime Monitoring",
+          "url": "https://arxiv.org/abs/2605.30834",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2605.30834v2 Announce Type: replace-cross Abstract: Vision-Language-Action (VLA) models enable robots to follow natural language instructions and generalize across diverse tasks, but they remain...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Provably Safe Sim-to-Real Transfer",
+          "url": "https://arxiv.org/abs/2609.01418",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.01418v2 Announce Type: replace-cross Abstract: We address safe sim-to-real transfer, in which an agent leverages an imperfect simulator and limited real-world interaction while ensuring saf...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Layer-wise Target Propagation: Efficient Component Attribution through Target Centric Propagation",
+          "url": "https://arxiv.org/abs/2603.19742",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2603.19742v3 Announce Type: replace-cross Abstract: Understanding the internal mechanisms of transformer-based large language models (LLMs) is crucial for their reliable deployment and effective...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Insurers claim AI is already increasing healthcare costs",
+          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Old-School Credit Card Scams Are Far From Dead",
+          "url": "https://www.wired.com/story/kernel-panic-old-timey-credit-card-scams/",
+          "fuente": "Wired",
+          "resumen": "In an era of increasingly sophisticated AI-fueled scams, a retro threat may be lurking in your mailbox.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        }
+      ],
+      "economia": [
+        {
+          "titulo": "Nvidia launches new platform for reining in rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+          "fuente": "TechCrunch AI",
+          "resumen": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Hu...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Modulate raises $25M for its voice models and analysis suite",
+          "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Modulate deploys its models to detect deepfake, fraud and scam",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+          "fuente": "TechCrunch AI",
+          "resumen": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System",
+          "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/",
+          "fuente": "Wired",
+          "resumen": "In the wake of a series of high-profile AI safety incidents, Nvidia is introducing a new software tool that helps keep agents from escaping containment.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Modulate Raises $25 Million to Advance Deepfake Detection",
+          "url": "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/",
+          "fuente": "SecurityWeek",
+          "resumen": "The misuse and abuse of AI-generated voice is growing. Modulate’s intention is to allow real time detection and intervention. The post Modulate Raises $25 Million to Advance Deepfake Detection appeare...",
+          "seccion": "economia",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Chinese chip foundry CanSemi’s IPO oversubscribed 2,360 times as investors chase AI boom",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3369074/chinese-chip-foundry-cansemis-ipo-oversubscribed-2360-times-investors-chase-ai-boom?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Chinese chip foundry CanSemi Technology’s Shenzhen initial public offering (IPO) is emerging as one of mainland China’s most sought-after tech listings this year, as investors bet on its push into sil...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
+          "url": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+          "fuente": "SecurityWeek",
+          "resumen": "The platform combines open source software and a reference system design to keep AI agents within set boundaries. The post Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog appeared...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Xiaomi-backed robotics chip designer clears hearing, eyes US$100m Hong Kong IPO: sources",
+          "url": "https://www.scmp.com/business/china-business/article/3369017/xiaomi-backed-robotics-chip-designer-clears-hearing-eyes-us100m-hong-kong-ipo-sources?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Zhuhai Amicro Technology, a Xiaomi-backed chipmaker, is preparing to begin premarketing for a Hong Kong initial public offering (IPO) of more than US$100 million as early as this week, according to pe...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Insurance Reserve Intelligence Platform",
+          "url": "https://arxiv.org/abs/2609.30765",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30765v1 Announce Type: new Abstract: Insurance reserve estimation is a fundamental actuarial task supporting premium pricing, solvency assessment, financial reporting, capital planning, and...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "DanLing NestedTensor: Composable Multi-Ragged Tensors for Deep Learning",
+          "url": "https://arxiv.org/abs/2609.30379",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30379v1 Announce Type: cross Abstract: Variable-size inputs are common in deep learning, but dense batching allocates a shared envelope and spends computation on padding. The cost multiplie...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Bayesian Optimization with Fisher Information Geometry: Gradient Bounds and Trust-Region Methods",
+          "url": "https://arxiv.org/abs/2609.31107",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31107v1 Announce Type: cross Abstract: We study Bayesian optimization (BO) through the lens of information geometry. Pulling back the Fisher information metric through the surrogate posteri...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "FedHisto-PAST: Parameter-Efficient Stain-Aware Federated Learning for Cross-Site Lung Histopathology Classification",
+          "url": "https://arxiv.org/abs/2609.31150",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31150v1 Announce Type: cross Abstract: Cross-site lung histopathology classification must account for stain variation, non-IID client data, missing classes, and the cost of adapting large p...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "MoSAR: Mixture of Semantic Attention Regimes for Learning Adaptive and Approximable Attention Geometries",
+          "url": "https://arxiv.org/abs/2609.31261",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31261v1 Announce Type: cross Abstract: The quadratic complexity of dense self-attention remains a central bottleneck for long-context language modeling. Many efficient alternatives address ...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Softmax Reparameterization for Output-Head Quantization",
+          "url": "https://arxiv.org/abs/2609.31291",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31291v1 Announce Type: cross Abstract: Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparameterization, a post-training met...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Nice Fold or Hero Call: Learning Budget-Efficient Thinking under Policy-Dependent Solvability",
+          "url": "https://arxiv.org/abs/2605.11625",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2605.11625v2 Announce Type: replace Abstract: Large reasoning models (LRMs) improve problem solving through extended reasoning, but often misallocate test-time compute. Existing efficiency metho...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2511.19422",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2511.19422v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have shown impressive capabilities in code generation across many programming languages but even state-of-the-art...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Epstein Files Engine: Agentic Search for Investigative Journalism",
+          "url": "https://arxiv.org/abs/2609.30611",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2609.30611v1 Announce Type: cross Abstract: On Jan. 30, 2026, the U.S. Department of Justice released a mixed-media collection concerning Jeffrey Epstein, including about three million pages of ...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+          "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        }
+      ],
+      "futuro": [
+        {
+          "titulo": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+          "fuente": "Google AI",
+          "resumen": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Florida seeks a ban on ChatGPT acting like a person",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+          "fuente": "The Verge AI",
+          "resumen": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. Accord...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+          "url": "https://arxiv.org/abs/2609.30456",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30456v1 Announce Type: new Abstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token ...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "TISD: On-Policy Self-Distillation with Trajectory Intervention",
+          "url": "https://arxiv.org/abs/2609.30878",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30878v1 Announce Type: new Abstract: On-policy self-distillation (OPSD) provides dense teacher targets, but evaluates them only along student-sampled rollouts. When the privileged teacher f...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Factorized axis convolutional gated recurrent unit with dynamic adaptive pooling for remaining useful life prediction of rolling bearings",
+          "url": "https://arxiv.org/abs/2609.30972",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30972v1 Announce Type: new Abstract: Convolutional neural networks (CNN) are widely used to predict the remaining useful life (RUL) of rolling bearings from time-frequency representations (...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Governed Deduction: Policy-Grounded Premise Authorization Beyond Relevance",
+          "url": "https://arxiv.org/abs/2609.31029",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31029v1 Announce Type: new Abstract: Reasoning systems usually treat premise use as a question of relevance: if a fact is available and useful, it may be selected for inference. Authorizati...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OmouAI: Argumentative Human-AI Policy Deliberation with Simulated Personas",
+          "url": "https://arxiv.org/abs/2609.31078",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31078v1 Announce Type: new Abstract: Debates amongst agents driven by large language models (LLMs) have demonstrated vast potential in various applications, but when these interactions incl...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Monitor Jailbreaking: Evading Chain-of-Thought Monitoring Without Encoded Reasoning",
+          "url": "https://arxiv.org/abs/2609.31121",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31121v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising safety technique for reasoning models, enabling detection of problematic reasoning before models act. A...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "AtomWorld-Mem: Memory-Restored World States for Long-Horizon Atomistic Evolution",
+          "url": "https://arxiv.org/abs/2609.31133",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31133v1 Announce Type: new Abstract: High-fidelity atomistic evolution over long timescales requires more than observing the current crystal configuration. Instantaneous atomistic snapshots...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Can Linguistic Reasoning Vectors Enhance Multimodal Reasoning Ability?",
+          "url": "https://arxiv.org/abs/2609.31140",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31140v1 Announce Type: new Abstract: Most Vision-Language Models (VLMs) are built by extending pretrained Large Language Models (LLMs) with visual modules and multimodal alignment. However,...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Neural State Prediction: Obstructing Shortcut Learning in EEG Foundation Models",
+          "url": "https://arxiv.org/abs/2609.31167",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31167v1 Announce Type: new Abstract: EEG foundation models increasingly use masked prediction to learn from unlabeled recordings, but optimizing this objective does not ensure transferable ...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "G2MAF: Test-Time Gradient Guidance for Multi-Agent Flow Policies",
+          "url": "https://arxiv.org/abs/2609.31286",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31286v1 Announce Type: new Abstract: Offline multi-agent reinforcement learning (MARL) learns cooperative policies from fixed datasets without further environment interaction and a learned ...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "SAGE: Source-Anchored Guidance via Frequency Equalization for Hierarchical RGB-T Alignment and Fusion",
+          "url": "https://arxiv.org/abs/2609.30703",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30703v1 Announce Type: cross Abstract: Spatial misregistration and cross-modal discrepancies often cause ghosting, structural blurring, and content imbalance in RGB-T fusion. Existing metho...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2609.30837",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30837v1 Announce Type: cross Abstract: Multi-teacher on-policy distillation (MOPD) integrates specialized capabilities into a single student, but existing practice typically hard-routes eac...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Developing a Roadmap to an AI-first Organization: A Case Study in Embedded Software Development",
+          "url": "https://arxiv.org/abs/2609.30863",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30863v1 Announce Type: cross Abstract: The emergence of AI agents is expected to reshape software engineering by moving beyond AI as assistants towards systems capable of planning, executin...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Persistent Negatives for Adversarial Black-Box On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2609.30864",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30864v1 Announce Type: cross Abstract: Black-box On-Policy Distillation (OPD) seeks to improve a student from its own generations when the teacher provides sampled responses but not token p...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Adaptive Pilot Selection for Unified Semantic Communication and Semantic Sensing in ISAC",
+          "url": "https://arxiv.org/abs/2609.30891",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.30891v1 Announce Type: cross Abstract: Semantic communication (SemCom) and integrated sensing and communication (ISAC) are promising technologies for future 6G wireless networks. Existing s...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "BAT-CLIP: Trimodal Alignment of Brain, Audio and Text",
+          "url": "https://arxiv.org/abs/2609.31180",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31180v1 Announce Type: cross Abstract: Decoding and interpreting naturalistic speech from the brain increasingly relies on alignment to pretrained speech and language representation spaces....",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Cognitive Skills in the Age of AI: Computing Students and Experts Perceptions",
+          "url": "https://arxiv.org/abs/2609.31272",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31272v1 Announce Type: cross Abstract: AI is becoming increasingly integrated into daily workflows, especially in computing. We are gradually shifting towards an AI-rich future, an impendin...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "DyMD: Preserving Interaction Dynamics through Distribution Matching Distillation in Few-Step Video World Models",
+          "url": "https://arxiv.org/abs/2609.31349",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.31349v1 Announce Type: cross Abstract: Large video diffusion models offer expressive priors for embodied prediction and learning, yet their many-step sampling remains costly for interactive...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        }
+      ],
+      "seguridad": [
+        {
+          "titulo": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+          "fuente": "The Verge AI",
+          "resumen": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, a...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+          "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+          "fuente": "The Verge AI",
+          "resumen": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcem...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+          "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+          "fuente": "Wired",
+          "resumen": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt.",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+          "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+          "fuente": "The Hacker News",
+          "resumen": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The ...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+          "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+          "fuente": "The Hacker News",
+          "resumen": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that c...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
+          "url": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
+          "fuente": "Dark Reading",
+          "resumen": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+          "fuente": "BleepingComputer",
+          "resumen": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+          "url": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
+          "fuente": "Dark Reading",
+          "resumen": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+          "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+          "fuente": "The Hacker News",
+          "resumen": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assump...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+          "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+          "fuente": "BleepingComputer",
+          "resumen": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing m...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
+          "url": "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+          "fuente": "SecurityWeek",
+          "resumen": "Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers. The post Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon appeared firs...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+          "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+          "fuente": "The Hacker News",
+          "resumen": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework ...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+          "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+          "fuente": "SecurityWeek",
+          "resumen": "The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273. The post Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign appeared firs...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
+          "url": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+          "fuente": "SecurityWeek",
+          "resumen": "The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised. The post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerabil...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "OpenAI agents tried to ‘bruteforce’ a UN website",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+          "fuente": "The Verge AI",
+          "resumen": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the inciden...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+          "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+          "fuente": "BleepingComputer",
+          "resumen": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+          "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+          "fuente": "The Hacker News",
+          "resumen": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the act...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+          "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+          "fuente": "BleepingComputer",
+          "resumen": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
+          "url": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+          "fuente": "SecurityWeek",
+          "resumen": "Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772. The post Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug appeare...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        },
+        {
+          "titulo": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+          "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+          "fuente": "The Hacker News",
+          "resumen": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following rep...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-09-28"
+        }
+      ]
+    },
+    "por_pais": {
+      "usa": 557,
+      "china": 18,
+      "global": 90
+    },
+    "fuentes": [
+      {
+        "nombre": "OpenAI",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "nombre": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/"
+      },
+      {
+        "nombre": "DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml"
+      },
+      {
+        "nombre": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/feed/"
+      },
+      {
+        "nombre": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/feed/"
+      },
+      {
+        "nombre": "MarkTechPost",
+        "url": "https://www.marktechpost.com/feed/"
+      },
+      {
+        "nombre": "BAIR Berkeley",
+        "url": "https://bair.berkeley.edu/blog/feed.xml"
+      },
+      {
+        "nombre": "Google Developers",
+        "url": "https://developers.googleblog.com/feeds/posts/default"
+      },
+      {
+        "nombre": "Hugging Face",
+        "url": "https://huggingface.co/blog/feed.xml"
+      },
+      {
+        "nombre": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      },
+      {
+        "nombre": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      {
+        "nombre": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+      },
+      {
+        "nombre": "Ars Technica AI",
+        "url": "https://arstechnica.com/ai/feed/"
+      },
+      {
+        "nombre": "Synced",
+        "url": "https://syncedreview.com/feed/"
+      },
+      {
+        "nombre": "QbitAI",
+        "url": "https://www.qbitai.com/feed"
+      },
+      {
+        "nombre": "SCMP Business",
+        "url": "https://www.scmp.com/rss/92/feed"
+      },
+      {
+        "nombre": "arXiv cs.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI"
+      },
+      {
+        "nombre": "arXiv cs.CL",
+        "url": "https://rss.arxiv.org/rss/cs.CL"
+      },
+      {
+        "nombre": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml"
+      },
+      {
+        "nombre": "Wired",
+        "url": "https://www.wired.com/feed/rss"
+      },
+      {
+        "nombre": "ScienceDaily AI",
+        "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      },
+      {
+        "nombre": "ScienceDaily Biotech",
+        "url": "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"
+      },
+      {
+        "nombre": "Nature Biotech",
+        "url": "https://www.nature.com/nbt/rss/current"
+      },
+      {
+        "nombre": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+      },
+      {
+        "nombre": "Cointelegraph",
+        "url": "https://cointelegraph.com/rss"
+      },
+      {
+        "nombre": "The Hacker News",
+        "url": "https://feeds.feedburner.com/TheHackersNews"
+      },
+      {
+        "nombre": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/atom/"
+      },
+      {
+        "nombre": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/"
+      },
+      {
+        "nombre": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/feed/"
+      },
+      {
+        "nombre": "SecurityWeek",
+        "url": "https://www.securityweek.com/feed/"
+      },
+      {
+        "nombre": "Dark Reading",
+        "url": "https://www.darkreading.com/rss.xml"
+      },
+      {
+        "nombre": "CISA Advisories",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+      },
+      {
+        "nombre": "Google Security Blog",
+        "url": "https://security.googleblog.com/feeds/posts/default"
+      },
+      {
+        "nombre": "AI News",
+        "url": "https://www.artificialintelligence-news.com/feed/"
+      }
+    ],
+    "resumen_dia": "El día estuvo marcado por avances y tensiones en la IA: OpenAI suspendió el entrenamiento de modelos de frontera tras varios incidentes de desalineación y sigue lidiando con agentes problemáticos, mientras Anthropic lanzó Sonnet 5.5, una versión más rápida y económica, y Google sustituyó los “Gems” de Gemini por nuevas “skills”. En el ámbito empresarial, Meta presentó una plataforma de IA para empresas y contrató al exCEO de MongoDB, Nvidia anunció una solución para controlar agentes IA descontrolados, y startups como Modulate y Outmarket aseguraron rondas de financiación de 25 y 34,5 millones de dólares respectivamente. Además, se debatió la definición de descubrimientos científicos impulsados por IA y se publicaron investigaciones sobre marcos de identidad para agentes y métodos de evaluación más rigurosos."
   }
 ]
