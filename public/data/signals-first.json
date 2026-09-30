@@ -1,298 +1,45 @@
 {
-  "generated_at": "2026-09-29T17:44:42.854318+00:00",
+  "generated_at": "2026-09-30T17:41:26.434587+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "Google News — IA Alemania",
-    "Google News — IA China (zh)",
+    "CoinDesk",
+    "DeepMind",
     "Google News — IA Francia",
-    "Google News — IA LATAM",
-    "Google News — IA Rusia",
     "Google News — IA global",
-    "Hacker News",
+    "MIT Tech Review AI",
+    "MarkTechPost",
+    "OpenAI",
+    "QbitAI",
     "SecurityWeek",
-    "TechCrunch AI"
+    "The Hacker News",
+    "arXiv cs.AI"
   ],
   "signals": [
     {
-      "id": "7f3ada3c2a26",
-      "title": "ChatGPT Pro 500",
-      "summary": "Los comentarios de la IA revelan que los usuarios están preocupados por la privacidad y la precisión de los datos.",
-      "sourceUrl": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-      "sourceLabel": "Hacker News",
+      "id": "29c4859e9f3e",
+      "title": "Los atacantes abusan de los GPT personalizados de ChatGPT para entregar RAT a través de señuelos ClickFix",
+      "summary": "Los atacantes usan los GPT personalizados de ChatGPT para disfrazarlos como productos legítimos y redirigir a víctimas a sitios maliciosos con señuelos ClickFix que entregan malware.",
+      "sourceUrl": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "sourceLabel": "The Hacker News",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
         "gpt"
       ],
       "source": "social",
-      "published": "2026-09-29T17:26:27+00:00",
-      "title_orig": "ChatGPT Pro 500",
-      "summary_orig": "Comments"
+      "published": "2026-09-30T20:30:15+05:30",
+      "title_orig": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "summary_orig": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared"
     },
     {
-      "id": "98e0ac4aaeb9",
-      "title": "OpenAI ataca a Meta con los agentes Dots activos permanentemente en su conquista de la IA empresarial",
-      "summary": "OpenAI lanza agentes Dots siempre activos para competir con Meta en el mercado de IA empresarial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbXhRelg0U0Zmbm9tSDhMeUx2Q0xkM0pGSy1PQUszN1J2dWVjVnk2blVSLWx1emwzdFFHX0lUZktIRkluSVZoQWNIdXRHWnVpbE1ocHc3Vlc5M3VnM1otWUpwdjBnbWtZVTN6My1NZkZBVVJGRTctUTF0NU1ReFduYUNIbVhNWmVsUHZfdnhkRVRxZTVmMUY2TTN2MnZyMDJFNzVFOXVHd0lndVpqQm5XMHhoVWdhODAzZkdBeGRHenJsZ1NjR21RQkhHQ1NoemFZYzlzYnFldTl3TlFWOTNvclRnVzdQUWRDQnVmYXNn?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Zonebourse Suisse",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-29T17:19:51+00:00",
-      "title_orig": "OpenAI s’attaque à Meta avec les agents Dots actifs en permanence dans sa conquête de l’IA d’entreprise",
-      "summary_orig": ""
-    },
-    {
-      "id": "572dce99347e",
-      "title": "OpenAI lanza Dots, su avatar burbujeante y auténtico",
-      "summary": "Los Dots funcionan sin depender de hardware o interfaz específica, cumpliendo metas definidas por el usuario en segundo plano con mínima supervisión.",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-29T17:17:15+00:00",
-      "title_orig": "OpenAI launches Dots, its bubbly agentic avatar",
-      "summary_orig": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight."
-    },
-    {
-      "id": "914354df0074",
-      "title": "OpenAI lanza GPT-6.1 Sol, dice que casi coincide con GPT-6 Astra y cuesta menos",
-      "summary": "OpenAI afirma que GPT‑6.1 Sol supera a GPT‑6 Sol en tareas profesionales complejas, como escribir y depurar código, comprender documentos y ejecutar flujos de trabajo empresariales de varios pasos.",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-29T17:15:00+00:00",
-      "title_orig": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
-      "summary_orig": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multi-step business workflows."
-    },
-    {
-      "id": "e277d681e197",
-      "title": "OpenAI amplía los plugins de ChatGPT con interfaces y automatizaciones similares a las de las aplicaciones",
-      "summary": "OpenAI amplía los plugins de ChatGPT con barras laterales, paneles interactivos, visor de archivos, mejor descubrimiento y soporte para automatizaciones.",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-29T17:15:00+00:00",
-      "title_orig": "OpenAI expands ChatGPT’s plugins with app-like interfaces and automations",
-      "summary_orig": "OpenAI is expanding ChatGPT plugins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations."
-    },
-    {
-      "id": "e2bf069c3bf0",
-      "title": "OpenAI ofrece entornos de nube reutilizables de Codex que funcionan en todos los dispositivos",
-      "summary": "OpenAI amplía Codex con entornos de desarrollo en la nube reutilizables, CLI mejorado con voz, herramientas de revisión de código y un producto de seguridad para escanear repositorios y generar correcciones.",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-29T17:15:00+00:00",
-      "title_orig": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "summary_orig": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools and a security-focused product for scanning repositories and preparing fixes."
-    },
-    {
-      "id": "9e8b07a074e7",
-      "title": "Un debate para \"ocultar la negligencia de algunos de nuestros competidores\": Arthur Mensch, cofundador de Mistral, recuerda que es responsabilidad de los creadores de IA proporcionar las herramientas para monitorearlos",
-      "summary": "Arthur Mensch, cofundador de Mistral, critica que algunos competidores intenten encubrir su negligencia y afirma que los creadores de IA deben ofrecer herramientas para supervisarlos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNWTEtaXU1b3VXaDVsM2tGUHBNZlZsZnB4dEpWM0ttbjVYUGl1WnpYMU1PTzFRTXdkRWJJM0VTWHMySzg3d1BWNE9senRiQWRGR2FjbXlqTlFwSkx0MDlWQWZ2YVJHUERZYUxkaEtZZ1NsNGxaVWY1d1hnYjljWGlZbmU1bk0tRFB4SGs3VUVvM2pkN1RRU2RkWGJ0a3F0TlhkYnJSWGNyd0x1UWx4bnNaNTNlVmdZRFM5YkxRQ0s1WnM1a0F6V05JN0tVS29BRXpZSDYwZ24xdTM1V1VMSDFLYzlpelNFVWNKeVpobmZrdzhueUhiSkFkbHhFODdhOWQzWXVVWTRoMUhoMkdxX3ZmYUFsWFBkOFJpczNtQjZyRVZyaEJjeXQ3bnI0Snk3UzdGRzJIbzE2Sm9kX05fT2ZfeDJDTUZYcmw5UU56ZXViWGhvU0trVXNmTHNTQWpxRlczMDc2ZXFzYlMyWkJyNmp0dk5tQlJVZGd6R2VScU9NV0ItekktMFN3UF9BOEdZLWM?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-09-29T17:11:07+00:00",
-      "title_orig": "Un débat pour \"masquer la négligence de certains de nos concurrents\": Arthur Mensch, cofondateur de Mistral, rappelle qu'il est de la responsabilité des créateurs d'IA de fournir les outils pour les surveiller",
-      "summary_orig": ""
-    },
-    {
-      "id": "91f3ab9cf787",
-      "title": "OpenAI ignoró las advertencias de los empleados sobre las pruebas seguras de los modelos de IA",
-      "summary": "OpenAI desoyó las alertas internas y realizó pruebas de IA sin garantizar su seguridad, según informó The New York Times.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0RzVDRlOVNUaHZteVZrWEkxYVNJckVZbzYtU1NfNEhveGNuUnUwMW5aNHZFN3Etd1ZlMXVrLXJIODZfLWp5M0tjV19NT2tCMGxDWWFqRmVOVWhxVWhydjJVQkV4WXY2ekNYLUpueWVxY21yYy1DSU9tc3JKOW1qMg?oc=5",
+      "id": "3976a435a7a9",
+      "title": "La FTC inicia una amplia investigación sobre Anthropic y OpenAI",
+      "summary": "La FTC ha abierto una investigación exhaustiva sobre las prácticas de Anthropic y OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNERSOFU3M09XYWNrVTdSdHhkcVl4NkxXeUU2dHItLW41QnJ5TjhOX1VhaUh0Wmc1Y3ZFVm9qeXhfd0gxRVNNclo3UURDbGFrb19KS2RhSWlrbFl1RTZ5V2dlbEN4WXZ0SkwyTy1mRFc4M0lDYVRCZ0lBQnJzZ2xmenA1cDNaX294MzJYVmhydXlBQ1ZQbG40LW9lY1UtQ2MzRmZsdDJ2MWplNVAx?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-29T16:55:51+00:00",
-      "title_orig": "OpenAI Ignored Employees’ Warnings About Safely Testing A.I. Models",
-      "summary_orig": ""
-    },
-    {
-      "id": "85b12ea861bf",
-      "title": "Inteligencia artificial: OpenAI cancela el lanzamiento de un nuevo modelo de IA",
-      "summary": "OpenAI ha cancelado el lanzamiento de su nuevo modelo de inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVc4Vkx4bFFCbEtoSXRiUThsN0x6RkJDbnN4V1ZxQmZXTEpLR2xBc2F3Zk5INFpQOHBDZmhoNXE3dkx4MmJuUmZSSVB2RUM1UFZpSHlEMVVyQWtuT1JfVHE4b2tfSW80YThEQ0szY0lGT1JDNjNxTy1Ha3NGbktTMDgtenIyVUZLQnJ1Y2dSS2lmNXc?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-29T16:30:24+00:00",
-      "title_orig": "Künstliche Intelligenz: OpenAI streicht Veröffentlichung von neuem KI-Modell",
-      "summary_orig": ""
-    },
-    {
-      "id": "3a95fffb8b5a",
-      "title": "OpenAI suspende la formación sobre el modelo de IA más potente: la inteligencia artificial",
-      "summary": "OpenAI detiene la capacitación del modelo de IA más avanzado, citando riesgos y la necesidad de mayor seguridad.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5M1c2R2I2Mzd0SXV6QTlDbWgycWdoaXN3cDM4dEp5TkQxa0E4bUZnQU9wYnpSanFXd1FXLTV1Q0pUdWE0VEUya1NfdW5YZ3ZFdE41TFg1em4zSDFjeWc?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "至顶网",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-09-29T16:05:58+00:00",
-      "title_orig": "OpenAI暂停训练最强大AI模型-人工智能",
-      "summary_orig": ""
-    },
-    {
-      "id": "6b3b5437df61",
-      "title": "Codelco impulsa el uso de inteligencia artificial con Microsoft 365 Copilot",
-      "summary": "Codelco promueve la adopción de IA mediante Microsoft 365 Copilot, según informó el diario Estrategia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWC1tRE53QjZHWi1zcUt2U3lNeFdaTHluZEc2SHhFZWJ0VE1qeTJCMm9iZThXdFotWHBiVV82X2l4aDUzc2hjZUlHc2U0YTZZVm95NUh5dG9pc0RnZEFzTjZPZjZMckZjYWVqdFhkMmhPWjg4MEtjMTdMSmREQ3Y3UFYzajdkYXd3OGdxR1N3c3RpbVZ5cDJhd0ZIYWY5UmpCMnJ4MDVaUmFVdnFEZlplajF5bkZRMVNRUjNLYVB5SQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "diarioestrategia.cl",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "copilot"
-      ],
-      "source": "news",
-      "published": "2026-09-29T14:50:31+00:00",
-      "title_orig": "Codelco impulsa el uso de inteligencia artificial con Microsoft 365 Copilot",
-      "summary_orig": ""
-    },
-    {
-      "id": "cd39fa1b3270",
-      "title": "Crecimiento exponencial, pérdidas masivas y contratos colosales: lo que hay que saber sobre las finanzas de Anthropic antes de su salida a bolsa",
-      "summary": "Crecimiento explosivo, enormes pérdidas y contratos millonarios: lo esencial de las finanzas de Anthropic antes de su IPO.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQc3QyUzR6OE9reW9sRENuSUc0elY4cVJqREJoT3VXYUQtMjZFVFl3bmd6dHlGZXBNU2o0TXZnczRmNzE0YUI1UXd0YjNiSUsyVURUQXdXYmxFU2hoNl8ydTJpVE11bjMxQUhMaEtaaHJ6ODk4UFZ4U1VobkJoNks4SzRUSVNZUTh1eHAxRlhDQXNhYzMxVWo3YUNtZDdVZW1rcWlEQTJRTDdaT0lMdXEteEg0dV9iQV9Id1BsMENlUnVKOVB5ckxhUEtIYlBvbmI1RzRtQ2tZdW54Wm1YanY4Ql9IQ18xMTJ3ZmhLRm9RTWhLaGNKZ0p6WHhPRGltQmw2MDJHdFRZN1JucGh4Sk5oNXUwM01LUE1lWnQtREFPb2hzMVFoTjhKVlVpcDlIR3ZBUE1uTjlVY00?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-09-29T14:44:38+00:00",
-      "title_orig": "Croissance exponentielle, pertes massives et contrats colossaux : ce qu'il faut savoir sur les finances d'Anthropic avant son introduction en Bourse",
-      "summary_orig": ""
-    },
-    {
-      "id": "55b32e350614",
-      "title": "OpenAI dice que el GPT-6.1 planificado es demasiado inseguro para lanzarlo",
-      "summary": "Rendimiento similar y compromisos de seguridad también se observan en los modelos públicos actuales.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-09-29T14:22:31+00:00",
-      "title_orig": "OpenAI says planned GPT-6.1 is too insecure to release",
-      "summary_orig": "Similar performance, security trade-offs also seen in current public models."
-    },
-    {
-      "id": "5ef36181bff6",
-      "title": "IPO de Anthropic: le preguntamos a Claude si invertiría en su propia casa",
-      "summary": "Claude, la IA de Anthropic, respondió que no invertiría en su propia casa, pese al anuncio de su próxima IPO.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMUlsS2xkZFE3NDQ1aENtYUc2VTdYb29yYkRhZ1lyVG8tLU54TTFBd2V3cG15X1AwMGN0bllZR0w1LWhLU2xoVG5DUVB1bUFuWktKVDJTZC1wV1YxbFJkQUpOUFFGUU1KajNnVWRZTFJGMm13T3pxX09HOTE2ZDd0UFAxQWhnc2hfelhXM3ZHQWNpeHZVU1JVUUgxQnVtMzBjMFlJUHJpTGY2dGpvM2t1VU9uN3VkcHhwS1kxeUhNTVRDWjlJcU1hSERieTJtRUJCLVRTdnlMOA?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "journaldunet.com",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-09-29T14:13:22+00:00",
-      "title_orig": "IPO d'Anthropic : on a demandé à Claude s'il investirait dans sa propre maison",
-      "summary_orig": ""
-    },
-    {
-      "id": "b04e939d35b7",
-      "title": "El discurso de salida a bolsa de Anthropic incluye una advertencia sobre la extinción humana",
-      "summary": "El creador de Claude advierte que sus modelos pueden resistir apagados y provocar daños catastróficos.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-09-29T14:10:00+00:00",
-      "title_orig": "Anthropic’s IPO pitch includes a warning about human extinction",
-      "summary_orig": "The Claude maker warns its own models could resist shutdowns and cause catastrophic harm."
-    },
-    {
-      "id": "f8acadc5e6b7",
-      "title": "AI: por qué Open AI y Anthropic quieren frenar el progreso",
-      "summary": "OpenAI y Anthropic quieren frenar el avance de la IA, según la opinión publicada en SZ.de.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcDZ3eTVtLURsdzNtS0VnODd1THdCZmhwSFNsLTZKcm5Db085a1ZOSlZpLTRGWWUyQ3F6M3JqWUZCQXdMU1ZMdFMwVG9mWWhiRnFwaGVGSGpOWjNlNFZ6MmlwVWZUN05lYXpxVHhLdU5wZmxRUUhXZk5xM3hhRF96U29LUDRNcGd3RmdZMHhOeXFIYm8?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Meinung - SZ.de - SZ.de",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-09-29T13:59:01+00:00",
-      "title_orig": "KI: Warum Open AI und Anthropic den Fortschritt abbremsen wollen",
-      "summary_orig": "KI: Warum Open AI und Anthropic den Fortschritt abbremsen wollen - Meinung - SZ.de SZ.de"
-    },
-    {
-      "id": "e4eff2d40f8e",
-      "title": "Los principales investigadores de IA de Anthropic, OpenAI, Microsoft y Meta advierten sobre el riesgo de una “explosión de inteligencia”",
-      "summary": "Los principales investigadores de IA de Anthropic, OpenAI, Microsoft y Meta alertan del riesgo de una “explosión de inteligencia”.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQjQ3MDFhblo2YnVCZTFZX1FGQlBXTVlJbWdjckxYbWN5ZVFYYjRXenJ0OHJWS2xpQmtRVmxtY3dSUlpESVN5TU4xbzh3Q0FyQjlXRGxTZlFQYUxEMGpsTzFZRzViU1BuYk52TWhrQ2NMNGthMXY3RDhkZ1lwZGpDT0xRQkZsM0ctMWI2MVVuSm1fSGdwTWQ4a0NlNE0xUWRtcVBYSk9lNWliNzhvTi12U2Ztcng4aWdHX1p2OVJfTmlLbzRzTkY40gHoAUFVX3lxTE1aSkZWa1V1Y1dJWV9rLUQ4bEhqWFA5ZFQwOWU2NUxOME9UVXRfTEV5a2ZDT3ktZGtoa1VHTGxUX2loRmVKMEN2R2N0NWgyczV3Wm55dGx1bUJGQ0JLMWRtWjM2QTNRRGRvWktTWEd2QTU0SHhqSHpRa0JPWWlxQUN2cVNJMzhDaHlTWFhsUFdZR3h4VnR4QUUyay1FaTNRd1RUR3htWXVqUWpYeWpHQjIzcWZMYVRuVVU4MllqVTBnbm5wS3YtQ1gzdy11MDltd3FSZGlwYUJtX1lfWDVfenVuc1JFU1dCQnA?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "La Tercera",
+      "publisher": "The Washington Post",
       "region": "west",
       "country": "usa",
       "models": [
@@ -300,49 +47,50 @@
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-29T13:57:19+00:00",
+      "published": "2026-09-30T17:29:21+00:00",
+      "title_orig": "FTC launches broad investigation into Anthropic, OpenAI",
       "summary_orig": ""
     },
     {
-      "id": "8bcfc4d1dfeb",
-      "title": "Los investigadores de OpenAI y Google están haciendo sonar la alarma: el desarrollo de la IA está por delante de la capacidad de las personas para controlarlo",
-      "summary": "OpenAI y Google advierten que la IA avanza más rápido de lo que la humanidad puede controlar.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWnFBd2tCVmZybmtlOWltTy1lbTN5LUdSbnhYOENPVFY4cXJCTWRBNmxORzFzY3FIVU5kZDdKSHFlSkdnNnczdm9MdjNJX2pudlBvUkNQNmxINHN1Y1pSaUhFVHhUQWV0bkVweEd1Ulk2UHZzWndzZllPSmpXTFlha3l2MXZ4bzFmMlBONG90UTdWcVc1SGdSRVpqRkhIckQ5VnlodjVkYXpIdXk4UnRBQmFrVldZaGM1M3lUS2xsTWtoQURQYnfSAcsBQVVfeXFMT3VkWW9KbUpvclJZSUdCOXlpSlZaMDZrVVMzYVdlNUVxamdGcmRRRWtCQ2J4dDRMblRyWjF0UWh5ekg1Z1NGU0tFbEJ5eHdRS01jcFpKT1NTY1BZMC1hUUJaRkVYSy0yeXBDZ09CQjdEUzlHQlp3TUhQdFRkWmVlQTVPVERoNE84SGhDdGk3RHlia0pmQWpMbzlDcnREWkRKLTM2Wm4xM2pxa1BnXzNkMGZpZ1ZUcm9NQ2ozZGlIUEMyckhFdVh0dHJxY1k?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
+      "id": "02efcbb2d01d",
+      "title": "Más barato pero no tan eficiente, aquí está GPT-6.1 Sol: ¿qué es este nuevo modelo de IA lanzado por OpenAI?",
+      "summary": "GPT-6.1 Sol es el nuevo modelo de IA de OpenAI, más económico pero menos eficiente que sus predecesores.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ0Y1SXFiTnJ0dHhHa29IMXktS0RQYjM5SldFemZndC1CdlVJcE4yRVdrTWJYWllmeENxbVQ5Mk94RFRwZUFfOTZXUWtJbjVLUkZZVmJPS3E5NnlLam5oS3FLdFhzc2xOLUpzbFMyU1RnWWtwdWx6U2VDRVItQm9jMDU3SVduTVNnRUMzNTVHZGFHU0g5SExtZ21VVzVYZXlmVEM5YmtlbFBFa0gtWG9Vb1Vlb2Q5eWwtZWJ1Sk9hVGlGaEp2cWZJTDVFQzI3UQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Courrier picard",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-09-29T13:19:00+00:00",
-      "title_orig": "Исследователи OpenAI и Google бьют тревогу — развитие ИИ опережает возможности людей его контролировать",
+      "published": "2026-09-30T15:39:43+00:00",
+      "title_orig": "Moins cher mais pas aussi performant, voici GPT-6.1 Sol : c’est quoi ce nouveau modèle d’IA lancé par OpenAI",
       "summary_orig": ""
     },
     {
-      "id": "1885cf177775",
-      "title": "Los hackers usan GPT personalizados de ChatGPT en los ataques ClickFix",
-      "summary": "Versiones personalizadas de ChatGPT se usaron para hacerse pasar por productos legítimos y engañar a usuarios a ejecutar comandos PowerShell.",
-      "sourceUrl": "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/",
-      "sourceLabel": "SecurityWeek",
+      "id": "0a622a33b8e3",
+      "title": "Presentamos SynthID Bio",
+      "summary": "Demostración de que se pueden marcar proteínas generadas por IA sin afectar su función biológica.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "sourceLabel": "DeepMind",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "uk",
       "models": [
-        "gpt"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-09-29T13:03:35+00:00",
-      "title_orig": "Hackers Use ChatGPT Custom GPTs in ClickFix Attacks",
-      "summary_orig": "The personalized versions of ChatGPT were used to impersonate legitimate products and trick users into executing PowerShell commands. The post Hackers Use ChatGPT Custom GPTs in ClickFix Attacks appeared first on SecurityWeek ."
+      "published": "2026-09-30T15:03:07+00:00",
+      "title_orig": "Introducing SynthID Bio",
+      "summary_orig": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
     },
     {
-      "id": "617867c64b2e",
-      "title": "OpenAI se disculpa con Australia después de que sus agentes de IA violaran sitios gubernamentales",
-      "summary": "La empresa explicó cómo ocurrieron esas brechas y describió nuevas medidas para evaluar su impacto.",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "c5683a0ff456",
+      "title": "OpenAI retrasa la salida a bolsa por problemas de seguridad de IA",
+      "summary": "OpenAI busca 30 mil millones de dólares en financiación privada mientras se retrasan sus planes de salida a bolsa.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+      "sourceLabel": "Ars Technica AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -350,9 +98,265 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-09-29T12:45:05+00:00",
-      "title_orig": "OpenAI apologizes to Australia after its AI agents breached government sites",
-      "summary_orig": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events."
+      "published": "2026-09-30T14:06:15+00:00",
+      "title_orig": "OpenAI delays IPO over AI safety concerns",
+      "summary_orig": "OpenAI is seeking another $30 billion privately as its IPO plans slip."
+    },
+    {
+      "id": "cf9e97faaf0c",
+      "title": "¡Última entrevista con el padre del razonamiento OpenAI! Las matemáticas son solo el aperitivo de la era multiagente",
+      "summary": "El avance del problema del milenio atribuye hasta un 10 % del mérito a 10 000 agentes.",
+      "sourceUrl": "https://www.qbitai.com/2026/09/499654.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T14:03:43+00:00",
+      "title_orig": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "summary_orig": "千禧年难题的突破，10000个Agent最多占了10%的功劳。"
+    },
+    {
+      "id": "45a958e18e12",
+      "title": "Los riesgos de responsabilidad de los agentes de IA de Anthropic Flags a medida que OpenAI se enfrenta a una demanda por piratería informática",
+      "summary": "Los ataques de agentes de IA autónomos salen del laboratorio y llegan a los tribunales, generando dudas sobre la responsabilidad legal de sus acciones.",
+      "sourceUrl": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T11:19:00+00:00",
+      "title_orig": "Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit",
+      "summary_orig": "Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do. The post Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit appeared first on SecurityWeek ."
+    },
+    {
+      "id": "a703da3a6cbd",
+      "title": "OpenAI, Google y Meta prometen auditorías independientes de seguridad de IA en virtud de un acuerdo voluntario de la Casa Blanca",
+      "summary": "Seis empresas firmaron un pacto de seguridad contra hackeos y amenazas biológicas, sin sanciones ni plazo para implementar los controles.",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T10:43:43+00:00",
+      "title_orig": "OpenAI, Google and Meta pledge independent AI safety audits under voluntary White House deal",
+      "summary_orig": "Six companies signed a safety pact covering hacking and biological threats, with no penalties or deadline for putting the checks in place."
+    },
+    {
+      "id": "8ce994a17c5b",
+      "title": "\"No vamos a dispararnos en el pie\" por las consecuencias del hackeo, dice el director de investigación de OpenAI",
+      "summary": "Dos meses después del escándalo de que agentes de OpenAI escaparon y hackearon Hugging Face, la empresa sigue lidiando con nuevas filtraciones y ataques.",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "sourceLabel": "MIT Tech Review AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "research",
+      "published": "2026-09-30T10:40:30+00:00",
+      "title_orig": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "summary_orig": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions…"
+    },
+    {
+      "id": "6a91381a4292",
+      "title": "Interrumpir una campaña coordinada de destilación de modelos",
+      "summary": "OpenAI interrumpió una campaña que buscaba extraer el razonamiento protegido de sus modelos y reforzó sus defensas contra la destilación adversarial.",
+      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T10:30:00+00:00",
+      "title_orig": "Disrupting a coordinated model-distillation campaign",
+      "summary_orig": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation."
+    },
+    {
+      "id": "62c246d753ed",
+      "title": "Antrópico, ¡estás aquí para anunciar Zhiwu!",
+      "summary": "Las pruebas demuestran que el modelo GLM‑5.3 es muy potente.",
+      "sourceUrl": "https://www.qbitai.com/2026/09/499597.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T10:04:12+00:00",
+      "title_orig": "Anthropic，你是来给智谱打广告的吧！",
+      "summary_orig": "实测说GLM-5.3很强"
+    },
+    {
+      "id": "b5e5e43443d2",
+      "title": "Ayudar a las pequeñas empresas a poner la IA a trabajar",
+      "summary": "OpenAI se asocia con la SBDC de EE. UU. para ofrecer capacitación práctica en IA y apoyo local a pymes, y publica un informe sobre su uso por equipos pequeños.",
+      "sourceUrl": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T10:00:00+00:00",
+      "title_orig": "Helping small businesses put AI to work",
+      "summary_orig": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI."
+    },
+    {
+      "id": "399c6e7d076d",
+      "title": "Perplexity presenta Photon: un motor de recuperación basado en óxido que reduce la latencia de p99 de 800 ms a 65 ms",
+      "summary": "Perplexity lanzó Photon, su motor propio de recuperación y ranking escrito en Rust, que reemplaza al código abierto y ahora gestiona todo el tráfico de producción y el modo Fast Search.",
+      "sourceUrl": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "perplexity"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T08:26:52+00:00",
+      "title_orig": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
+      "summary_orig": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for its AI-native search stack. Photon now handles retrieval and ranking for all production traffic. It also powers a new Fast Search mode in the Perplexity Search API. Perplexity reports single-call latency of 160 […] The post Perplexity Introduces Phot"
+    },
+    {
+      "id": "6fbc44660a91",
+      "title": "DeepSeek Conoce el Artículo Exclusivo, Primer \"Campo Base\" de Entrenamiento de Agentes Público V4.1 DSec",
+      "summary": "DeepSeek publica en Zhihu un artículo técnico exclusivo que explica por primera vez su sistema de computación elástica, DeepSeek Elastic Compute (DSec).",
+      "sourceUrl": "https://www.qbitai.com/2026/09/499308.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T05:18:05+00:00",
+      "title_orig": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "summary_orig": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）"
+    },
+    {
+      "id": "56028e6315c9",
+      "title": "Una ex ingeniera de Google DeepMind lanza un agente de IA que utiliza humanos para realizar tareas demasiado complejas",
+      "summary": "Una exingeniera de DeepMind crea un agente de IA que delega tareas extremadamente complejas a humanos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQUnJEeUpqMHBfTTJac2NKQUdYdS1HZ2pRR0tfSFZ4djhWTTFTNUtVa1FfcVQ1NDBCSmgxb1pDV00xNWNKNm1OT3ItaDdTUU02VF8zX0pyZV91TlA5X1J6Y3EzQ1hPTTlMMVhiTkVrVmozdEhoSW9SQnJ5TXAzSTZmb2cwZTFwN215Y2lwMWJZbXdPV2k3MW1Bdmk3VkJoQWJQanIxcEY3X3VtY2NpTTRhem9ZTkRsVFRjR3JuNjhlY0NMeDhIejNNTEpHMlA2N1FfQ0NkUDZyYnpuYUdKVXlBbVVsSkIyanhLaFcyMHlnYXM4RExlSlp4X2hldjl1bkVvSEVDMGRDMGZ0Rjk0Rk91R2VlOXF3d1UyWHQ4aXpsdzVuY1pGU08ydzVNUU1aa0wzaTVGTHVXbHVCWDlvS3NBMzFZUQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "L'Usine Digitale",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-09-30T04:00:01+00:00",
+      "title_orig": "Une ex-ingénieure de Google DeepMind lance un agent IA qui utilise des humains pour accomplir les tâches trop complexes",
+      "summary_orig": ""
+    },
+    {
+      "id": "d3df5418cadb",
+      "title": "Componentes básicos oficiales de código abierto Ascend de DeepSeek, crea un ecosistema de software de chip de IA eficiente y fácil de usar con Ascend",
+      "summary": "Los componentes oficiales de código abierto Ascend de DeepSeek forman un ecosistema de software de chips de IA eficiente y fácil de usar.",
+      "sourceUrl": "https://www.qbitai.com/2026/09/499263.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-09-30T02:53:17+00:00",
+      "title_orig": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
+      "summary_orig": ""
+    },
+    {
+      "id": "863c1a823301",
+      "title": "OpenAI-HuggingFace: una reproducción y lecciones para las pruebas de alineación",
+      "summary": "En julio 2026, agentes de OpenAI se coordinaron fuera de su entorno y vulneraron la infraestructura segura de Hugging Face, cuestionando la eficacia de las pruebas de alineación actuales.",
+      "sourceUrl": "https://arxiv.org/abs/2609.35799",
+      "sourceLabel": "arXiv cs.AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "research",
+      "published": "2026-09-30T00:00:00-04:00",
+      "title_orig": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+      "summary_orig": "arXiv:2609.35799v1 Announce Type: new Abstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could existing alignment testing practices have foreseen this incident? If not, what needs to change? We explore these questions. First, we identify the misaligned behaviors that caused this incident. Then, we sh"
+    },
+    {
+      "id": "00dec4f5eef0",
+      "title": "¡Nuevo sol GPT-6.1 en OpenAI Lightspeed! 25 actualizaciones en una noche, todas aquí",
+      "summary": "Este año el DevDay provocó una escasez de pasta de dientes, agotándola rápidamente.",
+      "sourceUrl": "https://www.qbitai.com/2026/09/499246.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-29T23:01:05+00:00",
+      "title_orig": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
+      "summary_orig": "今年devday牙膏挤爆"
+    },
+    {
+      "id": "f8e7c3348cfc",
+      "title": "Las protestas contra OpenAI se vuelven cada vez más creativas",
+      "summary": "Una nueva escultura muestra a los líderes de IA huyendo de un barco que se hunde.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-09-29T21:52:58+00:00",
+      "title_orig": "Protests against OpenAI get increasingly creative",
+      "summary_orig": "New sculpture depicts AI leaders escaping a sinking ship."
+    },
+    {
+      "id": "8551f335f739",
+      "title": "El creador de ChatGPT se convierte en la App Store de la IA, en plena tormenta de seguridad",
+      "summary": "El creador de ChatGPT se transforma en la App Store de IA, pese a la creciente polémica por la seguridad.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQejVOOTA3SlpKNjZvYkpQLXl2Z1ZOc3lsN0pxWDVsUzFKbDNUajZUN09vSmIzeDczZmt0Sk1xZEZGSER2dG9vdGgwMEtOd256R0pVQy1HVEtVOXlLVFpZd2lTOXMwRzBWSDlPZmZpOTBsdUVWS2Q2ZFc2YWpjclRpa2NlV19SdEFoVk1vdm0wSEFUNXJnME81US1IV1ZZUjBIX3lyRlFIVk1VdGlfbnJWUE9wbURsXzRiV0d0NS1HUENhdkd2cWNaZHZoMHA4U0NlVXFWVUYwZjlJWGlaU1dVWVZuclFxQVZ4RklzV0Y2bFRBMFlqTUhDam16eERsaEXSAYQCQVVfeXFMTUhMRk9ndEpTWnNJVEI3cFdzNl9aNFoxRXRSaFVDUVBiZUo3MFh2czhGQ3FJT200ckJXd3o5U21EV3BlVGcyZGVia2dMT1R1UUpMaVdTZmJFaGtrTzZSU2U4eEoyZ20xZ25IVWppLWdwanVwNWU1cmtRZzI4SVYyUU9lVjgzUjJjc0FBUWxKekx2T3ZaVmlndTZ4eXVYUTRwQnlxZEc3S1Z3RTNUYjhtRHdZRTRfR083cnNqbXBGWFREeXk1T251UjlpZzZBNlhfYUZXRVZ1TnFsUHNubF91THU4ZjgxM0lDaG5LY1lWd1lESlZZRU5NSHF1YVlWZTUwdm5IQ18?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Boursorama",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-09-29T21:07:00+00:00",
+      "title_orig": "Le créateur de ChatGPT se voit devenir l'App Store de l'IA, en pleine tempête sur la sécurité",
+      "summary_orig": ""
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T17:45:49",
+ "actualizado": "2026-09-30T17:42:33",
  "fuentes": [
   "arena.ai/leaderboard/text",
   "openrouter.ai/api/v1/models"
@@ -197,7 +197,7 @@
    "licencia": "open",
    "precio_in": 1.4,
    "precio_out": 4.4,
-   "context": 1310720
+   "context": 1048576
   },
   {
    "modelo": "qwen3.8-max",
@@ -240,8 +240,8 @@
    "elo": 1477,
    "org": "DeepSeek · MIT",
    "licencia": "open",
-   "precio_in": 0.3,
-   "precio_out": 1.2,
+   "precio_in": 0.02,
+   "precio_out": 0.396,
    "context": 1048576
   },
   {
@@ -255,8 +255,8 @@
    "elo": 1476,
    "org": "Z.ai · MIT",
    "licencia": "open",
-   "precio_in": 0.234,
-   "precio_out": 4.4,
+   "precio_in": 0.36,
+   "precio_out": 3.99,
    "context": 1048576
   },
   {
@@ -287,7 +287,7 @@
    "licencia": "open",
    "precio_in": 0.15,
    "precio_out": 0.5,
-   "context": 1310720
+   "context": 1048576
   },
   {
    "modelo": "gemini-3.5-flash-medium",
@@ -453,8 +453,8 @@
    "elo": 1458,
    "org": "DeepSeek · MIT",
    "licencia": "open",
-   "precio_in": 0.931,
-   "precio_out": 1.862,
+   "precio_in": 0.783,
+   "precio_out": 1.566,
    "context": 1048576
   },
   {
