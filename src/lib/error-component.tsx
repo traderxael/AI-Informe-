@@ -2,6 +2,16 @@ import type { ErrorComponentProps } from "@tanstack/react-router";
 import { TriangleAlert } from "lucide-react";
 
 export function AppErrorComponent({ error }: ErrorComponentProps) {
+  // Desde @tanstack/react-start 1.168.60, `error` llega tipado como `unknown`.
+  // Estrechar a Error es lo correcto: React Router garantiza un Error, pero un
+  // throw de libs de terceros puede ser cualquier valor.
+  const message =
+    error instanceof Error
+      ? error.message
+      : typeof error === "string"
+        ? error
+        : "An unexpected error occurred. Try reloading the page.";
+
   return (
     <main
       className={
@@ -14,7 +24,7 @@ export function AppErrorComponent({ error }: ErrorComponentProps) {
       </span>
       <h1 className="text-lg font-semibold">Something went wrong</h1>
       <p className="max-w-md text-sm break-words text-zinc-500 dark:text-zinc-400">
-        {error.message || "An unexpected error occurred. Try reloading the page."}
+        {message || "An unexpected error occurred. Try reloading the page."}
       </p>
     </main>
   );
