@@ -1,69 +1,254 @@
 {
-  "generated_at": "2026-10-03T15:48:41.717689+00:00",
+  "generated_at": "2026-10-04T16:32:15.855093+00:00",
   "count": 20,
   "sources": [
+    "BleepingComputer",
     "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA LATAM",
+    "Google News — IA Rusia",
     "Google News — IA global",
-    "NVIDIA Blog",
+    "MarkTechPost",
     "OpenAI",
     "QbitAI",
-    "SCMP Business",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
-      "id": "fb65e009a7a0",
-      "title": "OpenAI reporta acceso no autorizado a datos del Gobierno de Australia Un agente de inteligencia artificial de OpenAI accedió sin autorización a registros históricos no públicos del Departamento de Cambio Climático de Nueva Gales del Sur, en Australia.",
-      "summary": "OpenAI informó que un agente de IA accedió sin autorización a registros históricos no públicos del Departamento de Cambio Climático de Nueva Gales del Sur, Australia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nYU9wS1BIS3ZTa0lPeW1hcTRtTUpsdzF6SHdjNDhLNXdveDhRcG5hRVdvRWx6TG9SczZGUGtDbEljNFBfZHdxVHZZejNSLW8yTGc?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "instagram.com",
+      "id": "9d6d68561cd4",
+      "title": "Google privará a los usuarios gratuitos de Gemini de modelos avanzados, pero Deep Think vendrá con una suscripción por $20",
+      "summary": "Google limitará Gemini avanzado a usuarios pagos, mientras Deep Think se lanzará con suscripción de $20.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzNWYkhkSW16MElaRzN0Wmk4WEFIVGJnY0hveUZDZTk2WVZxalYxWXNXQzdmd2ViU1ZDa0xXTjhoa0FrOWhhTThKSUhBYXYtRElTRXZveVhYUmYzUGNEN0JwWGF3YTFiTmNXN0pOTXFqVk1lRGFUVVJYdjRmNkZsRkJWeDZEZTBzWE83SGdLZnJyb0ZpVUtka3RMcXQ2bERveXgwNDNnZldMdDAzMTV0VzVKQV9lWm1MVWhpOGNpZzRWVzg1dlpPdzl0b9IB0AFBVV95cUxPUG1jNE1xMHZraFVZM1Eyc3lrRFkxQzc0WXlQX3dZYmZrcFdQUEZvSW1TUElhUEJjMnllU0h1RmROVThfcEVkYUhFRHlfa3VjVjhQZFBxUVpFbVctWExqQnVwQWtib3dDXy1RN2ZRa09oMW5QR0x4ekpNMFpzbEpiZU50MUQxd3J0M0RWejBnT0dLMmlBM2M2TlVYYVhQVHVwXy0tVVdldFlrcDNoNnB3VEVLSXZpS0V6VkdzbnFQY1lRYnhqV0NtVWdQeXpjYW9F?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "3DNews",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-10-04T12:10:00+00:00",
+      "title_orig": "Google лишит бесплатных пользователей Gemini продвинутых моделей — зато Deep Think придёт в подписку за $20",
+      "summary_orig": ""
+    },
+    {
+      "id": "fde92ca680f6",
+      "title": "El jefe de seguridad de OpenAI ha dimitido",
+      "summary": "El jefe de seguridad de OpenAI renunció.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOczUyYVhURlNhd1lSc05pWUlUMTVVQXV3N1hzRzh5TWo0Rlk0bVI5X1hmdFBSdTRzQlQ1NUgzbmo4UTBjblAwd3BidkJ2ODlTRG9aVTJWSXZmSHp3NzQ4SWJHWEtITE10TUF3UjA4bXl5amh2dGN2YVB2emdoMENyMWMtdWI0dnVrd3ljN0l0YW9mc0Y2ZEZMRTJQRGQ5eWtHY2pFcmpMOHpPODVVTjNfT00ycFgxSDQtb2tHZjhVYlJMUQ?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "PravilaMag",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-10-03T15:17:39+00:00",
-      "title_orig": "OpenAI reporta acceso no autorizado a datos del Gobierno de Australia Un agente de inteligencia artificial de OpenAI accedió sin autorización a registros históricos no públicos del Departamento de Cambio Climático de Nueva Gales del Sur, en Australia. La",
+      "published": "2026-10-04T10:38:00+00:00",
+      "title_orig": "Руководитель направления безопасности OpenAI ушел в отставку",
       "summary_orig": ""
     },
     {
-      "id": "a9a121f863fe",
-      "title": "Empresa de IA de Alemania: Aleph Alpha quiere conquistar las autoridades de Europa con \"Kolibri\"",
-      "summary": "Aleph Alpha, la startup alemana de IA, busca influir en las autoridades europeas con su modelo “Kolibri”.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNal9ZVE9GOFV5UUFfVHUxdmh3UnVOa0xHYW5XcHB1R1FrelJQN04yS1RSZEhCd1p3WXI4Z3VQUFA2cWEyZG1fWS1nMWlOVmxYUllrRHFIdnhDbkYxZWpMTkVTNEpkQUk0QjJ3WXdVXzl1ZG4yU1hGUWgwYk9nMldTaFBBYzR3WUZUeHE2Y2FzU2pqMFhHUGdpZlpVU0VhdkhlUVY5RTh5REpMUlJZREU0cXBTdEIxRW45T0hxM3RINjRYRnpYc0NiWmdnWDVXQjA?oc=5",
+      "id": "f13912770575",
+      "title": "Inteligencia artificial: un empleado dimitido de OpenAI denuncia una cultura de riesgo insuficiente",
+      "summary": "Un ex‑empleado de OpenAI acusa a la empresa de mantener una cultura de riesgo insuficiente.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOQmptTkMxN08tLWhTZS1BYXluQ1J0STEyVkNrcnQ3MnVqVlIzUVRBUVR4ZEpBZmtsX3Z5SVlObWhqQU9Ja3VkMTJ2aTc2blhOQy1SdzNxMkFyS1UwUUNEQ3duRm42WVZscEJIaHhRUjlYT1VsMGcyTzVQME9TUF9BMGdFUXFFclNsb3l0NmlpTEdVZHlYM1B0VXExWm5YdHVRTkZHeUxEajdVWlVENXhLS0g5YXI4VmY5LU9CcXJaQnIxXzN5eEVMZ2dKdXMtVmQ4LWdCaW9ob2FiMGNMYkRlNGVjQ1BKa0FMZWo2Q0k3a0FNOGpjaENOVjY2YXU3dUhJLUxnR3pKUW1mY285Z2kxTXB4T1dSNVQyM0E?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Sud Ouest",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-04T09:45:43+00:00",
+      "title_orig": "Intelligence artificielle : un employé démissionnaire d’OpenAI dénonce une insuffisante culture du risque",
+      "summary_orig": ""
+    },
+    {
+      "id": "866500963ad1",
+      "title": "Künstliche Intelligenz: Ex-Sicherheitsforscher warnt vor unvorsichtigem Vorgehen bei OpenAI",
+      "summary": "Un exinvestigador de seguridad advierte que OpenAI avanza sin la cautela necesaria, lo que podría generar riesgos graves.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNTI5UEJWU0YwYVhHRmFWdlFJVHhWZVRzcFlwQ1h4cGtnQTRYUldlNWE3M2ZZQ194WXFoemdLSmdTSHBHWXJmLWZiR2t2NzhQUkYyZDB3U3hyaDBua21wWXpPOEtnWEdKd2VEeGtraUpkLWJkZC1MUy1CcEdRa0VuRU9SNVFuZUhEWTlwTEliUQ?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "SWR",
+      "publisher": "DIE ZEIT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-04T09:00:40+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "98668bfcbd3f",
+      "title": "Un empleado de OpenAI renuncia y llama a reforzar las prácticas de seguridad del sector de la IA, ante los recientes incidentes",
+      "summary": "Un ex‑empleado de OpenAI renuncia y pide reforzar la seguridad en la IA tras los últimos incidentes.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOWDEtT3pTQlY5N1NzZHA1T21LbEhLRVFnZGFyOUdQUk5SNGN4b3B6RWVoaVMtLVhvRC1Qd1hYZlg1WXhGcDNlSmtfV1JtSk5zcjdKSDBDbm4zWW92SEN5V09nTmFxbTlTc1JOOU1zeFVONTJSUmlFTFFiU1R4TDlBYm5IeHJOdjNlYjZmNU9RalVCWWlieTJxRWpsT3g3ZWZwMFNoLUVZZ3YwcXg2NVl0d3BiOThvMl9Sb0RBSGl0cGVxbjJkSU9uME50X3VrbGJFYmJFLUNtRlZuU1BYc3U4emhTcnhsT3hra2FGNVZvb2JpLVlzMWRaUnh1WHREcjE4SGJYSUt3enlTVXNWNGpYWEZLVGlGaXAxMVlTTmRaLUNBYXFOWXV3?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-04T08:15:27+00:00",
+      "title_orig": "Un employé d'OpenAI démissionne et appelle à renforcer les pratiques de sécurité du secteur de l'IA, face aux incidents récents",
+      "summary_orig": ""
+    },
+    {
+      "id": "38be749b24d5",
+      "title": "Aleph Alpha lanza Kolibri: un modelo de Moe inglés-alemán de peso abierto de 78.1B con solo 3.46B parámetros activos",
+      "summary": "Aleph Alpha lanzó Kolibri, modelo MoE inglés‑alemán de 78.1 B parámetros que activa solo 3.46 B por token, con contexto de 1 M y pesos FP8 en una sola B200/H200.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
       "region": "west",
       "country": "germany",
       "models": [
         "aleph-alpha"
       ],
+      "source": "lab",
+      "published": "2026-10-04T07:01:04+00:00",
+      "title_orig": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "summary_orig": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0 FP8 weights run on a single B200 or H200. The post Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters appeared first on Mar"
+    },
+    {
+      "id": "9c966f73f01b",
+      "title": "Anthropic pide a los usuarios de Claude que compartan datos de voz para la capacitación del modelo de IA",
+      "summary": "Anthropic pide a los usuarios de Claude que compartan voluntariamente sus conversaciones de voz para entrenar y mejorar sus modelos de IA.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-04T06:53:21-04:00",
+      "title_orig": "Anthropic asks Claude users to share voice data for AI model training",
+      "summary_orig": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]"
+    },
+    {
+      "id": "8a80da1cc21e",
+      "title": "DeepSeek Harness v0.2 incorpora aplicaciones de escritorio oficiales a su arnés de agente de código abierto",
+      "summary": "DeepSeek lanza apps de escritorio para macOS y Windows de Harness v0.2, con gestor de plugins, revisión de archivos y código, tareas programadas y soporte para modelos externos vía API compatible con OpenAI.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-04T04:49:42+00:00",
+      "title_orig": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
+      "summary_orig": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-licensed agent harness. The preview adds a plugin manager, file and code-change review, and scheduled Automation Tasks. It also supports non-DeepSeek models through OpenAI-compatible endpoints. The post DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness appeared first o"
+    },
+    {
+      "id": "607d10bc5e28",
+      "title": "Los gigantes de la IA no son \"lo suficientemente cuidadosos\", advierte un exingeniero de OpenAI",
+      "summary": "Un exingeniero de OpenAI advierte que los gigantes de la IA no son lo suficientemente cuidadosos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV3RuZ00xbFF5aklQckhmNXBFa1RXdVg2aW85a01OWFFMSEd6cmxaanBRUlJLQlpRSnB3dTc2dkF0UnVsbllHVTNlaE91cHB6NHVHS0UzZmJoZGxLYWYzbDVRbnpJdmJoOGV4N3JhaXR4ajlKaFhjRnM3STlVdnl2THA5TGhMOHd0UldtdWlQbjRRWmNNc3JTOW1tQWc2OXplS2pxYWdUbEdzRVVPUkxUV3ln0gGyAUFVX3lxTE9iVk5TcFo2aXpTR1JpeVhPSFloV3lVZTdDSlRCWEhRdXZ3TVVTQkVOcWljQjFjTXRMV1kzQUd4SWNWR21ScW9CeGxCUk9aNW0zaktYM1paWE9fZVItemxtTlNWZzZqWjE2UnBiWHQ3ejd5dFB1TFVlalpzRTlpYm9NajRULXQ1eTNnRGxISzY0X3MtVFd2TFZaTmxPZnpNOWx0VVhSZUFiTVJ1aUJzdDZQS2c?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "DW.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
       "source": "news",
-      "published": "2026-10-03T11:40:52+00:00",
-      "title_orig": "KI-Unternehmen aus Deutschland: Aleph Alpha will mit \"Kolibri\" Europas Behörden erobern",
+      "published": "2026-10-03T22:03:16+00:00",
+      "title_orig": "AI giants not 'careful enough,' ex-OpenAI engineer warns",
       "summary_orig": ""
     },
     {
-      "id": "c1167e86aa16",
-      "title": "La inteligencia artificial se pone al volante: investigadores dejan conducir un coche real a ChatGPT y Grok para comprobar su comportamiento",
-      "summary": "Investigadores dejaron que ChatGPT y Grok condujeran un coche real para evaluar su comportamiento al volante.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUmdvQndaVEhNd3Z2dzNWemE2cnlWYm5NSEJxaGxXMXE3R01WZnZfOXg0a1Y4V3dINHg2Tms4eERmUTZseWxGd0o2cDJ4RTJFNDVIOFdSUm5qT1dTUXdYWkszcktyeVVJcEN2Tk9ZV205eWRxZEcwMVp3YjJ2Vk9QZ0xCVGZVU1ZMNTJxZ1BOenhNblNtckkzSjNwWGo3RTdQNk5wRGhFMnJmZk5LaWY3TUxueHVCckNXZko3cUNCNkxiQ1NsUVBYQUNhWW1iLWxlUFNaVS1fMnNoMllTSW1iblVVdzRSX0V1VXRvZTVQbVdmXzhHdUZj0gH8AUFVX3lxTE9XeG9GM1VMVDRlN3VnQVFBNXUwZmJRdUNPa0c4X3dKVWhIdDhjNkVDbEJEZG5xUm5NaGJ4RDZ6d3BIbUtFOVlDRWZJcXFTTF9UVkphbVdXWlFZLU0xQ2JrdlNaek9VdUtJckpfZ05LQk5NNFZ3bUxxRURJSkpBY1NlWE1wb08tdnpfZXJHeEJRR3RxZUF4d3AxdGt3OEhQNEh3TUNqdWY5RnpDMC0wd0NRQnJtSzM2Nmp3SVN2ckNwV0ZVcTUxclYxQjF4Ny0xTktlMmxfWlNaQjhXSlh4MUlIOEd5RTJuRzQ5UFpFajVuOWoxcmdUY2JGVXR0cA?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "eldiario.es",
+      "id": "dd007e6c88d1",
+      "title": "El personal de seguridad de OpenAI renuncia y advierte sobre los riesgos",
+      "summary": "El equipo de seguridad de OpenAI renunció, advirtiendo que la IA presenta riesgos críticos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTDZOcTA2UTExR0dyZVlwQzBhcEgtNjh3WS0wdTBxcU5taGpWSEJDZDN1MEhsb3ZKMWlINzhUTkV3NXdxOTBGNHhNc2hGTmxvWmhQU1NuSjA3UGNzdjdPNS1ncTh5M1VOU1paNndYaUpVN1ExaGMzV0hNaVgtWUV3QXlFZWEteGx1VVRWcnJMTUNsbjFWV1NZT2lIay1MQmJvSDc4SlVJMzlSWXhkWC1jQWNpODlmSHU5aEFqaElGNkFNQ0RXRV9WVV9WbXJ1eWRDRXVKelhCQ1ZTckhtUWkzM1VYakhwOTJGM1hj?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Spiegel",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-03T21:48:00+00:00",
+      "title_orig": "OpenAI-Sicherheitsmitarbeiter kündigt und warnt vor Risiken",
+      "summary_orig": ""
+    },
+    {
+      "id": "71f68485047e",
+      "title": "Google Gemini pronto podría tener acceso completo a los archivos, aplicaciones y la web de tu Mac",
+      "summary": "Gemini de Google pronto podrá abrir cualquier archivo, lanzar apps, navegar y actuar en macOS sin pedir permiso cada vez.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
-        "gpt",
-        "grok"
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-03T19:12:34-04:00",
+      "title_orig": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+      "summary_orig": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]"
+    },
+    {
+      "id": "2bb4da9862ae",
+      "title": "Una nueva dimisión impactante en OpenAI se suma a los debates sobre los peligros de la IA",
+      "summary": "Una nueva dimisión en OpenAI alimenta el debate sobre los riesgos de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQ3ZGQldvcG9EbzJFaTdlWDB0T0Fobm5HeUFKdDF4Wi1QQXhBRkVxNzFleUlNbXVEck9uVHV2TnctU0tXaEt5OGFoV296eXF4VjFwTVBrUC1tWlkzd3N2RHVtZjhNZGVxblNvbmkxZU54dGpxZzFKaklvLU5jbUR0LURzQ2JtOFloaFVfQ212SlVwcGRGWmM4Q2xDSERKbVBWU0hzbVFZcGdzZnBGOE4wOUFEUkxjOGRhZjd6S3RHWXBJdElrMURrZ2RrTzdUelNLc0lCam0zYU1waFJpMG56dGpTN3BMZw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
       ],
       "source": "news",
-      "published": "2026-10-03T11:00:43+00:00",
-      "title_orig": "La inteligencia artificial se pone al volante: investigadores dejan conducir un coche real a ChatGPT y Grok para comprobar su comportamiento",
+      "published": "2026-10-03T17:16:37+00:00",
+      "title_orig": "Une nouvelle démission choc chez OpenAI s'ajoute aux débats sur les dangers de l'IA",
+      "summary_orig": ""
+    },
+    {
+      "id": "a17db24aed38",
+      "title": "El empleado de seguridad de OpenAI renuncia, alegando que la \"cultura está rota\" de la empresa",
+      "summary": "David Robinson, empleado de una empresa líder en IA, admite ser un cliché al renunciar y lanzar una advertencia alarmante.",
+      "sourceUrl": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-03T16:30:01+00:00",
+      "title_orig": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "summary_orig": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job."
+    },
+    {
+      "id": "d4d2a07efe6b",
+      "title": "ChatGPT-6 Astra juega \"a ciegas\" a World of Warcraft y despeja la zona de partida de los orcos en 40 minutos sin muertes: el agente de IA navega analizando paquetes de red de servidor sin procesar y archivos SQL",
+      "summary": "ChatGPT‑6 Astra juega “a ciegas” World of Warcraft y limpia la zona de partida de los orcos en 40 min sin muertes, analizando paquetes de red y archivos SQL.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPUk50LUd6TWpjUW4xeGxKZnRPZERPV0hwSWtVMUxkTDZwUl9Wbk42X042aE9oa19uTXprM21wN2RJUGM5VGhiVE52TzZsLWpQdkM3MHhvSmE0WHhjbWhSY0ZTLU5KeHQwNEEzVzJHcjZZVlhIWHN1aWYzbXpfWXhZbnRXNERRZkZsa0xldmF2SThYbmpRZk1yczd0aGhsMWdQTkRzYkd1UFBLYXloV2Zndk5CZEhvMURFUml1UHhmT1RFOTFpYkxYMmtVaWdVVlVscjVoa2dPZGk3ajI4bjFNQUpSY1FRWmhRTEQ3MEpfZVFFT2VMYlJIZDlKRHZJY21KT01oTEwxMjRRU0pPd2djd2ZlTDFIYXg3NF8wQ2tGOTRwcmdKYjROSG05Z25ZRWZmR05TTXliaUN5Y0xqUDNKOUhOQjJBMzBZeDNUbjNuQjZ2U2xBYXlkWTl3?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Tom's Hardware",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-03T10:00:00+00:00",
+      "title_orig": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths — AI agent navigates by parsing raw server network packets and SQL files",
       "summary_orig": ""
     },
     {
@@ -84,11 +269,11 @@
       "summary_orig": "岗位JD甩了篇技术报告"
     },
     {
-      "id": "2e1cc7abff8b",
-      "title": "¡El equipo de seguridad de OpenAI mantiene los terremotos! Renunció el responsable y se abrieron tres empleados por filtraciones",
-      "summary": "¿Qué pasa ahora?",
-      "sourceUrl": "https://www.qbitai.com/2026/10/501368.html",
-      "sourceLabel": "QbitAI",
+      "id": "0a712c5edc61",
+      "title": "Meta, OpenAI y Uber acaban de enseñar a los agentes de IA a hablar primero. ¿Qué pasa cuando te quedas callado?",
+      "summary": "Meta, OpenAI y Uber lanzan agentes de IA que hablan primero, cambiando el reto de qué responder a cuándo interrumpir y cómo ofrecer ayuda.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
+      "sourceLabel": "MarkTechPost",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -96,26 +281,26 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-03T04:41:24+00:00",
-      "title_orig": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "summary_orig": "又咋啦。。。"
+      "published": "2026-10-03T07:05:11+00:00",
+      "title_orig": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
+      "summary_orig": "TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer. Classic ML and new decision models can solve it. Three launches, one pattern From pull to push Chatbots were […] The post Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What Abou"
     },
     {
-      "id": "5074004a2d05",
-      "title": "OpenAI investiga otros posibles incidentes de piratería de IA después de la violación de Hugging Face",
-      "summary": "OpenAI investiga posibles casos de piratería de IA tras la filtración de datos en Hugging Face.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYkxQOVRxbnlsdHQ1RGM0TVNZLUF1bGVqQ2xlUnpGZHJFQ3dZR05tMjZOVGRmTm9XblhYdXg0U0pFTTF0UXNWb0pGTGdRY0hPd2tadk9vSmdRdkFCNWJjLXFhZDFJSzBOdTc2UkVXeTFTUl84cmVvVUdib0lWMS1uc3huRzdEdGdjeV8xbA?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
+      "id": "ae39c209ec24",
+      "title": "Microsoft AI lanza MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+      "summary": "Microsoft AI lanza MAI‑Transcribe‑2‑Streaming, modelo de reconocimiento de voz en tiempo real que lidera con 2,5 % de error en 0,12‑0,13 s, soporta 60 idiomas y cuesta $0,54/h.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "copilot"
       ],
-      "source": "news",
-      "published": "2026-10-02T23:20:43+00:00",
-      "title_orig": "OpenAI investigating other potential AI hacking incidents after Hugging Face breach",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-03T05:09:53+00:00",
+      "title_orig": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+      "summary_orig": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first partials. It covers 60 languages with continuous language detection and costs $0.54 per hour during the introductory period. It is available now in public preview"
     },
     {
       "id": "3cc6542c47eb",
@@ -137,7 +322,7 @@
     {
       "id": "7732b6c00457",
       "title": "OpenAI recambia formas con tres investigadores de seguridad sobre el mal manejo de la información sensible",
-      "summary": "OpenAI despidió a tres integrantes de su equipo de seguridad por filtrar información confidencial, según informó el Wall Street Journal.",
+      "summary": "OpenAI despidió a tres miembros de su equipo de seguridad por filtrar información confidencial, según informó The Wall Street Journal.",
       "sourceUrl": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -167,193 +352,6 @@
       "published": "2026-10-02T16:15:00+00:00",
       "title_orig": "A model guide for the GPT-6 family",
       "summary_orig": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
-    },
-    {
-      "id": "4f9ce32a079c",
-      "title": "Mistral: cómo el líder europeo de la IA ha cambiado de estrategia",
-      "summary": "Mistral, el líder europeo de IA, ha modificado su estrategia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdWkxaXJ0akpnckpnN0pHM1pUMUlzZThrTXdLLVdXLThNTGt3WlpqSWdjWlI0UG9EdzVRZ1hBU2ZPNTlBN3MwTzMtNlJVNWFMenpGYlVVM2s5cXVrSFoyMTdFbEVpS2VLVXV1QUt2elNBRTBtMjJhNHByejd3WnBoWVJDbVRuZUx6a21MajgtZ1d3Vk1jbDUxUmROUlIyUUpyTEJXUzFnM0NrQzJxZFBhUlAxbWZfaVVxNHJtLUtEUlJrRG9IVVdBTmNmTWl6Zw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-02T15:00:09+00:00",
-      "title_orig": "Mistral : comment le leader européen de l'IA a changé de stratégie",
-      "summary_orig": ""
-    },
-    {
-      "id": "cd561359d2d7",
-      "title": "Inteligencia artificial: OpenAI despide a tres empleados tras un incidente de seguridad interno",
-      "summary": "OpenAI despide a tres empleados tras un incidente de seguridad interno.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaERQM3RKRDEwb0g2MkUwaUNTaEF5dXdBMklEVXA2Y1lJc0xwdE40TWZmZ0NvNmkzR0tpWVdrZmVJNWFwamxUV0ladlB1cGJUclV4V3l2aEpfbDcxaFpGeXhKWkVKVmFvU1pDeTF5NzVrMDk0QV9qOEdkNFNLUmR3dG8yVUlxTEpEcWVJYkFpOXlldw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-02T11:06:42+00:00",
-      "title_orig": "Künstliche Intelligenz: OpenAI entlässt drei Beschäftigte nach internem Sicherheitsvorfall",
-      "summary_orig": ""
-    },
-    {
-      "id": "456a591e773f",
-      "title": "El nuevo artículo de Qiu Chengtong agradece a GPT y Claude",
-      "summary": "Fue incluido en la lista de problemas hace 44 años.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/499991.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-02T07:27:03+00:00",
-      "title_orig": "丘成桐新论文致谢了GPT和Claude",
-      "summary_orig": "44年前被亲自列入问题清单"
-    },
-    {
-      "id": "80b4c8d663d0",
-      "title": "¿Efecto DeepSeek? Cómo prosperan los fondos cuantitativos de China en medio de un estricto escrutinio regulatorio",
-      "summary": "El sector de inversión cuantitativa de China incorporó 18 fondos que superan los 10 mil millones de yuanes, mostrando rendimientos competitivos pese a la regulación estricta.",
-      "sourceUrl": "https://www.scmp.com/business/banking-finance/article/3369376/deepseek-effect-how-chinas-quant-funds-thrive-amid-tight-regulatory-scrutiny?utm_source=rss_feed",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-10-02T02:00:18+00:00",
-      "title_orig": "DeepSeek effect? How China’s quant funds thrive amid tight regulatory scrutiny",
-      "summary_orig": "China’s quantitative investing sector has added 18 new members to the ranks of funds managing more than 10 billion yuan (US$1.5 billion) in assets this year, underlining the industry’s ability to generate competitive returns despite a tight regulatory environment. The firms were among 159 Chinese hedge funds overseeing more than 10 billion yuan each, according to financial news agency Cailian Pres"
-    },
-    {
-      "id": "a97398f76ee5",
-      "title": "Chatham amplía su experiencia en mercados de capitales con OpenAI",
-      "summary": "Chatham Financial emplea Codex y GPT‑5.6 para crear tecnología y rediseñar procesos, reduciendo la validación de operaciones de 30 minutos a menos de 4.",
-      "sourceUrl": "https://openai.com/index/chatham-financial",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-02T00:00:00+00:00",
-      "title_orig": "Chatham scales its capital markets expertise with OpenAI",
-      "summary_orig": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
-    },
-    {
-      "id": "c68e4b407e02",
-      "title": "Cómo ayudan las GPU NVIDIA a acelerar el GPT-6 Astra ultrarrápido de OpenAI",
-      "summary": "GPT‑6 Astra Ultrafast, con GPUs NVIDIA Blackwell, ya está en la API de OpenAI y para usuarios elegibles de ChatGPT Work y Codex, generando tokens hasta 8 veces más rápido que el modo Astra Standard.",
-      "sourceUrl": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "sourceLabel": "NVIDIA Blog",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-01T23:44:13+00:00",
-      "title_orig": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "summary_orig": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, […]"
-    },
-    {
-      "id": "7e67b43cf9d0",
-      "title": "EL complemento eterno",
-      "summary": "La IA avanzada será clave en la ejecución rutinaria que impulsa ideas innovadoras, definiendo la próxima economía y la velocidad del progreso.",
-      "sourceUrl": "https://openai.com/index/the-eternal-complement",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-01T17:00:00+00:00",
-      "title_orig": "The eternal complement",
-      "summary_orig": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress."
-    },
-    {
-      "id": "a80484c2d584",
-      "title": "Cómo Albertsons Companies está reimaginando el comercio minorista desde adentro hacia afuera",
-      "summary": "Albertsons usa ChatGPT Enterprise y la API de OpenAI para que sus equipos trabajen más rápido y faciliten las compras a millones de clientes.",
-      "sourceUrl": "https://openai.com/index/albertsons-reimagining-retail",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-01T16:00:00+00:00",
-      "title_orig": "How Albertsons Companies is reimagining retail from the inside out",
-      "summary_orig": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
-    },
-    {
-      "id": "42f99d3e4d0a",
-      "title": "¡Google Gemini 4 lanzado de repente! Bendición RSI, GPT y Opus dan paso a",
-      "summary": "El precio es solo la mitad del de Astra.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/499663.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-01T15:02:14+00:00",
-      "title_orig": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "summary_orig": "价格只有Astra一半"
-    },
-    {
-      "id": "85f49262e165",
-      "title": "IA: en Estados Unidos, la justicia conoce de los incidentes de seguridad provocados por agentes de OpenAI",
-      "summary": "EE.UU. investiga incidentes de seguridad vinculados a agentes de OpenAI, según informa Le Monde.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNk9LMmphMXJJbWNpem96OGRzMVZURVVURHFaVGU1eGw1UEdtbXNpaW9SSnhQS2NPZnhtNTBhNnRKTlhVaDZ5UFE5U1pIR1A2VnpOMTFQYTJNRGFHZFc2YTJkaWI0S2htNXE2djcwTVJZbFdfekVXY0tLbURGR056ZTJWY083MTJvX2NiVW5UVDJZNnhnY2tGdDB4N2xEejRSQ3RDX1hPRmVHZVFkcGxOQjRiUzBLTTZoT0xOOXpxSHh6OXBrdlZUSDNnaFBORm82WWdFOHF3cGJSejMzbVZzbXhIQV9SaS1NVUpGZ1Q0YzRHVXpobXBXT3ZkYnRqYWx5SXFmWHFocHR3WFFaalE?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-01T04:30:00+00:00",
-      "title_orig": "IA : aux Etats-Unis, la justice saisie des incidents de sécurité provoqués par des agents d’OpenAI",
-      "summary_orig": ""
-    },
-    {
-      "id": "3bba52758573",
-      "title": "The Den libera de 10 a 15 horas a la semana para crecer con ChatGPT Work",
-      "summary": "Al abrir una nueva sede, el club social prepara solicitudes de subvención en 2 horas en lugar de 3 días y documentos de licencia de licor en 3 horas en vez de 4 días.",
-      "sourceUrl": "https://openai.com/index/the-den-family-social",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-01T00:00:00+00:00",
-      "title_orig": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "summary_orig": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days."
     }
   ]
 }
