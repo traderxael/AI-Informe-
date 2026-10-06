@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { UseNavigateResult } from "@tanstack/react-router";
 import { ArrowDown, ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search, X } from "lucide-react";
 import {
@@ -9,10 +9,8 @@ import {
   blendedPerM,
   filterSignals,
   formatUsd,
-  matchRanges,
   matchesQuery,
   modelsForRegion,
-  queryTokens,
   type InformeSearch,
   type ModelId,
   type ModelInfo,
@@ -30,13 +28,13 @@ export function WeekView({
   search: InformeSearch;
   navigate: UseNavigateResult<"/">;
 }) {
-  const { region, model, tab, q: query = "" } = search;
+  const { region, model, tab } = search;
+  const [query, setQuery] = useState("");
   const [openId, setOpenId] = useState<string | null>(null);
   const [priceSort, setPriceSort] = useState<PriceSort>("blend");
   const [priceDir, setPriceDir] = useState<"asc" | "desc">("asc");
   const [feed, setFeed] = useState<Signal[]>(SIGNALS);
   const [live, setLive] = useState(false);
-  const searchRef = useRef<HTMLInputElement>(null);
   // El efecto de carga termina con setLoading(false) y el render lo consulta
   // (lineas 285/304), pero el estado no estaba declarado: con strict:true eso
   // es TS2304 "Cannot find name 'loading' / 'setLoading'" y rompia el build.
@@ -68,27 +66,6 @@ export function WeekView({
     };
   }, []);
 
-  // Atajo "/": enfoca la búsqueda desde cualquier parte, salvo que ya se esté
-  // escribiendo en un campo de texto.
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
-      const target = e.target as HTMLElement | null;
-      if (
-        target &&
-        (target.tagName === "INPUT" ||
-          target.tagName === "TEXTAREA" ||
-          target.isContentEditable)
-      ) {
-        return;
-      }
-      e.preventDefault();
-      searchRef.current?.focus();
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, []);
-
   const modelOptions = modelsForRegion(region);
 
   function patch(next: Partial<InformeSearch>) {
@@ -104,7 +81,7 @@ export function WeekView({
           const allowed = modelsForRegion(regionNext).some((m) => m.id === modelNext);
           if (!allowed) modelNext = "all";
         }
-        return { region: regionNext, model: modelNext, tab: merged.tab, q: merged.q || undefined };
+        return { region: regionNext, model: modelNext, tab: merged.tab };
       },
       replace: true,
     });
@@ -121,7 +98,6 @@ export function WeekView({
     });
   }, [model, modelOptions, priceSort, priceDir]);
 
-  const tokens = useMemo(() => queryTokens(query), [query]);
   const signals = useMemo(() => {
     const q = query.trim().toLowerCase();
     return filterSignals(feed, region, model).filter((s) => matchesQuery(s, q));
@@ -151,19 +127,43 @@ export function WeekView({
   }
 
   return (
-    <main className="mx-auto min-h-screen max-w-3xl px-4 pb-20 pt-10 sm:px-6">
-      <p className="mb-3 text-xs font-medium tracking-widest text-subtle uppercase">
-        {live ? "Señales del día" : "Informe semanal"}
-      </p>
-      <h1 className="font-display text-3xl leading-tight tracking-tight text-fg sm:text-4xl">
-        Inteligencia artificial, por región y por modelo
-      </h1>
-      <p className="mt-3 max-w-xl text-sm text-muted sm:text-base">
-        Occidente: Claude, GPT, Grok, Gemini. China: GLM, Qwen, Kimi, DeepSeek, MiniMax.
-        Actualizado {week}.
-      </p>
+    <main className="mx-auto min-h-screen max-w-6xl px-4 pb-16 pt-7 sm:px-6 lg:px-8">
+      <header className="relative mb-7 overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-elevated via-surface to-bg px-5 py-7 shadow-2xl shadow-black/20 sm:px-8 sm:py-9">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -top-28 right-8 size-72 rounded-full bg-accent/10 blur-3xl"
+        />
+        <div className="relative">
+          <p className="flex items-center gap-2 text-[11px] font-semibold tracking-[0.22em] text-subtle uppercase">
+            <span className="size-2 rounded-full bg-accent shadow-[0_0_14px_rgba(131,229,190,0.7)]" />
+            AI Informe <span className="text-border">/</span>
+            {live ? "Señales del día" : "Informe semanal"}
+          </p>
+          <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] tracking-tight text-fg sm:text-6xl">
+            El pulso de la inteligencia artificial
+          </h1>
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted sm:text-base">
+            Noticias, modelos y movimientos que importan, ordenados por región y por modelo.
+            Una lectura clara del ecosistema global de IA.
+          </p>
+          <div className="mt-7 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4">
+            <span className="text-xs text-subtle">Corte del informe · {week}</span>
+            <span
+              className={cn(
+                "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium",
+                live ? "border-accent/25 bg-accent/10 text-accent" : "border-border bg-bg/60 text-muted",
+              )}
+              role="status"
+              aria-live="polite"
+            >
+              <span className={cn("size-1.5 rounded-full", live ? "bg-accent" : "bg-subtle")} />
+              {live ? "Actualizado con señales en vivo" : "Edición de referencia"}
+            </span>
+          </div>
+        </div>
+      </header>
 
-      <div className="mt-6 flex gap-2" role="tablist" aria-label="Vista">
+      <div className="mt-7 flex gap-2" role="tablist" aria-label="Vista">
         <Chip
           active={tab === "briefing"}
           onClick={() => patch({ tab: "briefing" })}
@@ -184,7 +184,7 @@ export function WeekView({
         </Chip>
       </div>
 
-      <div className="mt-6 grid grid-cols-3 gap-2">
+      <div className="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-3">
         <Stat
           value={tab === "precios" ? pricedModels.length : signals.length}
           label={tab === "precios" ? "Modelos" : "Señales"}
@@ -205,9 +205,10 @@ export function WeekView({
         />
       </div>
 
-      <section className="mt-8 space-y-4" aria-label="Filtros">
+      <section className="mt-7 space-y-5 rounded-3xl border border-border/80 bg-surface/65 p-4 shadow-lg shadow-black/10 sm:p-5"
+        aria-label="Filtros">
         <div>
-          <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">Región</p>
+          <p className="mb-2 text-[11px] font-semibold tracking-[0.16em] text-subtle uppercase">Región</p>
           <div className="flex flex-wrap gap-2">
             <Chip
               active={region === "all"}
@@ -236,7 +237,7 @@ export function WeekView({
         </div>
 
         <div>
-          <p className="mb-2 text-xs font-medium tracking-wide text-subtle uppercase">
+          <p className="mb-2 text-[11px] font-semibold tracking-[0.16em] text-subtle uppercase">
             {region === "china"
               ? "Modelos chinos"
               : region === "west"
@@ -267,48 +268,34 @@ export function WeekView({
 
         {tab === "briefing" ? (
           <label className="relative block">
-            <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-subtle" />
+            <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-subtle" />
             <span className="sr-only">Buscar en el informe</span>
             <input
-              ref={searchRef}
-              data-testid="search-input"
               value={query}
-              onChange={(e) => patch({ q: e.target.value.slice(0, 140) })}
-              onKeyDown={(e) => {
-                if (e.key !== "Escape") return;
-                if (query) patch({ q: "" });
-                else e.currentTarget.blur();
-              }}
-              placeholder="Buscar en títulos, labs y notas"
-              className="h-11 w-full rounded-xl border border-border bg-surface pr-16 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-[border-color,background-color,box-shadow] duration-150 focus:border-accent/70 focus:bg-elevated focus:ring-4 focus:ring-accent/10"
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Buscar señales, modelos o laboratorios"
+              className="h-12 w-full rounded-xl border border-border bg-bg/70 pr-10 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition focus:border-accent/50 focus:ring-2 focus:ring-accent/10"
             />
             {query ? (
               <button
                 type="button"
-                data-testid="search-clear"
-                className="absolute top-1/2 right-2 flex size-8 -translate-y-1/2 items-center justify-center rounded-lg text-subtle hover:bg-elevated hover:text-fg"
-                onClick={() => {
-                  patch({ q: "" });
-                  searchRef.current?.focus();
-                }}
+                className="absolute top-1/2 right-2 grid size-8 -translate-y-1/2 place-items-center rounded-full text-subtle transition hover:bg-elevated hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
+                onClick={() => setQuery("")}
                 aria-label="Limpiar búsqueda"
               >
                 <X className="size-4" />
               </button>
-            ) : (
-              <kbd className="pointer-events-none absolute top-1/2 right-3 hidden -translate-y-1/2 rounded-md border border-border bg-elevated px-1.5 py-0.5 font-mono text-[10px] leading-none text-subtle sm:block">
-                /
-              </kbd>
-            )}
+            ) : null}
           </label>
         ) : null}
 
         {filtered ? (
           <button
             type="button"
-            className="text-xs text-muted underline-offset-2 hover:text-fg hover:underline"
+            className="mt-4 rounded-full border border-border px-3 py-1.5 text-xs font-medium text-muted transition hover:border-accent/30 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
             onClick={() => {
-              patch({ q: "", region: "all", model: "all" });
+              setQuery("");
+              patch({ region: "all", model: "all" });
             }}
           >
             Quitar filtros
@@ -329,58 +316,39 @@ export function WeekView({
         </>
       ) : (
         <div id="panel-briefing" role="tabpanel" className="mt-8 space-y-3">
+        <div className="flex flex-wrap items-end justify-between gap-3 border-b border-border/80 pb-4">
+          <div>
+            <p className="text-[11px] font-semibold tracking-[0.16em] text-subtle uppercase">Briefing · 01</p>
+            <h2 className="mt-1 font-display text-2xl text-fg">Radar de señales</h2>
+          </div>
+          <p className="text-xs text-muted" role="status" aria-live="polite">
+            {signals.length} {signals.length === 1 ? "señal" : "señales"}
+            {filtered ? " con estos filtros" : " en esta edición"}
+          </p>
+        </div>
           {loading ? (
-            <p className="rounded-xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
+            <p className="rounded-2xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
               Cargando señales del día…
             </p>
           ) : signals.length === 0 ? (
-            <div
-              className="rounded-xl border border-border bg-surface px-4 py-10 text-center"
-              data-testid="empty-state"
-            >
-              <p className="text-sm text-muted">
-                {query.trim()
-                  ? `Nada coincide con «${query.trim()}».`
-                  : "Nada coincide. Quita filtros o cambia de modelo."}
-              </p>
-              {query.trim() ? (
-                <button
-                  type="button"
-                  className="mt-3 text-xs text-muted underline-offset-2 hover:text-fg hover:underline"
-                  onClick={() => patch({ q: "" })}
-                >
-                  Limpiar búsqueda
-                </button>
-              ) : null}
-            </div>
+            <p className="rounded-2xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
+              Nada coincide. Quita filtros o cambia de modelo.
+            </p>
           ) : (
-            <>
-              {query.trim() ? (
-                <p
-                  className="text-xs tracking-wide text-subtle"
-                  data-testid="search-count"
-                  role="status"
-                >
-                  {signals.length} coincidencia{signals.length === 1 ? "" : "s"} para «
-                  {query.trim()}»
-                </p>
-              ) : null}
-              {shown.map((s) => (
-                <SignalCard
-                  key={s.id}
-                  signal={s}
-                  open={visibleOpenId === s.id}
-                  tokens={tokens}
-                  onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
-                  onModel={(id) => patch({ model: id, region: MODEL_BY_ID[id].region })}
-                />
-              ))}
-            </>
+            shown.map((s) => (
+              <SignalCard
+                key={s.id}
+                signal={s}
+                open={visibleOpenId === s.id}
+                onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
+                onModel={(id) => patch({ model: id, region: MODEL_BY_ID[id].region })}
+              />
+            ))
           )}
           {!loading && !filtered && !showAll && signals.length > shown.length ? (
             <button
               type="button"
-              className="flex min-h-11 w-full items-center justify-center rounded-xl border border-border bg-surface text-sm text-muted hover:text-fg"
+              className="flex min-h-12 w-full items-center justify-center rounded-2xl border border-border bg-surface text-sm font-medium text-muted transition hover:border-accent/30 hover:bg-elevated hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
               onClick={() => setShowAll(true)}
             >
               Ver las {signals.length - shown.length} señales restantes
@@ -416,9 +384,9 @@ function PriceTable({
         API en USD por millón de tokens. Blend 75/25 entrada/salida. Plan = suscripción de
         consumidor, no el API. Clic en una columna para ordenar.
       </p>
-      <div className="overflow-x-auto rounded-2xl border border-border">
+      <div className="overflow-x-auto rounded-2xl border border-border/80 shadow-lg shadow-black/10">
         <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
-          <thead className="bg-elevated text-xs tracking-wide text-subtle uppercase">
+          <thead className="bg-elevated/80 text-[11px] font-semibold tracking-wider text-subtle uppercase">
             <tr>
               <SortTh active={sort === "label"} dir={dir} onClick={() => onSort("label")} align="left">
                 Modelo
@@ -564,9 +532,9 @@ function SortTh({
 
 function Stat({ value, label }: { value: string | number; label: string }) {
   return (
-    <div className="rounded-xl border border-border bg-surface px-3 py-3 text-center">
-      <div className="font-display text-lg tabular-nums text-fg">{value}</div>
-      <div className="text-xs tracking-wide text-subtle uppercase">{label}</div>
+    <div className="rounded-2xl border border-border/80 bg-surface/75 px-4 py-4 text-left shadow-lg shadow-black/10">
+      <div className="font-display text-2xl leading-none tabular-nums text-fg">{value}</div>
+      <div className="mt-2 text-[10px] font-semibold tracking-[0.16em] text-subtle uppercase">{label}</div>
     </div>
   );
 }
@@ -598,10 +566,10 @@ function Chip({
       aria-pressed={role === "tab" ? undefined : active}
       aria-controls={controls}
       className={cn(
-        "inline-flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-sm transition-colors duration-150",
+        "inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border px-3.5 text-sm font-medium transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50",
         active
-          ? "border-accent bg-accent text-accent-fg"
-          : "border-border bg-surface text-muted hover:border-accent hover:text-fg",
+          ? "border-accent/40 bg-accent/10 text-accent"
+          : "border-border/70 bg-surface/55 text-muted hover:border-accent/30 hover:bg-elevated hover:text-fg",
       )}
     >
       {icon}
@@ -615,43 +583,37 @@ function SignalCard({
   open,
   onToggle,
   onModel,
-  tokens,
 }: {
   signal: Signal;
   open: boolean;
   onToggle: () => void;
   onModel: (id: ModelId) => void;
-  tokens: string[];
 }) {
   const regionLabel = signal.region === "china" ? "China" : "Occidente";
   return (
-    <article className="overflow-hidden rounded-2xl border border-border bg-surface">
+    <article className="group overflow-hidden rounded-2xl border border-border/80 bg-surface/80 shadow-lg shadow-black/10 transition duration-200 hover:border-accent/20 hover:bg-surface">
       <button
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className="flex w-full items-start gap-3 px-4 py-4 text-left sm:px-5"
+        className="flex w-full items-start gap-3 px-4 py-4 text-left transition-colors hover:bg-elevated/35 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-accent/50 sm:px-5"
       >
         <div className="min-w-0 flex-1">
           <div className="mb-2 flex flex-wrap gap-1.5">
             <span
               className={cn(
-                "rounded-md px-1.5 py-0.5 text-xs font-medium tracking-wide uppercase",
-                signal.region === "china" ? "bg-elevated text-china" : "bg-elevated text-west",
+                "rounded-md border px-2 py-1 text-[10px] font-semibold tracking-[0.12em] uppercase",
+                signal.region === "china" ? "border-china/20 bg-china/10 text-china" : "border-west/20 bg-west/10 text-west",
               )}
             >
               {regionLabel}
             </span>
-            <span className="rounded-md bg-elevated px-1.5 py-0.5 text-xs font-medium tracking-wide text-subtle uppercase">
+            <span className="rounded-md border border-border bg-elevated/70 px-2 py-1 text-[10px] font-medium tracking-[0.1em] text-muted uppercase">
               {SOURCE_LABEL[signal.source]}
             </span>
           </div>
-          <h2 className="font-display text-lg leading-snug text-fg">
-            <Highlight text={signal.title} tokens={tokens} />
-          </h2>
-          <p className="mt-1 text-sm text-muted">
-            <Highlight text={signal.summary} tokens={tokens} />
-          </p>
+          <h2 className="font-display text-lg leading-snug text-fg transition-colors group-hover:text-white sm:text-xl">{signal.title}</h2>
+          <p className="mt-1.5 text-sm leading-relaxed text-muted">{signal.summary}</p>
         </div>
         <ChevronDown
           className={cn(
@@ -661,13 +623,13 @@ function SignalCard({
         />
       </button>
       {signal.models.length ? (
-        <div className="flex flex-wrap gap-1.5 px-4 pb-3 sm:px-5">
+        <div className="flex flex-wrap gap-1.5 px-4 pb-4 sm:px-5">
           {signal.models.map((id) => (
             <button
               key={id}
               type="button"
               onClick={() => onModel(id)}
-              className="rounded-md bg-elevated px-1.5 py-0.5 text-xs font-medium tracking-wide text-fg uppercase hover:bg-border"
+              className="rounded-md border border-border/70 bg-elevated/60 px-2 py-1 text-[10px] font-medium tracking-wide text-muted transition hover:border-accent/30 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
             >
               {MODEL_BY_ID[id]?.label ?? id}
             </button>
@@ -675,14 +637,14 @@ function SignalCard({
         </div>
       ) : null}
       {open ? (
-        <div className="border-t border-border px-4 pt-3 pb-4 sm:px-5">
+        <div className="border-t border-border/80 bg-bg/35 px-4 pt-4 pb-5 sm:px-5">
           <p className="text-sm leading-relaxed text-muted">{signal.detail}</p>
           {signal.sourceUrl ? (
             <a
               href={signal.sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-3 inline-flex min-h-11 items-center gap-1.5 text-sm text-fg underline-offset-2 hover:underline"
+              className="mt-4 inline-flex min-h-10 items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-3.5 text-sm font-medium text-accent transition hover:border-accent/50 hover:bg-accent/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
             >
               Leer fuente
               <ExternalLink className="size-3.5" />
@@ -692,33 +654,4 @@ function SignalCard({
       ) : null}
     </article>
   );
-}
-
-/** Resalta los tokens del query sobre el texto, sin romper acentos ni mayúsculas. */
-function Highlight({ text, tokens }: { text: string; tokens: string[] }) {
-  const ranges = useMemo(() => matchRanges(text, tokens), [text, tokens]);
-  if (!ranges.length) return <>{text}</>;
-  // Fusiona rangos que se solapan (un token puede pisar a otro).
-  const merged: Array<[number, number]> = [];
-  for (const [start, end] of ranges) {
-    const last = merged[merged.length - 1];
-    if (last && start <= last[1]) last[1] = Math.max(last[1], end);
-    else merged.push([start, end]);
-  }
-  const nodes: React.ReactNode[] = [];
-  let cursor = 0;
-  for (const [start, end] of merged) {
-    if (start > cursor) nodes.push(text.slice(cursor, start));
-    nodes.push(
-      <mark
-        key={`${start}-${end}`}
-        className="rounded-[3px] bg-accent/25 px-0.5 text-fg box-decoration-clone"
-      >
-        {text.slice(start, end)}
-      </mark>,
-    );
-    cursor = Math.max(cursor, end);
-  }
-  if (cursor < text.length) nodes.push(text.slice(cursor));
-  return <>{nodes}</>;
 }
