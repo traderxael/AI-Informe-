@@ -184,7 +184,7 @@ export function WeekView({
         </Chip>
       </div>
 
-      <div className="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-3">
+      <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
         <Stat
           value={tab === "precios" ? pricedModels.length : signals.length}
           label={tab === "precios" ? "Modelos" : "Señales"}
@@ -316,16 +316,16 @@ export function WeekView({
         </>
       ) : (
         <div id="panel-briefing" role="tabpanel" className="mt-8 space-y-3">
-        <div className="flex flex-wrap items-end justify-between gap-3 border-b border-border/80 pb-4">
-          <div>
-            <p className="text-[11px] font-semibold tracking-[0.16em] text-subtle uppercase">Briefing · 01</p>
-            <h2 className="mt-1 font-display text-2xl text-fg">Radar de señales</h2>
+          <div className="flex flex-wrap items-end justify-between gap-3 border-b border-border/80 pb-4">
+            <div>
+              <p className="text-[11px] font-semibold tracking-[0.16em] text-subtle uppercase">Briefing · 01</p>
+              <h2 className="mt-1 font-display text-2xl text-fg">Radar de señales</h2>
+            </div>
+            <p className="text-xs text-muted" role="status" aria-live="polite">
+              {signals.length} {signals.length === 1 ? "señal" : "señales"}
+              {filtered ? " con estos filtros" : " en esta edición"}
+            </p>
           </div>
-          <p className="text-xs text-muted" role="status" aria-live="polite">
-            {signals.length} {signals.length === 1 ? "señal" : "señales"}
-            {filtered ? " con estos filtros" : " en esta edición"}
-          </p>
-        </div>
           {loading ? (
             <p className="rounded-2xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
               Cargando señales del día…
