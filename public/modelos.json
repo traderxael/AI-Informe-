@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T18:01:27",
+ "actualizado": "2026-10-07T18:31:38",
  "fuentes": [
   "arena.ai/leaderboard/text",
   "openrouter.ai/api/v1/models"
@@ -123,8 +123,8 @@
    "elo": 1488,
    "org": "Moonshot · Kimi K3 license",
    "licencia": "cerrado",
-   "precio_in": 0.69,
-   "precio_out": 14.0,
+   "precio_in": 0.5,
+   "precio_out": 15.0,
    "context": 1048576
   },
   {
@@ -261,8 +261,8 @@
    "elo": 1476,
    "org": "Z.ai · MIT",
    "licencia": "open",
-   "precio_in": 0.152,
-   "precio_out": 12.0,
+   "precio_in": 0.171,
+   "precio_out": 7.2,
    "context": 1048576
   },
   {
@@ -303,7 +303,7 @@
    "elo": 1474,
    "org": "DeepSeek · MIT",
    "licencia": "open",
-   "precio_in": 0.033,
+   "precio_in": 0.3,
    "precio_out": 1.2,
    "context": 1048576
   },
@@ -429,8 +429,8 @@
    "elo": 1465,
    "org": "Z.ai · MIT",
    "licencia": "open",
-   "precio_in": 1.4,
-   "precio_out": 4.4,
+   "precio_in": 0.966,
+   "precio_out": 3.036,
    "context": 204800
   },
   {
@@ -453,8 +453,8 @@
    "elo": 1461,
    "org": "Moonshot · Modified MIT",
    "licencia": "open",
-   "precio_in": 0.95,
-   "precio_out": 4.0,
+   "precio_in": 0.465,
+   "precio_out": 2.45,
    "context": 262144
   },
   {
