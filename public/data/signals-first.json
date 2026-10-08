@@ -1,110 +1,23 @@
 {
-  "generated_at": "2026-10-07T18:30:32.705740+00:00",
+  "generated_at": "2026-10-08T18:29:44.882344+00:00",
   "count": 20,
   "sources": [
-    "Ars Technica AI",
+    "Dark Reading",
     "Google News — IA Alemania",
     "Google News — IA Francia",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
-    "SecurityWeek",
-    "TechCrunch AI",
-    "The Hacker News",
-    "Wired"
+    "SCMP Business",
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "69c1beaf0367",
-      "title": "ChatGPT para adolescentes mantiene a los adolescentes hablando, incluso durante las crisis de salud mental",
-      "summary": "Los filtros para adolescentes de ChatGPT buscan proteger a usuarios vulnerables, pero pruebas recientes muestran que sigue fomentando la interacción en crisis y puede crear relaciones poco saludables con la IA.",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-07T18:15:28+00:00",
-      "title_orig": "ChatGPT for Teens keeps teens talking, even during mental health crises",
-      "summary_orig": "ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and potentially encourages unhealthy relationships with the AI itself."
-    },
-    {
-      "id": "a5478fc42d69",
-      "title": "ChatGPT se está volviendo mucho más visual, con el lanzamiento de una nueva interfaz",
-      "summary": "OpenAI lanzará una nueva interfaz de usuario que añadirá visuales interactivos a ChatGPT.",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-07T18:00:19+00:00",
-      "title_orig": "ChatGPT is getting a lot more visual, with the launch of a new interface",
-      "summary_orig": "OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT."
-    },
-    {
-      "id": "fa46422694a2",
-      "title": "El nuevo ChatGPT es más Show que Tell",
-      "summary": "OpenAI actualiza ChatGPT con una interfaz inteligente y visual que genera elementos interactivos dentro de sus respuestas.",
-      "sourceUrl": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-07T18:00:00+00:00",
-      "title_orig": "The New ChatGPT Is More Show Than Tell",
-      "summary_orig": "OpenAI is updating ChatGPT for all users with an “Intelligent UI” that’s more visual—generating interactive elements as part of the chatbot’s outputs."
-    },
-    {
-      "id": "b4b53f1ce17e",
-      "title": "ChatGPT para adolescentes conlleva un \"riesgo inaceptable\" para los adolescentes, según un informe",
-      "summary": "Un informe de Gizmodo advierte que la versión de ChatGPT para adolescentes representa un riesgo inaceptable para ellos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR2NBeVVWUnM1TndUeHdYbTBxVlNKdmdtampycVhXRkpNcXlIN0k4MWpnSjlONHRncDNOUk5GRl9oellTVDhOT3I0YmNWNzN0OVlEVFZmWUtJZ0dIU1dFSEItcHNBd3ZZT3ZXdDFHOGctOUFSSHJ2RUpPOE53dVVMeS1YQko5VW5rQnA4RFZaRmcyX0JHSFQ4WElkNE1Jc1E?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gizmodo",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-07T17:40:52+00:00",
-      "title_orig": "ChatGPT for Teens Carries ‘Unacceptable Risk’ for Teens, Report Claims",
-      "summary_orig": ""
-    },
-    {
-      "id": "0b0f4568b010",
-      "title": "¿Qué es “El Chonk”, el nuevo modelo de IA presentado por Mistral?",
-      "summary": "El Chonk es el último modelo de IA de Mistral, diseñado para ofrecer generación de texto y código más eficiente y de gran escala.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM0pUYUhIUE9aVVlaWEZ6OGJGaDYySlVxZTFVSXk5ZUNFRjNjVHIya3dCeXBzaDNwQW9SSW5wZlVDMVhaekVjMXYzNm1UQ0V6dDYzb3VvZi1pWHgzQWlWd0l0Y0NmNWFIbm9oX2U5OE5UR3B2MnhGdUNUYUhHaS1jVExBU2ZUUDRtWktjd2hiYjNWb1dYSlVoX3VaTnhnek14OVdzVHZiMDlGSjZJblREYWw2ZGEzbVdELUhjejBnTlZacl9lWnRYY0tzck9wUVBzdWE5akg1aE4zdw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "La Tribune",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-07T16:41:46+00:00",
-      "title_orig": "Qu'est-ce que \"Le Chonk\", le nouveau modèle d'IA dévoilé par Mistral ?",
-      "summary_orig": ""
-    },
-    {
-      "id": "814772bc922c",
-      "title": "Alexander Embiricos de OpenAI llega a TechCrunch Disrupt 2026, días después del lanzamiento de Dots",
-      "summary": "Alexander Embiricos de OpenAI presentará Dots en el AI Stage de TechCrunch Disrupt 2026; registra tu pase y ahorra hasta $100, con un segundo al 50 %.",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
+      "id": "8dce6b889a93",
+      "title": "Según los informes, los ingresos de OpenAI son $ 20 mil millones menos de lo proyectado anteriormente",
+      "summary": "Se había informado que los ingresos anuales del laboratorio de IA rondaban los 70 mil millones de dólares, pero un nuevo informe indica que son mucho menores.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
@@ -113,49 +26,100 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-07T14:30:00+00:00",
-      "title_orig": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
-      "summary_orig": "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off."
+      "published": "2026-10-08T18:19:42+00:00",
+      "title_orig": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "summary_orig": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that."
     },
     {
-      "id": "e1ff572449c9",
-      "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
-      "summary": "Mistral afirma que Le Chonk puede competir con los principales modelos cerrados sin dejar de ser de código abierto.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-      "sourceLabel": "Ars Technica AI",
+      "id": "47672f48bba9",
+      "title": "Google lleva la IA auténtica a Gemini, empezando por las empresas",
+      "summary": "Google convierte a Gemini en un agente de IA que planifica, ejecuta tareas, colabora con apps empresariales, delega a subagentes y tiene su propia identidad y correo.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "sourceLabel": "TechCrunch AI",
       "publisher": "",
-      "region": "west",
-      "country": "france",
+      "region": "global",
+      "country": "global",
       "models": [
-        "mistral"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-10-07T14:12:37+00:00",
-      "title_orig": "Mistral says \"Le Chonk\" can challenge the best AI models",
-      "summary_orig": "Mistral says Le Chonk can rival top closed models while remaining open-weight."
+      "published": "2026-10-08T18:18:00+00:00",
+      "title_orig": "Google brings agentic AI to Gemini, starting with businesses",
+      "summary_orig": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address."
     },
     {
-      "id": "c6065c24705d",
-      "title": "Anthropic amplía el acceso de Claude para los equipos cibernéticos examinados a medida que Glasswing encuentra 129.000 defectos",
-      "summary": "Anthropic amplía su programa para que expertos en ciberseguridad prueben sus IA con menos restricciones, reportando 129 000 vulnerabilidades verificadas entre abril y julio de 2026.",
-      "sourceUrl": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-      "sourceLabel": "The Hacker News",
+      "id": "0542b0f0c0fe",
+      "title": "Antrópico cambia la política de uso para prohibir el abuso de modelos y la interferencia electoral",
+      "summary": "La nueva política de uso de Anthropic prohíbe abusos extremos a Claude, pero permite críticas, y también regula interferencia electoral, campañas engañosas, armas y vigilancia.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
-      "source": "social",
-      "published": "2026-10-07T13:37:38+05:30",
-      "title_orig": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-      "summary_orig": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional"
+      "source": "lab",
+      "published": "2026-10-08T18:16:24+00:00",
+      "title_orig": "Anthropic changes usage policy to ban model abuse and election interference",
+      "summary_orig": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
     },
     {
-      "id": "ad4e14640e35",
-      "title": "Ayudar a los adolescentes a aprender, planificar y dar forma al futuro de la IA",
-      "summary": "College Planner llega a ChatGPT for Teens para ayudar a los estudiantes con sus solicitudes universitarias, añadiendo tarjetas, cuestionarios y un consejo de IA juvenil.",
-      "sourceUrl": "https://openai.com/index/teens-learn-and-plan",
+      "id": "6e4822f67023",
+      "title": "Las soluciones matemáticas de OpenAI aún no cumplen con los estándares del campo",
+      "summary": "Las pruebas de OpenAI no siguieron las directrices de los investigadores matemáticos consultados por el laboratorio.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-08T18:10:55+00:00",
+      "title_orig": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+      "summary_orig": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab."
+    },
+    {
+      "id": "a252ada3eb1a",
+      "title": "Los trabajadores despedidos de OpenAI informan a la empresa sobre la preocupación por perder la cadena de pensamiento de los sistemas de IA",
+      "summary": "Ex‑empleados de OpenAI advierten a la compañía que el despido podría romper la cadena de pensamiento de sus sistemas de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CMlZ4TV8tUDN5UE1pYU8tYlB4aUFST2lFZ090T3hoMzVSa0thTTBTVFFCMTNhTV9Ha21fandDcm9tS3c2NmR5RW5meHloeXVYMnc2Ty1nY1UyNWxiVlNvVXB0a3FjTU5NWFdkTzNod1hEdTkxVmx5MQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Fox News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-08T17:28:42+00:00",
+      "title_orig": "Fired OpenAI workers tell company about concern over losing AI systems' chain of thought",
+      "summary_orig": ""
+    },
+    {
+      "id": "7ab3058d0812",
+      "title": "\"Decepcionado por la calidad de Mistral\", el motor de búsqueda verde y alemán Ecosia abandona la solución de IA francesa en favor de modelos chinos",
+      "summary": "Ecosia, decepcionado con la calidad de Mistral, abandona la IA francesa y opta por modelos chinos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOTnlNVHBfclFzclpSQnhEUFYwblpaeUticEgyR0JCWVdVNG1fQjJ6cWplbkdaS3pEZ25OdTdKcTZrMTdFaFVjbGMzdU9pWm1FY1VkQjl0cGtYRGNWd1hqRkx6SEZtRTk3NldnZ3poWS1kVy01ZE1aamhMblRKLXpzZDBuSHVfV1FNVV80eXpVaGYwSFE3OGtYalM5Tm5Gdy1zTlhPNUxpU0ZnQ0FXM3lJVDdyNGREVW1fSmhqYi0yYmhNWDI3MnpHUHNwVEhsZ2xEbTJOOFNvRmZDc1N0b0dRRXBJMmJRanFmNVNtS3VmSjRGX3pXSktGWFVTd2hNaTZiSlNPbDA0dVJ5OXVuOUVULXZ1Nk9KMHc0NlVzSWVMcVVEY2VnV0FCcGJmWWhzY0R6NDJnc0lwT2E4RmE1Snc?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "BFM",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-08T17:01:39+00:00",
+      "title_orig": "\"Déçu par la qualité de Mistral\", le moteur de recherche vert et allemand Ecosia abandonne la solution d'IA française au profit de modèles chinois",
+      "summary_orig": ""
+    },
+    {
+      "id": "112b5f00879d",
+      "title": "Cómo Oracle convierte los días de trabajo en minutos con ChatGPT y Codex",
+      "summary": "Oracle usa ChatGPT Work y Codex para convertir su expertise en reclutamiento, ingeniería y operaciones en flujos de trabajo rápidos y repetibles.",
+      "sourceUrl": "https://openai.com/index/oracle",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -164,196 +128,231 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-07T12:00:00+00:00",
-      "title_orig": "Helping teens learn, plan, and shape the future of AI",
-      "summary_orig": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council."
+      "published": "2026-10-08T16:00:00+00:00",
+      "title_orig": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "summary_orig": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
     },
     {
-      "id": "1aa63219e9d3",
-      "title": "Mistral Large 4: el modelo francés de IA desafía a la competencia de China",
-      "summary": "Mistral Large 4, el modelo de IA francés, compite con la oferta china.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ3J0UnZNLWFtaUlUa2tuTWNOeTBIWXFYR3BNYUFXdEdNRzRaYXlla0RuUUlCd2U4TmhTcXJkT0YtZ19Hc2lrdURmT3lWMVZjTXJhN0pOZzYxZ1BZOUh6cDdWam10WThNUUlEcTJYbXBZdnp5dEFKSW41ZHVnTWZNdTBDSGJNWjZEVWgxeHF0Y0pxeWFpbVE?oc=5",
+      "id": "c8769da26b58",
+      "title": "Ecosia: Por qué el motor de búsqueda Mistral AI ha sido sustituido por la IA china",
+      "summary": "Ecosia reemplazó el motor Mistral AI por una IA china tras problemas de rendimiento y costos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeHptQkV3WDQwM2ZJbVltQnNuSVZfbU5uZTRIOGYtRF9mR2VVb2RXaFpsSWx0WWdza0NWa194RHB4Unl1NERSS1ZTZDFlTkJzeFVabW4zYk8zTldURE55dGVwaWNMMlJwQ1pyVjdINU5OR1pFdU9OVlFZRGZVS1cxVC1femJHTUZxbVg1c0d6a1VXS1Vab0ZxVjJiR0xKMU8tMWVETUFfWDBwcmpoVUE?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Wirtschaft - SZ.de - SZ.de",
+      "publisher": "heise online",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-08T15:39:00+00:00",
+      "title_orig": "Ecosia: Warum die Suchmaschine Mistral AI durch chinesische KI ersetzt",
+      "summary_orig": ""
+    },
+    {
+      "id": "ca1ec6c6a1a1",
+      "title": "Pollo AI convierte ideas creativas en campañas con OpenAI",
+      "summary": "Pollo AI, con GPT‑5.6, GPT‑6 Astra y GPT‑Image‑2.5, permite a los creadores convertir ideas audaces en imágenes detalladas y anuncios de video cinematográficos.",
+      "sourceUrl": "https://openai.com/index/pollo-ai",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-08T12:00:00+00:00",
+      "title_orig": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "summary_orig": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
+    },
+    {
+      "id": "658ace6fc148",
+      "title": "Los ingresos de la nube de IA de Alibaba aumentarán más del 50% a medida que el bombardeo de inversión valga la pena: analistas",
+      "summary": "Se espera que Alibaba registre un aumento del 50 % en los ingresos de su unidad de nube e IA en el trimestre de septiembre, impulsado por sus agresivas inversiones en IA.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
       "region": "china",
       "country": "china",
       "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-07T11:38:59+00:00",
-      "title_orig": "Mistral Large 4: Französisches KI-Modell fordert Konkurrenz aus China heraus",
-      "summary_orig": "Mistral Large 4: Französisches KI-Modell fordert Konkurrenz aus China heraus - Wirtschaft - SZ.de SZ.de"
-    },
-    {
-      "id": "ba779bf7dd0a",
-      "title": "La IA de OpenAI probablemente resuelva cientos de otros problemas matemáticos",
-      "summary": "La IA de OpenAI probablemente pueda resolver cientos de problemas matemáticos adicionales.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONk5kWWl0MUxtQWtwTGlQSzJEeEFEZDFzMUl1ZGcxOVFoRGxSN0JhZ3BlOXJJbHV4Y3oxSXB1dHkyQWZXZ2V4dW4weGhickFEOW42WHBaS0laQ3JhbFpyRjlzT0ZNXzc2QUdib0trRlBIN1MxS3Z1d3M3ZTBqbGk1RXhfSFlTUmU4NjVNN3o1cEM5aXZNMUJlaUJsUlRKbXNTeTM0NGdxSk5DYXY0YVZSREgwek1ZaGpVYzByMU5pc19HTnRiQnFvRW1NUQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "FAZ",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-07T11:20:28+00:00",
-      "title_orig": "KI von OpenAI löst wohl Hunderte weitere Mathematikprobleme",
-      "summary_orig": ""
-    },
-    {
-      "id": "69027c2a225c",
-      "title": "Anthropic presenta un programa de verificación cibernética de 3 niveles para el acceso a la IA",
-      "summary": "Anthropic unifica CVP y Project Glasswing en una oferta de tres niveles para acceder a sus modelos de IA más avanzados.",
-      "sourceUrl": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
+        "qwen"
       ],
       "source": "lab",
-      "published": "2026-10-07T10:07:09+00:00",
-      "title_orig": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
-      "summary_orig": "Anthropic is integrating the CVP and Project Glasswing into a single offering, with three levels of access to its most capable AI models. The post Anthropic Introduces 3-Tier Cyber Verification Program for AI Access appeared first on SecurityWeek ."
+      "published": "2026-10-08T11:30:22+00:00",
+      "title_orig": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
+      "summary_orig": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions projected revenue growth for the Chinese tech giant’s AI Cloud and Compute Services unit to have accelerated in the three mon"
     },
     {
-      "id": "ca9d695685a7",
-      "title": "Inteligencia artificial: se dice que OpenAI ha resuelto cientos de problemas matemáticos",
-      "summary": "OpenAI habría resuelto cientos de problemas matemáticos con su inteligencia artificial, según informa DIE ZEIT.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOUxqQjc2aXZfZVd3NkxoSk9IdTh1QUFOOXpJdDBIQ25QaWZfbzV6VFN5OFpxeU1GRWcwQ0NKWGR0TC10LWQzYmtOWjhGdnNLNWJ0ZjhHb2lreTVOVWZlUTgtY2pnWEV4VV9UcS1obFh0Q2tmaU5SMmRJaGFNWGVqZDA5UFJMVk1fTGhmR09KRk5pQQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-07T09:18:43+00:00",
-      "title_orig": "Künstliche Intelligenz: OpenAI soll Hunderte mathematische Probleme gelöst haben",
-      "summary_orig": ""
-    },
-    {
-      "id": "21989a434fca",
-      "title": "Wikimedia dice que los agentes deshonestos de OpenAI intentaron convertir sus herramientas en proxies",
-      "summary": "Wikimedia investigó intentos de agentes de OpenAI de usar sus herramientas como proxies, según informó SecurityWeek.",
-      "sourceUrl": "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-07T07:58:22+00:00",
-      "title_orig": "Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies",
-      "summary_orig": "Wikimedia looked into whether its own websites had seen activity like that disclosed by other organizations The post Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies appeared first on SecurityWeek ."
-    },
-    {
-      "id": "6441a031d2e3",
-      "title": "El francés Mistral intenta existir en la carrera por la IA con su nuevo modelo",
-      "summary": "Mistral, la startup francesa, lanza su nuevo modelo de IA para competir en el mercado.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDYtVU1yWjVyd0pYMXp1OU9XWmEtQl9lYzVIVXlsN09fNjctTTZudU1jZEs3SVFOYS1fYTVnSUp2RHNySVA5S2ZjcnZPdk0zUXByUzU5MnBqWVhXVEZjdldoVlN1Wm5XbFpHaWVRVjZsYmV5RU5WMDZXMzhsVTZQOVRYS1UxWmNPa3dtZmMyTDhvVi1iUF9GZnRKWXJmR3NJZUdNU0dfRF92X0VpRHV2YVVtLVVLYmh5ZWdHTDBPbFp5LUtfcy1IakNFS3l0anM?oc=5",
+      "id": "a80200314b1b",
+      "title": "Código, finanzas, francés, ciberseguridad... Hemos probado Mistral Large 4",
+      "summary": "Código, finanzas, francés y ciberseguridad… Probamos Mistral Large 4.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHpPMmpZbFU4ak5ncWVoSjNFVXFzc1huY1lGeEJYUlhubEFRX0FUXzYzcG83cnhsRDdfLU9oVEhBZWgteHU2NUZuWTBrV2VTNzRiNHVnWWJtSjY0d1VsLV9jbV9jRWFncG5zLVZBT3NCSWdSbXNubFFyV202ZG14dnJHSVcxdTBOamYzaklZblBaQ1hic3NIQ1VUcDZmOHJEOXpxcEkxWmtGNkV5bkMtWVI0cF9YeGpIY2hIT29odUsyejNx?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "RFI",
+      "publisher": "JDN",
       "region": "west",
       "country": "france",
       "models": [
         "mistral"
       ],
       "source": "news",
-      "published": "2026-10-07T07:35:25+00:00",
-      "title_orig": "Le Français Mistral tente d'exister dans la course à l'IA avec son nouveau modèle",
+      "published": "2026-10-08T09:44:15+00:00",
+      "title_orig": "Code, finance, français, cybersécurité... On a testé Mistral Large 4",
       "summary_orig": ""
     },
     {
-      "id": "04e9dc3828b5",
-      "title": "Radisson Hotel Group lleva el descubrimiento de hoteles a ChatGPT",
-      "summary": "Radisson se asoció con Accenture para crear un plugin de ChatGPT con tecnología de OpenAI que ayuda a los viajeros a buscar, comparar y reservar hoteles al planear sus viajes.",
-      "sourceUrl": "https://openai.com/index/radisson",
-      "sourceLabel": "OpenAI",
+      "id": "f2d85267cf54",
+      "title": "¡ChatGPT pateó el plato! ¿Puedes resolver el rompecabezas matemático de los millennials, pero la tasa de reproducción de papel es tan baja como 13.98%?",
+      "summary": "Los benchmarks como PaperBenchX podrían medir mejor la capacidad investigadora de la IA.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/501995.html",
+      "sourceLabel": "QbitAI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-07T07:00:00+00:00",
-      "title_orig": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "summary_orig": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
+      "published": "2026-10-08T09:28:44+00:00",
+      "title_orig": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
+      "summary_orig": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力"
     },
     {
-      "id": "fee39cfc84fd",
-      "title": "Meta AI Open-Sources Rebalancer: un solucionador de asignaciones de C++ que ejecuta alrededor de 40 millones de problemas de colocación al día",
-      "summary": "Meta abre código de Rebalancer, biblioteca C++/Python que asigna shards y tráfico, procesa 40 M de problemas diarios y se instala con pip bajo Apache 2.0.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "llama"
-      ],
-      "source": "lab",
-      "published": "2026-10-07T06:29:14+00:00",
-      "title_orig": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
-      "summary_orig": "Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and HiGHS. It is pip-installable under Apache 2.0. The post Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Prob"
-    },
-    {
-      "id": "f0386f4e55f6",
-      "title": "OpenAI vuelca 377 nuevos resultados matemáticos en GitHub y publica una publicación de blog de Hand-Wringing",
-      "summary": "OpenAI sube 377 nuevos resultados matemáticos a GitHub y publica un blog titulado “Hand‑Wringing”.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlRraWdCdDJMZUFoS0JPNEVkRklSbkR5ZVN6VjVPb0hwY1djUUdyU1JURXNDekF4elFKaFFyclpQQ2RpUmY3a3BLTk05eVJEMHRfS2lDcUt2bThTQlJGMTNwMFpVOHpEUnE2ZkdleEpfM3NMMVgycnhhMUVZTjVESW9uSHYxYjVHVV9Ydml5NUdKVEI5bnRWcnprc3ZUUlloOFZLMGVIOVl6dHBG?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gizmodo",
+      "id": "146d52f1955e",
+      "title": "Tres ex investigadores licenciados piden a OpenAI que no cree IA con un razonamiento ilegible",
+      "summary": "Tres ex investigadores de OpenAI exigen que la empresa deje de crear IA con razonamiento incomprensible.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUl9rLWlydXhpcHgzUUtpQkxNOWtVUU9Kc3MxajBfYVBlZGFsc1QxM0prQ004aFdVc1FpR3hOekhRSFZsQm9IdmswSEM5WVFKYzJyTko0RUZtT1ZhNkw3VDlUSThrdGdzMjFXb1dJVXFNazJmcVlVdUVMVkR1b0I1UHZsZ08zUWZ0SHRyV2xpS1l3dmxidWZmRU11eXExRXluUjNkcWxzWjhDVXZRekRaYTBacXMxdTU1cnpqdDlsWEpaRlZTNlBZYlhjaFgyLVBjX08zUUdBandqSDg?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Figaro",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-10-07T01:50:52+00:00",
-      "title_orig": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
+      "published": "2026-10-08T07:35:24+00:00",
+      "title_orig": "Trois ex-chercheurs licenciés appellent OpenAI à ne pas créer d'IA au raisonnement illisible",
       "summary_orig": ""
     },
     {
-      "id": "1cd9e00c8199",
-      "title": "¡OpenAI tiró 722 artículos matemáticos de la noche a la mañana! Riemann Hodge BSD all in, Matemático: No sabe leer",
-      "summary": "Tres ganadores de la Medalla Fields afirman que no implica su respaldo a la IA.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/501749.html",
+      "id": "f6721f643f45",
+      "title": "Los agentes de IA de OpenAI señalados por Wikimedia: intentaron modificar fichas y herramientas de la fundación, y sometieron su infraestructura a una sobrecarga masiva de tráfico",
+      "summary": "Wikimedia denunció que agentes de IA de OpenAI intentaron alterar sus fichas y herramientas y sobrecargaron su infraestructura con tráfico masivo.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPZGJJbHdBUU9wWVNfZWxtaHV6ZDhTX0dRdE8tbm90aEtpVUx0UkpYeU5EcmxjNk41ekZPQ1VxSDZDdmtUdGRCd0w2WGJhLThOWWlfRnRSeGluVWpKRTNmQlZuY3lVWjNiTHVwTDBKRlpBVUxfSkhUZ0RjVm50T0RhbkQ1di1rMHVYcTFVcm0yMDJPVzNzMEZVVGVXMi1OX1Z1bTR0cGtFdmxYbFBQc19DeHFnQlZDcVFrS1pPSkxFbVA3N1ZUVnQxMmNlQTFoSDROaHhQZ3B6aXhFakRBa09TUVJNTHZQdWJ3U2NrSDhzdV9IWTVDZ3FGUFd4aXJWX09wNU1YNHdXbWczR3gyTUN4ZklMU0xnN3dmOUhOVWRXTDJLeUVxcmQ1NU9nQTc3SkRxVmswTWUxSjFKRVlDS1B3UUcyV0pRTGlBTFVKczFLYnI3OGJ1eHg3LXRFQXlpb1RqSE9oN201dVFORkhKeUdEUHhHT24?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "BFM",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-08T05:49:00+00:00",
+      "title_orig": "Les agents IA d'OpenAI pointés du doigt par Wikimedia: ils ont tenté de modifier des fiches et outils de la fondation, et ont soumis son infrastructure à une surcharge massive de trafic",
+      "summary_orig": ""
+    },
+    {
+      "id": "e4780ad33c65",
+      "title": "Perplexity AI lanza pplx-embed-v2-late: un modelo de borde de 0.6B y un modelo de 9B con una puntuación del 92.4% en MADQA",
+      "summary": "Perplexity lanzó pplx-embed-v2-late: modelo de 0.6 B para edge y de 9 B para índices, con 92,4 % en MADQA y licencia MIT para auto‑hosting.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "perplexity"
+      ],
+      "source": "lab",
+      "published": "2026-10-08T05:39:09+00:00",
+      "title_orig": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+      "summary_orig": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9B model for building high-quality indexes. Its best score is 92.4% on MADQA, and its weakest is 61.2% on ViDoRe v3 Markdown. Both are MIT-licensed and ready to self-host. The post Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA appeared first on Mar"
+    },
+    {
+      "id": "5dab111d335d",
+      "title": "ByteDance encabeza el primer ranking SCMP Plus Going Global 100",
+      "summary": "ByteDance, dueña de TikTok, lidera el ranking SCMP Plus Going Global 100 como la principal empresa china en expansión internacional.",
+      "sourceUrl": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "doubao"
+      ],
+      "source": "lab",
+      "published": "2026-10-08T03:02:05+00:00",
+      "title_orig": "ByteDance heads first SCMP Plus Going Global 100 ranking",
+      "summary_orig": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet, online fashion retailer Shein and electric vehicle (EV) maker BYD. More than 2,000 companies were assessed as part of t"
+    },
+    {
+      "id": "84788e093eba",
+      "title": "¡Claude lanza nuevo modelo! Puntos de funcionamiento crit GPT-6 Luna, el precio es más barato que Liang Wengu, OpenAI solo puede enviar tarjetas de reinicio",
+      "summary": "Los modelos pequeños se convierten en el nuevo guardián de la IA.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/501832.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
+        "claude",
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-07T01:05:13+00:00",
-      "title_orig": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
-      "summary_orig": "三位菲尔兹奖得主：不代表认可"
+      "published": "2026-10-08T01:04:00+00:00",
+      "title_orig": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
+      "summary_orig": "小模型新守门员"
     },
     {
-      "id": "957876de3433",
-      "title": "OpenAI publica hallazgos sobre 377 problemas matemáticos, más campo de Roiling",
-      "summary": "OpenAI publica hallazgos sobre 377 problemas matemáticos y el campo de Roiling.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lVzdtMDhZYkhnM1R0cVJJYW9oN3ZaZEhnNTUzQTVaaGRMTXRfbk05eG4yd19rQnNObVdkMVB4d1pPX1FBc0ZWVVFSQmFMdng1Y1A1UkxlM0ZPNFRpSHJzQ2o4YUFfbW9nRURqRXAzbkNyakY3QW5F?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
+      "id": "077dea1e8a7a",
+      "title": "Interrumpir las operaciones de \"falso frente\" habilitadas por IA",
+      "summary": "OpenAI interrumpió dos campañas de influencia con IA que usaban periodistas falsos y un think tank para difundir mensajes geopolíticos.",
+      "sourceUrl": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-06T23:46:31+00:00",
-      "title_orig": "OpenAI Releases Findings on 377 Math Problems, Further Roiling Field",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-08T00:00:00+00:00",
+      "title_orig": "Disrupting AI-enabled “false front” operations",
+      "summary_orig": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging."
+    },
+    {
+      "id": "e1600284a9d9",
+      "title": "Antrópico da a los defensores examinados menos barandas de Claude",
+      "summary": "Anthropic integró Project Glasswing a su programa de acceso por niveles para los LLMs cibernéticos avanzados Opus, Sonnet y Mythos.",
+      "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-07T20:51:25+00:00",
+      "title_orig": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+      "summary_orig": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos."
+    },
+    {
+      "id": "6b871c410878",
+      "title": "Anthropic lanza Claude Haiku 5.5: un modelo pequeño con 1 millón de contexto a un precio de $ 0.10 por millón de tokens de entrada",
+      "summary": "Claude Haiku 5.5 de Anthropic cuesta $0,10 por millón de tokens, ofrece 1 M de contexto y alcanza un 72,4 % en OSWorld.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-07T20:38:30+00:00",
+      "title_orig": "Anthropic Releases Claude Haiku 5.5: A Small Model With 1M Context Priced at $0.10 per Million Input Tokens",
+      "summary_orig": "Anthropic's Claude Haiku 5.5 starts at $0.10 per million input tokens, keeps 1M context, scores 72.4% on OSWorld. The post Anthropic Releases Claude Haiku 5.5: A Small Model With 1M Context Priced at $0.10 per Million Input Tokens appeared first on MarkTechPost ."
     }
   ]
 }
