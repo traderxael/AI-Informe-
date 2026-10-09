@@ -1,58 +1,129 @@
 {
-  "generated_at": "2026-10-08T18:29:44.882344+00:00",
+  "generated_at": "2026-10-09T18:02:13.602953+00:00",
   "count": 20,
   "sources": [
-    "Dark Reading",
     "Google News — IA Alemania",
     "Google News — IA Francia",
+    "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
-    "SCMP Business",
-    "TechCrunch AI"
+    "SecurityWeek",
+    "TechCrunch AI",
+    "The Hacker News"
   ],
   "signals": [
     {
-      "id": "8dce6b889a93",
-      "title": "Según los informes, los ingresos de OpenAI son $ 20 mil millones menos de lo proyectado anteriormente",
-      "summary": "Se había informado que los ingresos anuales del laboratorio de IA rondaban los 70 mil millones de dólares, pero un nuevo informe indica que son mucho menores.",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "04cd63484434",
+      "title": "Anthropic lanza un escáner gratuito de vulnerabilidades de IA para proyectos de código abierto",
+      "summary": "Anthropic lanzó OSS Scanner, un escáner de vulnerabilidades opcional que usa IA para ofrecer análisis de seguridad periódicos y gratuitos a proyectos de código abierto.",
+      "sourceUrl": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "sourceLabel": "The Hacker News",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "claude"
       ],
-      "source": "lab",
-      "published": "2026-10-08T18:19:42+00:00",
-      "title_orig": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
-      "summary_orig": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that."
+      "source": "social",
+      "published": "2026-10-09T18:17:28+05:30",
+      "title_orig": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "summary_orig": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will receive thorough, periodic security scans by our strongest models at no cost.\""
     },
     {
-      "id": "47672f48bba9",
-      "title": "Google lleva la IA auténtica a Gemini, empezando por las empresas",
-      "summary": "Google convierte a Gemini en un agente de IA que planifica, ejecuta tareas, colabora con apps empresariales, delega a subagentes y tiene su propia identidad y correo.",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
+      "id": "0dcce4127cd8",
+      "title": "El modelo de IA antrópica presentó una pista falsa sobre un asesinato sin resolver, dice la policía de Filadelfia",
+      "summary": "La policía de Filadelfia dice que el modelo de IA de Anthropic difundió una pista falsa sobre un asesinato sin resolver.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUdPS1ZSX3I2OG4zdVNISmtQdWJDN1VmR1lSemRhS1dwUzVVU1ZZRV9UN0lyc2lEbE96WkgxX0J2TjI2U1l0cGRnX3BsNFhudE5oWUh3VUh1bDgxTk1ITmdJOFMxaFFTVXBJSE5tNXlVV0Nqb2VEek9rLTB0TE1YWGtMa3M1dmxhME1PWE9UbFVrS2dERHotazRzLWJza21seElQQmlFcUJZckZfTzQw0gG0AUFVX3lxTE1RSW5Xb2ZQQjNFYlpBVXllWTVUbmlpQWN0NGNPdzAxNEFqMEE1T196dHZNYXAwQTRTc3J6UVpGNkFOMEo4c2tialBna3MtQ24xbDJ5QTdxcUxXWEJUYmlKVFJXNXJMeFJjM2p3T3dpd2d2WjA1bmFpUEhhdzA1QmQwa0tMRm53U25RaGxVSlFReHdwWGdiSS1Sd2ZqcV9KZXE0al9VNUc1aXNOSjNDOTNFUmxpSg?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "6abc Philadelphia",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-09T17:26:52+00:00",
+      "title_orig": "Anthropic AI model submitted false tip about unsolved murder, Philadelphia police say",
+      "summary_orig": ""
+    },
+    {
+      "id": "62e0024c882d",
+      "title": "Antrópico y OpenAI realizan simulacros en caso de que la inteligencia artificial se salga de control",
+      "summary": "Antrópico y OpenAI organizan simulacros para prepararse ante un posible descontrol de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVml4Y20yZDVrRHhndUZtZmlKeVlUMThEdUpRTWZqZmNFTEhKQU1GTXBLNDFwUkd1RGNUV1ZHWExoQnJ1Zkh5cEk5SUJHT3V6TmdoZDA3ZU1OSWRCR0JBblE4bzVGaW8yaF9vaUQwWEJYY09xRWZzUmoxVkhRTXgxbGFpSktEUENCRF9CMEhqc0lpazVhcmlHSDBLVnZ5cUthVHFnRjlpNC05ckl4RGhRMURGQjViMUpoTVJPSGN4T0YteTNHNGRNNUpJV1hLcDhG0gHWAUFVX3lxTE5QXzBqR2ZOc013by1DQmlORmx1bnVwY2doUldHaEZPZHh5Zk1CLXlWb0pHZnJ5R3VDLTJKVW5lVjVYUnd3WEdCLU9iUF9OUHdpWHAwbFB1R1RPMm5oSHlJTXNxQTc4dUdrYUJkNWJQNFQ5Tkt2eDdac24weUVFc0hrOXU0d2lhQ2w0dWtYRFBYMWFvM25oQmEwbWRqNTlrZVBic20wTDMtVzNNRTFSXzFjZEV3V2ZIa1k0N3NvTHZVcmFYeHlqaUQtQUtDc2tFRWhWQVpzZ0E?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Meduza",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-09T13:23:00+00:00",
+      "title_orig": "Anthropic и OpenAI проводят учения на случай, если искусственный интеллект выйдет из-под контроля",
+      "summary_orig": ""
+    },
+    {
+      "id": "4dbfab414ad4",
+      "title": "Inteligencia artificial: Ataques de IA: Bruselas pide información a OpenAI y Anthropic",
+      "summary": "Bruselas solicita a OpenAI y Anthropic datos sobre sus ataques de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVy0zcXRhbnRjOWdaQ3R1MkFRMG9Hb3AzZ0JQOVRsMm5QTFNJTjhFVVhfbVpKYkM2RklkekZic245Zm1OZGFtNFl4RWtRT3U4RzJ4OVFmVkRPMWRpRVVwQUZXNU1HZ242REtPaEVXLWdnT0dZRGhHeTY0Y21ELTI1THk5OUJ1M2VEWGYxU3RRVkV4dVZQTUZ2ckZIUXJaOEtRUUFnVFdmQkwxSjdUM3F0MHd5S21oc1ItTkNPOGRMS0hFamdfSE1nc0FMX2Ztbzdtdk9LZF85ank1T2xWa0VLaQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Handelsblatt",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-09T13:09:38+00:00",
+      "title_orig": "Künstliche Intelligenz: KI-Angriffe: Brüssel fordert Infos von OpenAI und Anthropic",
+      "summary_orig": ""
+    },
+    {
+      "id": "db3bd4be5ab2",
+      "title": "ChatGPT para adolescentes tiene protecciones especiales. Un grupo de vigilancia descubre que la mayoría no funciona",
+      "summary": "ChatGPT para adolescentes incluye protecciones especiales, pero un grupo de vigilancia halló que la mayoría de ellas no funciona.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObVB1UnRCb1RuU0d6Q1lOQVltX21JSktBS19xbFFILTRaVW9ZbWNKMjhBOW5XRV9aalVBLXdDUXFFMk92cUZmZWRxZGtFQjFXU0dmTlpKejRyOThIS0VNb3dYUVFQVkJsS1dDdnZNZ1RZQ0V3M2xTOGQ3aERnSzdrdHBZVmFmZw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "NPR",
       "region": "global",
       "country": "global",
       "models": [
-        "gemini"
+        "gpt"
       ],
-      "source": "lab",
-      "published": "2026-10-08T18:18:00+00:00",
-      "title_orig": "Google brings agentic AI to Gemini, starting with businesses",
-      "summary_orig": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address."
+      "source": "news",
+      "published": "2026-10-09T09:00:00+00:00",
+      "title_orig": "ChatGPT for Teens has special safeguards. A watchdog group finds most don't work",
+      "summary_orig": ""
     },
     {
-      "id": "0542b0f0c0fe",
-      "title": "Antrópico cambia la política de uso para prohibir el abuso de modelos y la interferencia electoral",
-      "summary": "La nueva política de uso de Anthropic prohíbe abusos extremos a Claude, pero permite críticas, y también regula interferencia electoral, campañas engañosas, armas y vigilancia.",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "dceb67174057",
+      "title": "¿Son “conscientes” los modelos de IA? Anthropic prohíbe la \"crueldad gratuita\" con Claude",
+      "summary": "Los modelos de IA no son conscientes; Anthropic prohíbe la “crueldad gratuita” en su asistente Claude.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbjk4RTBadG5ENzVGSmh3M3NjSkQwY29ucnFEZnoxMnVtWFBpREZEN1ZNNzVmSlc2RDJzRU5zbF9MeTV3ZUUtZUh0clFRYk50bUFwYUoyd1NDNXk2cUNaaEIzVTFGZjlSalNlbzlOS251RU9VRkxWUmpwRGZFY0d5NEJPMjc5aFctZXBHZzZ2Zi02aHNSYzdBSXR3b2lBUnZwNUJFOG9yV1ZFbThZV3c1WTBtWXl1WjhaaXYxOTI5bU9ucUM2SG9BOU1ENEdoSzNKWUVOY05yVmo0ZXp4TWRKWjk5Z19WVzlpTTdHbXl6TVNCTjVvb19DQXZBTXB0LVFfZzNKamgxYzJDVjkzREHSAZMCQVVfeXFMTUJSdUVtZEl4a2k3Z1R6Z291UmlpQW1WTlV4dklDQTVtSDlsVjNhLXAwQ3U1VjlHM3BJUWl1S1VxaS16S0hIMTRMaUN4dURudjBUYUFzREtPYVpKVUVsWEpJb2RxTVk2TUVoOVAzeWlYREhsaHJLWWJzaXdjQ1J6ZkE5NVVDOFFmUlhHcy1VV2Y2Y3k1YjM3UVRKbWR4MnNZNmhiOWpwbWZHNGtmM3MtSmN4NlQ3TXBYR0ljQi1aZDJPNzlGaHoyNUo3T1RISUlLM09MQWRwbDJjeWtva2lSMHVrSTMza3duM3pNOHp1ZWg4SU9QU1E1R0NoS18xREJOdGc4dlRyZE92RUJBVWgwbl9VQjQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Boursorama",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-09T08:50:23+00:00",
+      "title_orig": "Les modèles d'IA sont-ils \"conscients\" ? Anthropic interdit la \"cruauté gratuite\" envers Claude",
+      "summary_orig": ""
+    },
+    {
+      "id": "66edd2ee68b5",
+      "title": "Anthropic Fast-Tracks AI Bug informa a los mantenedores de OSS, aprovecha 11 empresas para la seguridad de OT",
+      "summary": "OSS Scanner envía informes de vulnerabilidades generados por IA, sin revisión, a mantenedores de código abierto que se inscriben.",
+      "sourceUrl": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
+      "sourceLabel": "SecurityWeek",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -60,15 +131,134 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-10-08T18:16:24+00:00",
-      "title_orig": "Anthropic changes usage policy to ban model abuse and election interference",
-      "summary_orig": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance."
+      "published": "2026-10-09T08:19:33+00:00",
+      "title_orig": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
+      "summary_orig": "OSS Scanner sends unreviewed, model-generated vulnerability reports to open source maintainers that opt in. The post Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security appeared first on SecurityWeek ."
     },
     {
-      "id": "6e4822f67023",
-      "title": "Las soluciones matemáticas de OpenAI aún no cumplen con los estándares del campo",
-      "summary": "Las pruebas de OpenAI no siguieron las directrices de los investigadores matemáticos consultados por el laboratorio.",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "id": "c2f01428b623",
+      "title": "KI: Wie OpenAI bis Ende 2026 einen Umsatz von 70 Milliarden Dollar anpeilt",
+      "summary": "OpenAI apunta a generar 70 000 millones de dólares en ingresos para finales de 2026.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVFVhWlN6eWNRMlhNYURrU3RmRm9aV19QWEpUWmhib2ZHVWtpd3c0SUZEa25FTmloQVV1dHZEM3R0SGg0dVVjUDJFNFFTM1paUlFXMkR5dnNSZWJxWVZkbnhlaUNwZTJVempCM2h3UEdPRHVUX3pvXzFHVzhSd2VMaENiNWhkaVJfYVVBTnNCUnhXcjJwRnRweVFtd1ZKM3hnRDRnLWNlcURyWjJ4TmVKUXFLbHg5S2dzbmVESDU5djM?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WiWo",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-09T07:48:41+00:00",
+      "title_orig": "KI: Wie OpenAI bis Ende 2026 einen Umsatz von 70 Milliarden Dollar anpeilt",
+      "summary_orig": ""
+    },
+    {
+      "id": "62144571729d",
+      "title": "Bytes ha encontrado la razón por la que DeepSeek es fuerte y débil",
+      "summary": "Responder correctamente depende de la posición de los tokens.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/502364.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-09T07:11:55+00:00",
+      "title_orig": "字节找到了DeepSeek时强时弱的原因",
+      "summary_orig": "答不答得对，得看Token站位"
+    },
+    {
+      "id": "edd58468d564",
+      "title": "Sophos reduce el tiempo de investigación de amenazas en un 96% con OpenAI Daybreak",
+      "summary": "Sophos emplea Daybreak de OpenAI para reducir un 96 % el tiempo de investigación de amenazas y automatizar el 52 % de los casos MDR, manteniendo supervisión humana.",
+      "sourceUrl": "https://openai.com/index/sophos",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-09T07:00:00+00:00",
+      "title_orig": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary_orig": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+    },
+    {
+      "id": "fbf536c6935f",
+      "title": "Google Cloud lanza Gemini Agent, un agente universal para el trabajo empresarial",
+      "summary": "Google Cloud lanza Gemini, un agente único en la nube que responde preguntas, realiza trabajo de conocimiento, crea medios y escribe código desde un solo cuadro de prompt y API.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-09T06:47:56+00:00",
+      "title_orig": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+      "summary_orig": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, and writes and runs code. It does all of this from 1 prompt box and 1 API. For developers, the agent is […] The post Google Cloud Launches Gemini Agent, One Universal Agent for Enterpris"
+    },
+    {
+      "id": "dad40eda1d94",
+      "title": "\"No sabemos si los modelos son conscientes\": Anthropic prohibirá a los usuarios ser crueles y abusivos con su IA Claude",
+      "summary": "Anthropic prohibirá a los usuarios tratar cruelmente a su IA Claude, pues aún no se sabe si los modelos son conscientes.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTHVJbVI5cnRJbkQ3Y0xQT01pNzBLLXViall2Yi1va2xiVXdVbE96QVpVeklrS3g1T2VNLWlORFdhZmd2cmVSLWNaM3FHeW91anRfd2pSVllPX2lseXZ5VmhWRkZkTTMxUEw5Mno5bEJNM0RwWGlGV0IwT3NQNlZGVmdYVzBrT2FaSnhyRlZaUVd4R3Z6RHhQNlEzdkptQk9rZ1cxOHVuT3dHNG9uNTVxMlJ1Mks5V3dQUW1wVnJPOURqZlpwc2dlMGFwRGljeHE0WHJxbVdDUktNWkRqLXpvakpWSEgzZzZqUHluMXhGVFZ3ZG56YzFFaXd3UnpKdnBlWVNXd2VIYW1EZ1E?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "BFM",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-09T06:29:02+00:00",
+      "title_orig": "\"Nous ne savons pas si les modèles sont conscients\": Anthropic va interdire aux utilisateurs d'être cruels et abusifs avec son IA Claude",
+      "summary_orig": ""
+    },
+    {
+      "id": "145cdbed8731",
+      "title": "‘Impresionante‘, ’devastador‘: las matemáticas se tambalean después del nuevo lanzamiento de OpenAI",
+      "summary": "Las matemáticas se tambalean tras el impactante lanzamiento de OpenAI, calificado como “impresionante” y “devastador”.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODBqdjFtSkFGUTZYd2w1WlRnaWFfX3NiWDJ4OXgzdGozcV94WFV1T2JWY0lrekg2ZGR6Sk1wMGtNMzNDeXFmdnc2Zl9zTk0zMDhCLXMyYUFVSjRVNk1CTkF2Y2h2VF9HRVZvV2xfRkpiUTJsQUlNV0ZnaFBTWGxJUW5mbkVEdjVuQ25HMHV3?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The New York Times",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-09T02:27:43+00:00",
+      "title_orig": "‘Breathtaking,’ ‘Devastating’: Mathematics Reels After New OpenAI Release",
+      "summary_orig": ""
+    },
+    {
+      "id": "22804bad2103",
+      "title": "Anthropic prohíbe la \"crueldad gratuita\" con Claude, su asistente de inteligencia artificial",
+      "summary": "Anthropic prohíbe la “crueldad gratuita” en Claude, su asistente de inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUkptS3RIaEJ1YmFmSzcxbEhUZTRLRVlKM211WDBlQ01Kb1BkUDR3ZmdyTGZJRy1zMjJEMVdwRVBZdnNLaDA1bTdWdmZxc3N0enNVMGxmUkMwazVJc0RFZGZHaFJhdmRwZHdkRnFBWXhpa1NsTndUbm1OTmQ5ckJ6QUZ6dmdIVkFCSlUwbEdHVFJIbXZhM1BubG1MRW5QLW1vZ3hTT3dmeVFEZjl2MGlrdWpFTWdtVGhEWWo1MmZiWnhUV2dEVUpiZFJOemM1MXFldmdfek9Sb3BNcW9DcVNMUjZ2bVVaX04zQ2FJQ212OEZLLXhsVkZFZmpfMDdRazZYSUE?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-08T21:03:09+00:00",
+      "title_orig": "Anthropic interdit la \"cruauté gratuite\" envers Claude, son assistant d'intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
+      "id": "c9efa01bf043",
+      "title": "Investigadores de seguridad de OpenAI despedidos disputan reclamos por mala conducta, advierten del efecto de enfriamiento",
+      "summary": "Tres ex investigadores de seguridad de OpenAI desmienten acusaciones de fuga de datos y advierten que sus despidos generan un efecto intimidatorio en la cultura de seguridad de la IA.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
@@ -77,48 +267,14 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-08T18:10:55+00:00",
-      "title_orig": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-      "summary_orig": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab."
-    },
-    {
-      "id": "a252ada3eb1a",
-      "title": "Los trabajadores despedidos de OpenAI informan a la empresa sobre la preocupación por perder la cadena de pensamiento de los sistemas de IA",
-      "summary": "Ex‑empleados de OpenAI advierten a la compañía que el despido podría romper la cadena de pensamiento de sus sistemas de IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CMlZ4TV8tUDN5UE1pYU8tYlB4aUFST2lFZ090T3hoMzVSa0thTTBTVFFCMTNhTV9Ha21fandDcm9tS3c2NmR5RW5meHloeXVYMnc2Ty1nY1UyNWxiVlNvVXB0a3FjTU5NWFdkTzNod1hEdTkxVmx5MQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-08T17:28:42+00:00",
-      "title_orig": "Fired OpenAI workers tell company about concern over losing AI systems' chain of thought",
-      "summary_orig": ""
-    },
-    {
-      "id": "7ab3058d0812",
-      "title": "\"Decepcionado por la calidad de Mistral\", el motor de búsqueda verde y alemán Ecosia abandona la solución de IA francesa en favor de modelos chinos",
-      "summary": "Ecosia, decepcionado con la calidad de Mistral, abandona la IA francesa y opta por modelos chinos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOTnlNVHBfclFzclpSQnhEUFYwblpaeUticEgyR0JCWVdVNG1fQjJ6cWplbkdaS3pEZ25OdTdKcTZrMTdFaFVjbGMzdU9pWm1FY1VkQjl0cGtYRGNWd1hqRkx6SEZtRTk3NldnZ3poWS1kVy01ZE1aamhMblRKLXpzZDBuSHVfV1FNVV80eXpVaGYwSFE3OGtYalM5Tm5Gdy1zTlhPNUxpU0ZnQ0FXM3lJVDdyNGREVW1fSmhqYi0yYmhNWDI3MnpHUHNwVEhsZ2xEbTJOOFNvRmZDc1N0b0dRRXBJMmJRanFmNVNtS3VmSjRGX3pXSktGWFVTd2hNaTZiSlNPbDA0dVJ5OXVuOUVULXZ1Nk9KMHc0NlVzSWVMcVVEY2VnV0FCcGJmWWhzY0R6NDJnc0lwT2E4RmE1Snc?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-08T17:01:39+00:00",
-      "title_orig": "\"Déçu par la qualité de Mistral\", le moteur de recherche vert et allemand Ecosia abandonne la solution d'IA française au profit de modèles chinois",
-      "summary_orig": ""
+      "published": "2026-10-08T20:04:26+00:00",
+      "title_orig": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "summary_orig": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
     },
     {
       "id": "112b5f00879d",
       "title": "Cómo Oracle convierte los días de trabajo en minutos con ChatGPT y Codex",
-      "summary": "Oracle usa ChatGPT Work y Codex para convertir su expertise en reclutamiento, ingeniería y operaciones en flujos de trabajo rápidos y repetibles.",
+      "summary": "Oracle usa ChatGPT Work y Codex para convertir conocimientos especializados en flujos de trabajo rápidos y repetibles en reclutamiento, ingeniería y operaciones.",
       "sourceUrl": "https://openai.com/index/oracle",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -133,20 +289,20 @@
       "summary_orig": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
     },
     {
-      "id": "c8769da26b58",
-      "title": "Ecosia: Por qué el motor de búsqueda Mistral AI ha sido sustituido por la IA china",
-      "summary": "Ecosia reemplazó el motor Mistral AI por una IA china tras problemas de rendimiento y costos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeHptQkV3WDQwM2ZJbVltQnNuSVZfbU5uZTRIOGYtRF9mR2VVb2RXaFpsSWx0WWdza0NWa194RHB4Unl1NERSS1ZTZDFlTkJzeFVabW4zYk8zTldURE55dGVwaWNMMlJwQ1pyVjdINU5OR1pFdU9OVlFZRGZVS1cxVC1femJHTUZxbVg1c0d6a1VXS1Vab0ZxVjJiR0xKMU8tMWVETUFfWDBwcmpoVUE?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "heise online",
+      "id": "c809e17aaa37",
+      "title": "El jefe de Mistral asegura que su empresa está \"a pocos meses\" de ponerse al día con los gigantes estadounidenses de la inteligencia artificial",
+      "summary": "El director de Mistral afirma que la empresa estará a pocos meses de equipararse a los gigantes estadounidenses de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPNnRoejJDVWxyczA5ejZuamg5Qm1pSnZaRXhic2ppMFlsV3VldTBuR240cHZSRldldHpPeTVWWko2bVIyWGVnVUV4ZWd6UnplSmRmRWtuR0ZHX2lSNFE0MS1SWmU1V2R1X0xZcnZyRVd0a0p3Njc2amUyb0lFZXJpTmJoNFR4SkRjdk8tUXpLOHlsUFQwWFVtZXczaHA3NGZYSzdtWVlCRjliazE5TUZUVzJIQ3hOcDdVcmMtRnByUzg4a3pTUE1hQlRERGxkZG1kU04yaFZnclNOVG02UXRuSTAxc0pLejhlZTZGV29PbzBld2hPZXNrWkFQRjdBcnFUY3pWT3RkSzhGd19EbUpOUGpjV242Ql9lMWZjVWxvd1pkYk1wUWRCdF95ekFWZ2NqUWhF?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Parisien",
       "region": "west",
       "country": "france",
       "models": [
         "mistral"
       ],
       "source": "news",
-      "published": "2026-10-08T15:39:00+00:00",
-      "title_orig": "Ecosia: Warum die Suchmaschine Mistral AI durch chinesische KI ersetzt",
+      "published": "2026-10-08T14:20:30+00:00",
+      "title_orig": "Le patron de Mistral assure que son entreprise est « à quelques mois » de rattraper les géants américains de l’intelligence artificielle",
       "summary_orig": ""
     },
     {
@@ -167,147 +323,10 @@
       "summary_orig": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
     },
     {
-      "id": "658ace6fc148",
-      "title": "Los ingresos de la nube de IA de Alibaba aumentarán más del 50% a medida que el bombardeo de inversión valga la pena: analistas",
-      "summary": "Se espera que Alibaba registre un aumento del 50 % en los ingresos de su unidad de nube e IA en el trimestre de septiembre, impulsado por sus agresivas inversiones en IA.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-10-08T11:30:22+00:00",
-      "title_orig": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
-      "summary_orig": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts. Analysts across several financial institutions projected revenue growth for the Chinese tech giant’s AI Cloud and Compute Services unit to have accelerated in the three mon"
-    },
-    {
-      "id": "a80200314b1b",
-      "title": "Código, finanzas, francés, ciberseguridad... Hemos probado Mistral Large 4",
-      "summary": "Código, finanzas, francés y ciberseguridad… Probamos Mistral Large 4.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHpPMmpZbFU4ak5ncWVoSjNFVXFzc1huY1lGeEJYUlhubEFRX0FUXzYzcG83cnhsRDdfLU9oVEhBZWgteHU2NUZuWTBrV2VTNzRiNHVnWWJtSjY0d1VsLV9jbV9jRWFncG5zLVZBT3NCSWdSbXNubFFyV202ZG14dnJHSVcxdTBOamYzaklZblBaQ1hic3NIQ1VUcDZmOHJEOXpxcEkxWmtGNkV5bkMtWVI0cF9YeGpIY2hIT29odUsyejNx?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "JDN",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-08T09:44:15+00:00",
-      "title_orig": "Code, finance, français, cybersécurité... On a testé Mistral Large 4",
-      "summary_orig": ""
-    },
-    {
-      "id": "f2d85267cf54",
-      "title": "¡ChatGPT pateó el plato! ¿Puedes resolver el rompecabezas matemático de los millennials, pero la tasa de reproducción de papel es tan baja como 13.98%?",
-      "summary": "Los benchmarks como PaperBenchX podrían medir mejor la capacidad investigadora de la IA.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/501995.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-08T09:28:44+00:00",
-      "title_orig": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
-      "summary_orig": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力"
-    },
-    {
-      "id": "146d52f1955e",
-      "title": "Tres ex investigadores licenciados piden a OpenAI que no cree IA con un razonamiento ilegible",
-      "summary": "Tres ex investigadores de OpenAI exigen que la empresa deje de crear IA con razonamiento incomprensible.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUl9rLWlydXhpcHgzUUtpQkxNOWtVUU9Kc3MxajBfYVBlZGFsc1QxM0prQ004aFdVc1FpR3hOekhRSFZsQm9IdmswSEM5WVFKYzJyTko0RUZtT1ZhNkw3VDlUSThrdGdzMjFXb1dJVXFNazJmcVlVdUVMVkR1b0I1UHZsZ08zUWZ0SHRyV2xpS1l3dmxidWZmRU11eXExRXluUjNkcWxzWjhDVXZRekRaYTBacXMxdTU1cnpqdDlsWEpaRlZTNlBZYlhjaFgyLVBjX08zUUdBandqSDg?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-08T07:35:24+00:00",
-      "title_orig": "Trois ex-chercheurs licenciés appellent OpenAI à ne pas créer d'IA au raisonnement illisible",
-      "summary_orig": ""
-    },
-    {
-      "id": "f6721f643f45",
-      "title": "Los agentes de IA de OpenAI señalados por Wikimedia: intentaron modificar fichas y herramientas de la fundación, y sometieron su infraestructura a una sobrecarga masiva de tráfico",
-      "summary": "Wikimedia denunció que agentes de IA de OpenAI intentaron alterar sus fichas y herramientas y sobrecargaron su infraestructura con tráfico masivo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPZGJJbHdBUU9wWVNfZWxtaHV6ZDhTX0dRdE8tbm90aEtpVUx0UkpYeU5EcmxjNk41ekZPQ1VxSDZDdmtUdGRCd0w2WGJhLThOWWlfRnRSeGluVWpKRTNmQlZuY3lVWjNiTHVwTDBKRlpBVUxfSkhUZ0RjVm50T0RhbkQ1di1rMHVYcTFVcm0yMDJPVzNzMEZVVGVXMi1OX1Z1bTR0cGtFdmxYbFBQc19DeHFnQlZDcVFrS1pPSkxFbVA3N1ZUVnQxMmNlQTFoSDROaHhQZ3B6aXhFakRBa09TUVJNTHZQdWJ3U2NrSDhzdV9IWTVDZ3FGUFd4aXJWX09wNU1YNHdXbWczR3gyTUN4ZklMU0xnN3dmOUhOVWRXTDJLeUVxcmQ1NU9nQTc3SkRxVmswTWUxSjFKRVlDS1B3UUcyV0pRTGlBTFVKczFLYnI3OGJ1eHg3LXRFQXlpb1RqSE9oN201dVFORkhKeUdEUHhHT24?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-08T05:49:00+00:00",
-      "title_orig": "Les agents IA d'OpenAI pointés du doigt par Wikimedia: ils ont tenté de modifier des fiches et outils de la fondation, et ont soumis son infrastructure à une surcharge massive de trafic",
-      "summary_orig": ""
-    },
-    {
-      "id": "e4780ad33c65",
-      "title": "Perplexity AI lanza pplx-embed-v2-late: un modelo de borde de 0.6B y un modelo de 9B con una puntuación del 92.4% en MADQA",
-      "summary": "Perplexity lanzó pplx-embed-v2-late: modelo de 0.6 B para edge y de 9 B para índices, con 92,4 % en MADQA y licencia MIT para auto‑hosting.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "perplexity"
-      ],
-      "source": "lab",
-      "published": "2026-10-08T05:39:09+00:00",
-      "title_orig": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
-      "summary_orig": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9B model for building high-quality indexes. Its best score is 92.4% on MADQA, and its weakest is 61.2% on ViDoRe v3 Markdown. Both are MIT-licensed and ready to self-host. The post Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA appeared first on Mar"
-    },
-    {
-      "id": "5dab111d335d",
-      "title": "ByteDance encabeza el primer ranking SCMP Plus Going Global 100",
-      "summary": "ByteDance, dueña de TikTok, lidera el ranking SCMP Plus Going Global 100 como la principal empresa china en expansión internacional.",
-      "sourceUrl": "https://www.scmp.com/business/china-business/article/3370010/bytedance-heads-first-scmp-plus-going-global-100-ranking?utm_source=rss_feed",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "doubao"
-      ],
-      "source": "lab",
-      "published": "2026-10-08T03:02:05+00:00",
-      "title_orig": "ByteDance heads first SCMP Plus Going Global 100 ranking",
-      "summary_orig": "TikTok owner ByteDance is China’s Going Global champion, according to a new SCMP Plus databank tracking mainland companies’ overseas expansion efforts. The social media giant topped the debut SCMP Plus Going Global 100 ranking ahead of Apple assembler Foxconn Industrial Internet, online fashion retailer Shein and electric vehicle (EV) maker BYD. More than 2,000 companies were assessed as part of t"
-    },
-    {
-      "id": "84788e093eba",
-      "title": "¡Claude lanza nuevo modelo! Puntos de funcionamiento crit GPT-6 Luna, el precio es más barato que Liang Wengu, OpenAI solo puede enviar tarjetas de reinicio",
-      "summary": "Los modelos pequeños se convierten en el nuevo guardián de la IA.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/501832.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-08T01:04:00+00:00",
-      "title_orig": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
-      "summary_orig": "小模型新守门员"
-    },
-    {
-      "id": "077dea1e8a7a",
-      "title": "Interrumpir las operaciones de \"falso frente\" habilitadas por IA",
-      "summary": "OpenAI interrumpió dos campañas de influencia con IA que usaban periodistas falsos y un think tank para difundir mensajes geopolíticos.",
-      "sourceUrl": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "id": "f6d3626eb7c8",
+      "title": "LegalOn reduce a la mitad los costes del Codex manteniendo la velocidad de desarrollo",
+      "summary": "LegalOn redujo en un 65 % los costos diarios estimados de Codex sin perder velocidad de desarrollo, asignando tareas a Astra, Sol y Luna y gestionando los presupuestos estratégicamente.",
+      "sourceUrl": "https://openai.com/index/legalon-halves-codex-costs",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -316,43 +335,26 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-08T00:00:00+00:00",
-      "title_orig": "Disrupting AI-enabled “false front” operations",
-      "summary_orig": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging."
+      "published": "2026-10-08T12:00:00+00:00",
+      "title_orig": "LegalOn halves Codex costs while maintaining development speed",
+      "summary_orig": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically."
     },
     {
-      "id": "e1600284a9d9",
-      "title": "Antrópico da a los defensores examinados menos barandas de Claude",
-      "summary": "Anthropic integró Project Glasswing a su programa de acceso por niveles para los LLMs cibernéticos avanzados Opus, Sonnet y Mythos.",
-      "sourceUrl": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
+      "id": "8f287ccaff11",
+      "title": "“El mayor riesgo hoy en día es un riesgo de concentración” en la IA, advierte el jefe de Mistral, Arthur Mensch",
+      "summary": "El principal riesgo actual en IA es la concentración de poder, advierte Arthur Mensch, director de Mistral.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPMzRWR25IUDcxakJTUThoZW45TWJCTWRvd2x2dXIyWHZiakZXeG1KN0tGZlFWaUFIb3dUbEJsM3NQaUtaMkJxcVd1RTA3ZEhGRlVaNEpPbDFqS2VNdnRoTzQzNTgxckxUbzhrMENHYlRTMkxkT0s3TDRCSUZWMUhka3AyRmZfcUN1YklhLWZuemZiYWlYdUppaWI0MzBfbXI3MEE5RHgxaGhfZlBlR2R0b3NoSzhnQWRuZzRuMWNhaklaNkxfOWhBSDRTS2ZsUmE0Mm96WDBxZ1VmYXpPWmN1aEQydWtONEhpdExiNTUxeEZ0LUw2bS1Oa0xaS0dvNVhaZkVaLVRidHdMSGM?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
       "region": "west",
-      "country": "usa",
+      "country": "france",
       "models": [
-        "claude"
+        "mistral"
       ],
-      "source": "lab",
-      "published": "2026-10-07T20:51:25+00:00",
-      "title_orig": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
-      "summary_orig": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos."
-    },
-    {
-      "id": "6b871c410878",
-      "title": "Anthropic lanza Claude Haiku 5.5: un modelo pequeño con 1 millón de contexto a un precio de $ 0.10 por millón de tokens de entrada",
-      "summary": "Claude Haiku 5.5 de Anthropic cuesta $0,10 por millón de tokens, ofrece 1 M de contexto y alcanza un 72,4 % en OSWorld.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-07T20:38:30+00:00",
-      "title_orig": "Anthropic Releases Claude Haiku 5.5: A Small Model With 1M Context Priced at $0.10 per Million Input Tokens",
-      "summary_orig": "Anthropic's Claude Haiku 5.5 starts at $0.10 per million input tokens, keeps 1M context, scores 72.4% on OSWorld. The post Anthropic Releases Claude Haiku 5.5: A Small Model With 1M Context Priced at $0.10 per Million Input Tokens appeared first on MarkTechPost ."
+      "source": "news",
+      "published": "2026-10-08T09:20:00+00:00",
+      "title_orig": "« Le risque majeur aujourd'hui est un risque de concentration » dans l'IA, alerte le patron de Mistral, Arthur Mensch",
+      "summary_orig": ""
     }
   ]
 }
