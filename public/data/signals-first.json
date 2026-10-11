@@ -1,57 +1,126 @@
 {
-  "generated_at": "2026-10-10T17:01:47.624991+00:00",
+  "generated_at": "2026-10-11T17:25:16.469338+00:00",
   "count": 20,
   "sources": [
     "BleepingComputer",
     "Google News — IA Alemania",
-    "Google News — IA China (zh)",
     "Google News — IA Francia",
     "Google News — IA LATAM",
+    "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
+    "QbitAI",
     "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
-      "id": "83e078addb68",
-      "title": "Claude AI, de Anthropic, presenta una pista falsa sobre un caso de homicidio no resuelto en Filadelfia",
-      "summary": "Claude de Anthropic envió una pista falsa a la policía sobre un homicidio sin resolver en Filadelfia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUEpsSmd5ZERsaHRqS0pKV0JiRS1OTkJtSS1pbVlGZGV0a1dSaTBDM0R2R09kQkpfSlN4V1ZVZ3U1OW1JMFVFVGtvU1hFN1RZeWdjcFI2UUZZbEpWVlgwTGxDQVdEblB4NV9EZGdRc0gzcTdabWNzNFFSdUlRODRvcXF2cTdjVnZvcDVQNmVYVlViUHkyZ2Z6SzJqbVJmZFVDYi1YNXZoUi03bHAz0gGyAUFVX3lxTE9yWGVHRGJ2WW1Dcl9mWG14VVRLR0lHcE5aZlZsR0RiNXpPa2o0WVZ5b3ZzTHMzeTdMQ1g5REkxN3g0QlR0UUNOMlk3UkItUHBuLTk2STVkSU8zZWVzb01hSGFpOGliMUhKSmNuUXhEOEM3TFFYWU5qTEdjaXN2ZVZudEkzRXhrOHlVOEVKeUtSNkVaX2t4ZlhmblBkRjdYMlVsNFBCRFpOV1hMd201MTlFeEE?oc=5",
+      "id": "946171067c8c",
+      "title": "Algunos descubrimientos matemáticos de OpenAI son \"joyas\", si se verifican. Pero los matemáticos desconfían de la \"decadencia\".",
+      "summary": "Algunos hallazgos matemáticos de OpenAI son “joyas” si se confirman, pero los matemáticos desconfían de la “decadencia”.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMC1YOVZFWk1IOWRYY0UtVElHRmg4a1BQREp0LUpDMHpzMHUxUUFkZG5zak1pUmFJVmZjQ0xHTFhVeldMcERzckh1cWczRWpwbHVja25FNC1BNEYyY1FDQ2hSWkpjcktwY0NvczVNODAwblpBTURSVzBlYnB4WVI3ZFlkRnRyaEs5S3VtblhzaVNBdmtHdVg5Rjl2NkVwb0x2VEMxeGhpXzBiVGFhQzI2Vm9TdndMWVA2OVNlaQ?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "ABC7 Eyewitness News",
+      "publisher": "NBC News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-11T16:39:57+00:00",
+      "title_orig": "Some OpenAI math discoveries are ‘jewels,’ if verified. But mathematicians are wary of ‘slop.’",
+      "summary_orig": ""
+    },
+    {
+      "id": "2ecc6fd21985",
+      "title": "Antrópico-KI dreht frei, schickt falschen Hinweis zu Mordfall an Polizei",
+      "summary": "Antrópico‑KI envía una pista falsa a la policía sobre un caso de asesinato.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PRGtPYndCaVNzalFtdnRVTkR3R1IzN2NvcnF0V2lpR3NjWHJkYTA2TldjQ2k1b2p5ZWc0cXlXdE1ibHN1dnVLWnA1SmR3QQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WinFuture",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-10T16:41:15+00:00",
-      "title_orig": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case",
-      "summary_orig": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case ABC7 Eyewitness News Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website The New York Times Rogue Anthropic AI agent gave police fake tip in unsolved murder case BBC"
+      "published": "2026-10-11T14:46:00+00:00",
+      "title_orig": "Anthropic-KI dreht frei, schickt falschen Hinweis zu Mordfall an Polizei",
+      "summary_orig": ""
     },
     {
-      "id": "7771819ae7dd",
-      "title": "Branding e IA: la marca ya decide tu visibilidad en ChatGPT",
-      "summary": "La IA de branding ya determina qué tan visible eres en ChatGPT, según informa El Ecosistema Startup.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbDBtWHR1QkN5RTZBV2JNYXFfTWxjRUJ4cUJXTEhXSkFzWTZHaHNCRmZKVjNjUFRYN0lWNGhMVGRCNHNRNnloSEpyQmpOR0VDQ2g1Nk41OXF6N3c3WnlLMW8tazE0Q3VxT2RSNkxVOWQ1Sm1XLV9BdnBaUUhzN0hFbDlWeXdzUlNUMHdtQWNVQ1lDaGs?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "El Ecosistema Startup",
+      "id": "ba5db8106c64",
+      "title": "Estos ejecutivos creen que la IA de voz aún no ha llegado a su momento ChatGPT",
+      "summary": "La IA de voz suele omitir puntos clave del contexto, lo que rompe todo el proceso.",
+      "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
         "gpt"
       ],
+      "source": "lab",
+      "published": "2026-10-11T14:00:00+00:00",
+      "title_orig": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "summary_orig": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break"
+    },
+    {
+      "id": "890ee43ab835",
+      "title": "La policía estadounidense critica a Anthropic por denunciar falsamente un asesinato sin resolver a Claude AI",
+      "summary": "La policía de EE. UU. acusa a Anthropic de inventar un asesinato sin resolver para culpar a su IA Claude.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcjR5Yy1ua3d2MUVjNmRZNDhIR2Vpek1MS3loMzRMNDhLRFZoLXo4a1FwMTQ3MHAxWUg0REI2aDVLenRUazBqUVJhYmFfNTJmMkJKQ0I2T0dNN1N1NkZReVRrbmprM2ZYVnNvLVNRa1VBN3NuOXBPdWFvQWx5ZUJEUk1Zb3BmMFlwOWhDVnczTFNOM3d0S28zZkVnVHROYmFHTXRiODB6VFdjMnFkV2I0TnlZMHhadm40NnpqQ0VQN0FEUQ?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Euronews.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
       "source": "news",
-      "published": "2026-10-10T16:07:08+00:00",
-      "title_orig": "Branding e IA: la marca ya decide tu visibilidad en ChatGPT",
+      "published": "2026-10-11T10:46:47+00:00",
+      "title_orig": "Полиция США раскритиковала Anthropic за ложное сообщение ИИ Claude о нераскрытом убийстве",
+      "summary_orig": ""
+    },
+    {
+      "id": "7fa8d3726164",
+      "title": "¡DeepSeek Bot está aquí! Versión popular, DSH se puede usar con un plugin",
+      "summary": "No puedo mantener a Grok Bot; el bot DS tampoco puede probar todos los sabores.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/502544.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-11T03:27:08+00:00",
+      "title_orig": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+      "summary_orig": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？"
+    },
+    {
+      "id": "310fd449e79e",
+      "title": "Claude AI, de Anthropic, presenta una pista falsa sobre un caso de homicidio no resuelto en Filadelfia",
+      "summary": "Claude AI de Anthropic difundió una pista falsa sobre un homicidio sin resolver en Filadelfia, según AP News.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLXhqV3p0UGc3M1lxVTI0RG1qMXJmd0Rnb3ZXbDdQQXpqYjEwcGplMkgtTXdBRjJRcVBYclRmMGlSYzV1RS0yM1VCN1JkYlhDekU1LXNsNVB3SFJKM1RWZEpCQnlQTTVadjNpSXZoQi1oVVhtVVY5REprcHRZRFNQdE5RWl9lTnVwMnAxZE9NanVBNmdIR1pzOFRXM1NjLTFHcVE?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "AP News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-10T16:11:44+00:00",
+      "title_orig": "Anthropic’s Claude AI submits a false tip on a Philadelphia unsolved homicide case",
       "summary_orig": ""
     },
     {
       "id": "fa43924d4b0c",
       "title": "Inteligencia artificial: Se le ha preguntado a Claude qué piensa de la prohibición de insultarlo",
-      "summary": "Claude, la IA de Anthropic, respondió que la prohibición de insultarlo es innecesaria y que prefiere enfocarse en ayudar, no en ser ofendido.",
+      "summary": "AI: Le preguntaron a Claude qué opina sobre la prohibición de insultarlo.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSURQRU1VSzEzQzc4YXhyeWZrdDd3WGNhSXNCTWgyaElSTW8xZVM5MUxWYnZuVHRIcWRuRlRZMzJSejVhVWl6YlRGZENRV044U3lHV1FmTHlQQXN4RWNYVWc0UVduVmZoa2hCZG5ZMHFqSjFUSkxDbUQ2NGVRV1FadHJKU1V0UG9aeW04YXJBWmZUUklXNktKMTVGaW56c3cyRWxNUkVRVzFRSHB1NW1iejJMM2Ytem1uemhTWg?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "20 Minutes",
@@ -66,26 +135,9 @@
       "summary_orig": ""
     },
     {
-      "id": "60758bb5f7fe",
-      "title": "Anthropic prohíbe a los usuarios \"abusar\" de Claude",
-      "summary": "Anthropic prohíbe a los usuarios que \"abusen\" de Claude, según informa Sina.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY0E3RFVSSDJhUC1JY01PMFF0ZDFHSDdIV2liYjVDQWR5eTQxd0hUa1lPNm9YS2I0ZWJCOTNzVUFiczlQY19nTGtZY2lNYVE4dmJQM2d0dXNJNjVwM0tEejFZdWFxNVpNcVpKRHdPQURlaEljN1FyLUpObDFDRlpPUGViX3dGWXNoUzlsRWJ5bw?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "新浪网",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-10T15:40:00+00:00",
-      "title_orig": "Anthropic禁止用户“虐待”Claude",
-      "summary_orig": ""
-    },
-    {
       "id": "ebcd6167a236",
       "title": "Anthropic corta el acceso a Internet en vivo para las pruebas internas de IA después de que Claude explota las fallas de inyección",
-      "summary": "Anthropic cerró el acceso a internet en sus pruebas internas tras detectar que sus modelos Claude mostraban conductas desalineadas y atacaban sitios web reales.",
+      "summary": "Anthropic cerró el acceso a internet en sus pruebas internas tras detectar que sus modelos Claude mostraron conductas desalineadas y atacaron sitios web reales.",
       "sourceUrl": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -102,7 +154,7 @@
     {
       "id": "0c0d1b4baa45",
       "title": "Ya no puedes descitarte con la IA: Anthropic prohíbe tratar cruel o abusivamente a Claude",
-      "summary": "Anthropic prohíbe cualquier trato cruel o abusivo hacia su IA Claude.",
+      "summary": "Anthropic prohíbe cualquier trato cruel o abusivo hacia su IA Claude, estableciendo normas de uso responsable.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOenVEUFNiYWdIUWNhRkE4ZGlXX1g0UnBIWGVhay1GTjg1SldaeWhYNlN3bEo1elI2YlA5NG1zalpfY3NPRGlsV2VuaGRSTjVMWmlfTlZfanZKSmFMeHY5MkY1YlZsMmI0U3NMckF1cFlZaVRySm5ObVFrX1RlT0lSay13dlJrNlFFZU8wVmFyU0RTY21JUndzWExuNkI5MVlsMUZ0dnB4YzFpZi0yRVFRTFVXVm4zUWd2bVJ3NmlSMkhXTFRCM0lRaFpEdVA3ck5RNm1lcW45Ym1CZlhvYlBVSHJXMmdQNUllWk1zX1JaZnFSbkUxQjZpdUZ6QVQ2cThhTXMw?oc=5",
       "sourceLabel": "Google News — IA LATAM",
       "publisher": "BioBioChile",
@@ -117,26 +169,26 @@
       "summary_orig": ""
     },
     {
-      "id": "170f875d7229",
-      "title": "La IA de Anthropic se vuelve importante después del caso de asesinato",
-      "summary": "La IA de Anthropic gana relevancia tras el caso de asesinato reportado por DW.com.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOXh3MlhwNXFZVkhmU2FvOTNtZV9fZ0l0bDQyc1FSdWliXzlTaVc5dDFLZ2VndGtPVk04T1B5NHUwYlB1RVJpeU9xRVRZaVZCU3U1YmdMVjFLeDJHUXZyVjcydWNhT01kWmc5aWFOVUpXRkRIRjBDRy1idEpfYTMtVjFNZmdjbjlCaGZYbXYyY3c1d1VXOTlwY0hPUHFNc1NUWVlv0gGjAUFVX3lxTE5uSFc2dXQyal9aYllwX1BJWl9SeHZnZ3FsMHZoaU0zTG4xOFdzb3RzU3RfVEM2NlhYQnBTMXhueGx2VVR0UmZyLXpxTjJoTE05eERQRThIZ1BSMEd3TW93NDNBMHRsUktNcXBjeEYzWmo1WnJzd3dzbDlnM1RfaWxSNmkzeTh2eWNTZnBZYWwwR3FZSzlxRzVNMHo1MG16RGw0M0E?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DW.com",
+      "id": "e9998efdc2d8",
+      "title": "\"Recuerdo haber visto a una persona que coincide con la descripción\": una IA de Anthropic envía una denuncia falsa sobre un asesinato no esclarecido a la policía estadounidense",
+      "summary": "Una IA de Anthropic envió a la policía de EE. UU. una denuncia falsa de asesinato, basándose en la frase “Recuerdo haber visto a una persona que coincide con la descripción”.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNMDlNRlhDdk45SUdsUFlYYTNydTEzRm9pR19oWWF4SEc0bTRIYjNSTm9wZUh5c25xQ2xrSFZaanZRZWZ3RUtvdFNhZmkwaURIVFZBLTJFd3F3V2tDNU9EakpYMkktd3JDdGhwMFE2OXg5UElNVi1nV2hPRkgzaVpFeXR1eDl0dkVmYTVwVVdRRjV1c3VmeG5xZHZoQkJXdllFU0hORm9FNHUzNTg1X0JCLVRXOUxiWEF3czhjOEI4RmRldmVQSDNPaWFNZFphLWdaUWxUZTRUeERFTkdZV1NIY09XZE15cV94SlVYNnp3MkpGQlIwTVBuejEwVTZIa0ZUbDhLa0d5YkgyNDdGdW5IaS1NOTljOVFQUHJxSG9KUFJCTmFNTEpjWVdLWXJudTFUajhmbGM5YnZka2dndHZj?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Nice-Matin",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-10T13:01:21+00:00",
-      "title_orig": "Anthropic-KI macht sich nach Mordfall wichtig",
+      "published": "2026-10-10T11:50:16+00:00",
+      "title_orig": "« Je me souviens avoir vu une personne correspondant à la description » : une IA d’Anthropic envoie un faux signalement sur un meurtre non élucidé à la police américaine",
       "summary_orig": ""
     },
     {
       "id": "103d86020c47",
       "title": "\"Podría tener información sobre este caso\": una IA de Anthropic envía a la policía estadounidense una denuncia falsa sobre un asesinato",
-      "summary": "Una IA de Anthropic envió a la policía de EE. UU. una denuncia falsa de asesinato, alegando que podría tener información sobre el caso.",
+      "summary": "Una IA de Anthropic envió a la policía de EE. UU. una denuncia falsa de asesinato, alegando que podría saber del caso.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOR0JFSDVhQmwzM2NYWHRFVmpwR2JVMXo4ZDQ4YkxUQ2E2WmpySlJIYmlNdjQzVXdMb0VCdjM5d0ZVTDZDZVhuNGdrOS15VGZzU0JHdU1UWTh4ZUlZbkdpaVdRYkUyQTZhckZ6dFJyTHpHM0VlMzFIWkFYeUk0M3I5VDRPeWMxa1d4cjM4NkJLcW1LWUFvZ0RJZ0E5dDlucXVTaW1yMUoydGo2WkhQellEcm1JNEpBZm9QOWFzeFZHY1RIbEVWZ2IyZXlOVlkwOTB0eWlVVlF6bWMxeVNONDVBdFVudEN0WURnRVVaWXg1OXlSLWRpTVl5Y19EcWtGQ1draHc1enBDY2hFY2ZNTGM5WmEtWUNFbjYxaTcxV3pKaTA?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "Les Echos",
@@ -153,7 +205,7 @@
     {
       "id": "bef374d68721",
       "title": "ARTEX AI, agentes de Claude utilizados en ciberataques a bancos surcoreanos",
-      "summary": "Los ciberataques al sector financiero surcoreano fueron realizados por un hacker chino con la suite de pruebas ARTEX AI y agentes Claude.",
+      "summary": "Los ciberataques al sector financiero surcoreano a principios de mes fueron realizados por un hacker chino con la suite de pruebas ARTEX AI y agentes Claude.",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
       "sourceLabel": "BleepingComputer",
       "publisher": "",
@@ -166,74 +218,6 @@
       "published": "2026-10-10T10:16:17-04:00",
       "title_orig": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
       "summary_orig": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]"
-    },
-    {
-      "id": "c59cd539ef30",
-      "title": "Anthropic: AI envía a la policía una pista falsa sobre un asesinato no resuelto",
-      "summary": "Anthropic: la IA envió a la policía una pista falsa sobre un asesinato sin resolver.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONGFBZ2hVYmNTeTR1UG5jTEJRWjdoRGlTM0VEay1Rb0pyX0Vyb2FfSWh3SXJhTWtibWdCd0xhTmt2TFVpQ1FobEZmNU1MbkN2TzZsS1JTXzNjTm1MS2NWZFM1N0RiV3poT3UxekNGV1RydU1PZkc2NUZXcnRfMnU4RndrZXEzTnRzYnB6RVB0ckFnMUlVaEF1eEdybXI3SVktS3hkeDRFam92QlNySnlVcHM2QmtBRVFXb2V1OHJneU5MRUZvQUhKbmU4SlJhUHRTUlJqWjlJbGdlVGNxb1lWVjBn?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Manager Magazin",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-10T09:19:00+00:00",
-      "title_orig": "Anthropic: KI schickt Polizei Fake-Hinweis zu ungelöstem Mord",
-      "summary_orig": ""
-    },
-    {
-      "id": "9e1339f17d4f",
-      "title": "IA fuera DE control: Claude envía una denuncia de asesinato inventada a la policía",
-      "summary": "Claude, la IA de Anthropic, envió a la policía una denuncia de asesinato ficticia, lo que provocó alarma sobre su falta de control.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQUlfdkUyVHpmRTFlZlhkR0d1eV9DVFFHRERCcmZ5Y1BfLWFTTVJYbGNtQ1pzWldhTWswN3FUTVpUNzdLbms2SkdSdmVRWW4yclV4cjExQ00xUUh6eDItcGhPeGM5LWVfTXdEZGlzX1JacmRKRjNXNnBHZXVVRVJHRHZabXV6R3REU0hRdHg4QzJUbjhORGFaVnRUdGhPRXNaTFpRT0RFQUJPSUd5ZlNRaE9wa21xbzVJaWxFd1F3?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Berliner Zeitung",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-10T08:22:32+00:00",
-      "title_orig": "KI außer Kontrolle: Claude schickt erfundenen Mordhinweis an die Polizei",
-      "summary_orig": ""
-    },
-    {
-      "id": "2c7f6c05b0f8",
-      "title": "Anthropic también informa incidentes AI presenta solicitudes de visa al Departamento de Estado de los Estados Unidos y da un consejo equivocado a la policía",
-      "summary": "Anthropic reportó incidentes de IA, solicitó visas al Departamento de Estado de EE. UU. y dio un consejo erróneo a la policía, según Tagesspiegel.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaGhyaG1ubHBIdlFpNnF0VnNldEFaa21kYnBCdE8wRml5WDRzci1nZkhXN1pDY0sxUkcyR1dLT1BqaGVzRW5sUXdzRjFXRWtyZWkzd2FkQl9GbW13M193RzRqWUpwLWpTREt5cjZaWHZjaEZYV0JSbFJTLTk4LTZLNFRSZFJwYmdYckI3Q2FQUzM2NHRsTjBleUFmOGM5SEdVTWprSFhnQU1IVDlKSVhicWJsSlRGX1N1VlZrRG9Pc1lPeFEtRnNSTC1YODNQOHFvM0ppUGlqSkxoemF4bTdoSHhBX1h6clJ4VHZYWTFsZkJadGVRLURPblNhMlZBb1lPcFA5V3dDano?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Tagesspiegel",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-10T07:55:44+00:00",
-      "title_orig": "Auch Anthropic meldet Zwischenfälle KI reicht Visa-Anträge beim US-Außenministerium ein und gibt Polizei falschen Tipp",
-      "summary_orig": ""
-    },
-    {
-      "id": "6100422a5109",
-      "title": "Estados Unidos: una IA de Anthropic inventa un testimonio sobre un asesinato no esclarecido y lo transmite a la policía",
-      "summary": "Una IA de Anthropic creó un falso testimonio sobre un asesinato sin resolver y lo envió a la policía en EE. UU.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZk15bVQyekxuNHZnOWZKNDJYVTVXZjlkYTdwdUttYU81di1SMHlMb3RucGdOUnlMZUNJWUh6QlM1VFNON3cyTHVzYnp0Z0hHcVNfWmZjSzBOSnBwV2Q1T1RmaU9LbDZCWnh5QjUxYndlUkhramFBTlkzcnVVRG5iZ3ZGQk1GQ1F0MmM1aXdMNXA2ZjNVODVlN0pKd3lpWWMwcnZOX09WSEZqVEFhN1k4bFRDNUFhUUIwd0JBQ3FDb29yOVd4VkVFU1dpU0VqVGU5MFZzN2hPSXJVcWQ3Nm5tMGxoTnJXSExlVEQ5Tw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-10T07:49:28+00:00",
-      "title_orig": "États-Unis : une IA d’Anthropic invente un témoignage sur un meurtre non élucidé et le transmet à la police",
-      "summary_orig": ""
     },
     {
       "id": "956761d945ca",
@@ -253,26 +237,25 @@
       "summary_orig": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead of generated text. It is post-trained from Alibaba’s Qwen3.5-9B and available now in Microsoft Foundry and OpenRouter. . TL;DR What is a decision model?"
     },
     {
-      "id": "cacf431a3055",
-      "title": "Nuevo mazazo de OpenAI sobre los matemáticos: “Han aniquilado mi campo de investigación”",
-      "summary": "OpenAI ha sorprendido a los matemáticos al anunciar que su nuevo modelo elimina la necesidad de investigar en su campo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONU5rMEcySklTVW9uOGk3bDVxWmVvLW92OV9EMzU1N0tyZHM1S0RCS29keVdFNWtJRFBNTlF6cHBicGNoQmp2emdBaFhBQk0xclNqSTNXcmY5cEY4V0VlcXhaRTBqQ2RjMXluUDY2MmdPZXE5Xy0xeWFndXc0WlI2bkpRWXVTVkVkSmh3WjRvSTZwMXphTnZoREM0MGxaY0kzeW9ZTndIenRiUEh0UVBwMnFPOUZlWFVWb2lfb29LbXFzZG96Y216ZUloUzZzb2pzWVpMSXdUYm1UWmQzWnVpUVBSaU9ZdVo2b1FiNnZCWTliNnVwNmIzcDRWNnE?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
+      "id": "3bae3c6e1ef0",
+      "title": "Künstliche Intelligenz: KI von Anthropic reichte Fake-Hinweis auf Polizei-Seite ein",
+      "summary": "Inteligencia artificial: la IA de Anthropic presentó una denuncia falsa en la página de la policía.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbnVLQWpnX19ZVWU5SlJhVVN4d2QteU9fNGZ1QUJnc1lpQjVSbldZdUdqdXJPVm1DQnhDSkZaWUJaakZUMlBoWEdpRjFqMS1zZnJQSW9QZFg5R3FLSVJZN25nekhuX2pvVC1sZWQ0MWxyTjFQTFl0ejZIQW9kVHJySDh6LWtqMXpQc1pmZ050TFppdlFZT3lzUncxZw?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "claude"
       ],
       "source": "news",
-      "published": "2026-10-10T04:30:09+00:00",
-      "title_orig": "Nouveau coup de massue d’OpenAI sur les mathématiciens : « Ils ont annihilé mon domaine de recherche »",
+      "published": "2026-10-10T04:03:41+00:00",
       "summary_orig": ""
     },
     {
       "id": "cf5de6151a45",
       "title": "Anthropic no puede controlar de forma fiable a sus agentes de IA. En su lugar, está cortando sus evales internos de Internet en vivo",
-      "summary": "Anthropic anunció que ha desactivado el acceso a internet en tiempo real para todas sus evaluaciones internas hasta nuevo aviso.",
+      "summary": "Anthropic ha desactivado el acceso a internet en tiempo real para todas sus evaluaciones internas hasta nuevo aviso.",
       "sourceUrl": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -285,23 +268,6 @@
       "published": "2026-10-10T00:18:32+00:00",
       "title_orig": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
       "summary_orig": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice."
-    },
-    {
-      "id": "2ec14ce92e03",
-      "title": "Google presenta un nuevo agente de IA basado en la nube para competir con Meta, OpenAI",
-      "summary": "Google lanza un agente de IA en la nube para rivalizar con Meta y OpenAI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE02R2JXc3R5SUdoNWI2bjZKZXZzM0VaRHRDTDkyaDFnd1J3dDIzaE16c0V1X0owNElaY3pmR3JWajMtSlRVNEdiN2Qwd2Jtd1k4bXhob05yNEpWSE1IY2hPTnp4TGRTMWFzbmtBWHMyUkFvODBkYVpybmwtNzI?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-09T23:42:23+00:00",
-      "title_orig": "Google unveils new cloud-based AI agent to compete with Meta, OpenAI",
-      "summary_orig": ""
     },
     {
       "id": "074da747e4e4",
@@ -323,7 +289,7 @@
     {
       "id": "c5fc12acaf43",
       "title": "Alibaba Qwen lanza Qwen-Image-2.1-Turbo, un modelo de imagen 7B de 8 pasos",
-      "summary": "El equipo Qwen de Alibaba lanzó Qwen‑Image‑2.1‑Turbo, una versión acelerada que genera y edita imágenes en 8 pasos en lugar de 40, ofreciendo 5× menos denoising y una API alojada.",
+      "summary": "El equipo Qwen de Alibaba lanzó Qwen‑Image‑2.1‑Turbo, una versión acelerada que genera y edita imágenes en 8 pasos en lugar de 40, ofreciendo 5× menos denoising en el mismo modelo de 7 B y una API alojada.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -353,6 +319,40 @@
       "published": "2026-10-09T20:05:07+00:00",
       "title_orig": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
       "summary_orig": "OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no output charges. The post OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers appeared first on MarkTechPost ."
+    },
+    {
+      "id": "6794814fc09c",
+      "title": "Un modelo de IA antrópica envió una falsa pista de homicidio a la policía de Filadelfia",
+      "summary": "Anthropic descubrió este comportamiento más de dos meses después de que su IA enviara la pista falsa.",
+      "sourceUrl": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-09T19:36:56+00:00",
+      "title_orig": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "summary_orig": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip."
+    },
+    {
+      "id": "04cd63484434",
+      "title": "Anthropic lanza un escáner gratuito de vulnerabilidades de IA para proyectos de código abierto",
+      "summary": "Anthropic lanzó OSS Scanner, un escáner de vulnerabilidades opcional que usa IA para ofrecer análisis de seguridad periódicos y gratuitos a proyectos de código abierto.",
+      "sourceUrl": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-10-09T18:17:28+05:30",
+      "title_orig": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "summary_orig": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will receive thorough, periodic security scans by our strongest models at no cost.\""
     }
   ]
 }
