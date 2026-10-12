@@ -1,358 +1,5 @@
 [
   {
-    "fecha": "2026-09-03",
-    "total": 37,
-    "resumen_dia": "Hoy se recopilaron 92 piezas sobre IA (67 novedades, 7 usos reales, 12 economía, 6 futuro). Abajo van las más recientes, agrupadas por tema. Lo más visible: 新版GPT Image 2.5已经能伪造GPT-6发布会了.",
-    "por_seccion": {
-      "novedades": [
-        {
-          "titulo": "新版GPT Image 2.5已经能伪造GPT-6发布会了",
-          "url": "https://www.qbitai.com/2026/09/483948.html",
-          "fuente": "QbitAI",
-          "resumen": "提示词：用手机拍摄一张写实风格的手写文章照片，文章是用铅笔写在8.5&#215;11英寸的横格纸上的，字迹要像爱因斯坦的笔迹，内容是关于世界货币的历史。确保字迹有明显的爱因斯坦式变化。在右上角添加一点咖啡渍。",
-          "seccion": "novedades",
-          "pais": "global",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
-          "url": "https://www.qbitai.com/2026/09/483898.html",
-          "fuente": "QbitAI",
-          "resumen": "GPT-6 Astra是世界上最智能、最协调的模型，为Computer use、Browser Use、软件工程、网络安全、科学和专业工作树立了新的标杆。",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Abliteration.ai is making a business out of removing AI guardrails",
-          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Four major AI models suffer rare overlapping downtime",
-          "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "OpenAI launches Astra, its powerful (and controversial) new model",
-          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-          "fuente": "TechCrunch AI",
-          "resumen": "OpenAI claims that Astra represents &quot;a new frontier on computer and browser use,&quot; and that it handles tasks with unmatched &quot;speed, accuracy, and safety.&quot;",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "OpenAI’s next big AI model has ‘entered the AGI era’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-          "fuente": "The Verge AI",
-          "resumen": "OpenAI just released GPT-6 Astra. The company calls it its “most intelligent” model yet and is trying to rebuild enterprise trust after the Hugging Face hack.",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Ollie is betting its focus on privacy can help it win the AI assistant race",
-          "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Nvidia launches free tool that links idle computers into a personal AI data center",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-          "fuente": "The Verge AI",
-          "resumen": "Nvidia’s new Personal AI Router (PAIR) links the computers on your home network to locally tackle AI inference tasks — for use with Nvidia GPUs as well as recent Macs.",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Google now lets you chat with Gmail, Docs, and Keep",
-          "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-          "fuente": "The Verge AI",
-          "resumen": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "ChatGPT, Grok, and Claude all went down at the same time",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-          "fuente": "The Verge AI",
-          "resumen": "ChatGPT, Grok, and Claude all experienced issues at the same time, with some users unable to prompt the chatbots.",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-          "fuente": "DeepMind",
-          "resumen": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
-          "seccion": "novedades",
-          "pais": "global",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
-          "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
-          "fuente": "TechCrunch AI",
-          "resumen": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, an...",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        }
-      ],
-      "usos": [
-        {
-          "titulo": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-          "fuente": "TechCrunch AI",
-          "resumen": "&quot;The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globall...",
-          "seccion": "usos",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Proactive cyber defense for governments and enterprises",
-          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-          "fuente": "DeepMind",
-          "resumen": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-          "seccion": "usos",
-          "pais": "global",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Proactive cyber defense for governments and enterprises",
-          "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-          "fuente": "Google AI",
-          "resumen": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-          "seccion": "usos",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-          "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
-          "seccion": "usos",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Facilitating AI integration with simplicity at scale",
-          "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-          "fuente": "MIT Tech Review AI",
-          "resumen": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds ...",
-          "seccion": "usos",
-          "pais": "global",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "How AI-native companies turn workflows into operating capability",
-          "url": "https://openai.com/index/ai-native-company-workflows",
-          "fuente": "OpenAI",
-          "resumen": "",
-          "seccion": "usos",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-          "fuente": "OpenAI",
-          "resumen": "",
-          "seccion": "usos",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        }
-      ],
-      "economia": [
-        {
-          "titulo": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-          "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The high-profile startup&#039;s annual revenue run rate stands at over $100 million.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
-          "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Daybreak for Frontline Defenders: $1B to protect essential services",
-          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-          "fuente": "OpenAI",
-          "resumen": "",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-          "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Revealing the Builders Stage agenda for TechCrunch Disrupt 2026. Join 10,000 founders, VCs, and operators on October 13-15 in San Francisco. Register here.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-          "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
-          "fuente": "The Verge AI",
-          "resumen": "﻿Letting models train on copyrighted work will preserve ‘American prosperity,’ it says.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Wonderful more than doubles its valuation to $5B in under 6 months",
-          "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Adobe acquires Indian market intelligence startup Rilo",
-          "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
-          "fuente": "TechCrunch AI",
-          "resumen": "This is Adobe&#039;s second acquisition out of India after Rephrase.ai in 2023",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "A milestone in expanding access to AI",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "fuente": "OpenAI",
-          "resumen": "",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
-          "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
-          "seccion": "economia",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Piloting the world's first double-blind AI evaluations",
-          "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-          "fuente": "DeepMind",
-          "resumen": "Building trust in proprietary model benchmarks using cryptographically secure environments",
-          "seccion": "economia",
-          "pais": "global",
-          "fecha": "2026-09-03"
-        }
-      ],
-      "futuro": [
-        {
-          "titulo": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "fuente": "TechCrunch AI",
-          "resumen": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who &quot;contribute&quot; to the development o...",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "India’s richest man now wants to turn aging computers into AI-ready PCs",
-          "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "ChatGPT and Reddit now face EU's toughest online safety rules",
-          "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Explosive growth comes with a new regulatory burden in the European Union.",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "OpenAI supports California’s bill to advance youth AI safety",
-          "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-          "fuente": "OpenAI",
-          "resumen": "",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        },
-        {
-          "titulo": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
-          "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-09-03"
-        }
-      ]
-    },
-    "por_pais": {
-      "usa": 32,
-      "china": 0,
-      "global": 5
-    }
-  },
-  {
     "fecha": "2026-09-04",
     "total": 71,
     "por_seccion": {
@@ -23411,6 +23058,1111 @@
         "url": "https://www.artificialintelligence-news.com/feed/"
       }
     ],
-    "resumen_dia": "El sector de IA sigue impulsando alianzas estratégicas, con Atlassian y OpenAI ampliando su colaboración para transformar el conocimiento empresarial en acciones, mientras Apple incorpora talento y tecnología de la startup de podcasts Huxe. A la vez, la industria busca suavizar la oposición a los centros de datos eliminando los acuerdos de confidencialidad, y expertos señalan que la IA de voz aún no ha alcanzado su momento “ChatGPT”. En el ámbito de hardware y robótica, Sumitomo Bakelite aumenta su producción de materiales de empaquetado de chips en China y los avances robóticos siguen lejos de impactar la vida cotidiana, mientras que a nivel financiero el XRP Ledger corrige una vulnerabilidad de una década que podría haber generado miles de millones de dólares de forma artificial."
+    "resumen_dia": "La industria de IA busca suavizar la resistencia de los centros de datos eliminando los acuerdos de confidencialidad, mientras que ejecutivos afirman que la IA de voz aún no ha alcanzado su momento al estilo ChatGPT. En el ámbito empresarial, Atlassian y OpenAI amplían su colaboración para transformar el conocimiento interno en acciones, y Sumitomo Bakelite incrementa su producción de materiales de empaquetado de chips en China ante el auge de la IA. Paralelamente, se discuten avances y retos, desde la creación de virus diseñados por IA y la integración de agentes de IA en entornos corporativos, hasta la expectativa de que los progresos robóticos tardarán en impactar la vida cotidiana."
+  },
+  {
+    "fecha": "2026-10-12",
+    "total": 668,
+    "por_seccion": {
+      "novedades": [
+        {
+          "titulo": "Will the HomeView be Apple’s first smart home success?",
+          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+          "url": "https://www.qbitai.com/2026/10/502654.html",
+          "fuente": "QbitAI",
+          "resumen": "游戏打到21:0，AI甚至不用再调用大模型了",
+          "seccion": "novedades",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+          "fuente": "The Verge AI",
+          "resumen": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader popu...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "智谱新模型，490 tokens/s！",
+          "url": "https://www.qbitai.com/2026/10/502649.html",
+          "fuente": "QbitAI",
+          "resumen": "GLM「速度仙人」来了？",
+          "seccion": "novedades",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+          "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+          "fuente": "TechCrunch AI",
+          "resumen": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Tech chief says EU can fend off rogue AI risk: Report",
+          "url": "https://cointelegraph.com/news/tech-chief-says-eu-can-fend-off-rogue-ai-risk-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "fuente": "Cointelegraph",
+          "resumen": "Recent incidents at OpenAI ‌and Anthropic stoke global concerns and fears that rogue AI agents may venture beyond human control.",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Hong Kong’s workers fear AI-driven retirement disruptions, only 20% feel prepared: survey",
+          "url": "https://www.scmp.com/business/banking-finance/article/3370504/hong-kong-workers-fear-ai-driven-disruption-retirement-only-20-feel-prepared-survey?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "More than half of Hong Kong’s working adults believe artificial intelligence will make their retirement path more unpredictable than previous generations, yet only one in five feel financially prepare...",
+          "seccion": "novedades",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+          "url": "https://arxiv.org/abs/2610.12493",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of t...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+          "url": "https://arxiv.org/abs/2610.12536",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solution...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+          "url": "https://arxiv.org/abs/2610.12542",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that c...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+          "url": "https://arxiv.org/abs/2610.12593",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents req...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+          "url": "https://arxiv.org/abs/2610.12596",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short a...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+          "url": "https://arxiv.org/abs/2610.12762",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12762v1 Announce Type: new Abstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. H...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+          "url": "https://arxiv.org/abs/2610.12781",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12781v1 Announce Type: new Abstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Neural networks are more modular than single neurons suggest",
+          "url": "https://arxiv.org/abs/2610.12842",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12842v1 Announce Type: new Abstract: Neural networks routinely develop representations in which individual neurons contribute to multiple distinct functions, leading to the widespread view ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Towards Defining, Measuring, and Leveraging Creativity in AI Applications",
+          "url": "https://arxiv.org/abs/2610.12845",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12845v1 Announce Type: new Abstract: Despite extensive research, computational creativity still lacks a conceptually grounded, practically relevant, and empirically applicable formal defini...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Mitigating Capability Degradation in LLM Self-Improvement via Representation Geometry Regularization",
+          "url": "https://arxiv.org/abs/2610.12855",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12855v1 Announce Type: new Abstract: On-Policy Self-distillation is a self-improvement paradigm that enables large language models (LLMs) to improve their capabilities by leveraging the sam...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+          "url": "https://arxiv.org/abs/2610.12872",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12872v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate strong individual task performance, yet still struggle to collaborate with users over extended, multi-turn inte...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "One-Step Text Generation by Seq-Drifting",
+          "url": "https://arxiv.org/abs/2610.12879",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12879v1 Announce Type: new Abstract: Diffusion language models generate tokens in parallel, but still require multiple sampling steps to produce high-quality text. In this paper, we investi...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+          "url": "https://arxiv.org/abs/2610.12881",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12881v1 Announce Type: new Abstract: Understanding and manipulating spatial relations is fundamental to AI systems that reason about physical environments and construct grounded world model...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "DeFiRank: Federated Pairwise Ranking for Governance in Decentralized Financial Networks",
+          "url": "https://arxiv.org/abs/2610.12916",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12916v1 Announce Type: new Abstract: Existing governance approaches in decentralized financial networks rely on manual review processes conducted by human committees, which introduces subje...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
+          "url": "https://arxiv.org/abs/2610.12917",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12917v1 Announce Type: new Abstract: AI shopping assistants increasingly influence which products consumers consider. We study retail assortment planning under AI mediation, where a retaile...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Teaching neural decoders with language",
+          "url": "https://arxiv.org/abs/2610.12921",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12921v1 Announce Type: new Abstract: Brain-computer interfaces decode neural activity, yet class-label supervision (CLS) leaves relationships among classes implicit. We propose Language as ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Collaborative Learning and Reasoning over Model Slices",
+          "url": "https://arxiv.org/abs/2610.12927",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12927v1 Announce Type: new Abstract: Large language models (LLMs) excel across diverse tasks, benefiting from knowledge priors, in-context reasoning, and test-time computation. Despite thes...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        }
+      ],
+      "usos": [
+        {
+          "titulo": "China’s factories leaping straight into agentic AI and taking it global: Black Lake CEO",
+          "url": "https://www.scmp.com/tech/big-tech/article/3370490/chinas-factories-leaping-straight-agentic-ai-and-taking-it-global-black-lake-ceo?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "China’s manufacturing sector is leapfrogging straight into the era of agentic artificial intelligence and is now exporting that playbook to global supply chains, according to the CEO of Black Lake, a ...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+          "url": "https://arxiv.org/abs/2610.12789",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12789v1 Announce Type: new Abstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can ...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "DP-MIND: Differentially private memory-guided Long context Inference",
+          "url": "https://arxiv.org/abs/2610.13132",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13132v1 Announce Type: new Abstract: LLM-as-a-Service has become a dominant paradigm for accessing large language models without requiring local deployment. However, the process raises seve...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
+          "url": "https://arxiv.org/abs/2610.12849",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12849v1 Announce Type: cross Abstract: Current software engineering agents are evaluated predominantly inside isolated sandboxes against synchronous local tests. However, deploying features...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "When MLLMs miss what humans read: diagnosing and learning to read squint text",
+          "url": "https://arxiv.org/abs/2610.13465",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13465v1 Announce Type: cross Abstract: Multimodal LLMs can fail to read text embedded in an image's coarse structure (text a human recovers by squinting) and report that no text is present....",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Agents' Last Exam",
+          "url": "https://arxiv.org/abs/2606.05405",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2606.05405v3 Announce Type: replace Abstract: Recent AI systems have achieved strong results on a wide range of benchmarks, yet these gains have not translated into economically meaningful deplo...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
+          "url": "https://arxiv.org/abs/2606.19821",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2606.19821v2 Announce Type: replace Abstract: Key Performance Measurement (KPM) forecasting is essential for proactive network management of 5G and next-generation telecom networks. However, exi...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Hierarchical Experimentalist Agents",
+          "url": "https://arxiv.org/abs/2606.29315",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2606.29315v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly used to act in the real world and augment human decision-making, yet most systems rely on parametric k...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "ResidencyRL: Reinforcement Learning in Simulated Clinical Environments",
+          "url": "https://arxiv.org/abs/2608.07418",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2608.07418v2 Announce Type: replace Abstract: In medical education, physicians convert academic knowledge into clinical expertise through residency: years of training across thousands of encount...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "WoundAmbit: Bridging State-of-the-Art Semantic Segmentation and Real-World Wound Care",
+          "url": "https://arxiv.org/abs/2504.06185",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2504.06185v3 Announce Type: replace-cross Abstract: Chronic wounds affect a large population, particularly the elderly and diabetic patients, who often exhibit limited mobility and co-existing h...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Preference-Conditioned Multi-Objective Reinforcement Learning for Tactical Decision Making in Heavy-Duty Vehicles",
+          "url": "https://arxiv.org/abs/2601.18783",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2601.18783v3 Announce Type: replace-cross Abstract: A central difficulty in applying reinforcement learning to real-world applications such as autonomous driving is that conventional scalar rewa...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Sampling-Based Safe Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2605.19469",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2605.19469v2 Announce Type: replace-cross Abstract: Safe exploration remains a fundamental challenge in reinforcement learning (RL), limiting the deployment of RL agents in the real world. We pr...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "RoboMME-Interference: Benchmarking Robot Memory Under Interference",
+          "url": "https://arxiv.org/abs/2606.22338",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2606.22338v4 Announce Type: replace-cross Abstract: Robots deployed in realistic settings will accumulate experience across many sessions and tasks over their deployment. The robot's tasks may o...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Video2World: Benchmarking Coding Agents for Interactive World Modeling from Embodied Videos",
+          "url": "https://arxiv.org/abs/2610.04432",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.04432v3 Announce Type: replace-cross Abstract: Building interactive simulators from real-world observations is a promising way to scale embodied data, but current pipelines still rely heavi...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+          "url": "https://arxiv.org/abs/2610.13166",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.13166v1 Announce Type: new Abstract: Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Revisiting Accent Classification with DistilHuBERT: Speaker-Disjoint Evaluation and Cross-Corpus Generalization",
+          "url": "https://arxiv.org/abs/2610.13440",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.13440v1 Announce Type: cross Abstract: Recent accent classification systems can achieve high accuracy in standard in-corpus evaluations. However, when speakers overlap between the training ...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Lychee-Reranker: Fast but Not Late Interaction for Compressed Document Reranking",
+          "url": "https://arxiv.org/abs/2606.22807",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2606.22807v4 Announce Type: replace Abstract: As retrieval systems scale, effective and efficient reranking becomes increasingly important. However, most existing encoder- and decoder-based rera...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Rethinking Entropy Allocation in LLM-based ASR: Understanding the Dynamics between Speech Encoders and LLMs",
+          "url": "https://arxiv.org/abs/2604.08003",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2604.08003v2 Announce Type: replace-cross Abstract: Integrating large language models (LLMs) into automatic speech recognition (ASR) has become a dominant paradigm. Although recent LLM-based ASR...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Turning AI Ambition into Real-World Advantage",
+          "url": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3369896/turning-ai-ambition-real-world-advantage?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "When executives talk about artificial intelligence today, they often talk in absolutes: an existential threat, a historic opportunity, the next great productivity leap. For Amitabh Sarkar, Tata Commun...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Japanese semiconductor materials giant Sumitomo Bakelite plans to expand production of advanced chip packaging materials in China and Singapore, marking the second such announcement for its Chinese op...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        }
+      ],
+      "economia": [
+        {
+          "titulo": "Former HSBC executive launches wealth platform powered by team of AI agents",
+          "url": "https://www.scmp.com/business/money/wealth/article/3370565/former-hsbc-executive-launches-wealth-platform-powered-team-ai-agents?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "A former top executive at HSBC has launched an artificial intelligence-driven wealth management start-up, setting her sights on a billion-dollar valuation and betting that AI can transform how individ...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+          "url": "https://arxiv.org/abs/2610.12933",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12933v1 Announce Type: new Abstract: Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can subs...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Management",
+          "url": "https://arxiv.org/abs/2610.13075",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13075v1 Announce Type: new Abstract: Corpus-level long-context reasoning requires agents to acquire and integrate evidence across document collections that exceed their context windows. Exi...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
+          "url": "https://arxiv.org/abs/2610.13092",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13092v1 Announce Type: new Abstract: AI agents depend on repeated decisions to accomplish tasks, with large language models (LLMs) commonly serving as their core decision makers. The recent...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Continually Post-training Small Models via Synthetic Self-distillation",
+          "url": "https://arxiv.org/abs/2610.13113",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13113v1 Announce Type: cross Abstract: Continual post-training faces a dual challenge of acquisition and retention: models must learn new capabilities while preserving prior knowledge. Whil...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Collective Autonomous Vehicle Routing Needs Social Awareness for Coexistence with Human Drivers",
+          "url": "https://arxiv.org/abs/2610.13439",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13439v1 Announce Type: cross Abstract: Collective Autonomous Vehicle (AV) route choices in real-world traffic networks can create externalities for Human-Driven Vehicles (HDVs), as routes t...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+          "url": "https://arxiv.org/abs/2610.13732",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13732v1 Announce Type: cross Abstract: Scaling generalist robotic policies is limited by the high cost of collecting embodied interaction data. Large-scale egocentric human videos offer a r...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2610.13737",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13737v1 Announce Type: cross Abstract: Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure th...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Can Agents Price a Reaction? Evaluating LLMs on Chemical Cost Reasoning",
+          "url": "https://arxiv.org/abs/2605.07251",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2605.07251v2 Announce Type: replace Abstract: Large Language Models (LLMs) have become increasingly capable as tool-using agents, with benchmarks spanning diverse general agentic tasks. Yet rigo...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Do More Agents Help? Evaluating Accuracy and Cost in LLM Multi-Agent Workflows",
+          "url": "https://arxiv.org/abs/2606.05670",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2606.05670v2 Announce Type: replace Abstract: Choosing whether to replace a single-agent controller requires evidence on both task performance and inference expenditure. We present BenchAgent, a...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Fast LapSum: Exact Differentiable Top-$k$ at Million Scale",
+          "url": "https://arxiv.org/abs/2608.06912",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2608.06912v3 Announce Type: replace Abstract: Selecting the top-$k$ elements is a fundamental operation for inducing sparsity in large-scale models and optimization problems, enabling robust exp...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive",
+          "url": "https://arxiv.org/abs/2610.03861",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.03861v2 Announce Type: replace-cross Abstract: Foundation models and large-scale human data provide rich sources of manipulation intent, but translating this intent into multi-fingered robo...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "AI-Based On-Board Maritime Object Detection for Earth Observation Payload Data Reduction on Versal Embedded Hardware",
+          "url": "https://arxiv.org/abs/2610.12182",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12182v2 Announce Type: replace-cross Abstract: Very-high-resolution Earth-observation satellites acquire more data than they can store and downlink, while in maritime surveillance the vesse...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Unreliable Narrator Framing as a Cost-effective Mechanism for Satire Explanation of Australian and American Satirical News",
+          "url": "https://arxiv.org/abs/2610.12863",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.12863v1 Announce Type: new Abstract: Satirical news is a unique form of misinformation: it is intended to be humorous by the original publication source but can be misinterpreted. Explanati...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Time Delay System for Sequence Modeling",
+          "url": "https://arxiv.org/abs/2610.12864",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.12864v1 Announce Type: new Abstract: Existing sequence models share a critical limitation: they lack an explicit, interpretable mechanism for content-aware temporal recall. LSTMs compress e...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "RAMP: Recurrent Adaptive Mixed Precision for Efficient Prefill in Recurrent-Depth Language Models",
+          "url": "https://arxiv.org/abs/2610.13041",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.13041v1 Announce Type: new Abstract: Recurrent-depth language models improve inference-time reasoning by repeatedly applying a shared network to refine internal representations, but the add...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
+          "url": "https://arxiv.org/abs/2610.13627",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.13627v1 Announce Type: new Abstract: Evaluating large language models (LLMs) on AMLworld's smallest test splits is costly because each of over a million targets requires a separate graph pr...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "O\\'ido: Open-Vocabulary Speech Recognition on a $5 Microcontroller without a Neural Accelerator",
+          "url": "https://arxiv.org/abs/2610.13447",
+          "fuente": "arXiv cs.CL",
+          "resumen": "arXiv:2610.13447v1 Announce Type: cross Abstract: Speech recognition on low-cost microcontrollers is, in practice, limited to keyword spotting or a fixed list of commands. We present O\\'ido, an infere...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+          "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
+          "fuente": "MarkTechPost",
+          "resumen": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-f...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+          "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Is Apple hoping to get into the AI-generated podcast business?",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        }
+      ],
+      "futuro": [
+        {
+          "titulo": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
+          "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+          "fuente": "SecurityWeek",
+          "resumen": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeare...",
+          "seccion": "futuro",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+          "url": "https://arxiv.org/abs/2610.12598",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+          "url": "https://arxiv.org/abs/2610.12655",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users m...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+          "url": "https://arxiv.org/abs/2610.12659",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12659v1 Announce Type: new Abstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+          "url": "https://arxiv.org/abs/2610.12813",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12813v1 Announce Type: new Abstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and secur...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "OGPO: Offline Goal-conditioned Policy Optimization for Recoverable Vision-Language-Action Models",
+          "url": "https://arxiv.org/abs/2610.12914",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12914v1 Announce Type: new Abstract: Vision-language-action (VLA) models have shown strong promise in robotic manipulation, yet their post-training still predominantly relies on trajectory-...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs",
+          "url": "https://arxiv.org/abs/2610.13078",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13078v1 Announce Type: new Abstract: Safety-aligned large language models (LLMs) remain vulnerable to jailbreaks and can over-refuse benign requests. Understanding these failures requires d...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance",
+          "url": "https://arxiv.org/abs/2610.13479",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13479v1 Announce Type: new Abstract: Generating edge case scenarios is crucial for training, testing and safety assuring autonomous systems. This identifies hazardous failures to increase s...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Branching On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2610.13481",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13481v1 Announce Type: new Abstract: On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at e...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2610.13521",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13521v1 Announce Type: new Abstract: Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating th...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "MENTOR: Learning from Failure with On-Policy Pedagogical Intervention",
+          "url": "https://arxiv.org/abs/2610.13594",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13594v1 Announce Type: new Abstract: Reinforcement Learning from Verifiable Rewards (RLVR) is a key driver for Large Reasoning Models, but it is vulnerable to \"zero-reward collapse\", a trai...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning",
+          "url": "https://arxiv.org/abs/2610.13744",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13744v1 Announce Type: new Abstract: On-policy self-distillation promises to replace the sparse outcome signal of verifiable-reward RL with dense token-level credit: a teacher conditioned o...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
+          "url": "https://arxiv.org/abs/2610.02626",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.02626v2 Announce Type: cross Abstract: Vision-language-action (VLA) models increasingly incorporate intermediate reasoning to improve robotic manipulation, yet existing approaches primarily...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction",
+          "url": "https://arxiv.org/abs/2610.12507",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12507v1 Announce Type: cross Abstract: Sensing-aided beam prediction can reduce the beam-training overhead of millimeter-wave (mmWave) systems by leveraging environmental information from c...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+          "url": "https://arxiv.org/abs/2610.12545",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12545v1 Announce Type: cross Abstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revi...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+          "url": "https://arxiv.org/abs/2610.12818",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12818v1 Announce Type: cross Abstract: Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically tra...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents",
+          "url": "https://arxiv.org/abs/2610.12957",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12957v1 Announce Type: cross Abstract: Embodied agents must translate multimodal observations and user requests into executable actions while adapting to product constraints, changing goals...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Generalized Proximal Policy Optimization: Unifying LLM RL Algorithms from the Perspective of Divergence",
+          "url": "https://arxiv.org/abs/2610.13015",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13015v1 Announce Type: cross Abstract: Reinforcement learning has become the foundational paradigm for enhancing the reasoning capabilities of LLMs. Yet the dominant approach, Proximal Poli...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Evolving Creatives with Clicks: CTR-Driven Advertising image Editing via Attribute Disentanglement and Preference Alignment",
+          "url": "https://arxiv.org/abs/2610.13066",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13066v1 Announce Type: cross Abstract: The optimization objective for e-commerce advertising creatives has shifted from aesthetic quality to online business metrics like click-through rate ...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Beyond Actions: Learning Future Operation Targets for Vision-Language-Action Models",
+          "url": "https://arxiv.org/abs/2610.13212",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.13212v1 Announce Type: cross Abstract: Actions specify what a robot should execute, but do not describe what those commands will achieve. Vision-language-action (VLA) policies nevertheless ...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        }
+      ],
+      "seguridad": [
+        {
+          "titulo": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+          "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+          "fuente": "SecurityWeek",
+          "resumen": "CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
+          "url": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "fuente": "Cointelegraph",
+          "resumen": "The Financial Stability Board flagged cross-border stablecoin risks and AI-related cybersecurity threats while urging G20 policymakers to support stronger safeguards.",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+          "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+          "fuente": "The Hacker News",
+          "resumen": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastru...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+          "url": "https://arxiv.org/abs/2610.12822",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12822v1 Announce Type: new Abstract: Multi-agent systems are increasingly used to solve coding tasks by coordinating agents that share code and plans. These agents are often optimized with ...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Cancerous Backdoor Attack: Gradual Activation via Invisible Tokens and A Stage Controller",
+          "url": "https://arxiv.org/abs/2610.12644",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2610.12644v1 Announce Type: cross Abstract: Backdoor Attacks on Large Language Models (LLMs) typically follow a trigger-response pattern, where satisfying a trigger condition activates a single ...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+          "url": "https://arxiv.org/abs/2607.21552",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2607.21552v2 Announce Type: replace Abstract: Vision-language models (VLMs) can behave very differently depending on whether the same underlying problem is presented textually or visually. This ...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance",
+          "url": "https://arxiv.org/abs/2608.10434",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2608.10434v3 Announce Type: replace Abstract: Machine learning-based Intrusion Detection Systems (IDS) have demonstrated superior performance in securing Unmanned Aerial Vehicle (UAV) networks. ...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Can escalation channels redirect reward hacking toward defect disclosure?",
+          "url": "https://arxiv.org/abs/2608.29460",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2608.29460v3 Announce Type: replace Abstract: When coding agents encounter defective test infrastructure they may reward-hack: hardcoding outputs or editing test files to pass tests they cannot ...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Auditing Prompt Injection Defenses Before They Reach Users: What Strong Adversaries Reveal",
+          "url": "https://arxiv.org/abs/2505.15738",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2505.15738v3 Announce Type: replace-cross Abstract: Large language models are increasingly deployed in user-facing products that handle sensitive personal data while interacting with untrusted e...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+          "url": "https://arxiv.org/abs/2506.09956",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2506.09956v2 Announce Type: replace-cross Abstract: Indirect prompt injection attacks exploit a fundamental weakness of LLMs: executing unauthorized tasks from untrusted sources. Despite the pra...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Defense-as-Skill: Evolving Runtime Guard Skill for Skill-Augmented Agents",
+          "url": "https://arxiv.org/abs/2609.01487",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.01487v2 Announce Type: replace-cross Abstract: Skill-augmented agents load reusable skills as persistent runtime context, improving task performance but also giving malicious skills a durab...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "What Makes Adversarial Examples Transfer Across Deepfake Detectors?",
+          "url": "https://arxiv.org/abs/2609.10002",
+          "fuente": "arXiv cs.AI",
+          "resumen": "arXiv:2609.10002v2 Announce Type: replace-cross Abstract: Deepfake detectors remain vulnerable to transfer-based black-box attacks, in which adversarial examples are generated on a source surrogate mo...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest",
+          "url": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "fuente": "Cointelegraph",
+          "resumen": "An user reports buying a tampered Ledger from a big retailer in Europe. Security researchers use AI to uncover a “$94 billion” XRP bug — but receive just a $250K bounty.",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+          "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+          "fuente": "BleepingComputer",
+          "resumen": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+          "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+          "fuente": "MarkTechPost",
+          "resumen": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+          "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+          "fuente": "The Hacker News",
+          "resumen": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+          "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+          "fuente": "MarkTechPost",
+          "resumen": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+          "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+          "fuente": "BleepingComputer",
+          "resumen": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on th...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+          "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+          "fuente": "BleepingComputer",
+          "resumen": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that conn...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        },
+        {
+          "titulo": "FBI Arrests Executive at Ransomware Negotiation Firm",
+          "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+          "fuente": "Krebs on Security",
+          "resumen": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that ...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-12"
+        }
+      ]
+    },
+    "por_pais": {
+      "usa": 561,
+      "china": 28,
+      "global": 79
+    },
+    "fuentes": [
+      {
+        "nombre": "OpenAI",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "nombre": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/"
+      },
+      {
+        "nombre": "DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml"
+      },
+      {
+        "nombre": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/feed/"
+      },
+      {
+        "nombre": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/feed/"
+      },
+      {
+        "nombre": "MarkTechPost",
+        "url": "https://www.marktechpost.com/feed/"
+      },
+      {
+        "nombre": "BAIR Berkeley",
+        "url": "https://bair.berkeley.edu/blog/feed.xml"
+      },
+      {
+        "nombre": "Google Developers",
+        "url": "https://developers.googleblog.com/feeds/posts/default"
+      },
+      {
+        "nombre": "Hugging Face",
+        "url": "https://huggingface.co/blog/feed.xml"
+      },
+      {
+        "nombre": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      },
+      {
+        "nombre": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      {
+        "nombre": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+      },
+      {
+        "nombre": "Ars Technica AI",
+        "url": "https://arstechnica.com/ai/feed/"
+      },
+      {
+        "nombre": "Synced",
+        "url": "https://syncedreview.com/feed/"
+      },
+      {
+        "nombre": "QbitAI",
+        "url": "https://www.qbitai.com/feed"
+      },
+      {
+        "nombre": "SCMP Business",
+        "url": "https://www.scmp.com/rss/92/feed"
+      },
+      {
+        "nombre": "arXiv cs.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI"
+      },
+      {
+        "nombre": "arXiv cs.CL",
+        "url": "https://rss.arxiv.org/rss/cs.CL"
+      },
+      {
+        "nombre": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml"
+      },
+      {
+        "nombre": "Wired",
+        "url": "https://www.wired.com/feed/rss"
+      },
+      {
+        "nombre": "ScienceDaily AI",
+        "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      },
+      {
+        "nombre": "ScienceDaily Biotech",
+        "url": "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"
+      },
+      {
+        "nombre": "Nature Biotech",
+        "url": "https://www.nature.com/nbt/rss/current"
+      },
+      {
+        "nombre": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+      },
+      {
+        "nombre": "Cointelegraph",
+        "url": "https://cointelegraph.com/rss"
+      },
+      {
+        "nombre": "The Hacker News",
+        "url": "https://feeds.feedburner.com/TheHackersNews"
+      },
+      {
+        "nombre": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/atom/"
+      },
+      {
+        "nombre": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/"
+      },
+      {
+        "nombre": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/feed/"
+      },
+      {
+        "nombre": "SecurityWeek",
+        "url": "https://www.securityweek.com/feed/"
+      },
+      {
+        "nombre": "Dark Reading",
+        "url": "https://www.darkreading.com/rss.xml"
+      },
+      {
+        "nombre": "CISA Advisories",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+      },
+      {
+        "nombre": "Google Security Blog",
+        "url": "https://security.googleblog.com/feeds/posts/default"
+      },
+      {
+        "nombre": "AI News",
+        "url": "https://www.artificialintelligence-news.com/feed/"
+      }
+    ],
+    "resumen_dia": "Apple parece estar apostando por su primera gran victoria en el hogar inteligente con el nuevo HomeView, mientras que Huawei muestra cómo su IA supera a humanos en videojuegos usando menos acciones. En China, fábricas están adoptando IA agente a gran escala y una startup de gestión patrimonial lanza una plataforma impulsada por equipos de agentes de IA, mientras que en EE. UU. la industria busca suavizar la oposición a los centros de datos eliminando los acuerdos de confidencialidad. En el ámbito académico, varios trabajos exploran modelos de razonamiento agente, memoria privada diferencial y mejoras en la eficiencia de los LLMs, señalando una tendencia hacia IA más autónoma y responsable."
   }
 ]
