@@ -347,8 +347,38 @@ export function filterSignals(
   });
 }
 
+const DIACRITICS = /\p{M}/gu;
+
+/** Minúsculas sin acentos: el espacio donde vive toda comparación de búsqueda. */
+export function foldText(s: string): string {
+  return s.normalize("NFD").replace(DIACRITICS, "").toLowerCase();
+}
+
+/** foldText + mapa de posiciones: folded[i] proviene del carácter map[i] de s. */
+export function foldWithMap(s: string): { folded: string; map: number[] } {
+  const chars: string[] = [];
+  const map: number[] = [];
+  for (let i = 0; i < s.length; i++) {
+    const piece = s[i].normalize("NFD").replace(DIACRITICS, "").toLowerCase();
+    for (const ch of piece) {
+      chars.push(ch);
+      map.push(i);
+    }
+  }
+  return { folded: chars.join(""), map };
+}
+
+/** Query → tokens AND: multi-palabra, sin acentos, sin vacíos, tope 8. */
+export function queryTokens(q: string): string[] {
+  return foldText(q)
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 8);
+}
+
 export function matchesQuery(s: Signal, q: string): boolean {
-  if (!q) return true;
+  const tokens = queryTokens(q);
+  if (!tokens.length) return true;
   const hay = [
     s.title,
     s.summary,
@@ -358,10 +388,27 @@ export function matchesQuery(s: Signal, q: string): boolean {
       const m = MODEL_BY_ID[id];
       return m ? [m.id, m.label, m.lab, m.flagship] : [id];
     }),
-  ]
-    .join(" ")
-    .toLowerCase();
-  return hay.includes(q);
+  ].join(" ");
+  const folded = foldText(hay);
+  return tokens.every((t) => folded.includes(t));
+}
+
+/** Rangos [ini, fin) de `text` donde cae cada token; base para el highlight. */
+export function matchRanges(text: string, tokens: string[]): Array<[number, number]> {
+  if (!tokens.length || !text) return [];
+  const { folded, map } = foldWithMap(text);
+  const ranges: Array<[number, number]> = [];
+  for (const token of tokens) {
+    if (!token) continue;
+    let from = 0;
+    for (;;) {
+      const at = folded.indexOf(token, from);
+      if (at === -1) break;
+      ranges.push([map[at], map[at + token.length - 1] + 1]);
+      from = at + token.length;
+    }
+  }
+  return ranges.sort((a, b) => a[0] - b[0]);
 }
 
 export function isModelId(v: unknown): v is ModelId {
@@ -382,11 +429,18 @@ export type InformeSearch = {
   region: Region | "all";
   model: ModelId | "all";
   tab: "briefing" | "precios";
+  /** Query de búsqueda en texto libre; vive en la URL (?q=...) para compartir.
+   *  `undefined` cuando está vacío: así el router descarga el parámetro. */
+  q?: string;
 };
 
 export function parseInformeSearch(raw: Record<string, unknown>): InformeSearch {
   const region = raw.region === "west" || raw.region === "china" ? raw.region : "all";
   const model = isModelId(raw.model) ? raw.model : "all";
   const tab = raw.tab === "precios" ? "precios" : "briefing";
-  return { region, model, tab };
+  const q =
+    typeof raw.q === "string"
+      ? raw.q.replace(/\s+/g, " ").trim().slice(0, 140) || undefined
+      : undefined;
+  return { region, model, tab, q };
 }
