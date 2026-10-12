@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { UseNavigateResult } from "@tanstack/react-router";
 import { ArrowDown, ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search, X } from "lucide-react";
 import {
@@ -9,8 +9,10 @@ import {
   blendedPerM,
   filterSignals,
   formatUsd,
+  matchRanges,
   matchesQuery,
   modelsForRegion,
+  queryTokens,
   type InformeSearch,
   type ModelId,
   type ModelInfo,
@@ -28,13 +30,13 @@ export function WeekView({
   search: InformeSearch;
   navigate: UseNavigateResult<"/">;
 }) {
-  const { region, model, tab } = search;
-  const [query, setQuery] = useState("");
+  const { region, model, tab, q: query = "" } = search;
   const [openId, setOpenId] = useState<string | null>(null);
   const [priceSort, setPriceSort] = useState<PriceSort>("blend");
   const [priceDir, setPriceDir] = useState<"asc" | "desc">("asc");
   const [feed, setFeed] = useState<Signal[]>(SIGNALS);
   const [live, setLive] = useState(false);
+  const searchRef = useRef<HTMLInputElement>(null);
   // El efecto de carga termina con setLoading(false) y el render lo consulta
   // (lineas 285/304), pero el estado no estaba declarado: con strict:true eso
   // es TS2304 "Cannot find name 'loading' / 'setLoading'" y rompia el build.
@@ -66,6 +68,27 @@ export function WeekView({
     };
   }, []);
 
+  // Atajo "/": enfoca la búsqueda desde cualquier parte, salvo que ya se esté
+  // escribiendo en un campo de texto.
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === "INPUT" ||
+          target.tagName === "TEXTAREA" ||
+          target.isContentEditable)
+      ) {
+        return;
+      }
+      e.preventDefault();
+      searchRef.current?.focus();
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
   const modelOptions = modelsForRegion(region);
 
   function patch(next: Partial<InformeSearch>) {
@@ -81,7 +104,7 @@ export function WeekView({
           const allowed = modelsForRegion(regionNext).some((m) => m.id === modelNext);
           if (!allowed) modelNext = "all";
         }
-        return { region: regionNext, model: modelNext, tab: merged.tab };
+        return { region: regionNext, model: modelNext, tab: merged.tab, q: merged.q || undefined };
       },
       replace: true,
     });
@@ -98,6 +121,7 @@ export function WeekView({
     });
   }, [model, modelOptions, priceSort, priceDir]);
 
+  const tokens = useMemo(() => queryTokens(query), [query]);
   const signals = useMemo(() => {
     const q = query.trim().toLowerCase();
     return filterSignals(feed, region, model).filter((s) => matchesQuery(s, q));
@@ -243,24 +267,39 @@ export function WeekView({
 
         {tab === "briefing" ? (
           <label className="relative block">
-            <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-subtle" />
+            <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-subtle" />
             <span className="sr-only">Buscar en el informe</span>
             <input
+              ref={searchRef}
+              data-testid="search-input"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => patch({ q: e.target.value.slice(0, 140) })}
+              onKeyDown={(e) => {
+                if (e.key !== "Escape") return;
+                if (query) patch({ q: "" });
+                else e.currentTarget.blur();
+              }}
               placeholder="Buscar en títulos, labs y notas"
-              className="h-11 w-full rounded-xl border border-border bg-surface pr-10 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-colors duration-150 focus:border-accent"
+              className="h-11 w-full rounded-xl border border-border bg-surface pr-16 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-[border-color,background-color,box-shadow] duration-150 focus:border-accent/70 focus:bg-elevated focus:ring-4 focus:ring-accent/10"
             />
             {query ? (
               <button
                 type="button"
-                className="absolute top-1/2 right-2 size-8 -translate-y-1/2 text-subtle hover:text-fg"
-                onClick={() => setQuery("")}
+                data-testid="search-clear"
+                className="absolute top-1/2 right-2 flex size-8 -translate-y-1/2 items-center justify-center rounded-lg text-subtle hover:bg-elevated hover:text-fg"
+                onClick={() => {
+                  patch({ q: "" });
+                  searchRef.current?.focus();
+                }}
                 aria-label="Limpiar búsqueda"
               >
-                <X className="mx-auto size-4" />
+                <X className="size-4" />
               </button>
-            ) : null}
+            ) : (
+              <kbd className="pointer-events-none absolute top-1/2 right-3 hidden -translate-y-1/2 rounded-md border border-border bg-elevated px-1.5 py-0.5 font-mono text-[10px] leading-none text-subtle sm:block">
+                /
+              </kbd>
+            )}
           </label>
         ) : null}
 
@@ -269,8 +308,7 @@ export function WeekView({
             type="button"
             className="text-xs text-muted underline-offset-2 hover:text-fg hover:underline"
             onClick={() => {
-              setQuery("");
-              patch({ region: "all", model: "all" });
+              patch({ q: "", region: "all", model: "all" });
             }}
           >
             Quitar filtros
@@ -296,19 +334,48 @@ export function WeekView({
               Cargando señales del día…
             </p>
           ) : signals.length === 0 ? (
-            <p className="rounded-xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
-              Nada coincide. Quita filtros o cambia de modelo.
-            </p>
+            <div
+              className="rounded-xl border border-border bg-surface px-4 py-10 text-center"
+              data-testid="empty-state"
+            >
+              <p className="text-sm text-muted">
+                {query.trim()
+                  ? `Nada coincide con «${query.trim()}».`
+                  : "Nada coincide. Quita filtros o cambia de modelo."}
+              </p>
+              {query.trim() ? (
+                <button
+                  type="button"
+                  className="mt-3 text-xs text-muted underline-offset-2 hover:text-fg hover:underline"
+                  onClick={() => patch({ q: "" })}
+                >
+                  Limpiar búsqueda
+                </button>
+              ) : null}
+            </div>
           ) : (
-            shown.map((s) => (
-              <SignalCard
-                key={s.id}
-                signal={s}
-                open={visibleOpenId === s.id}
-                onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
-                onModel={(id) => patch({ model: id, region: MODEL_BY_ID[id].region })}
-              />
-            ))
+            <>
+              {query.trim() ? (
+                <p
+                  className="text-xs tracking-wide text-subtle"
+                  data-testid="search-count"
+                  role="status"
+                >
+                  {signals.length} coincidencia{signals.length === 1 ? "" : "s"} para «
+                  {query.trim()}»
+                </p>
+              ) : null}
+              {shown.map((s) => (
+                <SignalCard
+                  key={s.id}
+                  signal={s}
+                  open={visibleOpenId === s.id}
+                  tokens={tokens}
+                  onToggle={() => setOpenId((cur) => (cur === s.id ? null : s.id))}
+                  onModel={(id) => patch({ model: id, region: MODEL_BY_ID[id].region })}
+                />
+              ))}
+            </>
           )}
           {!loading && !filtered && !showAll && signals.length > shown.length ? (
             <button
@@ -548,11 +615,13 @@ function SignalCard({
   open,
   onToggle,
   onModel,
+  tokens,
 }: {
   signal: Signal;
   open: boolean;
   onToggle: () => void;
   onModel: (id: ModelId) => void;
+  tokens: string[];
 }) {
   const regionLabel = signal.region === "china" ? "China" : "Occidente";
   return (
@@ -577,8 +646,12 @@ function SignalCard({
               {SOURCE_LABEL[signal.source]}
             </span>
           </div>
-          <h2 className="font-display text-lg leading-snug text-fg">{signal.title}</h2>
-          <p className="mt-1 text-sm text-muted">{signal.summary}</p>
+          <h2 className="font-display text-lg leading-snug text-fg">
+            <Highlight text={signal.title} tokens={tokens} />
+          </h2>
+          <p className="mt-1 text-sm text-muted">
+            <Highlight text={signal.summary} tokens={tokens} />
+          </p>
         </div>
         <ChevronDown
           className={cn(
@@ -619,4 +692,33 @@ function SignalCard({
       ) : null}
     </article>
   );
+}
+
+/** Resalta los tokens del query sobre el texto, sin romper acentos ni mayúsculas. */
+function Highlight({ text, tokens }: { text: string; tokens: string[] }) {
+  const ranges = useMemo(() => matchRanges(text, tokens), [text, tokens]);
+  if (!ranges.length) return <>{text}</>;
+  // Fusiona rangos que se solapan (un token puede pisar a otro).
+  const merged: Array<[number, number]> = [];
+  for (const [start, end] of ranges) {
+    const last = merged[merged.length - 1];
+    if (last && start <= last[1]) last[1] = Math.max(last[1], end);
+    else merged.push([start, end]);
+  }
+  const nodes: React.ReactNode[] = [];
+  let cursor = 0;
+  for (const [start, end] of merged) {
+    if (start > cursor) nodes.push(text.slice(cursor, start));
+    nodes.push(
+      <mark
+        key={`${start}-${end}`}
+        className="rounded-[3px] bg-accent/25 px-0.5 text-fg box-decoration-clone"
+      >
+        {text.slice(start, end)}
+      </mark>,
+    );
+    cursor = Math.max(cursor, end);
+  }
+  if (cursor < text.length) nodes.push(text.slice(cursor));
+  return <>{nodes}</>;
 }
