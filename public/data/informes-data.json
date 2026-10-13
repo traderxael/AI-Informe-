@@ -1,293 +1,5 @@
 [
   {
-    "fecha": "2026-09-04",
-    "total": 71,
-    "por_seccion": {
-      "novedades": [
-        {
-          "titulo": "Google’s Gemini Spark can now manage your Google Photos library",
-          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-          "fuente": "The Verge AI",
-          "resumen": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Instagram’s AI detection is a mess (again)",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-          "fuente": "The Verge AI",
-          "resumen": "Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, users have been reporting that the system has gone...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Why AI food looks like that",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
-          "fuente": "The Verge AI",
-          "resumen": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
-          "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
-          "fuente": "The Verge AI",
-          "resumen": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this ...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-          "fuente": "The Verge AI",
-          "resumen": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left ...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "This NAS company wants to run your local smart home",
-          "url": "https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home",
-          "fuente": "The Verge AI",
-          "resumen": "Ugreen, known for its phone power banks, chargers, and NAS storage solutions, is moving into the smart home - in a big way. This week at the IFA tech show, the company launched its HomeAgent smart hom...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-          "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-          "fuente": "MIT Tech Review AI",
-          "resumen": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the...",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "The sameness problem behind those unappetizing AI-generated menus",
-          "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-          "fuente": "TechCrunch AI",
-          "resumen": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Abliteration.ai is making a business out of removing AI guardrails",
-          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
-          "seccion": "novedades",
-          "fecha": "2026-09-04"
-        }
-      ],
-      "usos": [
-        {
-          "titulo": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-          "fuente": "TechCrunch AI",
-          "resumen": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" t...",
-          "seccion": "usos",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Proactive cyber defense for governments and enterprises",
-          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-          "fuente": "DeepMind",
-          "resumen": "",
-          "seccion": "usos",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Proactive cyber defense for governments and enterprises",
-          "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-          "fuente": "Google AI",
-          "resumen": "Introducing Fairwind Program",
-          "seccion": "usos",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Facilitating AI integration with simplicity at scale",
-          "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-          "fuente": "MIT Tech Review AI",
-          "resumen": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds ...",
-          "seccion": "usos",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "How AI-native companies turn workflows into operating capability",
-          "url": "https://openai.com/index/ai-native-company-workflows",
-          "fuente": "OpenAI",
-          "resumen": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-          "seccion": "usos",
-          "fecha": "2026-09-04"
-        }
-      ],
-      "economia": [
-        {
-          "titulo": "Crusoe reportedly raises $3B at a $30B valuation",
-          "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-          "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The high-profile startup's annual revenue run rate stands at over $100 million.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
-          "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Daybreak for Frontline Defenders: $1B to protect essential services",
-          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-          "fuente": "OpenAI",
-          "resumen": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-          "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-          "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-          "fuente": "TechCrunch AI",
-          "resumen": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Wonderful more than doubles its valuation to $5B in under 6 months",
-          "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "A milestone in expanding access to AI",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "fuente": "OpenAI",
-          "resumen": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-          "seccion": "economia",
-          "fecha": "2026-09-04"
-        }
-      ],
-      "futuro": [
-        {
-          "titulo": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
-          "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
-          "seccion": "futuro",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "fuente": "TechCrunch AI",
-          "resumen": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future m...",
-          "seccion": "futuro",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "ChatGPT and Reddit now face EU's toughest online safety rules",
-          "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Explosive growth comes with a new regulatory burden in the European Union.",
-          "seccion": "futuro",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "OpenAI supports California’s bill to advance youth AI safety",
-          "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-          "fuente": "OpenAI",
-          "resumen": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-          "seccion": "futuro",
-          "fecha": "2026-09-04"
-        },
-        {
-          "titulo": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-          "fuente": "Ars Technica AI",
-          "resumen": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
-          "seccion": "futuro",
-          "fecha": "2026-09-04"
-        }
-      ]
-    },
-    "fuentes": [
-      {
-        "nombre": "OpenAI",
-        "url": "https://openai.com/news/rss.xml"
-      },
-      {
-        "nombre": "Google AI",
-        "url": "https://blog.google/technology/ai/rss/"
-      },
-      {
-        "nombre": "DeepMind",
-        "url": "https://deepmind.google/blog/rss.xml"
-      },
-      {
-        "nombre": "Meta AI",
-        "url": "https://ai.meta.com/blog/rss/"
-      },
-      {
-        "nombre": "Hugging Face",
-        "url": "https://huggingface.co/blog/feed.xml"
-      },
-      {
-        "nombre": "TechCrunch AI",
-        "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-      },
-      {
-        "nombre": "The Verge AI",
-        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      {
-        "nombre": "MIT Tech Review AI",
-        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
-      },
-      {
-        "nombre": "Ars Technica AI",
-        "url": "https://arstechnica.com/ai/feed/"
-      },
-      {
-        "nombre": "VentureBeat AI",
-        "url": "https://venturebeat.com/category/ai/feed/"
-      }
-    ]
-  },
-  {
     "fecha": "2026-09-05",
     "total": 81,
     "por_seccion": {
@@ -24164,5 +23876,903 @@
       }
     ],
     "resumen_dia": "Meta lanzó su primer modelo de frontera, Muse Wonder, y anunció una serie de variantes “Wonder Full”, mientras que Microsoft presentó un nuevo chip de IA que reduce su dependencia de las GPUs de Nvidia y avisó que el soporte de Windows 11 23H2 terminará en 30 días. En paralelo, Anthropic enfrentó críticas tras enviar una denuncia falsa a la policía de Filadelfia, y China aceleró la adopción global de IA agente en sus fábricas, mientras que empresas como WindBorne y un exejecutivo de Plaid aseguraron importantes contratos y rondas de financiación para soluciones de IA de datos y escucha continua. Además, la seguridad cibernética se centró en la gestión de identidades y la privacidad diferencial en modelos de lenguaje, y Amazon reflexionó sobre el futuro de sus más de un millón de robots frente al trabajo humano."
+  },
+  {
+    "fecha": "2026-10-13",
+    "total": 254,
+    "por_seccion": {
+      "novedades": [
+        {
+          "titulo": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "fuente": "Google AI",
+          "resumen": "TBD",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+          "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Facebook is giving users more control over their algorithm",
+          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+          "url": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
+          "fuente": "The Verge AI",
+          "resumen": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Facebook will let you customize your feed algorithm using AI",
+          "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+          "fuente": "The Verge AI",
+          "resumen": "Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Google wants to host your personal vibe-coded apps in the Play Store",
+          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+          "fuente": "Ars Technica AI",
+          "resumen": "Google plans to help turn those personal AI-generated apps into wide releases.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+          "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Google makes it easier to launch your vibe-coded apps",
+          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+          "fuente": "The Verge AI",
+          "resumen": "The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+          "fuente": "The Verge AI",
+          "resumen": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s",
+          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+          "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+          "fuente": "Ars Technica AI",
+          "resumen": "Developers will get 50 percent discounted API rates through November.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Google finally releases Gemini 4 Argon",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+          "fuente": "The Verge AI",
+          "resumen": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Googl...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "They war-gamed dimming the Sun. It went even worse than you think.",
+          "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+          "fuente": "Ars Technica AI",
+          "resumen": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
+          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+          "fuente": "The Verge AI",
+          "resumen": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's dev...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Rivian spinoff Mind Robotics hires Doug Field as president",
+          "url": "https://www.theverge.com/transportation/1010050/rivian-mind-robotics-hires-doug-field-ford-tesla-apple",
+          "fuente": "The Verge",
+          "resumen": "Rivian spinoff Mind Robotics announced the appointment of Doug Field as president in a major coup for the EV company's secretive robotics startup. Field was a VP of special projects at Apple, where he...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Open models have real benefits. Do they outweigh the risks?",
+          "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "fuente": "TechCrunch AI",
+          "resumen": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "AI labs are buying data from dead startups to train their models",
+          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+          "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+          "fuente": "TechCrunch AI",
+          "resumen": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Apple launches HomeView, its first smart display for the home",
+          "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+          "fuente": "The Verge AI",
+          "resumen": "It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibra...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "I tried out Apple’s HomeView smart display",
+          "url": "https://www.theverge.com/tech/1009877/apple-homeview-smart-home-display-hands-on",
+          "fuente": "The Verge",
+          "resumen": "Apple has just announced the HomeView, its first smart home display - and I just got hands-on with the device, which features a gorgeous 7-inch square touchscreen and built-in Siri AI. It's designed a...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "fuente": "Hugging Face",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Wikipedians Believed AI Would Come and Go. They Were Wrong",
+          "url": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
+          "fuente": "Wired",
+          "resumen": "In a world of AI Overviews, Wikipedia usage declines. But the real loss may be far more existential than website traffic.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "UK Housing Ombudsman Service investigates 'security incident'",
+          "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+          "fuente": "BleepingComputer",
+          "resumen": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
+          "seccion": "novedades",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+          "url": "https://www.qbitai.com/2026/10/503107.html",
+          "fuente": "QbitAI",
+          "resumen": "让VLA从“演示可用”逼近“产线可用”",
+          "seccion": "novedades",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        }
+      ],
+      "usos": [
+        {
+          "titulo": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+          "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+          "fuente": "TechCrunch AI",
+          "resumen": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in ...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
+          "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+          "fuente": "Dark Reading",
+          "resumen": "The proliferation of enterprise apps and the centrality of cloud identity providers requires an identity security rethink.",
+          "seccion": "usos",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "China’s factories leaping straight into agentic AI and taking it global: Black Lake CEO",
+          "url": "https://www.scmp.com/tech/big-tech/article/3370490/chinas-factories-leaping-straight-agentic-ai-and-taking-it-global-black-lake-ceo?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "China’s manufacturing sector is leapfrogging straight into the era of agentic artificial intelligence and is now exporting that playbook to global supply chains, according to the CEO of Black Lake, a ...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Turning AI Ambition into Real-World Advantage",
+          "url": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3369896/turning-ai-ambition-real-world-advantage?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "When executives talk about artificial intelligence today, they often talk in absolutes: an existential threat, a historic opportunity, the next great productivity leap. For Amitabh Sarkar, Tata Commun...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "fuente": "MIT Tech Review AI",
+          "resumen": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blue...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "fuente": "OpenAI",
+          "resumen": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Japanese semiconductor materials giant Sumitomo Bakelite plans to expand production of advanced chip packaging materials in China and Singapore, marking the second such announcement for its Chinese op...",
+          "seccion": "usos",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+          "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+          "fuente": "Google Developers",
+          "resumen": "How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), ...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond",
+          "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+          "fuente": "Google Developers",
+          "resumen": "Google has officially released version 1.0 of the Agent Development Kit (ADK) for Kotlin, achieving full feature parity with the Python and Java ADK cores to enable idiomatic, multi-agent AI developme...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+          "url": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives",
+          "fuente": "Dark Reading",
+          "resumen": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
+          "seccion": "usos",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        }
+      ],
+      "economia": [
+        {
+          "titulo": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+          "fuente": "Ars Technica AI",
+          "resumen": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+          "fuente": "TechCrunch AI",
+          "resumen": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security h...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
+          "url": "https://www.theverge.com/news/1009904/dlss-5-hogwarts-legacy-changes-improvements",
+          "fuente": "The Verge AI",
+          "resumen": "When Nvidia originally showed off DLSS 5 earlier this year, the technology immediately got branded as gen AI for video games. To gamers, Nvidia had lost the plot. I personally couldn't get over how fa...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+          "fuente": "TechCrunch AI",
+          "resumen": "The startup will sell some of its assets to Disney for $20 million.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
+          "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+          "fuente": "CoinDesk",
+          "resumen": "MNX is offering a different way to trade the future valuations of private AI companies, including OpenAI, Anthropic and DeepSeek.",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+          "fuente": "NVIDIA Blog",
+          "resumen": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
+          "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
+          "fuente": "CoinDesk",
+          "resumen": "Investors are positioning ahead of today's bank earnings reports and Wednesday’s U.S. inflation data.",
+          "seccion": "economia",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "WindBorne wins a hefty US Air Force contract for its balloon data",
+          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+          "fuente": "TechCrunch AI",
+          "resumen": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
+          "url": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "fuente": "Cointelegraph",
+          "resumen": "The Bitcoin mining industry needs roughly $50 billion to complete planned AI infrastructure projects, with IREN, Riot Platforms and HIVE Digital facing major funding gaps.",
+          "seccion": "economia",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+          "fuente": "TechCrunch AI",
+          "resumen": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech compan...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Amazon has over 1 million robot workers. What’s next for human employees?",
+          "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+          "fuente": "Ars Technica AI",
+          "resumen": "The second-largest corporate employer has bet big on robot workers to scale.",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "NVIDIA Announces New Investments in France’s Startups",
+          "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+          "fuente": "NVIDIA Blog",
+          "resumen": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Mainland Chinese traders boost Hong Kong stock buying for fourth month as AI bets surge",
+          "url": "https://www.scmp.com/business/china-business/article/3370564/mainland-chinese-traders-boost-hong-kong-stock-buying-4th-month-ai-bets-surge?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Mainland Chinese investors bought more Hong Kong stocks than they sold for a fourth consecutive month in September, with purchases accelerating despite persistent headwinds from elevated US Treasury y...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Chinese stocks an undervalued opportunity, says Charlie Munger disciple",
+          "url": "https://www.scmp.com/business/money/markets-investing/article/3370602/chinese-stocks-undervalued-opportunity-says-charlie-munger-disciple?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "Shares in Chinese companies present better opportunities today than at other times, a disciple of legendary investor Charlie Munger said in a rare reflection on the world’s second-largest economy amid...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+          "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+          "fuente": "BleepingComputer",
+          "resumen": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr us...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+          "fuente": "NVIDIA Blog",
+          "resumen": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more re...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Bitcoin falls below $83,000 as dollar strength keeps markets on edge",
+          "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-holds-usd83-000-as-dollar-strength-keeps-markets-on-edge",
+          "fuente": "CoinDesk",
+          "resumen": "Bitcoin and gold hold steady as a firm dollar and rising bond yields weigh on sentiment, while IREN secures a multiyear cloud services deal with Anthropic.",
+          "seccion": "economia",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "SWI raises $894 million to repurpose former FTX bitcoin miner Genesis Digital to AI",
+          "url": "https://www.coindesk.com/business/2026/10/12/swi-raises-usd894-million-to-repurpose-former-ftx-bitcoin-miner-genesis-digital-to-ai",
+          "fuente": "CoinDesk",
+          "resumen": "SWI Group said it would use the proceeds from an 800 million-euro ($894 million) fundraise to transform Genesis Digital Assets, acquired from the FTX bankruptcy, from a bitcoin miner to an AI-focused ...",
+          "seccion": "economia",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Former HSBC executive launches wealth platform powered by team of AI agents",
+          "url": "https://www.scmp.com/business/money/wealth/article/3370565/former-hsbc-executive-launches-wealth-platform-powered-team-ai-agents?utm_source=rss_feed",
+          "fuente": "SCMP Business",
+          "resumen": "A former top executive at HSBC has launched an artificial intelligence-driven wealth management start-up, setting her sights on a billion-dollar valuation and betting that AI can transform how individ...",
+          "seccion": "economia",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+          "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
+          "fuente": "MarkTechPost",
+          "resumen": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing. T...",
+          "seccion": "economia",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        }
+      ],
+      "futuro": [
+        {
+          "titulo": "Character.AI files for bankruptcy",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "fuente": "The Verge AI",
+          "resumen": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company, which builds various online bots for user...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+          "fuente": "Wired",
+          "resumen": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Microsoft president says UK is best placed to drive AI regulation",
+          "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "优必选上榜 2026 年《财富》全球未来成长 120 强，位列全球第 11、中国企业第一",
+          "url": "https://www.qbitai.com/2026/10/502770.html",
+          "fuente": "QbitAI",
+          "resumen": "优必选以总分 115 拿下2026 Fortune Future 120全球第 11 名",
+          "seccion": "futuro",
+          "pais": "china",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Helping teens learn, plan, and shape the future of AI",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "fuente": "OpenAI",
+          "resumen": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
+          "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+          "fuente": "Google Developers",
+          "resumen": "Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtim...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Driving Developer Excellence: Inside the Program Sprints",
+          "url": "https://developers.googleblog.com/driving-developer-excellence-inside-the-program-sprints/",
+          "fuente": "Google Developers",
+          "resumen": "The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal...",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        }
+      ],
+      "seguridad": [
+        {
+          "titulo": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
+          "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+          "fuente": "SecurityWeek",
+          "resumen": "CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. The post Ivanti Zero-Day Chain Gave Attackers Root Access to F...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+          "fuente": "BleepingComputer",
+          "resumen": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [......",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Adobe Patches 140 Vulnerabilities Across 10 Products",
+          "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+          "fuente": "SecurityWeek",
+          "resumen": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge. The post Adobe Patches 140 Vulnerabilities Across 10 Products appeared first on Secur...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Google Partially Reverses Chrome Bug Bounty Cuts",
+          "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+          "fuente": "SecurityWeek",
+          "resumen": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek .",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+          "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+          "fuente": "BleepingComputer",
+          "resumen": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+          "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+          "fuente": "The Hacker News",
+          "resumen": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a d...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
+          "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+          "fuente": "SecurityWeek",
+          "resumen": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub B...",
+          "seccion": "seguridad",
+          "pais": "usa",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+          "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+          "fuente": "BleepingComputer",
+          "resumen": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Docker Hub flaw let attackers impersonate users, tamper with images",
+          "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+          "fuente": "BleepingComputer",
+          "resumen": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "The MFA Gaps Attackers are Still Exploiting",
+          "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
+          "fuente": "BleepingComputer",
+          "resumen": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applicat...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "SAP warns of maximum severity OAuth2 SSRF security flaw",
+          "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+          "fuente": "BleepingComputer",
+          "resumen": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+          "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+          "fuente": "The Hacker News",
+          "resumen": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers....",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "XWorm RAT Evolves Into Surveillance Platform",
+          "url": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
+          "fuente": "SecurityWeek",
+          "resumen": "Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions. The post XWorm RAT Evolves Into Surveillance Platform appeared...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+          "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+          "fuente": "The Hacker News",
+          "resumen": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, ...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "AI Turns Familiar Cyberattacks Into a Race Against Time",
+          "url": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
+          "fuente": "SecurityWeek",
+          "resumen": "IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses. The post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek .",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
+          "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+          "fuente": "SecurityWeek",
+          "resumen": "A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+          "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+          "fuente": "The Hacker News",
+          "resumen": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The ...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+          "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+          "fuente": "The Hacker News",
+          "resumen": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has re...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
+          "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+          "fuente": "SecurityWeek",
+          "resumen": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost. The post Refrigeration Controller Hack Spoils Food Across European Supe...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        },
+        {
+          "titulo": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+          "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+          "fuente": "The Hacker News",
+          "resumen": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential...",
+          "seccion": "seguridad",
+          "pais": "global",
+          "fecha": "2026-10-13"
+        }
+      ]
+    },
+    "por_pais": {
+      "usa": 140,
+      "china": 26,
+      "global": 88
+    },
+    "fuentes": [
+      {
+        "nombre": "OpenAI",
+        "url": "https://openai.com/news/rss.xml"
+      },
+      {
+        "nombre": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/"
+      },
+      {
+        "nombre": "DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml"
+      },
+      {
+        "nombre": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/feed/"
+      },
+      {
+        "nombre": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/feed/"
+      },
+      {
+        "nombre": "MarkTechPost",
+        "url": "https://www.marktechpost.com/feed/"
+      },
+      {
+        "nombre": "BAIR Berkeley",
+        "url": "https://bair.berkeley.edu/blog/feed.xml"
+      },
+      {
+        "nombre": "Google Developers",
+        "url": "https://developers.googleblog.com/feeds/posts/default"
+      },
+      {
+        "nombre": "Hugging Face",
+        "url": "https://huggingface.co/blog/feed.xml"
+      },
+      {
+        "nombre": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+      },
+      {
+        "nombre": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      {
+        "nombre": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+      },
+      {
+        "nombre": "Ars Technica AI",
+        "url": "https://arstechnica.com/ai/feed/"
+      },
+      {
+        "nombre": "Synced",
+        "url": "https://syncedreview.com/feed/"
+      },
+      {
+        "nombre": "QbitAI",
+        "url": "https://www.qbitai.com/feed"
+      },
+      {
+        "nombre": "SCMP Business",
+        "url": "https://www.scmp.com/rss/92/feed"
+      },
+      {
+        "nombre": "arXiv cs.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI"
+      },
+      {
+        "nombre": "arXiv cs.CL",
+        "url": "https://rss.arxiv.org/rss/cs.CL"
+      },
+      {
+        "nombre": "The Verge",
+        "url": "https://www.theverge.com/rss/index.xml"
+      },
+      {
+        "nombre": "Wired",
+        "url": "https://www.wired.com/feed/rss"
+      },
+      {
+        "nombre": "ScienceDaily AI",
+        "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      },
+      {
+        "nombre": "ScienceDaily Biotech",
+        "url": "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"
+      },
+      {
+        "nombre": "Nature Biotech",
+        "url": "https://www.nature.com/nbt/rss/current"
+      },
+      {
+        "nombre": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+      },
+      {
+        "nombre": "Cointelegraph",
+        "url": "https://cointelegraph.com/rss"
+      },
+      {
+        "nombre": "The Hacker News",
+        "url": "https://feeds.feedburner.com/TheHackersNews"
+      },
+      {
+        "nombre": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/atom/"
+      },
+      {
+        "nombre": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/"
+      },
+      {
+        "nombre": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/feed/"
+      },
+      {
+        "nombre": "SecurityWeek",
+        "url": "https://www.securityweek.com/feed/"
+      },
+      {
+        "nombre": "Dark Reading",
+        "url": "https://www.darkreading.com/rss.xml"
+      },
+      {
+        "nombre": "CISA Advisories",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+      },
+      {
+        "nombre": "Google Security Blog",
+        "url": "https://security.googleblog.com/feeds/posts/default"
+      },
+      {
+        "nombre": "AI News",
+        "url": "https://www.artificialintelligence-news.com/feed/"
+      }
+    ],
+    "resumen_dia": "Google presentó Gemini 4 Argon, su nuevo modelo de IA para resolver problemas complejos, mientras que Facebook (Meta) amplía el control del usuario sobre los algoritmos de su feed mediante herramientas personalizables. En el sector empresarial, Disney apuesta 20 millones de dólares por la tecnología de chatbot de Character.AI, que además se declara en bancarrota, y Pluto Security levanta 42 millones para enfrentar los nuevos retos de seguridad que plantea la IA. Otras iniciativas destacan el uso de IA para proteger la fauna de infraestructuras, la evaluación de robots y coches autónomos antes de su despliegue, y la rápida adopción de agentes de IA en fábricas chinas, señalando una tendencia hacia la integración profunda de la inteligencia artificial en múltiples industrias."
   }
 ]
