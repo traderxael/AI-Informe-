@@ -1,127 +1,244 @@
 {
-  "generated_at": "2026-10-14T16:39:52.339925+00:00",
+  "generated_at": "2026-10-15T16:24:42.527871+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
     "Dark Reading",
     "DeepMind",
-    "Google News — IA China (zh)",
+    "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA Rusia",
+    "Google News — IA Japón",
     "Google News — IA global",
+    "Hugging Face",
     "MarkTechPost",
-    "OpenAI",
-    "QbitAI",
-    "SecurityWeek",
-    "The Hacker News"
+    "OpenAI"
   ],
   "signals": [
     {
-      "id": "ecd984dc6bd3",
-      "title": "Los investigadores utilizaron un modelo público de OpenAI para crear un exploit de cadena completa de Chrome de $ 250.000 en seis días",
-      "summary": "Un equipo de XBOW combinó tres vulnerabilidades desconocidas de Chrome en un ataque que ejecuta código en Windows al cargar una página, usando agentes de IA con GPT‑5.6; Google ya confirmó y corrigió los fallos.",
-      "sourceUrl": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-      "sourceLabel": "The Hacker News",
+      "id": "fac28de57885",
+      "title": "Riesgos de la IA: el supervisor de fondos de pensiones de Nueva York pide a Anthropic que retrase su entrada",
+      "summary": "El supervisor de pensiones de Nueva York solicita a Anthropic posponer su lanzamiento por los riesgos de la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNWVduYi1BaFRxTi1HbnBMQUxzZDNsbEFzelJsUWlmbEFTREJ2U2pzcFI1emVpNFhFSC1EVDREUXBoRm1OWUkwU0xjTGxvaFpjeWJkWE5adlNtMzV4RnU3ZDNEQ0IxRnJFRk9vYlVUaUxjYVNNdXdpMGlKNjJtYzU4aTFKNjJSbGl2ZnhCLUcyM1diakZNU2tfQV9pRVBkVVJDeHRMdVRucXg5TDRPanNwbXg5WDRpb0E5MlJJdXM1dzBSdkN3aTZXcXptN0ZlN0o4UkRzZGZlUVF6V05SUkQxVF9YZm9LNXpjalpJZVh5WXRndTJ1ZlV5Tmg1RC1vc3VJVUxBYnVKbVVhZE1kREVrUk1WY3JfQS1DRzN6SFU1TEZxUHhlWHJOaC1KTTZMZnBiQ2gw0gG4AkFVX3lxTFBSZl9uT0VsU0owdWF0ZDFDSE9XWjg4RzBaTFd2dG93SlNsa0tKUldqT0pEaFVDb3hzZ1BaWUtYVXZvMmdWaV9fYVhZYUZWNklfRGhGWkIwZ0Z0WThWVXJtQjNKbXItelU5djFlSllDR1ZjVkVYekRidXV2U0xpSVU0dWZhbGJwS3JvT1BSTUxLd1VvNWJMUm40UkRpZXFsdmQzUldUV1ZXWDhvSGc0bkhnc3NNdWw1eGhHUGNQNTdPeDlDZ3pQOFpseUcwbnhVejlJVTlNbFkwTFpYZ1ZQUlZjLUZEZXIyS3QwZHNiOHduemVPcGJoQXN4WVltX2g4aGFCUklYWDVQUTl0S19BVEZqYWd4X0hZZVpRcTNNVkhlZG8yc3A3Y2lHYm9SYW9pb3dZS292cFZQNQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Boursorama",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-15T16:11:39+00:00",
+      "title_orig": "Risques de l'IA : le superviseur des fonds de pension de New York demande à Anthropic de repousser son entrée",
+      "summary_orig": ""
+    },
+    {
+      "id": "996b33c09ad5",
+      "title": "Acelerando la búsqueda de péptidos antimicrobianos con Google Antigravity",
+      "summary": "Aceleran la búsqueda de nuevos péptidos antimicrobianos con Google Antigravity for Science.",
+      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-15T16:08:03+00:00",
+      "title_orig": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "summary_orig": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+    },
+    {
+      "id": "8b62672ab205",
+      "title": "Ocho estados entablan demandas paralelas contra OpenAI por cuestiones de seguridad",
+      "summary": "Ocho estados presentan demandas simultáneas contra OpenAI alegando riesgos de seguridad.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU3Awd3AyenpkUHBmRzF6TV9ZSEE3MkhtT2xOdURseFdHZDQwdmJuV2hwQjdQV2tnV0RwQWtwenY5VU83bjRXZVpybjZFWGxCbW5OcjFBS3RTdkUwc0d6Y0NRcUdDUlFqNUhkSkZKVGNOMHN3aHYwSUJNSm1zU0piMXRxWVRpWk1sREdLQW0zSVpibWlraWdDdWQ3N2kyb2RiYWpCTjI1VkVfWmwtR3ZNSllQcjZzal9Ubzlmc19lQ3pTWmJRaU1z?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "PYMNTS.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-15T15:49:44+00:00",
+      "title_orig": "Eight States Bring Parallel Lawsuits Against OpenAI Over Safety Issues",
+      "summary_orig": ""
+    },
+    {
+      "id": "1cc24ddce8a4",
+      "title": "Informe: La FTC investiga a Anthropic y OpenAI después de que Trump desestimara los temores de la IA como un \"engaño\"",
+      "summary": "La FTC podría multar a empresas de IA tanto como a las que retrasan la notificación de violaciones de datos.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-15T15:43:24+00:00",
+      "title_orig": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+      "summary_orig": "FTC may fine AI firms on par with companies that delay data breach reports."
+    },
+    {
+      "id": "4f8439db6ee0",
+      "title": "Mistral AI multiplica las adquisiciones para dominar toda la cadena de valor de la IA en la empresa",
+      "summary": "Mistral AI acelera sus compras para controlar toda la cadena de valor de la IA en el entorno empresarial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQcFpHbkVWUnE5MjUzRjUxU3JfRnVVUnJoQVBUWG1KNmtFYkV4MmVSeVNIWElZSjRhOEw2QmNpX3Vic3pTVWNtRWx5TXZRSFltYVEtZjBvb0ZwdUlNTVVaSmx0Y2xwdHlEdTRtSEpvSUlKYm1sbEh0Z0d1TzM0QmJQZG5VSmduUHJZeWVBelptTHNIQXJZZ1p2MXUyMjA0NlN2R3B3Wi1MTERQNUtNUUJTOWliREtBNXl1QkpDWXg3ODZxSWNRNVFFZEdGZ2ZWNW5kT09xTW11Tk9KWkFNbFhUa2E5YXQyUnN4WGw0Ul9IZkRSaWx4SGJXU0FaVUtFOHBUbXV0ZlpHR19mVFRMNng1LWR3OE9jenNaMHB4OFlfZGViZk4t?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "L'Usine Digitale",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-15T15:17:21+00:00",
+      "title_orig": "Mistral AI multiplie les acquisitions pour maîtriser toute la chaîne de valeur de l’IA en entreprise",
+      "summary_orig": ""
+    },
+    {
+      "id": "fa14b8f7db46",
+      "title": "Enseñar a los estudiantes a pensar y aprender a través de preguntas",
+      "summary": "Celebra el Día del Maestro con IA para educadores en portugués brasileño y descubre cómo Study Mode ayuda a los docentes a fomentar aprendizaje activo paso a paso.",
+      "sourceUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "social",
-      "published": "2026-10-14T16:49:02+05:30",
-      "title_orig": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "summary_orig": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $"
+      "source": "lab",
+      "published": "2026-10-15T13:00:00+00:00",
+      "title_orig": "Teaching students to think and learn through questions",
+      "summary_orig": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
     },
     {
-      "id": "f91ad0a76300",
-      "title": "IA: Sospechoso de espionaje, un empleado saudí de OpenAI encarcelado",
-      "summary": "Un empleado saudí de OpenAI fue detenido bajo sospecha de espionaje, según informa Le Figaro.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2oxSVJsXzVsYndZcTgyaW1FOXkyeGQ5RlpCY0hIYVpoZ09MN3Y3TFZIRV84YzZSbjZvVlRsSEhUaDV6Z0hZdHFMNVJib1dpcGU5ODBQN2xkUzRFd29NeG5LRHpNVHFLVzhINW9FbURHRHlia09SWi01elB3YkU3bXJ6TE4xbERHNldqaXdCWkNnLVFQMVBVblRUaGpNcm1CODJxOG5JWjNpMkFHMVdlSjhHR0QyV2M?oc=5",
+      "id": "b9d943b6b0dc",
+      "title": "Con New Material, Mistral completa su cuarta adquisición del año",
+      "summary": "Mistral adquiere New Material, cerrando su cuarta compra del año.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVGg2SUZuWkxfUEdPZlhjVFVFSVJoRXFfbTFZUjd0dmpjQkQ3czMwdDNkRzFtZDdkMWJKUk5VX2R5X0M0a2l0Z3Q4UmRxcjZVUFhVWGVsUFFBcG9YeHhTd251NTZmQ3NSYjBCTmJUTWVaYUpKTjdsbWpWNzdDaEd4bDJXRG5mcTR2NXVvSXB5MzJQdFV1dVFNdXkwOTN1SUExWFJ4Tnd3M2NOelBnYmpOMnp0RnpDWXJhYThtSjE5S2F5THN1dWZpWTEtdno5OUVnNEVZ?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-15T10:18:19+00:00",
+      "title_orig": "Avec New Material, Mistral boucle sa quatrième acquisition de l'année",
+      "summary_orig": ""
+    },
+    {
+      "id": "90c8ebeab42c",
+      "title": "Künstliche Intelligenz: Acht US-Bundesstaaten verklagen OpenAI",
+      "summary": "Ocho estados de EE. UU. demandan a OpenAI por su uso de inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQnRRRTVoS0ZpLUt3aG9hamFCZkRCT2VVanQ2UF85bHdqa0FtSldFNmhxeUVyWnYyYXY5S3pEdnVmRTRxOFQyMjA3R3IteHhuckRJQmpBQnJ1LTZsUWNVdTlocVhjZnhFT3pvcFdNcGxlR2ctQlcxd01wejN6TFk3YzhSUE5vdW5jMkxXRms4QTZMUFRZUFktai1fQ3g2a2ppcV9LSjVFVWZGZw?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "STERN.de",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-10-14T16:15:00+00:00",
-      "title_orig": "IA : Soupçonné d’espionnage, un salarié saoudien d’OpenAI emprisonné",
+      "published": "2026-10-15T09:24:40+00:00",
       "summary_orig": ""
     },
     {
-      "id": "bd3cbf4f1c24",
-      "title": "Exclusivo | OpenAI Computing Chief partirá",
-      "summary": "El jefe de computación de OpenAI dejará su puesto, según informa el Wall Street Journal.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EYVZsMHc3czQwUGhoVkhLUGRtSnhCZ2VrUHRtdWpZTHFzYzF6QmxPTUVOQnZWNlEyWUlCQVdRZENKLWh6aTlub25UemQ1RzcyUEJKRmZ2dDBYRHI1Y2xaY0tmczh2NHRRSTJIVU00NTFla0x3Z1ppUg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "WSJ",
+      "id": "ee29c6024e32",
+      "title": "La IA ha causado una \"grave confusión\" en la comunidad matemática: los investigadores rechazan la publicación de 700 documentos de OpenAI",
+      "summary": "La IA ha generado gran confusión entre los matemáticos, que han rechazado la publicación de 700 documentos de OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TN1hnUmd1MVFybkFGY2hMZURFdjB1QkFWYXhYMGdXdy1XVW9wbGVhaDhQME94R3AwVFA2V2V2MEVIOUxmaEwzRXlieHVraXJ5Znlwbk93eDY5eE94bHJYNXl5UDF4bUxoWVhONnQ0bTBkbDJoOGZRVTNCeGV0Smc?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "Yahoo!ニュース",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-10-14T15:57:00+00:00",
-      "title_orig": "Exclusive | OpenAI Computing Chief to Depart",
+      "published": "2026-10-15T05:25:00+00:00",
+      "title_orig": "AIが数学界に「深刻な混乱」--OpenAIの論文700本超公開に研究者が反発",
       "summary_orig": ""
     },
     {
-      "id": "9b08c95112ee",
-      "title": "OpenAI comienza a añadir marcas de agua digitales al texto generado por IA: inteligencia artificial",
-      "summary": "OpenAI empezará a incorporar marcas de agua digitales en los textos generados por su IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93ei1TODBXZDQ3TjZ2NkNhMUhPXzZvV3JFZjBHVjdSMjFRbXIwTXA0R2VJNWNyNTZsMnZfYkF0TW1NdFVBWVFyQVA4cFN5N284dG1hSVR4NFdYaFFHdHc?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "至顶网",
+      "id": "d14ce15927e9",
+      "title": "Conoce a Grok Voice 3.0: el modelo de agente de voz de SpaceXAI ocupa el primer lugar en análisis artificial",
+      "summary": "SpaceXAI lanzó Grok Voice 3.0, un modelo de voz a voz que razona, usa herramientas y habla, liderando el índice con 86,9 y manteniendo el mismo precio de $0,08 por minuto.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/14/meet-grok-voice-3-0-spacexai-voice-agent-model-ranks-1-on-artificial-analysis/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-10-15T05:18:54+00:00",
+      "title_orig": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
+      "summary_orig": "SpaceXAI just released Grok Voice 3.0. Grok Voice 3.0 is a SpaceXAI speech-to-speech model that listens, reasons, calls tools and speaks. It now ranks first on the Artificial Analysis Speech-to-Speech Index with a score of 86.9. For developers, the endpoint, events and $0.08 per minute price are unchanged from Grok Voice 2.0. TL;DR What is […] The post Meet Grok Voice 3.0: SpaceXAI Voice Agent Mod"
+    },
+    {
+      "id": "3733c75a28bf",
+      "title": "Bienvenido FLUX.3 Imagen Klein en difusores",
+      "summary": "Llegó FLUX.3, la nueva versión de la imagen Klein para difusores.",
+      "sourceUrl": "https://huggingface.co/blog/flux-3",
+      "sourceLabel": "Hugging Face",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "black-forest"
+      ],
+      "source": "lab",
+      "published": "2026-10-15T00:00:00+00:00",
+      "title_orig": "Welcome FLUX.3 Image Klein in Diffusers",
+      "summary_orig": ""
+    },
+    {
+      "id": "7f55a7a9001e",
+      "title": "El defecto antrópico 'SneakPeek' es una amenaza silenciosa de cero clics",
+      "summary": "Un error en el panel de vista previa de Claude Code Desktop permite a atacantes robar silenciosamente credenciales de desarrolladores, como claves SSH, credenciales AWS y tokens OAuth de Claude.",
+      "sourceUrl": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-14T20:09:42+00:00",
+      "title_orig": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "summary_orig": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens."
+    },
+    {
+      "id": "c3523710f928",
+      "title": "Dispositivo de grabación oculto en papel higiénico encontrado en la sala de reuniones secreta de OpenAI",
+      "summary": "Ingeniero de OpenAI enfrenta 5 años de prisión y una multa de 250 000 USD por cargos de espionaje extranjero.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-14T15:03:59+00:00",
-      "title_orig": "OpenAI开始为AI生成文本添加数字水印-人工智能",
-      "summary_orig": ""
-    },
-    {
-      "id": "5997bea5d013",
-      "title": "El uso de ChatGPT en el examen no garantizó puntajes altos",
-      "summary": "El uso de ChatGPT en el examen no aseguró obtener buenas calificaciones.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWmlDXzJBMmZBLUl0Nmt1MnBKX1lGZGVzOGZ0U1RMUkF5M1I5NnVLT0lOY2ZfOU1zanFNb0ZVVHBNaVhtQjVGY1dQQ1JsQ3dvZWhWV2hMWlJJTmNJRWFIdkZpSHVoVTRNVnRzcDM2SS1MU3g3dFlmOXdHSEpKZGJNQlBIRHN5WlhHa1RPYzU0dzdCR3VvbGxFT3JjeDcxUEdvVTdqR1lSb0gxcmMwOF9PandsTGwyNFl1RVo2eHNwd0Zidw?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Телеканал «Наука",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-14T14:36:44+00:00",
-      "title_orig": "Использование ChatGPT на экзамене не гарантировало высоких баллов",
-      "summary_orig": ""
-    },
-    {
-      "id": "a797fa09da69",
-      "title": "Cinco investigadores en matemáticas frente a los últimos avances de OpenAI: “Con la IA, hay un duelo por hacer de una práctica milenaria",
-      "summary": "Cinco matemáticos analizan los últimos avances de OpenAI, señalando que la IA genera un debate sobre la transformación de una práctica milenaria.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQV3hDOGxBcTV1Z09mMGc1dXM2cVI3TnA5bjZmcWFXSXNyQzI2NFhtWVlMZEpLZDdweXI2ekZYa2QySFNfUk5lVHRSRFozcTFLR3RNNGtqVDFPZnFnc0tzZnREVjJmOXBvd2FFRTBCcG0yMjdiZ3phd2FCTkZIbkVuSVczQUc5WERZLU51ckMyR1JhZWpRcDFCRzh4Tl9aTlNhVnZuemRoeHpZZ295ZjJCcTQtX0dBWUdxZkp2VmFrcmhoOHV1S2xJU0ZzQVhOSkx0TUJDT2hfTVlYVC11bEhtQWdNbDZRZjE2TWg4aGJuOXJJZU1oU0JsOHlJZjRzQjIyaDZST01nSk1LRkVSWXJzS1hQM2h4NVVvN1E?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Libération",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-14T13:11:00+00:00",
-      "title_orig": "Cinq chercheurs en maths face aux dernières avancées d’OpenAI : «Avec l’IA, il y a un deuil à faire d’une pratique millénaire",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-14T16:41:49+00:00",
+      "title_orig": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "summary_orig": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges."
     },
     {
       "id": "7923e9fedadd",
       "title": "Anthropic advierte que los pequeños modelos de IA podrían autorreplicarse a través de dispositivos IoT",
-      "summary": "Los replicadores basados en peso pequeño podrían inaugurar una nueva generación de gusanos informáticos.",
+      "summary": "Los replicadores basados en peso ligero podrían dar origen a una nueva generación de gusanos informáticos.",
       "sourceUrl": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
       "sourceLabel": "Ars Technica AI",
       "publisher": "",
@@ -136,21 +253,38 @@
       "summary_orig": "\"Small weight-based replicators\" could usher in a new generation of computer worms."
     },
     {
-      "id": "4b8d16005a24",
-      "title": "Lo que significan las acusaciones de espionaje en OpenAI para la industria de la IA",
-      "summary": "Las acusaciones de espionaje contra OpenAI alertan a la industria de IA sobre riesgos de seguridad y competencia desleal.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4ekVqUEtoemNqT3hQa3VRMXNWSDJXZjdhTDV1Ynd4QXpCUW5xNElTS3U4TUlmODREeUFzYy1QLTFOeWdPUlRNbzIxMDdjc2RGSkRZUm9QM0lhaDFUSGtTNUZRbnFwUWJKTkJ2SlV2X29CWFU1UzY4b0ZnN19BNjg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
+      "id": "a0e0fec2c2b5",
+      "title": "AMP pone a los agentes de IA a trabajar más allá del código con los modelos OpenAI",
+      "summary": "Amp avanza la frontera de los agentes usando GPT‑6 Astra, Ultrafast, GPT‑Live‑1 y el inicio de sesión con ChatGPT.",
+      "sourceUrl": "https://openai.com/index/amp-beyond-coding",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-14T12:39:24+00:00",
-      "title_orig": "What Allegations of Spying at OpenAI Mean for the A.I. Industry",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-14T12:00:00+00:00",
+      "title_orig": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary_orig": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT."
+    },
+    {
+      "id": "24cc989c02db",
+      "title": "SentinelOne reduce el análisis de malware de semanas a horas",
+      "summary": "Con OpenAI Daybreak, SentinelOne reduce semanas de análisis de malware a horas, aumentando la capacidad de investigar más amenazas.",
+      "sourceUrl": "https://openai.com/index/sentinelone",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-14T12:00:00+00:00",
+      "title_orig": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary_orig": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
     },
     {
       "id": "9fd67fba7efb",
@@ -170,43 +304,9 @@
       "summary_orig": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes."
     },
     {
-      "id": "3d198745c126",
-      "title": "El micrófono escondido en papel higiénico, el ingeniero saudí, los secretos de OpenAI: el caso que sacude Silicon Valley",
-      "summary": "Un ingeniero saudí ocultó un micrófono en papel higiénico para espiar a OpenAI, revelando secretos que conmocionan a Silicon Valley.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNZmpQaWxtRWdONFlYdjBOSE5lNHRrV3RhNTBESmRqaXpqNHBMaFZDV3ZTbkFKWENYSjVNdF91OTNsZTFXSFZUbTVIM3VHWVhoajRlMUI3Slp4NkdUdDY2UGxXb203MWJwc2IwTWY0S1lkWElWWWdtRklVdmNjSjlhTThWd3c1Y0ptM0N6WTB3WWdHRnJseVp4cTJVa19hbllVejNQTWFzRG53RG9jdUpwTlctbDM3Sk9fZmRfM2prZElzN3p0VHVYMEV2Ui1qNmxfRmgtOTZzQTBkYjBtNU9yTGZOR09rWGpTQ1cwSklTOVIyMjBXZW9JaGEySERJLUZVVks1aE1NaEFqWkhycGt2b2MtalI?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-14T10:22:53+00:00",
-      "title_orig": "Le micro caché dans du papier toilette, l'ingénieur saoudien, les secrets d'OpenAI : l'affaire qui secoue la Silicon Valley",
-      "summary_orig": ""
-    },
-    {
-      "id": "cb3154f35431",
-      "title": "Empleado de OpenAI arrestado por presuntamente plantar grabadora oculta en sala de conferencias ejecutiva",
-      "summary": "Un empleado saudí de OpenAI fue detenido por supuestamente haber instalado un dispositivo de grabación oculto en una sala ejecutiva de la oficina de San Francisco para interceptar conversaciones confidenciales.",
-      "sourceUrl": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-10-14T07:29:25+05:30",
-      "title_orig": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-      "summary_orig": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by"
-    },
-    {
       "id": "e181547094b0",
       "title": "Cómo Third Moment Research dirige a 10.000 agentes durante más de 36 horas",
-      "summary": "El laboratorio de IA crea agentes como GPT‑6 Astra, GPT‑6.1 Sol, Codex y Daybreak para ciberseguridad, que se concentran durante días y mejoran con el uso.",
+      "summary": "El laboratorio de IA crea",
       "sourceUrl": "https://openai.com/index/third-moment-research",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -221,9 +321,26 @@
       "summary_orig": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
     },
     {
+      "id": "7d10f0ddfecf",
+      "title": "Cómo Block está construyendo seguridad impulsada por IA con tecnología OpenAI",
+      "summary": "Block está creando seguridad impulsada por IA con OpenAI, permitiendo a su equipo detectar amenazas y proponer parches en minutos.",
+      "sourceUrl": "https://openai.com/index/block-ai-powered-security",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-14T07:00:00+00:00",
+      "title_orig": "How Block is building AI-powered security with OpenAI technology",
+      "summary_orig": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
+    },
+    {
       "id": "a57776da8f8a",
       "title": "Google lanza la API Gemini 4 Argon con un límite de salida de tokens de 1 millón",
-      "summary": "Google lanzó Gemini 4 Argon, disponible en su API, AI Studio y la app, con modelo MoE que genera hasta 1 millón de tokens y alcanza 68,90 % en el Vals Index.",
+      "summary": "Google lanzó Gemini 4 Argon, disponible en su API, AI Studio y app, con modelo MoE que genera hasta 1 millón de tokens y alcanza 68,90 % en Vals Index.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -236,125 +353,6 @@
       "published": "2026-10-14T05:03:34+00:00",
       "title_orig": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
       "summary_orig": "Google has made Gemini 4 Argon generally available on the Gemini API, AI Studio and the Gemini app. The sparse MoE model writes up to 1M output tokens and leads the Vals Index at 68.90%. The post Google Releases Gemini 4 Argon API With 1M Token Output Limit appeared first on MarkTechPost ."
-    },
-    {
-      "id": "7c3167f65625",
-      "title": "¡Responda 3 veces más rápido que Claude Code para un contexto verdaderamente infinito! APUs AI Agente Reflejo de Código Abierto",
-      "summary": "APUS AI anunció el 13 de octubre la apertura del código del producto Personal Agent, Reflex Agent.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/503165.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-14T03:32:48+00:00",
-      "title_orig": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
-      "summary_orig": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent"
-    },
-    {
-      "id": "58e4191fcfe4",
-      "title": "Google DeepMind y el Gobierno de Singapur colaboran para crear un modelo de IA ajustado para la detección de estafas",
-      "summary": "Google DeepMind y GovTech Singapur usan modelos Gemma ligeros en el dispositivo para detectar estafas en chats privados sin enviar datos a la nube.",
-      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-14T02:00:14+00:00",
-      "title_orig": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "summary_orig": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
-    },
-    {
-      "id": "2f3282e48314",
-      "title": "El próximo capítulo de la UE en IA es agentic",
-      "summary": "Un nuevo análisis revela que la adopción de IA agente crece en empresas y pymes de la UE, y que un uso más profundo podría generar mayor valor.",
-      "sourceUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-14T00:00:00+00:00",
-      "title_orig": "The EU’s next chapter in AI is agentic",
-      "summary_orig": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value."
-    },
-    {
-      "id": "0cfb790894cf",
-      "title": "Empleado arrestado después de encontrar un dispositivo de escucha en la sala de conferencias de OpenAI, dicen el FBI y la compañía",
-      "summary": "Abdulrahman Alfozan, nacional saudí, fue arrestado y despedido por OpenAI tras hallarse un dispositivo de escucha en su sala de conferencias.",
-      "sourceUrl": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-13T23:07:00+00:00",
-      "title_orig": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
-      "summary_orig": "Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI. The post Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say appeared first on SecurityWeek ."
-    },
-    {
-      "id": "7a629d8ff18f",
-      "title": "Así es como OpenAI dice que usó IA para encontrar un espía dentro de su empresa",
-      "summary": "OpenAI afirma que empleó IA para detectar a un infiltrado que estaba espiando dentro de la compañía.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSUJxWUdLd28xdnhITzhBWUJTOW1CQUVQeEp3V0ZyUGNYa2pTMlBseEpCeVYzVUs1TDVBQ29neVExcENtX0ZiaTlJejBackhPeXg4N3ZUUzgzTW16YjZOczhNS0ZXc3JDdXRIR3B4Vmk4UWVwaTZXZGVTeUFxcS1YY0tFS2c4TkktT0U3NTBUVVBUSl9xZDNZdjUxVVg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gizmodo",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-13T21:19:53+00:00",
-      "title_orig": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
-      "summary_orig": ""
-    },
-    {
-      "id": "a240599f4fed",
-      "title": "Anthropic encuentra ingredientes para futuros gusanos de IA",
-      "summary": "El último estudio de Anthropic combinó pruebas de IoT y redes para investigar la autorreplicación de IA, que los investigadores califican de difícil de detener.",
-      "sourceUrl": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-13T20:35:23+00:00",
-      "title_orig": "Anthropic Finds Ingredients for Future AI Worms",
-      "summary_orig": "Anthropic's latest study combined IoT and network tests to explore AI self-replication, which researchers said would be \"challenging\" to shut down."
-    },
-    {
-      "id": "471508c04c30",
-      "title": "Desarrollar Gemini 4 Argon de forma responsable y segura",
-      "summary": "Desarrollar Gemini 4 Argon de manera responsable y segura.",
-      "sourceUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-13T19:43:07+00:00",
-      "title_orig": "Developing Gemini 4 Argon responsibly and safely",
-      "summary_orig": ""
     }
   ]
 }
