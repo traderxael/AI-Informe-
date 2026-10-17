@@ -3,7 +3,7 @@ import { WeekView } from "@/components/informe/week-view";
 import type { InformeSearch, ModelId, Region } from "@/lib/informe-data";
 
 const REGIONES: Region[] = ["west", "china"];
-const TABS: InformeSearch["tab"][] = ["briefing", "precios"];
+const TABS: InformeSearch["tab"][] = ["briefing", "precios", "resumen"];
 
 export const Route = createFileRoute("/")({
   // WeekView recibe { search, navigate }. Sin validateSearch la ruta "/" no

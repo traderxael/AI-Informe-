@@ -428,7 +428,7 @@ export function formatUsd(n: number) {
 export type InformeSearch = {
   region: Region | "all";
   model: ModelId | "all";
-  tab: "briefing" | "precios";
+  tab: "briefing" | "precios" | "resumen";
   /** Query de búsqueda en texto libre; vive en la URL (?q=...) para compartir.
    *  `undefined` cuando está vacío: así el router descarga el parámetro. */
   q?: string;
@@ -437,7 +437,8 @@ export type InformeSearch = {
 export function parseInformeSearch(raw: Record<string, unknown>): InformeSearch {
   const region = raw.region === "west" || raw.region === "china" ? raw.region : "all";
   const model = isModelId(raw.model) ? raw.model : "all";
-  const tab = raw.tab === "precios" ? "precios" : "briefing";
+  const tab =
+    raw.tab === "precios" ? "precios" : raw.tab === "resumen" ? "resumen" : "briefing";
   const q =
     typeof raw.q === "string"
       ? raw.q.replace(/\s+/g, " ").trim().slice(0, 140) || undefined
