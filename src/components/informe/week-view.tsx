@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { UseNavigateResult } from "@tanstack/react-router";
-import { ArrowDown, ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search, X } from "lucide-react";
+import { ArrowDown, ArrowUp, ChevronDown, ChevronUp, ExternalLink, Globe2, Landmark, Search, X } from "lucide-react";
 import {
   MODEL_BY_ID,
   SIGNALS,
@@ -45,6 +45,20 @@ export function WeekView({
   const [showAll, setShowAll] = useState(false);
   const [arena, setArena] = useState<LiveModelRow[] | null>(null);
   const [arenaAt, setArenaAt] = useState<string | null>(null);
+  const [showTop, setShowTop] = useState(false);
+
+  const onScroll = useCallback(() => {
+    setShowTop(window.scrollY > 600);
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [onScroll]);
+
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -163,7 +177,11 @@ export function WeekView({
         Actualizado {week}.
       </p>
 
-      <div className="mt-6 flex gap-2" role="tablist" aria-label="Vista">
+      <div
+        className="sticky top-0 z-20 -mx-4 mt-6 flex items-center gap-2 border-border bg-bg/80 px-4 py-3 backdrop-blur-md sm:mx-0 sm:rounded-xl sm:border sm:px-4"
+        role="tablist"
+        aria-label="Vista"
+      >
         <Chip
           active={tab === "briefing"}
           onClick={() => patch({ tab: "briefing" })}
@@ -330,9 +348,19 @@ export function WeekView({
       ) : (
         <div id="panel-briefing" role="tabpanel" className="mt-8 space-y-3">
           {loading ? (
-            <p className="rounded-xl border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
-              Cargando señales del día…
-            </p>
+            <div className="space-y-3">
+              {[0, 1, 2, 3].map((i) => (
+                <div key={i} className="rounded-2xl border border-border bg-surface px-4 py-4 sm:px-5">
+                  <div className="mb-2 flex gap-1.5">
+                    <div className="h-4 w-16 animate-pulse rounded-md bg-elevated" />
+                    <div className="h-4 w-20 animate-pulse rounded-md bg-elevated" />
+                  </div>
+                  <div className="mb-2 h-5 w-3/4 animate-pulse rounded bg-elevated" />
+                  <div className="h-4 w-full animate-pulse rounded bg-elevated" />
+                  <div className="mt-1 h-4 w-2/3 animate-pulse rounded bg-elevated" />
+                </div>
+              ))}
+            </div>
           ) : signals.length === 0 ? (
             <div
               className="rounded-xl border border-border bg-surface px-4 py-10 text-center"
@@ -393,6 +421,17 @@ export function WeekView({
         AI Informe · {live ? "Señales RSS del día" : "Edición editorial"} · Precios API en USD / 1M
         tokens · Los filtros se guardan en la URL.
       </footer>
+
+      {showTop ? (
+        <button
+          type="button"
+          onClick={scrollToTop}
+          aria-label="Volver arriba"
+          className="fixed bottom-6 right-6 z-30 flex size-11 items-center justify-center rounded-full border border-border bg-surface text-fg shadow-lg transition-all duration-200 hover:bg-elevated hover:text-accent"
+        >
+          <ChevronUp className="size-5" />
+        </button>
+      ) : null}
     </main>
   );
 }
