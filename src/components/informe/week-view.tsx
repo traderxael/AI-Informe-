@@ -20,6 +20,7 @@ import {
 } from "@/lib/informe-data";
 import { loadLiveModels, loadLiveSignals, weekLabelFrom, type LiveModelRow } from "@/lib/live-feed";
 import { cn } from "@/lib/utils";
+import { DashboardView } from "@/components/informe/dashboard-view";
 
 type PriceSort = "blend" | "in" | "out" | "label";
 
@@ -183,6 +184,15 @@ export function WeekView({
         aria-label="Vista"
       >
         <Chip
+          active={tab === "resumen"}
+          onClick={() => patch({ tab: "resumen" })}
+          testId="tab-resumen"
+          role="tab"
+          controls="panel-resumen"
+        >
+          Resumen
+        </Chip>
+        <Chip
           active={tab === "briefing"}
           onClick={() => patch({ tab: "briefing" })}
           testId="tab-briefing"
@@ -215,11 +225,13 @@ export function WeekView({
           value={
             tab === "precios" && pricedModels.length
               ? `$${formatUsd(cheapestBlend)}`
-              : model === "all"
-                ? "Todos"
-                : MODEL_BY_ID[model].label
+              : tab === "resumen" && cheapestBlend
+                ? `$${formatUsd(cheapestBlend)}`
+                : model === "all"
+                  ? "Todos"
+                  : MODEL_BY_ID[model].label
           }
-          label={tab === "precios" ? "Más barato" : "Modelo"}
+          label={tab === "precios" || tab === "resumen" ? "Más barato" : "Modelo"}
         />
       </div>
 
@@ -336,7 +348,19 @@ export function WeekView({
         ) : null}
       </section>
 
-      {tab === "precios" ? (
+      {tab === "resumen" ? (
+        <DashboardView
+          signals={signals}
+          models={modelOptions}
+          arena={arena}
+          arenaAt={arenaAt}
+          loading={loading}
+          week={week}
+          live={live}
+          onGoBriefing={() => patch({ tab: "briefing" })}
+          onGoPrecios={() => patch({ tab: "precios" })}
+        />
+      ) : tab === "precios" ? (
         <>
           <PriceTable
             models={pricedModels}
