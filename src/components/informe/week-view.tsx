@@ -284,41 +284,43 @@ export function WeekView({
         </div>
 
         {tab === "briefing" ? (
-          <label className="relative block">
-            <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-subtle" />
-            <span className="sr-only">Buscar en el informe</span>
-            <input
-              ref={searchRef}
-              data-testid="search-input"
-              value={query}
-              onChange={(e) => patch({ q: e.target.value.slice(0, 140) })}
-              onKeyDown={(e) => {
-                if (e.key !== "Escape") return;
-                if (query) patch({ q: "" });
-                else e.currentTarget.blur();
-              }}
-              placeholder="Buscar en títulos, labs y notas"
-              className="h-11 w-full rounded-xl border border-border bg-surface pr-16 pl-10 text-sm text-fg placeholder:text-subtle outline-none transition-[border-color,background-color,box-shadow] duration-150 focus:border-accent/70 focus:bg-elevated focus:ring-4 focus:ring-accent/10"
-            />
-            {query ? (
-              <button
-                type="button"
-                data-testid="search-clear"
-                className="absolute top-1/2 right-2 flex size-8 -translate-y-1/2 items-center justify-center rounded-lg text-subtle hover:bg-elevated hover:text-fg"
-                onClick={() => {
-                  patch({ q: "" });
-                  searchRef.current?.focus();
+          <div className="relative">
+            <label className="relative block">
+              <Search className="pointer-events-none absolute top-1/2 left-4 size-4 -translate-y-1/2 text-subtle" />
+              <span className="sr-only">Buscar en el informe</span>
+              <input
+                ref={searchRef}
+                data-testid="search-input"
+                value={query}
+                onChange={(e) => patch({ q: e.target.value.slice(0, 140) })}
+                onKeyDown={(e) => {
+                  if (e.key !== "Escape") return;
+                  if (query) patch({ q: "" });
+                  else e.currentTarget.blur();
                 }}
-                aria-label="Limpiar búsqueda"
-              >
-                <X className="size-4" />
-              </button>
-            ) : (
-              <kbd className="pointer-events-none absolute top-1/2 right-3 hidden -translate-y-1/2 rounded-md border border-border bg-elevated px-1.5 py-0.5 font-mono text-[10px] leading-none text-subtle sm:block">
-                /
-              </kbd>
-            )}
-          </label>
+                placeholder="Buscar en títulos, labs y notas"
+                className="h-12 w-full rounded-full border border-border bg-elevated pr-16 pl-11 text-sm text-fg shadow-lg shadow-black/20 placeholder:text-subtle outline-none transition-[border-color,background-color,box-shadow] duration-200 focus:border-accent/50 focus:bg-elevated focus:ring-4 focus:ring-accent/15"
+              />
+              {query ? (
+                <button
+                  type="button"
+                  data-testid="search-clear"
+                  className="absolute top-1/2 right-2 flex size-8 -translate-y-1/2 items-center justify-center rounded-full bg-border text-subtle hover:bg-border hover:text-fg"
+                  onClick={() => {
+                    patch({ q: "" });
+                    searchRef.current?.focus();
+                  }}
+                  aria-label="Limpiar búsqueda"
+                >
+                  <X className="size-4" />
+                </button>
+              ) : (
+                <kbd className="pointer-events-none absolute top-1/2 right-4 hidden -translate-y-1/2 rounded-full border border-border bg-surface px-2 py-0.5 font-mono text-[10px] leading-none text-subtle sm:block">
+                  /
+                </kbd>
+              )}
+            </label>
+          </div>
         ) : null}
 
         {filtered ? (
