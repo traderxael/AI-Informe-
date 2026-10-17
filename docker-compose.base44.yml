@@ -1,0 +1,41 @@
+# Base44 development environment for AI-Informe (TanStack Start + Vite).
+# Dev server runs from the cloned source with live reload; no prebuilt image.
+services:
+  app:
+    image: node:22-slim
+    working_dir: /app
+    restart: on-failure
+    # Bind-mount the repo so source edits hot-reload without a rebuild.
+    volumes:
+      - ./:/app
+      # Persist installed node_modules across container restarts without
+      # polluting the bind-mounted repo checkout.
+      - app_node_modules:/app/node_modules
+    ports:
+      # Preview contract: host port 3000 -> container dev server on 8080.
+      - "3000:8080"
+    environment:
+      # Sandbox-only flag; app gates any preview-only overrides on this === "1".
+      - BASE44_PREVIEW_MODE=1
+      # Vite >= 6.1 appends this to its allowedHosts so the preview origin is
+      # accepted (the platform sets the full public host suffix).
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+      - BASE44_PUBLIC_HOST_SUFFIX
+      - BASE44_SANDBOX_HOST_DOMAIN
+    command:
+      - sh
+      - -ec
+      - |
+        npm ci --no-audit --no-fund
+        exec npm run dev
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - "node -e \"fetch('http://127.0.0.1:8080/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+
+volumes:
+  app_node_modules:
