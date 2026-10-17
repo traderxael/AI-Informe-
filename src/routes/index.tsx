@@ -3,7 +3,7 @@ import { WeekView } from "@/components/informe/week-view";
 import type { InformeSearch, ModelId, Region } from "@/lib/informe-data";
 
 const REGIONES: Region[] = ["west", "china"];
-const TABS: InformeSearch["tab"][] = ["briefing", "precios", "resumen"];
+const TABS: InformeSearch["tab"][] = ["resumen", "briefing", "precios"];
 
 export const Route = createFileRoute("/")({
   // WeekView recibe { search, navigate }. Sin validateSearch la ruta "/" no
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
     return {
       region: REGIONES.includes(region as Region) ? (region as Region) : "all",
       model: (typeof model === "string" ? model : "all") as ModelId | "all",
-      tab: TABS.includes(tab as InformeSearch["tab"]) ? (tab as InformeSearch["tab"]) : "briefing",
+      tab: TABS.includes(tab as InformeSearch["tab"]) ? (tab as InformeSearch["tab"]) : "resumen",
       q: typeof q === "string" ? q.replace(/\s+/g, " ").trim().slice(0, 140) || undefined : undefined,
     };
   },
