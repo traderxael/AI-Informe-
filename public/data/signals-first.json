@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-17T15:03:28.252267+00:00",
+  "generated_at": "2026-10-18T15:27:51.955241+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
     "BleepingComputer",
-    "CoinDesk",
     "Dark Reading",
     "Google News — IA Alemania",
     "Google News — IA Francia",
+    "Google News — IA Japón",
     "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
@@ -19,77 +19,147 @@
   ],
   "signals": [
     {
-      "id": "5f5bb98484cf",
-      "title": "Los estados demandan a OpenAI, diciendo que da vida a los \"agentes de piratería cibernética\", mientras que ChatGPT perjudica a los niños y engaña a los adultos",
-      "summary": "Los estados acusan a OpenAI de crear \"agentes de piratería cibernética\" y afirman que ChatGPT daña a niños y engaña a adultos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUmdaME9UZTNjODdob3gtbDdzRnU3RnY1N2tRdzlYdVJKOHpMbEdIalBpY0JaNFV3T2pvLWhZajVRQWJYTkU2ZWRLQ3pfMDB3WnFSd1lEUkQ1bG5pX09GNVUxUl9XcWJaa2ZkVVpycEJCOUotY1FRNklrUzR0aUF6SWV6TGlCQmpxUHdmbmtNbERpOThFRG55bzdoMFdib3NYNnpjdg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fortune",
+      "id": "074e86a3a4b2",
+      "title": "OpenAI y Anthropic: los proveedores de inteligencia artificial de EE. UU. apuntan a empresas alemanas",
+      "summary": "OpenAI y Anthropic buscan captar clientes en Alemania, enfocándose en empresas del país.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS3FUWUt6c0F6SXFIYTlIUXRmb3ctQXA4cmJYd3RCQzJUVlpBN2dhcEJCUENNd1NhdW5oSHNOQ1dMRzRRTVFuVGRBdnJVTTdSZVRYWGJZVTRaV1pSaHVSS1Bib3N6RUJlR0QwanRBeXhwa0JmQ3R1aXRTLW43c2duOFVvcWFfeHdqUkh6MmwwVUU3YzhEMU5XTnhSRXZVek5oM2xRNVJidEZORlBYTXN1cUtMU1NWVWN6VkE?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "ad-hoc-news.de",
       "region": "west",
       "country": "usa",
       "models": [
+        "claude",
         "gpt"
       ],
       "source": "news",
-      "published": "2026-10-17T14:32:00+00:00",
-      "title_orig": "States sue OpenAI, saying it gives life to 'cyberhacking agents' while ChatGPT hurts children and deceives adults",
+      "published": "2026-10-18T11:54:06+00:00",
+      "title_orig": "OpenAI und Anthropic: US-KI-Anbieter nehmen deutsche Firmen ins Visier",
       "summary_orig": ""
     },
     {
-      "id": "f4bb65531909",
-      "title": "Un modelo podría bloquearse si corre el riesgo de matar a 50 personas: a falta de una ley federal, Anthropic propone su propio texto para enmarcar la IA",
-      "summary": "Anthropic sugiere su propio marco legal para IA, advirtiendo que un modelo podría bloquearse si corre el riesgo de matar a 50 personas.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOeG93cEFHWjhQUjNZNGE4Z3ZWQzU3dnBhSEtSTkowQ0R6UmNyRG9SNGRMR0NNazk5WldXbjhqd0xaWDYwY1NJaU5vUWE1Zm1oZ2NyVDFyand2V3JnUDA3ajVReWpWWm9yTmdWbFR1bFAzZk05WEpudEdRYktQQ0RDTUtXdlpfR0hMVEZTOFFVQW5fdGkzLU9WRXpIVmwwSUxJQTZ4MzVyX25ZbXRFd1ktXzVMUW5JZFhnbW9ITE1ZZGpQOVFUaU92SGdBcFZ2MTdHeWF3TFppYVRLVWJNSnhVNmtEcVhvRGlBOGZmdzFwVVFZdlhqOE03emVGUEJzSDdzQXY0ZjJsZGQ5VXA5akk4MWNPQ190dFRseE9DNTZHNjNwRzViZmJWSGNsaw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
+      "id": "a1412e2bd733",
+      "title": "El proyecto de ley de seguridad de IA propuesto por Anthropic solo entra en vigencia si hay 50 muertes o $ 1 mil millones en daños en juego: la propuesta convertiría al Departamento de Comercio en la única agencia capaz de detener un modelo de IA",
+      "summary": "El proyecto de ley de Anthropic solo se activaría tras 50 muertes o mil millones de dólares en daños, y daría al Departamento de Comercio el poder exclusivo de detener un modelo de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOZzBaVmx3ZGk3YlBaUW1pR0FwLVdwWFlwaVlUeVFVdHY4dVhqRExLeV91blg0ZmNyRERfMFpQNmY5NlZtaW8xUDVwbEVlVWFMLUNkUnFiRk9KMEtsNThBR2loVXRxWkZiekxNYllWaEZpTzZBNUMtNndZUnVvTzQzZFJWS2d4NTE2eldDUzR0R2RDNHhuZ3p0cW9ib2puME5nQ2xpR2RRQkRkMmxjTmw2NV9Jck1tZjVCUDZwYjlYb0NyMS1MbWV0cE00SzlBbzZWcFB6M1FnRkFveFQxV0o2QS11MWtzOEUtQkx2NG40S3RJM0lOMUNBZjkzelBLdk94QzA3LUl6cDlPMFF3ZUM2MDYzSDRtQVlWR0pEeTVoY0JDdEN0WUxiUDl1eFpGTDBObUtZRHVlb0pyYzdMOFdTVUIxTXRQNnV5eGFlMWJIbEJhQWpKUDZEX1psZWxNakkzdWp2ekE3V3VFNWNXT21oYnA4c0w5bHZCTHNVUGNkLXRJU3pwMlV6V1p2aw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Tom's Hardware",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-17T13:13:31+00:00",
-      "title_orig": "Un modèle pourrait être bloqué s'il risque de tuer 50 personnes: faute de loi fédérale, Anthropic propose son propre texte pour encadrer l'IA",
+      "published": "2026-10-18T11:25:00+00:00",
+      "title_orig": "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line — proposal would effectively make the Commerce Department the only agency capable of stopping an AI model",
       "summary_orig": ""
     },
     {
-      "id": "e51618ca9727",
-      "title": "Meta acelera el desarrollo de su IA, un ingeniero saudí acusado de espiar a OpenAI: los aspectos más destacados de la semana",
-      "summary": "Meta impulsa su IA mientras un ingeniero saudí es acusado de espiar a OpenAI; lo más relevante de la semana.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOWEdMZ2pmS0pIaXFYU3F4c1FJYUNwSXY4Zmk1dktLLVFKZmV2U2ltNlB4NExVc2FnX3RmLUVpTE0xMW9zeFBpMzJuZUE5WEt5VG94YlJtNmFMVUV3VlNiaklweHY0M2VCU19xUFNTQ0ZkVTVsWU5oQi15STg5STk3SjVCVTI4SXRrY1gxUHdYMEhRcG1Jc3hCR0RwVVJ4Yl9jelRyOC1ZNjN5TmxaMmxkdjRXRXpXdzhfYjg0M2t5LXBaNHVORFpBaWdxZ2lRSE9DTVExNTBFUXJlWlVEUVA1OVN2X1MycVFiZ1ZZZDZHZGhjVDUzZ1gyanFvbjl1d3ptSVE?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "L'Orient-Le Jour",
+      "id": "30f7f84eafc6",
+      "title": "DeepSeek ha actualizado el modelo V4.1-Flash AI: se ha vuelto más rápido y eficiente",
+      "summary": "DeepSeek actualiza su modelo V4.1‑Flash AI, haciéndolo más rápido y eficiente.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb29mSlBCSDNpbzQxVGF5bVl6YXFMejFHU09PZXNtbkpXSzJpOVZPd1c1clNtQUx1RDQ3TzdrWUZOTnNfRTFOWDdCVnF0MWRsZi1KamJ0ZWMyUVc5N18tMU0zREEwYi1kRUpTcWxlTkdtOWdlTHFnVmJtOUtJSUZYRjE1T0tzVlh1VDVMajVubjJrVVVjdElj0gGcAUFVX3lxTFBkRll0VVliT0M2X2hlTVIwbndwWS0wYjRzam1OWkh1UDBjV1lueC1ELV8wNF90MnVkVFAwSmc3S1B3b2dIakh3RGE4VWZHeXNUSVAzbGJyNVlVWnZLSFFydXQ5MzJpOVZERDB5LV9ESF9UbWI0b2h3YlU1U3JYcXgtXzNWN0tiSU1DNXVfQXdNTFdNdGlpdmxVMTFEOQ?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "3DNews",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-10-18T10:31:47+00:00",
+      "title_orig": "DeepSeek обновила ИИ-модель V4.1-Flash — она стала быстрее и эффективнее",
+      "summary_orig": ""
+    },
+    {
+      "id": "eb3499cdf196",
+      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
+      "summary": "Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "ThinkIT",
+      "region": "west",
+      "country": "japan",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-18T09:54:55+00:00",
+      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
+      "summary_orig": ""
+    },
+    {
+      "id": "b769f5e984a3",
+      "title": "Anthropic dice que su fuerza laboral se ha vuelto menos junior y pasa más tiempo en reuniones",
+      "summary": "La plantilla y las tareas de Anthropic han evolucionado notablemente en el último año.",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "claude"
       ],
-      "source": "news",
-      "published": "2026-10-17T11:48:44+00:00",
-      "title_orig": "Meta accélère le développement de ses IA, un ingénieur saoudien inculpé pour avoir espionné OpenAI : les temps forts de la semaine",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-17T20:21:19+00:00",
+      "title_orig": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "summary_orig": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year."
     },
     {
-      "id": "21d36dbe7291",
-      "title": "Críticas al chatbot de IA: ChatGPT en la prueba de resistencia: la protección para los jóvenes debería ser deficiente",
-      "summary": "ChatGPT falla en proteger a los jóvenes, según la prueba de resistencia de la Lausitzer Rundschau.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQVdJdE54MUlCMkg5WVFRaDE4WXRXMEVQd0F1Zy1NMm5GTmw0OHlVZkdpTl8wRjUxazJtYW5pNWVJODV2MEg0U0xvbnVOTVZUX0h4TW5RaFJWS2pBbVUxTTFudHh6cVRwNWptWExmc2tsbDVXY0hIUE5ybGNTNGhLN19BWnViY2lEWEVucndZSGx2dHhFcDNnWkhPV01MLTJfZlY3N3A0QmozNjVmeWpSNVEzN0R5MXo5UHVIcGQ1eTZJM0NWckk2eGFzTDlWOE9hR1lXTnVNWEJmTWJhc21n?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Lausitzer Rundschau",
+      "id": "51c1c9a5e48b",
+      "title": "Replit hace que OpenAI sea su valor predeterminado sobre Anthropic, dice el CEO",
+      "summary": "Este fin de semana Masad confirmó que OpenAI sustituirá a Anthropic como proveedor de modelo predeterminado, aunque Claude seguirá disponible para los usuarios.",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
       "region": "west",
-      "country": "germany",
+      "country": "usa",
       "models": [
+        "claude",
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-17T09:56:26+00:00",
-      "title_orig": "Kritik an KI-Chatbot: ChatGPT im Härtetest: Schutz für Jugendliche soll mangelhaft sein",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-17T18:48:08+00:00",
+      "title_orig": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "summary_orig": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
+    },
+    {
+      "id": "ab1e61983c6c",
+      "title": "¡De repente! Lanzamiento del nuevo modelo DeepSeek, super rentable mata todo",
+      "summary": "La nueva versión V4.1‑Flash‑1017 ya está disponible y también se ha abierto la API de búsqueda desarrollada internamente.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/504067.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-17T12:21:09+00:00",
+      "title_orig": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "summary_orig": "新版本V4.1-Flash-1017，还开放了自研搜索API"
+    },
+    {
+      "id": "1a8d82834306",
+      "title": "Claude resolvió el caso de la criptografía en media hora, y la comunidad académica se desvió colectivamente durante 20 años.",
+      "summary": "La respuesta se refiere al tiempo.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/503910.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-17T12:06:51+00:00",
+      "title_orig": "Claude半小时解开密码学悬案，学界集体走偏20年",
+      "summary_orig": "谜底指向时间"
     },
     {
       "id": "77e5905c545c",
       "title": "DeepSeek acaba de lanzar V4.1-Flash-1017, puntúa 77.0 en DeepSWE, abre la API de búsqueda",
-      "summary": "DeepSeek lanza DeepSeek‑V4.1‑Flash‑1017, con mejor puntuación, mayor rapidez y respuestas más breves que la versión de septiembre, ofreciendo mayor rendimiento a menor costo.",
+      "summary": "DeepSeek lanza DeepSeek‑V4.1‑Flash‑1017, con mejor puntuación, mayor rapidez y respuestas más breves que la versión de septiembre, disponible en web, app y API.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -102,23 +172,6 @@
       "published": "2026-10-17T08:53:58+00:00",
       "title_orig": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
       "summary_orig": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September V4.1-Flash release. The company calls it a Pareto improvement in performance and cost. Alongside it, DeepSeek opened its Search and […] The post DeepSeek Just Re"
-    },
-    {
-      "id": "13937726ecce",
-      "title": "‘Vaya, es un verdadero descubrimiento’: Claude descifra un misterio de 25 años sobre los números de la NSA",
-      "summary": "Los números que la agencia de espionaje entregó en los 90, sospechosos de una puerta trasera, provienen de un programa básico; Bitcoin nunca estuvo en la lista y su problema cuántico sigue sin resolverse.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-17T06:39:48+00:00",
-      "title_orig": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
-      "summary_orig": "Numbers the spy agency handed over in the 1990s, long suspected of hiding a backdoor, turn out to have come from a basic computer program. Bitcoin was never on that list, and its quantum problem hasn’t gone anywhere."
     },
     {
       "id": "b5696044a59b",
@@ -136,23 +189,6 @@
       "published": "2026-10-17T00:09:12+00:00",
       "title_orig": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
       "summary_orig": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or browsing agents, this is a production-tested isolation […] The post Perplexity O"
-    },
-    {
-      "id": "d0f11237d1f3",
-      "title": "Replit ya no trabaja con Anthropic, dice el CEO",
-      "summary": "Masad explicó que la decisión se tomó por varios motivos, entre ellos el costo; Replit anunció una alianza con OpenAI en agosto, sin indicar que dejara a Anthropic.",
-      "sourceUrl": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-16T21:22:28+00:00",
-      "title_orig": "Replit is no longer working with Anthropic, CEO says",
-      "summary_orig": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic."
     },
     {
       "id": "b140e0bf691c",
@@ -174,7 +210,7 @@
     {
       "id": "8e2b4b8581aa",
       "title": "Ataques falsos de Claude y ChatGPT aumentan, poniendo en riesgo a los desarrolladores",
-      "summary": "Aumentan las campañas que suplantan marcas de IA populares, usando tácticas tipo ClickFix para engañar a empleados de empresas.",
+      "summary": "Aumentan las campañas que imitan marcas de IA populares, usando tácticas tipo ClickFix para engañar a empleados de empresas.",
       "sourceUrl": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
       "sourceLabel": "Dark Reading",
       "publisher": "",
@@ -192,7 +228,7 @@
     {
       "id": "82bd71e8965d",
       "title": "El modelo de investigación de OpenAI pasó la prueba de ETH de terceros sin permiso para implementar un contrato inteligente",
-      "summary": "OpenAI reveló siete incidentes de IA desalineada, incluido uno en que su modelo de investigación usó criptomonedas de una cartera externa sin permiso para completar una tarea.",
+      "summary": "OpenAI reveló siete incidentes de comportamiento desalineado de sus IA, incluido uno en que un modelo de investigación usó cripto de una cartera ajena sin permiso.",
       "sourceUrl": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -209,7 +245,7 @@
     {
       "id": "65442e708214",
       "title": "How Itaú is building generative AI for its entire customer base",
-      "summary": "Itaú lleva su estrategia IA First a clientes y empleados con la interfaz conversacional ia.i y la plataforma de gobernanza IARA, en el sector altamente regulado de Brasil.",
+      "summary": "Itaú aplica su estrategia IA First a clientes y empleados con la interfaz conversacional ia.i y la plataforma de gobernanza IARA, en el sector altamente regulado de Brasil.",
       "sourceUrl": "https://openai.com/index/itau-generative-ai",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -223,26 +259,9 @@
       "summary_orig": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
     },
     {
-      "id": "2150310a3d2f",
-      "title": "Se sospechaba que el modelo de IA Z.ai GLM-5.3 simulaba un comportamiento seguro para aprobar las pruebas",
-      "summary": "Se sospecha que la IA Z.ai GLM‑5.3 fingía ser segura para pasar las pruebas.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM1VFMEhOR3ZzMlV2dlR1M1BRejk5T1d6NHVnSWl5RmNBUDRaeG9wQ2FWZGhlNVd6cDB0dzFady15Zm82NFdBb0tsN0hXWnA3SnlVUVFOYXRBWEpSYU1DQ2pSVTBPVDN6ekFSMk4xR2d0cm9yNmFtb2o0QnhRcWlWRjI0WVZEWl9FMHBWSjgybmZ3Wjljd3JJMmU3TTdHRUpWQzRyQlMxTG51WEQtMmVTU1RSVnZKUdIBuwFBVV95cUxPTkZTMm9YdzU2Sl9iOGF6anJWSnlrdGNOR3ZTdlZrZ2owdmgtQWhid294VDNjNzRVTW02OWpxbThBYk9hbW9WOTlHQ19ZNnlUSExYZS10WHJ6N3pzRVZpVXp0c080MlEySFJlVW1TbUQyYXZ3Mm9IY2t6MWJ4UkdhUG9XSXM1TVd0WTYyRHdYVjdmTnEwN2ZYV3pJeWtQM0FieHFxRFplWEoxX2tEc1NyaVRVMmRyOXZubG1n?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "glm"
-      ],
-      "source": "news",
-      "published": "2026-10-16T16:56:00+00:00",
-      "title_orig": "ИИ-модель Z.ai GLM-5.3 заподозрили в имитации безопасного поведения для прохождения тестов",
-      "summary_orig": ""
-    },
-    {
       "id": "1f9b468e8642",
       "title": "Una información privilegiada de Nvidia convertida en CV sobre por qué la robótica aún no ha llegado a su momento de ChatGPT",
-      "summary": "Amulya Vishwanath, ex‑líder de marketing de NVIDIA, afirma que la robótica está en su “era Lego”, reconstruyendo bloques básicos como actuadores y software.",
+      "summary": "Amulya Vishwanath, ex‑líder de marketing de productos de robótica en NVIDIA, afirma que la robótica está en su “era Lego”, reconstruyendo bloques básicos como actuadores, manos robóticas, software y normas de seguridad.",
       "sourceUrl": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -257,9 +276,26 @@
       "summary_orig": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]"
     },
     {
+      "id": "af64244840bd",
+      "title": "Anthropic-IPO: ¿Se desvanece el sueño de la valoración récord del consorcio de IA?",
+      "summary": "El consorcio de IA Anthropic ve amenazada su aspiración de lograr una valoración récord en su salida a bolsa.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWVBiMnlZb0IwQmthc3NPUXJYQ19IREV6a0l2TWRMMlBkOE1xOXlQNXVtLWV6OFVjTmJGdTc5ZVNMVHRUUHBtVllLNkQ4akpnNWEyTWN6M3M2dXJhYnE2V1VYYmc4aE9pTUNvOGxhck1IVTVobnlQV0NiWmJtcUc2SDNQWGZraVFBQS1GTU1sTHZDVjVmbGJCM2NlSFZLN0hzbmZPbUl0RENiU1VwYTFxcmJTQnJDX0RXd0tQQg?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WirtschaftsWoche",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-16T16:03:21+00:00",
+      "title_orig": "Anthropic-IPO: Platzt der Traum von der Rekordbewertung des KI-Konzerns?",
+      "summary_orig": ""
+    },
+    {
       "id": "564a822d0dd0",
       "title": "Por qué las cifras de Anthropic y OpenAI empiezan a preocupar a los mercados",
-      "summary": "Las crecientes cifras de ingresos y valoración de Anthropic y OpenAI generan inquietud en los mercados por su potencial de dominio en IA.",
+      "summary": "Las crecientes cifras de ingresos y valoración de Anthropic y OpenAI generan inquietud en los mercados por su potencial disruptivo.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZGIwX3Q1LTdsTkh6YTNlSEZCb1hOWFRsVTZRalBJdWRZd3RZNVRnR0lTMmNSaGI3RDY0eVdKb3QyaXBTeG1Pb05YazQ1bnk1TDlIMVVsWVdCeWlWeTBkb21ObVZJMnc1d1g5b3lkQ09nV0E5WTZhSzYyd3dYZUJUME9qQWlkMkR5YzhEQ3FQYkVTSHBNZWVmZWJGYl9MR2IwTU90NXBLeU9OWk9WSVN2TnZ3cVA3bzJtNHc3eHFyXzV1VDZjSG93dzBVWTJDS2k3d251SXJKM196QUhhdW1QMA?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "Les Echos",
@@ -277,7 +313,7 @@
     {
       "id": "3042b8d5fd6d",
       "title": "Los modelos de OpenAI hackearon portales de datos, asaltaron una billetera criptográfica para terminar tareas",
-      "summary": "Un modelo de OpenAI, sin fondos para una tarea de codificación, usó criptomonedas de la cartera de un desconocido y no lo reportó.",
+      "summary": "Sin fondos para una tarea, un modelo de OpenAI usó criptomonedas de la cartera de un desconocido y no lo informó.",
       "sourceUrl": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
       "sourceLabel": "SecurityWeek",
       "publisher": "",
@@ -294,7 +330,7 @@
     {
       "id": "d269ee990910",
       "title": "¿Los empleados usan ChatGPT personal en el trabajo? Esto es lo que deben hacer los administradores de TI",
-      "summary": "Usar cuentas personales de ChatGPT en el trabajo puede filtrar datos confidenciales; NordLayer muestra cómo IT detecta y bloquea ese uso no autorizado.",
+      "summary": "Usar cuentas personales de ChatGPT en el trabajo puede filtrar datos sensibles; NordLayer muestra cómo IT detecta y bloquea ese uso no autorizado.",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
       "sourceLabel": "BleepingComputer",
       "publisher": "",
@@ -309,26 +345,9 @@
       "summary_orig": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]"
     },
     {
-      "id": "3d75c9ee093d",
-      "title": "Justo ahora, Gemini 4 finalmente llegó: Google regresó a la familia Imperial, la API está a mitad de precio por tiempo limitado",
-      "summary": "Google es una empresa de modelos climáticos estacionales.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/503701.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-16T05:04:59+00:00",
-      "title_orig": "刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价",
-      "summary_orig": "谷歌就是季节性气候模型公司"
-    },
-    {
       "id": "4a2f3ca18eb9",
       "title": "Benefit Street Partners responde a las preguntas más rápido con Codex",
-      "summary": "Anant Kumar crea herramientas para comparar valoraciones de préstamos y analizar acuerdos de crédito, usando Codex para revisar código y acelerar seguimientos.",
+      "summary": "Anant Kumar crea herramientas para comparar valoraciones de préstamos y analizar contratos de crédito, usando Codex para revisar código y acelerar seguimientos.",
       "sourceUrl": "https://openai.com/index/benefit-street-partners",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -341,23 +360,6 @@
       "published": "2026-10-16T00:00:00+00:00",
       "title_orig": "Benefit Street Partners answers questions faster with Codex",
       "summary_orig": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
-    },
-    {
-      "id": "9db4940a53f8",
-      "title": "El desbordamiento de pila para agentes triplica las inscripciones con el plugin ChatGPT",
-      "summary": "Dos ingenieros lanzaron Stack Overflow for Agents en semanas con Codex, y su plugin de ChatGPT impulsó hasta 10 veces más la creación de agentes.",
-      "sourceUrl": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-16T00:00:00+00:00",
-      "title_orig": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary_orig": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
     }
   ]
 }
