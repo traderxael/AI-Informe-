@@ -1,93 +1,296 @@
 {
-  "generated_at": "2026-10-19T18:24:27.803326+00:00",
+  "generated_at": "2026-10-20T16:26:04.654444+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
     "BleepingComputer",
-    "CoinDesk",
     "Google News — IA Alemania",
+    "Google News — IA China (zh)",
     "Google News — IA Francia",
-    "Google News — IA Japón",
     "Google News — IA global",
     "MIT Tech Review AI",
     "MarkTechPost",
+    "OpenAI",
+    "QbitAI",
     "SecurityWeek",
-    "TechCrunch AI",
-    "The Hacker News"
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "56621dd3844d",
-      "title": "KI-News aktuell: Nordkorea testet KI-Torpedo – Aviso antrópico vor Replikatoren",
-      "summary": "KI-News informa que Corea del Norte está probando un torpedo con inteligencia artificial, advirtiendo sobre riesgos de replicadores autónomos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPemZadXpkazFUMlVncGx3U19qbVZ5Qm9ONWtLRlNIdTZuSl9MMkxZaHNORWRQTnFSMjRLOWowUzZWdHliY2Y0LUlmNHhLLTdNRElZX3o5LXdncUNZQVFBNnAzS2swMWJjaTd2a1MxQW8taXVuTGlvMjhBSm9KQmtPTTBYYXAtemRQeDJhcTdkcEsxdi1IaTZkeFJzVFh4RmlCcHZNcXpVMjhfRURmeFZmeEZQS1VOd1FDZldOeF9vcTZEcm9v?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-19T18:06:29+00:00",
-      "title_orig": "KI-News aktuell: Nordkorea testet KI-Torpedo – Anthropic warnt vor Replikatoren",
-      "summary_orig": ""
-    },
-    {
-      "id": "3fe7fbe457c0",
-      "title": "Antrópico destinando el 5% de las acciones a un fondo de beneficio público que podría abordar el impacto de la IA en los trabajadores",
-      "summary": "Antrópico asigna el 5 % de sus acciones a un fondo público para mitigar el impacto de la IA en los trabajadores.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nSDBhTW9ZZkVWV05naXhhZzlqU2ZhRFB2TVFRNFdkV0VYaG9jRl9HbTRMbWVHSEtQZHVzQWQzdUFoRVFGc25sdFo0TndZLWFkWUdwMXVic3FtNGs0LU0wYzEzVkRKdUdpOVFFQnZYWXRsREZ5YlNjNXo0SGU?oc=5",
+      "id": "fc9a3e4eded1",
+      "title": "China defiende a DeepSeek después de que Estados Unidos prohibiera su IA de los sistemas gubernamentales",
+      "summary": "China defiende a DeepSeek tras la prohibición de EE. UU. de usar su IA en sistemas gubernamentales.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHJaLWxzbWd6dlhCcEpXSHJpdVlKb3pkaUM4Z2VlRzRzX21LSzZ3LU52Njk5Vm16SWRvcThqb0VrdFd5TnlteVI1VENTdmZ0Y2hERnZWVXkzY3J2ZWlleUNUUTJoVEVuYkVFcndfQm9qUzJ1cTF1MkhvZHRLQ2VscEJ5RTBFd2ZWa19LOXNGaE5uT0FMYzh3VXhESDVwVWtOeXd3QVYzLUk?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
-      "region": "west",
-      "country": "usa",
+      "publisher": "WRAL",
+      "region": "china",
+      "country": "china",
       "models": [
-        "claude"
+        "deepseek"
       ],
       "source": "news",
-      "published": "2026-10-19T16:55:00+00:00",
-      "title_orig": "Anthropic putting 5% of shares toward public benefit fund that could address AI impact on workers",
+      "published": "2026-10-20T15:30:40+00:00",
+      "title_orig": "China defends DeepSeek after US ban of its AI from government systems",
       "summary_orig": ""
     },
     {
-      "id": "c71e6a33887e",
-      "title": "El ex ingeniero de OpenAI acusado de plantar errores en el cargo estaba en contacto con la familia real saudí, preparándose para salir de EE. UU.",
-      "summary": "El exingeniero de OpenAI, acusado de insertar fallos, estaba en contacto con la familia real saudí mientras planeaba abandonar EE. UU.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckNoZkFGT2w5emFna0Z2dlpmMkUyMlIwZkU3VjVaenBVWVRHSkw3QkM0ZU43MXM4YURTYUh1bmV1ZmtWdnZIVFhDMnM0MGl0YzhBNHFXcVMxSWN0UER3THRfN0w3OVB3b2ZsMGdtWUYzYmx5b1FGWkcwcDgtZ0o1RlhZQ2NXS0dfWjIwWg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "CBS News",
-      "region": "west",
-      "country": "usa",
+      "id": "69e5c5e0b8bc",
+      "title": "DeepSeek Open-Sources DeepInfer, el marco de inferencia detrás de DeepSeek-V4.1-Flash",
+      "summary": "DeepSeek lanzó DeepInfer, un framework de inferencia Apache 2.0 para DeepSeek‑V4.1‑Flash, compatible con GPUs NVIDIA SM100 y NPUs Huawei Ascend 950, solo para inferencia offline.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
       "models": [
-        "gpt"
+        "deepseek"
       ],
-      "source": "news",
-      "published": "2026-10-19T16:14:26+00:00",
-      "title_orig": "Ex-OpenAI engineer accused of planting bug in office was in contact with Saudi royal family, preparing to leave U.S.",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-20T14:31:59+00:00",
+      "title_orig": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+      "summary_orig": "DeepSeek has open-sourced DeepInfer, the Apache 2.0 inference framework that serves DeepSeek-V4.1-Flash in production. It targets NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, and ships offline inference only. The post DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash appeared first on MarkTechPost ."
     },
     {
-      "id": "715fec94262b",
-      "title": "Inteligencia artificial: micrófono en una sala de reuniones, posible espionaje saudí, ingeniero detenido… ¿qué pasa en OpenAI?",
-      "summary": "IA: micrófono en sala de reuniones, sospecha de espionaje saudí y un ingeniero detenido; la polémica se intensifica en OpenAI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOVhCOUpab3ZlSUg3Wi1JZkpBTnMxbnAyUnNxdlhKNEU3SDlHbnA3Mmx5WlRZOFY0eUdWY2xBeWlNY0FQU3M1MGpuYm5mck0zdGpLVWF6eU0zbF9meFBoVjVnS3RuQk9HYWtCVjB6YWZ1bHgtN1E3eHRMOHhxWF9uTjVlQTZRV1FQX2IyWVBMakJmXzR3THFEdTF1MDI4Q2ZlcjhmajZjRlphekc1VW5QTno5aGV2V3FTSDNfM1R4d1pOSlZFUDJjR3ByRzAtVWo3aWhGVTBRa2UydHgxN1dqZ29sQTZCRXZ6YkZqa21hVndJV1JSczJCbUd2SGJMcDZVME9VdjhHMzAyZWFwaEVydm13RkFhZWdwRzRlREw1MUtyZzBzMWZhdHFZdUE1TjFwNFNxS1d3?oc=5",
+      "id": "f607a2477a23",
+      "title": "OVHcloud prépare sa propre IA et son dirigeant égratigne Mistral",
+      "summary": "OVHcloud prepara su propia IA y su director critica a Mistral.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYUpYNFNiUkE5eEJua1FBbmVscFZtQmFGTWE0MGxBcTZvR0pwYVMxSHhPSktOSjhJU01KMmhVWHM2emFUdGNGQTVmeHVNcEFPN2ZSeVRpVmN5RTM1bGM2a0xqUTZfWW1nVmVYb3lKZExiX0FoSVktUUNELWtaX1Z4U1RlSEtHbmJYQWptNGdmbFBka290TDdOQm1tTFRpcmlVdUM0?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Sud Ouest",
+      "publisher": "Siècle Digital",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-20T13:32:16+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "c723746d1e66",
+      "title": "Estados Unidos ordena a las agencias federales que eliminen la IA DeepSeek de China de sus sistemas",
+      "summary": "EE.UU. ordena a agencias civiles federales eliminar productos DeepSeek y servicios de terceros basados en su tecnología por motivos de seguridad nacional.",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-20T13:07:24+00:00",
+      "title_orig": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "summary_orig": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns."
+    },
+    {
+      "id": "fe636d0aa17f",
+      "title": "DeepSeek presenta una herramienta de código abierto para ayudar a reducir los costes operativos de la IA",
+      "summary": "DeepSeek lanza una herramienta de código abierto para disminuir los costos operativos de la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTNwMlNFRlZ6SkZCMWtZaEJfUWdXbGxlQVBnSEZOZ0dVM1dLc240NTVQdnZTbjJqd2pRWVNpUUZVYldWZDlzdF8waFlUVlRRaW1uYllNRjdVNFZZSW9aeFhGQmRzS1p1VmhFUG9HbTMzaE5hTm1mOGFwSHp5VzlEbTEtc2ZsQTJ3amdCVjhkZUU5bkY3UDM2ajNRcGY4aDJBWjhFbGljNjlZaXI1X3gyX1gyYTV4QQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Bloomberg.com",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-10-20T12:45:23+00:00",
+      "title_orig": "DeepSeek Unveils Open-Source Tool to Help Cut AI Operating Costs",
+      "summary_orig": ""
+    },
+    {
+      "id": "b44079bd0a64",
+      "title": "Ex trabajador de OpenAI acusado de pinchar una sala de conferencias planeaba volar a Arabia Saudita, dicen los fiscales",
+      "summary": "La esposa y el hijo pequeño de Abdulrahman Alfozan abandonaron el país al día siguiente de su detención.",
+      "sourceUrl": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
+      "source": "lab",
+      "published": "2026-10-20T12:33:12+00:00",
+      "title_orig": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
+      "summary_orig": "Abdulrahman Alfozan’s wife and young son also left the country the day after the 35-year-old Saudi national’s arrest. The post Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say appeared first on SecurityWeek ."
+    },
+    {
+      "id": "60d6f9ce94df",
+      "title": "\"La IA es una carrera de Fórmula 1 de noche sin frenos\", advierte el fundador de Anthropic",
+      "summary": "La IA avanza como una carrera nocturna de Fórmula 1 sin frenos, advierte el fundador de Anthropic.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa0VIVWp1NTdjTnRTeFJJLVZrTGJMbHdvM2R0QVl3Zm1BZGc5aURCTEYtOURLT04tNnQ3MGZ3VG5VS2pNdGhLVEpvUE5PaXhicFQtOTJuTkxEWUdVTmtPcXpnTXo4clVHNWJTWTJJbzRQZWowdjZmTS1RM0FPU1d6eVBFTzZJVGZXbHBpNEdPRjVxN1RyR3ZhMFZSdnBBbjdmUkxvdVpzNklSRHpKLVRnZTRLaHVrak1uVTFZdXFtNkdiUQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WELT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
       "source": "news",
-      "published": "2026-10-19T16:07:53+00:00",
-      "title_orig": "Intelligence artificielle : micro dans une salle de réunion, possible espionnage saoudien, ingénieur arrêté… que se passe-t-il chez OpenAI ?",
+      "published": "2026-10-20T12:15:42+00:00",
+      "title_orig": "„KI ist ein Formel-1-Rennen bei Nacht ohne Bremsen“, warnt der Anthropic-Gründer",
+      "summary_orig": ""
+    },
+    {
+      "id": "4162cca6289c",
+      "title": "El DHS prohíbe los productos DeepSeek en las agencias civiles federales de EE. UU.",
+      "summary": "El DHS ordena a las agencias federales que dejen de usar productos DeepSeek y los eliminen de los sistemas gubernamentales.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-20T10:19:05-04:00",
+      "title_orig": "DHS bans DeepSeek products across US federal civilian agencies",
+      "summary_orig": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]"
+    },
+    {
+      "id": "65e04706d8dd",
+      "title": "La API de búsqueda Exa 3.0 supera la perplejidad, la valentía y el paralelismo en 8 puntos de referencia",
+      "summary": "Exa 3.0 mejora su API de búsqueda con el modelo Exa Lite, resaltados dinámicos y supera a Perplexity, Brave y Parallel en ocho pruebas.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "perplexity"
+      ],
+      "source": "lab",
+      "published": "2026-10-20T08:12:21+00:00",
+      "title_orig": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+      "summary_orig": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself. The post Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks appeared first on MarkTechPost ."
+    },
+    {
+      "id": "e6a552314983",
+      "title": "Estados Unidos ordena al sistema gubernamental que desactive DeepSeek: la competencia de IA entre China y Estados Unidos continúa aumentando",
+      "summary": "EEUU obliga al gobierno a apagar DeepSeek, intensificando la rivalidad de IA con China.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xUkZ3SWJuSkk4eHNSaFVTUzFGQXYwVktNWFNlemVYQVVtQjRyY1NFdkVBMGlod0N1UEYyTXNpYUlmcThBdkdaR1hrclhXTmhKM2hBODJCVUk5YWlnSXVJSy1lTWRBSkXSAWxBVV95cUxNbHhpZF9CRnFHb0QtNWtfdUZSQWJTaEhqeTZlT1c4QVFZVmh5MUcwVngwTEh4UjZ2WkVZdGtkR1lYWUNvbU1ZTzJFVWs1eHBzZDlmLTMtdXRmQmJCdFRVR2VaYVEyTjlxUG1UV3k?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "BBC",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-10-20T08:03:59+00:00",
+      "title_orig": "美国下令政府系统禁用DeepSeek：中美AI竞争继续升温",
+      "summary_orig": ""
+    },
+    {
+      "id": "ec32daff9e2a",
+      "title": "¡Nuevo modelo de Claude revelado! Puede salirse de la mentalidad, corregir errores y curar las causas raíz",
+      "summary": "OpenAI lanzó su modelo de IA de 6,1 TB, el más grande jamás creado.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/504314.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-20T01:09:43+00:00",
+      "title_orig": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
+      "summary_orig": "OpenAI只掏出一个6.1 Terra…"
+    },
+    {
+      "id": "b0fb4c056719",
+      "title": "Según los informes, Nscale y Anthropic están en conversaciones para otro acuerdo de cómputo de $ 45 mil millones",
+      "summary": "Si se concreta, será el último de una serie de grandes acuerdos de computación que Anthropic ha cerrado en el último año.",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-19T23:39:38+00:00",
+      "title_orig": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "summary_orig": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year."
+    },
+    {
+      "id": "8168826f0391",
+      "title": "Resultados estructurados para modelos Claude antrópicos en Amazon Bedrock | Inteligencia artificial",
+      "summary": "Resultados estructurados de modelos Claude antropicos disponibles en Amazon Bedrock de AWS.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGtQZ3VDNTRrRVNBTDA4ak5mUlBKUG1kdWpwWDJxQUx2UWxFMGw3Sk85MllYN1gyTENSZEcxa0RwZ2RXLTk5WlE0ejZPZWU0UzI5RVRmUnlLdXgwcjZBUUhEUnI5enprM2NPZVlhbXl6ZUhTVU4wZEpwMjc0SHlQME54Ri1NMk40UmF5bDBReHdEV0V6OWxXVnJVSl9nUkpsTGFQejBtU2tFeEliQXpvZw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Amazon Web Services (AWS)",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-19T23:32:19+00:00",
+      "title_orig": "Structured outputs for Anthropic Claude models on Amazon Bedrock | Artificial Intelligence",
+      "summary_orig": ""
+    },
+    {
+      "id": "01c35fb06f86",
+      "title": "Estados Unidos ordena la retirada de DeepSeek de los sistemas federales, citando riesgos de seguridad nacional",
+      "summary": "EE. UU. prohíbe DeepSeek en sistemas federales por riesgos de seguridad nacional.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1hmeDF6Wm1ERkNQM2lmdGg5RTVNOHZvcmQxRlAzVFpndk5SOE1UdEhwMHNhQjdQaExGMkljeVdoa1FTWWl1bzhFTDhWdy1JV2Z1c3F3Y1VPUGRZTDVxQV9HUVBoUmpGdnZWcmdyWjBjUm1yTEJUNGRmMzNoNk43YjhXWEJmVWgzamFYeUZZeTFvcG0zeHBIMEdGRVZrS0kySlYtMjJpaXo0dU5TeUZwWTFKODFfWFp3dkHSAboBQVVfeXFMUGNZTGQxdWpZNmpRTjF5ZWVqdjV4QnFNanIxcXJKdFR2RVpOS3M2UmlKX0ZfWlU0a1hQQzAycC1XNVhQdEtCOENyd0JoT3daVFoxY2dXRFZGRDFkb1IxZjBLVmVTRVRlTTZJQmR3X214RVRBaGhHeDNjSVNXNnhaQWxSN3NZYWdoV2Z0T1pmOWpfM1Z6cWw3TmFnZ3R5blBBNDFGeHhGMG1jUTRKX2p4aUViNnZVYTY3dW9n?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "South China Morning Post",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-10-19T21:49:10+00:00",
+      "title_orig": "US orders DeepSeek removed from federal systems, citing national security risks",
+      "summary_orig": ""
+    },
+    {
+      "id": "71a28de11a06",
+      "title": "El acusado de espionaje de OpenAI tenía una carpeta llamada \"Saudi Gov Docs\", dice el FBI",
+      "summary": "EE. UU. teme que el gobierno saudí ayude a un ex‑ingeniero de OpenAI a huir de cargos de espionaje.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-19T20:21:53+00:00",
+      "title_orig": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "summary_orig": "US fears Saudi government will help ex-OpenAI engineer flee spying charges."
+    },
+    {
+      "id": "ee1eb278e42c",
+      "title": "Estados Unidos prohíbe al gobierno DeepSeek de China en la carrera por el dominio de la IA",
+      "summary": "EEUU prohíbe al gobierno chino DeepSeek, intensificando la competencia por el liderazgo en inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pUFg0N3NNbGhmNmp4THlOVFFSOFdudlVRSzEzc2lzQzNMZldMOUFSbHhtd1l0X3JqZF90dnpBSUh1TFBUTHdUUXRLTlF0SThVN3huUFhJX0swMnc?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "BBC",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-10-19T18:21:54+00:00",
+      "title_orig": "US bans China's DeepSeek from government in race for AI dominance",
       "summary_orig": ""
     },
     {
       "id": "fcf776a502b8",
       "title": "MiniMax acaba de lanzar M3.1 Flash: Modelo Moe Agentic 428B a $ 0.15/M de entrada",
-      "summary": "MiniMax lanzó M3.1 Flash, modelo MoE de 428 B parámetros (≈23 B activos) con contexto de 1 M tokens; la API cuesta $0.15 por millón de tokens.",
+      "summary": "MiniMax lanzó M3.1 Flash, un modelo MoE de 428 mil millones de parámetros (≈23 mil millones activos) con contexto de 1 millón de tokens y precio de $0,15 por millón de tokens.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -102,62 +305,26 @@
       "summary_orig": "MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1M-token context. API pricing is $0.15/$0.60 per 1M tokens, with weights due October 23 The post MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input appeared first on MarkTechPost ."
     },
     {
-      "id": "1de1c48ce23b",
-      "title": "La violación de la consola de OpenCode puede haber expuesto las claves de OpenAI, Anthropic y Google API",
-      "summary": "Un intruso accedió al sistema heredado de OpenCode el 16 de octubre y pudo haber expuesto las claves de proveedores de IA guardadas en OpenCode Console.",
-      "sourceUrl": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "sourceLabel": "The Hacker News",
+      "id": "7a364f356aab",
+      "title": "Avanzar en la codificación en lenguajes de programación de bajos recursos",
+      "summary": "OpenAI mejora ChatGPT para lenguajes de programación poco usados, añadiendo evaluaciones de ingeniería de software, SQLite y migración a COBOL.",
+      "sourceUrl": "https://openai.com/index/low-resource-programming-languages",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude",
         "gpt"
-      ],
-      "source": "social",
-      "published": "2026-10-19T11:37:08+05:30",
-      "title_orig": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "summary_orig": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without"
-    },
-    {
-      "id": "81b03490e34d",
-      "title": "Anthropic vs OpenAI: la IA más cara no es la que creemos",
-      "summary": "Anthropic y OpenAI compiten, pero la IA más costosa no es la que imaginamos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdFZfV0NOQ3FOMENKTEVfTTEzNWk1bG9rd3lEZ0NyV2pDSGNMMmVYRnhuUUVKTnJnWFVyUHVSS1VNRXo1MEExZzU3SThidWFEUXZtN1Y3STRaYm5BYmNOa2tVanVDSmV4OUUzcFF5MHZPTGdjVnF6MVdPczJRaTNocS1vaGpvXzRsWGI4RDdLUjBHWV9Lb2ZVUjBNZFBtM1JMNGRQU0lhV0s1aUtWS1I3aE81SUJLbEtKNU5WSGRCOEFvbjNFYWktbEN2ZnVFdw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "JDN",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-19T10:13:23+00:00",
-      "title_orig": "Anthropic vs OpenAI : l'IA la plus chère n'est pas celle que l'on croit",
-      "summary_orig": ""
-    },
-    {
-      "id": "c64c897461a3",
-      "title": "La rama minera de Bitcoin Nscale pierde el acuerdo de Microsoft AI a medida que el retraso de energía se extiende a la década de 2030",
-      "summary": "La empresa respaldada por Nvidia planeaba entregar 23 000 chips de IA en Reino Unido el próximo año, pero su conexión a la red no estará lista hasta la década de 2030.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/10/19/bitcoin-mining-offshoot-nscale-loses-microsoft-ai-deal-as-power-delay-stretches-into-2030s",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "copilot"
       ],
       "source": "lab",
-      "published": "2026-10-19T09:15:00+00:00",
-      "title_orig": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s",
-      "summary_orig": "The Nvidia-backed company planned to deliver 23,000 AI chips in the U.K. next year, but its grid connection may not be ready until the 2030s."
+      "published": "2026-10-19T12:00:00+00:00",
+      "title_orig": "Advancing coding in low‑resource programming languages",
+      "summary_orig": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
     },
     {
       "id": "b32798372587",
       "title": "Los investigadores de IA dejaron a Claude varado en una isla virtual desierta. Empezó a \"jugar\".",
-      "summary": "Los agentes de IA, sin instrucciones, pasan 30 horas solos en una isla virtual jugando, como muestra el experimento con Claude Opus 4.7.",
+      "summary": "Los agentes de IA, aislados 30 horas en una isla virtual, pasan el tiempo jugando, según el experimento con copias de Claude Opus 4.7.",
       "sourceUrl": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "sourceLabel": "MIT Tech Review AI",
       "publisher": "",
@@ -170,74 +337,6 @@
       "published": "2026-10-19T09:08:05+00:00",
       "title_orig": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
       "summary_orig": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…"
-    },
-    {
-      "id": "1f63abf1d8df",
-      "title": "Microsoft corrige el error clásico de Outlook que ocultaba los botones del copiloto",
-      "summary": "Microsoft corrigió un problema que había eliminado los botones de Copilot Chat y Copilot en la versión clásica de Outlook para algunos usuarios de Windows.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "copilot"
-      ],
-      "source": "lab",
-      "published": "2026-10-19T08:44:44-04:00",
-      "title_orig": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-      "summary_orig": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]"
-    },
-    {
-      "id": "5c0bebf27f10",
-      "title": "Anthropic adquiere sistemas opacos confidenciales de inicio de IA",
-      "summary": "Opaque Systems creó una tecnología que permite a la IA usar datos sensibles protegidos por el hardware subyacente.",
-      "sourceUrl": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-19T07:45:25+00:00",
-      "title_orig": "Anthropic Acquires Confidential AI Startup Opaque Systems",
-      "summary_orig": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware. The post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek ."
-    },
-    {
-      "id": "48127d6cab9a",
-      "title": "\"No más de 50 muertos o heridos graves, o mil millones de dólares en daños\": la propuesta de ley de Anthropic para limitar los riesgos relacionados con la IA",
-      "summary": "La iniciativa de Anthropic propone una ley que limite los riesgos de IA a no más de 50 muertos o heridos graves y a un máximo de mil millones de dólares en daños.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQU2tmV0QzNHZuX3p3dkVpOHJZeVBtQzZ1aUZ5cW9FTEFZOFM2QW8xaGExZXpFVEZSMjNhREJtSHFFOHZKeWFkRkdiQmpuVmhXY3pVRlFGTUNoWGhuVWNpUHY3by1zelFNQTRLSDdWd3ZhOXZWWm83azdwdmY2OGhwTnpLMkpuNnhMQTNtQnZyMmR5UzVLd080RFhqcmVLdExKYy1BSnlIcGwzZUlkWDhQRFN1VlBWN2hURV9jU2Y4eTVpR0xScWdwazBWNjhpSmN4Sk4tMzlKTGQzTDRoSTkwMFBYMlNlSXY3cTdENjhfS3ROT0xwb0JZcmRqdGVHcEdrOU1TYWRhc2h6bUFlTHIxSnNkZlN2M1U3d1gwMXBySm0?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-19T07:28:58+00:00",
-      "title_orig": "« Pas plus de 50 morts ou blessés graves, ou 1 milliard de dollars de dégâts » : la proposition de loi d'Anthropic pour limiter les risques liés à l'IA",
-      "summary_orig": ""
-    },
-    {
-      "id": "1acc34b84378",
-      "title": "\"La IA es una carrera de Fórmula 1 de noche sin frenos\", advierte el fundador de Anthropic",
-      "summary": "La IA avanza como una carrera nocturna de Fórmula 1 sin frenos, advierte el fundador de Anthropic.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdGRtOVA1ZkVkZFkwV0FRUDVLVzlpZm1qZ1dTN25zLU9oZnh0RmR3VE1iMnF5ZlZQTTJJQ2U3aUEyejdWazFHSjRQN3c5SnNrTTZKWm9FM2szNm5ONnE4akpwZ1RXZk1rWGRIRzhZWHZiRG4tdXJaRUFJTmxaWEpJOVJWeUZkREVlaEoxMVpzRXQ4bV9Dc1ZaRF93eXg5ZXl2NWR0cHdHSnczdS0tYUYwSlE2QlNreUE4dFhrRE95OWxhX1BaSUJBaHVWRTBBQ0xUQ1h3WUN2eEZxNXc?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WELT",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-19T06:01:17+00:00",
-      "title_orig": "„KI ist ein Formel-1-Rennen bei Nacht ohne Bremsen“, warnt der Anthropic-Gründer",
-      "summary_orig": ""
     },
     {
       "id": "24bcfc655b42",
@@ -255,109 +354,6 @@
       "published": "2026-10-19T01:18:17+00:00",
       "title_orig": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
       "summary_orig": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3 appeared first on MarkTechPost ."
-    },
-    {
-      "id": "cef1d05c7525",
-      "title": "Anthropic dice que está comprometiendo el 5% de sus acciones a un \"fondo de beneficio público\"",
-      "summary": "La empresa propuso usar esos fondos en grandes donaciones a ONGs tradicionales o en distribuciones directas a poblaciones específicas.",
-      "sourceUrl": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-18T20:37:40+00:00",
-      "title_orig": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "summary_orig": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”"
-    },
-    {
-      "id": "c82b8eb2cf96",
-      "title": "Anthropic otorga a un organismo de control externo de IA acceso \"similar al de los empleados\"",
-      "summary": "El organismo externo puede publicar sus hallazgos sin necesidad de la aprobación de Anthropic.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-18T16:25:19+00:00",
-      "title_orig": "Anthropic gives outside AI watchdog “employee-like” access",
-      "summary_orig": "The outside watchdog can publish its findings without Anthropic's approval."
-    },
-    {
-      "id": "eb3499cdf196",
-      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
-      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-18T09:54:55+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
-      "summary_orig": ""
-    },
-    {
-      "id": "b769f5e984a3",
-      "title": "Anthropic dice que su fuerza laboral se ha vuelto menos junior y pasa más tiempo en reuniones",
-      "summary": "La composición del personal de Anthropic y el tipo de trabajo que realizan han cambiado notablemente en el último año.",
-      "sourceUrl": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-17T20:21:19+00:00",
-      "title_orig": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "summary_orig": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year."
-    },
-    {
-      "id": "51c1c9a5e48b",
-      "title": "Replit hace que OpenAI sea su valor predeterminado sobre Anthropic, dice el CEO",
-      "summary": "Masad explicó que la decisión se tomó por varios motivos, entre ellos el costo; Replit anunció una alianza con OpenAI en agosto sin indicar que dejara de colaborar con Anthropic.",
-      "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-17T18:48:08+00:00",
-      "title_orig": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "summary_orig": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer partnering with Anthropic."
-    },
-    {
-      "id": "83361f6fa652",
-      "title": "IA: Anthropic prefiere que un juez suspenda un nuevo modelo considerado peligroso",
-      "summary": "Anthropic solicita al juez que suspenda su nuevo modelo de IA, al considerarlo peligroso.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaEl3ZUZQcHBrTS0tVmZOMWU3UlV6LW1Ua1BpUFlmNTZyakM4dXBUQVBrTEl5OHBJZzZ4MnNsVnQwWXpuVFlxZ0RVQzE5R3lObjE3YjhpTmVwVTNWSVB1Y0dIVnIyUEk1ajNHWUlyQ2NZOFRjckx0S1hIZEQwM1pKbzgwLUlUdGJFYlRNdzA5THU1N2lZeHE4dF9QNkRaSFlNVEtBdllkODJGX0ZkNVI0dGxGNUdiY084YWg2Rno3UzNHY1FoRnVSLW1uWGQ2VFBuR3FGcg?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "La Tribune",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-17T16:33:13+00:00",
-      "title_orig": "IA : Anthropic préfère qu'un juge suspende un nouveau modèle considéré comme dangereux",
-      "summary_orig": ""
     }
   ]
 }
