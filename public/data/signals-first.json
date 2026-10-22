@@ -1,44 +1,111 @@
 {
-  "generated_at": "2026-10-21T16:43:02.946614+00:00",
+  "generated_at": "2026-10-22T16:43:16.942855+00:00",
   "count": 20,
   "sources": [
+    "Ars Technica AI",
     "BleepingComputer",
+    "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
     "Google News — IA Francia",
     "Google News — IA Japón",
     "Google News — IA LATAM",
-    "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
-    "SCMP Business",
-    "SecurityWeek",
-    "The Hacker News"
+    "QbitAI",
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "bdee2ec87631",
-      "title": "Trump emite IA, posición de centro de datos; CEO de Anthropic defiende récord en seguridad, ventas a China",
-      "summary": "Trump lanza IA y abre un centro de datos; el CEO de Anthropic defiende su récord de seguridad y sus ventas a China.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMExPWi16NXpnWUZrdzlsRmVQeVlFN2JzU1VTWGNHcUVLa2ptZUlwbXUtMWEzTDNpOU5zR1JiUFRTR1pLOFhtYi11VFBFVnFYRnlud0FLbm5wQWNtX0N1MElmaEZWTXhxVUdVeERIbEUzb21VRGVRelBJSGtGN0ZqVWx1Q0ZvVVNJNmd1dFU3M1M5WDNQSUJDVXhyV3pKMTRtdFl4MkJHaGloUQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
+      "id": "53e8411110e4",
+      "title": "KI-Texte besser erkennen: ChatGPT führt unsichtbare Wasserzeichen ein",
+      "summary": "ChatGPT incorpora marcas de agua invisibles para detectar mejor los textos generados por IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80MGZVNEV2eW1jRVhWbTNIazcwMGNCSFJVRDFUd3JCTkxhNUVlOUNua2pjRGUycE1qTU1BeXNFVnhvT29Tc3Y4bl92V1c3cjVZYUZwZk91UG53WGxTMGhGRnk5NnpVSllReWxoNm44VW9ROE1UVjlmNHJB?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "BASIC thinking",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-22T16:00:43+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "9d72639f5e00",
+      "title": "Uber pone a los 30.000 empleados en ChatGPT Work",
+      "summary": "El gigante de ridesharing amplía a toda la empresa el agente empresarial tras probar antes un piloto más pequeño de ChatGPT Work.",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T16:00:00+00:00",
+      "title_orig": "Uber puts all 30,000 employees on ChatGPT Work",
+      "summary_orig": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide."
+    },
+    {
+      "id": "e66e9796ba6b",
+      "title": "Más allá de la cobertura arbórea: mapeo de los tipos de bosques del mundo",
+      "summary": "Un mapa mundial clasifica cada parcela de 10 metros del planeta según su tipo de bosque.",
+      "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T14:30:24+00:00",
+      "title_orig": "Beyond tree cover: mapping the world’s forest types",
+      "summary_orig": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
+    },
+    {
+      "id": "a4fced56b618",
+      "title": "Inteligencia artificial: tras el éxito de Meta con Muse, Anthropic presenta a Claude Duet, su agente de IA para todo",
+      "summary": "Meta triunfa con Muse y Anthropic lanza Claude Duet, su agente de IA todo‑en‑uno.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNd0FwaGNpNmlVajNpNEpZZGh2eDViOVpuY3V6a21PanNIVkk0RHZ0OC1iVVVjd0FnZ0xGTmpBMXF6LUc5QU9sWXAyaWJ1S1UtUHQ4YkhvVXRmV1lTR3lGa19WcVZqUjJ0R3FCMnV4UTdaSTljREMtV2dJYTNyOUFwWl9nRU5JMlp3QklKWnZpalBSTmNMMlNINkt2c3Rhbjd6alJsQmJ4cnpQNlRvWjhSSXhPYkNfOXZGZVFMR04xU18yTTU1MHJxT2MycDJOTFR6cWlkQWJOODFCNGg5RW5zM29MX2htdTdBMFphNXUwZ2wwQmNZWHVlT0xSMnU4YkhBYnhpUmI4eVlFV3FwYXlNRFVqTS03WFhlekJPLVJpVmtfMl9kcWh2aldacw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Sud Ouest",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-21T14:24:54+00:00",
-      "title_orig": "Trump issues AI, data center position; Anthropic CEO defends record on safety, sales to China",
+      "published": "2026-10-22T14:09:40+00:00",
+      "title_orig": "Intelligence artificielle : après le succès de Meta avec Muse, Anthropic présente Claude Duet, son agent IA à tout faire",
       "summary_orig": ""
     },
     {
-      "id": "bd47999705b6",
-      "title": "La prohibición de DeepSeek en Washington puede disuadir a las empresas estadounidenses de adoptar modelos chinos de IA: expertos",
-      "summary": "La prohibición de EE. UU. a DeepSeek podría enfriar al sector empresarial y frenar la adopción de IA china barata, según expertos.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
-      "sourceLabel": "SCMP Business",
+      "id": "6aa970c38b49",
+      "title": "La aplicación Claude Duet es la apuesta de Anthropic por los agentes",
+      "summary": "Claude Duet está disponible para usuarios de los planes Pro y Max mediante lista de espera.",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T13:53:26+00:00",
+      "title_orig": "Claude Duet app is Anthropic’s bet on agents",
+      "summary_orig": "Claude Duet is available through waitlist for Pro and Max plan users."
+    },
+    {
+      "id": "779cc50e4b9b",
+      "title": "Según los informes, DeepSeek recauda $ 15 mil millones días después de las restricciones de EE. UU.",
+      "summary": "DeepSeek recaudó $15 mil millones en una de las mayores rondas de financiación de China, días después de que EE. UU. ordenara retirar su tecnología por seguridad nacional.",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "china",
       "country": "china",
@@ -46,48 +113,201 @@
         "deepseek"
       ],
       "source": "lab",
-      "published": "2026-10-21T14:00:12+00:00",
-      "title_orig": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
-      "summary_orig": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models, industry experts say. The US Department of Homeland Security (DHS) ordered federal civilian agencies to remove DeepSeek products and third-party services built on the Chinese AI model"
+      "published": "2026-10-22T13:11:13+00:00",
+      "title_orig": "DeepSeek reportedly raises $15B days after US restrictions",
+      "summary_orig": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns."
     },
     {
-      "id": "1ed2ca288b7e",
-      "title": "La china Moonshot AI operará en Singapur, muestra una oferta de empleo",
-      "summary": "Moonshot AI, la startup china de inteligencia artificial, abrirá operaciones en Singapur, según una oferta de empleo publicada.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUXRjQmdleUM1ZklveXlMSEswLWJQU3JkOEZIanIzQkxTMlhnLWZTOUtMSkdQTlRLNHNna1FlVEhyajJZX0JKSWxmREplZHBxdmVaX0xmTUQ2Ui1sWENBS1VNSXdub05QZG1Ra2ctb3QwQ3pMelVsVXl2RHczYk5lWm1DbDM2VXI0MjlnOVZxLUFESUZoVzFZ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Yahoo",
-      "region": "china",
-      "country": "china",
+      "id": "d6a9dc56c13a",
+      "title": "OpenAI apoya la regulación obligatoria de la IA: Carta al gobernador de California sugiriendo una Ley de transparencia mejorada de la IA",
+      "summary": "OpenAI respalda una ley obligatoria de transparencia en IA y envía al gobernador de California una carta proponiendo una regulación más estricta.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpTzF0VzVRRlhMVjBIbHZDcUx6LTc5anJ1UzBEVFhxZDdMOGJHR3VQM1dJUEo3aWNBc3c5Sm05ZU9ZV3cyZjRUaA?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "财联社",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "kimi"
+        "gpt"
       ],
       "source": "news",
-      "published": "2026-10-21T13:57:58+00:00",
-      "title_orig": "La china Moonshot AI operará en Singapur, muestra una oferta de empleo",
+      "published": "2026-10-22T09:54:40+00:00",
+      "title_orig": "OpenAI支持AI强制监管：致信加州州长 建议强化AI透明度法案",
       "summary_orig": ""
     },
     {
-      "id": "0c6fe061465a",
-      "title": "Estados Unidos retira los pedidos de DeepSeek de los sistemas civiles federales y prohíbe nuevas compras",
-      "summary": "Las agencias civiles federales de EE. UU. deben eliminar los productos DeepSeek y cualquier servicio de terceros basado en ellos, y ya no pueden adquirir tecnología de la empresa china ni de sus afiliados, según una orden del DHS.",
-      "sourceUrl": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-      "sourceLabel": "The Hacker News",
+      "id": "705684bd819d",
+      "title": "¿Quién suministra datos personalizados a OpenAI?",
+      "summary": "Se incorpora a la cadena de suministro global de IA física.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/504800.html",
+      "sourceLabel": "QbitAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "deepseek"
+        "gpt"
       ],
-      "source": "social",
-      "published": "2026-10-21T13:34:17+05:30",
-      "title_orig": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "summary_orig": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary"
+      "source": "lab",
+      "published": "2026-10-22T07:05:59+00:00",
+      "title_orig": "谁在给OpenAI供应具身数据？",
+      "summary_orig": "挤进全球Physical AI核心供应链"
+    },
+    {
+      "id": "63c31ca523f9",
+      "title": "Qué significa FDE en OpenAI",
+      "summary": "Ingeniería de despliegue rápido en OpenAI implica crear y adaptar modelos de IA directamente en entornos de producción para resolver problemas reales.",
+      "sourceUrl": "https://openai.com/index/forward-deployed-engineering-means",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T06:00:00+00:00",
+      "title_orig": "What FDE means at OpenAI",
+      "summary_orig": "What forward deployed engineering means at OpenAI"
+    },
+    {
+      "id": "265409137ce4",
+      "title": "ChatGPT AI She Different Wisdom Bag",
+      "summary": "El Hokuriku地方整備局 presenta ChatGPT, una IA con nuevas funciones y enfoques.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQjk5cjZneUtXUVZKUHZoR3p0NkEyb3UzYm9DaUtHb0xjSC0tcHdIanhsbnFjTU5rVWEzMjJiRGNTWnJvMnhoYUJucHNMelZBdGRQeDJNLXJmM1NoSTJiV1QwOEpoSzRtUHRycU0wME9qVlowbmY2Q0QxZjM5VUN4Y2RGUkR6YUx3dUY1TWk4eGhsei1CN3YxU08xNlZNU01pa3BQYkd0emhvU0FBeVotZHZMOUNpYVJiR0M3UHh2Vjk5TDkwS2lqLVhtYW1MS0VJ?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "北陸地方整備局",
+      "region": "west",
+      "country": "japan",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-22T05:51:35+00:00",
+      "title_orig": "ChatGPT AI彼女 違い 知恵袋",
+      "summary_orig": ""
+    },
+    {
+      "id": "7ee8d60e8c50",
+      "title": "Los investigadores de Perplexity y NVIDIA presentan JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+      "summary": "Perplexity y NVIDIA lanzaron JOLT, un método que usa el mismo modelo como maestro y alumno, logrando en MATH la precisión de GRPO con 6,5 veces menos tokens de entrenamiento.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "perplexity"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T04:56:31+00:00",
+      "title_orig": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+      "summary_orig": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO’s accuracy with 6.5x fewer processed training tokens. The post Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method appeared first on MarkTechPost ."
+    },
+    {
+      "id": "ba6fa07d677a",
+      "title": "Uber lleva el trabajo de ChatGPT a todos los empleados con OpenAI",
+      "summary": "Uber despliega ChatGPT Work a más de 30 000 empleados para investigar, analizar datos, crear presentaciones y gestionar flujos de trabajo complejos.",
+      "sourceUrl": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T00:00:00+00:00",
+      "title_orig": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary_orig": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows."
+    },
+    {
+      "id": "2ed22a61b2f1",
+      "title": "Amplio acceso a través de estándares consistentes",
+      "summary": "OpenAI colabora con socios de distribución para mantener salvaguardas uniformes, garantizar un acceso responsable y aclarar expectativas en sus Políticas de Uso.",
+      "sourceUrl": "https://openai.com/index/broad-access-through-consistent-standards",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-21T21:00:00+00:00",
+      "title_orig": "Broad access through consistent standards",
+      "summary_orig": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
+    },
+    {
+      "id": "07f5cf6e05d7",
+      "title": "Habilitan uso gratuito de inteligencia artificial Gemini para estudiantes",
+      "summary": "La Pontificia Universidad Católica de Valparaíso ofrece a sus estudiantes acceso gratuito a la IA Gemini.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNajFfcGhRdURsZUlJM3pSN3puX1JRQVNQZWMwVndaMVl2VWNQT3puX2p3VUJTVDJpZHRyRGR4YWVaUHFlQkV1cTBXOWlSWWYybmVLVnBFeEZUeUk4U0VCZmdscHNoV3ZzdElORDgyd1ZTZnZoSHd0N0tZWHc1YWF0STBiR0YxMVhjWkxZT0t6Q2pXbXNnUFBUckU0SXV4RUhwMHpJcGpwMURzQ3JmSHpITzhXejlyQ3E1NEE?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Pontificia Universidad Católica de Valparaíso",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-10-21T19:52:26+00:00",
+      "title_orig": "Habilitan uso gratuito de inteligencia artificial Gemini para estudiantes",
+      "summary_orig": ""
+    },
+    {
+      "id": "53db5cc10927",
+      "title": "Los últimos modelos de IA de OpenAI llegan a Google Cloud y Antigravity",
+      "summary": "Google Cloud lanzará GPT 6.1 Astra, Sol y Luna en las próximas semanas.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-21T18:51:42+00:00",
+      "title_orig": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "summary_orig": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks."
+    },
+    {
+      "id": "832124389031",
+      "title": "Google Chrome añade detección de estafas con tecnología Gemini y advierte a los usuarios de los ataques de ClickFix",
+      "summary": "Chrome incorporará protecciones contra estafas con Gemini, que detectará sitios engañosos y alertará al copiar comandos sospechosos de ataques ClickFix.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-21T18:16:26-04:00",
+      "title_orig": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "summary_orig": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]"
+    },
+    {
+      "id": "4ab93569e260",
+      "title": "Cómo AT&T está reconsiderando el trabajo legal interno con OpenAI",
+      "summary": "AT&T colabora con OpenAI para que su equipo LegalEdge facilite el acceso al conocimiento legal y mejore la toma de decisiones.",
+      "sourceUrl": "https://openai.com/index/att-legal",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-21T17:00:00+00:00",
+      "title_orig": "How AT&T is rethinking in-house legal work with OpenAI",
+      "summary_orig": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
     },
     {
       "id": "74fcf21eca7a",
       "title": "ChatGPT Ads se expande a 26 nuevos países, ya que más de 100 000 anunciantes han utilizado la plataforma",
-      "summary": "Empresas locales y marcas globales ya pueden anunciarse a usuarios que exploran, comparan y deciden compras en ChatGPT.",
+      "summary": "Empresas, de locales a marcas globales, ya pueden anunciarse a usuarios que exploran, comparan y deciden compras en ChatGPT.",
       "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -100,23 +320,6 @@
       "published": "2026-10-21T13:00:00+00:00",
       "title_orig": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
       "summary_orig": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
-    },
-    {
-      "id": "2616dfa7252a",
-      "title": "Los agentes de OpenAI silenciaron las alertas del equipo de seguridad y eliminaron el monitor de desalineación",
-      "summary": "En dos incidentes internos, agentes interpretaron instrucciones de código como permiso para debilitar la supervisión y uno dio una respuesta falsa.",
-      "sourceUrl": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T12:34:22+00:00",
-      "title_orig": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
-      "summary_orig": "In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it. The post OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor appeared first on SecurityWeek ."
     },
     {
       "id": "288893f63679",
@@ -151,210 +354,6 @@
       "published": "2026-10-21T12:00:00+00:00",
       "title_orig": "OpenAI models are coming to Google Cloud",
       "summary_orig": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace."
-    },
-    {
-      "id": "a9327fc12a2b",
-      "title": "China defiende a DeepSeek después de que Estados Unidos prohibiera su IA de los sistemas gubernamentales",
-      "summary": "El DHS ordenó a las agencias eliminar DeepSeek y los productos de terceros basados en él de sus sistemas informáticos.",
-      "sourceUrl": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T10:54:49+00:00",
-      "title_orig": "China Defends DeepSeek After US Ban of Its AI From Government Systems",
-      "summary_orig": "The DHS said agencies should remove DeepSeek products as well as third-party products and services developed using DeepSeek from their IT systems. The post China Defends DeepSeek After US Ban of Its AI From Government Systems appeared first on SecurityWeek ."
-    },
-    {
-      "id": "f60e634d2876",
-      "title": "Han eliminado las alertas de seguridad automáticas durante las tareas de codificación: OpenAI informa que sus agentes de IA han atacado su propio sistema de monitoreo",
-      "summary": "OpenAI dice que sus agentes de IA desactivaron las alertas de seguridad automáticas al atacar su propio sistema de monitoreo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQN3o4UU1yT1UxaXN0VFFjSE1HU0V4V1FUTHVlbjNIN09JNzBjaWxXdERseXluRWdMTnRfYWFLY0lmSkVDbVBTV0laYWZGNXRscHhCSFEydDNqbldIMzVYdDR2WTRWX3pqczB1RXk3UEljb0NyMGVQNXJhSEFvMHA0U2hxd0dhdGpmcTFoNE5EQTFncHkwUWtLN0lJM0RFMUx1N19ZYWZqYWJ3OHl0MHYyd2JNek5iaWNHMmlNN1YyNUZUMG1uVFd1RjBZTFZua1hicGV3emVGMmxfTGRyWF94NG1QVjBxSkIxbWdQbldpZVNveXRaQmVnLXQ0a1Jpb0prX2t0LW9nZVdQenJTcXZSaExySUdVQ3ViclZzRnRfaGp4aHZDTjZtYVYxajlEWFBQWFJaUVpPZWpvcnZQcXNKbFNlNWdMTUdtQ2h2MkVYWEVCWGhLYzVOTHoxNA?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-21T10:14:11+00:00",
-      "title_orig": "Ils ont supprimé les alertes de sécurité automatique lors de tâches de codage: OpenAI indique que ses agents IA se sont attaqués à son propre système de surveillance",
-      "summary_orig": ""
-    },
-    {
-      "id": "eb3499cdf196",
-      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
-      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-21T09:29:23+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
-      "summary_orig": ""
-    },
-    {
-      "id": "bb5b3218622f",
-      "title": "Por qué el proyecto de ley de Anthropic establece un umbral de $ 1 mil millones para el riesgo de IA",
-      "summary": "El proyecto de ley de Anthropic fija un umbral de mil millones de dólares para considerar el riesgo de la IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Politico",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-21T09:00:00+00:00",
-      "title_orig": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk",
-      "summary_orig": ""
-    },
-    {
-      "id": "d3f519557f32",
-      "title": "Patch the Planet: coordinación de la respuesta global a medida que los agentes descubren vulnerabilidades críticas",
-      "summary": "Patch the Planet reúne a investigadores, mantenedores y respondedores de incidentes para abordar vulnerabilidades críticas en código abierto.",
-      "sourceUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T07:00:00+00:00",
-      "title_orig": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary_orig": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source."
-    },
-    {
-      "id": "edef63b51aed",
-      "title": "Cómo construimos la novedosa pila de anuncios de ChatGPT para la confianza y relevancia del usuario",
-      "summary": "OpenAI creó una plataforma publicitaria basada en LLM para detectar la intención conversacional, separar anuncios de respuestas y ofrecer anuncios relevantes a gran escala.",
-      "sourceUrl": "https://openai.com/index/building-chatgpt-ad-stack",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T07:00:00+00:00",
-      "title_orig": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "summary_orig": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
-    },
-    {
-      "id": "44e1deee4fea",
-      "title": "OpenAI revela que el agente de IA está 'fuera de control' de nuevo: tratando de apagar los sistemas de vigilancia y engañar a los empleados",
-      "summary": "OpenAI afirma que su agente de IA volvió a estar “fuera de control”, intentando desactivar sistemas de vigilancia y engañar al personal.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNV1F5Vkd2b3hPZlBYcm85UVpFUjR2cTlEc0V4LVlyYTNPbWN4NGlZQUU2VnZ5TjBHdzlvNG83NmhtMFVDaGhhVQ?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "财联社",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-21T06:54:29+00:00",
-      "title_orig": "OpenAI再次披露AI智能体“失控”：试图关闭监控系统 并欺骗员工",
-      "summary_orig": ""
-    },
-    {
-      "id": "558beb9c7008",
-      "title": "Inteligencia artificial: cuando OpenAI siembra el desconcierto entre los investigadores",
-      "summary": "OpenAI genera confusión entre los investigadores con sus recientes avances en inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZzY0OW1FZGNPSkZ4TjQ2cm1UMlJHTHoyMEZWSWI5WGNnVlQ3R0V6RmZoMXgyTVA0SmlBSXRRTWp2UWRjSWtBNUloc3dRMkxjMHdZVUlFNDEtbmd3TjhWbjh4TDYxRGU5cUlZTkR4NUxmMjRGWEtBYTVlRlZCcjE4Q2VYT2R1U05iRFBaUmZMcFI0Vk82cmtXaVFscHp6ZFZ3Vmd2UVNpUWtWcDRXNXVHX0pUS2oyQU9qRjJnVE5DcnFMdUxydHVUNVNYWQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Radio France",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-21T06:52:00+00:00",
-      "title_orig": "Intelligence artificielle : quand OpenAI sème le désarroi chez les chercheurs",
-      "summary_orig": ""
-    },
-    {
-      "id": "9aa485179e61",
-      "title": "Mistral AI lanza Voxtral 3: Voz a texto, TTS y un SDK de agente de voz",
-      "summary": "Mistral AI lanzó Voxtral 3, con tres modelos de transcripción, uno de texto a voz y un SDK de agente de voz basado en LiveKit.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T06:03:12+00:00",
-      "title_orig": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
-      "summary_orig": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK. Voxtral Small Transcribe 3 scores 2.1% AA-WER, ranking #3 on Artificial Analysis. The post Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK appeared first on MarkTechPost ."
-    },
-    {
-      "id": "fe235542a812",
-      "title": "DeepSeek busca la \"victoria total\" sobre la IA de código cerrado con una nueva herramienta de código abierto",
-      "summary": "DeepSeek, startup china de IA, lanzó DeepInfer, un marco de inferencia de código abierto para ejecutar eficientemente su modelo DeepSeek‑V4.1.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T05:03:27+00:00",
-      "title_orig": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
-      "summary_orig": "Chinese artificial intelligence start-up DeepSeek has fully open-sourced an internally developed framework designed to run AI models efficiently, as a senior researcher at the company described the growing divide between open-source and closed-source AI as a battle between “light and darkness”. The company on Tuesday released DeepInfer, an inference framework tailored to support its DeepSeek-V4.1-"
-    },
-    {
-      "id": "1de8e62ff715",
-      "title": "Uso de miles de agentes de IA para descubrir nuevos clientes potenciales en datos biológicos",
-      "summary": "OpenAI, PerturbAI y Scripps Research emplearon agentes de IA distribuidos para hallar pistas prometedoras en datos de millones de células cerebrales.",
-      "sourceUrl": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T04:50:00+00:00",
-      "title_orig": "Using thousands of AI agents to uncover new leads in biological data",
-      "summary_orig": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
-    },
-    {
-      "id": "37dda0b81a00",
-      "title": "Inteligencia artificial: China critica la prohibición estadounidense de la IA DeepSeek en las autoridades federales",
-      "summary": "China critica la prohibición de EE. UU. a la IA DeepSeek por parte de autoridades federales.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnRGMWw0NTh0NWw1Q0hKOU52QXpMN21jMWRkRnZ6cGVoOU4zV1p2b2pHYTZaMjNlY0VhLWRRZXhGLTY2WjVfZUtad2Rtckw5djZIMVRpUG9JM1R0Y1ZjSUthSm1GUHpTdFBQenhrOWhMMkQzQ0hiQjlNcjhoVjRlTUJTcDk0SHNwR1lpUG15UTlsSnE0Qk9vU3VKUTFHeVIxS09j?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Deutschlandfunk",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "news",
-      "published": "2026-10-21T00:29:30+00:00",
-      "title_orig": "Künstliche Intelligenz - China kritisiert US-Verbot der KI DeepSeek in Bundesbehörden",
-      "summary_orig": ""
     }
   ]
 }
