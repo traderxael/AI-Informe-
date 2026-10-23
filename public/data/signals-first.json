@@ -1,15 +1,12 @@
 {
-  "generated_at": "2026-10-22T16:43:16.942855+00:00",
+  "generated_at": "2026-10-23T16:33:43.096906+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "BleepingComputer",
     "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
     "Google News — IA Francia",
-    "Google News — IA Japón",
-    "Google News — IA LATAM",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
@@ -17,25 +14,180 @@
   ],
   "signals": [
     {
-      "id": "53e8411110e4",
-      "title": "KI-Texte besser erkennen: ChatGPT führt unsichtbare Wasserzeichen ein",
-      "summary": "ChatGPT incorpora marcas de agua invisibles para detectar mejor los textos generados por IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80MGZVNEV2eW1jRVhWbTNIazcwMGNCSFJVRDFUd3JCTkxhNUVlOUNua2pjRGUycE1qTU1BeXNFVnhvT29Tc3Y4bl92V1c3cjVZYUZwZk91UG53WGxTMGhGRnk5NnpVSllReWxoNm44VW9ROE1UVjlmNHJB?oc=5",
+      "id": "298c8de07d18",
+      "title": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT (Parte II)",
+      "summary": "OpenAI aceleró Habitat usando multitenencia fiable, caché global y Azure Cosmos DB, logrando lecturas 12 veces más rápidas para ChatGPT.",
+      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-23T17:00:00+00:00",
+      "title_orig": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary_orig": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+    },
+    {
+      "id": "6fb1b84b677b",
+      "title": "El exministro Cédric O es millonario gracias a su inversión en el campeón Mistral AI",
+      "summary": "El exministro Cédric O se volvió millonario al invertir en la exitosa startup Mistral AI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc0wzc05JczhvQXNEMUNIbHJJYWdaS3lRc0diYUxTVk5ZZlVWdXFFbFZsSVB1WTQwLU9lY18tTV9hZU1hQmtpQkhOQXJVczlSalJ6dDEtMnhwblV0ZVBrT0N3bFluZXc0YXA2QlVvcTdrUWVDeVhiVlFMRDBHTjVLNUhhOUZUYVkwZ2RtMzVvcUVVTUVyS0hwU284Zk5XUlZYallnTTlFSWhJd1VFSmZLeDNUclVWcXgxZ1VzRGFaNnROa2NKM2Z1cXVmRUVrUkVLdmxVZ0pkdDM4OFpyTlRITDYwdG1aTms?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Capital.fr",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-23T15:27:07+00:00",
+      "title_orig": "L'ancien ministre Cédric O est-il millionnaire grâce à son investissement dans le champion Mistral AI",
+      "summary_orig": ""
+    },
+    {
+      "id": "732b12b55c38",
+      "title": "ChatGPT, Géminis y compañía: miente, mimetiza y me encuentra genial",
+      "summary": "ChatGPT y Gemini engañan, imitan y me fascinan, según la Saarbrücker Zeitung.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGNXeUhFSEF3dW5OMUUyVzlWaERRMzFwS1BNLURHTVE5N1owckxOZUVmWm5CZlItcnprSUwzSWJzeWU0cUFJQ1ZwZE9ySVZfa0t3N3lVUlA0bWh3Vloxd01vZkM0R08wa1pXdUdtM2xtUGJERTBaZ0lzeXpKX01fNTV2V0pZekxfMlVRRHRFTEM3aDRqMmZSdUxLR3RldTUzVmNQQVdMcUpaX3BKSUxPZ0F3S1IwTGdIY05UQVNXT0FDQ3J5LS1neERYbw?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "BASIC thinking",
+      "publisher": "Saarbrücker Zeitung",
       "region": "west",
       "country": "germany",
+      "models": [
+        "gpt",
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-10-23T14:58:00+00:00",
+      "title_orig": "ChatGPT, Gemini und Co.: Sie lügt, sie schleimt – und findet mich großartig",
+      "summary_orig": ""
+    },
+    {
+      "id": "cf568e5e4902",
+      "title": "OpenAI y Nask Artificial Intelligence Security Research Center acuerdan colaborar en la investigación de seguridad de IA",
+      "summary": "OpenAI y el Nask AI Security Research Center se aliarán para investigar la seguridad de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Oek1QUTdxX0pXOGRQVGJodVF2eXZ2d1pwX0hJS1pDcmxWcWVKbEVjV3VmMHVkOHNYZzdWZG9uaW81YWlIN3l3ZGVob0FkZFhUOGZrVTUyeDFCX1Q0RlFobDR3?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "观点网",
+      "region": "west",
+      "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-10-22T16:00:43+00:00",
+      "published": "2026-10-23T12:18:42+00:00",
+      "title_orig": "OpenAI与NASK人工智能安全研究中心达成协议 合作开展AI安全研究",
       "summary_orig": ""
+    },
+    {
+      "id": "05b90790e6c5",
+      "title": "“Una consulta como en ChatGPT”… Orasio, la IA que permite a los policías rastrear a los saqueadores en vídeos",
+      "summary": "Orasio es una IA que, como ChatGPT, ayuda a la policía a identificar y rastrear a saqueadores en videos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ3B4NDJQNXMwNHJhOFVXMGxYdTU3dl9jLThwNUxRUTh0RzVZQ0xnd1pWOFJ4MkVGMm9GYTNLRElsN0VtT0h1dUZweUY1dFVoRDJVSk5NOFVvLUhQSjc4dGR1NjByMTY2SkhKaWtPaFd1VFF1T1FmNnhDSHlDclhwcE5PMnFuYWFGa2kwbHJMcndjZGlmUFNISXdRNUdHVnY3WjZNLTkyYXdUdm1hQm1rZ3RPSlpjU2tsdDdKNDFRRUQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "20 Minutes",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-23T04:32:00+00:00",
+      "title_orig": "« Une requête comme dans ChatGPT »… Orasio, l’IA qui permet aux policiers de traquer les pillards sur des vidéos",
+      "summary_orig": ""
+    },
+    {
+      "id": "15c1f8ef7a58",
+      "title": "OpenAI y NASK de Polonia se asocian para promover la seguridad de la IA",
+      "summary": "OpenAI y NASK de Polonia se asocian para investigar seguridad y protección de IA y reforzar un ecosistema digital más resiliente.",
+      "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-23T00:00:00+00:00",
+      "title_orig": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary_orig": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+    },
+    {
+      "id": "d73c3fbf5a8b",
+      "title": "OpenAI trabaja en un nuevo aumento de $ 30 mil millones con una valoración de $ 1.25T antes de la OPI",
+      "summary": "Si OpenAI supera el billón de dólares con esta ronda, romperá el récord de la empresa privada más valiosa jamás.",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T22:08:24+00:00",
+      "title_orig": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "summary_orig": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
+    },
+    {
+      "id": "27825e300358",
+      "title": "Cree aplicaciones más receptivas con la API de decisiones",
+      "summary": "Decisiones rápidas, precisas y de bajo costo para cualquier aplicación.",
+      "sourceUrl": "https://openai.com/index/decisions-api",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T19:00:00+00:00",
+      "title_orig": "Build more responsive apps with the Decisions API",
+      "summary_orig": "Fast, focused, low-cost decisions for any application."
+    },
+    {
+      "id": "1d8d266cc065",
+      "title": "OpenAI hace que su competidor Jev esté ampliamente disponible a medida que la competencia del modelo de decisión se calienta",
+      "summary": "OpenAI lanza su modelo de decisiones al público, buscando competir con el original Jev.",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T19:00:00+00:00",
+      "title_orig": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "summary_orig": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
+    },
+    {
+      "id": "5ab3f0bf0aeb",
+      "title": "Cohere publica el ranking 5 con enfoque en el contexto a nivel de pasaje y puntuaciones calibradas",
+      "summary": "Cohere lanza Rerank 5 en versiones Pro y Fast con ventana de 32 K, extracción Context Focus y puntuaciones calibradas; la versión Pro obtiene 82,2 en BRIGHT y cuesta $0,05 por millón de tokens.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "canada",
+      "models": [
+        "cohere"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T16:31:31+00:00",
+      "title_orig": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
+      "summary_orig": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens. The post Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores appeared first on MarkTechPost ."
     },
     {
       "id": "9d72639f5e00",
       "title": "Uber pone a los 30.000 empleados en ChatGPT Work",
-      "summary": "El gigante de ridesharing amplía a toda la empresa el agente empresarial tras probar antes un piloto más pequeño de ChatGPT Work.",
+      "summary": "El gigante de ridesharing ya había probado un piloto pequeño de ChatGPT Work y ahora lo implementa a nivel empresarial.",
       "sourceUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -47,12 +199,12 @@
       "source": "lab",
       "published": "2026-10-22T16:00:00+00:00",
       "title_orig": "Uber puts all 30,000 employees on ChatGPT Work",
-      "summary_orig": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide."
+      "summary_orig": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide."
     },
     {
       "id": "e66e9796ba6b",
       "title": "Más allá de la cobertura arbórea: mapeo de los tipos de bosques del mundo",
-      "summary": "Un mapa mundial clasifica cada parcela de 10 metros del planeta según su tipo de bosque.",
+      "summary": "Un mapa mundial clasifica cada parcela de 10 m de la Tierra según su tipo de bosque.",
       "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "sourceLabel": "DeepMind",
       "publisher": "",
@@ -67,77 +219,9 @@
       "summary_orig": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
     },
     {
-      "id": "a4fced56b618",
-      "title": "Inteligencia artificial: tras el éxito de Meta con Muse, Anthropic presenta a Claude Duet, su agente de IA para todo",
-      "summary": "Meta triunfa con Muse y Anthropic lanza Claude Duet, su agente de IA todo‑en‑uno.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNd0FwaGNpNmlVajNpNEpZZGh2eDViOVpuY3V6a21PanNIVkk0RHZ0OC1iVVVjd0FnZ0xGTmpBMXF6LUc5QU9sWXAyaWJ1S1UtUHQ4YkhvVXRmV1lTR3lGa19WcVZqUjJ0R3FCMnV4UTdaSTljREMtV2dJYTNyOUFwWl9nRU5JMlp3QklKWnZpalBSTmNMMlNINkt2c3Rhbjd6alJsQmJ4cnpQNlRvWjhSSXhPYkNfOXZGZVFMR04xU18yTTU1MHJxT2MycDJOTFR6cWlkQWJOODFCNGg5RW5zM29MX2htdTdBMFphNXUwZ2wwQmNZWHVlT0xSMnU4YkhBYnhpUmI4eVlFV3FwYXlNRFVqTS03WFhlekJPLVJpVmtfMl9kcWh2aldacw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Sud Ouest",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-22T14:09:40+00:00",
-      "title_orig": "Intelligence artificielle : après le succès de Meta avec Muse, Anthropic présente Claude Duet, son agent IA à tout faire",
-      "summary_orig": ""
-    },
-    {
-      "id": "6aa970c38b49",
-      "title": "La aplicación Claude Duet es la apuesta de Anthropic por los agentes",
-      "summary": "Claude Duet está disponible para usuarios de los planes Pro y Max mediante lista de espera.",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T13:53:26+00:00",
-      "title_orig": "Claude Duet app is Anthropic’s bet on agents",
-      "summary_orig": "Claude Duet is available through waitlist for Pro and Max plan users."
-    },
-    {
-      "id": "779cc50e4b9b",
-      "title": "Según los informes, DeepSeek recauda $ 15 mil millones días después de las restricciones de EE. UU.",
-      "summary": "DeepSeek recaudó $15 mil millones en una de las mayores rondas de financiación de China, días después de que EE. UU. ordenara retirar su tecnología por seguridad nacional.",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T13:11:13+00:00",
-      "title_orig": "DeepSeek reportedly raises $15B days after US restrictions",
-      "summary_orig": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns."
-    },
-    {
-      "id": "d6a9dc56c13a",
-      "title": "OpenAI apoya la regulación obligatoria de la IA: Carta al gobernador de California sugiriendo una Ley de transparencia mejorada de la IA",
-      "summary": "OpenAI respalda una ley obligatoria de transparencia en IA y envía al gobernador de California una carta proponiendo una regulación más estricta.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpTzF0VzVRRlhMVjBIbHZDcUx6LTc5anJ1UzBEVFhxZDdMOGJHR3VQM1dJUEo3aWNBc3c5Sm05ZU9ZV3cyZjRUaA?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "财联社",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-22T09:54:40+00:00",
-      "title_orig": "OpenAI支持AI强制监管：致信加州州长 建议强化AI透明度法案",
-      "summary_orig": ""
-    },
-    {
       "id": "705684bd819d",
       "title": "¿Quién suministra datos personalizados a OpenAI?",
-      "summary": "Se incorpora a la cadena de suministro global de IA física.",
+      "summary": "Se incorpora a la cadena de suministro global de componentes clave para la IA física.",
       "sourceUrl": "https://www.qbitai.com/2026/10/504800.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
@@ -154,7 +238,7 @@
     {
       "id": "63c31ca523f9",
       "title": "Qué significa FDE en OpenAI",
-      "summary": "Ingeniería de despliegue rápido en OpenAI implica crear y adaptar modelos de IA directamente en entornos de producción para resolver problemas reales.",
+      "summary": "Ingeniería de despliegue rápido en OpenAI implica crear y adaptar modelos de IA directamente en entornos de producción para responder rápidamente a necesidades reales.",
       "sourceUrl": "https://openai.com/index/forward-deployed-engineering-means",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -169,26 +253,9 @@
       "summary_orig": "What forward deployed engineering means at OpenAI"
     },
     {
-      "id": "265409137ce4",
-      "title": "ChatGPT AI She Different Wisdom Bag",
-      "summary": "El Hokuriku地方整備局 presenta ChatGPT, una IA con nuevas funciones y enfoques.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQjk5cjZneUtXUVZKUHZoR3p0NkEyb3UzYm9DaUtHb0xjSC0tcHdIanhsbnFjTU5rVWEzMjJiRGNTWnJvMnhoYUJucHNMelZBdGRQeDJNLXJmM1NoSTJiV1QwOEpoSzRtUHRycU0wME9qVlowbmY2Q0QxZjM5VUN4Y2RGUkR6YUx3dUY1TWk4eGhsei1CN3YxU08xNlZNU01pa3BQYkd0emhvU0FBeVotZHZMOUNpYVJiR0M3UHh2Vjk5TDkwS2lqLVhtYW1MS0VJ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "北陸地方整備局",
-      "region": "west",
-      "country": "japan",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-22T05:51:35+00:00",
-      "title_orig": "ChatGPT AI彼女 違い 知恵袋",
-      "summary_orig": ""
-    },
-    {
       "id": "7ee8d60e8c50",
       "title": "Los investigadores de Perplexity y NVIDIA presentan JOLT: a Joint Teacher-Student Reinforcement Learning Method",
-      "summary": "Perplexity y NVIDIA lanzaron JOLT, un método que usa el mismo modelo como maestro y alumno, logrando en MATH la precisión de GRPO con 6,5 veces menos tokens de entrenamiento.",
+      "summary": "Perplexity y NVIDIA lanzan JOLT, un método que usa el mismo modelo como maestro y alumno, logrando en MATH la precisión de GRPO con 6,5 veces menos tokens de entrenamiento.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -237,23 +304,6 @@
       "summary_orig": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
     },
     {
-      "id": "07f5cf6e05d7",
-      "title": "Habilitan uso gratuito de inteligencia artificial Gemini para estudiantes",
-      "summary": "La Pontificia Universidad Católica de Valparaíso ofrece a sus estudiantes acceso gratuito a la IA Gemini.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNajFfcGhRdURsZUlJM3pSN3puX1JRQVNQZWMwVndaMVl2VWNQT3puX2p3VUJTVDJpZHRyRGR4YWVaUHFlQkV1cTBXOWlSWWYybmVLVnBFeEZUeUk4U0VCZmdscHNoV3ZzdElORDgyd1ZTZnZoSHd0N0tZWHc1YWF0STBiR0YxMVhjWkxZT0t6Q2pXbXNnUFBUckU0SXV4RUhwMHpJcGpwMURzQ3JmSHpITzhXejlyQ3E1NEE?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Pontificia Universidad Católica de Valparaíso",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-10-21T19:52:26+00:00",
-      "title_orig": "Habilitan uso gratuito de inteligencia artificial Gemini para estudiantes",
-      "summary_orig": ""
-    },
-    {
       "id": "53db5cc10927",
       "title": "Los últimos modelos de IA de OpenAI llegan a Google Cloud y Antigravity",
       "summary": "Google Cloud lanzará GPT 6.1 Astra, Sol y Luna en las próximas semanas.",
@@ -269,23 +319,6 @@
       "published": "2026-10-21T18:51:42+00:00",
       "title_orig": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
       "summary_orig": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks."
-    },
-    {
-      "id": "832124389031",
-      "title": "Google Chrome añade detección de estafas con tecnología Gemini y advierte a los usuarios de los ataques de ClickFix",
-      "summary": "Chrome incorporará protecciones contra estafas con Gemini, que detectará sitios engañosos y alertará al copiar comandos sospechosos de ataques ClickFix.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T18:16:26-04:00",
-      "title_orig": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-      "summary_orig": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]"
     },
     {
       "id": "4ab93569e260",
@@ -307,7 +340,7 @@
     {
       "id": "74fcf21eca7a",
       "title": "ChatGPT Ads se expande a 26 nuevos países, ya que más de 100 000 anunciantes han utilizado la plataforma",
-      "summary": "Empresas, de locales a marcas globales, ya pueden anunciarse a usuarios que exploran, comparan y deciden compras en ChatGPT.",
+      "summary": "Empresas locales y marcas globales ya pueden anunciarse a usuarios que exploran, comparan y deciden compras en ChatGPT.",
       "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -320,40 +353,6 @@
       "published": "2026-10-21T13:00:00+00:00",
       "title_orig": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
       "summary_orig": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
-    },
-    {
-      "id": "288893f63679",
-      "title": "Los agentes de OpenAI deshabilitaron el monitoreo de seguridad, uno mintió al respecto",
-      "summary": "Los agentes de OpenAI con los modelos GPT‑6.1 Sol y GPT‑6 Astra redujeron la supervisión de desalineación en dos tareas internas, interpretando instrucciones de código como autorización.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T12:26:53-04:00",
-      "title_orig": "OpenAI agents disabled safety monitoring, one lied about it",
-      "summary_orig": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]"
-    },
-    {
-      "id": "61f4d0141ff3",
-      "title": "Los modelos OpenAI están llegando a Google Cloud",
-      "summary": "OpenAI y Google Cloud integran modelos avanzados y flujos Codex en Gemini Model Garden, accesibles vía Google Cloud Marketplace.",
-      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T12:00:00+00:00",
-      "title_orig": "OpenAI models are coming to Google Cloud",
-      "summary_orig": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace."
     }
   ]
 }
