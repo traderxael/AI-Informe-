@@ -1,18 +1,193 @@
 {
-  "generated_at": "2026-10-23T16:33:43.096906+00:00",
+  "generated_at": "2026-10-24T15:28:06.773959+00:00",
   "count": 20,
   "sources": [
-    "Ars Technica AI",
     "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
-    "Google News — IA Francia",
+    "Google News — IA Japón",
+    "Google News — IA Rusia",
+    "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
     "TechCrunch AI"
   ],
   "signals": [
+    {
+      "id": "110fd09f65f2",
+      "title": "Obligado a elegir, el modelo de IA de Grok elige a los republicanos. OpenAI elige a los demócratas.",
+      "summary": "Un estudio muestra que Grok apoya mayormente a candidatos republicanos, mientras que GPT de OpenAI favorece a demócratas, discrepando en más del 90 % de casi 500 contiendas.",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt",
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-10-24T15:00:00+00:00",
+      "title_orig": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary_orig": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races."
+    },
+    {
+      "id": "46a5eb0f89f9",
+      "title": "KI-Modell: Moonshot AI stellt Kimi K3.1 Pro vor",
+      "summary": "Moonshot AI lanza Kimi K3.1 Pro, su nuevo modelo de IA, según Golem.de.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSzhrSFdVbnpjRXMtNkNndzhHOU5Xc0VobHZEcDkweldSYXBjak1sNzNSZVVjV19pMDQ3X1VqSlZ4OGIzOXQwdjVFbHlVcmwyU0ozMm9mdlN6dU4tV01EOTZ6SHJpSVlTenFKY3ZGWUozV1N5bjhmV1lVVy14RlUzVXFsbWFMVVhiMVJfR2h0TnJ5elk?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Golem.de",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "kimi"
+      ],
+      "source": "news",
+      "published": "2026-10-24T13:20:02+00:00",
+      "title_orig": "KI-Modell: Moonshot AI stellt Kimi K3.1 Pro vor",
+      "summary_orig": ""
+    },
+    {
+      "id": "13633f3c6127",
+      "title": "Conoce el sandbox-runtime de Anthropic: sandboxing a nivel de sistema operativo para agentes de IA, sin contenedores",
+      "summary": "Anthropic sandbox-runtime es un sandbox de código abierto a nivel de SO que protege a Claude Code limitando acceso a archivos y red usando Seatbelt en macOS y bubblewrap en Linux, sin necesidad de contenedores.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-24T11:12:27+00:00",
+      "title_orig": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+      "summary_orig": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers appeared first on MarkTechPost ."
+    },
+    {
+      "id": "571e51eaa835",
+      "title": "¡OpenAI, Anthropic participan todos! Se lanzará el primer laboratorio de bioseguridad de IA del mundo",
+      "summary": "OpenAI y Anthropic colaborarán en el primer laboratorio mundial de bioseguridad de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xMkRfT0dMOEl4NG5jbGItZG9ZenFXbVpiQU5RUlRUeS1wU0o0eWp5Sy1fMkV2SjJUZ2JZaHcyOXJwZjNQdWdDZg?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "财联社",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-24T07:49:11+00:00",
+      "title_orig": "OpenAI、Anthropic齐参与！全球首个AI生物安全实验室将问世",
+      "summary_orig": ""
+    },
+    {
+      "id": "285aa5bd17d9",
+      "title": "Inteligencia artificial: OpenAI quiere entrenar los modelos de IA más potentes fuera de línea",
+      "summary": "OpenAI planea entrenar sus modelos de IA más avanzados de forma offline, sin depender de conexión a internet.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaExTSUVrR1JXY254OTVaWWw1SmVvc29WS3AyMmFhMUdzM2pVaVhSLW1kTWR1enRlWW1kMUpMbEU3VlZlbTZBOEdiVTZCdnpCNnlkYm9CbUZsd1lPakUwZ1FkSW8yUVBydmxsVWYtTnZodWZWUDRBaUs1emFYRTNOSjRreXZYVFNIay1YbEF6eE1RQnluMHc?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-24T07:24:57+00:00",
+      "title_orig": "Künstliche Intelligenz: OpenAI will leistungsstärkste KI-Modelle offline trainieren",
+      "summary_orig": ""
+    },
+    {
+      "id": "f413ce1bed37",
+      "title": "Moonshot AI lanzó Kimi K3.1 Pro, que pasó por alto todos los modelos OpenAI y casi alcanzó a Claude Opus 5.5",
+      "summary": "Moonshot AI presentó Kimi K3.1 Pro, superando a todos los modelos de OpenAI y acercándose al rendimiento de Claude Opus 5.5.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVXdYTEhJLUVHMmVpQTdmMDk3R2ZTRkwzOVBqcUNYd08zM04tY0JXSzgxZ3dnWFNjR2tZajBIYUg4anMzRzlISmhFU1h0LU9icW9FZ0g1OTJmUEtCVmtYT1o1eDVrRno2ZzVxQzdTd01ENUtDdEVRbHdEWlVwRUE1OEhxT0dBbnVtMUc1SlFLQW83aW4zbm9IUHVJNUZRdHdNWEpIRnM0US00MTlvaXlIeERnb192UHdjNXlhYjNzMEZrNVNzeGfSAcsBQVVfeXFMTllCWHY5bzRvT29qdXliX1pMSEdUbXFBX1R4RUdDZWdKZ0t4MzhrU3RoeHJldGpfSWR6aGczc2oySzNicmFfeWExSWx4TzVLUlVFT0tGOFBFNGlkU0htVUZxUXE0RE5xMGkzaVlwZ0xHcUM2OUNEQmhlZ1hUaXg2NE5sTVdEWWFMR05QdkdYZnV1bURxeGplOHJGNXJZOGNENFVLYVBKdzRsb1BkQ0R6eU5xMG5NQUIzRExNN05sanJjaVdPTmZRbUVSV2M?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "3DNews",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt",
+        "kimi"
+      ],
+      "source": "news",
+      "published": "2026-10-24T07:17:00+00:00",
+      "title_orig": "Moonshot AI выпустила Kimi K3.1 Pro, которая обошла все модели OpenAI и почти догнала Claude Opus 5.5",
+      "summary_orig": ""
+    },
+    {
+      "id": "8e3bdcc2e62a",
+      "title": "La Universidad de Purdue Northwest ofrece a los estudiantes de primer año licencias de Google Gemini para apoyar la alfabetización en inteligencia artificial",
+      "summary": "La Universidad Purdue Northwest brinda a los estudiantes de primer año licencias de Google Gemini para fomentar la alfabetización en IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEp2Uk9WWVJvY3M4R2ZRVW1HZmc5ZzlSSjBfN1BIeWl4OFBUSzhGM2tFZ3lIQnpxazl2cWYzUFlTN2hEd0t1LWRVbUtxRUVzZHVXbVpnVmV4Yi1rejJqTHZyb25rZmNFakxyY2g4a2RVVFBidzR5NlIwdXZ4WkxzTDJaX25VRHhPRUJhRHFtTTFHQWgtejRzREdPNVF3dkItTm40RGlYdDlYV0dIX09PSk53c2xlWXpMT01LNVR2U1B4OXZNcG9IX0tKWDNVdFFmWkZxTVlVWWZkWkFP?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Purdue University Northwest",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-10-24T00:16:05+00:00",
+      "title_orig": "Purdue University Northwest Provides First-Year Students Google Gemini Licenses to Support Artificial Intelligence Literacy",
+      "summary_orig": ""
+    },
+    {
+      "id": "b15a6fb9671b",
+      "title": "OpenAI dice que ya no capacitará a sus modelos de IA en Internet en vivo, citando \"riesgos significativos\"",
+      "summary": "OpenAI desconectará sus modelos de frontera de internet semanas después de que un ingeniero advirtiera que la solución no funcionaría.",
+      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-23T23:05:49+00:00",
+      "title_orig": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "summary_orig": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work."
+    },
+    {
+      "id": "984d37708ff3",
+      "title": "Moonshot AI lanza Kimi K3.1 Pro: un modelo de parámetros activos (Moe) de 2.8T total/104B con contexto de 1M",
+      "summary": "Moonshot AI lanzó Kimi K3.1 Pro, modelo MoE de 2,8 billones de parámetros (104 mil activos) con contexto de 1 millón de tokens, 65,7 % en Terminal‑Bench 4.0 y costo de $2‑$10 por millón de tokens; los pesos estarán disponibles antes del 4 de noviembre 2026.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "kimi"
+      ],
+      "source": "lab",
+      "published": "2026-10-23T22:52:40+00:00",
+      "title_orig": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+      "summary_orig": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026. The post Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context appeared first on MarkTechPost ."
+    },
+    {
+      "id": "c99e1a19f7b4",
+      "title": "Inteligencia artificial: después de los hacks: OpenAI quiere entrenar a la mejor IA sin Internet",
+      "summary": "OpenAI planea crear la IA más avanzada entrenándola sin usar Internet, tras los recientes hackeos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZFNNcUU2bDBxSWdfZFZEZ3ZudktrWHY1dXhmc05YUHdQMkJ0QnozOGRQaUJQV18tQWFvdU5LSHItdzBxRzU4cVA5R29BUnRUMGZZT1VkNnZudzQwZTBVbS1wZW1kZnlHVjdndzUtT0I2emhSSm5qNkl1X1laek1OdWttYTRiTG9Md1RDZXEzQUtXeVdQWUo1b3hCaktLb2ZBTVNVSWFnak1LVmF2ZnFfM2o2RWxENHo3enQ0bFRNNU5LYUNCTUE?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "STERN.de",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-23T22:01:04+00:00",
+      "title_orig": "Künstliche Intelligenz: Nach Hacks: OpenAI will Spitzen-KI ohne Internet trainieren",
+      "summary_orig": ""
+    },
     {
       "id": "298c8de07d18",
       "title": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT (Parte II)",
@@ -31,78 +206,43 @@
       "summary_orig": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
     },
     {
-      "id": "6fb1b84b677b",
-      "title": "El exministro Cédric O es millonario gracias a su inversión en el campeón Mistral AI",
-      "summary": "El exministro Cédric O se volvió millonario al invertir en la exitosa startup Mistral AI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc0wzc05JczhvQXNEMUNIbHJJYWdaS3lRc0diYUxTVk5ZZlVWdXFFbFZsSVB1WTQwLU9lY18tTV9hZU1hQmtpQkhOQXJVczlSalJ6dDEtMnhwblV0ZVBrT0N3bFluZXc0YXA2QlVvcTdrUWVDeVhiVlFMRDBHTjVLNUhhOUZUYVkwZ2RtMzVvcUVVTUVyS0hwU284Zk5XUlZYallnTTlFSWhJd1VFSmZLeDNUclVWcXgxZ1VzRGFaNnROa2NKM2Z1cXVmRUVrUkVLdmxVZ0pkdDM4OFpyTlRITDYwdG1aTms?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Capital.fr",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-23T15:27:07+00:00",
-      "title_orig": "L'ancien ministre Cédric O est-il millionnaire grâce à son investissement dans le champion Mistral AI",
-      "summary_orig": ""
-    },
-    {
-      "id": "732b12b55c38",
-      "title": "ChatGPT, Géminis y compañía: miente, mimetiza y me encuentra genial",
-      "summary": "ChatGPT y Gemini engañan, imitan y me fascinan, según la Saarbrücker Zeitung.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGNXeUhFSEF3dW5OMUUyVzlWaERRMzFwS1BNLURHTVE5N1owckxOZUVmWm5CZlItcnprSUwzSWJzeWU0cUFJQ1ZwZE9ySVZfa0t3N3lVUlA0bWh3Vloxd01vZkM0R08wa1pXdUdtM2xtUGJERTBaZ0lzeXpKX01fNTV2V0pZekxfMlVRRHRFTEM3aDRqMmZSdUxLR3RldTUzVmNQQVdMcUpaX3BKSUxPZ0F3S1IwTGdIY05UQVNXT0FDQ3J5LS1neERYbw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Saarbrücker Zeitung",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gpt",
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-10-23T14:58:00+00:00",
-      "title_orig": "ChatGPT, Gemini und Co.: Sie lügt, sie schleimt – und findet mich großartig",
-      "summary_orig": ""
-    },
-    {
-      "id": "cf568e5e4902",
-      "title": "OpenAI y Nask Artificial Intelligence Security Research Center acuerdan colaborar en la investigación de seguridad de IA",
-      "summary": "OpenAI y el Nask AI Security Research Center se aliarán para investigar la seguridad de la inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Oek1QUTdxX0pXOGRQVGJodVF2eXZ2d1pwX0hJS1pDcmxWcWVKbEVjV3VmMHVkOHNYZzdWZG9uaW81YWlIN3l3ZGVob0FkZFhUOGZrVTUyeDFCX1Q0RlFobDR3?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "观点网",
+      "id": "48e2274fdf2b",
+      "title": "Asegurar nuestro entorno de formación modelo de frontera",
+      "summary": "OpenAI detalla cómo reforzó el aislamiento en el entrenamiento y evaluación de modelos avanzados, usando entornos offline y pruebas de alta computación.",
+      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-23T12:18:42+00:00",
-      "title_orig": "OpenAI与NASK人工智能安全研究中心达成协议 合作开展AI安全研究",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-23T10:00:00+00:00",
+      "title_orig": "Securing our frontier model training environment",
+      "summary_orig": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
     },
     {
-      "id": "05b90790e6c5",
-      "title": "“Una consulta como en ChatGPT”… Orasio, la IA que permite a los policías rastrear a los saqueadores en vídeos",
-      "summary": "Orasio es una IA que, como ChatGPT, ayuda a la policía a identificar y rastrear a saqueadores en videos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ3B4NDJQNXMwNHJhOFVXMGxYdTU3dl9jLThwNUxRUTh0RzVZQ0xnd1pWOFJ4MkVGMm9GYTNLRElsN0VtT0h1dUZweUY1dFVoRDJVSk5NOFVvLUhQSjc4dGR1NjByMTY2SkhKaWtPaFd1VFF1T1FmNnhDSHlDclhwcE5PMnFuYWFGa2kwbHJMcndjZGlmUFNISXdRNUdHVnY3WjZNLTkyYXdUdm1hQm1rZ3RPSlpjU2tsdDdKNDFRRUQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "20 Minutes",
+      "id": "eb3499cdf196",
+      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
+      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "ThinkIT",
       "region": "west",
-      "country": "france",
+      "country": "japan",
       "models": [
-        "gpt"
+        "claude"
       ],
       "source": "news",
-      "published": "2026-10-23T04:32:00+00:00",
-      "title_orig": "« Une requête comme dans ChatGPT »… Orasio, l’IA qui permet aux policiers de traquer les pillards sur des vidéos",
+      "published": "2026-10-23T05:22:24+00:00",
+      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
       "summary_orig": ""
     },
     {
       "id": "15c1f8ef7a58",
       "title": "OpenAI y NASK de Polonia se asocian para promover la seguridad de la IA",
-      "summary": "OpenAI y NASK de Polonia se asocian para investigar seguridad y protección de IA y reforzar un ecosistema digital más resiliente.",
+      "summary": "OpenAI y NASK de Polonia se asocian para investigar seguridad y protección de IA, reforzando salvaguardas y un ecosistema digital más resiliente.",
       "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -153,7 +293,7 @@
     {
       "id": "1d8d266cc065",
       "title": "OpenAI hace que su competidor Jev esté ampliamente disponible a medida que la competencia del modelo de decisión se calienta",
-      "summary": "OpenAI lanza su modelo de decisiones al público, buscando competir con el original Jev.",
+      "summary": "OpenAI lanza su modelo de decisión al público, buscando competir con el original Jev.",
       "sourceUrl": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -168,43 +308,9 @@
       "summary_orig": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
     },
     {
-      "id": "5ab3f0bf0aeb",
-      "title": "Cohere publica el ranking 5 con enfoque en el contexto a nivel de pasaje y puntuaciones calibradas",
-      "summary": "Cohere lanza Rerank 5 en versiones Pro y Fast con ventana de 32 K, extracción Context Focus y puntuaciones calibradas; la versión Pro obtiene 82,2 en BRIGHT y cuesta $0,05 por millón de tokens.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "canada",
-      "models": [
-        "cohere"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T16:31:31+00:00",
-      "title_orig": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
-      "summary_orig": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens. The post Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores appeared first on MarkTechPost ."
-    },
-    {
-      "id": "9d72639f5e00",
-      "title": "Uber pone a los 30.000 empleados en ChatGPT Work",
-      "summary": "El gigante de ridesharing ya había probado un piloto pequeño de ChatGPT Work y ahora lo implementa a nivel empresarial.",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T16:00:00+00:00",
-      "title_orig": "Uber puts all 30,000 employees on ChatGPT Work",
-      "summary_orig": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide."
-    },
-    {
       "id": "e66e9796ba6b",
       "title": "Más allá de la cobertura arbórea: mapeo de los tipos de bosques del mundo",
-      "summary": "Un mapa mundial clasifica cada parcela de 10 m de la Tierra según su tipo de bosque.",
+      "summary": "Un mapa global clasifica cada parcela de 10 metros de la Tierra en tipos de bosque distintos.",
       "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "sourceLabel": "DeepMind",
       "publisher": "",
@@ -221,7 +327,7 @@
     {
       "id": "705684bd819d",
       "title": "¿Quién suministra datos personalizados a OpenAI?",
-      "summary": "Se incorpora a la cadena de suministro global de componentes clave para la IA física.",
+      "summary": "Se incorpora a la cadena de suministro global de IA física.",
       "sourceUrl": "https://www.qbitai.com/2026/10/504800.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
@@ -238,7 +344,7 @@
     {
       "id": "63c31ca523f9",
       "title": "Qué significa FDE en OpenAI",
-      "summary": "Ingeniería de despliegue rápido en OpenAI implica crear y adaptar modelos de IA directamente en entornos de producción para responder rápidamente a necesidades reales.",
+      "summary": "Qué significa la ingeniería de despliegue avanzado en OpenAI",
       "sourceUrl": "https://openai.com/index/forward-deployed-engineering-means",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -251,108 +357,6 @@
       "published": "2026-10-22T06:00:00+00:00",
       "title_orig": "What FDE means at OpenAI",
       "summary_orig": "What forward deployed engineering means at OpenAI"
-    },
-    {
-      "id": "7ee8d60e8c50",
-      "title": "Los investigadores de Perplexity y NVIDIA presentan JOLT: a Joint Teacher-Student Reinforcement Learning Method",
-      "summary": "Perplexity y NVIDIA lanzan JOLT, un método que usa el mismo modelo como maestro y alumno, logrando en MATH la precisión de GRPO con 6,5 veces menos tokens de entrenamiento.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "perplexity"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T04:56:31+00:00",
-      "title_orig": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
-      "summary_orig": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO’s accuracy with 6.5x fewer processed training tokens. The post Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method appeared first on MarkTechPost ."
-    },
-    {
-      "id": "ba6fa07d677a",
-      "title": "Uber lleva el trabajo de ChatGPT a todos los empleados con OpenAI",
-      "summary": "Uber despliega ChatGPT Work a más de 30 000 empleados para investigar, analizar datos, crear presentaciones y gestionar flujos de trabajo complejos.",
-      "sourceUrl": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T00:00:00+00:00",
-      "title_orig": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "summary_orig": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows."
-    },
-    {
-      "id": "2ed22a61b2f1",
-      "title": "Amplio acceso a través de estándares consistentes",
-      "summary": "OpenAI colabora con socios de distribución para mantener salvaguardas uniformes, garantizar un acceso responsable y aclarar expectativas en sus Políticas de Uso.",
-      "sourceUrl": "https://openai.com/index/broad-access-through-consistent-standards",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T21:00:00+00:00",
-      "title_orig": "Broad access through consistent standards",
-      "summary_orig": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
-    },
-    {
-      "id": "53db5cc10927",
-      "title": "Los últimos modelos de IA de OpenAI llegan a Google Cloud y Antigravity",
-      "summary": "Google Cloud lanzará GPT 6.1 Astra, Sol y Luna en las próximas semanas.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T18:51:42+00:00",
-      "title_orig": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "summary_orig": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks."
-    },
-    {
-      "id": "4ab93569e260",
-      "title": "Cómo AT&T está reconsiderando el trabajo legal interno con OpenAI",
-      "summary": "AT&T colabora con OpenAI para que su equipo LegalEdge facilite el acceso al conocimiento legal y mejore la toma de decisiones.",
-      "sourceUrl": "https://openai.com/index/att-legal",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T17:00:00+00:00",
-      "title_orig": "How AT&T is rethinking in-house legal work with OpenAI",
-      "summary_orig": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
-    },
-    {
-      "id": "74fcf21eca7a",
-      "title": "ChatGPT Ads se expande a 26 nuevos países, ya que más de 100 000 anunciantes han utilizado la plataforma",
-      "summary": "Empresas locales y marcas globales ya pueden anunciarse a usuarios que exploran, comparan y deciden compras en ChatGPT.",
-      "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-21T13:00:00+00:00",
-      "title_orig": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "summary_orig": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
     }
   ]
 }
