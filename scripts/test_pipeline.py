@@ -6,10 +6,13 @@ import tempfile
 import unittest
 from datetime import date, datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 import actualizar_modelos as am
 import collect_signals as cs
+import feed_health as fh
 import generar_informe as gi
+import sources as S
 
 
 class LicenciaTests(unittest.TestCase):
@@ -452,6 +455,194 @@ class ClassifyWordBoundaryTests(unittest.TestCase):
     def test_noticias_reales_siguen_clasificando(self) -> None:
         self.assertEqual(gi.classify("OpenAI launches GPT-6 with a new API", ""), "novedades")
         self.assertEqual(gi.classify("xAI raises $150M for Grok infrastructure", ""), "economia")
+
+
+class ModelosDatasetTests(unittest.TestCase):
+    def _filas(self) -> list[dict]:
+        return [
+            {
+                "model_name": "Claude Opus 5.5 (High)",
+                "organization": "anthropic",
+                "license": "Proprietary",
+                "rating": 1516.4,
+                "rank": 2,
+                "vote_count": 100,
+                "category": "overall",
+                "leaderboard_publish_date": "2026-10-22",
+            },
+            {
+                "model_name": "Kimi K3 (Max)",
+                "organization": "moonshot",
+                "license": "Modified MIT",
+                "rating": 1490.2,
+                "rank": 3,
+                "vote_count": 50,
+                "category": "overall",
+                "leaderboard_publish_date": "2026-10-22",
+            },
+            {
+                "model_name": "Open Weights",
+                "organization": "zai",
+                "license": "Apache 2.0",
+                "rating": 1400.0,
+                "rank": 4,
+                "vote_count": 10,
+                "category": "overall",
+                "leaderboard_publish_date": "2026-10-22",
+            },
+            {
+                "model_name": "Ignorado",
+                "organization": "x",
+                "license": "MIT",
+                "rating": 1.0,
+                "rank": 1,
+                "vote_count": 1,
+                "category": "coding",
+                "leaderboard_publish_date": "2026-10-22",
+            },
+        ]
+
+    def _fila(self, i: int) -> dict:
+        return {
+            "model_name": f"Modelo {i}",
+            "organization": "org",
+            "license": "MIT",
+            "rating": 1000 + i,
+            "rank": i,
+            "vote_count": 10,
+            "category": "overall",
+            "leaderboard_publish_date": "2026-10-22",
+        }
+
+    def _ordr(self) -> dict[str, dict]:
+        return {
+            "claude-opus-5.5": {
+                "precio_in": 3.0,
+                "precio_out": 15.0,
+                "context": 200000,
+                "org": "anthropic",
+                "id_openrouter": "anthropic/claude-opus-5.5",
+            },
+            "kimi-k3": {
+                "precio_in": 1.0,
+                "precio_out": 4.0,
+                "context": 128000,
+                "org": "moonshotai",
+                "id_openrouter": "moonshotai/kimi-k3",
+            },
+            "open-weights": {
+                "precio_in": 0.1,
+                "precio_out": 0.2,
+                "context": 32000,
+                "org": "z-ai",
+                "id_openrouter": "z-ai/open-weights",
+            },
+        }
+
+    def test_arena_mapea_y_filtra_overall(self) -> None:
+        arena = am.arena_desde_filas(self._filas())
+        self.assertEqual(len(arena), 3)
+        self.assertNotIn("Ignorado", arena)
+        self.assertEqual(arena["Claude Opus 5.5 (High)"]["elo"], 1516)
+        self.assertEqual(arena["Claude Opus 5.5 (High)"]["licencia"], "cerrado")
+        self.assertEqual(arena["Open Weights"]["licencia"], "open")
+        self.assertEqual(arena["Kimi K3 (Max)"]["org"], "moonshot")
+
+    def test_match_precio_por_alias(self) -> None:
+        rows = am.match(am.arena_desde_filas(self._filas()), self._ordr())
+        by = {r["modelo"]: r for r in rows}
+        self.assertEqual(by["Claude Opus 5.5 (High)"]["precio_out"], 15.0)
+        self.assertEqual(by["Kimi K3 (Max)"]["precio_out"], 4.0)
+        self.assertEqual(by["Open Weights"]["precio_out"], 0.2)
+
+    def test_payload_ordena_por_rank_y_respeta_max(self) -> None:
+        payload = am.construir_payload(
+            am.arena_desde_filas(self._filas()),
+            self._ordr(),
+            2,
+            ahora=datetime(2026, 10, 25, 12, 0, 0),
+        )
+        self.assertEqual(payload["total"], 2)
+        self.assertEqual(payload["modelos"][0]["modelo"], "Claude Opus 5.5 (High)")
+        self.assertEqual(payload["modelos"][1]["modelo"], "Kimi K3 (Max)")
+        self.assertEqual(payload["actualizado"], "2026-10-25T12:00:00")
+        self.assertEqual(payload["con_precio"], 2)
+
+    def test_payload_vacio_falla(self) -> None:
+        with self.assertRaises(ValueError):
+            am.construir_payload({}, {}, 60)
+
+    def test_fetch_pagina_hasta_limite(self) -> None:
+        primera = {"rows": [{"row": self._fila(i)} for i in range(100)]}
+        segunda = {"rows": [{"row": self._fila(100 + i)} for i in range(5)]}
+        with patch.object(am, "http_json", side_effect=[primera, segunda]) as mock:
+            arena = am.fetch_lmarena("text", limit=105)
+        self.assertEqual(len(arena), 105)
+        self.assertEqual(mock.call_count, 2)
+
+    def test_main_no_escribe_con_arena_vacia(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "modelos.json"
+            with (
+                patch.object(am, "OUT_PATHS", [out]),
+                patch.object(am, "fetch_lmarena", return_value={}),
+                patch.object(am, "fetch_openrouter", return_value={}),
+                patch.object(am.sys, "argv", ["actualizar_modelos.py"]),
+            ):
+                with self.assertRaises(SystemExit):
+                    am.main()
+            self.assertFalse(out.exists())
+
+
+class FeedHealthTests(unittest.TestCase):
+    def test_construir_health_cuenta_estados(self) -> None:
+        resultados = [
+            {"nombre": "a", "url": "u", "items": 3, "estado": "ok", "detalle": ""},
+            {"nombre": "b", "url": "u", "items": 0, "estado": "vacio", "detalle": "0 items"},
+            {"nombre": "c", "url": "u", "items": 0, "estado": "error", "detalle": "x"},
+        ]
+        health = fh.construir_health(
+            resultados, {"estado": "ok"}, ahora=datetime(2026, 10, 25, 12, 0, 0)
+        )
+        self.assertEqual(health["total_feeds"], 3)
+        self.assertEqual(health["ok"], 1)
+        self.assertEqual(health["vacios"], 1)
+        self.assertEqual(health["rotos"], 1)
+        self.assertEqual(health["generado"], "2026-10-25T12:00:00")
+
+    def test_todos_los_feeds_representados(self) -> None:
+        resultados = [
+            {"nombre": nombre, "url": url, "items": 1, "estado": "ok", "detalle": ""}
+            for nombre, url in S.FEEDS
+        ]
+        health = fh.construir_health(resultados, fh.estado_ranking({}))
+        self.assertEqual(health["total_feeds"], len(S.FEEDS))
+        self.assertEqual(len(health["feeds"]), len(S.FEEDS))
+
+    def test_ranking_sin_datos(self) -> None:
+        self.assertEqual(fh.estado_ranking({})["estado"], "sin_datos")
+        self.assertEqual(fh.estado_ranking(None)["estado"], "sin_datos")
+
+    def test_ranking_stale_y_ok(self) -> None:
+        ahora = datetime(2026, 10, 25, 12, 0, 0)
+        viejo = {"modelos": [{"elo": 1}], "actualizado": "2026-10-20T12:00:00"}
+        fresco = {"modelos": [{"elo": 1}], "actualizado": "2026-10-25T10:00:00"}
+        self.assertEqual(fh.estado_ranking(viejo, ahora)["estado"], "stale")
+        self.assertEqual(fh.estado_ranking(fresco, ahora)["estado"], "ok")
+
+    def test_probar_feed_vacio_no_explota(self) -> None:
+        with (
+            patch.object(fh.gi, "fetch_url", return_value=b"<rss></rss>"),
+            patch.object(fh.gi, "parse_feed", return_value=[]),
+        ):
+            resultado = fh.probar_feed("x", "https://example.test/feed")
+        self.assertEqual(resultado["estado"], "vacio")
+        self.assertEqual(resultado["items"], 0)
+
+    def test_probar_feed_sin_respuesta_es_error(self) -> None:
+        with patch.object(fh.gi, "fetch_url", return_value=None):
+            resultado = fh.probar_feed("x", "https://example.test/feed")
+        self.assertEqual(resultado["estado"], "error")
 
 
 if __name__ == "__main__":
