@@ -5,17 +5,17 @@
   --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
 
-  --color-bg: #0a0a0b;
-  --color-surface: #121214;
-  --color-elevated: #1a1a1e;
-  --color-fg: #f4f4f5;
-  --color-muted: #a1a1aa;
-  --color-subtle: #71717a;
-  --color-border: #2a2a2e;
-  --color-accent: #c8ccd4;
-  --color-accent-fg: #0a0a0b;
-  --color-west: #9aa7b8;
-  --color-china: #c4b8a8;
+  --color-bg: #080d0b;
+  --color-surface: #0e1512;
+  --color-elevated: #15221c;
+  --color-fg: #edf5f1;
+  --color-muted: #a3b3ac;
+  --color-subtle: #778980;
+  --color-border: #23332c;
+  --color-accent: #83e5be;
+  --color-accent-fg: #06120c;
+  --color-west: #8ab8ff;
+  --color-china: #f5c17f;
 
   --radius-xs: 4px;
   --radius-sm: 8px;
@@ -27,6 +27,10 @@
 }
 
 @layer base {
+  :root {
+    color-scheme: dark;
+  }
+
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -43,6 +47,7 @@
   body {
     font-family: var(--font-sans);
     line-height: 1.5;
+    background-image: radial-gradient(ellipse 90% 46rem at 50% -10rem, rgb(51 139 103 / 0.16), transparent);
   }
 
   h1,
