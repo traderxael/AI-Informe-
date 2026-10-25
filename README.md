@@ -19,7 +19,8 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 - RSS públicos (labs, medios, Google News multi-país, HN, Reddit con degradación suave). 34 feeds vivos, auditados con `scripts/auditar_feeds.py`.
 - Informe markdown diario en `informes/YYYY-MM-DD.md`.
 - JSON para la web: `public/data/signals-first.json`, `signals-rest.json`, `modelos.json`.
-- Ranking de modelos: Elo LMArena × precios OpenRouter (job del cron, no bloquea si falla).
+- Ranking de modelos: Elo LMArena (dataset oficial en Hugging Face) × precios OpenRouter. Si la fuente no responde, no sobrescribe el JSON anterior y el run queda rojo con evidencia.
+- **Salud de fuentes**: `scripts/feed_health.py` → `public/data/feed_health.json` (items por feed + estado del ranking). La portada muestra el resumen y el archivo queda versionado.
 - **Resúmenes LLM en español** con Groq (`scripts/resumir_groq.py`, Secret `GROQ_API_KEY`): resumen del día + traducción de señales. Opcional: si no hay key o Groq cae, el informe sigue publicándose.
 - **Señales de X (Twitter)**: `scripts/fx_viral.py` monitorea 17 cuentas + 5 búsquedas de nicho vía FxTwitter API → `datos/fx_viral_YYYY-MM-DD.json` (top-40 por views, agrupado por tema). Es también la cola de contenido para clips de AutoClip.
 - La portada **carga esas señales**, no una semana congelada.
@@ -64,9 +65,10 @@ scripts/
   collect_signals.py      # Google News + RSS + HN + Reddit → public/data/signals-*.json
   fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json
   resumir_groq.py         # resúmenes LLM en español (Groq) + traducción de señales
-  actualizar_modelos.py   # LMArena + OpenRouter → public/data/modelos.json
+  actualizar_modelos.py   # LMArena (dataset HF) + OpenRouter → public/data/modelos.json
+  feed_health.py          # salud de los 34 feeds + ranking → public/data/feed_health.json
   auditar_feeds.py        # diagnóstico: cuántos items trae cada feed (herramienta)
-  test_pipeline.py        # tests sin red (44 tests)
+  test_pipeline.py        # tests sin red (57 tests)
   with-app-env.brace-regression.test.mjs # regresión del wrapper en Windows
 informes/                 # un markdown por día
 datos/                    # JSON diario de señales de X (cola de clips AutoClip)
@@ -79,11 +81,12 @@ docs/diagramas/           # diagramas Mermaid: *.mmd + svg/ + png/
 ## Uso local
 
 ```bash
-python scripts/test_pipeline.py     # 44 tests, sin red
+python scripts/test_pipeline.py     # 57 tests, sin red
 python scripts/generar_informe.py    # RSS → informes/*.md + web/
 python scripts/collect_signals.py    # señales Google News + HN + Reddit
 python scripts/fx_viral.py           # señales de X (o --local con FxEmbed propio)
 python scripts/actualizar_modelos.py --max 60
+python scripts/feed_health.py        # salud de los 34 feeds y del ranking
 python scripts/auditar_feeds.py      # cobertura real de los 34 feeds (cuántos items trae cada uno)
 ```
 
@@ -102,9 +105,11 @@ npm install && npm run dev
 2. Generar informe (markdown + web)
 3. Recolectar signals (Google News + RSS + Reddit + HN, máx. 40 traducciones)
 4. Resúmenes LLM (Groq) — requiere Secret `GROQ_API_KEY`
-5. Ranking de modelos (LMArena + OpenRouter)
+5. Ranking de modelos (LMArena vía dataset HF + OpenRouter)
 6. **Señales de X (FxTwitter)** — 17 cuentas + 5 búsquedas de nicho
-7. Commit a `main` (`informes`, `web`, `public`, `datos`) → Vercel redeploy
+7. Salud de fuentes (`feed_health.py`) → `public/data/feed_health.json`
+8. Commit a `main` (`informes`, `web`, `public`, `datos`) → Vercel redeploy
+9. Verificación post-commit: falla el run si el ranking quedó vacío o la salud está incompleta
 
 Si el push a `main` falla por required checks, el job `generar` no puede ser un status check obligatorio sobre sí mismo: desactivalo o permití bypass a `github-actions[bot]`.
 
