@@ -425,7 +425,7 @@
         <a class="feedback-btn" href="https://github.com/traderxael/AI-Informe-/issues/new?title=Sugerencia%20para%20AI%20Informe&body=Describe%20tu%20idea%20y%20el%20beneficio%20esperado%3A" target="_blank" rel="noreferrer">Sugerir mejora</a>
       </div>
     </section>
-    <footer class="footer">AI Informe · Fuentes públicas de la semana · No es un ranking único, es un mapa de roles. <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noreferrer">Ver proyecto en GitHub</a></footer>
+    <footer class="footer">AI Informe · Fuentes públicas de la semana · No es un ranking único, es un mapa de roles. <span id="feedHealth" class="fuente"></span> <a href="https://github.com/traderxael/AI-Informe-" target="_blank" rel="noreferrer">Ver proyecto en GitHub</a></footer>
   </main>
   <script>
 (() => {
@@ -574,11 +574,20 @@
         if (r.ok) { d = await r.json(); break; }
       } catch (e) {}
     }
+    const tb = document.getElementById('modelsBody');
+    const foot = document.getElementById('modelsFoot');
     if (!d) {
-      document.getElementById('modelsBody').innerHTML = '<tr><td colspan="7" class="sin-precio">No se pudo cargar el ranking.</td></tr>';
+      tb.innerHTML = '<tr><td colspan="7" class="sin-precio">No se pudo cargar el ranking.</td></tr>';
+      foot.textContent = 'Ranking no disponible.';
       return;
     }
-    const tb = document.getElementById('modelsBody');
+    if (!Array.isArray(d.modelos) || d.modelos.length === 0) {
+      tb.innerHTML = '<tr><td colspan="7" class="sin-precio">Ranking sin datos: la fuente LMArena no respondió. Se conserva el último dato disponible.</td></tr>';
+      foot.textContent = d.actualizado
+        ? `Última actualización: ${d.actualizado} · fuente sin datos`
+        : 'Fuente sin datos.';
+      return;
+    }
     const fmt = v => v == null ? '—' : (v >= 1000 ? (v/1000).toFixed(0)+'K' : v);
     const $ = v => v == null ? '<span class="sin-precio">—</span>' : '$' + Number(v).toFixed(2);
     tb.innerHTML = d.modelos.map(m => `<tr>
@@ -590,8 +599,30 @@
       <td class="num">${$(m.precio_out)}</td>
       <td class="num">${fmt(m.context)}</td>
     </tr>`).join('');
-    document.getElementById('modelsFoot').textContent =
+    foot.textContent =
       `Actualizado: ${d.actualizado} · ${d.total} modelos (${d.con_precio} con precio en OpenRouter)`;
+  })();
+})();
+</script>
+<script>
+(function(){
+  const urls = ['/data/feed_health.json','feed_health.json'];
+  (async function(){
+    let d = null;
+    for (const u of urls) {
+      try {
+        const r = await fetch(u);
+        if (r.ok) { d = await r.json(); break; }
+      } catch (e) {}
+    }
+    const el = document.getElementById('feedHealth');
+    if (!d || !el) return;
+    const partes = [`Fuentes: ${d.ok ?? 0}/${d.total_feeds ?? 0} vivas`];
+    if (d.vacios) partes.push(`${d.vacios} vacías`);
+    if (d.rotos) partes.push(`${d.rotos} caídas`);
+    if (d.ranking && d.ranking.estado === 'sin_datos') partes.push('ranking sin datos');
+    if (d.ranking && d.ranking.estado === 'stale') partes.push('ranking desactualizado');
+    el.textContent = partes.join(' · ');
   })();
 })();
 </script>
