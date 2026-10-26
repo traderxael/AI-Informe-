@@ -76,6 +76,12 @@ jobs:
         continue-on-error: true
         run: python scripts/fx_viral.py
 
+      # Evidencia publicada, no solo logs: el JSON queda commiteado junto al
+      # informe y la portada lo muestra. El script nunca rompe el run.
+      - name: Salud de fuentes
+        continue-on-error: true
+        run: python scripts/feed_health.py
+
       - name: Commit cambios
         run: |
           git config user.name "github-actions[bot]"
@@ -89,3 +95,25 @@ jobs:
             git commit -m "Informe diario $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # Si el ranking quedó vacío o la salud no cubre todos los feeds, el run
+      # se pone rojo DESPUÉS de publicar la evidencia.
+      - name: Verificar artefactos publicados
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          modelos = json.loads(Path("public/data/modelos.json").read_text(encoding="utf-8"))
+          health = json.loads(Path("public/data/feed_health.json").read_text(encoding="utf-8"))
+          if modelos.get("total", 0) <= 0:
+              raise SystemExit("modelos.json quedó vacío: revisar la fuente de LMArena")
+          feeds = health.get("feeds", [])
+          if health.get("total_feeds", 0) <= 0 or len(feeds) != health["total_feeds"]:
+              raise SystemExit("feed_health.json incompleto")
+          print(
+              f"modelos={modelos['total']} con_precio={modelos.get('con_precio', 0)} "
+              f"feeds={health.get('ok', 0)}/{health['total_feeds']} "
+              f"ranking={health.get('ranking', {}).get('estado')}"
+          )
+          PY
