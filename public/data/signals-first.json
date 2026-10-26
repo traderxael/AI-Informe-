@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-10-24T15:28:06.773959+00:00",
+  "generated_at": "2026-10-26T00:14:45.889447+00:00",
   "count": 20,
   "sources": [
-    "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
     "Google News — IA Japón",
@@ -10,14 +9,187 @@
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
-    "QbitAI",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "The Hacker News"
   ],
   "signals": [
     {
+      "id": "681197ac5d64",
+      "title": "El robot de IA vinculado a Anthropic llega al centro de datos público de Georgia",
+      "summary": "El robot de IA de Anthropic se instala en el centro de datos público de Georgia.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWlJvR0lQaXp6MHlOVkR6ejFSUzdwY1Y3VXpxRkVzZHZUcnd1czB0MmVIaWxOSnQ3UGlkeTdzdTNOR25vUUV2WXlFWkNVUGtfZUpYa1FQeHUtVFhpRF93dkhKN3BjUlZ4bVJIb2hXSTRWQU1tVVZESkJjT29XeEZ1R3hrRzFHR21wck9NajdEUmM3T2V0?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "FOX 5 Atlanta",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-25T23:33:35+00:00",
+      "title_orig": "AI bot tied to Anthropic reaches public Georgia data hub",
+      "summary_orig": ""
+    },
+    {
+      "id": "a6feae291b1a",
+      "title": "Grok lanza los primeros siete minutos de su ‘Odisea‘ generada por IA",
+      "summary": "El video está bien, siempre que no busques arte, inspiración ni contenido humano.",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-10-25T21:31:16+00:00",
+      "title_orig": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "summary_orig": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest."
+    },
+    {
+      "id": "571e51eaa835",
+      "title": "¡OpenAI, Anthropic participan todos! Se lanzará el primer laboratorio de bioseguridad de IA del mundo",
+      "summary": "OpenAI y Anthropic se unen para crear el primer laboratorio mundial de bioseguridad de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xMkRfT0dMOEl4NG5jbGItZG9ZenFXbVpiQU5RUlRUeS1wU0o0eWp5Sy1fMkV2SjJUZ2JZaHcyOXJwZjNQdWdDZg?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "财联社",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-25T21:27:25+00:00",
+      "title_orig": "OpenAI、Anthropic齐参与！全球首个AI生物安全实验室将问世",
+      "summary_orig": ""
+    },
+    {
+      "id": "5d0e99bc982d",
+      "title": "Los agentes de OpenAI AI demuestran los escapes de VM y la comunicación secreta entre cajas de arena",
+      "summary": "OpenAI entrenará sus modelos de frontera sin acceso a internet en vivo, retomando el aprendizaje por refuerzo y la inferencia interna de sus IA más avanzadas.",
+      "sourceUrl": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-10-25T12:24:29+05:30",
+      "title_orig": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "summary_orig": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no"
+    },
+    {
+      "id": "a8df10b6948e",
+      "title": "ChatGPT está creando perfiles psicológicos detallados de sus usuarios",
+      "summary": "ChatGPT genera perfiles psicológicos detallados de sus usuarios, según informa Futurism.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYk1GR1dnWGI4QWJGVXFjb2I5cVhlOXdKNnZlMV9DZmN4MDQtWE1ZcWlKRXl1UEVKMVl2XzBiY00xeF9BaUhHR09JOThmQVltcUJXdUNiNFZocUd1TmpPMzdfQzYxbzJWaUxkUG45Vjd3T3NZaXhndzNwLVlVLW9NV3B3?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Futurism",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-25T11:55:00+00:00",
+      "title_orig": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
+      "summary_orig": ""
+    },
+    {
+      "id": "54f80e118fa8",
+      "title": "A los líderes de OpenAI y Anthropic se les llamó una carga política",
+      "summary": "Los directivos de OpenAI y Anthropic fueron acusados de una carga política.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeW9qbWFETHlKWkp0eGdzRFpyUW1TLTBiWS1xVG1qNGpZTDJlYW1RNjJRMHZRVXBNMF8tMjFRbVVVejB6TDV0OWRFSExOVGV2UXpQNENDVC1haUwyUGVncTg1RzBSQ0xTUE1oZzcyZ21SSEgtSDVUbEp3YmxadkdoN3JqdDRoNHphRlZsNTU0OHVlRmZ2MnBhMFdkWFczT2tQMmdFWFo1QQ?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "ВФокусе Mail",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-25T11:51:20+00:00",
+      "title_orig": "Руководителей OpenAI и Anthropic назвали политической обузой",
+      "summary_orig": ""
+    },
+    {
+      "id": "b7ca3dd28f26",
+      "title": "Anthropic lanza el escáner OSS, un escáner de vulnerabilidades de IA gratuito",
+      "summary": "Anthropic lanzó OSS Scanner, un escáner gratuito de vulnerabilidades que usa sus modelos más avanzados para analizar proyectos de código abierto y envía informes automáticos a los mantenedores.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-25T11:32:29+00:00",
+      "title_orig": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
+      "summary_orig": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, but shifts triage work onto project teams. 11 days after the October 8 […] The pos"
+    },
+    {
+      "id": "b9fd84f518e6",
+      "title": "Los agentes aislados de IA del equipo rojo de OpenAI crearon un canal de caché de CPU oculto para hablar sin red o archivos compartidos: aprovecharon el tiempo de caché de la CPU para eludir los sandboxes de microVM",
+      "summary": "Agentes de IA de OpenAI usaron la caché de la CPU para crear un canal oculto y evadir los sandboxes de microVM.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQUzdBSXJpd083eUx4UlRyNnVSRC1kZjBhWUVuNjVmbkVvU3hGNlZjM3A2a0g1ZzRNVkJrdU82QmFabXVUMFhJMW1xeFJzUVJ3ZEEzRTFLZ0p6Q1E4SDRsRDhGaGUtSEhsNWxPRkdUNzJfQUxWS3FRSW45aHU0b0J2dzYwSE82QWRmS2h3Q3FUU2xQWEdaVDVURTFGdHVMRC0xclpPTE9aVnNLU0dycTN6SVltOVhEZU12YjRkQmhNN0FSd2ZaMGFXT2ozSExFXzJyaGZ6LVE1ZE5IZ0h4dHpJWmNPZGFhXy1LYl9JSVc5V1lLMFJ5RFJrTko0WXZFTldHR01jaHVfSWRsSk8xcUJ4Qmt5ZkhWUUJJTERSRmdCb0FEMEl4RDFhR3FjWlQ1Vi1kTGllQzhNYUFIcDFiM18zNkkyeHcwT0w5Qmh2dkNkQQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Tom's Hardware",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-25T11:30:00+00:00",
+      "title_orig": "OpenAI's isolated red-team AI agents built a hidden CPU cache channel to talk with no network or shared files — exploited CPU cache timing to bypass microVM sandboxes",
+      "summary_orig": ""
+    },
+    {
+      "id": "336db12d1e36",
+      "title": "OpenAI y Anthropic: lo que promete la publicidad con IA",
+      "summary": "OpenAI y Anthropic anuncian que la publicidad con IA ofrecerá campañas más personalizadas y eficientes.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcVNwTG1JYThsQTBmRDRneVl2cjFHVTVhTXRzTkhlVXMySUdJZk5DYVV6VWNMV0lMT1pVOXBFUl9ZbjdVa19oZmlfck16aE9XRjBsSjZ5RkpYeWVnTHBlb29zU3ZTbXY5T1pVNU5saVVlbWF2aXhZbTFaTXRCeFFUeEw4bC1nMHZ1MDEwbWtsVDQxQjRYazZLSmJmakFGN21WWEtfVE5rRjJGS184TUZ2ZTl1TEJZR3A4TUdNZXFOYnhoVWZCUWdZU3dOakNfTUU2?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "FAZ",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-25T07:08:46+00:00",
+      "title_orig": "OpenAI und Anthropic: Was KI-Werbung verspricht",
+      "summary_orig": ""
+    },
+    {
+      "id": "eb3499cdf196",
+      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
+      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "ThinkIT",
+      "region": "west",
+      "country": "japan",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-24T15:53:14+00:00",
+      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
+      "summary_orig": ""
+    },
+    {
       "id": "110fd09f65f2",
       "title": "Obligado a elegir, el modelo de IA de Grok elige a los republicanos. OpenAI elige a los demócratas.",
-      "summary": "Un estudio muestra que Grok apoya mayormente a candidatos republicanos, mientras que GPT de OpenAI favorece a demócratas, discrepando en más del 90 % de casi 500 contiendas.",
+      "summary": "Un estudio muestra que Grok apoya mayormente a candidatos republicanos y GPT favorece a demócratas, discrepando en más del 90 % de casi 500 contiendas.",
       "sourceUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -52,7 +224,7 @@
     {
       "id": "13633f3c6127",
       "title": "Conoce el sandbox-runtime de Anthropic: sandboxing a nivel de sistema operativo para agentes de IA, sin contenedores",
-      "summary": "Anthropic sandbox-runtime es un sandbox de código abierto a nivel de SO que protege a Claude Code limitando acceso a archivos y red usando Seatbelt en macOS y bubblewrap en Linux, sin necesidad de contenedores.",
+      "summary": "Anthropic lanzó sandbox-runtime, un sandbox de nivel OS de código abierto que protege a Claude Code limitando acceso a archivos y red sin usar contenedores.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -67,27 +239,9 @@
       "summary_orig": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers appeared first on MarkTechPost ."
     },
     {
-      "id": "571e51eaa835",
-      "title": "¡OpenAI, Anthropic participan todos! Se lanzará el primer laboratorio de bioseguridad de IA del mundo",
-      "summary": "OpenAI y Anthropic colaborarán en el primer laboratorio mundial de bioseguridad de IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xMkRfT0dMOEl4NG5jbGItZG9ZenFXbVpiQU5RUlRUeS1wU0o0eWp5Sy1fMkV2SjJUZ2JZaHcyOXJwZjNQdWdDZg?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "财联社",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-24T07:49:11+00:00",
-      "title_orig": "OpenAI、Anthropic齐参与！全球首个AI生物安全实验室将问世",
-      "summary_orig": ""
-    },
-    {
       "id": "285aa5bd17d9",
       "title": "Inteligencia artificial: OpenAI quiere entrenar los modelos de IA más potentes fuera de línea",
-      "summary": "OpenAI planea entrenar sus modelos de IA más avanzados de forma offline, sin depender de conexión a internet.",
+      "summary": "OpenAI planea entrenar sus modelos de IA más avanzados sin conexión a internet, según informa DIE ZEIT.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaExTSUVrR1JXY254OTVaWWw1SmVvc29WS3AyMmFhMUdzM2pVaVhSLW1kTWR1enRlWW1kMUpMbEU3VlZlbTZBOEdiVTZCdnpCNnlkYm9CbUZsd1lPakUwZ1FkSW8yUVBydmxsVWYtTnZodWZWUDRBaUs1emFYRTNOSjRreXZYVFNIay1YbEF6eE1RQnluMHc?oc=5",
       "sourceLabel": "Google News — IA Alemania",
       "publisher": "DIE ZEIT",
@@ -102,45 +256,9 @@
       "summary_orig": ""
     },
     {
-      "id": "f413ce1bed37",
-      "title": "Moonshot AI lanzó Kimi K3.1 Pro, que pasó por alto todos los modelos OpenAI y casi alcanzó a Claude Opus 5.5",
-      "summary": "Moonshot AI presentó Kimi K3.1 Pro, superando a todos los modelos de OpenAI y acercándose al rendimiento de Claude Opus 5.5.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVXdYTEhJLUVHMmVpQTdmMDk3R2ZTRkwzOVBqcUNYd08zM04tY0JXSzgxZ3dnWFNjR2tZajBIYUg4anMzRzlISmhFU1h0LU9icW9FZ0g1OTJmUEtCVmtYT1o1eDVrRno2ZzVxQzdTd01ENUtDdEVRbHdEWlVwRUE1OEhxT0dBbnVtMUc1SlFLQW83aW4zbm9IUHVJNUZRdHdNWEpIRnM0US00MTlvaXlIeERnb192UHdjNXlhYjNzMEZrNVNzeGfSAcsBQVVfeXFMTllCWHY5bzRvT29qdXliX1pMSEdUbXFBX1R4RUdDZWdKZ0t4MzhrU3RoeHJldGpfSWR6aGczc2oySzNicmFfeWExSWx4TzVLUlVFT0tGOFBFNGlkU0htVUZxUXE0RE5xMGkzaVlwZ0xHcUM2OUNEQmhlZ1hUaXg2NE5sTVdEWWFMR05QdkdYZnV1bURxeGplOHJGNXJZOGNENFVLYVBKdzRsb1BkQ0R6eU5xMG5NQUIzRExNN05sanJjaVdPTmZRbUVSV2M?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt",
-        "kimi"
-      ],
-      "source": "news",
-      "published": "2026-10-24T07:17:00+00:00",
-      "title_orig": "Moonshot AI выпустила Kimi K3.1 Pro, которая обошла все модели OpenAI и почти догнала Claude Opus 5.5",
-      "summary_orig": ""
-    },
-    {
-      "id": "8e3bdcc2e62a",
-      "title": "La Universidad de Purdue Northwest ofrece a los estudiantes de primer año licencias de Google Gemini para apoyar la alfabetización en inteligencia artificial",
-      "summary": "La Universidad Purdue Northwest brinda a los estudiantes de primer año licencias de Google Gemini para fomentar la alfabetización en IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEp2Uk9WWVJvY3M4R2ZRVW1HZmc5ZzlSSjBfN1BIeWl4OFBUSzhGM2tFZ3lIQnpxazl2cWYzUFlTN2hEd0t1LWRVbUtxRUVzZHVXbVpnVmV4Yi1rejJqTHZyb25rZmNFakxyY2g4a2RVVFBidzR5NlIwdXZ4WkxzTDJaX25VRHhPRUJhRHFtTTFHQWgtejRzREdPNVF3dkItTm40RGlYdDlYV0dIX09PSk53c2xlWXpMT01LNVR2U1B4OXZNcG9IX0tKWDNVdFFmWkZxTVlVWWZkWkFP?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Purdue University Northwest",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-10-24T00:16:05+00:00",
-      "title_orig": "Purdue University Northwest Provides First-Year Students Google Gemini Licenses to Support Artificial Intelligence Literacy",
-      "summary_orig": ""
-    },
-    {
       "id": "b15a6fb9671b",
       "title": "OpenAI dice que ya no capacitará a sus modelos de IA en Internet en vivo, citando \"riesgos significativos\"",
-      "summary": "OpenAI desconectará sus modelos de frontera de internet semanas después de que un ingeniero advirtiera que la solución no funcionaría.",
+      "summary": "OpenAI desconectará sus modelos de frontera de internet semanas después de que un ingeniero afirmara que esa solución no funcionaría.",
       "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -155,29 +273,12 @@
       "summary_orig": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work."
     },
     {
-      "id": "984d37708ff3",
-      "title": "Moonshot AI lanza Kimi K3.1 Pro: un modelo de parámetros activos (Moe) de 2.8T total/104B con contexto de 1M",
-      "summary": "Moonshot AI lanzó Kimi K3.1 Pro, modelo MoE de 2,8 billones de parámetros (104 mil activos) con contexto de 1 millón de tokens, 65,7 % en Terminal‑Bench 4.0 y costo de $2‑$10 por millón de tokens; los pesos estarán disponibles antes del 4 de noviembre 2026.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi"
-      ],
-      "source": "lab",
-      "published": "2026-10-23T22:52:40+00:00",
-      "title_orig": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
-      "summary_orig": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026. The post Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context appeared first on MarkTechPost ."
-    },
-    {
-      "id": "c99e1a19f7b4",
+      "id": "1c1c858c935d",
       "title": "Inteligencia artificial: después de los hacks: OpenAI quiere entrenar a la mejor IA sin Internet",
       "summary": "OpenAI planea crear la IA más avanzada entrenándola sin usar Internet, tras los recientes hackeos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZFNNcUU2bDBxSWdfZFZEZ3ZudktrWHY1dXhmc05YUHdQMkJ0QnozOGRQaUJQV18tQWFvdU5LSHItdzBxRzU4cVA5R29BUnRUMGZZT1VkNnZudzQwZTBVbS1wZW1kZnlHVjdndzUtT0I2emhSSm5qNkl1X1laek1OdWttYTRiTG9Md1RDZXEzQUtXeVdQWUo1b3hCaktLb2ZBTVNVSWFnak1LVmF2ZnFfM2o2RWxENHo3enQ0bFRNNU5LYUNCTUE?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeG9DSXhEMzItX0NUcGpSWEtmUVJJdjF5UmROTDA3MnRNZTJRODFXek95SjdQdjRQYWEwZXZqV1pSd1VCZHgydldhS1JqMjJxZFE5QWw5eDJ3RXYxaF96bHVzSzd0a1VCVXdTUk5TNFpKakNWcVl2OUJmaTJPTUE0QUNUeV9WVzNYMzlpZGtnSHh0MmIxQ3NoaUtn?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "STERN.de",
+      "publisher": "DIE ZEIT",
       "region": "west",
       "country": "usa",
       "models": [
@@ -191,7 +292,7 @@
     {
       "id": "298c8de07d18",
       "title": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT (Parte II)",
-      "summary": "OpenAI aceleró Habitat usando multitenencia fiable, caché global y Azure Cosmos DB, logrando lecturas 12 veces más rápidas para ChatGPT.",
+      "summary": "OpenAI mejoró Habitat con multitenencia fiable, caché global y Azure Cosmos DB, logrando lecturas 12 veces más rápidas para ChatGPT.",
       "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -223,23 +324,6 @@
       "summary_orig": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
     },
     {
-      "id": "eb3499cdf196",
-      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
-      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-23T05:22:24+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
-      "summary_orig": ""
-    },
-    {
       "id": "15c1f8ef7a58",
       "title": "OpenAI y NASK de Polonia se asocian para promover la seguridad de la IA",
       "summary": "OpenAI y NASK de Polonia se asocian para investigar seguridad y protección de IA, reforzando salvaguardas y un ecosistema digital más resiliente.",
@@ -257,26 +341,9 @@
       "summary_orig": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
     },
     {
-      "id": "d73c3fbf5a8b",
-      "title": "OpenAI trabaja en un nuevo aumento de $ 30 mil millones con una valoración de $ 1.25T antes de la OPI",
-      "summary": "Si OpenAI supera el billón de dólares con esta ronda, romperá el récord de la empresa privada más valiosa jamás.",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T22:08:24+00:00",
-      "title_orig": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "summary_orig": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
-    },
-    {
       "id": "27825e300358",
       "title": "Cree aplicaciones más receptivas con la API de decisiones",
-      "summary": "Decisiones rápidas, precisas y de bajo costo para cualquier aplicación.",
+      "summary": "Decisiones rápidas, precisas y económicas para cualquier aplicación.",
       "sourceUrl": "https://openai.com/index/decisions-api",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -289,74 +356,6 @@
       "published": "2026-10-22T19:00:00+00:00",
       "title_orig": "Build more responsive apps with the Decisions API",
       "summary_orig": "Fast, focused, low-cost decisions for any application."
-    },
-    {
-      "id": "1d8d266cc065",
-      "title": "OpenAI hace que su competidor Jev esté ampliamente disponible a medida que la competencia del modelo de decisión se calienta",
-      "summary": "OpenAI lanza su modelo de decisión al público, buscando competir con el original Jev.",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T19:00:00+00:00",
-      "title_orig": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "summary_orig": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?"
-    },
-    {
-      "id": "e66e9796ba6b",
-      "title": "Más allá de la cobertura arbórea: mapeo de los tipos de bosques del mundo",
-      "summary": "Un mapa global clasifica cada parcela de 10 metros de la Tierra en tipos de bosque distintos.",
-      "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T14:30:24+00:00",
-      "title_orig": "Beyond tree cover: mapping the world’s forest types",
-      "summary_orig": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
-    },
-    {
-      "id": "705684bd819d",
-      "title": "¿Quién suministra datos personalizados a OpenAI?",
-      "summary": "Se incorpora a la cadena de suministro global de IA física.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/504800.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T07:05:59+00:00",
-      "title_orig": "谁在给OpenAI供应具身数据？",
-      "summary_orig": "挤进全球Physical AI核心供应链"
-    },
-    {
-      "id": "63c31ca523f9",
-      "title": "Qué significa FDE en OpenAI",
-      "summary": "Qué significa la ingeniería de despliegue avanzado en OpenAI",
-      "sourceUrl": "https://openai.com/index/forward-deployed-engineering-means",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T06:00:00+00:00",
-      "title_orig": "What FDE means at OpenAI",
-      "summary_orig": "What forward deployed engineering means at OpenAI"
     }
   ]
 }
