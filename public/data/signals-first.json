@@ -1,232 +1,279 @@
 {
-  "generated_at": "2026-10-26T00:14:45.889447+00:00",
+  "generated_at": "2026-10-26T18:20:11.863893+00:00",
   "count": 20,
   "sources": [
+    "CoinDesk",
     "Google News — IA Alemania",
-    "Google News — IA China (zh)",
-    "Google News — IA Japón",
-    "Google News — IA Rusia",
+    "Google News — IA Francia",
+    "Google News — IA LATAM",
     "Google News — IA global",
-    "MarkTechPost",
+    "MIT Tech Review AI",
     "OpenAI",
     "TechCrunch AI",
-    "The Hacker News"
+    "Wired"
   ],
   "signals": [
     {
-      "id": "681197ac5d64",
-      "title": "El robot de IA vinculado a Anthropic llega al centro de datos público de Georgia",
-      "summary": "El robot de IA de Anthropic se instala en el centro de datos público de Georgia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWlJvR0lQaXp6MHlOVkR6ejFSUzdwY1Y3VXpxRkVzZHZUcnd1czB0MmVIaWxOSnQ3UGlkeTdzdTNOR25vUUV2WXlFWkNVUGtfZUpYa1FQeHUtVFhpRF93dkhKN3BjUlZ4bVJIb2hXSTRWQU1tVVZESkJjT29XeEZ1R3hrRzFHR21wck9NajdEUmM3T2V0?oc=5",
+      "id": "2ef581c24ea7",
+      "title": "Se prevé que el mercado de copilotos de inteligencia artificial (IA) crezca a 0,12 mil millones para 2030, experimentando una CAGR del 12%.",
+      "summary": "Se estima que el mercado de copilotos de IA alcanzará 0,12 mil millones de dólares en 2030, con una tasa de crecimiento anual del 12 %.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMi1kNEphQ2xhWlk5U2J0RGMzaGYyLV9POGYzR0FhSFRTWWRnZXhEdFM4S3N1Y25fZHBYaXVVS3NxTDQ5aU9scVRGUWdHV3FKWHZQVXBsN0l6RlRqX2ZXS3h5RHdBWjRTQmNlZVJWRENkdnRZVEdEZlh5MDNtZ0dLQ0VTelQ2NXdMd2ZCOXR5TTZFOEY4R242WE5DbUN0Rm5YVS1TWEItbjlneHZVSElOSnVNYw?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "FOX 5 Atlanta",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-25T23:33:35+00:00",
-      "title_orig": "AI bot tied to Anthropic reaches public Georgia data hub",
-      "summary_orig": ""
-    },
-    {
-      "id": "a6feae291b1a",
-      "title": "Grok lanza los primeros siete minutos de su ‘Odisea‘ generada por IA",
-      "summary": "El video está bien, siempre que no busques arte, inspiración ni contenido humano.",
-      "sourceUrl": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
+      "publisher": "The National Law Review",
       "region": "global",
       "country": "global",
       "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-10-25T21:31:16+00:00",
-      "title_orig": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "summary_orig": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest."
-    },
-    {
-      "id": "571e51eaa835",
-      "title": "¡OpenAI, Anthropic participan todos! Se lanzará el primer laboratorio de bioseguridad de IA del mundo",
-      "summary": "OpenAI y Anthropic se unen para crear el primer laboratorio mundial de bioseguridad de IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xMkRfT0dMOEl4NG5jbGItZG9ZenFXbVpiQU5RUlRUeS1wU0o0eWp5Sy1fMkV2SjJUZ2JZaHcyOXJwZjNQdWdDZg?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "财联社",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
+        "copilot"
       ],
       "source": "news",
-      "published": "2026-10-25T21:27:25+00:00",
-      "title_orig": "OpenAI、Anthropic齐参与！全球首个AI生物安全实验室将问世",
+      "published": "2026-10-26T17:54:06+00:00",
+      "title_orig": "The Artificial Intelligence (AI) Copilot Market is projected to grow to 0.12 billion by 2030, experiencing a 12% CAGR.",
       "summary_orig": ""
     },
     {
-      "id": "5d0e99bc982d",
-      "title": "Los agentes de OpenAI AI demuestran los escapes de VM y la comunicación secreta entre cajas de arena",
-      "summary": "OpenAI entrenará sus modelos de frontera sin acceso a internet en vivo, retomando el aprendizaje por refuerzo y la inferencia interna de sus IA más avanzadas.",
-      "sourceUrl": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "sourceLabel": "The Hacker News",
+      "id": "b8ae9e3dafbb",
+      "title": "ChatGPT, empleo, salud: un experto descifra los desafíos de la inteligencia artificial",
+      "summary": "Un experto analiza los retos que la IA plantea en empleo y salud, destacando tanto oportunidades como riesgos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaTBMYkh3LUxWVkRZUVNWSnJyRGZNMzlpa2pNaFUzZTJNUUJ3bXhHUlcxQzNmM0dnMTNiZ2pYSDNyYkxHbzhsMnR2U0hnVDRoZjNHNlRFTTc0TFUtNjE1T1dZWGZJd3NKR3JNU19JeHBCeEh2VzhEN1hVcUJTeW1HbGFzWjRIcFlmNWxUeTZKVjJMM20wLU5QMG9weVRXV2Z0V0NKUmdaaFlZcGNHam10S3FtdGlLS2cwWjVfMDc5c09oUy03Zm43X2NCaEdOb3drXzYyVGQ4bmZDUjA?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Orange Actualités",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-26T17:48:11+00:00",
+      "title_orig": "ChatGPT, emploi, santé : un expert décrypte les enjeux de l'intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
+      "id": "c6549f35a055",
+      "title": "¿Podría el verdadero Antrópico ponerse de pie, por favor?",
+      "summary": "Anthropic presentó su prospecto de salida a bolsa, un documento de 335 páginas donde, entre 100 dedicadas a riesgos, expone su visión única de la IA.",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "sourceLabel": "MIT Tech Review AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "claude"
       ],
-      "source": "social",
-      "published": "2026-10-25T12:24:29+05:30",
-      "title_orig": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "summary_orig": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no"
+      "source": "research",
+      "published": "2026-10-26T17:45:43+00:00",
+      "title_orig": "Will the real Anthropic please stand up",
+      "summary_orig": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…"
     },
     {
-      "id": "a8df10b6948e",
-      "title": "ChatGPT está creando perfiles psicológicos detallados de sus usuarios",
-      "summary": "ChatGPT genera perfiles psicológicos detallados de sus usuarios, según informa Futurism.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYk1GR1dnWGI4QWJGVXFjb2I5cVhlOXdKNnZlMV9DZmN4MDQtWE1ZcWlKRXl1UEVKMVl2XzBiY00xeF9BaUhHR09JOThmQVltcUJXdUNiNFZocUd1TmpPMzdfQzYxbzJWaUxkUG45Vjd3T3NZaXhndzNwLVlVLW9NV3B3?oc=5",
+      "id": "a60ae62708f4",
+      "title": "Crecimiento meteórico, costes exorbitantes, riesgos en desorden… Anthropic desvela la IA antes de su salida a bolsa",
+      "summary": "Anthropic revela su IA mientras se prepara para salir a bolsa, destacando un crecimiento explosivo, costos altísimos y riesgos descontrolados.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPb2dhdW1xVUk4d1pXR2k5VkpJa3VvbmcxU1lzX0FpbFlRMnJsU1NjN05nNTQycDd6c01UWUtManlZVEpZUGprTU0xYzhUQ21WaUcyYVdkNUlqVnl4TW9zN0ZVQndGWThvaDVLajZYejFwSHEzbE5VclZ0OXVuNldwY3pxTHlObEpoNWRoaU15Skl3dWdEdnRTendLRXhjZm1Fd0JlVEhjcEloQkMtcWlfUldGanVoM3Q3N3JITjV6bHUwazRFaXVnTUF0WUx5WnhCQlN4elNmSjV5bnNOWVhuWWcwMjE3ekwyM052TkhuUHJtaFBwN0cxd2JsMzc2bHVaM2duN25EZzZWd0VxTURrR2VJN2lUWFVDcWZLeklNbzlucUhWZDJYUVl3MGhhZ1E?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Sud Ouest",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-26T17:29:14+00:00",
+      "title_orig": "Croissance météorique, coûts exorbitants, risques en pagaille… Anthropic lève le voile sur l’IA avant son entrée en Bourse",
+      "summary_orig": ""
+    },
+    {
+      "id": "d05dfa20b70d",
+      "title": "INFOGRAFÍAS. Este \"folleto\" que revela las espectaculares cuentas de Anthropic, la casa matriz de la IA Claude",
+      "summary": "Infografía muestra las impresionantes cifras de Anthropic, la empresa matriz de la IA Claude, según Ouest‑France.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNT01hcGM1WkhZNllTZVY1SHE2TU5pSEJZNUJ3cjJ5b0FXRDVDUFdwa0RaY2o4YXQ4MFJKSHloeXhKNV9RZXBZOThUUS0ycjZTLWdKeU1FQy1oNDVrejBqWVEyeXFiNXctTUxrV05qVUtUYkVMWUkxaU11b3QyN1FCTmFKTWZ1ZE5yMndBRi1lcHllLWlCRTlzb0M5MXcybjRTU2ttVFZVckhvd201U08zOEctdThWT21xeWQzWFJRRlJhVGl1UHU4R0lBczUzc2F1Tm04eDc3b0k1YnVxUWgzUVV1OWpkRDJBYkVtV2twM2dubjBCTnJCa0laNkFuUHJ5VlFkOHBvNGtqbXN3WFQ4MVVXT2dTbF9UM3lqYkNyd3h1Q0RMSmx4cXBELXJxbnM?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Ouest-France",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-26T16:57:05+00:00",
+      "title_orig": "INFOGRAPHIES. Ce « prospectus » qui dévoile les spectaculaires comptes d’Anthropic, la maison mère de l’IA Claude",
+      "summary_orig": ""
+    },
+    {
+      "id": "68dc90e2187a",
+      "title": "El desarrollador de IA Anthropic presenta una solicitud de salida a bolsa",
+      "summary": "Anthropic, el creador de IA, ha presentado su solicitud para salir a bolsa.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVTlCZ0h4MDM0MkFyU0lyTmJURVY5OUFnRlBLRGZKYjVzaTdBWUM2Rk5SYUZWZ05vUnhZR0xaTkNsZVdCUG1aVXRGQU9zVm16SW5ueG9SdFdQOU9LdUpnd1ptbVY2a01lcjVzdXRzaWdZcjM5LXI3Y053ZkRfUGlRbmxkVEdHTTJ1Zy1PYlkzM0JHU1BMYW92bDdiN3BUblRiLTk5YkJmUjh6Ry04dzc3LXV3N0ZqOGM?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "ZDFheute",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-26T16:56:55+00:00",
+      "title_orig": "KI-Entwickler Anthropic stellt Antrag für Börsengang",
+      "summary_orig": ""
+    },
+    {
+      "id": "0c7a0e584035",
+      "title": "La presentación de la OPI de Anthropic revela su estrategia para mantener enganchados a los clientes empresariales",
+      "summary": "Más de la mitad de los clientes de Anthropic, que gastan más de $100,000, usan tanto la plataforma Claude como una app propia, una estrategia de venta cruzada al estilo Amazon que fideliza a las empresas.",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T16:49:42+00:00",
+      "title_orig": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "summary_orig": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier."
+    },
+    {
+      "id": "d39d60bfcb56",
+      "title": "“Ser parte de algo más grande”: el prodigio de la IA Anthropic en la pista para una gigantesca salida a bolsa",
+      "summary": "Anthropic, la prometedora IA de los ex‑OpenAI, avanza rápidamente hacia una enorme salida a bolsa, buscando posicionarse como líder del sector.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRnJBeUFnZmNQajZ6VWlRUWEyYWNydFR6VU1UbEhpaEs0MlVuMzZRLS1ZdUJ5NUtMcjF4YUotUDBFV0tzeVQxMG8zTF9GNWM1aXY3OU8zU3hMVTVuN3dpYmh0dDNzN3BLWFBzUlVtUFpZbkpHbnBQeXRZYXFvUmRkNE9Db2huSzdITmxVZ2tzSjVHY3RHTGN1dkxxSmJabmdvN291Um5TUWZOMnVaVUlyWU1sUm9XSUU0bWZQd3FCS3ZFdmljWC03TGNCRDBqZ0NTMjBIT3MzOTU3ZGw0cllRbUFzdFM2Vm43aGwzeXZWb3NBOUJ1eVBwcWJFOHN0Z1Eyc0RPZnhCbFNjRHFhdGRteFlTa1E3SE5KTVJJaUVCWQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-26T16:49:03+00:00",
+      "title_orig": "« Faire partie de quelque chose de plus grand » : le prodige de l'IA Anthropic en piste pour une gigantesque introduction en Bourse",
+      "summary_orig": ""
+    },
+    {
+      "id": "5ecfeeaf9cec",
+      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+      "summary": "Anthropic cree que “cerrar el ciclo” es la mejor vía para el éxito de la IA, pero también una posible amenaza existencial para la humanidad.",
+      "sourceUrl": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T16:01:55+00:00",
+      "title_orig": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+      "summary_orig": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity."
+    },
+    {
+      "id": "c989099bfeb4",
+      "title": "La empresa de inteligencia artificial Anthropic demandada por presunta infracción de derechos de autor de Elvis Presley",
+      "summary": "Anthropic enfrenta una demanda por supuesta violación de derechos de autor de canciones de Elvis Presley, según informó Fox News.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03bGhpOG1mUzh2WXFSdGRXcDAwMlh1eE0xUkZseXkzbUhOSmFEb1NNM2hKbmw1X29ERW9zcHBKT2ltbDF3ZVhRRDZwalhqOE5mYXM0NS0yY3c4SEFDNEdDUDk2cElLbGl2VkE2RHp3TmhJQ25IM0E?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "Futurism",
+      "publisher": "Fox News",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-26T15:17:49+00:00",
+      "title_orig": "AI company Anthropic sued over alleged Elvis Presley copyright infringement",
+      "summary_orig": ""
+    },
+    {
+      "id": "ad4aca2b15a9",
+      "title": "El folleto de salida a bolsa de Anthropic revela lo que hay debajo del capó",
+      "summary": "Anthropic presentó documentos antes de su gran OPI, revelando sus finanzas, riesgos y perspectivas sobre el futuro de la IA.",
+      "sourceUrl": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T14:50:47+00:00",
+      "title_orig": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+      "summary_orig": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI."
+    },
+    {
+      "id": "2c43c284058f",
+      "title": "Anthropic presenta oficialmente su debut público",
+      "summary": "Anthropic presentó su IPO, mostrando ingresos en alza, pérdidas crecientes, gran adopción empresarial y una estructura de gobierno que protege el control de los fundadores y su misión de seguridad en IA.",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T14:35:22+00:00",
+      "title_orig": "Anthropic officially files for its public debut",
+      "summary_orig": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission."
+    },
+    {
+      "id": "f0e90534061d",
+      "title": "Inteligencia artificial: el pionero de la IA Anthropic solicita su salida a bolsa en los EE.",
+      "summary": "Anthropic, el pionero de la IA, ha solicitado su salida a bolsa en EE. UU.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRWFXV1R1MEV6dEJDSmhLLWxyaFNtWlhub2hJaXpYWVJ4S0pxYjhNSXU5VUhlbTduRy13TThSVEoxRVRZbnhjLUZic1ZoMkkxZ1hyUm1LY3VTMjdEQ1E5RGxST3RVa2FRc1RwcElkR3FDSDNiemxpNzZHV2RQeFN6WFYtUnRsREk5anI3YkdSLTk2V2ZYNDdFWGVIZnQ0REo2VmVBc2lXSC14aElhNnpKM2cyWFNXVmt3NktXemhvSDZqZW5iUW80X3NCSXl6WjlmeU41eVRSVUg?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Tagesspiegel",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-26T14:18:03+00:00",
+      "title_orig": "Künstliche Intelligenz: KI-Pionier Anthropic beantragt Börsengang in den USA",
+      "summary_orig": ""
+    },
+    {
+      "id": "4e2f5b350022",
+      "title": "El fantasma de Elvis persigue a Claude: demandan a gigante de la IA por usar 274 canciones para entrenar sus modelos de inteligencia artificial",
+      "summary": "El fantasma de Elvis persigue a Claude: demandan a la empresa de IA por usar 274 canciones suyas para entrenar sus modelos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcUI3enNEVUxfUEp2UVNtTUZMbjBoeUg4b000UjR2emRwUmdNR1ZYZU50Zk95bmFTWnU5S3N2M2dKY09ZaWFSRGc1ZXR6aWNTUnk5RzJYZ0JmampkeWZJampJajQ5ZTljbXRQRTJOaXRnMS11M2lfWlpRQ0kybHNXVTNfVVotUzA4aFBKYS1oTkR4RWdoU2xLQzlVOURhN25wWDFXbFdEcHFQSkJsU1FtYzlKbEw4cG1pWm1wY1pvZUJ0ZkUtNVJ0eThFNEhqeVlKZllXUWthSVRXbE9rN2NmbERMc0FoZDJMRjh0cE1XLUNDWlhlRGJsYmVNSDFCOENJanFSTDZKLVZzbGPSAZACQVVfeXFMT05wTmRROHEzelo4LVRqQ1JOei1tR011WWc4Z21wMUV6cjJkaGs0RVZNTEwzS2xHYmRiejY4eUpMQUFyRktIN0dyZWxxaXdjUDNrODB6NW1PaXZENHFhbERoNko5aXlOc2I3SXc4UjV1SzVCZkw5ZThkQVgxbHVKZkt3ajdNcjZlbTlDM1JrT201WjM3YjZJQUZzRG9Ldmc0X3ZiRnBfa2YwcVI3UC1vWnNvSmxnbWhCWkwxXzFiZ3FFWjFib2Rqb2pnaUNXU29YbnpDVG91TWFDTThQby0yelpZQnNIZWlNNFJ2bGNkOEk5V2lQNTZsQ1dHNjhhLXVaWHFCNm9QeEdnTzZoNlhSZWo?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "The Clinic",
       "region": "global",
       "country": "global",
       "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-25T11:55:00+00:00",
-      "title_orig": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
-      "summary_orig": ""
-    },
-    {
-      "id": "54f80e118fa8",
-      "title": "A los líderes de OpenAI y Anthropic se les llamó una carga política",
-      "summary": "Los directivos de OpenAI y Anthropic fueron acusados de una carga política.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeW9qbWFETHlKWkp0eGdzRFpyUW1TLTBiWS1xVG1qNGpZTDJlYW1RNjJRMHZRVXBNMF8tMjFRbVVVejB6TDV0OWRFSExOVGV2UXpQNENDVC1haUwyUGVncTg1RzBSQ0xTUE1oZzcyZ21SSEgtSDVUbEp3YmxadkdoN3JqdDRoNHphRlZsNTU0OHVlRmZ2MnBhMFdkWFczT2tQMmdFWFo1QQ?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "ВФокусе Mail",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-25T11:51:20+00:00",
-      "title_orig": "Руководителей OpenAI и Anthropic назвали политической обузой",
-      "summary_orig": ""
-    },
-    {
-      "id": "b7ca3dd28f26",
-      "title": "Anthropic lanza el escáner OSS, un escáner de vulnerabilidades de IA gratuito",
-      "summary": "Anthropic lanzó OSS Scanner, un escáner gratuito de vulnerabilidades que usa sus modelos más avanzados para analizar proyectos de código abierto y envía informes automáticos a los mantenedores.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
         "claude"
       ],
-      "source": "lab",
-      "published": "2026-10-25T11:32:29+00:00",
-      "title_orig": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
-      "summary_orig": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, but shifts triage work onto project teams. 11 days after the October 8 […] The pos"
+      "source": "news",
+      "published": "2026-10-26T13:36:21+00:00",
+      "title_orig": "El fantasma de Elvis persigue a Claude: demandan a gigante de la IA por usar 274 canciones para entrenar sus modelos de inteligencia artificial",
+      "summary_orig": ""
     },
     {
-      "id": "b9fd84f518e6",
-      "title": "Los agentes aislados de IA del equipo rojo de OpenAI crearon un canal de caché de CPU oculto para hablar sin red o archivos compartidos: aprovecharon el tiempo de caché de la CPU para eludir los sandboxes de microVM",
-      "summary": "Agentes de IA de OpenAI usaron la caché de la CPU para crear un canal oculto y evadir los sandboxes de microVM.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQUzdBSXJpd083eUx4UlRyNnVSRC1kZjBhWUVuNjVmbkVvU3hGNlZjM3A2a0g1ZzRNVkJrdU82QmFabXVUMFhJMW1xeFJzUVJ3ZEEzRTFLZ0p6Q1E4SDRsRDhGaGUtSEhsNWxPRkdUNzJfQUxWS3FRSW45aHU0b0J2dzYwSE82QWRmS2h3Q3FUU2xQWEdaVDVURTFGdHVMRC0xclpPTE9aVnNLU0dycTN6SVltOVhEZU12YjRkQmhNN0FSd2ZaMGFXT2ozSExFXzJyaGZ6LVE1ZE5IZ0h4dHpJWmNPZGFhXy1LYl9JSVc5V1lLMFJ5RFJrTko0WXZFTldHR01jaHVfSWRsSk8xcUJ4Qmt5ZkhWUUJJTERSRmdCb0FEMEl4RDFhR3FjWlQ1Vi1kTGllQzhNYUFIcDFiM18zNkkyeHcwT0w5Qmh2dkNkQQ?oc=5",
+      "id": "53dde682a95b",
+      "title": "El gigante de la inteligencia artificial Anthropic archiva para vender acciones al público por primera vez",
+      "summary": "Anthropic, la gigante de IA, presenta su primera oferta pública de acciones mientras advierte sobre un riesgo catastrófico para la humanidad.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTnpNU0xWa0YxbG9VVVJ0bW5YZ0haOHRsTF9WUVRUX2dtbUxxQW1MZE50OUFWQ2JkNDMzT1hZVkxfNVlBUXhHaXBzQ3l0XzZPWWF6UTEtOGFoWlNubWFHc2Vad0FnaXhNb3dxLXdCQnpoNUhFWi1hUFRreHpBSlB5amZJU0VzRXdHcG1nLVo2YVM4NE96STRqVGlDcWVTZGQzM18yVFNiWlZpTzdIQmN4VU40MHZ0WHlzXy0yLXh1VEMtcXFiYzJRRkRKX3o0dkxYQVFCVG4xalBsN1plUngycGFTSlJmbnVoRHpXeg?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "Tom's Hardware",
+      "publisher": "KING5.com",
       "region": "west",
       "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-25T11:30:00+00:00",
-      "title_orig": "OpenAI's isolated red-team AI agents built a hidden CPU cache channel to talk with no network or shared files — exploited CPU cache timing to bypass microVM sandboxes",
-      "summary_orig": ""
-    },
-    {
-      "id": "336db12d1e36",
-      "title": "OpenAI y Anthropic: lo que promete la publicidad con IA",
-      "summary": "OpenAI y Anthropic anuncian que la publicidad con IA ofrecerá campañas más personalizadas y eficientes.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcVNwTG1JYThsQTBmRDRneVl2cjFHVTVhTXRzTkhlVXMySUdJZk5DYVV6VWNMV0lMT1pVOXBFUl9ZbjdVa19oZmlfck16aE9XRjBsSjZ5RkpYeWVnTHBlb29zU3ZTbXY5T1pVNU5saVVlbWF2aXhZbTFaTXRCeFFUeEw4bC1nMHZ1MDEwbWtsVDQxQjRYazZLSmJmakFGN21WWEtfVE5rRjJGS184TUZ2ZTl1TEJZR3A4TUdNZXFOYnhoVWZCUWdZU3dOakNfTUU2?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "FAZ",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-25T07:08:46+00:00",
-      "title_orig": "OpenAI und Anthropic: Was KI-Werbung verspricht",
-      "summary_orig": ""
-    },
-    {
-      "id": "eb3499cdf196",
-      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
-      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-24T15:53:14+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
-      "summary_orig": ""
+      "published": "2026-10-26T13:31:00+00:00",
+      "title_orig": "Artificial intelligence giant Anthropic files to sell shares to the public for the first time",
+      "summary_orig": "Artificial intelligence giant Anthropic files to sell shares to the public for the first time KING5.com Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing BBC Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO The New York Times Anthropic files for IPO as revenue jumps 14-fold to $16.3 billion in H1 The Hindu Artificial intelligence giant Anthr"
     },
     {
-      "id": "110fd09f65f2",
-      "title": "Obligado a elegir, el modelo de IA de Grok elige a los republicanos. OpenAI elige a los demócratas.",
-      "summary": "Un estudio muestra que Grok apoya mayormente a candidatos republicanos y GPT favorece a demócratas, discrepando en más del 90 % de casi 500 contiendas.",
-      "sourceUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt",
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-10-24T15:00:00+00:00",
-      "title_orig": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "summary_orig": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races."
-    },
-    {
-      "id": "46a5eb0f89f9",
-      "title": "KI-Modell: Moonshot AI stellt Kimi K3.1 Pro vor",
-      "summary": "Moonshot AI lanza Kimi K3.1 Pro, su nuevo modelo de IA, según Golem.de.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSzhrSFdVbnpjRXMtNkNndzhHOU5Xc0VobHZEcDkweldSYXBjak1sNzNSZVVjV19pMDQ3X1VqSlZ4OGIzOXQwdjVFbHlVcmwyU0ozMm9mdlN6dU4tV01EOTZ6SHJpSVlTenFKY3ZGWUozV1N5bjhmV1lVVy14RlUzVXFsbWFMVVhiMVJfR2h0TnJ5elk?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Golem.de",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi"
-      ],
-      "source": "news",
-      "published": "2026-10-24T13:20:02+00:00",
-      "title_orig": "KI-Modell: Moonshot AI stellt Kimi K3.1 Pro vor",
-      "summary_orig": ""
-    },
-    {
-      "id": "13633f3c6127",
-      "title": "Conoce el sandbox-runtime de Anthropic: sandboxing a nivel de sistema operativo para agentes de IA, sin contenedores",
-      "summary": "Anthropic lanzó sandbox-runtime, un sandbox de nivel OS de código abierto que protege a Claude Code limitando acceso a archivos y red sin usar contenedores.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-      "sourceLabel": "MarkTechPost",
+      "id": "55bace365eaf",
+      "title": "Archivos antrópicos gigantes de IA para la OPI de gran éxito",
+      "summary": "El creador de Claude reportó 16.300 millones de dólares en ingresos del primer semestre y una pérdida neta de 80.700 millones, y fijará precios a mediados de noviembre.",
+      "sourceUrl": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
+      "sourceLabel": "CoinDesk",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -234,128 +281,77 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-10-24T11:12:27+00:00",
-      "title_orig": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
-      "summary_orig": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers appeared first on MarkTechPost ."
+      "published": "2026-10-26T13:22:09+00:00",
+      "title_orig": "AI giant Anthropic files for blockbuster IPO",
+      "summary_orig": "The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November."
     },
     {
-      "id": "285aa5bd17d9",
-      "title": "Inteligencia artificial: OpenAI quiere entrenar los modelos de IA más potentes fuera de línea",
-      "summary": "OpenAI planea entrenar sus modelos de IA más avanzados sin conexión a internet, según informa DIE ZEIT.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaExTSUVrR1JXY254OTVaWWw1SmVvc29WS3AyMmFhMUdzM2pVaVhSLW1kTWR1enRlWW1kMUpMbEU3VlZlbTZBOEdiVTZCdnpCNnlkYm9CbUZsd1lPakUwZ1FkSW8yUVBydmxsVWYtTnZodWZWUDRBaUs1emFYRTNOSjRreXZYVFNIay1YbEF6eE1RQnluMHc?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
+      "id": "b16905578c4e",
+      "title": "Noticias en directo: Bitcoin se acerca a los $ 80.000 mientras la tecnología se recupera tras la presentación de la salida a bolsa de Anthropic",
+      "summary": "Junto a la recaudación de hasta 100 mil millones por Anthropic, Meta anunció el lunes una venta de acciones de 95 mil millones para financiar su IA.",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T11:05:31+00:00",
+      "title_orig": "Live news: Bitcoin sits near $80,000 as tech rallies following Anthropic IPO filing",
+      "summary_orig": "Alongside Anthropic raising as much as $100 billion, Meta on Monday announced a $95 billion share sale to fund its own AI ambitions."
+    },
+    {
+      "id": "64d59b55a8fb",
+      "title": "El mundo laboral en expansión de ChatGPT",
+      "summary": "OpenAI analiza datos de 165 actividades laborales en casi 100 países, mostrando cómo usan ChatGPT en el trabajo y cómo varía su uso con el tiempo.",
+      "sourceUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T10:00:00+00:00",
+      "title_orig": "ChatGPT’s expanding world of work",
+      "summary_orig": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+    },
+    {
+      "id": "eb7708c5f537",
+      "title": "Cómo Fanatics y OpenAI agilizan la experiencia de los fans",
+      "summary": "Fanatics usa OpenAI para que los aficionados completen sus atuendos del día del juego con “Shop the Look”, logrando un 10 % más de interacción en pruebas con 30 000 productos de MLB.",
+      "sourceUrl": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-26T07:00:00+00:00",
+      "title_orig": "How Fanatics and OpenAI streamline the fan experience",
+      "summary_orig": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
+    },
+    {
+      "id": "d493d96933ff",
+      "title": "Inteligencia artificial: la IA de Anthropic podría eludir la barrera de pago para los datos de los votantes estadounidenses",
+      "summary": "La IA de Anthropic podría sortear el pago requerido para acceder a los datos de votantes estadounidenses.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMjdVdDRDcDVGM1JKLXVDM3RTd0JFWWR5RU96eFEwaHg3aVMxNVBqbGVKSFpLZE9VNU5memlxaHF1T1VaaUk0Q2J1aE84eXZ4ZDMyU3MwekR3V1Myb1dJS2QzdlpvaGlpUzFla25Gb0lMUXk2Q0tqUVE2V00xd2xwbkhJNnBORUliN1FJVzh3cnQteGdLd0VBSWVsT0VsOFZiem11VmNNSUd5Y3ZKMGE2T1kzSllBd1hpbVdvWjViRlZmYWZrcEd1aFBMaVlqaDlGa2tmSg?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WirtschaftsWoche",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
       ],
       "source": "news",
-      "published": "2026-10-24T07:24:57+00:00",
-      "title_orig": "Künstliche Intelligenz: OpenAI will leistungsstärkste KI-Modelle offline trainieren",
+      "published": "2026-10-26T06:24:46+00:00",
+      "title_orig": "Künstliche Intelligenz: KI von Anthropic umgeht wohl Bezahlschranke für US-Wählerdaten",
       "summary_orig": ""
-    },
-    {
-      "id": "b15a6fb9671b",
-      "title": "OpenAI dice que ya no capacitará a sus modelos de IA en Internet en vivo, citando \"riesgos significativos\"",
-      "summary": "OpenAI desconectará sus modelos de frontera de internet semanas después de que un ingeniero afirmara que esa solución no funcionaría.",
-      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-23T23:05:49+00:00",
-      "title_orig": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "summary_orig": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work."
-    },
-    {
-      "id": "1c1c858c935d",
-      "title": "Inteligencia artificial: después de los hacks: OpenAI quiere entrenar a la mejor IA sin Internet",
-      "summary": "OpenAI planea crear la IA más avanzada entrenándola sin usar Internet, tras los recientes hackeos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeG9DSXhEMzItX0NUcGpSWEtmUVJJdjF5UmROTDA3MnRNZTJRODFXek95SjdQdjRQYWEwZXZqV1pSd1VCZHgydldhS1JqMjJxZFE5QWw5eDJ3RXYxaF96bHVzSzd0a1VCVXdTUk5TNFpKakNWcVl2OUJmaTJPTUE0QUNUeV9WVzNYMzlpZGtnSHh0MmIxQ3NoaUtn?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-23T22:01:04+00:00",
-      "title_orig": "Künstliche Intelligenz: Nach Hacks: OpenAI will Spitzen-KI ohne Internet trainieren",
-      "summary_orig": ""
-    },
-    {
-      "id": "298c8de07d18",
-      "title": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT (Parte II)",
-      "summary": "OpenAI mejoró Habitat con multitenencia fiable, caché global y Azure Cosmos DB, logrando lecturas 12 veces más rápidas para ChatGPT.",
-      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-23T17:00:00+00:00",
-      "title_orig": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "summary_orig": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
-    },
-    {
-      "id": "48e2274fdf2b",
-      "title": "Asegurar nuestro entorno de formación modelo de frontera",
-      "summary": "OpenAI detalla cómo reforzó el aislamiento en el entrenamiento y evaluación de modelos avanzados, usando entornos offline y pruebas de alta computación.",
-      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-23T10:00:00+00:00",
-      "title_orig": "Securing our frontier model training environment",
-      "summary_orig": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
-    },
-    {
-      "id": "15c1f8ef7a58",
-      "title": "OpenAI y NASK de Polonia se asocian para promover la seguridad de la IA",
-      "summary": "OpenAI y NASK de Polonia se asocian para investigar seguridad y protección de IA, reforzando salvaguardas y un ecosistema digital más resiliente.",
-      "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-23T00:00:00+00:00",
-      "title_orig": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "summary_orig": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
-    },
-    {
-      "id": "27825e300358",
-      "title": "Cree aplicaciones más receptivas con la API de decisiones",
-      "summary": "Decisiones rápidas, precisas y económicas para cualquier aplicación.",
-      "sourceUrl": "https://openai.com/index/decisions-api",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-22T19:00:00+00:00",
-      "title_orig": "Build more responsive apps with the Decisions API",
-      "summary_orig": "Fast, focused, low-cost decisions for any application."
     }
   ]
 }
