@@ -1,0 +1,252 @@
+{
+ "generado": "2026-10-25T19:52:29",
+ "total_feeds": 34,
+ "ok": 28,
+ "vacios": 3,
+ "rotos": 3,
+ "feeds": [
+  {
+   "nombre": "OpenAI",
+   "url": "https://openai.com/news/rss.xml",
+   "items": 1318,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Google AI",
+   "url": "https://blog.google/technology/ai/rss/",
+   "items": 20,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "DeepMind",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "items": 100,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "NVIDIA Blog",
+   "url": "https://blogs.nvidia.com/feed/",
+   "items": 18,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Microsoft Research",
+   "url": "https://www.microsoft.com/en-us/research/feed/",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "MarkTechPost",
+   "url": "https://www.marktechpost.com/feed/",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "BAIR Berkeley",
+   "url": "https://bair.berkeley.edu/blog/feed.xml",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Google Developers",
+   "url": "https://developers.googleblog.com/feeds/posts/default",
+   "items": 20,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Hugging Face",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "items": 890,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "TechCrunch AI",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "items": 20,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "The Verge AI",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "MIT Tech Review AI",
+   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Ars Technica AI",
+   "url": "https://arstechnica.com/ai/feed/",
+   "items": 20,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Synced",
+   "url": "https://syncedreview.com/feed/",
+   "items": 0,
+   "estado": "error",
+   "detalle": "sin respuesta"
+  },
+  {
+   "nombre": "QbitAI",
+   "url": "https://www.qbitai.com/feed",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "SCMP Business",
+   "url": "https://www.scmp.com/rss/92/feed",
+   "items": 50,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "arXiv cs.AI",
+   "url": "https://rss.arxiv.org/rss/cs.AI",
+   "items": 0,
+   "estado": "vacio",
+   "detalle": "0 items"
+  },
+  {
+   "nombre": "arXiv cs.CL",
+   "url": "https://rss.arxiv.org/rss/cs.CL",
+   "items": 0,
+   "estado": "vacio",
+   "detalle": "0 items"
+  },
+  {
+   "nombre": "The Verge",
+   "url": "https://www.theverge.com/rss/index.xml",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Wired",
+   "url": "https://www.wired.com/feed/rss",
+   "items": 50,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "ScienceDaily AI",
+   "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+   "items": 60,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "ScienceDaily Biotech",
+   "url": "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml",
+   "items": 60,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Nature Biotech",
+   "url": "https://www.nature.com/nbt/rss/current",
+   "items": 8,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "CoinDesk",
+   "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+   "items": 25,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Cointelegraph",
+   "url": "https://cointelegraph.com/rss",
+   "items": 30,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "The Hacker News",
+   "url": "https://feeds.feedburner.com/TheHackersNews",
+   "items": 50,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Schneier on Security",
+   "url": "https://www.schneier.com/feed/atom/",
+   "items": 0,
+   "estado": "error",
+   "detalle": "sin respuesta"
+  },
+  {
+   "nombre": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/feed/",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/feed/",
+   "items": 15,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "SecurityWeek",
+   "url": "https://www.securityweek.com/feed/",
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "Dark Reading",
+   "url": "https://www.darkreading.com/rss.xml",
+   "items": 50,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "CISA Advisories",
+   "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+   "items": 0,
+   "estado": "error",
+   "detalle": "sin respuesta"
+  },
+  {
+   "nombre": "Google Security Blog",
+   "url": "https://security.googleblog.com/feeds/posts/default",
+   "items": 25,
+   "estado": "ok",
+   "detalle": ""
+  },
+  {
+   "nombre": "AI News",
+   "url": "https://www.artificialintelligence-news.com/feed/",
+   "items": 0,
+   "estado": "vacio",
+   "detalle": "0 items"
+  }
+ ],
+ "ranking": {
+  "estado": "ok",
+  "total": 60,
+  "actualizado": "2026-10-25T19:50:41"
+ }
+}
