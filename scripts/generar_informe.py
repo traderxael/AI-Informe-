@@ -272,6 +272,17 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
 }
 
 SSL_CONTEXT = ssl.create_default_context()
+SSL_CONTEXT_TLS12 = ssl.create_default_context()
+SSL_CONTEXT_TLS12.maximum_version = ssl.TLSVersion.TLSv1_2
+
+
+def _decode_body(raw: bytes) -> bytes:
+    if raw[:2] == b"\x1f\x8b":  # magic gzip
+        try:
+            return gzip.decompress(raw)
+        except OSError:
+            return b""  # cuerpo gzip corrupto: tratalo como fallo blando
+    return raw
 
 
 def fetch_url(url: str, timeout: int = 20, retries: int = 2, backoff: float = 2.0) -> bytes | None:
@@ -281,6 +292,10 @@ def fetch_url(url: str, timeout: int = 20, retries: int = 2, backoff: float = 2.
     Además descomprime gzip: algunos servidores (DeepMind) responden
     Content-Encoding: gzip según el cliente, y parse_feed() solo entiende XML
     plano — sin esto el feed devolvía 0 items y se perdían en silencio.
+
+    Algunos WAF (Synced, Schneier, CISA) bloquean el fingerprint TLS 1.3 de
+    urllib con 403 aunque el mismo feed responda por TLS 1.2: tras un 403 se
+    reintenta una sola vez con ese contexto.
     """
     req = urllib.request.Request(
         url,
@@ -293,13 +308,16 @@ def fetch_url(url: str, timeout: int = 20, retries: int = 2, backoff: float = 2.
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
-                raw = resp.read()
-                if raw[:2] == b"\x1f\x8b":  # magic gzip
-                    try:
-                        raw = gzip.decompress(raw)
-                    except OSError:
-                        raw = b""  # cuerpo gzip corrupto: tratalo como fallo blando
-                return raw
+                return _decode_body(resp.read())
+        except urllib.error.HTTPError as exc:
+            if exc.code == 403:
+                try:
+                    with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT_TLS12) as resp:
+                        return _decode_body(resp.read())
+                except (urllib.error.URLError, TimeoutError, OSError):
+                    return None
+            if attempt < retries:
+                time.sleep(backoff * (attempt + 1))
         except (urllib.error.URLError, TimeoutError, OSError, gzip.BadGzipFile):
             if attempt < retries:
                 time.sleep(backoff * (attempt + 1))
@@ -416,7 +434,12 @@ def _keyword_hay(blob: str, word: str) -> bool:
     return bool(re.search(rf"\b{re.escape(word)}\b", blob))
 
 
-def classify(title: str, summary: str) -> str:
+def classify(title: str, summary: str, source: str = "") -> str:
+    # Los abstracts de arXiv disparan keywords de economia/usos/seguridad
+    # ("acquisition", "education", "safety"...); un paper es novedad por
+    # definicion, sin importar el vocabulario del abstract.
+    if source.strip().lower().startswith("arxiv"):
+        return "novedades"
     blob = _norm(f"{title} {summary}")
     scores = {section: 0 for section in SECTIONS}
     for section, words in KEYWORDS.items():
@@ -501,7 +524,6 @@ RELEVANCIA_WEIGHTS = {
     "VentureBeat AI": 1.2, "Hugging Face": 1.2,
     "Synced": 1.1, "QbitAI": 1.1, "36Kr AI": 1.0, "DeepSeek": 1.4,
     "The Verge": 1.2, "Wired": 1.2, "Hacker News": 1.1,
-    "AI News": 1.3,  # medio editorial de noticias IA: mismo tier que TechCrunch/The Verge AI
 }
 DEFAULT_WEIGHT = 1.0
 RECENCY_DECAY_HOURS = 36.0  # la recencia decae a ~1/e en 36h
@@ -565,7 +587,7 @@ AI_NATIVE_SOURCES = frozenset({
     "OpenAI", "Google AI", "DeepMind", "Anthropic", "Meta AI", "MIT Tech Review AI",
     "TechCrunch AI", "The Verge AI", "Ars Technica AI", "VentureBeat AI", "Hugging Face",
     "Synced", "QbitAI", "DeepSeek", "36Kr AI", "BAAI", "Google Developers",
-    "Microsoft Research", "NVIDIA Blog", "MarkTechPost", "AI News",
+    "Microsoft Research", "NVIDIA Blog", "MarkTechPost",
     "BAIR Berkeley", "NVIDIA Developer", "Mistral AI", "Stability AI",
     # arXiv por categoria: cs.AI y cs.CL son IA por definicion, pero sus
     # titulares usan vocabulario academico que AI_SIGNAL no cubre ("Which
@@ -692,7 +714,7 @@ def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -
                 continue
             seen.add(key)
             item["source"] = source
-            item["section"] = classify(item["title"], item.get("summary") or "")
+            item["section"] = classify(item["title"], item.get("summary") or "", item["source"])
             item["country"] = classify_country(item["title"], source)
             collected.append(item)
 

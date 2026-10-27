@@ -2,8 +2,12 @@
 """Tests locales del pipeline (sin red)."""
 from __future__ import annotations
 
+import gzip
+import io
+import ssl
 import tempfile
 import unittest
+import urllib.error
 from datetime import date, datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
@@ -88,6 +92,77 @@ class ClassifyTests(unittest.TestCase):
         self.assertFalse(cs.is_junk_title("OpenAI launches GPT-6 Astra"))
 
 
+class ResearchSourceTests(unittest.TestCase):
+    def test_arxiv_no_cae_en_economia(self) -> None:
+        self.assertEqual(
+            gi.classify(
+                "X-pressing Intimacy: Mental Health Disclosure After Twitter Acquisition",
+                "arXiv:2610.30413v1 Announce Type: cross Abstract: acquisition cost",
+                "arXiv cs.CL",
+            ),
+            "novedades",
+        )
+
+    def test_arxiv_no_cae_en_usos(self) -> None:
+        self.assertEqual(
+            gi.classify(
+                "Artificial intelligence is creating a new global linguistic hierarchy",
+                "Abstract: education healthcare university enterprise deployment",
+                "arXiv cs.CL",
+            ),
+            "novedades",
+        )
+
+    def test_arxiv_no_cae_en_futuro(self) -> None:
+        self.assertEqual(
+            gi.classify(
+                "UniGuard: Safety Generalization for Language Models",
+                "Abstract: safety policy future governance",
+                "arXiv cs.CL",
+            ),
+            "novedades",
+        )
+
+    def test_arxiv_no_cae_en_seguridad(self) -> None:
+        self.assertEqual(
+            gi.classify(
+                "Rubric Dropout: Reward Hacking in RLHF",
+                "Abstract: attacks hacking compromise backdoor",
+                "arXiv cs.CL",
+            ),
+            "novedades",
+        )
+
+    def test_noticia_de_economia_sigue_clasificando(self) -> None:
+        self.assertEqual(
+            gi.classify("xAI raises $150M for Grok infrastructure", "", "TechCrunch AI"),
+            "economia",
+        )
+
+    def test_classify_sin_fuente_mantiene_compatibilidad(self) -> None:
+        self.assertEqual(
+            gi.classify("OpenAI launches GPT-6 with a new API", ""),
+            "novedades",
+        )
+
+    def test_collect_items_pasa_la_fuente(self) -> None:
+        rss = (
+            b'<?xml version="1.0"?><rss version="2.0"><channel><item>'
+            b"<title>OpenAI launches GPT-6 with a new API</title>"
+            b"<link>https://example.test/paper</link>"
+            b"<description>Abstract: a new model</description>"
+            b"</item></channel></rss>"
+        )
+        with (
+            patch.object(gi, "FEEDS", [("arXiv cs.CL", "https://example.test/rss")]),
+            patch.object(gi, "fetch_url", return_value=rss),
+            patch.object(gi, "classify", return_value="novedades") as clf,
+        ):
+            items = gi.collect_items(date.today())
+        self.assertEqual(len(items), 1)
+        self.assertEqual(clf.call_args.args[2], "arXiv cs.CL")
+
+
 class CountryBoundaryTests(unittest.TestCase):
     """Regression: palabras cortas de usa_words (ap, yi, sec, amd) matcheaban
     como substring dentro de "capable", "happens", "graph" -> pais equivocado."""
@@ -120,6 +195,39 @@ class GzipFeedTests(unittest.TestCase):
         self.assertEqual(len(gi.parse_feed(_gz.decompress(crudo))), 1)  # descomprimido: 1 item
 
 
+class FetchTlsFallbackTests(unittest.TestCase):
+    XML = b"<?xml version='1.0'?><rss><channel><title>x</title></channel></rss>"
+
+    def _forbidden(self, url: str) -> urllib.error.HTTPError:
+        return urllib.error.HTTPError(url, 403, "Forbidden", None, None)
+
+    def test_403_reintenta_con_tls12(self) -> None:
+        with patch.object(
+            gi.urllib.request,
+            "urlopen",
+            side_effect=[self._forbidden("https://x"), io.BytesIO(self.XML)],
+        ) as mock:
+            self.assertEqual(gi.fetch_url("https://x", retries=0), self.XML)
+        self.assertEqual(mock.call_count, 2)
+        self.assertIs(mock.call_args_list[0].kwargs["context"], gi.SSL_CONTEXT)
+        self.assertIs(mock.call_args_list[1].kwargs["context"], gi.SSL_CONTEXT_TLS12)
+        self.assertEqual(
+            gi.SSL_CONTEXT_TLS12.maximum_version, ssl.TLSVersion.TLSv1_2
+        )
+
+    def test_403_dos_veces_devuelve_none(self) -> None:
+        with patch.object(
+            gi.urllib.request,
+            "urlopen",
+            side_effect=[self._forbidden("https://x"), self._forbidden("https://x")],
+        ) as mock:
+            self.assertIsNone(gi.fetch_url("https://x", retries=0))
+        self.assertEqual(mock.call_count, 2)
+
+    def test_decode_body_gzip(self) -> None:
+        self.assertEqual(gi._decode_body(gzip.compress(self.XML)), self.XML)
+
+
 class SourceKindTests(unittest.TestCase):
     def test_google_news_es_news(self) -> None:
         self.assertEqual(cs.source_kind(["claude"], "Google News — IA global"), "news")
@@ -129,8 +237,14 @@ class SourceKindTests(unittest.TestCase):
             "AI Revolution",
             {name for name, _url in gi.FEEDS},
         )
-        self.assertIn("AI News", gi.AI_NATIVE_SOURCES)
-        self.assertEqual(gi.RELEVANCIA_WEIGHTS["AI News"], 1.3)
+
+    def test_ai_news_feed_muerto_no_esta_registrado(self) -> None:
+        self.assertNotIn("AI News", {name for name, _url in gi.FEEDS})
+        self.assertNotIn(
+            "artificialintelligence-news.com",
+            " ".join(url for _name, url in gi.FEEDS),
+        )
+        self.assertNotIn("AI News", gi.AI_NATIVE_SOURCES)
 
     def test_hn_es_social(self) -> None:
         self.assertEqual(cs.source_kind([], "Hacker News"), "social")
@@ -638,6 +752,8 @@ class FeedHealthTests(unittest.TestCase):
             resultado = fh.probar_feed("x", "https://example.test/feed")
         self.assertEqual(resultado["estado"], "vacio")
         self.assertEqual(resultado["items"], 0)
+        self.assertIn("0 items", resultado["detalle"])
+        self.assertIn("B)", resultado["detalle"])
 
     def test_probar_feed_sin_respuesta_es_error(self) -> None:
         with patch.object(fh.gi, "fetch_url", return_value=None):

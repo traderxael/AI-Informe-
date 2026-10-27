@@ -31,7 +31,11 @@ def probar_feed(nombre: str, url: str) -> dict:
     except Exception as exc:
         return {**base, "detalle": f"parse: {exc}"[:160]}
     if not items:
-        return {**base, "estado": "vacio", "detalle": "0 items"}
+        return {
+            **base,
+            "estado": "vacio",
+            "detalle": f"0 items ({len(raw)} B): {raw[:60]!r}"[:160],
+        }
     return {**base, "items": len(items), "estado": "ok"}
 
 

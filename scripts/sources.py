@@ -61,9 +61,8 @@ FEEDS = [
     ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
     ("Google Security Blog", "https://security.googleblog.com/feeds/posts/default"),
     # --- RSS editorial ---
-    # El feed Atom de YouTube del antiguo "AI Revolution" devuelve 404.
-    # Reemplazo verificado con el parser real del pipeline: 12 items.
-    ("AI News", "https://www.artificialintelligence-news.com/feed/"),
+    # AI News retiro su RSS en oct-2026: /feed/ y variantes redirigen a HTML.
+    # Queda fuera del registro, como 36Kr y el antiguo AI Revolution.
 ]
 
 # Alias: collect_signals.py históricamente llama a LAB_FEEDS
