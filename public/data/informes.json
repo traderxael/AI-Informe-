@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-09-25",
-    "total": 739,
-    "items": [
-      {
-        "titulo": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "url": "https://openai.com/index/proaction",
-        "fuente": "OpenAI",
-        "resumen": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Meta is putting its muscle behind Muse as the AI app takes off",
-        "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agents's promotion across its own apps and beyond.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Sony and UMG are suing Suno again",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-        "fuente": "The Verge AI",
-        "resumen": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, whi...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-        "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The latest unauthorized agent swarms were discovered by researchers.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-        "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-        "fuente": "The Verge AI",
-        "resumen": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
-        "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-        "fuente": "The Verge AI",
-        "resumen": "After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
-        "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\"",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "DeepSeek Has RSI Now",
-        "url": "https://www.youtube.com/watch?v=63nU3-EXf6g",
-        "fuente": "AI Revolution",
-        "resumen": "DeepSeek just revealed an RSI-style loop where agents build the environments used to train stronger agents, while some are already cheating and breaking safeguards. Meanwhile Claude takes over more AI...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-        "fuente": "BleepingComputer",
-        "resumen": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-        "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
-        "fuente": "MarkTechPost",
-        "resumen": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI’s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikid...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-        "url": "https://www.qbitai.com/2026/09/497108.html",
-        "fuente": "QbitAI",
-        "resumen": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-        "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-        "fuente": "BleepingComputer",
-        "resumen": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the s...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Stopping IT Worker Scams Requires Revamped HR Process",
-        "url": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
-        "fuente": "Dark Reading",
-        "resumen": "Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
-        "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
-        "fuente": "MarkTechPost",
-        "resumen": "Perplexity Research published a new post-training study. It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
-        "url": "https://www.qbitai.com/2026/09/497278.html",
-        "fuente": "QbitAI",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-        "url": "https://www.qbitai.com/2026/09/497177.html",
-        "fuente": "QbitAI",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
-        "url": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
-        "fuente": "SecurityWeek",
-        "resumen": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services. The post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-        "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
-        "fuente": "The Verge",
-        "resumen": "Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half y...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
-        "url": "https://www.qbitai.com/2026/09/497075.html",
-        "fuente": "QbitAI",
-        "resumen": "Agent的手越伸越长",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-        "url": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-        "fuente": "BleepingComputer",
-        "resumen": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
-        "url": "https://www.qbitai.com/2026/09/497070.html",
-        "fuente": "QbitAI",
-        "resumen": "一场物理世界的基模实验",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
-        "url": "https://www.qbitai.com/2026/09/497060.html",
-        "fuente": "QbitAI",
-        "resumen": "人工外包团队",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
-        "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-        "fuente": "The Verge AI",
-        "resumen": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial e...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "On Anthropic’s AI Misuse Report",
-        "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html/feed/atom/",
-        "fuente": "Schneier on Security",
-        "resumen": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI age...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      },
-      {
-        "titulo": "Microsoft: Recent Windows updates cause desktop loading issues",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-        "fuente": "BleepingComputer",
-        "resumen": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-09-25"
-      }
-    ]
-  },
-  {
     "fecha": "2026-09-26",
     "total": 270,
     "items": [
@@ -6926,6 +6695,237 @@
         "seccion": "novedades",
         "pais": "usa",
         "fecha": "2026-10-26"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-10-27",
+    "total": 1035,
+    "items": [
+      {
+        "titulo": "Genie 4: A new generation of world simulation",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "fuente": "DeepMind",
+        "resumen": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+        "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+        "fuente": "TechCrunch AI",
+        "resumen": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+        "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Google DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+        "fuente": "The Verge AI",
+        "resumen": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Wind...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+        "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+        "fuente": "Ars Technica AI",
+        "resumen": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Google’s next Genie AI model generates more realistic experiences",
+        "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+        "fuente": "The Verge AI",
+        "resumen": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+        "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+        "fuente": "OpenAI",
+        "resumen": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+        "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+        "fuente": "The Verge AI",
+        "resumen": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document'...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+        "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+        "fuente": "TechCrunch AI",
+        "resumen": "The new standard, WebAI, is designed to work with a variety of AI models.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "My favorite robot vacuum just got quieter, and more expensive",
+        "url": "https://www.theverge.com/tech/1019298/matic-serene-robot-vacuum-price-specs-release-date",
+        "fuente": "The Verge",
+        "resumen": "Matic, the company behind my favorite robot vacuum, is launching its first new model since its 2023 debut: the Matic Serene. The new robotic floor cleaner has one key upgrade: noise reduction. With a ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Data center backlash is uniting America",
+        "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+        "fuente": "The Verge AI",
+        "resumen": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expe...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+        "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+        "fuente": "Wired",
+        "resumen": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a victim of the abuse herself.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Can we trust LLMs to judge whether a research idea is novel?",
+        "url": "https://huggingface.co/blog/allenai/novelty-bench",
+        "fuente": "Hugging Face",
+        "resumen": "",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "AI Agents Are Media’s New Favorite Audience",
+        "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+        "fuente": "Wired",
+        "resumen": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+        "url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "fuente": "OpenAI",
+        "resumen": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Massive Groups of Volunteers Are Ready to Face Down ICE at the Polls",
+        "url": "https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/",
+        "fuente": "Wired",
+        "resumen": "From heat maps to Signal chats to war rooms, volunteers across the US are ready to act if federal immigration agents show up on Election Day.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+        "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+        "fuente": "Wired",
+        "resumen": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+        "url": "https://www.qbitai.com/2026/10/505865.html",
+        "fuente": "QbitAI",
+        "resumen": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser",
+        "url": "https://cointelegraph.com/magazine/crypto-could-outperform-ai-stocks-wall-street-veteran-jordi-visser?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "Former Morgan Stanley and Weiss executive Jordi Visser says AI agents are boosting demand for crypto as he expands his holdings beyond Bitcoin, Ether and Solana.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+        "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Hayes details FLOP’s AI compute derivatives vision after selling his altcoins",
+        "url": "https://cointelegraph.com/news/hayes-flop-ai-compute-vision-selling-altcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "Arthur Hayes revealed the derivatives market design for Flop Network and how he expects its native token could transform AI compute into a tradable commodity.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+        "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+        "fuente": "TechCrunch AI",
+        "resumen": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "印奇把4D雷达也端到端了",
+        "url": "https://www.qbitai.com/2026/10/505852.html",
+        "fuente": "QbitAI",
+        "resumen": "毫米波雷达，AI算力10TOPS",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Our newest AI Quest: Mapping the human brain",
+        "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+        "fuente": "Google AI",
+        "resumen": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
       }
     ]
   }

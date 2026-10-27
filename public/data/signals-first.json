@@ -1,312 +1,281 @@
 {
-  "generated_at": "2026-10-26T18:20:11.863893+00:00",
+  "generated_at": "2026-10-27T17:09:13.834826+00:00",
   "count": 20,
   "sources": [
-    "CoinDesk",
+    "Ars Technica AI",
     "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA LATAM",
+    "Google News — IA Japón",
     "Google News — IA global",
-    "MIT Tech Review AI",
+    "MarkTechPost",
     "OpenAI",
+    "SCMP Business",
+    "SecurityWeek",
     "TechCrunch AI",
+    "The Hacker News",
     "Wired"
   ],
   "signals": [
     {
-      "id": "2ef581c24ea7",
-      "title": "Se prevé que el mercado de copilotos de inteligencia artificial (IA) crezca a 0,12 mil millones para 2030, experimentando una CAGR del 12%.",
-      "summary": "Se estima que el mercado de copilotos de IA alcanzará 0,12 mil millones de dólares en 2030, con una tasa de crecimiento anual del 12 %.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMi1kNEphQ2xhWlk5U2J0RGMzaGYyLV9POGYzR0FhSFRTWWRnZXhEdFM4S3N1Y25fZHBYaXVVS3NxTDQ5aU9scVRGUWdHV3FKWHZQVXBsN0l6RlRqX2ZXS3h5RHdBWjRTQmNlZVJWRENkdnRZVEdEZlh5MDNtZ0dLQ0VTelQ2NXdMd2ZCOXR5TTZFOEY4R242WE5DbUN0Rm5YVS1TWEItbjlneHZVSElOSnVNYw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The National Law Review",
-      "region": "global",
-      "country": "global",
+      "id": "250a4097f2a1",
+      "title": "Anthropic se desnuda para seducir a Wall Street",
+      "summary": "Anthropic se muestra sin reservas para atraer a Wall Street.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZEVrVzMyZk1mdnpFUFVpSHh6N2plVU1XekFBOHl3WlFNeW4ycEl0ZTFfSzhuVmI3S2pHT2NuZUJobHMzZG5PTGh6Y2xfQmJEV1dTUnI5REFveFlHRjJROE1GdGU2bWhpV2pyTGtJSWFGbnRyNEFSMmhOZUJ4WnVpSG03WFBsdw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "l'Opinion",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "copilot"
+        "claude"
       ],
       "source": "news",
-      "published": "2026-10-26T17:54:06+00:00",
-      "title_orig": "The Artificial Intelligence (AI) Copilot Market is projected to grow to 0.12 billion by 2030, experiencing a 12% CAGR.",
+      "published": "2026-10-27T16:37:43+00:00",
+      "title_orig": "Anthropic se met à nu pour séduire Wall Street",
       "summary_orig": ""
     },
     {
-      "id": "b8ae9e3dafbb",
-      "title": "ChatGPT, empleo, salud: un experto descifra los desafíos de la inteligencia artificial",
-      "summary": "Un experto analiza los retos que la IA plantea en empleo y salud, destacando tanto oportunidades como riesgos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaTBMYkh3LUxWVkRZUVNWSnJyRGZNMzlpa2pNaFUzZTJNUUJ3bXhHUlcxQzNmM0dnMTNiZ2pYSDNyYkxHbzhsMnR2U0hnVDRoZjNHNlRFTTc0TFUtNjE1T1dZWGZJd3NKR3JNU19JeHBCeEh2VzhEN1hVcUJTeW1HbGFzWjRIcFlmNWxUeTZKVjJMM20wLU5QMG9weVRXV2Z0V0NKUmdaaFlZcGNHam10S3FtdGlLS2cwWjVfMDc5c09oUy03Zm43X2NCaEdOb3drXzYyVGQ4bmZDUjA?oc=5",
+      "id": "a60188d04998",
+      "title": "DeepMind presenta el modelo mundial Genie 4 que promete física y humanos más realistas",
+      "summary": "Genie 4 se lanzará pronto para desarrolladores y suscriptores de Google AI Ultra.",
+      "sourceUrl": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T16:00:22+00:00",
+      "title_orig": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "summary_orig": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon."
+    },
+    {
+      "id": "7d221e4dd9a1",
+      "title": "\"En general malo\": Grok, el asistente de IA de Elon Musk, no le gusta la versión de \"Odisea\" desarrollada por el magnate de la tecnología... gracias a la IA",
+      "summary": "Grok, el asistente de IA de Elon Musk, critica negativamente la versión de “Odisea” creada por el magnate tecnológico.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMy1pcnNzU3VTNEpXUU96czVYR3JidGdQSVNXR3NBUmh3Q083Zlc2Ukx1YVdhaERMMFJIMzlZV2ZoSHBvaEtsWTcwZE1uZnFHSk13VGhnQmZndGU0VUwtQ2xVZWxsYk05Wm13ektLcVRuLVFtTGExT1JOM19feTEzUUpaQzR2RC1CQjREZGd1R2hsOFVZVGZJekxHV0tVTnBHY2V6MEV0LTF4bFpqZDVJTU8wa0Y2VTdy0gG-AUFVX3lxTE5kVTJTUy1pX0k0RUNybmtnbzdXbHEzNXNXOWpXR1R1SWxXN3dwdFBPeUt5d1dsT2lOaGJmV09SdjlfOC15UjlpNVdZRmhGRzNrNTZCTDBmQm56a1hMTTdFMnFSQW1ScFNUZHB1NVRrZ0JUMkVsNHBodEdJMXZ3ZmswdFlYZEhGa0VIS3FDTS14YzBaQU1LV05xb3EyempUQnFZc1ZRYWtDWXZ0cHJsN1ExWFlSVmd4SDZEdmFHVWc?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Orange Actualités",
+      "publisher": "CNews",
       "region": "west",
       "country": "france",
+      "models": [
+        "grok"
+      ],
+      "source": "news",
+      "published": "2026-10-27T15:52:11+00:00",
+      "title_orig": "«Globalement mauvais» : Grok, l’assistant IA d’Elon Musk, n’apprécie pas la version de «L’Odyssée» développée par le magnat de la technologie... grâce à l’IA",
+      "summary_orig": ""
+    },
+    {
+      "id": "c32d425276da",
+      "title": "(S+) Inteligencia artificial: la salida a bolsa de Anthropic y la reducción de puestos de trabajo de Microsoft alimentan el miedo a la burbuja de la IA",
+      "summary": "La salida a bolsa de Anthropic y los despidos de Microsoft avivan el temor a una burbuja de la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOElSbWhTNW5nR3ljRWg0YlZyS01FOC11V2lneUhzNHlVRGNESk83dXNfMzNyVUxqYV9NRnE2LVYwVkFCbDZBelBjR2d6b2Z5UWtHcU9jdk0xZDFPcG5HcEJIancyVjZyZlp0U19YbzhvRzhVVXktQjhSNFZOYzI5QWJxYWVmU1I2dmh6M19qLUtCN2U3bGRsMl9Lakc5ZnFnWDREX0RFSGJXcWtEeGhpcDh0eG5wTXcxUGsxQkRCa3BpdlFsLUJBdjdkd1pWS05uRU5hYlJqNjlQN3h3ZUlNWjBwNjZzY2pqRnlJTkR4WF9BYkFGc3NWZzJOWjdUQQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Spiegel",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-27T15:48:00+00:00",
+      "title_orig": "(S+) Künstliche Intelligenz: Anthropic-Börsengang und Microsoft-Jobabbau befeuern Angst vor KI-Blase",
+      "summary_orig": ""
+    },
+    {
+      "id": "06c39fb491f5",
+      "title": "Por qué Anthropic admite riesgos de IA \"consciente\" en su expediente de IPO",
+      "summary": "Anthropic reconoce riesgos de IA “consciente” en su solicitud de salida a bolsa, según La Tribune.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQN2JPYWtCMGZuWE92T3E5WmJacXEwVGV4dmFjNXBjWFd4QzVWYTFVaWY0RU43VFRuUFA5RlQ4SzFyLTdkNnZxRXhjUlNSMkxockp3YmlGcEdGWFU4MXJIR2ZrR3dxNFFXdHN1akgxN0E2WUFOa1N6YTh1RjYxbVkxV2dsSzNuWGthRk1ZU0x6TGY5WkxkLTE4eVh2ZERhb3ZPMm5mNzlEZllaSnVZV0ZFY3RrX1dHVm5zSjRsUU9obldSZjR5UHEzSHdCMm5SNkctU0RGa3JqQUtDR1lmWk83ZGFrRzBTaWxLaEFWME8xVGwxSVdFMHN0MktzaW1rOHNhNlRfbl8wY1A?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "La Tribune",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-27T15:28:05+00:00",
+      "title_orig": "Pourquoi Anthropic admet des risques d'IA \"consciente\" dans son dossier d'IPO",
+      "summary_orig": ""
+    },
+    {
+      "id": "ae72bdec54e1",
+      "title": "El Ministerio del Interior del Reino Unido podría ser investigado por el uso de OpenAI Tech",
+      "summary": "Un organismo de control gubernamental evalúa investigar el uso de ChatGPT por el Home Office para tramitar solicitudes de asilo, por dudas sobre su precisión y opacidad.",
+      "sourceUrl": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-26T17:48:11+00:00",
-      "title_orig": "ChatGPT, emploi, santé : un expert décrypte les enjeux de l'intelligence artificielle",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-27T15:10:26+00:00",
+      "title_orig": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "summary_orig": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use."
     },
     {
-      "id": "c6549f35a055",
-      "title": "¿Podría el verdadero Antrópico ponerse de pie, por favor?",
-      "summary": "Anthropic presentó su prospecto de salida a bolsa, un documento de 335 páginas donde, entre 100 dedicadas a riesgos, expone su visión única de la IA.",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "sourceLabel": "MIT Tech Review AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "research",
-      "published": "2026-10-26T17:45:43+00:00",
-      "title_orig": "Will the real Anthropic please stand up",
-      "summary_orig": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…"
-    },
-    {
-      "id": "a60ae62708f4",
-      "title": "Crecimiento meteórico, costes exorbitantes, riesgos en desorden… Anthropic desvela la IA antes de su salida a bolsa",
-      "summary": "Anthropic revela su IA mientras se prepara para salir a bolsa, destacando un crecimiento explosivo, costos altísimos y riesgos descontrolados.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPb2dhdW1xVUk4d1pXR2k5VkpJa3VvbmcxU1lzX0FpbFlRMnJsU1NjN05nNTQycDd6c01UWUtManlZVEpZUGprTU0xYzhUQ21WaUcyYVdkNUlqVnl4TW9zN0ZVQndGWThvaDVLajZYejFwSHEzbE5VclZ0OXVuNldwY3pxTHlObEpoNWRoaU15Skl3dWdEdnRTendLRXhjZm1Fd0JlVEhjcEloQkMtcWlfUldGanVoM3Q3N3JITjV6bHUwazRFaXVnTUF0WUx5WnhCQlN4elNmSjV5bnNOWVhuWWcwMjE3ekwyM052TkhuUHJtaFBwN0cxd2JsMzc2bHVaM2duN25EZzZWd0VxTURrR2VJN2lUWFVDcWZLeklNbzlucUhWZDJYUVl3MGhhZ1E?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Sud Ouest",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-26T17:29:14+00:00",
-      "title_orig": "Croissance météorique, coûts exorbitants, risques en pagaille… Anthropic lève le voile sur l’IA avant son entrée en Bourse",
-      "summary_orig": ""
-    },
-    {
-      "id": "d05dfa20b70d",
-      "title": "INFOGRAFÍAS. Este \"folleto\" que revela las espectaculares cuentas de Anthropic, la casa matriz de la IA Claude",
-      "summary": "Infografía muestra las impresionantes cifras de Anthropic, la empresa matriz de la IA Claude, según Ouest‑France.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNT01hcGM1WkhZNllTZVY1SHE2TU5pSEJZNUJ3cjJ5b0FXRDVDUFdwa0RaY2o4YXQ4MFJKSHloeXhKNV9RZXBZOThUUS0ycjZTLWdKeU1FQy1oNDVrejBqWVEyeXFiNXctTUxrV05qVUtUYkVMWUkxaU11b3QyN1FCTmFKTWZ1ZE5yMndBRi1lcHllLWlCRTlzb0M5MXcybjRTU2ttVFZVckhvd201U08zOEctdThWT21xeWQzWFJRRlJhVGl1UHU4R0lBczUzc2F1Tm04eDc3b0k1YnVxUWgzUVV1OWpkRDJBYkVtV2twM2dubjBCTnJCa0laNkFuUHJ5VlFkOHBvNGtqbXN3WFQ4MVVXT2dTbF9UM3lqYkNyd3h1Q0RMSmx4cXBELXJxbnM?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Ouest-France",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-26T16:57:05+00:00",
-      "title_orig": "INFOGRAPHIES. Ce « prospectus » qui dévoile les spectaculaires comptes d’Anthropic, la maison mère de l’IA Claude",
-      "summary_orig": ""
-    },
-    {
-      "id": "68dc90e2187a",
-      "title": "El desarrollador de IA Anthropic presenta una solicitud de salida a bolsa",
-      "summary": "Anthropic, el creador de IA, ha presentado su solicitud para salir a bolsa.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVTlCZ0h4MDM0MkFyU0lyTmJURVY5OUFnRlBLRGZKYjVzaTdBWUM2Rk5SYUZWZ05vUnhZR0xaTkNsZVdCUG1aVXRGQU9zVm16SW5ueG9SdFdQOU9LdUpnd1ptbVY2a01lcjVzdXRzaWdZcjM5LXI3Y053ZkRfUGlRbmxkVEdHTTJ1Zy1PYlkzM0JHU1BMYW92bDdiN3BUblRiLTk5YkJmUjh6Ry04dzc3LXV3N0ZqOGM?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "ZDFheute",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-26T16:56:55+00:00",
-      "title_orig": "KI-Entwickler Anthropic stellt Antrag für Börsengang",
-      "summary_orig": ""
-    },
-    {
-      "id": "0c7a0e584035",
-      "title": "La presentación de la OPI de Anthropic revela su estrategia para mantener enganchados a los clientes empresariales",
-      "summary": "Más de la mitad de los clientes de Anthropic, que gastan más de $100,000, usan tanto la plataforma Claude como una app propia, una estrategia de venta cruzada al estilo Amazon que fideliza a las empresas.",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "id": "122f4e228239",
+      "title": "El director de Meta AI, Rohit Patel, se va para enfrentarse a Microsoft Office y Google Workspace",
+      "summary": "Rohit Patel deja Meta tras ocho años en evaluaciones de IA y aprendizaje por refuerzo; su startup Ndoc busca competir con Microsoft Office.",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "llama"
       ],
       "source": "lab",
-      "published": "2026-10-26T16:49:42+00:00",
-      "title_orig": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "summary_orig": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier."
+      "published": "2026-10-27T14:59:09+00:00",
+      "title_orig": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "summary_orig": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite."
     },
     {
-      "id": "d39d60bfcb56",
-      "title": "“Ser parte de algo más grande”: el prodigio de la IA Anthropic en la pista para una gigantesca salida a bolsa",
-      "summary": "Anthropic, la prometedora IA de los ex‑OpenAI, avanza rápidamente hacia una enorme salida a bolsa, buscando posicionarse como líder del sector.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRnJBeUFnZmNQajZ6VWlRUWEyYWNydFR6VU1UbEhpaEs0MlVuMzZRLS1ZdUJ5NUtMcjF4YUotUDBFV0tzeVQxMG8zTF9GNWM1aXY3OU8zU3hMVTVuN3dpYmh0dDNzN3BLWFBzUlVtUFpZbkpHbnBQeXRZYXFvUmRkNE9Db2huSzdITmxVZ2tzSjVHY3RHTGN1dkxxSmJabmdvN291Um5TUWZOMnVaVUlyWU1sUm9XSUU0bWZQd3FCS3ZFdmljWC03TGNCRDBqZ0NTMjBIT3MzOTU3ZGw0cllRbUFzdFM2Vm43aGwzeXZWb3NBOUJ1eVBwcWJFOHN0Z1Eyc0RPZnhCbFNjRHFhdGRteFlTa1E3SE5KTVJJaUVCWQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
+      "id": "ea5496feaca5",
+      "title": "El defecto de compactación de OpenAI permite a los investigadores eludir las protecciones de razonamiento oculto",
+      "summary": "Xint demostró que la función de compresión de OpenAI, que reduce conversaciones largas, puede usarse para extraer la razonamiento interno del modelo en texto legible.",
+      "sourceUrl": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-26T16:49:03+00:00",
-      "title_orig": "« Faire partie de quelque chose de plus grand » : le prodige de l'IA Anthropic en piste pour une gigantesque introduction en Bourse",
-      "summary_orig": ""
+      "source": "social",
+      "published": "2026-10-27T13:52:43+05:30",
+      "title_orig": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "summary_orig": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an encrypted item the user cannot read. The method got past"
     },
     {
-      "id": "5ecfeeaf9cec",
-      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-      "summary": "Anthropic cree que “cerrar el ciclo” es la mejor vía para el éxito de la IA, pero también una posible amenaza existencial para la humanidad.",
-      "sourceUrl": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "id": "b60d62ac1631",
+      "title": "La política británica Jess Asato fue falsificada. Ahora está llevando a xAI a la corte",
+      "summary": "La campaña de Jess Asato contra el acoso en línea la llevó al escándalo de deepfake de Grok, y luego ella misma sufrió ese abuso.",
+      "sourceUrl": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
       "sourceLabel": "Wired",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-26T16:01:55+00:00",
-      "title_orig": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-      "summary_orig": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity."
-    },
-    {
-      "id": "c989099bfeb4",
-      "title": "La empresa de inteligencia artificial Anthropic demandada por presunta infracción de derechos de autor de Elvis Presley",
-      "summary": "Anthropic enfrenta una demanda por supuesta violación de derechos de autor de canciones de Elvis Presley, según informó Fox News.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03bGhpOG1mUzh2WXFSdGRXcDAwMlh1eE0xUkZseXkzbUhOSmFEb1NNM2hKbmw1X29ERW9zcHBKT2ltbDF3ZVhRRDZwalhqOE5mYXM0NS0yY3c4SEFDNEdDUDk2cElLbGl2VkE2RHp3TmhJQ25IM0E?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Fox News",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-26T15:17:49+00:00",
-      "title_orig": "AI company Anthropic sued over alleged Elvis Presley copyright infringement",
-      "summary_orig": ""
-    },
-    {
-      "id": "ad4aca2b15a9",
-      "title": "El folleto de salida a bolsa de Anthropic revela lo que hay debajo del capó",
-      "summary": "Anthropic presentó documentos antes de su gran OPI, revelando sus finanzas, riesgos y perspectivas sobre el futuro de la IA.",
-      "sourceUrl": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-26T14:50:47+00:00",
-      "title_orig": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
-      "summary_orig": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI."
-    },
-    {
-      "id": "2c43c284058f",
-      "title": "Anthropic presenta oficialmente su debut público",
-      "summary": "Anthropic presentó su IPO, mostrando ingresos en alza, pérdidas crecientes, gran adopción empresarial y una estructura de gobierno que protege el control de los fundadores y su misión de seguridad en IA.",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-26T14:35:22+00:00",
-      "title_orig": "Anthropic officially files for its public debut",
-      "summary_orig": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission."
-    },
-    {
-      "id": "f0e90534061d",
-      "title": "Inteligencia artificial: el pionero de la IA Anthropic solicita su salida a bolsa en los EE.",
-      "summary": "Anthropic, el pionero de la IA, ha solicitado su salida a bolsa en EE. UU.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRWFXV1R1MEV6dEJDSmhLLWxyaFNtWlhub2hJaXpYWVJ4S0pxYjhNSXU5VUhlbTduRy13TThSVEoxRVRZbnhjLUZic1ZoMkkxZ1hyUm1LY3VTMjdEQ1E5RGxST3RVa2FRc1RwcElkR3FDSDNiemxpNzZHV2RQeFN6WFYtUnRsREk5anI3YkdSLTk2V2ZYNDdFWGVIZnQ0REo2VmVBc2lXSC14aElhNnpKM2cyWFNXVmt3NktXemhvSDZqZW5iUW80X3NCSXl6WjlmeU41eVRSVUg?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Tagesspiegel",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-26T14:18:03+00:00",
-      "title_orig": "Künstliche Intelligenz: KI-Pionier Anthropic beantragt Börsengang in den USA",
-      "summary_orig": ""
-    },
-    {
-      "id": "4e2f5b350022",
-      "title": "El fantasma de Elvis persigue a Claude: demandan a gigante de la IA por usar 274 canciones para entrenar sus modelos de inteligencia artificial",
-      "summary": "El fantasma de Elvis persigue a Claude: demandan a la empresa de IA por usar 274 canciones suyas para entrenar sus modelos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcUI3enNEVUxfUEp2UVNtTUZMbjBoeUg4b000UjR2emRwUmdNR1ZYZU50Zk95bmFTWnU5S3N2M2dKY09ZaWFSRGc1ZXR6aWNTUnk5RzJYZ0JmampkeWZJampJajQ5ZTljbXRQRTJOaXRnMS11M2lfWlpRQ0kybHNXVTNfVVotUzA4aFBKYS1oTkR4RWdoU2xLQzlVOURhN25wWDFXbFdEcHFQSkJsU1FtYzlKbEw4cG1pWm1wY1pvZUJ0ZkUtNVJ0eThFNEhqeVlKZllXUWthSVRXbE9rN2NmbERMc0FoZDJMRjh0cE1XLUNDWlhlRGJsYmVNSDFCOENJanFSTDZKLVZzbGPSAZACQVVfeXFMT05wTmRROHEzelo4LVRqQ1JOei1tR011WWc4Z21wMUV6cjJkaGs0RVZNTEwzS2xHYmRiejY4eUpMQUFyRktIN0dyZWxxaXdjUDNrODB6NW1PaXZENHFhbERoNko5aXlOc2I3SXc4UjV1SzVCZkw5ZThkQVgxbHVKZkt3ajdNcjZlbTlDM1JrT201WjM3YjZJQUZzRG9Ldmc0X3ZiRnBfa2YwcVI3UC1vWnNvSmxnbWhCWkwxXzFiZ3FFWjFib2Rqb2pnaUNXU29YbnpDVG91TWFDTThQby0yelpZQnNIZWlNNFJ2bGNkOEk5V2lQNTZsQ1dHNjhhLXVaWHFCNm9QeEdnTzZoNlhSZWo?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "The Clinic",
       "region": "global",
       "country": "global",
       "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T13:29:41+00:00",
+      "title_orig": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+      "summary_orig": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a victim of the abuse herself."
+    },
+    {
+      "id": "c0d400a07597",
+      "title": "Cómo los \"factores de riesgo\" de China se ciernen sobre la tan esperada salida a bolsa de Anthropic",
+      "summary": "El prospecto de salida de Anthropic destaca más de una docena de riesgos vinculados a China, como modelos de código abierto, tensiones EE. UU.-China y Taiwán.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3372329/how-china-risk-factors-loom-over-anthropics-hotly-anticipated-ipo-filing",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T13:00:08+00:00",
+      "title_orig": "How China ‘risk factors’ loom over Anthropic’s hotly anticipated IPO filing",
+      "summary_orig": "Open-weight models, China-US tensions, Taiwan – just a few of the more than dozen references to China-related risks cited in Anthropic’s much-anticipated listing prospectus, which was finally released on Monday after months of speculation. Mostly concentrated within the 93-page “risk factors” section of the filing with the US Securities and Exchange Commission, the disclosures reveal how the Silic"
+    },
+    {
+      "id": "6c9ec2d0c45c",
+      "title": "Zhang Yiming de ByteDance encabeza la lista de ricos de China con 99.700 millones de $ estadounidenses a medida que la IA alimenta las fortunas",
+      "summary": "Zhang Yiming, fundador de ByteDance, recuperó el título de persona más rica de China con una fortuna de casi 100 000 millones de dólares, impulsada por la IA.",
+      "sourceUrl": "https://www.scmp.com/economy/article/3372302/bytedances-zhang-yiming-tops-china-rich-list-us997-billion-ai-fuels-fortunes",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "doubao"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T11:00:11+00:00",
+      "title_orig": "ByteDance’s Zhang Yiming tops China rich list with US$99.7 billion as AI fuels fortunes",
+      "summary_orig": "ByteDance founder Zhang Yiming has reclaimed the title of China’s richest person with a nearly US$100 billion fortune, as artificial intelligence powers a surge in wealth among China’s top entrepreneurs, according to the Hurun Research Institute. The 43-year-old Zhang, who topped the ranking in 2024, saw his wealth rise 43 per cent to US$99.7 billion – a record for China’s richest individual – as"
+    },
+    {
+      "id": "d59980d832b8",
+      "title": "La salida a bolsa de Anthropic es un negocio arriesgado",
+      "summary": "La salida a bolsa de Anthropic es una apuesta arriesgada, según CNBC.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BQmF4N2tuZEkyNXluTHlDTnpXbzJwM0dvZzlMd3NZTkJRUk9VSFI2X1RfYUNrTTRhd2FmTzFNejVFWkd4U3lMT0JxN0E3S25makc2MDBJNGFGdTRlNUpBS0hoRmhmdkY5Mkx0a3hyajBMYW9Kdm9YQk1HSdIBgAFBVV95cUxQcHAtNDE0N1FrSjJ3cTB6RndId0tsX2ZPSW1LZUJ3V0FMTGdkMWZRbk5lVHhBQm9fUnhBOVVlMzJhS1VsaEp5MWxHMDBmYnFWWVJzV09DZk9LdGdZRVdoRjcyYXl4TDFPM25fMVM1ckIxOG5QTmNhZXFSZTBWVTdBQQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "CNBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-26T13:36:21+00:00",
-      "title_orig": "El fantasma de Elvis persigue a Claude: demandan a gigante de la IA por usar 274 canciones para entrenar sus modelos de inteligencia artificial",
+      "published": "2026-10-27T11:00:01+00:00",
+      "title_orig": "Anthropic's IPO is risky business",
       "summary_orig": ""
     },
     {
-      "id": "53dde682a95b",
-      "title": "El gigante de la inteligencia artificial Anthropic archiva para vender acciones al público por primera vez",
-      "summary": "Anthropic, la gigante de IA, presenta su primera oferta pública de acciones mientras advierte sobre un riesgo catastrófico para la humanidad.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTnpNU0xWa0YxbG9VVVJ0bW5YZ0haOHRsTF9WUVRUX2dtbUxxQW1MZE50OUFWQ2JkNDMzT1hZVkxfNVlBUXhHaXBzQ3l0XzZPWWF6UTEtOGFoWlNubWFHc2Vad0FnaXhNb3dxLXdCQnpoNUhFWi1hUFRreHpBSlB5amZJU0VzRXdHcG1nLVo2YVM4NE96STRqVGlDcWVTZGQzM18yVFNiWlZpTzdIQmN4VU40MHZ0WHlzXy0yLXh1VEMtcXFiYzJRRkRKX3o0dkxYQVFCVG4xalBsN1plUngycGFTSlJmbnVoRHpXeg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "KING5.com",
+      "id": "60e8b957385d",
+      "title": "Los riesgos explicados para los inversores antrópicos incluyen los posibles daños de una IA fuera de control",
+      "summary": "Anthropic lanza su OPI para reducir los riesgos que la IA podría generar, según advierten los inversores.",
+      "sourceUrl": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T10:44:20+00:00",
+      "title_orig": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
+      "summary_orig": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek ."
+    },
+    {
+      "id": "7312f623accc",
+      "title": "Inteligencia artificial: los herederos de Elvis Presley reclaman 41 millones de dólares a Anthropic",
+      "summary": "Los herederos de Elvis Presley demandan a Anthropic por 41 millones de dólares, alegando uso no autorizado de su imagen en IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNajM2eEZzNHdtUlJiUF9mcEpMTDBaMkZ4SmhsZV93ODE4VUh0eno5aHlmOGs4djRkNHJ1MENMbGU2VFdaNGhucFd2UkNsQUVnUXZqemszeGJfUmRtQzY1NU9rMnJheTF1V3JadUtHLWtEaFdqYkpiWTRGcmFRNXViYTJEMlJaQnkzdS1NRkN3bmhadW1rZ1g1Ukh4SkdvTDNsRHA3YklBMUZMVmh4eVM5X0hKaktmRTI3UWluZTFzVndfTVNqVWxoOS1nOG9uWHBGU1E?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Figaro",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-26T13:31:00+00:00",
-      "title_orig": "Artificial intelligence giant Anthropic files to sell shares to the public for the first time",
-      "summary_orig": "Artificial intelligence giant Anthropic files to sell shares to the public for the first time KING5.com Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing BBC Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO The New York Times Anthropic files for IPO as revenue jumps 14-fold to $16.3 billion in H1 The Hindu Artificial intelligence giant Anthr"
+      "published": "2026-10-27T09:37:41+00:00",
+      "title_orig": "Intelligence artificielle : les ayants droit d’Elvis Presley réclament 41 millions de dollars à Anthropic",
+      "summary_orig": ""
     },
     {
-      "id": "55bace365eaf",
-      "title": "Archivos antrópicos gigantes de IA para la OPI de gran éxito",
-      "summary": "El creador de Claude reportó 16.300 millones de dólares en ingresos del primer semestre y una pérdida neta de 80.700 millones, y fijará precios a mediados de noviembre.",
-      "sourceUrl": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
+      "id": "eb3499cdf196",
+      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
+      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "ThinkIT",
       "region": "west",
-      "country": "usa",
+      "country": "japan",
       "models": [
         "claude"
       ],
-      "source": "lab",
-      "published": "2026-10-26T13:22:09+00:00",
-      "title_orig": "AI giant Anthropic files for blockbuster IPO",
-      "summary_orig": "The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November."
+      "source": "news",
+      "published": "2026-10-27T08:15:26+00:00",
+      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
+      "summary_orig": ""
     },
     {
-      "id": "b16905578c4e",
-      "title": "Noticias en directo: Bitcoin se acerca a los $ 80.000 mientras la tecnología se recupera tras la presentación de la salida a bolsa de Anthropic",
-      "summary": "Junto a la recaudación de hasta 100 mil millones por Anthropic, Meta anunció el lunes una venta de acciones de 95 mil millones para financiar su IA.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-26T11:05:31+00:00",
-      "title_orig": "Live news: Bitcoin sits near $80,000 as tech rallies following Anthropic IPO filing",
-      "summary_orig": "Alongside Anthropic raising as much as $100 billion, Meta on Monday announced a $95 billion share sale to fund its own AI ambitions."
-    },
-    {
-      "id": "64d59b55a8fb",
-      "title": "El mundo laboral en expansión de ChatGPT",
-      "summary": "OpenAI analiza datos de 165 actividades laborales en casi 100 países, mostrando cómo usan ChatGPT en el trabajo y cómo varía su uso con el tiempo.",
-      "sourceUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "id": "a3a879144b29",
+      "title": "OpenAI amplía su asociación con Oracle para llevar sus aplicaciones a ChatGPT",
+      "summary": "OpenAI y Oracle amplían su alianza para integrar aplicaciones empresariales y agentes de IA en ChatGPT y lanzar nuevas ofertas de Oracle.",
+      "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -315,16 +284,50 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-26T10:00:00+00:00",
-      "title_orig": "ChatGPT’s expanding world of work",
-      "summary_orig": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+      "published": "2026-10-27T07:00:00+00:00",
+      "title_orig": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "summary_orig": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
     },
     {
-      "id": "eb7708c5f537",
-      "title": "Cómo Fanatics y OpenAI agilizan la experiencia de los fans",
-      "summary": "Fanatics usa OpenAI para que los aficionados completen sus atuendos del día del juego con “Shop the Look”, logrando un 10 % más de interacción en pruebas con 30 000 productos de MLB.",
-      "sourceUrl": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "sourceLabel": "OpenAI",
+      "id": "6f2d6c86f5ea",
+      "title": "Moonshot se disculpa después de que el lanzamiento de Kimi K3.1 Pro tropieza a medida que se amplía el escrutinio promocional",
+      "summary": "Moonshot AI, la startup china detrás de Kimi, pidió disculpas por limitar el uso del modelo K3.1 Pro y por el consumo excesivo de cuotas en su suscripción.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3372247/moonshot-apologises-after-kimi-k31-pro-roll-out-stumbles-promotional-scrutiny-widens",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "kimi"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T06:00:10+00:00",
+      "title_orig": "Moonshot apologises after Kimi K3.1 Pro roll-out stumbles as promotional scrutiny widens",
+      "summary_orig": "Chinese artificial intelligence start-up Moonshot AI, developer of the popular Kimi series, apologised on Monday for limiting customers’ use of its latest model in a botched roll-out that has also invited scrutiny over its promotional practices and cybersecurity measures. “We’re sorry for the rate limits and unnecessary quota consumption on the K3.1 Pro subscription plan,” Moonshot said in a post"
+    },
+    {
+      "id": "5c1b76973ac2",
+      "title": "OCR 2 ilimitado de código abierto de Baidu para el análisis de documentos de cien páginas",
+      "summary": "Baidu lanzó Unlimited OCR 2, modelo MIT de 3 B que procesa documentos de cien páginas en una sola solicitud, con atención SR‑SWA y 77,1 en MarathonDocBench.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T05:26:36+00:00",
+      "title_orig": "Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing",
+      "summary_orig": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents in one request. Its SR-SWA attention keeps per-step decoding cost nearly flat, scoring 77.1 on MarathonDocBench The post Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing appeared first on MarkTechPost ."
+    },
+    {
+      "id": "08bb0f5102f4",
+      "title": "OpenAI lanza GPT-6.1 Terra, reduciendo a la mitad el precio API de GPT-6.1 sol para el trabajo con agentes",
+      "summary": "OpenAI lanzó GPT‑6.1 Terra, un modelo rápido de uso de ordenador y visión que cuesta $1‑$5 por millón de tokens y reduce a $0.29 la tarea de agentes, comparado con $4.82.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+      "sourceLabel": "MarkTechPost",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -332,26 +335,26 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-26T07:00:00+00:00",
-      "title_orig": "How Fanatics and OpenAI streamline the fan experience",
-      "summary_orig": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
+      "published": "2026-10-27T02:45:27+00:00",
+      "title_orig": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
+      "summary_orig": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first on MarkTechPost ."
     },
     {
-      "id": "d493d96933ff",
-      "title": "Inteligencia artificial: la IA de Anthropic podría eludir la barrera de pago para los datos de los votantes estadounidenses",
-      "summary": "La IA de Anthropic podría sortear el pago requerido para acceder a los datos de votantes estadounidenses.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMjdVdDRDcDVGM1JKLXVDM3RTd0JFWWR5RU96eFEwaHg3aVMxNVBqbGVKSFpLZE9VNU5memlxaHF1T1VaaUk0Q2J1aE84eXZ4ZDMyU3MwekR3V1Myb1dJS2QzdlpvaGlpUzFla25Gb0lMUXk2Q0tqUVE2V00xd2xwbkhJNnBORUliN1FJVzh3cnQteGdLd0VBSWVsT0VsOFZiem11VmNNSUd5Y3ZKMGE2T1kzSllBd1hpbVdvWjViRlZmYWZrcEd1aFBMaVlqaDlGa2tmSg?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
+      "id": "858bf7d244f3",
+      "title": "Cómo OpenAI convirtió sus herramientas de codificación en Dots, un asistente personal siempre activo",
+      "summary": "Alexander Embiricos, ejecutivo de OpenAI a cargo de Dots, nunca quiere reunirse con el agente de IA de otra persona.",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "gpt"
       ],
-      "source": "news",
-      "published": "2026-10-26T06:24:46+00:00",
-      "title_orig": "Künstliche Intelligenz: KI von Anthropic umgeht wohl Bezahlschranke für US-Wählerdaten",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-10-27T02:00:00+00:00",
+      "title_orig": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "summary_orig": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
     }
   ]
 }
