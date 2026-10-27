@@ -16,7 +16,7 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 
 ## Qué hace de verdad
 
-- RSS públicos (labs, medios, Google News multi-país, HN, Reddit con degradación suave). 34 feeds vivos, auditados con `scripts/auditar_feeds.py`.
+- RSS públicos (labs, medios, Google News multi-país, HN, Reddit con degradación suave). 33 feeds vivos, auditados con `scripts/auditar_feeds.py` (fallback TLS 1.2 ante 403).
 - Informe markdown diario en `informes/YYYY-MM-DD.md`.
 - JSON para la web: `public/data/signals-first.json`, `signals-rest.json`, `modelos.json`.
 - Ranking de modelos: Elo LMArena (dataset oficial en Hugging Face) × precios OpenRouter. Si la fuente no responde, no sobrescribe el JSON anterior y el run queda rojo con evidencia.
@@ -66,9 +66,9 @@ scripts/
   fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json
   resumir_groq.py         # resúmenes LLM en español (Groq) + traducción de señales
   actualizar_modelos.py   # LMArena (dataset HF) + OpenRouter → public/data/modelos.json
-  feed_health.py          # salud de los 34 feeds + ranking → public/data/feed_health.json
+  feed_health.py          # salud de los 33 feeds + ranking → public/data/feed_health.json
   auditar_feeds.py        # diagnóstico: cuántos items trae cada feed (herramienta)
-  test_pipeline.py        # tests sin red (57 tests)
+  test_pipeline.py        # tests sin red (68 tests)
   with-app-env.brace-regression.test.mjs # regresión del wrapper en Windows
 informes/                 # un markdown por día
 datos/                    # JSON diario de señales de X (cola de clips AutoClip)
@@ -81,13 +81,13 @@ docs/diagramas/           # diagramas Mermaid: *.mmd + svg/ + png/
 ## Uso local
 
 ```bash
-python scripts/test_pipeline.py     # 57 tests, sin red
+python scripts/test_pipeline.py     # 68 tests, sin red
 python scripts/generar_informe.py    # RSS → informes/*.md + web/
 python scripts/collect_signals.py    # señales Google News + HN + Reddit
 python scripts/fx_viral.py           # señales de X (o --local con FxEmbed propio)
 python scripts/actualizar_modelos.py --max 60
-python scripts/feed_health.py        # salud de los 34 feeds y del ranking
-python scripts/auditar_feeds.py      # cobertura real de los 34 feeds (cuántos items trae cada uno)
+python scripts/feed_health.py        # salud de los 33 feeds y del ranking
+python scripts/auditar_feeds.py      # cobertura real de los 33 feeds (cuántos items trae cada uno)
 ```
 
 Web (si usás el frontend TanStack):

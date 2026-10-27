@@ -1,14 +1,14 @@
 {
- "generado": "2026-10-26T18:21:55",
- "total_feeds": 34,
- "ok": 30,
- "vacios": 1,
- "rotos": 3,
+ "generado": "2026-10-27T14:03:16",
+ "total_feeds": 33,
+ "ok": 33,
+ "vacios": 0,
+ "rotos": 0,
  "feeds": [
   {
    "nombre": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
-   "items": 1320,
+   "items": 1327,
    "estado": "ok",
    "detalle": ""
   },
@@ -99,9 +99,9 @@
   {
    "nombre": "Synced",
    "url": "https://syncedreview.com/feed/",
-   "items": 0,
-   "estado": "error",
-   "detalle": "sin respuesta"
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "QbitAI",
@@ -127,7 +127,7 @@
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 169,
+   "items": 374,
    "estado": "ok",
    "detalle": ""
   },
@@ -190,9 +190,9 @@
   {
    "nombre": "Schneier on Security",
    "url": "https://www.schneier.com/feed/atom/",
-   "items": 0,
-   "estado": "error",
-   "detalle": "sin respuesta"
+   "items": 10,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "Krebs on Security",
@@ -225,9 +225,9 @@
   {
    "nombre": "CISA Advisories",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-   "items": 0,
-   "estado": "error",
-   "detalle": "sin respuesta"
+   "items": 30,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "Google Security Blog",
@@ -235,18 +235,11 @@
    "items": 25,
    "estado": "ok",
    "detalle": ""
-  },
-  {
-   "nombre": "AI News",
-   "url": "https://www.artificialintelligence-news.com/feed/",
-   "items": 0,
-   "estado": "vacio",
-   "detalle": "0 items"
   }
  ],
  "ranking": {
   "estado": "ok",
   "total": 60,
-  "actualizado": "2026-10-26T18:21:18"
+  "actualizado": "2026-10-26T00:15:49"
  }
 }
