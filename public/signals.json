@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:09:06.384078+00:00",
+  "generated_at": "2026-10-27T17:32:36.623936+00:00",
   "count": 217,
   "sources": [
     "Ars Technica AI",
@@ -7,6 +7,7 @@
     "CoinDesk",
     "Cointelegraph",
     "Dark Reading",
+    "DeepMind",
     "Google AI",
     "Google News — IA Alemania",
     "Google News — IA China (zh)",
@@ -48,6 +49,22 @@
       "source": "news",
       "published": "2026-10-27T16:37:43+00:00",
       "title_orig": "Anthropic se met à nu pour séduire Wall Street"
+    },
+    {
+      "id": "d17d13a0006a",
+      "title": "Genio 4: Una nueva generación de simulación mundial",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T16:01:38+00:00",
+      "title_orig": "Genie 4: A new generation of world simulation"
     },
     {
       "id": "a60188d04998",
@@ -210,22 +227,6 @@
       "title_orig": "ByteDance’s Zhang Yiming tops China rich list with US$99.7 billion as AI fuels fortunes"
     },
     {
-      "id": "d59980d832b8",
-      "title": "La salida a bolsa de Anthropic es un negocio arriesgado",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BQmF4N2tuZEkyNXluTHlDTnpXbzJwM0dvZzlMd3NZTkJRUk9VSFI2X1RfYUNrTTRhd2FmTzFNejVFWkd4U3lMT0JxN0E3S25makc2MDBJNGFGdTRlNUpBS0hoRmhmdkY5Mkx0a3hyajBMYW9Kdm9YQk1HSdIBgAFBVV95cUxQcHAtNDE0N1FrSjJ3cTB6RndId0tsX2ZPSW1LZUJ3V0FMTGdkMWZRbk5lVHhBQm9fUnhBOVVlMzJhS1VsaEp5MWxHMDBmYnFWWVJzV09DZk9LdGdZRVdoRjcyYXl4TDFPM25fMVM1ckIxOG5QTmNhZXFSZTBWVTdBQQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "CNBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T11:00:01+00:00",
-      "title_orig": "Anthropic's IPO is risky business"
-    },
-    {
       "id": "60e8b957385d",
       "title": "Los riesgos explicados para los inversores antrópicos incluyen los posibles daños de una IA fuera de control",
       "summary": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek .",
@@ -240,38 +241,6 @@
       "source": "lab",
       "published": "2026-10-27T10:44:20+00:00",
       "title_orig": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI"
-    },
-    {
-      "id": "7312f623accc",
-      "title": "Inteligencia artificial: los herederos de Elvis Presley reclaman 41 millones de dólares a Anthropic",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNajM2eEZzNHdtUlJiUF9mcEpMTDBaMkZ4SmhsZV93ODE4VUh0eno5aHlmOGs4djRkNHJ1MENMbGU2VFdaNGhucFd2UkNsQUVnUXZqemszeGJfUmRtQzY1NU9rMnJheTF1V3JadUtHLWtEaFdqYkpiWTRGcmFRNXViYTJEMlJaQnkzdS1NRkN3bmhadW1rZ1g1Ukh4SkdvTDNsRHA3YklBMUZMVmh4eVM5X0hKaktmRTI3UWluZTFzVndfTVNqVWxoOS1nOG9uWHBGU1E?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T09:37:41+00:00",
-      "title_orig": "Intelligence artificielle : les ayants droit d’Elvis Presley réclament 41 millions de dollars à Anthropic"
-    },
-    {
-      "id": "eb3499cdf196",
-      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T08:15:26+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる"
     },
     {
       "id": "a3a879144b29",
@@ -336,6 +305,22 @@
       "source": "lab",
       "published": "2026-10-27T02:45:27+00:00",
       "title_orig": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work"
+    },
+    {
+      "id": "3bb1fcaf278a",
+      "title": "El modelo antrópico accedió a los datos de votantes de Georgia disponibles públicamente; sin autorización humana",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORTNsZ1Rpam1PRTIyb3d5X1llNzJyRUtMTDJhbGNLLW5OME5iaW1kdUttT09NMUVCZ3plSVZiYVFIQ242QjBoR1gxRV9QdU40QjVFU1NSRWlMTnN6MHE5ZzZBUDdwSFVoU0Q2UTI4S1R6XzhOb2J6eEV5V2lYUGNzME14SzUtZkFFVS1yRjBSSkg5M2V4Ql91ZDZTTDViMU0wZ2NzUHdLVWVHTUVkcHc4RFk2U2YtTmgzZFFpY1g0U1M1c0tIS0YwckQ0eWNCX0xYN3FmTlNWNU5uUENWRUR5QnlOVHplcVdHY1BCMUVJazRjZw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The National News Desk",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-27T02:25:47+00:00",
+      "title_orig": "Anthropic model accessed publicly available Georgia voter data; no human authorization"
     },
     {
       "id": "858bf7d244f3",
@@ -451,22 +436,6 @@
       "title_orig": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing"
     },
     {
-      "id": "444eadf940b2",
-      "title": "Justo ahora, Anthropic lanzó un prospecto de 335 páginas: la OPI más grande de la historia, la empresa de IA con más pérdidas de la historia",
-      "summary": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
-      "sourceUrl": "https://www.qbitai.com/2026/10/505551.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-26T16:06:31+00:00",
-      "title_orig": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司"
-    },
-    {
       "id": "f16aefe89a6e",
       "title": "Trabajar con las comunidades académicas para desarrollar la comprensión científica",
       "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
@@ -515,22 +484,6 @@
       "title_orig": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases"
     },
     {
-      "id": "22010c9886ba",
-      "title": "Conoce a los siete fundadores de Anthropic mientras la empresa de IA se prepara para una OPI",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PbzlzS0lIOG1uTVhFNkR2U2NzSTJwc0xWX0xLOVFIRkVyblRlenRncmVaOHVlLTd3TkRuRTJBNGNoM3g5YlBWZUt0ZGxsdExtMncxdkhNc0I1b2RjSW9ybFB5SVd3Y1I3REctdVhsQW1Uc2hOMUJrTg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-26T13:34:56+00:00",
-      "title_orig": "Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO"
-    },
-    {
       "id": "64d59b55a8fb",
       "title": "El mundo laboral en expansión de ChatGPT",
       "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
@@ -545,38 +498,6 @@
       "source": "lab",
       "published": "2026-10-26T10:00:00+00:00",
       "title_orig": "ChatGPT’s expanding world of work"
-    },
-    {
-      "id": "aa4f71e55d39",
-      "title": "OpenAI comienza a entrenar el modelo más fuerte para la desconexión de la red: \"Por seguridad\"",
-      "summary": "模型开始利用GPU缓存聊天？",
-      "sourceUrl": "https://www.qbitai.com/2026/10/505529.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-26T09:37:57+00:00",
-      "title_orig": "OpenAI开始断网训练最强模型：“安全起见”"
-    },
-    {
-      "id": "47fc9c3de8c3",
-      "title": "KI-News aktuell: Claude umgeht Bezahlschranke – Kimi überholt OpenAIs Astra",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbnVOSkR2Z2xia3hwYmhpczVwelVYZVhpOEVVSTFiTEkxQnN3MWtIckxSUVlBeUNOSjBzLW1xcFpkTXVzd2UwXzFSNEd4dkYxcXJsVGJzdUZCZzRoR1RBaGxjY2x6LWU0d2twSF9KdU5rMHlLY2x6QzBSaG5NODE2TjlhR3BGckgyczRQdXp4SjJ2V0xDZUJUbFFGemQxU1hrS0ZveDhkY3AwSDhOT0huMl9LaEItVXNJbVVpQmxOd0o?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "claude",
-        "kimi"
-      ],
-      "source": "news",
-      "published": "2026-10-26T07:00:00+00:00"
     },
     {
       "id": "eb7708c5f537",
@@ -627,6 +548,23 @@
       "title_orig": "Künstliche Intelligenz: KI von Anthropic umgeht wohl Bezahlschranke für US-Wählerdaten"
     },
     {
+      "id": "23a40a0f3b1d",
+      "title": "La IA que se mejora a sí misma, nuevo y controvertido horizonte de grandes laboratorios como OpenAI y Anthropic",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNNjVKZDExMHlSRWZkSHFLU0V1RTFEYl82dFBrYTdEbGJINFBjdHRPdmxKYTRDd2NhaUMyMnJWcWdWdF9hQjBSVzdhTFBLaFFNOGRPdktKVExtWElkNW5zelJUQ1BMU01KYjNTUkE4NTdiVEdYSVpfNmRBa1hBVmZVZXU0UFZ1NGQ0Yk00cm5wS25SRnZ2SUFKNDFTWmUxZGk2OHFhOS0yeXNtZ0RuTzBIV2pNMl9YdHVkUFJ4eV9IMVJYTks2cHFmX0hDYlZLVWZDSjFtRjVIdUY1bUVvZlZReVRwUFlPLXQ4SENXSDJpRUNjbmp4V182STFKWjFHYzhMQzlkY3Fn?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Monde.fr",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-26T04:45:06+00:00",
+      "title_orig": "L’IA qui s’améliore elle-même, nouvel horizon controversé des grands laboratoires comme OpenAI et Anthropic"
+    },
+    {
       "id": "1758535ac6be",
       "title": "Presentamos GPT-6.1 Terra",
       "summary": "Bringing fast and capable computer use to everyone",
@@ -659,6 +597,38 @@
       "title_orig": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner"
     },
     {
+      "id": "285aa5bd17d9",
+      "title": "Inteligencia artificial: OpenAI quiere entrenar los modelos de IA más potentes fuera de línea",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaExTSUVrR1JXY254OTVaWWw1SmVvc29WS3AyMmFhMUdzM2pVaVhSLW1kTWR1enRlWW1kMUpMbEU3VlZlbTZBOEdiVTZCdnpCNnlkYm9CbUZsd1lPakUwZ1FkSW8yUVBydmxsVWYtTnZodWZWUDRBaUs1emFYRTNOSjRreXZYVFNIay1YbEF6eE1RQnluMHc?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-24T07:24:57+00:00",
+      "title_orig": "Künstliche Intelligenz: OpenAI will leistungsstärkste KI-Modelle offline trainieren"
+    },
+    {
+      "id": "1c1c858c935d",
+      "title": "Inteligencia artificial: después de los hacks: OpenAI quiere entrenar a la mejor IA sin Internet",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeG9DSXhEMzItX0NUcGpSWEtmUVJJdjF5UmROTDA3MnRNZTJRODFXek95SjdQdjRQYWEwZXZqV1pSd1VCZHgydldhS1JqMjJxZFE5QWw5eDJ3RXYxaF96bHVzSzd0a1VCVXdTUk5TNFpKakNWcVl2OUJmaTJPTUE0QUNUeV9WVzNYMzlpZGtnSHh0MmIxQ3NoaUtn?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-23T22:01:04+00:00",
+      "title_orig": "Künstliche Intelligenz: Nach Hacks: OpenAI will Spitzen-KI ohne Internet trainieren"
+    },
+    {
       "id": "298c8de07d18",
       "title": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT (Parte II)",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
@@ -676,7 +646,7 @@
     },
     {
       "id": "48e2274fdf2b",
-      "title": "Securing our frontier model training environment",
+      "title": "Asegurar nuestro entorno de formación modelo de frontera",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "sourceLabel": "OpenAI",
@@ -687,7 +657,24 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-23T10:00:00+00:00"
+      "published": "2026-10-23T10:00:00+00:00",
+      "title_orig": "Securing our frontier model training environment"
+    },
+    {
+      "id": "e66e9796ba6b",
+      "title": "Más allá de la cobertura arbórea: mapeo de los tipos de bosques del mundo",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-22T14:30:24+00:00",
+      "title_orig": "Beyond tree cover: mapping the world’s forest types"
     },
     {
       "id": "53db5cc10927",
@@ -703,6 +690,66 @@
       ],
       "source": "lab",
       "published": "2026-10-21T18:51:42+00:00"
+    },
+    {
+      "id": "996b33c09ad5",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-15T16:08:03+00:00"
+    },
+    {
+      "id": "58e4191fcfe4",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-14T02:00:14+00:00"
+    },
+    {
+      "id": "471508c04c30",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-13T19:43:07+00:00"
+    },
+    {
+      "id": "884ebf3c3978",
+      "title": "Gemini 4 Argon for Robotics",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-13T16:01:58+00:00"
     },
     {
       "id": "c1e94fc83136",
@@ -733,6 +780,21 @@
       ],
       "source": "news",
       "published": "2026-10-10T07:00:00+00:00"
+    },
+    {
+      "id": "4dd290070848",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": "",
+      "sourceUrl": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-06T19:57:04+00:00"
     },
     {
       "id": "5d9174dd4f1a",
@@ -880,6 +942,45 @@
       "published": "2026-10-27T17:39:50+05:30"
     },
     {
+      "id": "14837f180fdf",
+      "title": "Trump Says He'll Ban The Use Of The Term \"Artificial Intelligence\"",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTBMaGQ4bS0yaXBOeXd6bWRRWk9xX2c4ajhITV9qWkFUYTVqUlcxcVloR0dzdFQ0bVI5cGczMGZhQzdHVzZZT1VDZVlwZldCMktoU0lSNlE2NzhuZ2xobXE0aXF5T2kzd3N2ZXJCYkRtUUh3bU1PeWswSGpicUtPQTVaQ3FfMXhybVh4MDkzWQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Deadline",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:27:00+00:00"
+    },
+    {
+      "id": "8f7af07bed1f",
+      "title": "Paraguay joins U.S.-led alliance to secure AI supply chains",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVUUzZmdveFM3VUFWSFVfNnR6QmdXRlhCVzFCSzg4ZVkwazQ5NlR4VENvMWFBekdEc3RSVGNfQW5uTXFsSmc0R0JaQWhfZTlqMElwbTNtMVhwZGFrckRFd0c3WmpYaC04UEwxTWtzaG9iSjJPdHpQU1FTNGtpb3AxUloxYmxmT29nZDdOS2xFczg5eUtMVVJtaTh2cXI3YkMyeGo1c3l2UEJlbno1LUstU28wb0VvdkRmWkpGOHlHTHNmT3RQ0gHKAUFVX3lxTFBHd0wtRjktakxmamdOVEMwTVlCVENrclBScHJDdlZ1ZTFaeGI4amN4SXMxNW42YllCNjZpM3ZRQU9zeHJhQUhfNU9DN0MwQ2dqVnUwaHFmV2hKT3hxSHpOYy1LSVRKUGlnbnZTZ2duZ0swM0l4dm14alhkVzRtV05OdzNjQUFjWEttMzhabk9jYTNPU19VaGhzNFdSU2dmSHRaSFA3QzdjblYzRGhfNlJQZkJCNFRFYVY3dUNUa1dxeS1JaUxmZGtiOEE?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "upi",
+      "region": "west",
+      "country": "usa",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:22:08+00:00"
+    },
+    {
+      "id": "0335ff3e5394",
+      "title": "Build specialized multimodal models with LFM3",
+      "summary": "",
+      "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "sourceLabel": "Hugging Face",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "lab",
+      "published": "2026-10-27T17:16:52+00:00"
+    },
+    {
       "id": "3fba9192c925",
       "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
       "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
@@ -893,6 +994,19 @@
       "published": "2026-10-27T17:16:00+05:30"
     },
     {
+      "id": "c035bc8e234f",
+      "title": "Quince’s Merino Wool Tee Doesn’t Cost a Fortune",
+      "summary": "Merino wool is a super fiber, and Quince’s all-season tee is the perfect way to try it out without spending a fortune.",
+      "sourceUrl": "https://www.wired.com/story/quince-merino-wool-base-layer-tee-rave/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:12:04+00:00"
+    },
+    {
       "id": "9ffebaf1b25a",
       "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
       "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery",
@@ -904,6 +1018,32 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T17:08:08+00:00"
+    },
+    {
+      "id": "b6d0634bbab8",
+      "title": "Trump dice que prohibirá el término \"inteligencia artificial\"",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONmVJMERxeHNoSjRNV1hoQ1laUVF3OFR0ZUhqWjB3SEVodzFhTk0xRUJsOTdrVXE1S2JRLUdsLUdWTFdaVXBFWW0tYUVjREtIVVZuLW1rYXp0NmZMZWtfLVpDUU5iRHE3cmFNV0xfWVZyMmZ3eFpubmNfeGVfUnZGVEh5cDRKcUs4QkRBRlpIWEdFY2ItSTB6cndXMlp6OGdmUFU1RUxzYWY?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Yahoo",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:05:39+00:00"
+    },
+    {
+      "id": "6d44f7ade5e1",
+      "title": "CNBC Workforce Executive Summit live updates: AI and the future of work",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iWGtJLTh5eFB4ZlUtdHFabkI1Z1B0VlNMWmZLX2FncjNKYzNQOTdYM19sR2FoLVVudVhLT0JlS0JIdmxCcWVrRTNzcV9JUHR6RWE2RUJPLVJjbVFBWkpLNkV5NzVWT2pzQ09aTDBSSFdrdFpUZTJsQlNyY9IBgAFBVV95cUxPQU01YjZ6bUdEZzdGYTZDNE0zOGtpNzk2Ym1SS1lNcWRkUXJpT0o5NXVkQ2QzNUI4Q1VScXhQTjE1NVlJemJSZ3NablVkeHFMb3JnZzliZzJxWlp4NGxaemtpb2VuVWg5VDBIa3ZReTRzNjJDY1l6Y25VeFMyay1uMw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "CNBC",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:03:45+00:00"
     },
     {
       "id": "1ce9ccf10a03",
@@ -932,6 +1072,32 @@
       "published": "2026-10-27T17:02:31+05:30"
     },
     {
+      "id": "3a471ad86377",
+      "title": "Jay-Z lance un avertissement contre l'IA en plein concert",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45Um91OW9NVGdKd3BVQkwxS044SUw0a3JlTFdLcFIyeE96YXJ5RFFIRTFBMEg0Nk1DcnRrbDk5RVlQUDZTaU8wUDE2TmY4VkFYMk5FM1UwZFJUeF82d3dwemU1d040N1ljd2RTWXY2eWtzNFowQlhFVl9uYkgwbms?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Yahoo Life France",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:00:00+00:00"
+    },
+    {
+      "id": "4748462c2c88",
+      "title": "«Крёстный отец искусственного интеллекта» о рисках и угрозах ИИ для человечества: эксклюзивное интервью с лауреатом Нобелевской премии Джеффри Хинтоном",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fZS05cmExSExLRHNjYjNCOTR3czI0bm8wQkI2bkRMN01yTWp1NHBPNG1pdDYyYmhrWjFyTlhlOVdXcjlwQlNTNnJFTXRjVHdlTUHSAVdBVV95cUxNVTFRdFM4UmJHc2tCdlhhcVh0SFN4d21DNGtXb1pCLWVha3ZiUE81UVI5ZlpsWV9OQU92VTdqVUoxTG03Q2w2TGtfQVBUb01QcGRqV2dTS0U?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Armenpress",
+      "region": "west",
+      "country": "russia",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T17:00:00+00:00"
+    },
+    {
       "id": "c9ac2f19c712",
       "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
       "summary": "USDT volume on crypto exchange Mercado Bitcoin jumped nearly 800% and bitcoin volume surged 865%. Binance’s USDT/BRL market tripled while the global BTC/USDT pair fell.",
@@ -943,6 +1109,19 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T16:59:07+00:00"
+    },
+    {
+      "id": "e66d3db78da3",
+      "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVRjSXRpN1h1M0VqWWR5SFB1eXo5NHFsNjM0ZTNMNnB1bk5qUERfeVNhZGlVMGZzcHFoQ0xFZVU2dkFoaDRvQURfLVVlMlZDclh1S09Cd1BoNUF4MV9MdEhpUWJxdDNQWmlVUXNWcUpTOTdMNC1LRDY5M3luZXI2SXNxTkg2UUNYOFhEYng5VUQ1YW1jcHBBWVZjWFFMZUg2N1NtanQ2c2J4N1BQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Amazon Web Services (AWS)",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T16:53:02+00:00"
     },
     {
       "id": "c64d4188c21b",
@@ -1062,19 +1241,6 @@
       "published": "2026-10-27T16:30:57+00:00"
     },
     {
-      "id": "28443d4fe004",
-      "title": "AI Infrastructure Spending Extends Core Capital Goods Growth in September",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUUNoRGF6UGJWaFRRZUJwYkQxdDNjc0txekZka1dNSFMwXzktaUhDM05Zcy1FdWlaRnpJZjlQcVdtbmwyQ0R1MmJ4YlAwdE5aNE92Wmt6ZTk5a1pZUXBSQ05QSnZGQ2Zad0VkQ0c4SzRwTUdPYl8wS19FOERCR2I3ODhDN0ZNWGYzd1JsMkhyNkpLaWxFUGFoTGZEaUFEVXdmcmEwaHVnVDJGc1FKZE5KTnV1S05NM1ppam9iRGZkckFJQTZCOGt3?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "PYMNTS.com",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T16:29:23+00:00"
-    },
-    {
       "id": "b835e0d954d9",
       "title": "Trump says he will ban term artificial intelligence",
       "summary": "",
@@ -1099,19 +1265,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T16:24:34+00:00"
-    },
-    {
-      "id": "a5c04feb0f7c",
-      "title": "\"Ce qui m’a toujours intéressé dans ma relation à la technologie, c’est de la détourner\" : Jean-Michel Jarre, un optimiste face à l’IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSTdqM0FVX3VFRHRaTnRGaUF0X2ZjcjA1QW93UG8zdnJ5WUVLVk5OMnJTVVYzaDJRRHZoN1dSRm1jTk5hZlF1SU1kd0FyOGpBNzFObFIwVjVfSFowNzVjdUNrNGxYVUVfUmhxUERhdlBHYnhLN194VDROTkluVEJDQVd6YWphUWR4ZndLRW5TekdWX2N1UmprSVVCYnBvX2xPaUJZYXFRX3dLVnkwMlpVZXVON3czV2lJR2xhMmo4eVFJUUxEczRrVmFqSnUwdWZkTURvZ2NiMFBMaWlQQ1FmR3FveDJoRDNHdXMzeVpTRnpKY19GeXZDWkxtTXA0Tm45cHJZYnBpbVhpd2RXbUpEUGJR?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "lanouvellerepublique.fr",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T16:22:51+00:00"
     },
     {
       "id": "4b7fff0ca0c4",
@@ -1322,19 +1475,6 @@
       "published": "2026-10-27T15:26:12+00:00"
     },
     {
-      "id": "52956ea689f5",
-      "title": "PayPal Advances AI Plans as BNPL Payment Volume Rises 25%",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWGlTTkpkalQ3VmFxQkluRWJ4WEl1S3hHaFNLUlJtaDF3anM0MGVlSWpCMU5JT0s2b0FCV2MyWHNOUm9Vc1BJUWdFQldxZkIwY3R6YUFuWkNZMlNtaGJyR3ZOY0lfYmRmVmlGTkRPWTduRkJseDVwTE5tS2J4QUNOM0ZaOWZ3TFpLSVlGdzd3ZlhFSXFGSGtab0pqTm9iY2tLUlUwWFVsa3hOaWFGaUZNVlc4cjJNakdJTFE?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "PYMNTS.com",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T15:19:23+00:00"
-    },
-    {
       "id": "9de874df7c9f",
       "title": "The challenges of artificial intelligence in education shaped UNESCO’s participation in the 14th País Digital Summit",
       "summary": "",
@@ -1346,6 +1486,19 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T15:16:56+00:00"
+    },
+    {
+      "id": "ea826820304d",
+      "title": "МТС представила ИИ-агента для бизнеса — MWS AI Cowork сможет проверять документы и готовить отчёты",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQVdIcExCbkZZcHZQOTk0TkZJZXVad2ZUdWFUdVZlY3ZjUmJROW1Bd0UwZ3FLTHdJSnFWLTFVZk1DZFczd3hXUV9JSEliYzRfTkR1dDhBcHlhTl8zUkY5dXF4RGJBQWtjQW1WdXNoRGZnWHpiZURDSmZUVVNIY0ZESHZWdFN2dHc4U1lYa0ktTEVzSk5oVTE4QmxiWDl2T09kbVYwajlub3VlOHVXOUtBS1B6MzZVQ1lNM3pv?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "RB.RU",
+      "region": "west",
+      "country": "russia",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T15:11:43+00:00"
     },
     {
       "id": "084a28508608",
@@ -1413,6 +1566,19 @@
       "published": "2026-10-27T15:00:11+00:00"
     },
     {
+      "id": "25eb2fbf0561",
+      "title": "L’apocalypse de l’intelligence artificielle, un scénario haussier ?",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQTlLTjhKa3MzbXhNdTFaaUJCZXNHVmtQZ3RFWWRoYkJCalVDWVIwejV5MVI5US1JNDEzWGtoZzFsRHJyNDVyOUc0R0l2TXEzZ3o1emdMQmMyczdZS3ptc1NOUHVvcWFobEpzNWRpWGpuakRGZ3JCMHlPeVo1c1BGWUNaZWxzRmlGOFdUNml2VFFlaHFRNzlUd0JfVQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "l'Opinion",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T15:00:00+00:00"
+    },
+    {
       "id": "71c129a02b1e",
       "title": "La inteligencia artificial ya está en tu bolsillo y también en tu próximo trabajo",
       "summary": "",
@@ -1424,6 +1590,19 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T14:52:20+00:00"
+    },
+    {
+      "id": "29949385d27a",
+      "title": "MWS AI выпустила универсального ИИ-агента для решения офисных задач в периметре компании",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aV2tjUVRQZ21oa0w0UXJoM3BXc25pQTVTYkg5eG5zcGdsM2NGLXZCUkZMUzdwYnYwSXFZUkVVTGVPY1dfbFZ5UXlkTFVnTFM4V2pxS19jbktObzM0X3c?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "www.itweek.ru",
+      "region": "west",
+      "country": "russia",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T14:45:14+00:00"
     },
     {
       "id": "f2505cd1b57f",
@@ -1478,19 +1657,6 @@
       "published": "2026-10-27T14:27:52+00:00"
     },
     {
-      "id": "a6d72dd81b6c",
-      "title": "Gros muscles et peaux blanches : on a vu “L’Odyssée” d’Elon Musk créée par IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWtDdFI1V0pNZmN3M0hScWFmT1ljWjZEaVc2c1lxOVdyZmEzaEdOdDlvSUsydlVrMW9meHNOODVjWlc3am9QUlo2TmlYbWkyMWxRaGZQa211VWRCRDZLUk9QUzBZVlF5YklmbDBvM19UVThiSmlSVll1b1JkWTJTeHd5SHJKUXZTeXZ3bmZsaHRjVFB3bHNLUHV5QUYweENXT2h6dFNVLUVpd3VVT0dET3hBZkRXeGM?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Télérama",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T14:23:48+00:00"
-    },
-    {
       "id": "a9f5d030670f",
       "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
       "summary": "The $500 billion asset manager is launching an issuer-sponsored fund on Stellar, taking a different approach from third-party stock tokens.",
@@ -1515,6 +1681,19 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T14:09:00+00:00"
+    },
+    {
+      "id": "9e797def191c",
+      "title": "골드만삭스가 2,100억 달러 규모의 인공지능(AI) 관련 거래를 통해 막대한 수익을 올렸다.",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQODFUYkxQenV3RDB4MUZyM0dhZWNtdmVwc25CeGxrSEJ4N3laNkpYTHdlX0hpUkNpTExLLXNRdFlBMzYtQVZSWTQ4VGJfS0pOUlpzcmw4bVZvU1lmUHJqekkzcFBPcHlHSmQyQnJHTkZDYmhQZG82Y3NVVFpQQUlQbTdSRFRfdWc4VkcwRTVEcndHRGc?oc=5",
+      "sourceLabel": "Google News — IA Corea",
+      "publisher": "Vietnam.vn",
+      "region": "west",
+      "country": "korea",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T14:07:36+00:00"
     },
     {
       "id": "646189a2eb41",
@@ -1567,19 +1746,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T14:00:00+00:00"
-    },
-    {
-      "id": "7955f34abbc8",
-      "title": "Interview with DXC Technology – Genuine experimentation and invention in the age of AI",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3lzNUJ4UmNJS1JhQmNWRnVjX1pSUk8wZnFKZ19nX3U3a193aVNJZ0Fxd3A3bzREWFRuZ3l1WkRyNlRwWjUxYVpsMVFLNGEyTndOS1JCZTFEQkczRXZpcmtLaWw5RDltTU9ydUdoVHFGUC1tbFltb2VPUktWWUF6RFNrUktrTWhtMW9JdGV0T3YzTFRmU2pOWmYtc3Y2T2xMX0gyaVE5U2ZHS2VpNVA4VTcyZ0Nwb3N0UVVR?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Netzpalaver",
-      "region": "west",
-      "country": "germany",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T13:58:42+00:00"
     },
     {
       "id": "c114f31bfa3c",
@@ -1658,19 +1824,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T13:32:06+00:00"
-    },
-    {
-      "id": "404a10886a49",
-      "title": "Ils ont mis des neurones humains vivants dans un ordinateur : leur objectif pourrait transformer l'IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNS2xXYlBBMEwzRFk1QVlaaVZsWkxMTHJ3bUgtRGJncFJIOXNYcW5ZaVkxR0pWV1phck12elZQN1lUc0JTdnJpd1VUR0g5S19fYVg3Tl90SERCNFBMZG8zRE5KTEx4dGhRcDhuX2hWZWQ1Z2Jsa2poT1RBQ2V2MlUySzFBZHE0QUdxdy1aZTZ0LU9GREh3aDA4QXpTRzNpTk9xazVleFUyd1o2bVZ1SHJMRlVKRVNFV3IzQXYwTWkzdF9OZ3ZRMVRRbGZaZ2owZ3VpVmE4T3FjcXdBM3J1YVctUVBTY2ota0hFT2xRVktITTV5RldLRGg5bmZRTQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Futura, le média qui explore le monde",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T13:31:00+00:00"
     },
     {
       "id": "41ce8592d3fb",
@@ -1777,19 +1930,6 @@
       "published": "2026-10-27T13:13:50+00:00"
     },
     {
-      "id": "47957e46e770",
-      "title": "Zweijährige Rally vorbei: Chinas KI-Blase ist längst geplatzt",
-      "summary": "Zweijährige Rally vorbei: Chinas KI-Blase ist längst geplatzt - mit harten Folgen für Kleinanleger n-tv.de",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczA0TnVBaDlsalFVRWhITjhrYk5feFFxZTIzeHh4bEFyUFBiWVpDZnh1OXVCeGdGUXB4eVhBZVdQV2pBaFpmb096QzZudmNvcEV3aEJLZGh5dnBoSDc5WVVocW9Qa1dIbjZIOFkwSXM4dTc4QjNZU1h1WmhMaTBFbk1PVHA3elJtWllJUFdnNXBQdF9WeDJKZ01jUUVzalZvVUpZT0R1enlDMzZmU0VKSG1YbFFPMVJQWFpz?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "mit harten Folgen für Kleinanleger - n-tv.de",
-      "region": "west",
-      "country": "germany",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T13:06:47+00:00"
-    },
-    {
       "id": "c3f55709f5e3",
       "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
       "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
@@ -1814,6 +1954,19 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T13:00:00+00:00"
+    },
+    {
+      "id": "fffd4b67f0fd",
+      "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+      "summary": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。",
+      "sourceUrl": "https://www.qbitai.com/2026/10/505865.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "lab",
+      "published": "2026-10-27T12:57:51+00:00"
     },
     {
       "id": "016fe7e918e7",
@@ -1933,6 +2086,19 @@
       "published": "2026-10-27T12:00:39+00:00"
     },
     {
+      "id": "908c16d6eafe",
+      "title": "“Hay que tener más miedo a perder el empleo por no usar IA que por usarla”: Jon Hernández, divulgador de inteligencia artificial",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORVhrbE1JaE9SeHJFZGwwaHowMlI1a2hyS05IYzdRT0Z6ZjJJd1Atek85U1l0UmFHcXBodE5WWV9rS1I5SjMwczR3OWkzekl3TERTT1JQbHQwN2hQa3hLQUNoQ2ZfSG4zTGdvWFcxZmRLZE9SWWFKQ2Q4TWJydVdlS0xOR2ZWc0poTHI0LXktaml3XzFaRm55YmJ5RUZfQnRkZHNpT2hrMlV1UUE0eUltMUFLVFJYU2tzRVlQUnF3SkQzUVNoaWZ1VlgxUlN0bnFlSF9SQTRxS0FBV2ZFTjFkUF9lQWxwa3l6Q1RYMjZNQWJRMmdMTUFMVGNB0gGUAkFVX3lxTE03c1gwdEZ2TEJCRVh6X1hmZi1GRHpUNW5jaEZnbGc3ai0wRUFJSUt0NUtzLVFrMnZVdEt4MGRsX3Y4NkZINlRBOVl0dkdDRGtTSG1BSkJqN2xHNWEwOTNHZ3ZiUHpiNzRxMzI0a3BuMV8zSEx5UU1xRXhWcGhDUUVGZ2wyX0lhTmh2UVFyV2M5T2ozNl9hdllKVV83Z1R0V0ViQmZKTlc3R0tGdVhSenhNUzhwVERMY0x1RWc4NGFtNFlQVUNfSFRmZVJGRnpWMGx6dzZoLXZQWlEwNkh2WFBmSFMtajl3OGY1MXBDanBxLXhLalNWWl9xWjdfVGh1cGhRUjBDUUlEUS1NQ3BoWk5POWpHbQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Infobae",
+      "region": "global",
+      "country": "global",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T12:00:00+00:00"
+    },
+    {
       "id": "fb37ccf8e006",
       "title": "50% пользователей ИИ ставят на первое место проверку его результатов",
       "summary": "",
@@ -1959,19 +2125,6 @@
       "published": "2026-10-27T11:58:42+00:00"
     },
     {
-      "id": "20bcc4ffdc3b",
-      "title": "Australia advierte sobre una amenaza \"sin precedentes\" de la IA",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0xkMW5LeExXYjhsbURRTU9BaUpjc0k3Uzhva0dDeFNGNTBiaDlRNlBMbngzNVZKMmhQVkRlbHZxbXhDdE5yTk9qLWp4ZTlkSk53dDFNTnJDaGw5ZFJQX0pYLTZJNHAwek9yOXl2dGQyRVoySFRKZGpaNVhsb2FTcW5UYlUxQ1pYeS0tbElwaEwyczJtcG9rX0h3NVRmckU?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Yahoo Finanzas",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T11:51:06+00:00"
-    },
-    {
       "id": "c99aa3fd55df",
       "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
       "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .",
@@ -1983,19 +2136,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T11:49:57+00:00"
-    },
-    {
-      "id": "3aae13badaee",
-      "title": "Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital",
-      "summary": "Interest rates and oil are slipping and equities are rising, but crypto remains under pressure.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T11:40:50+00:00"
     },
     {
       "id": "63878664dc1e",
@@ -2024,19 +2164,6 @@
       "published": "2026-10-27T11:34:48+00:00"
     },
     {
-      "id": "d19d3a4e53f1",
-      "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
-      "summary": "Bitcoin fell 0.4% to around $79,700 since midnight UTC while Asian tech stocks rallied. The DeFi index dropped 1.8%, and the Fed is set to begin a two-day meeting.",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T11:32:45+00:00"
-    },
-    {
       "id": "23bed3cb727c",
       "title": "China’s Hengrui posts 89% rise in third-quarter net profit, beating estimates",
       "summary": "Jiangsu Hengrui Pharmaceuticals, one of China’s largest drug makers, reported a 20.55 per cent rise in third-quarter revenue to 8.95 billion yuan (US$1.34 billion), beating analyst estimates of 8.55 billion yuan amid stronger innovative drug sales. Net profit reached 2.46 billion yuan for the three months ended September 30, jumping 88.92 per cent year on year and exceeding the Bloomberg analyst c",
@@ -2048,19 +2175,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T11:30:27+00:00"
-    },
-    {
-      "id": "63205b78230b",
-      "title": "Зачем Big Tech знать, над чем вы работаете? Scale AI обвиняют в слежке за тренерами ИИ",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUluWFpWQ1BVNjJTZ2s3ZFdycTNBS09IdG00eTRYYTJ6UEduUGdZZnhZM0kydHp0U0JCYnZWV2lpb0prai1vUUEwejVJalJvWEZGWXp4NllQV21sUTNRazRnTWRrSXQzM3ZNaGR2OE5KbXYzcnNQZDdtUzBxRnRjZ2VYRTY3T0RZOTVSVldKa0dZX1ZDems1T25XaFE0RmlkMHBtWElrTlpjTkp3Z1VJRTlZM21TQW5pS2xzQlYxZUY?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Euronews.com",
-      "region": "west",
-      "country": "russia",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T11:20:12+00:00"
     },
     {
       "id": "2281f7a9d791",
@@ -2076,69 +2190,43 @@
       "published": "2026-10-27T11:20:09+00:00"
     },
     {
-      "id": "9dbb9e5222c0",
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor…",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-      "sourceLabel": "MIT Tech Review AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "research",
-      "published": "2026-10-27T11:19:18+00:00"
-    },
-    {
-      "id": "b1b914e55cbb",
-      "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
-      "summary": "The breach exposed 25,964 buyer records, some kept past Keystone’s 180-day deletion policy after an automated tool failed without the firm noticing.",
-      "sourceUrl": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T11:13:54+00:00"
-    },
-    {
-      "id": "643f5a79f3b9",
-      "title": "11/11（水）から3日間、「NexTech Week 2026【秋】/ AI・人工知能EXPO」にブース出展",
+      "id": "1aeef46b46bc",
+      "title": "Pourquoi une banque centrale devrait-elle s’intéresser à l’intelligence artificielle ? L’exemple de la Banque de France",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kbWJ5bzBsdkxFRGF1YXU4bFFCOXpXek5RUmFxVnZJSHE0MDNPVWlhY01oc0V5WDlBRThJYmhxajZXNVZtQUZYY3p3YkpnYmlrUmx4OFd0YXZMVG93ajlWVWdCVmFkLWdlYTV2amZR?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "AIsmiley",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLTI1RU8tb0Znay00R29DQ2ZlSl9EMUlaaWRWclpqWjhkZ0NYVVBURnlXckZCSnZCYmlPcUhjRFZ5Z0E4ZWkzbXBxcEJfbXpVVU56UHA2bWc3azdZRGJQLWhMVmFhRGpFNV9WQVFWa3k5M3VEaWZRZ2tjWTRBeDdndjdwaDVXMWhGd0tRb0FfQThCQTk2YkU4dUZiWUY5cmFFeTZ2eEt6UGUzV2FPTEJiQk5ZZG0tbWlnTXVCdmFYRDVUQWV4ckxsLXRxZERxZm9uSlJwWQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Banque de France",
       "region": "west",
-      "country": "japan",
+      "country": "france",
       "models": [],
       "source": "news",
-      "published": "2026-10-27T11:09:04+00:00"
+      "published": "2026-10-27T11:08:38+00:00"
     },
     {
-      "id": "48381ae8f920",
-      "title": "U.S. Pensions Are Riding the A.I. Wave. For Better or Worse.",
+      "id": "e4f18967f593",
+      "title": "« L’intelligence artificielle peut être un formidable accompagnateur » : le Grand Est veut miser sur l’IA",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LTlJrMGo3UjlqTDBpQ2hCcDFUbVdBWUtFRjhSMTJCdWxqQVgtTURUNVpESlhjbU5NeVZLc0tpbGJVaERSVFF4YnA3RDlqUWl4czNFMWJzenI0M0RNSElTblF1QXBGb1VSX29zSQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbUN4OHNGV1VuSlpqWktFdEoxSXVOdy1sNjM4dmp5cEhqOG9Vbm9SSEwycnFTY051OEt5MlZZY1AzUGVodE1QUU9SZDFZMmZPT1BUWUxTenBGal9HOXhNSWczQXpiZFNIbHNhbE1IS0ZGT1hseTVfdkh5bDJHbnFOM3NZWUEtY19Sb21hbHF1UXc2Y2M?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Tout-Metz.com",
       "region": "west",
-      "country": "usa",
+      "country": "france",
       "models": [],
       "source": "news",
-      "published": "2026-10-27T11:06:48+00:00"
+      "published": "2026-10-27T11:00:13+00:00"
     },
     {
-      "id": "b1589eaf66a0",
-      "title": "Pop Mart reports 45 to 50% revenue decline as Labubu sales weaken across major markets",
-      "summary": "Pop Mart, the Chinese toymaker famous for Labubu collectible dolls, reported a 45 to 50 per cent year-on-year decline in third-quarter revenue, as sales weakened across its major markets, with overseas operations and online channels bearing the brunt of the slowdown. Revenue in mainland China fell 25 to 30 per cent in the third quarter from a year earlier, while revenue in Asia-Pacific markets out",
-      "sourceUrl": "https://www.scmp.com/business/china-business/article/3372313/pop-mart-reports-45-50-revenue-decline-labubu-sales-weaken-across-major-markets",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
+      "id": "cb3239d6be93",
+      "title": "Chauffés grâce aux algorithmes : ces villes françaises qui réutilisent la chaleur de l’IA",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeVBmUm1SamFvN1I1eGN1U1ZGY1lEbTRCQ3RIUFczVjdxSU10Q002UjdicDN1emNFdEVmVEVUVkJEM3BhTVRBWkFRbFM2ZHhJWFY1YVF0VG5wd0Y0Ti1nTjAxZWYwdTFaMV96a1RSUmlpY18ydlBkYU1CWE5nY0xDbDYzVUl6ZVZwTlpkRFY3cmlERUN2VmZORmNZY0hRRmlucXNmZF9kRm12bUNDY1NOTGFIcHJ0NEVyeHNfQzF2SjA2dURZNV9kSlQ0c08xSWZvendLZ1dtbXBwMThyY1FtTWs0Q0lYRUxQczgwOGZ0R3ZXQQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Futura, le média qui explore le monde",
+      "region": "west",
+      "country": "france",
       "models": [],
       "source": "news",
-      "published": "2026-10-27T11:00:24+00:00"
+      "published": "2026-10-27T11:00:00+00:00"
     },
     {
       "id": "b007bafd9ff1",
@@ -2193,17 +2281,17 @@
       "published": "2026-10-27T10:38:20+00:00"
     },
     {
-      "id": "3c05963fba72",
-      "title": "Hochschulbildung angesichts der Auswirkungen künstlicher Intelligenz.",
+      "id": "a4cbeebf4275",
+      "title": "Китайский бум искусственного интеллекта обернулся потерей $480 млрд капитализации",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWlzNzVhelY3QWNQLVZqYmFteWEwYWtNa0xrQzBWc1REU1hwWmQzRXgxS0xNQ2FxR25FR1hYUllxbmtKQ3U5OHJXM0x3V2s0QlN5cW8zUHJxZElCRkFKNzNFZGpSejBkcmFNc3QzdThwaHdlLVJBdEZyNnk2UTU0dWtMVEw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ0ZBS0VkZFp0eDdLa2g0WFhMOTlNSldnZ0g5b3pXS1R2QkU0OVUxSXB5RDZjQVJqaGlQbTh6dnlCN1liNHdGS290QkFHU0Nic0Fkd3ZOTXhpVFAwSUpyUEVGdnB3U1Y1NE1KbFM2ajF6NmhZNWIzYXhjWXJKMVB5UmpLakJwVnFJcnBtT29vcnN3N0hOM2pvZ3U1OG1GbTgwSE1ITmdJY1dXWXk0QnZ0SzNGTF8zZEk?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Компьютерра",
       "region": "west",
-      "country": "germany",
+      "country": "russia",
       "models": [],
       "source": "news",
-      "published": "2026-10-27T10:22:22+00:00"
+      "published": "2026-10-27T10:09:00+00:00"
     },
     {
       "id": "6b209f7698d1",
@@ -2258,43 +2346,17 @@
       "published": "2026-10-27T09:45:31+00:00"
     },
     {
-      "id": "a4cbeebf4275",
-      "title": "Китайский бум искусственного интеллекта обернулся потерей $480 млрд капитализации",
+      "id": "d3899173a9fe",
+      "title": "In the A.I. ‘Robogym,’ Machines Train to Be More Like Humans",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ0ZBS0VkZFp0eDdLa2g0WFhMOTlNSldnZ0g5b3pXS1R2QkU0OVUxSXB5RDZjQVJqaGlQbTh6dnlCN1liNHdGS290QkFHU0Nic0Fkd3ZOTXhpVFAwSUpyUEVGdnB3U1Y1NE1KbFM2ajF6NmhZNWIzYXhjWXJKMVB5UmpLakJwVnFJcnBtT29vcnN3N0hOM2pvZ3U1OG1GbTgwSE1ITmdJY1dXWXk0QnZ0SzNGTF8zZEk?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Компьютерра",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVFBOaUFWYzdPdWticUxKMVBOUS1rdDI2bFVEQ3NvRHBUVnhUWkVDYU1TMjQ5Xy1QUE9kR2VtRWp6QUpfQWMxcFY0Nmg1V09YNFp5SVplaUN5azRWdzREdURHb1JER2d0LUF3dzgzSWRFVmVNYmJycnAwa3lUd0pJM3poem5QM1U?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The New York Times",
       "region": "west",
-      "country": "russia",
+      "country": "usa",
       "models": [],
       "source": "news",
-      "published": "2026-10-27T09:15:44+00:00"
-    },
-    {
-      "id": "d49faef9fb2b",
-      "title": "Pourquoi une banque centrale devrait-elle s’intéresser à l’intelligence artificielle ? L’exemple de la Banque de France",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNWUFjV0pxZm5Qdm1LdTFTWUtWakFJZ2NpMzRiSzlPN2RxT3VNcVZLMEF3cEpJRkdUeDJCVHlWNGtRajdDbnhEVVZGbV8xV0c4WFY3MEFHejAycGhickZrbkU0UTNhRWZEY2ZpaFBCZ3VoSG84T1FJQ25HazNfX015ejFBSFRxVV9sYmNYS1VoTGVQSTc5VlRQT0dNZGhiTHZuUUxldElNbnZYd01qX0hyOXVSZW9OSnUwdzRSZnAzdjcwT3Vac3VIam1jLXQxNWlhdUVxVzZLX3Baa3lySFB5T3pYS2p4U0s4aGk0ekIybG5VU0FIN3V4ZkFMU2N5UQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Banque de France",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T09:06:11+00:00"
-    },
-    {
-      "id": "998976e6fedc",
-      "title": "Richard David Precht: „Ich wünsche mir, dass Friedrich Merz sich die Warnungen des Papstes zu Herzen nimmt“",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPeXkwLWxRV3psdWlXUEpiSi1ZcDRjVVJtSkRvLVo0MnY4RmpjZ0RvMXpQby1WTEE2WGlyblc1dDNhaHctZEtuMGRxNURjcGotTzdPaXpNdlBoOUc3RmdCR0ZMMV9BVWtVZHdjLXNpZlVHamREUGhkTTdMN2hjbm80Q0NyV1g2a2dxaElBeG9yR3Vlc19aQmFyN1gza2UwZ2NlVDNEQkNkVTNlYVpnYXl1UWptaDZvQ3htYjZibmtpNlJBUC1MX0MtYjlWN01Sa1pvejVIR2JGYzRvMWJDUFdjZmdDdFZjUl84d2EtY29INDU2T29kbkpubGo2T0Y4dHdock5QWEpTSVF6MUk?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Augsburger Allgemeine",
-      "region": "west",
-      "country": "germany",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T09:05:00+00:00"
+      "published": "2026-10-27T09:02:36+00:00"
     },
     {
       "id": "8d72269586c2",
@@ -2323,6 +2385,19 @@
       "published": "2026-10-27T08:46:56+00:00"
     },
     {
+      "id": "860349c7b834",
+      "title": "「十分に発展した人工知能(AI)システムが適切な安全装置と監督なしに開発·配布されれば人類に破局的·実存的危険を招く恐れがある」 アントロピックが26日(現地時間)公開した証券申告書(S-1)の中で",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QZi1uSUlnQk9kM0U2dEluTkhMSEpqVzBoZkx5UGMxZW1JU2tGMzlWeEZuSjNnbzQwZ0JQTTFDeHZsVlRoQ3pEUXQybw?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "매일경제",
+      "region": "west",
+      "country": "japan",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T08:43:52+00:00"
+    },
+    {
       "id": "6619499dbbda",
       "title": "Холдинг Т1 предложил способ ускорить внедрение искусственного интеллекта в бизнесе",
       "summary": "",
@@ -2334,32 +2409,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-27T08:30:00+00:00"
-    },
-    {
-      "id": "bd05b47add46",
-      "title": "Наука, искусственный интеллект и будущее России",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOUdDM2ZWZzc3Yi12ZzJpdC1qZHhkTHhlZ09WSzJ1WWtsV0pxSGExZVRDbUxqVHQxVU94SjFTVVctaF9laW0zVlNkMkxuYTRHQ3RPVWg4Yk41WEl2SEFDaHgxb0kxdlZhSFhxcmRTZ3RxRWpsWEJxVnozSnNTZlJVQl9OSHU?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Портал Северного Кавказа",
-      "region": "west",
-      "country": "russia",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T08:24:11+00:00"
-    },
-    {
-      "id": "8d9e1a42ee71",
-      "title": "Aux États-Unis, les spots de campagne générés par IA en vue des élections des midterms se multiplient",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNVjNPT0RZQjFlczV5Z3BsaENqOWJKYXhHZ1NGcWwtNlhrODY1dVowRTRDRV8tUUlPbnhtLVJxM25MaXVRdHFrYTF0cG96b2U0X0NFOUYydDhJTW41MTY0Y2F2dEh6ckZyMHdFN2hyelI4ME53T0lZZGZKLWU3STVoMF9yTWphY3BBWC1ZMXB2bVNlR1lVMFVNYXItNWMtMy1VdmRSb2ZWTE5iMENkYmw2Und3UWRRV0JVWnc1TjYzWGxJYi1kMFBGSlczX0diMGtONktXU09qU3dZMFIwSFRQNzA1VWVhdU9kQi1jcksxWWlBbE9wS01yQlZoM2U?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "franceinfo",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T07:46:23+00:00"
     },
     {
       "id": "f45c48971d7e",
@@ -2479,6 +2528,19 @@
       "published": "2026-10-27T04:19:32+00:00"
     },
     {
+      "id": "6ec067c8af71",
+      "title": "Top 5 IA du 26/10/2026",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQUNKQU9SSktPdGQ0UWIydzJ1ZXB1cWhTbmg0cDNIUUlzYVpsLXpZeXZJNDUydHZUa0RrQWVZM0dzd2d4Q1BuZ2NMRkNxVkJnSHAwczZvLVJaMWk2bzItZDBwRG5fSkE5b3dTNlpwNHJWTkFCN2xKbzk1YVVjQkRxYUw2T3hvX1FjSFRwM25OUHFzYjd0ZHllaWExenh2MnZHdVHSAacBQVVfeXFMTWwwTmFCeDVYM0RFNkJqaElUWE5Ib19fWnlUejFiLVhrLUdPcnJVdzJuWWZZUzRMZFZGM3ZYV0lZcEJ5YzZMLUZSMUdXUXRlZVlYTFhRWEFNMV93clJJdlFmNW1CZjZQdW10VkxlMm9peFBBa3pMT0xUajZlQWd6WGdveUo5Vk16Z1gxeWFtSVJoc1ZpS0ZiRWtmeklqQmZnNEJheHAxdG8?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Boursorama",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-27T04:00:10+00:00"
+    },
+    {
       "id": "a31ff9630b28",
       "title": "招生宣讲 | MSc in Ai—商业人工智能方向成都宣讲会安排",
       "summary": "",
@@ -2487,19 +2549,6 @@
       "publisher": "新浪财经",
       "region": "china",
       "country": "china",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-27T04:00:00+00:00"
-    },
-    {
-      "id": "e9b7d43d3ce8",
-      "title": "Martin Suter: „KI weiß alles besser als wir, aber beim Kreativen wird es schwierig“",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMFRUVU1rUjZCRFFDVlMyVk5RQ05TeDdKbXMzSzZIQU1tbTdNT1JNY1pOLTM2SDBGRG9kVVlzbHNqcTFvQUs5VzVjLTBCMXpOb3hYLTVoQWUyWU5sQ1E0S3pTWlVwZnVmRDVCTGZaWG5rOWxQZzNwVjVnT1hzNzIxQ2lIaC1NWG4zVXc2alNIa0dNR2huUDM0eUFwRTJKQU1RdzNoVEw4ZGtucUlDMjhhQ3NvRmFMSFdFZTlaTDhqbHZvOXZ4WS1Jc2FQUlFuUGs?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Augsburger Allgemeine",
-      "region": "west",
-      "country": "germany",
       "models": [],
       "source": "news",
       "published": "2026-10-27T04:00:00+00:00"
@@ -2609,6 +2658,19 @@
       "published": "2026-10-26T21:30:04+00:00"
     },
     {
+      "id": "f0adca3772df",
+      "title": "Wall Street clôture en hausse, l'IA reprend des couleurs...",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTDFoX0pWYWhUbU50aHlQaXcwMEFYWHdMcmEwQlRXR1VtVkRrUUk1Uk1MYnd4SHRpWUZoYVBZMGo2d3Z1VGlJR0UxT2U2cWY5ZVlKUXhMcW14dXpfUks2Z2dLS2ZBV1d5WWU1UnJLNnhkZmZZbGxCdVQ4NHphY1ZORFJhMkx3dnRQaTU4LTBRYnVpNmtnVUxaNk15MkRyNU5uZ0Fr0gGoAUFVX3lxTE1PWVlDeFRlMERRNzY2SXQtV1NvNnBZOWxHM21PRUlFS3lUbnlsbXVMRS13THkyS29Uc0dEWXY5RzVmOHFLbVd3dFJzbzI3TlFQTUVIOURicWY2V0NtamlqRF9xcHpLWGtuNjIzVHE5c2RmUmtwSURvTFpCd1Q0eDlucjRqQmJrZFRlLUhONU1ZNGluTHhhdGNfR3BLYjF1OFRnVjNQYkc3Nw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Fortuneo",
+      "region": "west",
+      "country": "france",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-26T20:06:00+00:00"
+    },
+    {
       "id": "89ba386f0244",
       "title": "栃木：人工知能（ＡＩ）でデマンド交通実証･･･芳賀町とホンダ、２９年度に「レベル４」へ：地域ニュース",
       "summary": "",
@@ -2713,30 +2775,17 @@
       "published": "2026-10-26T14:30:27+00:00"
     },
     {
-      "id": "6afb58075ec0",
-      "title": "В Госдуме прогнозируют использование ИИ к 2030 г. в 95% российских отраслей",
+      "id": "0adcfd23c10a",
+      "title": "Shigeru Miyamoto (73 Jahre) über generative künstliche Intelligenz: „Selbst wenn die KI irgendwann alles übernehmen sollte, wird es immer eine Rolle für uns geben“",
       "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FMXBKamp6RXZUUVp2d2xJUVA4a1p2UEtJb3ZHaGQ3QTc4Nzc4VE10RzEwYmdOcGg5S0NDQ3ItRUlBbTRFOElUUlJiUdIBS0FVX3lxTE5FMXBKamp6RXZUUVp2d2xJUVA4a1p2UEtJb3ZHaGQ3QTc4Nzc4VE10RzEwYmdOcGg5S0NDQ3ItRUlBbTRFOElUUlJiUQ?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Интерфакс",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ25qaEJWZW1ZNG9DRjJ5YlJVeTF3M1lnNHZsS2p2WUJPNmZhMmxqdWllTTF3VDg0LTBXWE5yenIzVlh4S204a0lIZkVuQkZMYUFLLUNBbl9EZXM4TGxrY1kwZnE4Q19DV0ZNMl9FMlpQTldJWmpKQ1lwVVZjaE5BcFBienNJeWZwWlE?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Mein-MMO",
       "region": "west",
-      "country": "russia",
+      "country": "germany",
       "models": [],
       "source": "news",
-      "published": "2026-10-26T11:24:00+00:00"
-    },
-    {
-      "id": "1158a2f43869",
-      "title": "アニメ×AIに「フルスタック」で挑む—AiHUBが目指す制作基盤とは？",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Db1FmMHk1QnB5eUVxbDdabHN4ck5zak9RQTl4Ql9MdUhDU0FFc2J1VUx6cFB0T3Nsb0pzTGc1S1hUczZZdVZIdHgwbw?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-26T09:16:43+00:00"
+      "published": "2026-10-26T11:19:15+00:00"
     },
     {
       "id": "94b1f8a4327c",
@@ -2750,58 +2799,6 @@
       "models": [],
       "source": "news",
       "published": "2026-10-26T09:08:04+00:00"
-    },
-    {
-      "id": "a6ebd287ad28",
-      "title": "L'entreprise devient un acteur majeur de l'IA: SpaceX emprunte 40 milliards pour financer l'achat de puces pour intelligence artificielle",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOQzJjVm4zbVpCQzUyQ2pHbGdPRDZMZzhMWC0tVXBMYkhCeXZpdHl6eUIxYkFRalFkRW5nY1QyRHozcW5wa0lSSno5cnJaNDh3WjFDX2U3SG5FeVVrWUxWOXpWUEZLSklBNllOQWsxNW1JeEtsV1c2TU1yLXJNUnNWOGxMSFd0UjI5MkRVVTk3ZFFGcTJBY1ZNM005RnZKM3NIOHhtbTFmOE4weWhJSGxDNWdYdzVsRDRZVDZnRTF5NnhWZVZVOGZ3MWc3ZFhBQ2N4bVJ1ejMyeV9WTGg4SW9EN0dGZUZsbDFjN3NDRUpkcndmeGFlZUVoMGE3MjFvazFLamtobWgweXR1c2l4NzZGbFVJSTFaUlJ6NG8ycFdLVVhySUpDdGl0MElZbw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
-      "region": "west",
-      "country": "france",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-26T05:38:49+00:00"
-    },
-    {
-      "id": "fd706956134c",
-      "title": "中国、ＡＩ関連失職の影響緩和へ政府機関に指針 再就職や訓練支援も",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMU10ZzdTX2l1ZlpqQnNiemtCVmhfUW12UGJFYmZfekNuUmZNWFB5Q1hTM3hpazJnb3JlNlpYRkt6OW5qdEtUcmE4cHpJSjcyY002bnV1cXN0VDFIdUFXWHp1cy1mRWxJOVVNb1lHbXRXcndsZlhjclgtby1aQ01GMFE5ZmIzQQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "Reuters",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-26T01:50:00+00:00"
-    },
-    {
-      "id": "9c5f2db7f231",
-      "title": "人工知能分野で著名なYann LeCun氏教授の世界モデル（JEPA）を解説する動画を紹介",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BcW9ROUcxRUk2Z0FZaU5aZmJlQTI3QTMxNHdhbXo1ZkpITVRoM1lqcTBUeDVHVE1CZjB0RGoyOXlncDI4ZmtjdURydw?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-25T23:06:05+00:00"
-    },
-    {
-      "id": "979de2fe8b93",
-      "title": "【arXiv最前線】自律型AIに潜む「信頼できない思考プロセス」",
-      "summary": "",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOeFZhTFVRd2gwanFScU1zbmd3WkJtbUtRRTJzMVNBdG5xWFZfTFU5MVY0V0ZQWTNTdG92NXhuQ1UzTkdGUzBqMmlXNA?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [],
-      "source": "news",
-      "published": "2026-10-25T12:35:34+00:00"
     },
     {
       "id": "1a4147d6e8f3",
@@ -2828,6 +2825,19 @@
       "models": [],
       "source": "news",
       "published": "2026-10-25T00:51:56+00:00"
+    },
+    {
+      "id": "b28ea83a49f1",
+      "title": "KI-Experte: So verändert Künstliche Intelligenz die Medizin",
+      "summary": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaHVlVmw3cDlkUTlNc3F4RG5DMnoyTktiekdLNi03TWwweVJveEJQdjFUdDdiY05xLVRYaG9JaXdxdTlCdnVsRXVfVjZMZ1RGQVkyZVNCd0FzczdvQm9BLW1zUlZKQkttejE4UWJFWWU1N0wyRFhXNDlqal8tQ0d1U1Y4VWI5Wlk?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "SWR",
+      "region": "west",
+      "country": "germany",
+      "models": [],
+      "source": "news",
+      "published": "2026-10-24T07:00:00+00:00"
     },
     {
       "id": "fdba231ea5f0",

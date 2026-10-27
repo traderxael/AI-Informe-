@@ -6700,7 +6700,7 @@
   },
   {
     "fecha": "2026-10-27",
-    "total": 1035,
+    "total": 1036,
     "items": [
       {
         "titulo": "Genie 4: A new generation of world simulation",
@@ -6820,6 +6820,15 @@
         "fecha": "2026-10-27"
       },
       {
+        "titulo": "Build specialized multimodal models with LFM3",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+        "fuente": "Hugging Face",
+        "resumen": "",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
         "titulo": "Can we trust LLMs to judge whether a research idea is novel?",
         "url": "https://huggingface.co/blog/allenai/novelty-bench",
         "fuente": "Hugging Face",
@@ -6865,12 +6874,12 @@
         "fecha": "2026-10-27"
       },
       {
-        "titulo": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-        "url": "https://www.qbitai.com/2026/10/505865.html",
-        "fuente": "QbitAI",
-        "resumen": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。",
+        "titulo": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+        "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
         "seccion": "novedades",
-        "pais": "china",
+        "pais": "usa",
         "fecha": "2026-10-27"
       },
       {
@@ -6880,15 +6889,6 @@
         "resumen": "Former Morgan Stanley and Weiss executive Jordi Visser says AI agents are boosting demand for crypto as he expands his holdings beyond Bitcoin, Ether and Solana.",
         "seccion": "novedades",
         "pais": "global",
-        "fecha": "2026-10-27"
-      },
-      {
-        "titulo": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-        "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-        "seccion": "novedades",
-        "pais": "usa",
         "fecha": "2026-10-27"
       },
       {
@@ -6910,19 +6910,19 @@
         "fecha": "2026-10-27"
       },
       {
-        "titulo": "印奇把4D雷达也端到端了",
-        "url": "https://www.qbitai.com/2026/10/505852.html",
-        "fuente": "QbitAI",
-        "resumen": "毫米波雷达，AI算力10TOPS",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-27"
-      },
-      {
         "titulo": "Our newest AI Quest: Mapping the human brain",
         "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
         "fuente": "Google AI",
         "resumen": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-10-27"
+      },
+      {
+        "titulo": "Working with academic communities to build scientific understanding",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+        "fuente": "OpenAI",
+        "resumen": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
         "seccion": "novedades",
         "pais": "usa",
         "fecha": "2026-10-27"

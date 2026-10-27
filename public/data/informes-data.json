@@ -31065,7 +31065,7 @@
   },
   {
     "fecha": "2026-10-27",
-    "total": 1035,
+    "total": 1036,
     "por_seccion": {
       "novedades": [
         {
@@ -31186,6 +31186,15 @@
           "fecha": "2026-10-27"
         },
         {
+          "titulo": "Build specialized multimodal models with LFM3",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "fuente": "Hugging Face",
+          "resumen": "",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-27"
+        },
+        {
           "titulo": "Can we trust LLMs to judge whether a research idea is novel?",
           "url": "https://huggingface.co/blog/allenai/novelty-bench",
           "fuente": "Hugging Face",
@@ -31231,12 +31240,12 @@
           "fecha": "2026-10-27"
         },
         {
-          "titulo": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-          "url": "https://www.qbitai.com/2026/10/505865.html",
-          "fuente": "QbitAI",
-          "resumen": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。",
+          "titulo": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+          "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
           "seccion": "novedades",
-          "pais": "china",
+          "pais": "usa",
           "fecha": "2026-10-27"
         },
         {
@@ -31246,15 +31255,6 @@
           "resumen": "Former Morgan Stanley and Weiss executive Jordi Visser says AI agents are boosting demand for crypto as he expands his holdings beyond Bitcoin, Ether and Solana.",
           "seccion": "novedades",
           "pais": "global",
-          "fecha": "2026-10-27"
-        },
-        {
-          "titulo": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-          "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-          "fuente": "TechCrunch AI",
-          "resumen": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-          "seccion": "novedades",
-          "pais": "usa",
           "fecha": "2026-10-27"
         },
         {
@@ -31276,15 +31276,6 @@
           "fecha": "2026-10-27"
         },
         {
-          "titulo": "印奇把4D雷达也端到端了",
-          "url": "https://www.qbitai.com/2026/10/505852.html",
-          "fuente": "QbitAI",
-          "resumen": "毫米波雷达，AI算力10TOPS",
-          "seccion": "novedades",
-          "pais": "china",
-          "fecha": "2026-10-27"
-        },
-        {
           "titulo": "Our newest AI Quest: Mapping the human brain",
           "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
           "fuente": "Google AI",
@@ -31292,9 +31283,27 @@
           "seccion": "novedades",
           "pais": "usa",
           "fecha": "2026-10-27"
+        },
+        {
+          "titulo": "Working with academic communities to build scientific understanding",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "fuente": "OpenAI",
+          "resumen": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-10-27"
         }
       ],
       "usos": [
+        {
+          "titulo": "VisionQuest is what happens when AI really goes rogue",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+          "fuente": "The Verge AI",
+          "resumen": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live toge...",
+          "seccion": "usos",
+          "pais": "usa",
+          "fecha": "2026-10-27"
+        },
         {
           "titulo": "Industrial Intelligence: The next growth opportunity for manufacturing",
           "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
@@ -31404,19 +31413,19 @@
           "fecha": "2026-10-27"
         },
         {
-          "titulo": "Evaluating AI agents: moving past the vibe check",
-          "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/",
+          "titulo": "Three layers, one repo: a tour of google/adk-recipes",
+          "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/",
           "fuente": "Google Developers",
-          "resumen": "A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference...",
+          "resumen": "The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. D...",
           "seccion": "usos",
           "pais": "usa",
           "fecha": "2026-10-27"
         },
         {
-          "titulo": "Three layers, one repo: a tour of google/adk-recipes",
-          "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/",
+          "titulo": "Evaluating AI agents: moving past the vibe check",
+          "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/",
           "fuente": "Google Developers",
-          "resumen": "The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. D...",
+          "resumen": "A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference...",
           "seccion": "usos",
           "pais": "usa",
           "fecha": "2026-10-27"
@@ -31925,7 +31934,7 @@
       ]
     },
     "por_pais": {
-      "usa": 879,
+      "usa": 880,
       "china": 22,
       "global": 134
     },
@@ -32063,6 +32072,6 @@
         "url": "https://security.googleblog.com/feeds/posts/default"
       }
     ],
-    "resumen_dia": "DeepMind presentó Genie 4, su nuevo modelo de simulación mundial con física más realista, audio integrado y control en tiempo real, mientras que Google amplía esas capacidades en su propia versión del modelo. En el ámbito empresarial, Nvidia respalda a una startup india que optimiza el uso de GPUs, General Compute asegura 100 millones de dólares en Serie A y Anthropic anuncia una posible salida a bolsa antes de noviembre; al mismo tiempo, Intel obtiene una exención que evita que una prohibición de EE. UU. afecte sus fábricas. En regulaciones y seguridad, el Home Office del Reino Unido podría ser investigado por emplear tecnología de OpenAI, Canadá abre una consulta sobre stablecoins y un hospital de Nuevo México se ve obligado a desviar pacientes tras un grave incidente de ciberseguridad."
+    "resumen_dia": "DeepMind presentó Genie 4, su nuevo modelo de simulación mundial que incorpora audio, física más realista y control en tiempo real, mientras que Google amplía esas capacidades en su propia versión del modelo. En el sector empresarial, Nvidia apoya a una startup india que reduce el consumo de GPUs para IA y General Compute asegura 100 millones de dólares en Serie A, desafiando la narrativa del “neocloud”. Además, se intensifican los debates regulatorios: el Home Office británico podría ser investigado por usar tecnología de OpenAI, Canadá abre una consulta sobre stablecoins y la IPO de Anthropic se perfila para noviembre."
   }
 ]

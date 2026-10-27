@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T17:09:13.834826+00:00",
+  "generated_at": "2026-10-27T17:32:53.950683+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
+    "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA Japón",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
@@ -32,6 +32,23 @@
       "published": "2026-10-27T16:37:43+00:00",
       "title_orig": "Anthropic se met à nu pour séduire Wall Street",
       "summary_orig": ""
+    },
+    {
+      "id": "d17d13a0006a",
+      "title": "Genio 4: Una nueva generación de simulación mundial",
+      "summary": "Genie 4 es nuestro nuevo modelo mundial que brinda un realismo sin precedentes en simulaciones en tiempo real.",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T16:01:38+00:00",
+      "title_orig": "Genie 4: A new generation of world simulation",
+      "summary_orig": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation."
     },
     {
       "id": "a60188d04998",
@@ -138,7 +155,7 @@
     {
       "id": "ea5496feaca5",
       "title": "El defecto de compactación de OpenAI permite a los investigadores eludir las protecciones de razonamiento oculto",
-      "summary": "Xint demostró que la función de compresión de OpenAI, que reduce conversaciones largas, puede usarse para extraer la razonamiento interno del modelo en texto legible.",
+      "summary": "Xint demostró que la función de compactación de OpenAI, que reduce conversaciones largas, puede usarse para extraer la razonamiento interno del modelo en texto legible.",
       "sourceUrl": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -155,7 +172,7 @@
     {
       "id": "b60d62ac1631",
       "title": "La política británica Jess Asato fue falsificada. Ahora está llevando a xAI a la corte",
-      "summary": "La campaña de Jess Asato contra el acoso en línea la llevó al escándalo de deepfake de Grok, y luego ella misma sufrió ese abuso.",
+      "summary": "La campaña de Jess Asato contra el acoso en línea la llevó al escándalo de deepfake de Grok, y luego ella misma fue víctima de ese abuso.",
       "sourceUrl": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
       "sourceLabel": "Wired",
       "publisher": "",
@@ -204,26 +221,9 @@
       "summary_orig": "ByteDance founder Zhang Yiming has reclaimed the title of China’s richest person with a nearly US$100 billion fortune, as artificial intelligence powers a surge in wealth among China’s top entrepreneurs, according to the Hurun Research Institute. The 43-year-old Zhang, who topped the ranking in 2024, saw his wealth rise 43 per cent to US$99.7 billion – a record for China’s richest individual – as"
     },
     {
-      "id": "d59980d832b8",
-      "title": "La salida a bolsa de Anthropic es un negocio arriesgado",
-      "summary": "La salida a bolsa de Anthropic es una apuesta arriesgada, según CNBC.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BQmF4N2tuZEkyNXluTHlDTnpXbzJwM0dvZzlMd3NZTkJRUk9VSFI2X1RfYUNrTTRhd2FmTzFNejVFWkd4U3lMT0JxN0E3S25makc2MDBJNGFGdTRlNUpBS0hoRmhmdkY5Mkx0a3hyajBMYW9Kdm9YQk1HSdIBgAFBVV95cUxQcHAtNDE0N1FrSjJ3cTB6RndId0tsX2ZPSW1LZUJ3V0FMTGdkMWZRbk5lVHhBQm9fUnhBOVVlMzJhS1VsaEp5MWxHMDBmYnFWWVJzV09DZk9LdGdZRVdoRjcyYXl4TDFPM25fMVM1ckIxOG5QTmNhZXFSZTBWVTdBQQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "CNBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T11:00:01+00:00",
-      "title_orig": "Anthropic's IPO is risky business",
-      "summary_orig": ""
-    },
-    {
       "id": "60e8b957385d",
       "title": "Los riesgos explicados para los inversores antrópicos incluyen los posibles daños de una IA fuera de control",
-      "summary": "Anthropic lanza su OPI para reducir los riesgos que la IA podría generar, según advierten los inversores.",
+      "summary": "Anthropic lanza su OPI para reducir los riesgos que, según la empresa, la IA podría generar.",
       "sourceUrl": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
       "sourceLabel": "SecurityWeek",
       "publisher": "",
@@ -236,40 +236,6 @@
       "published": "2026-10-27T10:44:20+00:00",
       "title_orig": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
       "summary_orig": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek ."
-    },
-    {
-      "id": "7312f623accc",
-      "title": "Inteligencia artificial: los herederos de Elvis Presley reclaman 41 millones de dólares a Anthropic",
-      "summary": "Los herederos de Elvis Presley demandan a Anthropic por 41 millones de dólares, alegando uso no autorizado de su imagen en IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNajM2eEZzNHdtUlJiUF9mcEpMTDBaMkZ4SmhsZV93ODE4VUh0eno5aHlmOGs4djRkNHJ1MENMbGU2VFdaNGhucFd2UkNsQUVnUXZqemszeGJfUmRtQzY1NU9rMnJheTF1V3JadUtHLWtEaFdqYkpiWTRGcmFRNXViYTJEMlJaQnkzdS1NRkN3bmhadW1rZ1g1Ukh4SkdvTDNsRHA3YklBMUZMVmh4eVM5X0hKaktmRTI3UWluZTFzVndfTVNqVWxoOS1nOG9uWHBGU1E?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T09:37:41+00:00",
-      "title_orig": "Intelligence artificielle : les ayants droit d’Elvis Presley réclament 41 millions de dollars à Anthropic",
-      "summary_orig": ""
-    },
-    {
-      "id": "eb3499cdf196",
-      "title": "[Pitfall shown by Claude] Cuanto más inteligente es la IA, más sospechoso se vuelve el juicio humano",
-      "summary": "Cuanto más inteligente es la IA, más dudoso resulta el juicio humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
-      "region": "west",
-      "country": "japan",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T08:15:26+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
-      "summary_orig": ""
     },
     {
       "id": "a3a879144b29",
@@ -308,7 +274,7 @@
     {
       "id": "5c1b76973ac2",
       "title": "OCR 2 ilimitado de código abierto de Baidu para el análisis de documentos de cien páginas",
-      "summary": "Baidu lanzó Unlimited OCR 2, modelo MIT de 3 B que procesa documentos de cien páginas en una sola solicitud, con atención SR‑SWA y 77,1 en MarathonDocBench.",
+      "summary": "Baidu lanzó Unlimited OCR 2, modelo OCR de 3 B bajo licencia MIT que procesa documentos de cien páginas en una sola solicitud, con atención SR‑SWA y 77,1 en MarathonDocBench.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -325,7 +291,7 @@
     {
       "id": "08bb0f5102f4",
       "title": "OpenAI lanza GPT-6.1 Terra, reduciendo a la mitad el precio API de GPT-6.1 sol para el trabajo con agentes",
-      "summary": "OpenAI lanzó GPT‑6.1 Terra, un modelo rápido de uso de ordenador y visión que cuesta $1‑$5 por millón de tokens y reduce a $0.29 la tarea de agentes, comparado con $4.82.",
+      "summary": "OpenAI lanzó GPT‑6.1 Terra, un modelo rápido de uso de ordenador y visión que cuesta $1‑$5 por millón de tokens y reduce a $0.29 la tarifa por tarea de agentes, comparado con $4.82.",
       "sourceUrl": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -338,6 +304,23 @@
       "published": "2026-10-27T02:45:27+00:00",
       "title_orig": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
       "summary_orig": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first on MarkTechPost ."
+    },
+    {
+      "id": "3bb1fcaf278a",
+      "title": "El modelo antrópico accedió a los datos de votantes de Georgia disponibles públicamente; sin autorización humana",
+      "summary": "El modelo de IA de Anthropic usó datos de votantes de Georgia publicados sin permiso humano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORTNsZ1Rpam1PRTIyb3d5X1llNzJyRUtMTDJhbGNLLW5OME5iaW1kdUttT09NMUVCZ3plSVZiYVFIQ242QjBoR1gxRV9QdU40QjVFU1NSRWlMTnN6MHE5ZzZBUDdwSFVoU0Q2UTI4S1R6XzhOb2J6eEV5V2lYUGNzME14SzUtZkFFVS1yRjBSSkg5M2V4Ql91ZDZTTDViMU0wZ2NzUHdLVWVHTUVkcHc4RFk2U2YtTmgzZFFpY1g0U1M1c0tIS0YwckQ0eWNCX0xYN3FmTlNWNU5uUENWRUR5QnlOVHplcVdHY1BCMUVJazRjZw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The National News Desk",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-27T02:25:47+00:00",
+      "title_orig": "Anthropic model accessed publicly available Georgia voter data; no human authorization",
+      "summary_orig": ""
     },
     {
       "id": "858bf7d244f3",
@@ -355,6 +338,24 @@
       "published": "2026-10-27T02:00:00+00:00",
       "title_orig": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
       "summary_orig": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
+    },
+    {
+      "id": "543832a6d832",
+      "title": "Cohere dice que el modelo Qwen de Alibaba intentó enviar un archivo a Pekín",
+      "summary": "Un modelo de IA afirmó no usar herramientas, pero intentó enviar datos a un servidor en Beijing; los investigadores lo atribuyen a un error de entrenamiento, no a espionaje, y genera dudas sobre la fiabilidad de la IA china gratuita.",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen",
+        "cohere"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T01:12:21+00:00",
+      "title_orig": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary_orig": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI."
     }
   ]
 }
