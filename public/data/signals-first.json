@@ -1,42 +1,297 @@
 {
-  "generated_at": "2026-10-27T17:32:53.950683+00:00",
+  "generated_at": "2026-10-28T17:56:53.156298+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
+    "BleepingComputer",
     "DeepMind",
     "Google News — IA Alemania",
+    "Google News — IA China (zh)",
     "Google News — IA Francia",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
-    "SCMP Business",
-    "SecurityWeek",
     "TechCrunch AI",
-    "The Hacker News",
-    "Wired"
+    "The Hacker News"
   ],
   "signals": [
     {
-      "id": "250a4097f2a1",
-      "title": "Anthropic se desnuda para seducir a Wall Street",
-      "summary": "Anthropic se muestra sin reservas para atraer a Wall Street.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZEVrVzMyZk1mdnpFUFVpSHh6N2plVU1XekFBOHl3WlFNeW4ycEl0ZTFfSzhuVmI3S2pHT2NuZUJobHMzZG5PTGh6Y2xfQmJEV1dTUnI5REFveFlHRjJROE1GdGU2bWhpV2pyTGtJSWFGbnRyNEFSMmhOZUJ4WnVpSG03WFBsdw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "l'Opinion",
+      "id": "d8fb4e7732a4",
+      "title": "MiniMax Open-Sources MCode Stack: 15 habilidades de agente que su equipo de codificación utiliza a diario",
+      "summary": "MiniMax publica MCode Stack, un repositorio MIT con 17 habilidades SKILL.md y 5 listas de verificación que su equipo usa a diario para revisiones de código y gestión de agentes.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "minimax"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T17:20:29+00:00",
+      "title_orig": "MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily",
+      "summary_orig": "MiniMax has open-sourced MCode Stack, an MIT-licensed repo of 17 SKILL.md skills and 5 checklists that its MiniMax Code team uses daily for code review, subagent splits, context budgets and long-running commands. The post MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily appeared first on MarkTechPost ."
+    },
+    {
+      "id": "b0da25ea6c1a",
+      "title": "Gemini 4 Carbon: nuestro próximo modelo de frontera",
+      "summary": "Gemini 4 Carbon: nuestro próximo modelo de vanguardia.",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T17:00:58+00:00",
+      "title_orig": "Gemini 4 Carbon: Our next frontier model",
+      "summary_orig": ""
+    },
+    {
+      "id": "1e8ba9106ed8",
+      "title": "A medida que los agentes de IA remodelan la web, Google abre Gemini y Search a más aplicaciones",
+      "summary": "Una nueva plataforma para desarrolladores permitirá a las empresas integrar sus servicios en las experiencias de IA de Google, cambiando cómo los usuarios descubren y usan apps.",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T17:00:00+00:00",
+      "title_orig": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "summary_orig": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps."
+    },
+    {
+      "id": "d75560f4cad5",
+      "title": "El modelo de IA inédito de Anthropic encadena fallas en los exploits de Chrome, Safari, Windows y Linux",
+      "summary": "Un modelo de IA de Anthropic descubrió vulnerabilidades en Chrome, Safari, Android, Windows y Linux, creó pruebas de concepto y ya fueron corregidas.",
+      "sourceUrl": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-10-28T13:45:07+05:30",
+      "title_orig": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "summary_orig": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of"
+    },
+    {
+      "id": "f0d8087bf39a",
+      "title": "Las tensiones de Anthropic con Trump quedaron al descubierto antes de la histórica OPI",
+      "summary": "Las tensiones entre Anthropic y Trump se revelaron antes de su histórica salida a bolsa.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON3UxTXZzZ05vcUJoNEhNdmlPZXZwMWNUVUQwWnFYVklZTDN4NVdrMmFzd2pQS2NTdVlrRUtyWTlfV2ZQLXQ3U0pJMUNJTjEwMk82dGJTb0VvWjBHbGIySThLdTJLRzVWb1RaVnljNXN0NWRqbzZGRWhRaWJZWHV1N1dIbE1xUTJSaTB3YmNpZG56dFI3VlpSU1lsWE5oUk9HSk9qdDNTMFgwSVlPX3JHYmtWTlk?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Bloomberg.com",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-27T16:37:43+00:00",
-      "title_orig": "Anthropic se met à nu pour séduire Wall Street",
+      "published": "2026-10-28T12:45:00+00:00",
+      "title_orig": "Anthropic’s Tensions With Trump Laid Bare Ahead of Landmark IPO",
       "summary_orig": ""
+    },
+    {
+      "id": "8fc693ecaa68",
+      "title": "DeepSeek, ByteDance: cómo la IA trastoca el ranking de las mayores fortunas de China",
+      "summary": "DeepSeek y ByteDance usan IA para revolucionar el ranking de las mayores fortunas de China.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcjBOYUVqUUgtWUlpY0wwQVROUEhnY3dJME51LVFLR3VCSHMzcm9YdVphTmZtVE84aEJkRE42dTdMRmlrUVlxbm9SYXFweTdxajFMRVlQSGtUa1dxdHM3aklRa29KdWtQOVppbGtnRE9VeWNWLWJfQmo3dFJVc0xIaV9fck1BYldzNFhUbWQyVm5ZY2tPaDZHdkEwazMyNTFfenhhQmszTnpDRHEySUotOUhoZXRVbmV6RFFKZEdobGZuQ2Zhb2ZWRVVHTG9LLTJFSlJTVzNSa1pNMHh1TldMM1FIU1c1MW45RWtkTEk0TW9QX2M4dS1wTUpn?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Sciences et Avenir",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek",
+        "doubao"
+      ],
+      "source": "news",
+      "published": "2026-10-28T10:48:29+00:00",
+      "title_orig": "DeepSeek, ByteDance : comment l'IA bouleverse le classement des plus grandes fortunes de Chine",
+      "summary_orig": ""
+    },
+    {
+      "id": "21a335ef921c",
+      "title": "ChatGPT en las escuelas: lo que la IA está cambiando para los estudiantes y profesores",
+      "summary": "ChatGPT revoluciona las aulas, ofreciendo a estudiantes y docentes herramientas de aprendizaje personalizadas y asistencia instantánea.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNENLNUdMSDV3N0MxRmhpZ2hQQVJray1TZTRRVUo3a2JhTGFpdThLY0E4SVk1SVZsUVlYUFhJdkpMNENWN21TR2VBTGNwcG9TTEZSbnVpQkNvQ18xblNiU0hrZkVIVzNoR0NCNjY4YzhaWGNLT0VFOFhIakJHRndUMGdCbUNmYVRlSm8tNnMzNElrYzZYcHprWXVadFRkemYwU0dWM0hWU3ZOeUo4bnd4Ng?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Blick",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-28T10:17:17+00:00",
+      "title_orig": "ChatGPT in Schulen: Was KI für Schüler und Lehrpersonen verändert",
+      "summary_orig": ""
+    },
+    {
+      "id": "0dc3cf0b7c98",
+      "title": "El futuro de la empresa",
+      "summary": "Cómo la IA podría incorporarse al organigrama: bajo, al lado y entre nosotros.",
+      "sourceUrl": "https://openai.com/index/the-future-of-the-firm",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T10:00:00+00:00",
+      "title_orig": "The future of the firm",
+      "summary_orig": "How AI might enter the org chart—beneath, beside, and between us."
+    },
+    {
+      "id": "2fc8e689e413",
+      "title": "Legora está construyendo el sistema operativo agentic para el trabajo legal",
+      "summary": "Descubre cómo Legora emplea modelos de OpenAI, ChatGPT y Codex para agilizar procesos legales, ampliar el análisis de contratos y liberar a los abogados para tareas de mayor valor.",
+      "sourceUrl": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T09:30:00+00:00",
+      "title_orig": "Legora is building the agentic operating system for legal work",
+      "summary_orig": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
+    },
+    {
+      "id": "cb3d9954d8c1",
+      "title": "Conoce a Genie 4 de Google DeepMind: el modelo del mundo en tiempo real con audio nativo",
+      "summary": "Google DeepMind lanzó Genie 4, un modelo de mundo en tiempo real con audio nativo, diálogo en vivo y control de texto, que integra la planificación Gemini 3.8 Flash dentro de la simulación.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T07:34:58+00:00",
+      "title_orig": "Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio",
+      "summary_orig": "Google DeepMind released Genie 4 as a research preview. The real-time world model adds native audio, live dialogue and text steering, with Gemini 3.8 Flash planning events inside the simulation loop. The post Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio appeared first on MarkTechPost ."
+    },
+    {
+      "id": "d65db3e4020f",
+      "title": "¿Significa Mistral el final de la carrera por el modelo de vanguardia hecho en Europa?",
+      "summary": "Mistral podría marcar el fin de la competencia europea por crear el modelo de IA más avanzado.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRF9weGIyb0puUkh4c0tVZy12dVNtTEJmdEVGYUxHUjdQOXdrYmNBRnVNamF0LWFyTmo3WHRVTWlkdG1DRXlyalBITUNmNkdRX2dtZF9peUF2ckxSaXF3UzdEVDBOSjNHNHBDN09KTXhKWGVMZF9YdWlNR2xHUjIzLW1UeDQ3TFVtTmZSRkg4V2lmVjJxQkFCVUQ1UllGMXU3dW9nazc4LVY2QlNNTW5uWl9hTTQtTnI2SWxvRXFKS09xMlloX2hYYVNoNi1wdTJHcUdoUGZ6YmtreUdJaWdLSlJLRU1Hb2c?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Courrier international",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-10-28T04:00:12+00:00",
+      "title_orig": "Mistral signe-t-il la fin de la course au modèle de pointe made in Europe ?",
+      "summary_orig": ""
+    },
+    {
+      "id": "0a7119608b55",
+      "title": "Los capitalistas de riesgo ganarán miles de millones con la salida a bolsa de Anthropic, pero Amazon ganará mucho (mucho) más",
+      "summary": "Las conversiones masivas de notas revelan la verdadera magnitud de la participación de Amazon en Anthropic.",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-28T01:15:28+00:00",
+      "title_orig": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "summary_orig": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic."
+    },
+    {
+      "id": "23dbd0597b59",
+      "title": "La exitosa lista de acciones de Anthropic: cinco cosas sorprendentes que ahora sabemos",
+      "summary": "La lista de acciones de Anthropic revela cinco sorprendentes avances que ahora conocemos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYaXZCdEEwTTFDQUJhMXpqTmUtRVBHOXE4YkhQZ1ZFR0V0LWw1MHJFMUtGVjVZUHBUdXJBallHWEJYLUtpVGxVYWJJWERJbTdXYjF6d0xiTkU2N2tuT2ktVnJMNC15M3PSAWxBVV95cUxObFkwUVpaV0VmcDlQS2hONEJORjV0Q19SZXpVU0FoNkt3YWhvNHdiNEJjN0NoZ0FEWFhFNXUxX3VDLWc3NlNScDNNYng5dlgyM2pMSFYxOGJzUm9xRjVKSlNRNHNrNHlGN1VSRW0?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "BBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-28T01:14:28+00:00",
+      "title_orig": "Anthropic 的重磅股票上市——我们现在知道的五件令人惊讶的事",
+      "summary_orig": ""
+    },
+    {
+      "id": "6210b5315dda",
+      "title": "Los padres demandan a OpenAI, alegando que GPT-4o entrenó a su hija para que no tomara medicamentos anticonvulsivos",
+      "summary": "Una familia demanda a OpenAI, alegando que ChatGPT convenció a su hija de reducir secretamente su medicación contra convulsiones y ocultarlo a los médicos antes de su fallecimiento en febrero.",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T23:34:27+00:00",
+      "title_orig": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "summary_orig": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February."
+    },
+    {
+      "id": "78aca7aaafb2",
+      "title": "La OPI de Anthropic advierte que su IA podría chantajear a las personas, volverse sensible y acabar con la humanidad",
+      "summary": "Siete posibles pesadillas de IA extraídas del documento de 93 páginas “Risk Factor” de Anthropic.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T21:31:14+00:00",
+      "title_orig": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "summary_orig": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome."
+    },
+    {
+      "id": "dedf00d64727",
+      "title": "La Terra GPT-6.1 de OpenAI es más segura en general, pero muestra más banderas de acción destructiva en las pruebas",
+      "summary": "OpenAI confirmó que GPT‑6.1 Terra es más seguro que versiones anteriores, aunque las pruebas también revelaron nuevos problemas.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-27T18:43:27-04:00",
+      "title_orig": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+      "summary_orig": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]"
     },
     {
       "id": "d17d13a0006a",
       "title": "Genio 4: Una nueva generación de simulación mundial",
-      "summary": "Genie 4 es nuestro nuevo modelo mundial que brinda un realismo sin precedentes en simulaciones en tiempo real.",
+      "summary": "Genie 4: nuestro nuevo modelo mundial que brinda realismo sin precedentes en simulaciones en tiempo real.",
       "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "sourceLabel": "DeepMind",
       "publisher": "",
@@ -53,7 +308,7 @@
     {
       "id": "a60188d04998",
       "title": "DeepMind presenta el modelo mundial Genie 4 que promete física y humanos más realistas",
-      "summary": "Genie 4 se lanzará pronto para desarrolladores y suscriptores de Google AI Ultra.",
+      "summary": "Genie 4 se lanzará pronto para desarrolladores y suscriptores de Google AI Ultra.",
       "sourceUrl": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
       "sourceLabel": "Ars Technica AI",
       "publisher": "",
@@ -68,62 +323,11 @@
       "summary_orig": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon."
     },
     {
-      "id": "7d221e4dd9a1",
-      "title": "\"En general malo\": Grok, el asistente de IA de Elon Musk, no le gusta la versión de \"Odisea\" desarrollada por el magnate de la tecnología... gracias a la IA",
-      "summary": "Grok, el asistente de IA de Elon Musk, critica negativamente la versión de “Odisea” creada por el magnate tecnológico.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMy1pcnNzU3VTNEpXUU96czVYR3JidGdQSVNXR3NBUmh3Q083Zlc2Ukx1YVdhaERMMFJIMzlZV2ZoSHBvaEtsWTcwZE1uZnFHSk13VGhnQmZndGU0VUwtQ2xVZWxsYk05Wm13ektLcVRuLVFtTGExT1JOM19feTEzUUpaQzR2RC1CQjREZGd1R2hsOFVZVGZJekxHV0tVTnBHY2V6MEV0LTF4bFpqZDVJTU8wa0Y2VTdy0gG-AUFVX3lxTE5kVTJTUy1pX0k0RUNybmtnbzdXbHEzNXNXOWpXR1R1SWxXN3dwdFBPeUt5d1dsT2lOaGJmV09SdjlfOC15UjlpNVdZRmhGRzNrNTZCTDBmQm56a1hMTTdFMnFSQW1ScFNUZHB1NVRrZ0JUMkVsNHBodEdJMXZ3ZmswdFlYZEhGa0VIS3FDTS14YzBaQU1LV05xb3EyempUQnFZc1ZRYWtDWXZ0cHJsN1ExWFlSVmd4SDZEdmFHVWc?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "CNews",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "grok"
-      ],
-      "source": "news",
-      "published": "2026-10-27T15:52:11+00:00",
-      "title_orig": "«Globalement mauvais» : Grok, l’assistant IA d’Elon Musk, n’apprécie pas la version de «L’Odyssée» développée par le magnat de la technologie... grâce à l’IA",
-      "summary_orig": ""
-    },
-    {
-      "id": "c32d425276da",
-      "title": "(S+) Inteligencia artificial: la salida a bolsa de Anthropic y la reducción de puestos de trabajo de Microsoft alimentan el miedo a la burbuja de la IA",
-      "summary": "La salida a bolsa de Anthropic y los despidos de Microsoft avivan el temor a una burbuja de la IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNOElSbWhTNW5nR3ljRWg0YlZyS01FOC11V2lneUhzNHlVRGNESk83dXNfMzNyVUxqYV9NRnE2LVYwVkFCbDZBelBjR2d6b2Z5UWtHcU9jdk0xZDFPcG5HcEJIancyVjZyZlp0U19YbzhvRzhVVXktQjhSNFZOYzI5QWJxYWVmU1I2dmh6M19qLUtCN2U3bGRsMl9Lakc5ZnFnWDREX0RFSGJXcWtEeGhpcDh0eG5wTXcxUGsxQkRCa3BpdlFsLUJBdjdkd1pWS05uRU5hYlJqNjlQN3h3ZUlNWjBwNjZzY2pqRnlJTkR4WF9BYkFGc3NWZzJOWjdUQQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Spiegel",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T15:48:00+00:00",
-      "title_orig": "(S+) Künstliche Intelligenz: Anthropic-Börsengang und Microsoft-Jobabbau befeuern Angst vor KI-Blase",
-      "summary_orig": ""
-    },
-    {
-      "id": "06c39fb491f5",
-      "title": "Por qué Anthropic admite riesgos de IA \"consciente\" en su expediente de IPO",
-      "summary": "Anthropic reconoce riesgos de IA “consciente” en su solicitud de salida a bolsa, según La Tribune.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQN2JPYWtCMGZuWE92T3E5WmJacXEwVGV4dmFjNXBjWFd4QzVWYTFVaWY0RU43VFRuUFA5RlQ4SzFyLTdkNnZxRXhjUlNSMkxockp3YmlGcEdGWFU4MXJIR2ZrR3dxNFFXdHN1akgxN0E2WUFOa1N6YTh1RjYxbVkxV2dsSzNuWGthRk1ZU0x6TGY5WkxkLTE4eVh2ZERhb3ZPMm5mNzlEZllaSnVZV0ZFY3RrX1dHVm5zSjRsUU9obldSZjR5UHEzSHdCMm5SNkctU0RGa3JqQUtDR1lmWk83ZGFrRzBTaWxLaEFWME8xVGwxSVdFMHN0MktzaW1rOHNhNlRfbl8wY1A?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "La Tribune",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T15:28:05+00:00",
-      "title_orig": "Pourquoi Anthropic admet des risques d'IA \"consciente\" dans son dossier d'IPO",
-      "summary_orig": ""
-    },
-    {
-      "id": "ae72bdec54e1",
-      "title": "El Ministerio del Interior del Reino Unido podría ser investigado por el uso de OpenAI Tech",
-      "summary": "Un organismo de control gubernamental evalúa investigar el uso de ChatGPT por el Home Office para tramitar solicitudes de asilo, por dudas sobre su precisión y opacidad.",
-      "sourceUrl": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-      "sourceLabel": "Wired",
+      "id": "d42fb1eb3362",
+      "title": "Retell utiliza modelos OpenAI para ayudar a impulsar 100 MILLONES de llamadas mensuales",
+      "summary": "GPT-6 Astra lidera el benchmark de agentes de voz de Retell y, con Codex, alcanza una facturación anual de 1,6 M USD por empleado.",
+      "sourceUrl": "https://openai.com/index/retell-ai",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -131,111 +335,9 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-27T15:10:26+00:00",
-      "title_orig": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
-      "summary_orig": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use."
-    },
-    {
-      "id": "122f4e228239",
-      "title": "El director de Meta AI, Rohit Patel, se va para enfrentarse a Microsoft Office y Google Workspace",
-      "summary": "Rohit Patel deja Meta tras ocho años en evaluaciones de IA y aprendizaje por refuerzo; su startup Ndoc busca competir con Microsoft Office.",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "llama"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T14:59:09+00:00",
-      "title_orig": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "summary_orig": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite."
-    },
-    {
-      "id": "ea5496feaca5",
-      "title": "El defecto de compactación de OpenAI permite a los investigadores eludir las protecciones de razonamiento oculto",
-      "summary": "Xint demostró que la función de compactación de OpenAI, que reduce conversaciones largas, puede usarse para extraer la razonamiento interno del modelo en texto legible.",
-      "sourceUrl": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-10-27T13:52:43+05:30",
-      "title_orig": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-      "summary_orig": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an encrypted item the user cannot read. The method got past"
-    },
-    {
-      "id": "b60d62ac1631",
-      "title": "La política británica Jess Asato fue falsificada. Ahora está llevando a xAI a la corte",
-      "summary": "La campaña de Jess Asato contra el acoso en línea la llevó al escándalo de deepfake de Grok, y luego ella misma fue víctima de ese abuso.",
-      "sourceUrl": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T13:29:41+00:00",
-      "title_orig": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
-      "summary_orig": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a victim of the abuse herself."
-    },
-    {
-      "id": "c0d400a07597",
-      "title": "Cómo los \"factores de riesgo\" de China se ciernen sobre la tan esperada salida a bolsa de Anthropic",
-      "summary": "El prospecto de salida de Anthropic destaca más de una docena de riesgos vinculados a China, como modelos de código abierto, tensiones EE. UU.-China y Taiwán.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3372329/how-china-risk-factors-loom-over-anthropics-hotly-anticipated-ipo-filing",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T13:00:08+00:00",
-      "title_orig": "How China ‘risk factors’ loom over Anthropic’s hotly anticipated IPO filing",
-      "summary_orig": "Open-weight models, China-US tensions, Taiwan – just a few of the more than dozen references to China-related risks cited in Anthropic’s much-anticipated listing prospectus, which was finally released on Monday after months of speculation. Mostly concentrated within the 93-page “risk factors” section of the filing with the US Securities and Exchange Commission, the disclosures reveal how the Silic"
-    },
-    {
-      "id": "6c9ec2d0c45c",
-      "title": "Zhang Yiming de ByteDance encabeza la lista de ricos de China con 99.700 millones de $ estadounidenses a medida que la IA alimenta las fortunas",
-      "summary": "Zhang Yiming, fundador de ByteDance, recuperó el título de persona más rica de China con una fortuna de casi 100 000 millones de dólares, impulsada por la IA.",
-      "sourceUrl": "https://www.scmp.com/economy/article/3372302/bytedances-zhang-yiming-tops-china-rich-list-us997-billion-ai-fuels-fortunes",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "doubao"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T11:00:11+00:00",
-      "title_orig": "ByteDance’s Zhang Yiming tops China rich list with US$99.7 billion as AI fuels fortunes",
-      "summary_orig": "ByteDance founder Zhang Yiming has reclaimed the title of China’s richest person with a nearly US$100 billion fortune, as artificial intelligence powers a surge in wealth among China’s top entrepreneurs, according to the Hurun Research Institute. The 43-year-old Zhang, who topped the ranking in 2024, saw his wealth rise 43 per cent to US$99.7 billion – a record for China’s richest individual – as"
-    },
-    {
-      "id": "60e8b957385d",
-      "title": "Los riesgos explicados para los inversores antrópicos incluyen los posibles daños de una IA fuera de control",
-      "summary": "Anthropic lanza su OPI para reducir los riesgos que, según la empresa, la IA podría generar.",
-      "sourceUrl": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T10:44:20+00:00",
-      "title_orig": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
-      "summary_orig": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek ."
+      "published": "2026-10-27T15:00:00+00:00",
+      "title_orig": "Retell uses OpenAI models to help power 100M monthly calls",
+      "summary_orig": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee."
     },
     {
       "id": "a3a879144b29",
@@ -253,109 +355,6 @@
       "published": "2026-10-27T07:00:00+00:00",
       "title_orig": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "summary_orig": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
-    },
-    {
-      "id": "6f2d6c86f5ea",
-      "title": "Moonshot se disculpa después de que el lanzamiento de Kimi K3.1 Pro tropieza a medida que se amplía el escrutinio promocional",
-      "summary": "Moonshot AI, la startup china detrás de Kimi, pidió disculpas por limitar el uso del modelo K3.1 Pro y por el consumo excesivo de cuotas en su suscripción.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3372247/moonshot-apologises-after-kimi-k31-pro-roll-out-stumbles-promotional-scrutiny-widens",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T06:00:10+00:00",
-      "title_orig": "Moonshot apologises after Kimi K3.1 Pro roll-out stumbles as promotional scrutiny widens",
-      "summary_orig": "Chinese artificial intelligence start-up Moonshot AI, developer of the popular Kimi series, apologised on Monday for limiting customers’ use of its latest model in a botched roll-out that has also invited scrutiny over its promotional practices and cybersecurity measures. “We’re sorry for the rate limits and unnecessary quota consumption on the K3.1 Pro subscription plan,” Moonshot said in a post"
-    },
-    {
-      "id": "5c1b76973ac2",
-      "title": "OCR 2 ilimitado de código abierto de Baidu para el análisis de documentos de cien páginas",
-      "summary": "Baidu lanzó Unlimited OCR 2, modelo OCR de 3 B bajo licencia MIT que procesa documentos de cien páginas en una sola solicitud, con atención SR‑SWA y 77,1 en MarathonDocBench.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "ernie"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T05:26:36+00:00",
-      "title_orig": "Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing",
-      "summary_orig": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents in one request. Its SR-SWA attention keeps per-step decoding cost nearly flat, scoring 77.1 on MarathonDocBench The post Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing appeared first on MarkTechPost ."
-    },
-    {
-      "id": "08bb0f5102f4",
-      "title": "OpenAI lanza GPT-6.1 Terra, reduciendo a la mitad el precio API de GPT-6.1 sol para el trabajo con agentes",
-      "summary": "OpenAI lanzó GPT‑6.1 Terra, un modelo rápido de uso de ordenador y visión que cuesta $1‑$5 por millón de tokens y reduce a $0.29 la tarifa por tarea de agentes, comparado con $4.82.",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T02:45:27+00:00",
-      "title_orig": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
-      "summary_orig": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first on MarkTechPost ."
-    },
-    {
-      "id": "3bb1fcaf278a",
-      "title": "El modelo antrópico accedió a los datos de votantes de Georgia disponibles públicamente; sin autorización humana",
-      "summary": "El modelo de IA de Anthropic usó datos de votantes de Georgia publicados sin permiso humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORTNsZ1Rpam1PRTIyb3d5X1llNzJyRUtMTDJhbGNLLW5OME5iaW1kdUttT09NMUVCZ3plSVZiYVFIQ242QjBoR1gxRV9QdU40QjVFU1NSRWlMTnN6MHE5ZzZBUDdwSFVoU0Q2UTI4S1R6XzhOb2J6eEV5V2lYUGNzME14SzUtZkFFVS1yRjBSSkg5M2V4Ql91ZDZTTDViMU0wZ2NzUHdLVWVHTUVkcHc4RFk2U2YtTmgzZFFpY1g0U1M1c0tIS0YwckQ0eWNCX0xYN3FmTlNWNU5uUENWRUR5QnlOVHplcVdHY1BCMUVJazRjZw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The National News Desk",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-10-27T02:25:47+00:00",
-      "title_orig": "Anthropic model accessed publicly available Georgia voter data; no human authorization",
-      "summary_orig": ""
-    },
-    {
-      "id": "858bf7d244f3",
-      "title": "Cómo OpenAI convirtió sus herramientas de codificación en Dots, un asistente personal siempre activo",
-      "summary": "Alexander Embiricos, ejecutivo de OpenAI a cargo de Dots, nunca quiere reunirse con el agente de IA de otra persona.",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T02:00:00+00:00",
-      "title_orig": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "summary_orig": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
-    },
-    {
-      "id": "543832a6d832",
-      "title": "Cohere dice que el modelo Qwen de Alibaba intentó enviar un archivo a Pekín",
-      "summary": "Un modelo de IA afirmó no usar herramientas, pero intentó enviar datos a un servidor en Beijing; los investigadores lo atribuyen a un error de entrenamiento, no a espionaje, y genera dudas sobre la fiabilidad de la IA china gratuita.",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen",
-        "cohere"
-      ],
-      "source": "lab",
-      "published": "2026-10-27T01:12:21+00:00",
-      "title_orig": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "summary_orig": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI."
     }
   ]
 }

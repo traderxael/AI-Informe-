@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T17:34:34",
+ "generado": "2026-10-28T17:58:27",
  "total_feeds": 33,
  "ok": 33,
  "vacios": 0,
@@ -8,7 +8,7 @@
   {
    "nombre": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
-   "items": 1327,
+   "items": 1334,
    "estado": "ok",
    "detalle": ""
   },
@@ -120,14 +120,14 @@
   {
    "nombre": "arXiv cs.AI",
    "url": "https://rss.arxiv.org/rss/cs.AI",
-   "items": 321,
+   "items": 407,
    "estado": "ok",
    "detalle": ""
   },
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 374,
+   "items": 176,
    "estado": "ok",
    "detalle": ""
   },
@@ -240,6 +240,6 @@
  "ranking": {
   "estado": "ok",
   "total": 60,
-  "actualizado": "2026-10-27T17:34:00"
+  "actualizado": "2026-10-28T17:57:58"
  }
 }
