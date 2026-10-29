@@ -1,7 +1,8 @@
 """Audita feeds con el fetcher REAL del repo (fetch_url -> bytes, parse_feed)."""
 import sys, concurrent.futures as cf
+from pathlib import Path
 
-sys.path.insert(0, r"C:\Users\USUARIO\AI-Informe-\scripts")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import sources as S
 import generar_informe as G
 
