@@ -108,41 +108,76 @@ export function weekLabelFrom(iso?: string, fallback = WEEK_LABEL): string {
   });
 }
 
+/** Caché de sesión: evita re-fetchear los mismos JSON al navegar entre vistas
+ *  (informe ↔ noticias). Los datos se regeneran una vez al día vía CI, así que
+ *  cachear en memoria es seguro y reduce peticiones y parpadeos de loading. */
+let signalsCache: { signals: Signal[]; generatedAt?: string; live: boolean } | null = null;
+let signalsInflight: Promise<{ signals: Signal[]; generatedAt?: string; live: boolean }> | null = null;
+let modelsCache: LiveModelsPayload | null | undefined; // undefined = sin consultar aún
+let modelsInflight: Promise<LiveModelsPayload | null> | null = null;
+
+/** Fuerza la recarga de señales (usado por el botón «Refrescar»). */
+export function invalidateLiveSignals() {
+  signalsCache = null;
+}
+
 export async function loadLiveSignals(): Promise<{
   signals: Signal[];
   generatedAt?: string;
   live: boolean;
 }> {
-  try {
-    const firstRes = await fetch("/data/signals-first.json");
-    if (!firstRes.ok) throw new Error(String(firstRes.status));
-    const first = (await firstRes.json()) as LivePayload;
-    let restSignals: LiveRaw[] = [];
+  if (signalsCache) return signalsCache;
+  if (signalsInflight) return signalsInflight; // dedupe de llamadas concurrentes
+  signalsInflight = (async () => {
     try {
-      const restRes = await fetch("/data/signals-rest.json");
-      if (restRes.ok) {
-        const rest = (await restRes.json()) as LivePayload;
-        restSignals = rest.signals || [];
+      // Ambos feeds se piden en paralelo (antes eran secuenciales: 2 RTTs).
+      const [firstRes, restRes] = await Promise.all([
+        fetch("/data/signals-first.json"),
+        fetch("/data/signals-rest.json").catch(() => null),
+      ]);
+      if (!firstRes || !firstRes.ok) throw new Error(String(firstRes?.status ?? "network"));
+      const first = (await firstRes.json()) as LivePayload;
+      let restSignals: LiveRaw[] = [];
+      if (restRes && restRes.ok) {
+        try {
+          const rest = (await restRes.json()) as LivePayload;
+          restSignals = rest.signals || [];
+        } catch {
+          /* first page still usable */
+        }
       }
+      const mapped = [...(first.signals || []), ...restSignals].map(mapLiveSignal);
+      if (!mapped.length) return { signals: SIGNALS, live: false };
+      const result = { signals: mapped, generatedAt: first.generated_at, live: true };
+      signalsCache = result;
+      return result;
     } catch {
-      /* first page still usable */
+      return { signals: SIGNALS, live: false };
+    } finally {
+      signalsInflight = null;
     }
-    const mapped = [...(first.signals || []), ...restSignals].map(mapLiveSignal);
-    if (!mapped.length) return { signals: SIGNALS, live: false };
-    return { signals: mapped, generatedAt: first.generated_at, live: true };
-  } catch {
-    return { signals: SIGNALS, live: false };
-  }
+  })();
+  return signalsInflight;
 }
 
 export async function loadLiveModels(): Promise<LiveModelsPayload | null> {
-  try {
-    const res = await fetch("/data/modelos.json");
-    if (!res.ok) return null;
-    return (await res.json()) as LiveModelsPayload;
-  } catch {
-    return null;
-  }
+  if (modelsCache !== undefined) return modelsCache;
+  if (modelsInflight) return modelsInflight;
+  modelsInflight = (async () => {
+    try {
+      const res = await fetch("/data/modelos.json");
+      if (!res.ok) return null;
+      const data = (await res.json()) as LiveModelsPayload;
+      modelsCache = data;
+      return data;
+    } catch {
+      modelsCache = null;
+      return null;
+    } finally {
+      modelsInflight = null;
+    }
+  })();
+  return modelsInflight;
 }
 
 export function modelLabel(id: string): string {
