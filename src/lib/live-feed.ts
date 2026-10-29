@@ -121,11 +121,13 @@ export function invalidateLiveSignals() {
   signalsCache = null;
 }
 
-export async function loadLiveSignals(): Promise<{
+export type LiveSignalsResult = {
   signals: Signal[];
   generatedAt?: string;
   live: boolean;
-}> {
+};
+
+export async function loadLiveSignals(): Promise<LiveSignalsResult> {
   if (signalsCache) return signalsCache;
   if (signalsInflight) return signalsInflight; // dedupe de llamadas concurrentes
   signalsInflight = (async () => {

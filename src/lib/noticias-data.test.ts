@@ -90,11 +90,14 @@ describe("filterByCategory / groupByCategory", () => {
       ["c"],
     );
   });
-  it("agrupa preservando orden relativo", () => {
+  it("agrupa en el orden canónico de CATEGORIAS, sin categorías vacías", () => {
+    // Orden canónico: ia, ciencia, politica, china, economia, seguridad.
     const grupos = groupByCategory(list);
     assert.deepEqual(
       grupos.map((g) => g.categoria),
-      ["china", "seguridad", "ia"],
+      ["ia", "china", "seguridad"],
     );
+    // Dentro de cada grupo se preserva el orden relativo de la lista de entrada.
+    assert.deepEqual(grupos[0].items.map((n) => n.id), ["b"]);
   });
 });

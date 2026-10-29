@@ -43,13 +43,32 @@ function textHay(s: Signal): string {
   return `${s.title} ${s.summary} ${s.detail} ${s.sourceLabel} ${(s.country ?? "")} ${s.models.join(" ")}`.toLowerCase();
 }
 
+/** Términos cortos/ambiguos que exigen coincidencia por palabra completa
+ *  (evals: «ai» dentro de «said», «chain» o «maintain» falseaba la categoría). */
+const WORD_BOUNDARY_TERMS = new Set(["ai", "eu", "ley"]);
+
+function ruleMatches(hay: string, word: string): boolean {
+  const w = word.trim();
+  if (WORD_BOUNDARY_TERMS.has(w)) {
+    // Reexpresión cacheada perezosamente: se compila una sola vez por término.
+    let re = termRegexes.get(w);
+    if (!re) {
+      re = new RegExp(`(?:^|[^a-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?:[^a-z0-9]|$)`);
+      termRegexes.set(w, re);
+    }
+    return re.test(hay);
+  }
+  return hay.includes(word);
+}
+const termRegexes = new Map<string, RegExp>();
+
 /** Clasifica una señal en una categoría determinista. */
 export function categorizeSignal(s: Signal): Categoria {
   const hay = textHay(s);
   // China como región explícita manda sobre otras reglas léxicas.
   if (s.region === "china") return "china";
   for (const [cat, words] of CATEGORY_RULES) {
-    if (words.some((w) => hay.includes(w))) return cat;
+    if (words.some((w) => ruleMatches(hay, w))) return cat;
   }
   return "ia";
 }
