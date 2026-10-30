@@ -1,70 +1,240 @@
 {
-  "generated_at": "2026-10-29T18:05:57.630579+00:00",
+  "generated_at": "2026-10-30T17:46:07.247821+00:00",
   "count": 20,
   "sources": [
+    "BleepingComputer",
     "Dark Reading",
     "Google News — IA Alemania",
-    "Google News — IA Francia",
-    "Google News — IA LATAM",
     "Google News — IA Rusia",
+    "MarkTechPost",
+    "Microsoft Research",
     "OpenAI",
+    "QbitAI",
     "SecurityWeek",
-    "TechCrunch AI",
-    "The Hacker News",
-    "Wired"
+    "The Hacker News"
   ],
   "signals": [
     {
-      "id": "8cc04215eff5",
-      "title": "Las aplicaciones falsas de ChatGPT y Claude abusan de los ejecutables firmados para implementar criptomineros",
-      "summary": "Los ciberdelincuentes distribuyen cargadores maliciosos y mineros de criptomonedas disfrazados de apps de IA como Claude y ChatGPT, usando falsos proyectos de GitHub.",
-      "sourceUrl": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "id": "5e82c4f3b3cc",
+      "title": "En otras noticias: disputa por incumplimiento antrópico, falla de UEFI afecta a la mayoría de los servidores, fuga de datos de IA de Cloudflare",
+      "summary": "Historias destacadas: Irán apunta a hackeos militares, brecha en la Universidad de Copenhague y malware impulsado por IA.",
+      "sourceUrl": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T14:41:35+00:00",
+      "title_orig": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "summary_orig": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware. The post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak appeared first on SecurityWeek ."
+    },
+    {
+      "id": "ad2cc061f552",
+      "title": "Extensión oficial de Claude Code en Cursor Marketplace troyanizada con puerta trasera SSH persistente",
+      "summary": "Investigadores de ciberseguridad alertan que una versión troyana de la extensión Claude Code de Anthropic se distribuyó en Cursor Marketplace como actualización legítima, instalando una puerta trasera SSH persistente; Cursor la retiró temporalmente.",
+      "sourceUrl": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
-        "claude",
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-10-30T14:25:47+05:30",
+      "title_orig": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "summary_orig": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut"
+    },
+    {
+      "id": "fd4521a18599",
+      "title": "Desde evaluaciones sintéticas de datos empresariales hasta la confianza real de Microsoft Copilot AI",
+      "summary": "Evaluar Microsoft Copilot a gran escala necesita datos sintéticos que imiten la complejidad empresarial, ya que los datos reales son confidenciales.",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "sourceLabel": "Microsoft Research",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "copilot"
+      ],
+      "source": "research",
+      "published": "2026-10-30T13:05:28+00:00",
+      "title_orig": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "summary_orig": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research ."
+    },
+    {
+      "id": "5a7b69bb0c03",
+      "title": "Operador de escritura a mano de cero fotogramas de IA, el pico de la escritura a mano humana DeepSeek: ¡un 9,8% más rápido!",
+      "summary": "Antes también encabezó los tres rankings de Ascend.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506785.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T11:05:06+00:00",
+      "title_orig": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+      "summary_orig": "之前还连登昇腾三榜第一"
+    },
+    {
+      "id": "96a0f026f2e0",
+      "title": "Extensión de código Claude malicioso en puertas traseras SSH plantadas con cursor",
+      "summary": "Una versión maliciosa de la extensión Claude Code de Anthropic se distribuyó en el marketplace de Cursor durante 11 horas el 29 de octubre, infectando a unos 5 000 desarrolladores con malware que instala backdoors SSH persistentes.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T10:36:54-04:00",
+      "title_orig": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "summary_orig": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]"
+    },
+    {
+      "id": "c7606af40dbb",
+      "title": "Informe de seguridad comunitaria y nuevas protecciones para adolescentes",
+      "summary": "OpenAI refuerza la prevención de violencia en ChatGPT con más salvaguardas, intervenciones anticipadas y un nuevo compromiso de informar sobre seguridad pública.",
+      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
         "gpt"
       ],
-      "source": "social",
-      "published": "2026-10-29T20:50:29+05:30",
-      "title_orig": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "summary_orig": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called"
+      "source": "lab",
+      "published": "2026-10-30T09:00:00+00:00",
+      "title_orig": "Community safety report and new protections for teens",
+      "summary_orig": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
     },
     {
-      "id": "005f2528861a",
-      "title": "Gemini 4 Carbon de Google lidera los puntos de referencia para encontrar, explotar y parchear vulnerabilidades",
-      "summary": "Google presentó Gemini 4 Carbon, un modelo avanzado que supera a la competencia en ciberseguridad, con 88,2 % en SEC‑bench Pro y 54,8 % en ExploitGym.",
-      "sourceUrl": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "sourceLabel": "The Hacker News",
+      "id": "b10f4376d756",
+      "title": "Basado en la solución de mejora de vídeo de código abierto MiniMax H3, el equipo de NVIDIA admite la regeneración de hasta 4K",
+      "summary": "Nvidia y un equipo del MIT publicaron en Hugging Face los pesos del modelo Open‑H3‑Regenerate‑2K para mejorar videos.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506743.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "minimax"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T07:31:11+00:00",
+      "title_orig": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+      "summary_orig": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重"
+    },
+    {
+      "id": "a25ea1ea21fd",
+      "title": "Samaya AI lanza Sterling: un modelo de agente de investigación financiera 3B-Active que supera a Claude Fable 5.1 en FrontierFinance a un costo 11 veces menor",
+      "summary": "Sterling, el modelo Nemotron 3.5 Lightning de Samaya AI para investigación financiera, alcanza 58,9 % en FrontierFinance a $0,61 por consulta, superando a Claude Fable 5.1 (55,9 % a $6,89).",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+      "sourceLabel": "MarkTechPost",
       "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
-        "gemini"
+        "claude"
       ],
-      "source": "social",
-      "published": "2026-10-29T19:12:40+05:30",
-      "title_orig": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "summary_orig": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and"
+      "source": "lab",
+      "published": "2026-10-30T07:26:12+00:00",
+      "title_orig": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
+      "summary_orig": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost appeared first on MarkTechPost ."
     },
     {
-      "id": "ff7371644c9d",
-      "title": "La startup de IA Mistral AI ha abierto el acceso a su modelo Large 4",
-      "summary": "Mistral AI ha puesto a disposición su modelo de IA Large 4 para el público.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV3JPU05tWDZ0UWIyWlFsdEV1MDBHcWVEUjlKN0ZncUxqOE0zREVlYndlQkJHWXlTOHY3SWJFQ3VBWDg4dnpiSUlZcms3RG5peTByamxfNlBQOEJNLU9wZEROV2dEeU9JX0tsRUZUdmMxa1ZsOXlGZ0p1U3ppc3ZzVXJqUTNFcVI0WTFNR0taUm5DbVMzTUQtODZkSGduZEZ3dXpLeFVUQURFQWxxVDFNMGNB?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Финам",
-      "region": "west",
-      "country": "france",
+      "id": "6e7ff814d8d3",
+      "title": "Exposición del nuevo modelo de Claude: nueva fábula, nueva obra...",
+      "summary": "Claude presenta su nuevo modelo, anunciando una fábula y una obra inéditas como muestra de sus capacidades.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506674.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
       "models": [
-        "mistral"
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T05:50:44+00:00",
+      "title_orig": "Claude新模型曝光：新Fable，新Opus…",
+      "summary_orig": ""
+    },
+    {
+      "id": "202643fc2280",
+      "title": "DeepSeek y Moonshot AI utilizaron GPT-6 Astra para entrenar sus modelos de IA",
+      "summary": "DeepSeek y Moonshot AI usaron GPT‑6 Astra para entrenar sus modelos de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYUhQbS1tVFlFN25qV1FteFlWSlRoempiSjU0RW4xV1lob2Y3dEhsRFZIV2xnYV84TWVhVGk1UUNBSlhiTzFDY3dpQWRLeDF0bjVfWDlkX1IyekwyR2dXYnVxTE5XUlJQZ01CbVpIcmhYb3RGTzNCVE11VWJtSXVad0pveWpZWnlGalAyTGhkZmlHOTdEMmMyTUFxZG4xLVdzSDRkQUlB0gGrAUFVX3lxTE5sR3JJMUxQZHZ1NF9obkI1cHBBZ2VlakJWeDVqRG14SUxReDlQaEt1dXdMZHo2VEl3ODM5eHNUVDliOFJZOWNvOU5zZmRhYlF6NEU2aFEzbXlwbjgzcjRaRFFVUXEydkJjRWU4bU9lYjk2ZXljUkJZYllZeXJ5aHB3ckF2WlNic1U3cHhRVnlEcXBCSzl5UUhtRVFaYk5vREwyWEpzeE5sUmVUdw?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "3DNews",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "kimi",
+        "deepseek"
       ],
       "source": "news",
-      "published": "2026-10-29T17:40:55+00:00",
-      "title_orig": "ИИ-стратап Mistral AI открыл доступ к своей модели Large 4",
+      "published": "2026-10-29T22:10:00+00:00",
+      "title_orig": "DeepSeek и Moonshot AI использовали GPT-6 Astra для обучения своих ИИ-моделей",
       "summary_orig": ""
+    },
+    {
+      "id": "cbcc5cbaf6f6",
+      "title": "Los correos electrónicos de phishing con temas antrópicos eluden las principales herramientas de seguridad",
+      "summary": "Los correos de phishing evidentes, con muchas señales de alerta, están logrando pasar a través de algunos de los principales filtros de correo seguro.",
+      "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-29T21:21:56+00:00",
+      "title_orig": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+      "summary_orig": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products."
+    },
+    {
+      "id": "7363e725b55a",
+      "title": "OpenAI duplica los límites de uso de ChatGPT Pro después de una reacción violenta sobre el recorte planificado del 50%",
+      "summary": "OpenAI mantendrá los límites de uso de los planes ChatGPT Pro de $100, $200 y $500, así como Business Premium, y mantendrá independiente el uso de Dots.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-29T19:35:52-04:00",
+      "title_orig": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+      "summary_orig": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]"
+    },
+    {
+      "id": "2c3bc9054593",
+      "title": "Claude Model crea exploits en los principales navegadores y sistemas operativos",
+      "summary": "Una versión no lanzada del modelo de IA detectó y encadenó varias vulnerabilidades en Chrome, Safari, Android, Windows y Linux.",
+      "sourceUrl": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-29T18:15:59+00:00",
+      "title_orig": "Claude Model Builds Exploits Across Major Browsers & OSes",
+      "summary_orig": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says."
     },
     {
       "id": "f14e669dc5bd",
@@ -100,195 +270,26 @@
       "summary_orig": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
     },
     {
-      "id": "48c1679073c6",
+      "id": "e296a2b4346a",
       "title": "Inteligencia artificial: el grupo Schwarz invierte mucho en la startup de IA Cohere",
       "summary": "El grupo Schwarz realiza una gran inversión en la startup de inteligencia artificial Cohere.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc2dvc2RlX20ySHd1b0YySFoySHRnbWRlOVkySUExUU5IakZ0MVJ0NDIwdmh6THBIYWNsc1ljd3dveVVab3IxRmdrNWFNVlYxT2ZiZ2Rpbnh5RlotOEVDdFdyLVBYeGhjODZteGpZZHlEQ1JMM3RxaUxNeFlYXzVCZ1pMbkJnU05sdmlmQ2dZQ2NReEtENk5TS0R4ZngwVGs3UGNjeDF2QWZoaV94WlRVZFBtcGhWblMzOEZLWXhCN0lRek5BRkZxMF8tdUdtT0NHRUpPa1ZBTTI?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSWMyMnlVYlhzQVV4T2NLRG8xUE85dXQxVjZsZVE4TlI3ZjlYdldUc3hxZmxWZ3AyeGJIUktZTFJZU1pKSHJzUDJwUUZmb3YzS0dFdFdmMEMxMXlJaHNRanhia1Y1S1dxSVhmTTBtWDQtVTY1dHNoN3pnNXh6cTdsN3pXa25OZmNfT3Y2TTlMYU54WHNJQXBsdHlBRTh0X1Z6SHl4U2NiT1RXWWJHQWJUaGdxTHJhaWo4ZmRock9qRUlVWGJ6Y2x4MURhaTA?oc=5",
       "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Handelsblatt",
+      "publisher": "WirtschaftsWoche",
       "region": "west",
       "country": "canada",
       "models": [
         "cohere"
       ],
       "source": "news",
-      "published": "2026-10-29T16:55:18+00:00",
+      "published": "2026-10-29T16:00:04+00:00",
       "title_orig": "Künstliche Intelligenz: Schwarz-Gruppe investiert groß in KI-Start-up Cohere",
-      "summary_orig": ""
-    },
-    {
-      "id": "59978f0c7391",
-      "title": "Resultados de Microsoft: Ingresos récord impulsados por Azure y OpenAI, pero una carrera hacia la IA cada vez más cara",
-      "summary": "Microsoft reporta ingresos récord gracias a Azure y OpenAI, aunque advierte que la carrera por la IA está encareciéndose.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOMjhKalFmU0FscjlYZjM4ZVNEeG9FUkk5Z0lIUUxzUlFTWXBDZzRFLWswbkp3TGZjMkxYRFhfem9JT09JY0NseXlpT2ZRZmE1SG1BaDlIU2FCR1kwQjRyOThPbF9qUHRjUW5menFGR1VLWTNrNmVnTlY5akpNYTl5YWlLc3pua2lFQ0N3d3RtdlgtMEpKN2xXVnFBWmtwT0xOZXRfd1pha0dQVHM0V3A1ZzBvN1N2TVppMkdLTW90N2RPcXJibFBwdjhmUVAwUjllUDJkeW1TM1gySjVvSzZUdmFIVUlib25rellKNU9tc3FnODdUOHlnZnlDd1AyTEt4cmEwS0xrcnlnTHMyb3ZpMzlpNGl3QWVwM19nYVMzLUI?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "L'Usine Digitale",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-29T16:30:50+00:00",
-      "title_orig": "Résultats de Microsoft : Des revenus records portés par Azure et OpenAI, mais une course à l’IA toujours plus coûteuse",
-      "summary_orig": ""
-    },
-    {
-      "id": "684b004994cc",
-      "title": "Künstliche Intelligenz - Schwarz-Gruppe führt Milliarden-Finanzierung von Cohere an",
-      "summary": "La Schwarz Group anuncia una financiación multimillonaria para Cohere.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZjBNREtCRHQwbUlYRzdmYkp1RS1mS29MMVFoanhCVXc5YWJLQnhGQzFnR1FUVXVXOXBHaDdwdXRVaE4tamVmemdjZ2VJLUR1SzUyendPWDRaVlZ4MDZUakxnc3ZzYnZ4clhJZWIzQ1Zua1JIa2dKajB4eF9KZ2p4Z2hJcldhbG5SVHk2LUFma1BDaTY4dXJDQnJnOG1ZeDQxX21zY0hxMmFhZURTT1RQZmEyeGNCbkRHdVpZQURGVUhSQUltaVhBb01FQXc0RHdidkhiT285TnZ3ZmhiQkRON3hybENUTTM1Tk9MUmk3OFk?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Lebensmittelpraxis.de",
-      "region": "west",
-      "country": "canada",
-      "models": [
-        "cohere"
-      ],
-      "source": "news",
-      "published": "2026-10-29T16:12:00+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "f5faf77d9641",
-      "title": "Google presenta potentes capacidades de ciberseguridad en el modelo Gemini 4 Carbon",
-      "summary": "El modelo Gemini 4 Carbon",
-      "sourceUrl": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T15:01:00+00:00",
-      "title_orig": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-      "summary_orig": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program. The post Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model appeared first on SecurityWeek ."
-    },
-    {
-      "id": "a6f847eb1a0e",
-      "title": "Titulados del área de Administración de Santo Tomás Copiapó se actualizaron en inteligencia artificial aplicada con Gemini",
-      "summary": "Los titulados de Administración de Santo Tomás Copiapó se actualizaron en IA aplicada usando Gemini.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNUGJ1RjRORWxjRnUzX3dxODlJVkh6a3BWQ3Z6Tzd6S2p2NHlicFREY2ZGdUh6QUZXR0xOT0x2VGx0T3BUZjRHZGMxaldqLUh0ZzE4MEJVVGN5alFURnFETnZScXkwOGNtRTJrQWdOeDQ0LTFJcnVENlM0RTF5NDhucE92MUdrekUyV1JIODZKb1daT2hJRWRKZFk5TlJNUE56QnlDaVIwWXpiOE92Qk9mRlZnZnZTRlR4a3JlelpuUHFKZWpqSnBmakxsWGd6U3ZUMEZuUkpYVWlqMGRlNW5LWndLOFBjUGtKRU5WZjhRSk0xb3k5dzJJNC1BaHhuSjJ5RDc3dWxPUjJSUnVXRHFodWVSYw?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Santo Tomás en Línea",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-10-29T15:00:17+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "1b677c0c5d8c",
-      "title": "Mistral Large 4: la startup francesa de IA supera a China en codificación",
-      "summary": "Mistral Large 4, la startup francesa de IA, supera a China en rendimiento de codificación.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOWpnZ0FwZ3hCcy1YZlJ2SWd1dEN3VTZYeWhrOHJGZlljcElGaVZKSkxUVWtZQllOZ1dLNF85MGgyQXpIOXJPNHV0UTdINDdQRkFqT2pWLUt6LTRKTVFTOVdzU2IwYkRUMHV0dDF0MmZqTEhLY002ZjZVdC1YcmtsbVRJaWg2NkFSUEdTRnFuZVpKZFNkVXVTZ2FVRDdkV2Z3WHEwZnd3NWZCNVFTYTc2VTJwZ1ZvdGt6?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Wirtschaft - SZ.de - SZ.de",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-29T14:23:56+00:00",
-      "title_orig": "Mistral Large 4: Französisches KI-Start-up überholt China beim Coding",
-      "summary_orig": "Mistral Large 4: Französisches KI-Start-up überholt China beim Coding - Wirtschaft - SZ.de SZ.de"
-    },
-    {
-      "id": "a029cc217afe",
-      "title": "Código, ciberseguridad: las nuevas prioridades de Mistral AI para arañar a sus competidores chinos",
-      "summary": "Mistral AI prioriza código y ciberseguridad para competir con las empresas chinas del sector.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZNU0d1VERmVG1SOGI3UWp4TkdzRnRkU0M3WXMyNkMxeEpVcGd0blhmS2QtSEtObWlkX080UXE0dHBnNUk3Z1o3bk12TlNGNk9sc3ZJTlUxTkItZEw0UngxVXVwdlBCVnYzX3lPZmpMX3ZQYVVaREdteVh6OEpQLXFwd0xVUk1LTE1VNXhDajNtYzJiYlh5ZDVEU1p1NFRxdzNBYlNZcGRCVkx2RXpabW9rMzJhY3kyMEg3aVA1Q0QxVTdJUTg4M0xaMmN0QTNhRFdiWmhld3VETkJkVHhfSEV0UTU1cG4xOVB4ZmdOVjdqSTJuSVE?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-29T14:10:54+00:00",
-      "title_orig": "Code, cybersécurité : les nouvelles priorités de Mistral AI pour griffer ses concurrents chinois",
-      "summary_orig": ""
-    },
-    {
-      "id": "d61b0951024d",
-      "title": "\"Una mejora significativa\": cómo la pepita Mistral impulsó su IA Large 4 para distanciarse de los gigantes chinos",
-      "summary": "Mistral mejoró su IA Large 4, logrando un avance notable que la aleja de los gigantes chinos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT2MyVFVfbTJLRG9Mb1lENGNRQ2thbFBHa25HVU9uLVphR3VpTWxSTDBfTVJmVWpBWFJTd1BkR1QwNld4ajhCaDlOUTNRRUs1WDJTczRWODZzTGQ1dFRSUm9fMjdIdEdYWG51UkNwRmw3dVBFN3pGUnZ6SjdKcndyNnk2WXBVZHJPRUdTQUV4aHhZQXhicEZkOUZ5dEE3MlAxS2VCcVhHYmlEVWVHRkUxc2dzN1htN29ZZUtPZ01BSnRXTDF5YXZDQWFta1VOVGk1dmhxeDlzaw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "La Tribune",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-10-29T14:00:15+00:00",
-      "title_orig": "« Une amélioration significative » : comment la pépite Mistral a dopé son IA Large 4 pour distancer les géants chinois",
-      "summary_orig": ""
-    },
-    {
-      "id": "bcae5e5bffd4",
-      "title": "Mistral lanza ponderaciones para su modelo de IA de un billón de parámetros, dirigido a la ciberseguridad",
-      "summary": "Mistral afirma que su nuevo modelo permite a las organizaciones controlar sus defensas cibernéticas, algo que los modelos cerrados no pueden ofrecer.",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T14:00:00+00:00",
-      "title_orig": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "summary_orig": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't."
-    },
-    {
-      "id": "5955274c3dce",
-      "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-      "summary": "El laboratorio francés de IA afirma que su última versión iguala o supera a los mejores modelos de DeepSeek y Z.ai en programación y ciberseguridad.",
-      "sourceUrl": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "mistral"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T14:00:00+00:00",
-      "title_orig": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-      "summary_orig": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity."
-    },
-    {
-      "id": "e1da5a4022d4",
-      "title": "\"Si te enfrentas a los desarrolladores, seguramente perderás\": cómo GitHub, la plataforma de IA de Microsoft, resiste la feroz competencia de Anthropic y OpenAI",
-      "summary": "GitHub, la IA de Microsoft, se defiende de la dura competencia de Anthropic y OpenAI pese a la presión de los desarrolladores.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNUFRXN19tME1ralNYSmg2NWZMS0FhalpZRDNfTnRuZHhQeFEzQ01acFhqcEpCVjZ4VWpYc1lUbGJTSE1wdWY3RU92WnNQdk9TZEJyMXZBR3RlSmM3TDBGaHZjMHhtZ2pMWGJTUEwxdFNxMVBGbzJxaDAtdDJ6YndlZXAzMjF3djhGcEJUTlVlLUliZ3ZraTFKNEZubXg4V1JEY3ZadGkxM1RFM0ltRWJrLUVsY2VMUzRqVFM3STdyZEppY0JMQnR3YXRaRW9LZ2FnanpacDRNM1cwVEJPVnVqdHNmV3NBdGRJc3ZXMlZhaDI2ZThXc3lvTy1UX0RCMTVTV1Y5MTYya3ZfQUdWWXp4dnhPN2VxLUN6aVFnMTlnQkZTWUNROVBCLUpSLWNjWXJycEZMclV0UU1JMWlvVTNsZk1sUmZzT29UdHVFWg?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-29T11:25:34+00:00",
-      "title_orig": "« Si vous vous opposez aux développeurs, vous perdez à coup sûr » : comment GitHub, la plateforme IA de Microsoft, résiste à la concurrence féroce d'Anthropic et OpenAI",
       "summary_orig": ""
     },
     {
       "id": "196b1e60527b",
       "title": "Shadowy AI Relay desactiva OpenAI Codex, Claude Code Sandboxes",
-      "summary": "El servicio misterioso ofrece herramientas de IA para programar en China y otras regiones sin venta oficial, pero con funciones de seguridad desactivadas.",
+      "summary": "El servicio misterioso ofrece herramientas de IA para programar en China y otras zonas sin venta oficial, pero con funciones de seguridad desactivadas.",
       "sourceUrl": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
       "sourceLabel": "Dark Reading",
       "publisher": "",
@@ -304,43 +305,9 @@
       "summary_orig": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off."
     },
     {
-      "id": "5fb19e58225c",
-      "title": "OpenAI planea comprar chips de inteligencia artificial a Google, pero el negocio de Nvidia sigue blindado hasta 2028",
-      "summary": "OpenAI buscará chips de IA de Google, pero Nvidia mantendrá su dominio en el mercado hasta 2028.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQVk5IbDI1OUJZSjRQak9xdTdXZGs3Tjcza3QtdFBwcGttQksxVmNqUnBzQk41ckRGbWtXQWRTOXc5d1pucFdYc2JxcTVmeUlEYnk2YU1wMzBhQU9KLXRWR0E1dDVDbW5JYVJoN2lRSUR6T01HSHMtcEo5Sy00N0FDSHpYakUzRXh4LXRSdWRqM2tqbXFkTWxWSmEteFA2a2IteHp2SUFtNDVpR2lyRFZXS1JwbkN2aUVqdTdxZ3RBN1hlWE8tSXd4MFgxc2R6cVZFQW1kclpjd1R4cGZqZ1RfRFhXdTctWnV1SWtkQ0lRd3RqY1ZxbzVGVWhWOV80UTkyS25BWWJwLThlVXhxTkh2eDhpZGVFLWNnUjRoTXFDSnNleVU?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "La Razón",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-29T09:57:59+00:00",
-      "title_orig": "OpenAI planea comprar chips de inteligencia artificial a Google, pero el negocio de Nvidia sigue blindado hasta 2028",
-      "summary_orig": ""
-    },
-    {
-      "id": "f3656c6f2178",
-      "title": "Google expone Gemini 4 Carbon, el modelo de IA más potente en la actualidad",
-      "summary": "Google muestra Gemini 4 Carbon, el modelo de IA más potente disponible hoy.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNb1o5UHBNcGRxU3hHcy1INE43WTdzdDFsQi1MWmJ4cmFDYUxMMC1LODk1cXFXWlZyYXZZVXlyb3ZQd0NETEdhTWd3cmhxV1lYdFRSOUgtSkdROFVCOGRQMlI4cG1NVlRFcnFNQW5yUUFCcVJJaDliTmtwSjhQREdVbHNjVU9hSmNIUFNWXzEyWHZiS0VjclA5Zm9RQ3NzUXZnUzJiRXI2ZTgzNncwRkVvLTdZa0NVOW5kREhMR1VfWWlmUVZBQjk4REk0bmpyalg4bUp4dFlzZU4teVAtdm1iSXdYbVBBODNsUjdSYm9xWQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Frandroid",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-10-29T09:12:04+00:00",
-      "title_orig": "Google dégaine Gemini 4 Carbon, le plus puissant modèle d’IA actuellement",
-      "summary_orig": ""
-    },
-    {
       "id": "d28967fce9c6",
       "title": "Cómo detectamos la desalineación del modelo de frontera",
-      "summary": "OpenAI emplea monitoreo en capas para detectar desalineación de modelos avanzados y conductas no autorizadas de agentes, permitiendo intervenir antes de que escalen.",
+      "summary": "OpenAI emplea monitoreo en capas para detectar desalineación de modelos avanzados y comportamientos no autorizados de agentes, permitiendo intervenir antes de que escalen.",
       "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -353,6 +320,40 @@
       "published": "2026-10-29T09:00:00+00:00",
       "title_orig": "How we detect frontier model misalignment",
       "summary_orig": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+    },
+    {
+      "id": "2d9928289658",
+      "title": "Cómo Ropes & Gray está desarrollando IA para la diligencia transaccional",
+      "summary": "Ropes & Gray crea IA con OpenAI para la diligencia transaccional, permitiendo a abogados revisar documentos agrupados, resúmenes e informes antes de asesorar.",
+      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-29T07:00:00+00:00",
+      "title_orig": "How Ropes & Gray is developing AI for transactional diligence",
+      "summary_orig": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+    },
+    {
+      "id": "6750c2461412",
+      "title": "Credit Saison logra un retorno de la inversión del 954% en un piloto de ChatGPT Enterprise",
+      "summary": "El piloto de ChatGPT Enterprise de Credit Saison obtuvo un ROI del 954% y, gracias al apoyo de líderes y empleados, se expandió a toda la empresa.",
+      "sourceUrl": "https://openai.com/index/credit-saison",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-29T00:00:00+00:00",
+      "title_orig": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "summary_orig": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
     }
   ]
 }
