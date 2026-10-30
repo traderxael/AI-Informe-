@@ -2,6 +2,15 @@
   "version": 2,
   "headers": [
     {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'sha256-9guQD66gwz4mKRQGyYckvi7qZhP2jQuIZaxZOfXd3f0=' 'sha256-AdQo6QpjQtOPU96WAbF9+pwucRZgG9apD3vihvvU5RQ=' 'sha256-CAxIZTqbIH0AHdIBhXmhVbjdDXYdotW3HsURYbgrQnU=' 'sha256-NsbLPjQnXSUWeMvQnU5FNZMktRjDX9FGWc0Z8gNIN3Y='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; frame-ancestors 'none'"
+        }
+      ]
+    },
+    {
       "source": "/sw.js",
       "headers": [
         {
