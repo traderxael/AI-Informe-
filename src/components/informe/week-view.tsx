@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { UseNavigateResult } from "@tanstack/react-router";
-import { ArrowDown, ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Search, X } from "lucide-react";
+import { ArrowDown, ArrowUp, ChevronDown, ExternalLink, Globe2, Landmark, Newspaper, Search, X } from "lucide-react";
 import {
   MODEL_BY_ID,
   SIGNALS,
@@ -163,25 +163,37 @@ export function WeekView({
         </div>
       </header>
 
-      <div className="mt-7 flex gap-2" role="tablist" aria-label="Vista">
-        <Chip
-          active={tab === "briefing"}
-          onClick={() => patch({ tab: "briefing" })}
-          testId="tab-briefing"
-          role="tab"
-          controls="panel-briefing"
+      <div className="mt-7 flex items-center justify-between gap-2">
+        <div className="flex gap-2" role="tablist" aria-label="Vista">
+          <Chip
+            active={tab === "briefing"}
+            onClick={() => patch({ tab: "briefing" })}
+            testId="tab-briefing"
+            role="tab"
+            controls="panel-briefing"
+          >
+            Briefing
+          </Chip>
+          <Chip
+            active={tab === "precios"}
+            onClick={() => patch({ tab: "precios" })}
+            testId="tab-precios"
+            role="tab"
+            controls="panel-precios"
+          >
+            Precios
+          </Chip>
+        </div>
+        {/* Nueva interfaz: sección de Noticias del día (ruta /noticias). */}
+        <a
+          href="/noticias"
+          data-testid="link-noticias"
+          className="inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border border-accent/40 bg-accent/10 px-3.5 text-sm font-medium text-accent transition duration-200 hover:border-accent/60 hover:bg-accent/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
         >
-          Briefing
-        </Chip>
-        <Chip
-          active={tab === "precios"}
-          onClick={() => patch({ tab: "precios" })}
-          testId="tab-precios"
-          role="tab"
-          controls="panel-precios"
-        >
-          Precios
-        </Chip>
+          <Newspaper className="size-4" />
+          <span className="hidden sm:inline">Noticias del día</span>
+          <span className="sm:hidden">Noticias</span>
+        </a>
       </div>
 
       <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
