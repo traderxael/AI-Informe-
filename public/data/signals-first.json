@@ -1,19 +1,192 @@
 {
-  "generated_at": "2026-10-30T17:46:07.247821+00:00",
+  "generated_at": "2026-10-31T16:54:01.364495+00:00",
   "count": 20,
   "sources": [
+    "Ars Technica AI",
     "BleepingComputer",
+    "CoinDesk",
     "Dark Reading",
-    "Google News — IA Alemania",
     "Google News — IA Rusia",
+    "Google News — IA global",
     "MarkTechPost",
     "Microsoft Research",
     "OpenAI",
     "QbitAI",
     "SecurityWeek",
+    "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
+    {
+      "id": "344dcf79744a",
+      "title": "Según los informes, OpenAI reduce el objetivo de financiación para una nueva ronda",
+      "summary": "La última ronda de financiación de OpenAI no está cumpliendo con las expectativas.",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-31T16:12:55+00:00",
+      "title_orig": "OpenAI reportedly lowers funding target for new round",
+      "summary_orig": "OpenAI’s latest funding round doesn't seem to be living up to expectations."
+    },
+    {
+      "id": "77111fa313ab",
+      "title": "Los traders ya están realizando apuestas apalancadas en la salida a bolsa de Anthropic utilizando contratos de criptomonedas",
+      "summary": "El contrato ANT de Trade.xyz cayó un 20 % en su primera hora en Hyperliquid; no tiene acciones respaldadas y los traders estadounidenses están excluidos.",
+      "sourceUrl": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-31T16:00:00+00:00",
+      "title_orig": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
+      "summary_orig": "Trade.xyz’s new ANT contract fell about 20% in its first hour on Hyperliquid. There are no shares behind it, and U.S. traders are locked out."
+    },
+    {
+      "id": "470f504485e0",
+      "title": "Anthropic toma medidas para bloquear a Claude de los videojuegos de ingeniería inversa",
+      "summary": "Anthropic bloquea a Claude en videojuegos para evitar la ingeniería inversa.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0V2cUVWOVl0eFNNN0tEVjluRlliOHR0MkVQbXdWaERXUzhTSFZfend2OTVmZldaT3k0b3pINTlacGEtdmNXV243bnZUbXFqVW1sZ3ZnT2t2REdyaENNOEJuS3ZlV3VwbGhxZEZnYTJKa2NlOHRTd1RubTZuVlA2bElhQ24yS2VvLWV6MlBMU0RnOU9nSGRjaXhQNG9DVmly?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Mashable",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-10-31T14:28:41+00:00",
+      "title_orig": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "summary_orig": ""
+    },
+    {
+      "id": "8fe6da776b46",
+      "title": "OpenAI actualiza las normas de conducta para la inteligencia artificial",
+      "summary": "OpenAI revisa sus directrices de comportamiento para la IA, estableciendo nuevas normas de uso responsable.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUjZlVWFqOXB6bC1KdDRTMy1BLUVwVHNkNjlHNEhiSGZweTVITnAzenlxX2VoZEp4VkE1UDZfSHJabEtjUENPQ3Fwb19DcEJEUE1RU2JKa1VQS19LU3Q0MVl1bDZUV2hmX21kSW5XVDFmbHpWTFE0bG4ybVFhRzZ4YmRJZS1QM0NSLVdMcHZIYm9SUdIBlwFBVV95cUxQTGlFVHVVSk44OERJekZHWGNtTzVPNi12TXRqbGptVkg5N0hGX2lBVHE5YXpCNklhVjBIaDJybDk2Vk5wSURfTVg5U2VJMnJkZU9HTml2b2NHZ2VqSXBWVzQ0WGhTX2trT212UUtsOHZVMXVDMko0VjFDNnFPbmU4aGZMbThXN1AxY24wUGYxb0lwMzc3UkhN?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "El.kz",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-10-31T11:39:00+00:00",
+      "title_orig": "OpenAI обновила правила поведения искусственного интеллекта",
+      "summary_orig": ""
+    },
+    {
+      "id": "e8eb82345a00",
+      "title": "Un enlace compartido de ChatGPT podría ejecutar código de atacante en tu sesión y leer chats privados",
+      "summary": "Un enlace malicioso de ChatGPT puede ejecutar código del atacante en la sesión iniciada del usuario y leer sus conversaciones; la falla se informó y OpenAI la corrigió en ocho días.",
+      "sourceUrl": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-10-31T11:03:41+05:30",
+      "title_orig": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "summary_orig": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category."
+    },
+    {
+      "id": "97b9c1d2e1ca",
+      "title": "¡Hace un momento, Claude anunció el levantamiento del límite de 5 horas! Los primeros usuarios de Ultra han sido \"desbloqueados\"",
+      "summary": "Los usuarios de Ultra que pagan 200 USD son los primeros en probarlo.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506855.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-31T05:05:29+00:00",
+      "title_orig": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+      "summary_orig": "200美元Ultra用户先用"
+    },
+    {
+      "id": "60ba719a0574",
+      "title": "Se espera que Anthropic reciba una alta calificación de \"basura\" por parte de las agencias de crédito tras la salida a bolsa, según un informe del Financial Times",
+      "summary": "Una alta calificación de riesgo dificultaría y encarecería a Anthropic conseguir fondos para sostener su enorme gasto.",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T21:52:03+00:00",
+      "title_orig": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "summary_orig": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business."
+    },
+    {
+      "id": "ce0cce9f3bc5",
+      "title": "Extensión de código VS antrópica en Cursor con puerta trasera durante casi 12 horas",
+      "summary": "Aún se desconoce cómo los atacantes accedieron a la cuenta verificada de Cursor de Anthropic.",
+      "sourceUrl": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T21:09:54+00:00",
+      "title_orig": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "summary_orig": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
+    },
+    {
+      "id": "ac7367a35b67",
+      "title": "Devs afectados por la extensión troyana de Claude Code para Cursor",
+      "summary": "Dos graves vulnerabilidades de seguridad afectaron a Cursor el mismo día, evidenciando los riesgos de los IDEs integrados con IA.",
+      "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T20:05:58+00:00",
+      "title_orig": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+      "summary_orig": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs)."
+    },
+    {
+      "id": "a8738faa1f17",
+      "title": "Agentes de seguridad de IA comparados: Claude, Codex, Mantis, Cloudflare",
+      "summary": "Anthropic, OpenAI, Cloudflare y Google lanzaron agentes de IA que detectan y corrigen vulnerabilidades en código, siguiendo el mismo ciclo de encontrar, refutar y parchear.",
+      "sourceUrl": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T17:34:15+00:00",
+      "title_orig": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+      "summary_orig": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost ."
+    },
     {
       "id": "5e82c4f3b3cc",
       "title": "En otras noticias: disputa por incumplimiento antrópico, falla de UEFI afecta a la mayoría de los servidores, fuga de datos de IA de Cloudflare",
@@ -30,23 +203,6 @@
       "published": "2026-10-30T14:41:35+00:00",
       "title_orig": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
       "summary_orig": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware. The post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak appeared first on SecurityWeek ."
-    },
-    {
-      "id": "ad2cc061f552",
-      "title": "Extensión oficial de Claude Code en Cursor Marketplace troyanizada con puerta trasera SSH persistente",
-      "summary": "Investigadores de ciberseguridad alertan que una versión troyana de la extensión Claude Code de Anthropic se distribuyó en Cursor Marketplace como actualización legítima, instalando una puerta trasera SSH persistente; Cursor la retiró temporalmente.",
-      "sourceUrl": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "social",
-      "published": "2026-10-30T14:25:47+05:30",
-      "title_orig": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "summary_orig": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut"
     },
     {
       "id": "fd4521a18599",
@@ -68,7 +224,7 @@
     {
       "id": "5a7b69bb0c03",
       "title": "Operador de escritura a mano de cero fotogramas de IA, el pico de la escritura a mano humana DeepSeek: ¡un 9,8% más rápido!",
-      "summary": "Antes también encabezó los tres rankings de Ascend.",
+      "summary": "Antes había alcanzado el primer puesto de forma consecutiva en los tres rankings de Ascend.",
       "sourceUrl": "https://www.qbitai.com/2026/10/506785.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
@@ -85,7 +241,7 @@
     {
       "id": "96a0f026f2e0",
       "title": "Extensión de código Claude malicioso en puertas traseras SSH plantadas con cursor",
-      "summary": "Una versión maliciosa de la extensión Claude Code de Anthropic se distribuyó en el marketplace de Cursor durante 11 horas el 29 de octubre, infectando a unos 5 000 desarrolladores con malware que instala backdoors SSH persistentes.",
+      "summary": "Una versión maliciosa de la extensión Claude Code de Anthropic se distribuyó en el marketplace de Cursor durante 11 horas el 29 de octubre, infectando a hasta 5 000 desarrolladores con malware que instala backdoors SSH persistentes.",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
       "sourceLabel": "BleepingComputer",
       "publisher": "",
@@ -98,6 +254,23 @@
       "published": "2026-10-30T10:36:54-04:00",
       "title_orig": "Malicious Claude Code extension on Cursor planted SSH backdoors",
       "summary_orig": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]"
+    },
+    {
+      "id": "25cc4c9bb2e3",
+      "title": "Facilitar que los sitios web expresen las preferencias de capacitación en IA",
+      "summary": "OpenAI respetará la señal compartida de robots.txt para que los sitios indiquen sus preferencias de entrenamiento de IA a los proveedores participantes.",
+      "sourceUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-10-30T09:30:00+00:00",
+      "title_orig": "Making it easier for websites to express AI training preferences",
+      "summary_orig": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
     },
     {
       "id": "c7606af40dbb",
@@ -119,7 +292,7 @@
     {
       "id": "b10f4376d756",
       "title": "Basado en la solución de mejora de vídeo de código abierto MiniMax H3, el equipo de NVIDIA admite la regeneración de hasta 4K",
-      "summary": "Nvidia y un equipo del MIT publicaron en Hugging Face los pesos del modelo Open‑H3‑Regenerate‑2K para mejorar videos.",
+      "summary": "Nvidia y un equipo del MIT publicaron en Hugging Face los pesos del modelo para el proyecto de mejora de video Open‑H3‑Regenerate‑2K.",
       "sourceUrl": "https://www.qbitai.com/2026/10/506743.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
@@ -136,7 +309,7 @@
     {
       "id": "a25ea1ea21fd",
       "title": "Samaya AI lanza Sterling: un modelo de agente de investigación financiera 3B-Active que supera a Claude Fable 5.1 en FrontierFinance a un costo 11 veces menor",
-      "summary": "Sterling, el modelo Nemotron 3.5 Lightning de Samaya AI para investigación financiera, alcanza 58,9 % en FrontierFinance a $0,61 por consulta, superando a Claude Fable 5.1 (55,9 % a $6,89).",
+      "summary": "Sterling de Samaya AI, modelo Nemotron 3.5 Lightning entrenado para finanzas, alcanza 58,9 % en FrontierFinance a $0,61 por consulta, superando a Claude Fable 5.1 (55,9 % a $6,89).",
       "sourceUrl": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -151,44 +324,26 @@
       "summary_orig": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost appeared first on MarkTechPost ."
     },
     {
-      "id": "6e7ff814d8d3",
-      "title": "Exposición del nuevo modelo de Claude: nueva fábula, nueva obra...",
-      "summary": "Claude presenta su nuevo modelo, anunciando una fábula y una obra inéditas como muestra de sus capacidades.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/506674.html",
-      "sourceLabel": "QbitAI",
+      "id": "d2282bcce162",
+      "title": "El uso justo beneficia a todos",
+      "summary": "OpenAI publica fragmentos de escritos judiciales de creadores, académicos y defensores de accesibilidad que explican cómo el uso justo respalda el entrenamiento e innovación de la IA.",
+      "sourceUrl": "https://openai.com/index/fair-use-benefits-everyone",
+      "sourceLabel": "OpenAI",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "claude"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-10-30T05:50:44+00:00",
-      "title_orig": "Claude新模型曝光：新Fable，新Opus…",
-      "summary_orig": ""
-    },
-    {
-      "id": "202643fc2280",
-      "title": "DeepSeek y Moonshot AI utilizaron GPT-6 Astra para entrenar sus modelos de IA",
-      "summary": "DeepSeek y Moonshot AI usaron GPT‑6 Astra para entrenar sus modelos de IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYUhQbS1tVFlFN25qV1FteFlWSlRoempiSjU0RW4xV1lob2Y3dEhsRFZIV2xnYV84TWVhVGk1UUNBSlhiTzFDY3dpQWRLeDF0bjVfWDlkX1IyekwyR2dXYnVxTE5XUlJQZ01CbVpIcmhYb3RGTzNCVE11VWJtSXVad0pveWpZWnlGalAyTGhkZmlHOTdEMmMyTUFxZG4xLVdzSDRkQUlB0gGrAUFVX3lxTE5sR3JJMUxQZHZ1NF9obkI1cHBBZ2VlakJWeDVqRG14SUxReDlQaEt1dXdMZHo2VEl3ODM5eHNUVDliOFJZOWNvOU5zZmRhYlF6NEU2aFEzbXlwbjgzcjRaRFFVUXEydkJjRWU4bU9lYjk2ZXljUkJZYllZeXJ5aHB3ckF2WlNic1U3cHhRVnlEcXBCSzl5UUhtRVFaYk5vREwyWEpzeE5sUmVUdw?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi",
-        "deepseek"
-      ],
-      "source": "news",
-      "published": "2026-10-29T22:10:00+00:00",
-      "title_orig": "DeepSeek и Moonshot AI использовали GPT-6 Astra для обучения своих ИИ-моделей",
-      "summary_orig": ""
+      "published": "2026-10-30T00:00:00+00:00",
+      "title_orig": "Fair use benefits everyone",
+      "summary_orig": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
     },
     {
       "id": "cbcc5cbaf6f6",
       "title": "Los correos electrónicos de phishing con temas antrópicos eluden las principales herramientas de seguridad",
-      "summary": "Los correos de phishing evidentes, con muchas señales de alerta, están logrando pasar a través de algunos de los principales filtros de correo seguro.",
+      "summary": "Los correos de phishing evidentes con múltiples señales de alerta están logrando pasar algunos de los principales filtros de correo seguro.",
       "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
       "sourceLabel": "Dark Reading",
       "publisher": "",
@@ -201,159 +356,6 @@
       "published": "2026-10-29T21:21:56+00:00",
       "title_orig": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
       "summary_orig": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products."
-    },
-    {
-      "id": "7363e725b55a",
-      "title": "OpenAI duplica los límites de uso de ChatGPT Pro después de una reacción violenta sobre el recorte planificado del 50%",
-      "summary": "OpenAI mantendrá los límites de uso de los planes ChatGPT Pro de $100, $200 y $500, así como Business Premium, y mantendrá independiente el uso de Dots.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T19:35:52-04:00",
-      "title_orig": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "summary_orig": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]"
-    },
-    {
-      "id": "2c3bc9054593",
-      "title": "Claude Model crea exploits en los principales navegadores y sistemas operativos",
-      "summary": "Una versión no lanzada del modelo de IA detectó y encadenó varias vulnerabilidades en Chrome, Safari, Android, Windows y Linux.",
-      "sourceUrl": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T18:15:59+00:00",
-      "title_orig": "Claude Model Builds Exploits Across Major Browsers & OSes",
-      "summary_orig": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says."
-    },
-    {
-      "id": "f14e669dc5bd",
-      "title": "Künstliche Intelligenz: Schwarz-Gruppe investiert in kanadisches KI-Unternehmen Cohere",
-      "summary": "El grupo Schwarz invierte en la empresa canadiense de inteligencia artificial Cohere.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRGhmR29vLXdjV3R4SDlfT1NXcEwyRlQ5YTBQVGZYMUJxUTBxbko1SVI5ckZsX2daRGdQMEt3ejRrQVYtVk5NWlJGQ0xkbVl5YWdLbGo1YVF4MnhEbk1pOHpEcGxDUXNfUlQ1cGdwbUpzZlVjNURpQlZmZENzbWsweXZKQzlTWk1jVHBz?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "canada",
-      "models": [
-        "cohere"
-      ],
-      "source": "news",
-      "published": "2026-10-29T17:22:03+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "7bf0065ceb16",
-      "title": "Una especificación de modelo actualizada para una IA más capaz y beneficiosa",
-      "summary": "El nuevo Modelo de Especificaciones de OpenAI define cinco valores clave para que una IA más avanzada actúe con buen juicio, respete la autonomía humana y siga la intención del ser humano.",
-      "sourceUrl": "https://openai.com/index/updated-model-spec",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T17:00:00+00:00",
-      "title_orig": "An updated Model Spec for more capable and beneficial AI",
-      "summary_orig": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
-    },
-    {
-      "id": "e296a2b4346a",
-      "title": "Inteligencia artificial: el grupo Schwarz invierte mucho en la startup de IA Cohere",
-      "summary": "El grupo Schwarz realiza una gran inversión en la startup de inteligencia artificial Cohere.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSWMyMnlVYlhzQVV4T2NLRG8xUE85dXQxVjZsZVE4TlI3ZjlYdldUc3hxZmxWZ3AyeGJIUktZTFJZU1pKSHJzUDJwUUZmb3YzS0dFdFdmMEMxMXlJaHNRanhia1Y1S1dxSVhmTTBtWDQtVTY1dHNoN3pnNXh6cTdsN3pXa25OZmNfT3Y2TTlMYU54WHNJQXBsdHlBRTh0X1Z6SHl4U2NiT1RXWWJHQWJUaGdxTHJhaWo4ZmRock9qRUlVWGJ6Y2x4MURhaTA?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "canada",
-      "models": [
-        "cohere"
-      ],
-      "source": "news",
-      "published": "2026-10-29T16:00:04+00:00",
-      "title_orig": "Künstliche Intelligenz: Schwarz-Gruppe investiert groß in KI-Start-up Cohere",
-      "summary_orig": ""
-    },
-    {
-      "id": "196b1e60527b",
-      "title": "Shadowy AI Relay desactiva OpenAI Codex, Claude Code Sandboxes",
-      "summary": "El servicio misterioso ofrece herramientas de IA para programar en China y otras zonas sin venta oficial, pero con funciones de seguridad desactivadas.",
-      "sourceUrl": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T10:00:00+00:00",
-      "title_orig": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-      "summary_orig": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off."
-    },
-    {
-      "id": "d28967fce9c6",
-      "title": "Cómo detectamos la desalineación del modelo de frontera",
-      "summary": "OpenAI emplea monitoreo en capas para detectar desalineación de modelos avanzados y comportamientos no autorizados de agentes, permitiendo intervenir antes de que escalen.",
-      "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T09:00:00+00:00",
-      "title_orig": "How we detect frontier model misalignment",
-      "summary_orig": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
-    },
-    {
-      "id": "2d9928289658",
-      "title": "Cómo Ropes & Gray está desarrollando IA para la diligencia transaccional",
-      "summary": "Ropes & Gray crea IA con OpenAI para la diligencia transaccional, permitiendo a abogados revisar documentos agrupados, resúmenes e informes antes de asesorar.",
-      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T07:00:00+00:00",
-      "title_orig": "How Ropes & Gray is developing AI for transactional diligence",
-      "summary_orig": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
-    },
-    {
-      "id": "6750c2461412",
-      "title": "Credit Saison logra un retorno de la inversión del 954% en un piloto de ChatGPT Enterprise",
-      "summary": "El piloto de ChatGPT Enterprise de Credit Saison obtuvo un ROI del 954% y, gracias al apoyo de líderes y empleados, se expandió a toda la empresa.",
-      "sourceUrl": "https://openai.com/index/credit-saison",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T00:00:00+00:00",
-      "title_orig": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "summary_orig": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
     }
   ]
 }
