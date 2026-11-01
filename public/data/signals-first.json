@@ -1,26 +1,194 @@
 {
-  "generated_at": "2026-10-31T16:54:01.364495+00:00",
+  "generated_at": "2026-11-01T17:41:45.502624+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
     "BleepingComputer",
     "CoinDesk",
+    "Cointelegraph",
     "Dark Reading",
-    "Google News — IA Rusia",
+    "Google News — IA China (zh)",
+    "Google News — IA Francia",
     "Google News — IA global",
     "MarkTechPost",
-    "Microsoft Research",
-    "OpenAI",
     "QbitAI",
-    "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
+      "id": "e1686033437d",
+      "title": "Jon Hernández, experto en inteligencia artificial: “La gente usa ChatGPT para buscar conocimiento, como si fuera Google, y ese es su mayor error.",
+      "summary": "Jon Hernández advierte que usar ChatGPT como si fuera Google para buscar información es el mayor error de los usuarios.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQTjVBLXE4ZTNKZ0hYYXhaREpNdGNLSk9neHJ1RDVhRDR0ODlZeERWbmpzd1g2UTVUekRWWU9MeXZTRnh0Z1JPMkQzaklsekUzZzFTR2ZFWE5EREZ5NEhqVWJNSXBKZXBtVlUyUkpZeV8ycWExT3RyRXlUeGxXcFZIbVd5LUo5NTN6cEJyQnRobEFTYzN0ZVBTelZ2MW5XdE9hUTAySGpjZExJbFBQMDNYZUVaWjAzM2NnZ2tadjhCbFgySDVOakhVZUxWTVhJSEd1dk9zWWRtYWRjYVFLOWRCM19lZnRNOEFNcHNCbDJjUnBYRmJsV21tMW52OXBHMXVGZko4eDBsbXh6V2t5Z1A1a2lRZ2o2cTZGY253OTNBZkJGQQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "La Crème Du Gaming",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-01T15:02:52+00:00",
+      "title_orig": "Jon Hernández, expert en intelligence artificielle : « Les gens utilisent ChatGPT pour rechercher des connaissances, comme s’il s’agissait de Google, et c’est leur plus grande erreur.",
+      "summary_orig": ""
+    },
+    {
+      "id": "d919636a6e74",
+      "title": "Diseño político posterior a las elecciones de medio término de OpenAI - AI",
+      "summary": "OpenAI revela su nuevo diseño político tras las elecciones de medio término.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vVXdXRng4eFNucUpZSGlMX2Mwc0NQT1NfTTQ4ZzJCcmpTMXlTYm10T09zRGdVR0hOeFBVZERxUC1jREhoRDRkOUV5T1JmMVU2WEF1VVlJZmRLRl82dkprVA?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "cnBeta.COM",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-01T14:46:00+00:00",
+      "title_orig": "OpenAI在美国中期选举后的政治布局- AI 人工智能",
+      "summary_orig": ""
+    },
+    {
+      "id": "148015285456",
+      "title": "DeepSeek desarrolla un agente de IA que requiere menos aportes humanos: informe",
+      "summary": "La propuesta surge en medio de una feroz competencia entre desarrolladores de IA, como Anthropic y OpenAI de EE. UU.",
+      "sourceUrl": "https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-11-01T13:43:45+00:00",
+      "title_orig": "DeepSeek developing AI agent requiring less human input: Report",
+      "summary_orig": "The proposal comes amid intense competition among AI developers, including US companies Anthropic and OpenAI, the SCMP said."
+    },
+    {
+      "id": "8e698ac67cd3",
+      "title": "DeepSeek développe un agent d’IA nécessitant moins d’intervention humaine : rapport",
+      "summary": "DeepSeek desarrolla un agente de IA que necesita menos intervención humana, según un informe de TradingView.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tdmpPSHozNlpzT1BEWHZ3Vjc3QkpRdGFCVlFCeWg4Z1FIZDYyQXRCVGlhbkl2YzNDZXNOYnRSbFBmLWFvODh6cjdJQkV0QWxwOG84OUx4WldaVTFwaVpGRy0tS3M5MVVKYm1QUnU3OA?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "TradingView",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-11-01T13:40:33+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "3ba6d6c68387",
+      "title": "¡Claude, detente! Manipular el arnés prohíbe el juego inverso",
+      "summary": "Claude debe detenerse porque manipular el arnés impide el juego inverso.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507038.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-01T13:09:55+00:00",
+      "title_orig": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "summary_orig": ""
+    },
+    {
+      "id": "ed61be8e2794",
+      "title": "\"Mis padres se pasan el día hablando con DeepSeek\": en China, casi nada ni nadie escapa a la inteligencia artificial",
+      "summary": "En China, la IA de DeepSeek domina conversaciones cotidianas, y casi nadie escapa a su influencia.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNZEs5ajJyX3dMaWw3dE01Uy1ya2hhQlJjYlR5VFdmUHdrSDRYM3NNTkdDcXoyTFRYVE1OWHV6ZWZ6b1V2ajRnRUlfNzdkUHRBX1FLWWMxTkp0TzcyejJ3R0p3R0JmWlladklDZUc3eFd3dWFhWHRBQXJYQ2poRHdLdmdoR2tSclRuNG9weGkwellhQVlqT2d4STZrN2Q1LXhmbXVBOE9aN2E3MGx5RmNlWlRnVEpvSTlQdUVRVXRkUElDUVRraDRkVXBKNUl2WUpDc1U4NE90N3pjSVNDTEtqY2tDemJWRVA0Q3IxTnhBT3VFc0xLRWdnemNwRXNoX1JaTXNXbVk0SmtlY2dqVk1odGxvVWcyejVCU2xSU2xwSjBMQ1Q4YnVoLUx2Wk1DRnJCSlhrQmVfcjFvNEtvRUhB?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Libération",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-11-01T11:26:21+00:00",
+      "title_orig": "«Mes parents passent leurs journées à parler avec DeepSeek» : en Chine, quasi rien ni personne n’échappe à l’intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
+      "id": "d15dc155427a",
+      "title": "OpenAI dice que está duplicando los límites de uso de Pro y trayendo funciones de trabajo al chat",
+      "summary": "OpenAI confirmó que integrará funciones de ChatGPT Work en el chat habitual y unirá los límites de uso de ChatGPT y Codex.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-01T08:53:11-05:00",
+      "title_orig": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "summary_orig": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]"
+    },
+    {
+      "id": "3cc4ce3d743f",
+      "title": "DeepSeek Open-Sources dsh-superagent, un agente de codificación de enrutador-trabajador",
+      "summary": "DeepSeek lanzó dsh-superagent, prototipo MIT que convierte solicitudes de GitHub y Feishu en sesiones paralelas; redujo el tiempo p95 de 29.5 a 15.7 min.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-11-01T07:47:17+00:00",
+      "title_orig": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+      "summary_orig": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first on MarkTechPost ."
+    },
+    {
+      "id": "dfe9fef197e9",
+      "title": "Mercado: \"Todo el boom de la IA está en el banquillo\"... La introducción XXL de Anthropic en Wall Street, un crash test para la inteligencia artificial en Bolsa",
+      "summary": "El gran debut de Anthropic en Wall Street muestra que el auge de la IA aún está en fase de prueba y no garantiza éxito bursátil.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQV2tJRVktNks0Z2VrM0c3WUlEODBTeUd5WVdtWlVBNUdXTzMyUVlRRmZ3NFRXVVBGWTVlMU01QXJySHpfNEtCMUoxTkhpQ0FHb0V2WVVOMVFnZThtLWgxYWx2NEdITTJlNTJTTFRtVFNBWms1VG1mQVBwZjJnYzhWcDB4cFlaLVZ3aUZNZDNZSFc5QjZ6ZnFUeldodEpNcGZUa3FlYkxpcGI0TVNuNzRxdk5BZXgwRmhXdTdoVGpfbFZDemtHbWg3MmdYa25mOUZOSlVKYTJ1b3RHME05WFlUNXFkUzk3OGtRbDFVcVFlNXhtaFNWS21LMWRqOThaMW1tT3pQWFVlUk1ON2VIWkVPRFh1LWlzR1E3bDNWdkNYUDMzZU5yUFJWczRubG5wck02OUpsNWFseTdDcDZ5VEgxazRB?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "BFM Bourse",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-01T06:00:00+00:00",
+      "title_orig": "Marché : «Tout le boom de l'IA se retrouve sur la sellette»... L'introduction XXL d'Anthropic à Wall Street, un crash-test pour l'intelligence artificielle en Bourse",
+      "summary_orig": ""
+    },
+    {
+      "id": "bc398a80a0df",
+      "title": "Juez permite que avance la demanda de la NAACP sobre la contaminación del centro de datos xAI",
+      "summary": "Una demanda de la NAACP acusa a la empresa de IA de SpaceX de infringir la Ley de Aire Limpio.",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-10-31T21:17:03+00:00",
+      "title_orig": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "summary_orig": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act."
+    },
+    {
       "id": "344dcf79744a",
       "title": "Según los informes, OpenAI reduce el objetivo de financiación para una nueva ronda",
-      "summary": "La última ronda de financiación de OpenAI no está cumpliendo con las expectativas.",
+      "summary": "La última ronda de financiación de OpenAI no parece estar cumpliendo con las expectativas.",
       "sourceUrl": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -37,7 +205,7 @@
     {
       "id": "77111fa313ab",
       "title": "Los traders ya están realizando apuestas apalancadas en la salida a bolsa de Anthropic utilizando contratos de criptomonedas",
-      "summary": "El contrato ANT de Trade.xyz cayó un 20 % en su primera hora en Hyperliquid; no tiene acciones respaldadas y los traders estadounidenses están excluidos.",
+      "summary": "El nuevo contrato ANT de Trade.xyz cayó un 20 % en su primera hora en Hyperliquid; no tiene acciones respaldándolo y los traders estadounidenses están excluidos.",
       "sourceUrl": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
       "sourceLabel": "CoinDesk",
       "publisher": "",
@@ -52,43 +220,43 @@
       "summary_orig": "Trade.xyz’s new ANT contract fell about 20% in its first hour on Hyperliquid. There are no shares behind it, and U.S. traders are locked out."
     },
     {
-      "id": "470f504485e0",
-      "title": "Anthropic toma medidas para bloquear a Claude de los videojuegos de ingeniería inversa",
-      "summary": "Anthropic bloquea a Claude en videojuegos para evitar la ingeniería inversa.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0V2cUVWOVl0eFNNN0tEVjluRlliOHR0MkVQbXdWaERXUzhTSFZfend2OTVmZldaT3k0b3pINTlacGEtdmNXV243bnZUbXFqVW1sZ3ZnT2t2REdyaENNOEJuS3ZlV3VwbGhxZEZnYTJKa2NlOHRTd1RubTZuVlA2bElhQ24yS2VvLWV6MlBMU0RnOU9nSGRjaXhQNG9DVmly?oc=5",
+      "id": "246d4261b40f",
+      "title": "Justo ahora, DeepSeek era en gran medida de código abierto: ¡Arquitectura de base de agentes!",
+      "summary": "La IA ya ha encontrado el bug por sí misma y ha enviado un PR.",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506904.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-10-31T13:49:44+00:00",
+      "title_orig": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "summary_orig": "AI已经自己找到Bug并提交PR"
+    },
+    {
+      "id": "2412f4892c41",
+      "title": "Claude AI de Anthropic bloquea la clonación de videojuegos y la ingeniería inversa: las nuevas restricciones radicales también afectan a los desarrolladores legítimos y a las tareas básicas de resolución de problemas",
+      "summary": "Claude AI de Anthropic impide la clonación de videojuegos y la ingeniería inversa, limitando también a desarrolladores legítimos y tareas básicas.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQQVBYaTFvbkpGT0FNbXhiUmMwdHR3SlRQYVdwbWFRalZ0SEtSd0pSQ2FOOFhsazRtY1VCX19heHpvTzEwSkJGNFQ1b1lBOXJmU1M2NGdvRnZyMEVNaW9YbnpBS1pSMC1ET3JnR0s1WFE0WmluRldpemhYUUM0elI2YzFfQWFQWDZ5UlFWQUplbVBId1JDNGtCQUoyMHROcVlSbXZHMUxremtlaFd2cy1qRmc0eVJfYmM0Rm95SHdScVVUS2NBMW1vMFRsNUZsUk5ILXZ4dWdsVVFIRjZhU0ZxaGNyRkFtZnFUS2FpbUpDQ25ydWtoZkF6SHdiT252SDhTOWdGeERvNTU5SkxWRlFGOWluZGM3SEVGVW14ZHNtWTVmR2VkUlh1UFFZcjM3akFuRENWT3VhQTJ5clNnQ1JyNVpibU1oNlRm?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "Mashable",
+      "publisher": "Tom's Hardware",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-10-31T14:28:41+00:00",
-      "title_orig": "Anthropic takes steps to block Claude from reverse-engineering video games",
-      "summary_orig": ""
-    },
-    {
-      "id": "8fe6da776b46",
-      "title": "OpenAI actualiza las normas de conducta para la inteligencia artificial",
-      "summary": "OpenAI revisa sus directrices de comportamiento para la IA, estableciendo nuevas normas de uso responsable.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUjZlVWFqOXB6bC1KdDRTMy1BLUVwVHNkNjlHNEhiSGZweTVITnAzenlxX2VoZEp4VkE1UDZfSHJabEtjUENPQ3Fwb19DcEJEUE1RU2JKa1VQS19LU3Q0MVl1bDZUV2hmX21kSW5XVDFmbHpWTFE0bG4ybVFhRzZ4YmRJZS1QM0NSLVdMcHZIYm9SUdIBlwFBVV95cUxQTGlFVHVVSk44OERJekZHWGNtTzVPNi12TXRqbGptVkg5N0hGX2lBVHE5YXpCNklhVjBIaDJybDk2Vk5wSURfTVg5U2VJMnJkZU9HTml2b2NHZ2VqSXBWVzQ0WGhTX2trT212UUtsOHZVMXVDMko0VjFDNnFPbmU4aGZMbThXN1AxY24wUGYxb0lwMzc3UkhN?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "El.kz",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-10-31T11:39:00+00:00",
-      "title_orig": "OpenAI обновила правила поведения искусственного интеллекта",
+      "published": "2026-10-31T12:20:00+00:00",
+      "title_orig": "Anthropic's Claude AI blocks video game cloning and reverse-engineering — sweeping new restrictions also hit legitimate developers and basic troubleshooting tasks",
       "summary_orig": ""
     },
     {
       "id": "e8eb82345a00",
       "title": "Un enlace compartido de ChatGPT podría ejecutar código de atacante en tu sesión y leer chats privados",
-      "summary": "Un enlace malicioso de ChatGPT puede ejecutar código del atacante en la sesión iniciada del usuario y leer sus conversaciones; la falla se informó y OpenAI la corrigió en ocho días.",
+      "summary": "Un enlace malicioso de ChatGPT puede ejecutar código del atacante en la sesión iniciada de quien lo abre, leyendo sus conversaciones; la falla fue reportada y corregida en ocho días.",
       "sourceUrl": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -105,7 +273,7 @@
     {
       "id": "97b9c1d2e1ca",
       "title": "¡Hace un momento, Claude anunció el levantamiento del límite de 5 horas! Los primeros usuarios de Ultra han sido \"desbloqueados\"",
-      "summary": "Los usuarios de Ultra que pagan 200 USD son los primeros en probarlo.",
+      "summary": "Los usuarios Ultra de 200 dólares son los primeros en usarlo.",
       "sourceUrl": "https://www.qbitai.com/2026/10/506855.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
@@ -186,176 +354,6 @@
       "published": "2026-10-30T17:34:15+00:00",
       "title_orig": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
       "summary_orig": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost ."
-    },
-    {
-      "id": "5e82c4f3b3cc",
-      "title": "En otras noticias: disputa por incumplimiento antrópico, falla de UEFI afecta a la mayoría de los servidores, fuga de datos de IA de Cloudflare",
-      "summary": "Historias destacadas: Irán apunta a hackeos militares, brecha en la Universidad de Copenhague y malware impulsado por IA.",
-      "sourceUrl": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T14:41:35+00:00",
-      "title_orig": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
-      "summary_orig": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware. The post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak appeared first on SecurityWeek ."
-    },
-    {
-      "id": "fd4521a18599",
-      "title": "Desde evaluaciones sintéticas de datos empresariales hasta la confianza real de Microsoft Copilot AI",
-      "summary": "Evaluar Microsoft Copilot a gran escala necesita datos sintéticos que imiten la complejidad empresarial, ya que los datos reales son confidenciales.",
-      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
-      "sourceLabel": "Microsoft Research",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "copilot"
-      ],
-      "source": "research",
-      "published": "2026-10-30T13:05:28+00:00",
-      "title_orig": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-      "summary_orig": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research ."
-    },
-    {
-      "id": "5a7b69bb0c03",
-      "title": "Operador de escritura a mano de cero fotogramas de IA, el pico de la escritura a mano humana DeepSeek: ¡un 9,8% más rápido!",
-      "summary": "Antes había alcanzado el primer puesto de forma consecutiva en los tres rankings de Ascend.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/506785.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T11:05:06+00:00",
-      "title_orig": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
-      "summary_orig": "之前还连登昇腾三榜第一"
-    },
-    {
-      "id": "96a0f026f2e0",
-      "title": "Extensión de código Claude malicioso en puertas traseras SSH plantadas con cursor",
-      "summary": "Una versión maliciosa de la extensión Claude Code de Anthropic se distribuyó en el marketplace de Cursor durante 11 horas el 29 de octubre, infectando a hasta 5 000 desarrolladores con malware que instala backdoors SSH persistentes.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T10:36:54-04:00",
-      "title_orig": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-      "summary_orig": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]"
-    },
-    {
-      "id": "25cc4c9bb2e3",
-      "title": "Facilitar que los sitios web expresen las preferencias de capacitación en IA",
-      "summary": "OpenAI respetará la señal compartida de robots.txt para que los sitios indiquen sus preferencias de entrenamiento de IA a los proveedores participantes.",
-      "sourceUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T09:30:00+00:00",
-      "title_orig": "Making it easier for websites to express AI training preferences",
-      "summary_orig": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
-    },
-    {
-      "id": "c7606af40dbb",
-      "title": "Informe de seguridad comunitaria y nuevas protecciones para adolescentes",
-      "summary": "OpenAI refuerza la prevención de violencia en ChatGPT con más salvaguardas, intervenciones anticipadas y un nuevo compromiso de informar sobre seguridad pública.",
-      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T09:00:00+00:00",
-      "title_orig": "Community safety report and new protections for teens",
-      "summary_orig": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
-    },
-    {
-      "id": "b10f4376d756",
-      "title": "Basado en la solución de mejora de vídeo de código abierto MiniMax H3, el equipo de NVIDIA admite la regeneración de hasta 4K",
-      "summary": "Nvidia y un equipo del MIT publicaron en Hugging Face los pesos del modelo para el proyecto de mejora de video Open‑H3‑Regenerate‑2K.",
-      "sourceUrl": "https://www.qbitai.com/2026/10/506743.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "minimax"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T07:31:11+00:00",
-      "title_orig": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
-      "summary_orig": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重"
-    },
-    {
-      "id": "a25ea1ea21fd",
-      "title": "Samaya AI lanza Sterling: un modelo de agente de investigación financiera 3B-Active que supera a Claude Fable 5.1 en FrontierFinance a un costo 11 veces menor",
-      "summary": "Sterling de Samaya AI, modelo Nemotron 3.5 Lightning entrenado para finanzas, alcanza 58,9 % en FrontierFinance a $0,61 por consulta, superando a Claude Fable 5.1 (55,9 % a $6,89).",
-      "sourceUrl": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T07:26:12+00:00",
-      "title_orig": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
-      "summary_orig": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost appeared first on MarkTechPost ."
-    },
-    {
-      "id": "d2282bcce162",
-      "title": "El uso justo beneficia a todos",
-      "summary": "OpenAI publica fragmentos de escritos judiciales de creadores, académicos y defensores de accesibilidad que explican cómo el uso justo respalda el entrenamiento e innovación de la IA.",
-      "sourceUrl": "https://openai.com/index/fair-use-benefits-everyone",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-10-30T00:00:00+00:00",
-      "title_orig": "Fair use benefits everyone",
-      "summary_orig": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
-    },
-    {
-      "id": "cbcc5cbaf6f6",
-      "title": "Los correos electrónicos de phishing con temas antrópicos eluden las principales herramientas de seguridad",
-      "summary": "Los correos de phishing evidentes con múltiples señales de alerta están logrando pasar algunos de los principales filtros de correo seguro.",
-      "sourceUrl": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-10-29T21:21:56+00:00",
-      "title_orig": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
-      "summary_orig": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products."
     }
   ]
 }
