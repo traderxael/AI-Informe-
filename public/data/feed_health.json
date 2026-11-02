@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-01T17:43:19",
+ "generado": "2026-11-02T21:29:03",
  "total_feeds": 33,
- "ok": 31,
- "vacios": 2,
+ "ok": 33,
+ "vacios": 0,
  "rotos": 0,
  "feeds": [
   {
    "nombre": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
-   "items": 1341,
+   "items": 1344,
    "estado": "ok",
    "detalle": ""
   },
@@ -120,16 +120,16 @@
   {
    "nombre": "arXiv cs.AI",
    "url": "https://rss.arxiv.org/rss/cs.AI",
-   "items": 0,
-   "estado": "vacio",
-   "detalle": "0 items (892 B): b'<?xml version=\\'1.0\\' encoding=\\'UTF-8\\'?>\\n<rss xmlns:arxiv=\"htt'"
+   "items": 297,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 0,
-   "estado": "vacio",
-   "detalle": "0 items (892 B): b'<?xml version=\\'1.0\\' encoding=\\'UTF-8\\'?>\\n<rss xmlns:arxiv=\"htt'"
+   "items": 138,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "The Verge",
