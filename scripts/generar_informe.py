@@ -693,6 +693,12 @@ def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -
 
     cutoff = datetime.combine(day, datetime.min.time(), tzinfo=timezone.utc)
     min_dt = cutoff - timedelta(hours=lookback_hours)
+    # Cota superior: al regenerar una fecha pasada (reparar_agujeros.py usa
+    # write_informe con una fecha vieja), los feeds ya traen items publicados
+    # DESPUES de ese dia. Sin esta cota, el "informe del 2026-10-25" reparado
+    # hoy sale lleno de noticias de esta semana. Para el run diario (day = hoy)
+    # no cambia nada: los feeds no tienen items futuros.
+    max_dt = cutoff + timedelta(days=1)
     seen: set[str] = set()
     collected: list[dict[str, Any]] = []
 
@@ -710,7 +716,7 @@ def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -
             if key in seen:
                 continue
             published = item.get("published")
-            if published is not None and published < min_dt:
+            if published is not None and (published < min_dt or published >= max_dt):
                 continue
             seen.add(key)
             item["source"] = source

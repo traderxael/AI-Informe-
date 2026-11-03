@@ -13,7 +13,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  generar:
+  # Publicacion del dia: SOLO Python (stdlib). El 25-oct-2026 un lockfile
+  # desincronizado hizo fallar `npm ci` y el dia se perdio entero: el informe
+  # no se genero ni se commiteo. Los gates del frontend viven en `gate-web`,
+  # que corre EN PARALELO, pinta el run en rojo si algo se rompe, pero NUNCA
+  # puede impedir la publicacion del informe.
+  publicar:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,36 +29,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Gate de tipos + tests del frontend React (TanStack). Sin esto, un
-      # componente roto (p. ej. week-view.tsx usando `loading` sin declararlo)
-      # llegaba a Vercel y rompia la portada en runtime, no en el build.
-      - name: Node
-        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
-        with:
-          node-version: "22"
-
-      # npm ci exige que package.json y package-lock.json esten en sync.
-      # Abajo se declara lru-cache>=11 explicitamente (ver paso siguiente).
-      - name: Instalar dependencias web
-        run: npm ci --no-audit --no-fund
-
-      - name: Typecheck del frontend
-        run: npm run typecheck
-
-      - name: Tests del frontend
-        run: npm test
-
-      - name: Tests de clasificación
+      # Python puro: cubre clasificacion, feeds, salud y el detector de agujeros.
+      - name: Tests de clasificación y pipeline
         run: python scripts/test_pipeline.py
-
-      - name: Lint
-        run: npm run lint
-
-      - name: Build
-        run: npm run build
 
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
+
+      # Self-healing: si un dia previo quedo sin informe (cron caido, GitHub
+      # abajo, npm roto), se regenera mientras los feeds todavia traen los
+      # items (ventana de lookback de 7 dias). Los agujeros mas viejos se
+      # listan en el log. Advisory: nunca tumba la publicacion del dia.
+      - name: Auto-reparar agujeros recientes
+        continue-on-error: true
+        run: python scripts/reparar_agujeros.py
 
       - name: Recolectar signals reales (Google News + RSS + Reddit + HN)
         run: python scripts/collect_signals.py
@@ -117,3 +106,34 @@ jobs:
               f"ranking={health.get('ranking', {}).get('estado')}"
           )
           PY
+
+  # Gate del frontend: MISMA exigencia que antes (typecheck + tests + lint +
+  # build), pero ya no puede matar el informe. Si falla, el run queda rojo y
+  # llega el email de GitHub, pero el dia ya esta publicado y commiteado.
+  # Vercel ademas hace su propio build al deployar.
+  gate-web:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: "22"
+
+      # npm ci exige que package.json y package-lock.json esten en sync.
+      - name: Instalar dependencias web
+        run: npm ci --no-audit --no-fund
+
+      - name: Typecheck del frontend
+        run: npm run typecheck
+
+      - name: Tests del frontend
+        run: npm test
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
