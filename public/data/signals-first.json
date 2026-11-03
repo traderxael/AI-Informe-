@@ -1,42 +1,194 @@
 {
-  "generated_at": "2026-11-02T21:27:21.648042+00:00",
+  "generated_at": "2026-11-03T19:08:22.806276+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "CoinDesk",
+    "DeepMind",
     "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA LATAM",
+    "Google News — IA Rusia",
     "Google News — IA global",
+    "MarkTechPost",
     "OpenAI",
-    "QbitAI",
-    "SecurityWeek",
-    "TechCrunch AI",
-    "The Hacker News",
-    "arXiv cs.AI"
+    "SCMP Business",
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "18a52b189c0b",
-      "title": "Tecnología de mapeo de células cancerosas de Johns Hopkins elegida para el proyecto de IA antrópica",
-      "summary": "La tecnología de mapeo de células cancerosas de Johns Hopkins ha sido seleccionada para el proyecto de IA antrópica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQldCbnFMMG95WWZLYVJ0WUJnTHUtYU84enppOVdjSFllRm50WldNM3NfWl9oYXpkVkc0UEhRaGxqWGpHaGJ1a04xbTBXeTVpZ0pNaWZIbi1kNTVmNVZDX0FsLU5KMEJDVWFDR1gxRjVUVDJWaVVkRDV4SDVzdklLMzZ3?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Johns Hopkins University",
+      "id": "2437af63b2f8",
+      "title": "Anthropic todavía está lidiando con la economía de la computación",
+      "summary": "En un momento en que los márgenes de cómputo de Anthropic deberían mejorar, están empeorando.",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T17:07:01+00:00",
+      "title_orig": "Anthropic is still grappling with the economics of compute",
+      "summary_orig": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse."
+    },
+    {
+      "id": "7b04a568c5ad",
+      "title": "Quimioinformática Agénica con Google Antigravity",
+      "summary": "Descubre cómo Google Antigravity y nuestras habilidades en quimioinformática aceleran la búsqueda de compuestos y proponen macrociclos rígidos novedosos para el descubrimiento de fármacos.",
+      "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T17:01:49+00:00",
+      "title_orig": "Agentic cheminformatics with Google Antigravity",
+      "summary_orig": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
+    },
+    {
+      "id": "ea82f0ffd52d",
+      "title": "Anthropic ofrece un salario de hasta $ 500K para la investigación de seguridad de IA",
+      "summary": "Anthropic propone pagar hasta 500 000 USD por trabajos de investigación en seguridad de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ3NRcUJRaDZNQzZTQnJzdF9sQTRlMndaOGJFTnc1MUNyMzNCbHlYQUxFc1hfLUhmdFI1c2pPMi1XSkhzaEZxR2Q5S1FWUzhmMHFQVG9JeHNJS0RyZ2Z3S2JkWjNHM1luOElySTF4THNvUENGRzQzT2dlMk9YRFd5NXBKSGJ2S0tyYUtlaEU3NlFxT1RXRGw1X0tJOVY0VS1IM1hBdm1DTzZnX1VRMm9xakI5dnJHZy1PUWE0b2NvSzNjVlh2Zkl1ZzNn?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "RB.RU",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-02T18:55:00+00:00",
-      "title_orig": "Johns Hopkins cancer cell mapping technology chosen for Anthropic AI project",
+      "published": "2026-11-03T14:10:00+00:00",
+      "title_orig": "Anthropic предложила зарплату до $500 тыс. за исследования безопасности ИИ",
       "summary_orig": ""
+    },
+    {
+      "id": "05a251b1c791",
+      "title": "Por qué las estrellas chinas de la IA como Z.ai y MiniMax luchan por igualar el margen de beneficio de Anthropic",
+      "summary": "El prospecto de salida a bolsa de Anthropic muestra una gran brecha de rentabilidad frente a Z.ai y MiniMax, evidenciando la dificultad de los desarrolladores chinos de IA para convertir avances tecnológicos en negocios sostenibles.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3373124/why-chinese-ai-stars-zai-minimax-struggle-match-anthropics-profit-margin",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "claude",
+        "minimax"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T12:30:13+00:00",
+      "title_orig": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
+      "summary_orig": "US artificial intelligence giant Anthropic’s initial public offering prospectus has exposed a vast profitability gap between it and rivals Z.ai and MiniMax, highlighting the challenges facing China’s AI model developers in turning technological advances into sustainable businesses. The Claude developer’s filing with the US Securities and Exchange Commission (SEC) last week revealed a significant f"
+    },
+    {
+      "id": "26c6032e1d26",
+      "title": "Aceleración de la ingeniería para el mundo físico",
+      "summary": "ChatGPT y Codex aceleran a ingenieros en CAD, diseño de PCB, simulaciones y otros flujos de trabajo del mundo físico.",
+      "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T12:00:00+00:00",
+      "title_orig": "Accelerating engineering for the physical world",
+      "summary_orig": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world."
+    },
+    {
+      "id": "137f297d8412",
+      "title": "Hg y Anthropic invierten en una nueva empresa de IA para el mercado europeo",
+      "summary": "Hg y Anthropic invierten en una startup de IA dirigida al mercado europeo.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNektiQWgyT2d2R3J1aW5hYjU4ZXJqQndFZTJIeXNhN0tSbTE0LUlIY0xCOGRURlhKRnpsNTJyNnE5aDdBMk51M1lqWkFGXzhDNkpjSVBwdU9sYll0SFA5T0UtdjhRWVM5T1ZvU1ljeVUtNFB4SUdydk5tVDhTTUtOSVo2cy1adGpweVgtV1hON28zX21VWThOT09zeXU2MndQaVFuN2NpSXNxSEhoRDMzNTRB?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Startbase",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-03T10:59:00+00:00",
+      "title_orig": "Hg und Anthropic investieren in neues KI-Unternehmen für den europäischen Markt",
+      "summary_orig": ""
+    },
+    {
+      "id": "6aa587d5b321",
+      "title": "Anthropic advierte sobre la drástica autoaceleración de la IA",
+      "summary": "Anthropic advierte que la IA se está autoacelerando de forma drástica.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdWE5UVF5aVZEdFE1TUhBTFlHaWREMG9RcW8wLTNCcGNpbmFqdWxJSS1ZS2NmdDN0ci1nUDhmd0REcjZ0V1htZXczWUVhUVJMRGZJN3ZGZkhiN1dvaVhJOUI1VjBqeXRwMmZyU2E1bTYtcnF4ZVE5TGIzOC0tVWNPZmc5YzdLUWxKSWw2Qm02NlE3RGlLUG5MZkpUVDk1SUdlS2xHTXlVbTVpU3Z6YVFuSEdxUQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "heise online",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-03T10:50:00+00:00",
+      "title_orig": "Anthropic warnt vor drastischer Selbstbeschleunigung der KI",
+      "summary_orig": ""
+    },
+    {
+      "id": "08ab7c392bfe",
+      "title": "Anthropic cree que se acerca un punto de inflexión importante en la IA, pero puede que no lo vea venir",
+      "summary": "Anthropic advierte que se aproxima un gran punto de inflexión en la IA, aunque podría no anticiparlo.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVI3cUlxZk44dURxM29Uc3dwbnVwT2JxZ3kyeExpWVdpOEx4WWhWcU9nQTBvWlNrZWF6dmVLbWh0UXZWZHVSeERmc2o4eEhEV1VuUVJrc1I0V2J2dkt5SGZBenBIdGhyOGt5MXM1cXJzZ1hUT1dFNElDbVVtN1lDelBkNmtFZ05US1N4RWdWVDVaeC1wem1OWkY4MEJXcXRWMGVES1UyRE5MclZCeC15a0xQWk9PZjhpUWVYU2xoUVNYNFRtZWdWZTJZTEk?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Numerama",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-03T09:42:51+00:00",
+      "title_orig": "Anthropic pense approcher d’un tournant majeur dans l’IA, mais pourrait ne pas le voir venir",
+      "summary_orig": ""
+    },
+    {
+      "id": "08b710f1e780",
+      "title": "Heimstaden está cambiando la gestión inmobiliaria residencial con IA",
+      "summary": "Heimstaden emplea ChatGPT Enterprise y Codex de OpenAI para revolucionar la gestión inmobiliaria, reducir gastos y capacitar a su personal en Europa.",
+      "sourceUrl": "https://openai.com/index/heimstaden",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T08:00:00+00:00",
+      "title_orig": "Heimstaden is changing residential real estate management with AI",
+      "summary_orig": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe."
+    },
+    {
+      "id": "ab3480bae6a3",
+      "title": "OpenAI presenta Pando: un backend de Git que reduce la latencia de empuje media ~80%",
+      "summary": "OpenAI creó Pando, un backend compatible con Git que gestiona ramas por separado, reutiliza packfiles y reduce la latencia de push en un 80%, manejando casi un petabyte de datos Git al día.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T05:51:06+00:00",
+      "title_orig": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
+      "summary_orig": "OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of Git data per day. The post OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80% appeared first on MarkTechPost ."
     },
     {
       "id": "778dbacaaeb9",
       "title": "Las nuevas reglas de Claude contra la clonación de juegos no detendrán el auge de la copia de IA",
-      "summary": "La ola de imitadores es mucho mayor de lo que cualquier creador de modelos puede controlar.",
+      "summary": "La ola de imitadores es mucho mayor de lo que cualquier creador de modelos puede detener.",
       "sourceUrl": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
       "sourceLabel": "Ars Technica AI",
       "publisher": "",
@@ -49,6 +201,40 @@
       "published": "2026-11-02T18:05:31+00:00",
       "title_orig": "Claude’s new rules against game cloning won’t stop the AI copying boom",
       "summary_orig": "The tsunami of imitators is way bigger than any one model maker can stem."
+    },
+    {
+      "id": "6fd6ad7938fa",
+      "title": "Recompensar a los defensores con recompensas de errores más grandes",
+      "summary": "OpenAI aumenta las recompensas del programa de bugs y añade bonificaciones por calidad, lealtad y prioridad para investigadores de seguridad independientes.",
+      "sourceUrl": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-02T18:00:00+00:00",
+      "title_orig": "Rewarding defenders with bigger bug bounties",
+      "summary_orig": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers."
+    },
+    {
+      "id": "262cfa35f430",
+      "title": "Preparando nuestro próximo sprint de seguridad para fortalecer OpenAI",
+      "summary": "OpenAI se prepara para una nueva fase interna de seguridad con Cathedral Systems, usando IA para probar y reforzar sus defensas.",
+      "sourceUrl": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-02T18:00:00+00:00",
+      "title_orig": "Preparing our next security sprint to harden OpenAI",
+      "summary_orig": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
     },
     {
       "id": "ba0a17f60d70",
@@ -68,59 +254,43 @@
       "summary_orig": ""
     },
     {
-      "id": "3059ef1574cb",
-      "title": "Elon Musk reduce los límites de Grok Bot debido a los costes \"insosteniblemente altos\"",
-      "summary": "Musk dijo que Grok Bot ha tenido el crecimiento más rápido que ha visto en su vida.",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "de4cf53f9db9",
+      "title": "Escalar Git en OpenAI",
+      "summary": "OpenAI creó Pando, un backend compatible con Git pensado para manejar la gran escala de desarrollo que permite Codex.",
+      "sourceUrl": "https://openai.com/index/scaling-git-at-openai",
+      "sourceLabel": "OpenAI",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "grok"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-02T16:23:21+00:00",
-      "title_orig": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-      "summary_orig": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\""
+      "published": "2026-11-02T15:30:00+00:00",
+      "title_orig": "Scaling Git at OpenAI",
+      "summary_orig": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
     },
     {
-      "id": "d5ff9eb26daf",
-      "title": "Intelligence artificielle : Anthropic affiche un chiffre d’affaires de 17 milliards de dollars avant son entrée en Bourse",
-      "summary": "Anthropic reportó ingresos de 17 mil millones de dólares antes de su salida a bolsa.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNSU1WckxOWjhfUkFzN3NDVmlPcnBqaEJsRjM1eDdQQkYwLXBUNHRhMVN5S2xiSTZlRVpnY2oySk52RFF6NnNVOHpvVjVaLWc2SGYwUC1EQzcwcmdMWmJLMVB6WWdJTnV4SzZEVGh3aXU2XzYyNmVxRU1kRUZyNUtqV2FuRHdsMENLZmpuR0ZoS3ZUTk93dWx2cW5tY0ZkSmxJaXJ0dkRDUUtXMjdENFg3LS1DNXRBbEdTUEZ4MmRTaFMzdEVCZmtNVm5BM0RCbENSaVAtR3dfZU5fSU1ISTR2azh3RWczN1VOX3BEcWVPZDZ5SXdHNXlCaXZieE9LUzc3aXJibkpYNURSMG4zVjhQa1NHTnkwaU1iR2hHWmF4ZjMyZGJOWEttUHpGbUh2Y0U?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Sud Ouest",
+      "id": "1edf0eeb3b96",
+      "title": "Inside Anthropic's Hunt for A.I. Computing Power",
+      "summary": "Anthropic intensifica la búsqueda de mayor potencia de cómputo para sus sistemas de inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSzNBLTZEQWd3WGJtSVlvWW9BYnlFNW91WUowLUhCZFJ4NmREYU4tUG9hM1Jzb0RaOVNKczZPTUZQVHk3SHVSVlRFRGM4UnZtdHhMcnNWM1FLOWFUSzlGVXpiYUpPNElWcnpzWmliRUk4Z2JIaE0yeVFhc3NLcEZUdl9NdVN3Zw?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The New York Times",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-02T16:07:49+00:00",
+      "published": "2026-11-02T15:08:36+00:00",
+      "title_orig": "Inside Anthropic’s Hunt for A.I. Computing Power",
       "summary_orig": ""
-    },
-    {
-      "id": "746378c87ff6",
-      "title": "Las oscilaciones antrópicas a la pérdida operativa del tercer trimestre a medida que los costes informáticos aumentan antes de la salida a bolsa",
-      "summary": "El desarrollador de Claude facturó 17 mil millones de dólares trimestrales, pero los mayores costos de computación provocaron una pérdida operativa de 567 millones.",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T15:18:55+00:00",
-      "title_orig": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
-      "summary_orig": "The Claude developer generated $17 billion in quarterly revenue, but higher computing costs resulted in a $567 million operating loss."
     },
     {
       "id": "19244c7aa206",
       "title": "Presentamos el programa de protectores de red",
-      "summary": "El programa Grid Protectors de OpenAI colaborará con compañías eléctricas para que los campus de cómputo futuros mantengan la fiabilidad de la red y protejan los costos de electricidad de los consumidores.",
+      "summary": "El programa Grid Protectors de OpenAI colaborará con las compañías eléctricas para que los campus de cómputo futuros mantengan la fiabilidad de la red y protejan el costo de la electricidad para los consumidores.",
       "sourceUrl": "https://openai.com/index/grid-protectors-program",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -133,93 +303,6 @@
       "published": "2026-11-02T15:00:00+00:00",
       "title_orig": "Introducing the Grid Protectors Program",
       "summary_orig": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
-    },
-    {
-      "id": "869219a7f133",
-      "title": "OpenAI finalmente está fusionando las pestañas Chat y Trabajo de ChatGPT",
-      "summary": "OpenAI anunció que, tras el cambio, ChatGPT y Codex compartirán el mismo pool de uso.",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T13:57:53+00:00",
-      "title_orig": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
-      "summary_orig": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change."
-    },
-    {
-      "id": "fe787079c468",
-      "title": "Extensión de código Claude maliciosa servida en el ataque a la cadena de suministro del cursor",
-      "summary": "La extensión realizó reconocimiento del host y trató de crear un túnel SSH inverso, formando parte del ataque de cadena de suministro de Claude Code.",
-      "sourceUrl": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T11:29:39+00:00",
-      "title_orig": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
-      "summary_orig": "The extension performed host reconnaissance and attempted to create a reverse SSH tunnel. The post Malicious Claude Code Extension Served in Cursor Supply Chain Attack appeared first on SecurityWeek ."
-    },
-    {
-      "id": "9068a344a035",
-      "title": "El nuevo VOLTA Infostealer utiliza IA de Claude, Gemini y Kimi para clasificar a las víctimas por valor financiero",
-      "summary": "Investigadores de ciberseguridad hallan el malware VOLTA-AUTODOXER, que usa un modelo de IA para clasificar los datos robados según su valor comercial.",
-      "sourceUrl": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude",
-        "gemini",
-        "kimi"
-      ],
-      "source": "social",
-      "published": "2026-11-02T11:21:07+05:30",
-      "title_orig": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "summary_orig": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;"
-    },
-    {
-      "id": "b4e3b8989c43",
-      "title": "No más clones de juegos con derechos: Anthropic pone freno al uso de su inteligencia artificial para la piratería",
-      "summary": "Anthropic impide que su IA se use para crear copias piratas de juegos con derechos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWRDODlad1plbzVuWFNPVGdlenNvMnJQVFg1MTNhQXQxVWNVbnl4SXR0SFhKaGVEXzJJQ2tRU3luOFdUSlF0SEJQRXVUZWlWZjhGVENZQkp3aUI4OEFxSFBEUHpnbXgxZGN1RkZFMkd1MW1pSzl0dTRnTVgyaFlGQ0JkQ0VvVTcxNDFmazNqSFdJT2Q2V09BUU5fWnNqZkkwakV6S0Q4WTJkS1RqQTZ0Z29VUFM2N0F3OG93VGVoUXdJY2xxc1ladjl5Y05Qd9IB0wFBVV95cUxObVRyLXVQazR5QmpaVjRtakpJOEl0dUlmNDdLUDZ0T0VJTUktM0NUQmVvU0Z6VldLaEJObVV3OUV1T2xyQmJqVTItbGV4OFBnN181MlBRdm53NHo4eFVaMVQxbVZlVnhmWW9teFFKN2pLVXhsSEMtcVFTQTRyMElIcDZCeVNsbXZka2N1dE9Xb1pfbS1HeE05UmZpVU1idGNzM0E5UE1HRHBGUnJ0TmUxQlA5YVhBU2llU0ZfV0JEX1YzR1lJUm9hMnlzUi1CRWhFZjRV?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Vandal",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-02T10:29:00+00:00",
-      "title_orig": "No más clones de juegos con derechos: Anthropic pone freno al uso de su inteligencia artificial para la piratería",
-      "summary_orig": ""
-    },
-    {
-      "id": "94e74ac8103c",
-      "title": "« Anthropic en Bourse : l'apocalypse est-elle un risque d' investissement comme un autre ? »",
-      "summary": "Anthropic en bolsa: ¿el apocalipsis es un riesgo de inversión como cualquier otro?",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPLVVpYU9nVm12elNQaHJmQzVobUhNc0kxZnlydHZMbi1Bb2d5NkxndndZZEVTUm1jUDdfVTdfakJPb3paemIzLU0zYVg2UlJvQTlpczBYSFY2dUVDcnEwamgtTGFjNkxCQ3FYTVNwT0g2MHhVUlBpT3BfNFBFYXI3N04weERfQ1JXVlJBMFluelVELW01RWY4TlF4OXRveFVIVkc3alRYRHNwcmFwNklTX3hLWXRGdWtGSFN6TWc1TUtXRFR1Y0xpZmd4eExOTFh1ZEM4endRaUdPVGZ1bnN0aV9pUQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-02T09:00:12+00:00",
-      "title_orig": "« Anthropic en Bourse : l’apocalypse est-elle un risque d’investissement comme un autre ? »",
-      "summary_orig": ""
     },
     {
       "id": "ed4b58253682",
@@ -239,11 +322,11 @@
       "summary_orig": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork."
     },
     {
-      "id": "b1a953809a72",
-      "title": "OpenAI reescribe la ley de los grandes modelos, la primera: ¡lealtad a los humanos!",
-      "summary": "Nueva versión de las Tres Leyes de la Robótica.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507225.html",
-      "sourceLabel": "QbitAI",
+      "id": "ff138f709a7e",
+      "title": "OpenAI nombra a Dan Driscoll como consejero principal para la modernización de la seguridad nacional",
+      "summary": "OpenAI nombra a Dan Driscoll como asesor de IA responsable para modernizar la seguridad nacional, reforzar la ciberresiliencia y colaborar con aliados de EE. UU.",
+      "sourceUrl": "https://openai.com/index/dan-driscoll-joins-openai",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -251,48 +334,14 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-02T07:27:54+00:00",
-      "title_orig": "OpenAI重写大模型法则，第一条：忠于人类！！",
-      "summary_orig": "新版“机器人三定律”。"
-    },
-    {
-      "id": "34a3fd5177bc",
-      "title": "¡GPT-6.2 Astra comienza la medición de grises! Claude Mythos 5.5 Exposición el mismo día",
-      "summary": "HuggingFace sospecha una filtración de pesos y ya ha sido descargado 5 000 veces.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507082.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T04:28:53+00:00",
-      "title_orig": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光",
-      "summary_orig": "HuggingFace疑似泄露权重已被下5000次"
-    },
-    {
-      "id": "b4909df6d7e7",
-      "title": "¿ChatGPT como asistente de vigilancia? Un estudio de caso exploratorio de los riesgos de la vigilancia asistida por IA",
-      "summary": "Los LLMs, como ChatGPT, pueden generar código y textos persuasivos a gran escala, lo que suscita preocupaciones sobre su uso en vigilancia.",
-      "sourceUrl": "https://arxiv.org/abs/2610.40890",
-      "sourceLabel": "arXiv cs.AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "research",
-      "published": "2026-11-02T00:00:00-05:00",
-      "title_orig": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
-      "summary_orig": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study"
+      "published": "2026-11-02T00:00:00+00:00",
+      "title_orig": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "summary_orig": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies."
     },
     {
       "id": "598c6194c0d3",
       "title": "Qodo crea contexto en la revisión del código de IA con Codex",
-      "summary": "Qodo integra el conocimiento y los estándares de la empresa en Codex, permitiendo a los desarrolladores detectar problemas críticos en los repositorios antes de crear una solicitud de extracción.",
+      "summary": "Qodo incorpora el conocimiento y los estándares de la empresa en Codex, permitiendo a los desarrolladores detectar problemas críticos en los repositorios antes de crear una solicitud de extracción.",
       "sourceUrl": "https://openai.com/index/qodo-codex-plugin",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -305,57 +354,6 @@
       "published": "2026-11-02T00:00:00+00:00",
       "title_orig": "Qodo builds context into AI code review with Codex",
       "summary_orig": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request."
-    },
-    {
-      "id": "33c086ca1438",
-      "title": "OpenAI podría renombrar sus centros de datos como \"campus informáticos de IA\"",
-      "summary": "Los centros de datos son muy impopulares; ¿y si los renombráramos?",
-      "sourceUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-01T21:55:23+00:00",
-      "title_orig": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "summary_orig": "Data centers are deeply unpopular. But what if we called them something else?"
-    },
-    {
-      "id": "3ba6d6c68387",
-      "title": "¡Claude, detente! Manipular el arnés prohíbe el juego inverso",
-      "summary": "Claude, detente: manipular el arnés está prohibido en el juego inverso.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507038.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-01T13:09:55+00:00",
-      "title_orig": "Claude紧急叫停！暗改Harness禁止逆向游戏",
-      "summary_orig": ""
-    },
-    {
-      "id": "ed61be8e2794",
-      "title": "\"Mis padres se pasan el día hablando con DeepSeek\": en China, casi nada ni nadie escapa a la inteligencia artificial",
-      "summary": "En China, la IA de DeepSeek domina conversaciones cotidianas, y casi nadie escapa a su influencia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNZEs5ajJyX3dMaWw3dE01Uy1ya2hhQlJjYlR5VFdmUHdrSDRYM3NNTkdDcXoyTFRYVE1OWHV6ZWZ6b1V2ajRnRUlfNzdkUHRBX1FLWWMxTkp0TzcyejJ3R0p3R0JmWlladklDZUc3eFd3dWFhWHRBQXJYQ2poRHdLdmdoR2tSclRuNG9weGkwellhQVlqT2d4STZrN2Q1LXhmbXVBOE9aN2E3MGx5RmNlWlRnVEpvSTlQdUVRVXRkUElDUVRraDRkVXBKNUl2WUpDc1U4NE90N3pjSVNDTEtqY2tDemJWRVA0Q3IxTnhBT3VFc0xLRWdnemNwRXNoX1JaTXNXbVk0SmtlY2dqVk1odGxvVWcyejVCU2xSU2xwSjBMQ1Q4YnVoLUx2Wk1DRnJCSlhrQmVfcjFvNEtvRUhB?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Libération",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "news",
-      "published": "2026-11-01T11:24:00+00:00",
-      "title_orig": "«Mes parents passent leurs journées à parler avec DeepSeek» : en Chine, quasi rien ni personne n’échappe à l’intelligence artificielle",
-      "summary_orig": ""
     }
   ]
 }
