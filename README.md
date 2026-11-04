@@ -13,12 +13,15 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 |--------|-----|
 | Producción | [ai-informe.vercel.app](https://ai-informe.vercel.app) |
 | Repositorio | [github.com/traderxael/AI-Informe-](https://github.com/traderxael/AI-Informe-) |
+| Tendencias del ranking (Elo LMArena, historial diario) | [ai-informe.vercel.app/tendencias](https://ai-informe.vercel.app/tendencias) |
+| Estadísticas del proyecto (señales, Elo promedio, feeds, fuentes) | [ai-informe.vercel.app/estadisticas](https://ai-informe.vercel.app/estadisticas) |
 
 ## Qué hace de verdad
 
 - RSS públicos (labs, medios, Google News multi-país, HN, Reddit con degradación suave). 33 feeds vivos, auditados con `scripts/auditar_feeds.py` (fallback TLS 1.2 ante 403).
 - Informe markdown diario en `informes/YYYY-MM-DD.md`.
 - JSON para la web: `public/data/signals-first.json`, `signals-rest.json`, `modelos.json`, **`modelos-history.json`** (Elo compacto por corrida).
+- **Tendencias y estadísticas**: rutas `/tendencias` (Elo LMArena con historial diario) y `/estadisticas` (KPIs del proyecto: señales, Elo promedio, feeds y organizaciones). Portada con toggle ES/EN y botón de compartir (CSP-safe).
 - Ranking de modelos: Elo LMArena (dataset oficial en Hugging Face) × precios OpenRouter. Si la fuente no responde, no sobrescribe el JSON anterior y el run queda rojo con evidencia.
 - **Salud de fuentes**: `scripts/feed_health.py` → `public/data/feed_health.json` (items por feed + estado del ranking). La portada muestra el resumen y el archivo queda versionado.
 - **Resúmenes LLM en español** con Groq (`scripts/resumir_groq.py`, Secret `GROQ_API_KEY`): resumen del día + traducción de señales. Opcional: si no hay key o Groq cae, el informe sigue publicándose.
