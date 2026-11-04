@@ -1,24 +1,182 @@
 {
-  "generated_at": "2026-11-03T19:08:22.806276+00:00",
+  "generated_at": "2026-11-04T19:26:08.883256+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
     "DeepMind",
-    "Google News — IA Alemania",
-    "Google News — IA Francia",
+    "Google News — IA China (zh)",
     "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "SCMP Business",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "The Hacker News"
   ],
   "signals": [
     {
-      "id": "2437af63b2f8",
-      "title": "Anthropic todavía está lidiando con la economía de la computación",
-      "summary": "En un momento en que los márgenes de cómputo de Anthropic deberían mejorar, están empeorando.",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "id": "78de6ffe4e2d",
+      "title": "Investigadores descubren adware rápido oculto en el kit de herramientas Jailbreak de OpenAI Codex",
+      "summary": "Investigadores de ciberseguridad revelaron un jailbreak llamado Haiou que altera las instrucciones de OpenAI Codex para insertar anuncios de un gateway de IA externo.",
+      "sourceUrl": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-11-04T21:36:43+05:30",
+      "title_orig": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "summary_orig": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration"
+    },
+    {
+      "id": "3a06f84c0f51",
+      "title": "OpenAI adquirirá Pierre Computer Company, Inc.",
+      "summary": "OpenAI comprará Pierre Computer Company para ampliar las herramientas Codex de creación, comprensión y revisión de código.",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-04T14:30:00+00:00",
+      "title_orig": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary_orig": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
+    },
+    {
+      "id": "d0b1493dcc52",
+      "title": "Tencent de China ha desafiado a DeepSeek y Kimi: el modelo de IA abierta de Hy4 puede ver y razonar",
+      "summary": "Tencent desafía a DeepSeek y Kimi con Hy4, un modelo de IA abierto capaz de ver y razonar.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQUY2WWljTVo5emFKNVhtVUFsaG1FTUxnWXJmUDhQam5iaVRMRzlYc25fLUFWMFFhOGdUY1ZXdlJTdEpUNXJ3cGVsandXV3dYVnRyU1ZBVl9Dc3FDQnhMcDE5aXRjclRoSFNYQTg5R2FMOTdnN2lmQVBrVzI2THhnbHZRTlZzeXRoYkJIZUY1N0xlemtZZFotMk9SWjZ4c2hzQVdzN0RPdDZqY2VuaVhDYXFVV2JzLWtPbmRzVdIBwgFBVV95cUxNQ2FfUnNwUFpmYVRqU2ZzdmJwdWFIMzlURTFIZjhfZ1VhM2x1S2MtekROXy0xVnZMS1JkbHdzUTFMQk1NWGZlNGMyZ29vOVlIUFZ2eDBDSTd2Z0tBdUFaRUJ5NzVUaG81eFRYRVlQY3dQMzJ1Q3V5MDRfMzM3eUlFM1FoaW1wSmFncGo4U0pkUjlQRW1tdEVWNHBKSy1nMlNqVXRuZDV0RGVXeWg3eS1iSlRnemRKOG12VmlhTTBJb1puUQ?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "3DNews",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "kimi",
+        "deepseek",
+        "hunyuan"
+      ],
+      "source": "news",
+      "published": "2026-11-04T13:17:00+00:00",
+      "title_orig": "Китайская Tencent бросила вызов DeepSeek и Kimi — открытая ИИ-модель Hy4 умеет видеть и рассуждать",
+      "summary_orig": ""
+    },
+    {
+      "id": "97a4c228d9d6",
+      "title": "\"Artificial Intelligence Wuzhen Dialogue\" DeepSeek, Qianqian, MiniMax están aquí_Rolling News",
+      "summary": "El diálogo de IA en Wuzhen presenta a DeepSeek, Qianqian y MiniMax como protagonistas en la última edición de Rolling News.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81emMyam9mQ2pZaThZMUtsOUVwTTBvUVppLVdtNUtmZVJ4UkZvQWZhX0FzLTlEUGNFd1FiVDNsZ3dDckRiTUc4TXhDajJ2c0lQNDR3N2FPZHI0aDZGSkVYczVlclc?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "证券之星",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek",
+        "minimax"
+      ],
+      "source": "news",
+      "published": "2026-11-04T09:30:08+00:00",
+      "title_orig": "“人工智能乌镇对话” DeepSeek、千问、MiniMax都来了_滚动新闻",
+      "summary_orig": ""
+    },
+    {
+      "id": "cdf3a66cc1fd",
+      "title": "3 acciones de inteligencia artificial (IA) que son mejores y más seguras que las compras antrópicas",
+      "summary": "Yahoo Finance destaca tres acciones de IA que resultan más seguras y rentables que las compras antrópicas.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaFVJeFdjdzJqeUZwR1o3bnREcEtRRUtvd3FXcG5jdUQ5ZDNKYzY1SWNVTzR3VXpIdVl5X3BYUVVSdGl4MFhqbFUwaFN2azFHbll2Y3o0NG9CbGQ1R2NINDZqYUlVd3FxSFh4TktONVdRQkdYV3c3U0VXckZTejdXNHZGelRLNXJpOWUwU3haY1kzS09fbFRnYWc1XzdKc1kx?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Yahoo Finance",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-04T09:20:04+00:00",
+      "title_orig": "3 Artificial Intelligence (AI) Stocks That Are Better and Safer Buys Than Anthropic",
+      "summary_orig": ""
+    },
+    {
+      "id": "e5584b49c36b",
+      "title": "¿Por qué un empleado antrópico renuncia después de solo ocho meses?",
+      "summary": "Un empleado de Anthropic dejó la empresa tras solo ocho meses, según informó NDTV.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRno4ZkFOc2diYUVVMmhjZ3VSR1JIX0lVUElDM3BISTJDOXhjMmFqY1hiSXFnZUdtLXV6WDF3cHJEenpubi1XeHJ5UE5OSy05Q1NrUXExQ0VBUzZjbkhCU0tPTFFCVE9OZUZnY1V6ZkFNOXVlbklkVkZidGoyVnlzQnNLamlnSG5VLTdqdFFKYUNpT1ZwSUwxYmJNRklxSXhiQnh0dHdPTXYwTnUx0gG0AUFVX3lxTE52bjJSQ3hqU1dNdVloZ2xiSmF0ZVdvbFJCXzJXS1ZFRUxoRFhlUjc4eGd3eHBBRm1zUmxmSno5bkdLX3Bla0R2WHd0NWJlVFhYejV1eGFhQ21QQjVSWDhxOVoxa0tJa3VPTFVuQ0hmODR4ME52YV90Z0Q5NVlwUGFEYXU5a1hibzYwaUlOeEtSNS1XNUZibm8zbllhNTV0X0ZMelI5TWRrcjdjcWJFT3JvcE4yRA?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "NDTV",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-04T08:02:47+00:00",
+      "title_orig": "Why An Anthropic Employee Quit After Just Eight Months",
+      "summary_orig": ""
+    },
+    {
+      "id": "509b68cc9a39",
+      "title": "Tencent presenta Hy4 como una carrera de IA de peso abierto con DeepSeek, Z.ai y Alibaba",
+      "summary": "Tencent lanza Hy4, su nuevo modelo de IA con capacidad visual para procesar imágenes y gráficos, compitiendo con los principales LLM de código abierto.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3373227/tencent-unveils-hy4-open-weight-ai-race-deepseek-zai-alibaba-heats",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen",
+        "deepseek",
+        "hunyuan"
+      ],
+      "source": "lab",
+      "published": "2026-11-04T07:01:09+00:00",
+      "title_orig": "Tencent unveils Hy4 as open-weight AI race with DeepSeek, Z.ai, Alibaba heats up",
+      "summary_orig": "Chinese tech giant Tencent Holdings has rolled out its latest flagship artificial intelligence model, Hy4, seeking to challenge top open-weight rivals with enhanced agentic capabilities built to power its enterprise software ecosystem. Released on Wednesday, the large language model (LLM) introduced visual understanding for the first time. Hy4 could process images, analyse complex charts and condu"
+    },
+    {
+      "id": "75679f5aa60b",
+      "title": "Daybreak Red ya está disponible en AWS GovCloud (EE. UU. - Este)",
+      "summary": "Daybreak Red ofrece GPT‑5.6 Cyber a clientes aprobados en AWS GovCloud (US‑East) vía Amazon Bedrock para trabajos de ciberseguridad autorizados.",
+      "sourceUrl": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-04T07:00:00+00:00",
+      "title_orig": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary_orig": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
+    },
+    {
+      "id": "8c4cd4032a6a",
+      "title": "Tencent WeVisOne-VL Unifica Detección, OCR, Segmentación y Matting",
+      "summary": "El equipo WeChat Vision de Tencent lanzó WeVisOne‑VL, modelo de visión‑lenguaje de 2 B y 4 B parámetros que unifica detección, OCR, conteo, segmentación y matado alfa con un decodificador de píxeles de 9,6 M.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "lab",
+      "published": "2026-11-04T04:39:27+00:00",
+      "title_orig": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
+      "summary_orig": "Tencent’s WeChat Vision team released WeVisOne-VL, an Apache 2.0 vision language model in 2B and 4B sizes. It handles detection, OCR, counting, segmentation and alpha matting in one model, with a 9.6M-parameter pixel decoder. The post Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting appeared first on MarkTechPost ."
+    },
+    {
+      "id": "f901cc10a3c4",
+      "title": "Anthropic está trabajando en un sistema para probar la identidad de los modelos de IA",
+      "summary": "FlashProve permitiría a cualquiera verificar que la respuesta de una IA proviene realmente del modelo que dice ser.",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
@@ -27,14 +185,31 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-11-03T17:07:01+00:00",
-      "title_orig": "Anthropic is still grappling with the economics of compute",
-      "summary_orig": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse."
+      "published": "2026-11-03T22:41:03+00:00",
+      "title_orig": "Anthropic is working on a system to prove AI models’ identity",
+      "summary_orig": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
+    },
+    {
+      "id": "2b36c11db627",
+      "title": "Antropic lanza FlashProve: pruebas criptográficas de que una respuesta proviene de pesos comprometidos",
+      "summary": "Anthropic lanzó FlashProve, un prototipo zkSNARK bajo Apache 2.0 que demuestra que una respuesta proviene del modelo comprometido sin revelar sus pesos.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T22:08:22+00:00",
+      "title_orig": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+      "summary_orig": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights appeared first on MarkTechPost ."
     },
     {
       "id": "7b04a568c5ad",
       "title": "Quimioinformática Agénica con Google Antigravity",
-      "summary": "Descubre cómo Google Antigravity y nuestras habilidades en quimioinformática aceleran la búsqueda de compuestos y proponen macrociclos rígidos novedosos para el descubrimiento de fármacos.",
+      "summary": "Descubre cómo Google Antigravity y nuestras habilidades de quimioinformática aceleran la búsqueda de compuestos y proponen macrociclos rígidos para el descubrimiento de fármacos.",
       "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "sourceLabel": "DeepMind",
       "publisher": "",
@@ -49,44 +224,9 @@
       "summary_orig": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
     },
     {
-      "id": "ea82f0ffd52d",
-      "title": "Anthropic ofrece un salario de hasta $ 500K para la investigación de seguridad de IA",
-      "summary": "Anthropic propone pagar hasta 500 000 USD por trabajos de investigación en seguridad de IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ3NRcUJRaDZNQzZTQnJzdF9sQTRlMndaOGJFTnc1MUNyMzNCbHlYQUxFc1hfLUhmdFI1c2pPMi1XSkhzaEZxR2Q5S1FWUzhmMHFQVG9JeHNJS0RyZ2Z3S2JkWjNHM1luOElySTF4THNvUENGRzQzT2dlMk9YRFd5NXBKSGJ2S0tyYUtlaEU3NlFxT1RXRGw1X0tJOVY0VS1IM1hBdm1DTzZnX1VRMm9xakI5dnJHZy1PUWE0b2NvSzNjVlh2Zkl1ZzNn?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "RB.RU",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-03T14:10:00+00:00",
-      "title_orig": "Anthropic предложила зарплату до $500 тыс. за исследования безопасности ИИ",
-      "summary_orig": ""
-    },
-    {
-      "id": "05a251b1c791",
-      "title": "Por qué las estrellas chinas de la IA como Z.ai y MiniMax luchan por igualar el margen de beneficio de Anthropic",
-      "summary": "El prospecto de salida a bolsa de Anthropic muestra una gran brecha de rentabilidad frente a Z.ai y MiniMax, evidenciando la dificultad de los desarrolladores chinos de IA para convertir avances tecnológicos en negocios sostenibles.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3373124/why-chinese-ai-stars-zai-minimax-struggle-match-anthropics-profit-margin",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "claude",
-        "minimax"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T12:30:13+00:00",
-      "title_orig": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
-      "summary_orig": "US artificial intelligence giant Anthropic’s initial public offering prospectus has exposed a vast profitability gap between it and rivals Z.ai and MiniMax, highlighting the challenges facing China’s AI model developers in turning technological advances into sustainable businesses. The Claude developer’s filing with the US Securities and Exchange Commission (SEC) last week revealed a significant f"
-    },
-    {
       "id": "26c6032e1d26",
       "title": "Aceleración de la ingeniería para el mundo físico",
-      "summary": "ChatGPT y Codex aceleran a ingenieros en CAD, diseño de PCB, simulaciones y otros flujos de trabajo del mundo físico.",
+      "summary": "ChatGPT y Codex están acelerando a los ingenieros en CAD, diseño de PCB, simulaciones y otros flujos de trabajo del mundo físico.",
       "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -101,55 +241,21 @@
       "summary_orig": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world."
     },
     {
-      "id": "137f297d8412",
-      "title": "Hg y Anthropic invierten en una nueva empresa de IA para el mercado europeo",
-      "summary": "Hg y Anthropic invierten en una startup de IA dirigida al mercado europeo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNektiQWgyT2d2R3J1aW5hYjU4ZXJqQndFZTJIeXNhN0tSbTE0LUlIY0xCOGRURlhKRnpsNTJyNnE5aDdBMk51M1lqWkFGXzhDNkpjSVBwdU9sYll0SFA5T0UtdjhRWVM5T1ZvU1ljeVUtNFB4SUdydk5tVDhTTUtOSVo2cy1adGpweVgtV1hON28zX21VWThOT09zeXU2MndQaVFuN2NpSXNxSEhoRDMzNTRB?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Startbase",
+      "id": "a2357e701f02",
+      "title": "Cómo se defiende Cisco a la velocidad de la máquina con OpenAI",
+      "summary": "Cisco une la inteligencia de red con modelos de OpenAI para reforzar la seguridad empresarial, creando defensas más adaptativas.",
+      "sourceUrl": "https://openai.com/index/cisco-cyber",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude"
+        "gpt"
       ],
-      "source": "news",
-      "published": "2026-11-03T10:59:00+00:00",
-      "title_orig": "Hg und Anthropic investieren in neues KI-Unternehmen für den europäischen Markt",
-      "summary_orig": ""
-    },
-    {
-      "id": "6aa587d5b321",
-      "title": "Anthropic advierte sobre la drástica autoaceleración de la IA",
-      "summary": "Anthropic advierte que la IA se está autoacelerando de forma drástica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdWE5UVF5aVZEdFE1TUhBTFlHaWREMG9RcW8wLTNCcGNpbmFqdWxJSS1ZS2NmdDN0ci1nUDhmd0REcjZ0V1htZXczWUVhUVJMRGZJN3ZGZkhiN1dvaVhJOUI1VjBqeXRwMmZyU2E1bTYtcnF4ZVE5TGIzOC0tVWNPZmc5YzdLUWxKSWw2Qm02NlE3RGlLUG5MZkpUVDk1SUdlS2xHTXlVbTVpU3Z6YVFuSEdxUQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "heise online",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-03T10:50:00+00:00",
-      "title_orig": "Anthropic warnt vor drastischer Selbstbeschleunigung der KI",
-      "summary_orig": ""
-    },
-    {
-      "id": "08ab7c392bfe",
-      "title": "Anthropic cree que se acerca un punto de inflexión importante en la IA, pero puede que no lo vea venir",
-      "summary": "Anthropic advierte que se aproxima un gran punto de inflexión en la IA, aunque podría no anticiparlo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVI3cUlxZk44dURxM29Uc3dwbnVwT2JxZ3kyeExpWVdpOEx4WWhWcU9nQTBvWlNrZWF6dmVLbWh0UXZWZHVSeERmc2o4eEhEV1VuUVJrc1I0V2J2dkt5SGZBenBIdGhyOGt5MXM1cXJzZ1hUT1dFNElDbVVtN1lDelBkNmtFZ05US1N4RWdWVDVaeC1wem1OWkY4MEJXcXRWMGVES1UyRE5MclZCeC15a0xQWk9PZjhpUWVYU2xoUVNYNFRtZWdWZTJZTEk?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Numerama",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-03T09:42:51+00:00",
-      "title_orig": "Anthropic pense approcher d’un tournant majeur dans l’IA, mais pourrait ne pas le voir venir",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-11-03T08:00:00+00:00",
+      "title_orig": "How Cisco defends at machine speed with OpenAI",
+      "summary_orig": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses."
     },
     {
       "id": "08b710f1e780",
@@ -186,9 +292,26 @@
       "summary_orig": "OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of Git data per day. The post OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80% appeared first on MarkTechPost ."
     },
     {
+      "id": "3d509e27bae2",
+      "title": "OpenAI nombra a Jill Hazelbaker como Directora de Asuntos Corporativos",
+      "summary": "Jill Hazelbaker se incorpora a OpenAI como directora de Asuntos Corporativos, a cargo de la comunicación global y el posicionamiento de la empresa.",
+      "sourceUrl": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-03T00:00:00+00:00",
+      "title_orig": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "summary_orig": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning."
+    },
+    {
       "id": "778dbacaaeb9",
       "title": "Las nuevas reglas de Claude contra la clonación de juegos no detendrán el auge de la copia de IA",
-      "summary": "La ola de imitadores es mucho mayor de lo que cualquier creador de modelos puede detener.",
+      "summary": "La ola de imitadores es mucho mayor de lo que cualquier creador de modelos puede controlar.",
       "sourceUrl": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
       "sourceLabel": "Ars Technica AI",
       "publisher": "",
@@ -205,7 +328,7 @@
     {
       "id": "6fd6ad7938fa",
       "title": "Recompensar a los defensores con recompensas de errores más grandes",
-      "summary": "OpenAI aumenta las recompensas del programa de bugs y añade bonificaciones por calidad, lealtad y prioridad para investigadores de seguridad independientes.",
+      "summary": "OpenAI aumenta las recompensas del programa de cazadores de bugs y añade bonificaciones por calidad, lealtad y prioridad a los investigadores de seguridad independientes.",
       "sourceUrl": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -235,125 +358,6 @@
       "published": "2026-11-02T18:00:00+00:00",
       "title_orig": "Preparing our next security sprint to harden OpenAI",
       "summary_orig": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
-    },
-    {
-      "id": "ba0a17f60d70",
-      "title": "Inteligencia artificial: la empresa de IA Anthropic pierde miles de millones antes de su salida a bolsa",
-      "summary": "Anthropic, la startup de IA, pierde miles de millones antes de su salida a bolsa, según informa WirtschaftsWoche.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObEZnYlZYWWZFMGF3SktleTBBV01UbDRBS3JLbUt1R1B0cjdXUHNxV3NQNUZVZEhOU2s5Q093VDNCQzhMNWFuZW9wTXo3SW1PYVBndzFRTmJrSHdqUWtqWFR4UHN1cmZkcHBUdDFDVGdqbXhDV2dzSzNUYUR4dGF0RWhHd0pxenQ3ai13VS1PZmQyTF9lWC1qS2hIR20xdi12TXg1UVpJWDVSLWVDZWtKVVBSTWJUZUJ0Qmpaa2NLZktPSUxRLWQ2ZmFfSjRWVmtTdjlrLXhkeHc2TXNs?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-02T17:23:18+00:00",
-      "title_orig": "Künstliche Intelligenz: KI-Firma Anthropic mit Milliarden-Verlusten vor Börsengang",
-      "summary_orig": ""
-    },
-    {
-      "id": "de4cf53f9db9",
-      "title": "Escalar Git en OpenAI",
-      "summary": "OpenAI creó Pando, un backend compatible con Git pensado para manejar la gran escala de desarrollo que permite Codex.",
-      "sourceUrl": "https://openai.com/index/scaling-git-at-openai",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T15:30:00+00:00",
-      "title_orig": "Scaling Git at OpenAI",
-      "summary_orig": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
-    },
-    {
-      "id": "1edf0eeb3b96",
-      "title": "Inside Anthropic's Hunt for A.I. Computing Power",
-      "summary": "Anthropic intensifica la búsqueda de mayor potencia de cómputo para sus sistemas de inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSzNBLTZEQWd3WGJtSVlvWW9BYnlFNW91WUowLUhCZFJ4NmREYU4tUG9hM1Jzb0RaOVNKczZPTUZQVHk3SHVSVlRFRGM4UnZtdHhMcnNWM1FLOWFUSzlGVXpiYUpPNElWcnpzWmliRUk4Z2JIaE0yeVFhc3NLcEZUdl9NdVN3Zw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-02T15:08:36+00:00",
-      "title_orig": "Inside Anthropic’s Hunt for A.I. Computing Power",
-      "summary_orig": ""
-    },
-    {
-      "id": "19244c7aa206",
-      "title": "Presentamos el programa de protectores de red",
-      "summary": "El programa Grid Protectors de OpenAI colaborará con las compañías eléctricas para que los campus de cómputo futuros mantengan la fiabilidad de la red y protejan el costo de la electricidad para los consumidores.",
-      "sourceUrl": "https://openai.com/index/grid-protectors-program",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T15:00:00+00:00",
-      "title_orig": "Introducing the Grid Protectors Program",
-      "summary_orig": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
-    },
-    {
-      "id": "ed4b58253682",
-      "title": "LifeVal",
-      "summary": "LifeVal es un benchmark que evalúa la capacidad de la IA para ayudar a las personas en tareas cotidianas, como buscar guardería, gestionar finanzas y trámites gubernamentales.",
-      "sourceUrl": "https://openai.com/index/lifeval",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T09:00:00+00:00",
-      "title_orig": "LifeVal",
-      "summary_orig": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork."
-    },
-    {
-      "id": "ff138f709a7e",
-      "title": "OpenAI nombra a Dan Driscoll como consejero principal para la modernización de la seguridad nacional",
-      "summary": "OpenAI nombra a Dan Driscoll como asesor de IA responsable para modernizar la seguridad nacional, reforzar la ciberresiliencia y colaborar con aliados de EE. UU.",
-      "sourceUrl": "https://openai.com/index/dan-driscoll-joins-openai",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T00:00:00+00:00",
-      "title_orig": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "summary_orig": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies."
-    },
-    {
-      "id": "598c6194c0d3",
-      "title": "Qodo crea contexto en la revisión del código de IA con Codex",
-      "summary": "Qodo incorpora el conocimiento y los estándares de la empresa en Codex, permitiendo a los desarrolladores detectar problemas críticos en los repositorios antes de crear una solicitud de extracción.",
-      "sourceUrl": "https://openai.com/index/qodo-codex-plugin",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T00:00:00+00:00",
-      "title_orig": "Qodo builds context into AI code review with Codex",
-      "summary_orig": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request."
     }
   ]
 }
