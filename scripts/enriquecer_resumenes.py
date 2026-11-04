@@ -10,7 +10,9 @@ from pathlib import Path
 from datetime import date
 
 ROOT = Path(__file__).resolve().parent.parent
-WEB_DIR = ROOT / "web"
+# Fuente única: public/data/informes-data.json (Issue #30). La copia legacy
+# en web/ fue eliminada; web/ no se sirve en Vercel.
+DATA_PATH = ROOT / "public" / "data" / "informes-data.json"
 
 def extraer_resumen_url(url: str) -> str:
     """Extrae un resumen automático de una URL."""
@@ -45,7 +47,7 @@ def extraer_resumen_url(url: str) -> str:
 
 def enriquecer_informe(fecha: str = None):
     """Agrega resúmenes a un informe existente."""
-    path = WEB_DIR / "informes-data.json"
+    path = DATA_PATH
     if not path.exists():
         print("❌ No existe informes-data.json")
         return False

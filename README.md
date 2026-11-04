@@ -5,13 +5,13 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 [![GitHub Actions](https://img.shields.io/github/actions/workflow-status/traderxael/AI-Informe-/informe-diario.yml?branch=main&style=flat-square)](https://github.com/traderxael/AI-Informe-/actions)
 [![Último commit](https://img.shields.io/github/last-commit/traderxael/AI-Informe-/main?style=flat-square)](https://github.com/traderxael/AI-Informe-/commits/main)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue?style=flat-square)](LICENSE)
-[![Vercel](https://img.shields.io/badge/deploy-vercel-black?style=flat-square)](https://ai-informe-dashboard.vercel.app)
+[![Vercel](https://img.shields.io/badge/deploy-vercel-black?style=flat-square)](https://ai-informe.vercel.app)
 
 ## Ver el dashboard
 
 | Entorno | URL |
 |--------|-----|
-| Producción | [ai-informe-dashboard.vercel.app](https://ai-informe-dashboard.vercel.app) |
+| Producción | [ai-informe.vercel.app](https://ai-informe.vercel.app) |
 | Repositorio | [github.com/traderxael/AI-Informe-](https://github.com/traderxael/AI-Informe-) |
 
 ## Qué hace de verdad

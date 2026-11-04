@@ -123,8 +123,10 @@ def main():
             "global": sum(1 for s in d["por_seccion"].values() for i in s if i.get("pais") == "global"),
         }
     
-    # Exportar
-    out_path = WEB_DIR / "informes-data.json"
+    # Exportar. OJO (Issue #30): este export histórico de TODOS los días ya
+    # no usa el nombre informes-data.json, que es la fuente única de 30 días
+    # en public/data/. Salida separada para no recrear la copia duplicada.
+    out_path = WEB_DIR / "informes-historico.json"
     out_path.write_text(
         json.dumps(informes, ensure_ascii=False, indent=2),
         encoding="utf-8"
