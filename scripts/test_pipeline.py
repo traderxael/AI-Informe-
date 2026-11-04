@@ -8,7 +8,7 @@ import ssl
 import tempfile
 import unittest
 import urllib.error
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -16,6 +16,7 @@ import actualizar_modelos as am
 import collect_signals as cs
 import feed_health as fh
 import generar_informe as gi
+import reparar_agujeros as ra
 import sources as S
 
 
@@ -759,6 +760,46 @@ class FeedHealthTests(unittest.TestCase):
         with patch.object(fh.gi, "fetch_url", return_value=None):
             resultado = fh.probar_feed("x", "https://example.test/feed")
         self.assertEqual(resultado["estado"], "error")
+
+
+class RepararAgujerosTests(unittest.TestCase):
+    """El detector de agujeros: solo lo recuperable por RSS, lo demás listado."""
+
+    def test_agujeros_recientes_dentro_de_ventana(self) -> None:
+        hoy = date(2026, 10, 28)
+        existentes = {date(2026, 10, 28), date(2026, 10, 26), date(2026, 10, 24)}
+        faltan = ra.agujeros_recientes(hoy, existentes)
+        self.assertEqual(
+            faltan,
+            [
+                date(2026, 10, 27),
+                date(2026, 10, 25),
+                date(2026, 10, 23),
+                date(2026, 10, 22),
+            ],
+        )
+
+    def test_sin_agujeros_recientes(self) -> None:
+        hoy = date(2026, 10, 28)
+        existentes = {hoy - timedelta(days=d) for d in range(0, 7)}
+        self.assertEqual(ra.agujeros_recientes(hoy, existentes), [])
+
+    def test_agujeros_antiguos_solo_fuera_de_ventana(self) -> None:
+        hoy = date(2026, 10, 28)
+        # Ventana: 10-27 .. 10-22. 10-21 y más viejo: no recuperable por RSS.
+        existentes = {hoy, date(2026, 10, 20)}
+        self.assertEqual(ra.agujeros_antiguos(hoy, existentes), [date(2026, 10, 21)])
+
+    def test_fechas_existentes_ignora_plantilla_y_chatarra(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            (d / "2026-10-27.md").write_text("x", encoding="utf-8")
+            (d / "_plantilla.md").write_text("x", encoding="utf-8")
+            (d / "chatarra.md").write_text("x", encoding="utf-8")
+            (d / "2026-10-25.md").write_text("x", encoding="utf-8")
+            self.assertEqual(
+                ra.fechas_existentes(d), {date(2026, 10, 27), date(2026, 10, 25)}
+            )
 
 
 if __name__ == "__main__":

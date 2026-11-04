@@ -2,8 +2,8 @@
 """
 Resúmenes LLM (Groq) para AI Informe — Fase 2.
 
-1. Genera el "Resumen del día" en español natural (web/informes-data.json
-   + public/data/informes-data.json).
+1. Genera el "Resumen del día" en español natural
+   (public/data/informes-data.json, fuente única — Issue #30).
 2. Traduce/reescribe los `summary` de public/data/signals-first.json al
    español (el original se conserva en `summary_orig`).
 
@@ -142,12 +142,12 @@ def es_espanol(texto: str) -> bool:
 
 
 def resumen_dia(api_key: str, force: bool) -> bool:
-    """Escribe resumen_dia del día más reciente en informes-data.json (web + public)."""
+    """Escribe resumen_dia del día más reciente en informes-data.json (fuente única pública)."""
     if not SIGNALS_FIRST.exists():
         print("⚠️ sin signals-first.json, salto resumen del día")
         return False
     cambios = 0
-    for path in (WEB_DIR / "informes-data.json", PUBLIC_DATA / "informes-data.json"):
+    for path in (PUBLIC_DATA / "informes-data.json",):
         if not path.exists():
             continue
         datos = json.loads(path.read_text(encoding="utf-8"))

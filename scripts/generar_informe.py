@@ -693,6 +693,12 @@ def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -
 
     cutoff = datetime.combine(day, datetime.min.time(), tzinfo=timezone.utc)
     min_dt = cutoff - timedelta(hours=lookback_hours)
+    # Cota superior: al regenerar una fecha pasada (reparar_agujeros.py usa
+    # write_informe con una fecha vieja), los feeds ya traen items publicados
+    # DESPUES de ese dia. Sin esta cota, el "informe del 2026-10-25" reparado
+    # hoy sale lleno de noticias de esta semana. Para el run diario (day = hoy)
+    # no cambia nada: los feeds no tienen items futuros.
+    max_dt = cutoff + timedelta(days=1)
     seen: set[str] = set()
     collected: list[dict[str, Any]] = []
 
@@ -710,7 +716,7 @@ def collect_items(day: date, lookback_hours: int = 168, parallel: bool = True) -
             if key in seen:
                 continue
             published = item.get("published")
-            if published is not None and published < min_dt:
+            if published is not None and (published < min_dt or published >= max_dt):
                 continue
             seen.add(key)
             item["source"] = source
@@ -924,6 +930,27 @@ def regenerate_web() -> None:
         json.dumps(rows, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    # Archivo visible en la app viva (index.html raíz): web/ no se sirve en
+    # Vercel, pero public/data/ sí (/data/archivo.json). El texto completo
+    # vive en GitHub (informes/<fecha>.md), enlazado por fecha.
+    public_data_dir = ROOT / "public" / "data"
+    if public_data_dir.exists():
+        archive = [
+            {
+                "fecha": row["date"],
+                "titulo": row["title"],
+                "resumen": row["summary"],
+                "url": (
+                    "https://github.com/traderxael/AI-Informe-"
+                    f"/blob/main/informes/{row['date']}.md"
+                ),
+            }
+            for row in rows
+        ]
+        (public_data_dir / "archivo.json").write_text(
+            json.dumps(archive, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
 
     for path in INFORMES_DIR.glob("*.md"):
         if path.name.startswith("_"):
@@ -1033,7 +1060,9 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     }
 
     # Append al historial (últimos 30 días)
-    historial_path = WEB_DIR / "informes-data.json"
+    # Fuente única: public/data/informes-data.json (Issue #30). Antes se
+    # escribía la misma copia en web/ (1,8 MB x2) y ambas divergían en
+    # resumen_dia. web/ no se sirve en Vercel; public/data/ sí.
     public_data_dir = ROOT / "public" / "data"
     public_historial_path = public_data_dir / "informes-data.json"
 
@@ -1045,10 +1074,15 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
                 return []
         return []
 
-    # Fusionar web/ + public/data/ por fecha: cualquiera de los dos puede tener
-    # días que el otro no (antes se perdían). Se conserva la versión más nueva.
+    # Semilla única de migración: si la copia pública aún no existe pero la
+    # legacy de web/ sí, se parte de ella una sola vez.
+    seed_paths = [public_historial_path]
+    if not public_historial_path.exists():
+        seed_paths.append(WEB_DIR / "informes-data.json")
     merged: dict[str, dict] = {}
-    for entry in _load(historial_path) + _load(public_historial_path):
+    for entry in _load(seed_paths[0]) + (
+        _load(seed_paths[1]) if len(seed_paths) > 1 else []
+    ):
         fecha = entry.get("fecha")
         if fecha:
             merged[fecha] = entry
@@ -1059,9 +1093,6 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     historial = sorted(historial, key=lambda h: h.get("fecha", ""))[-30:]
 
     payload = json.dumps(historial, ensure_ascii=False, indent=2) + "\n"
-    historial_path.write_text(payload, encoding="utf-8")
-    # El sitio desplegado (app React en Vercel) lee public/data/; antes este
-    # directorio quedaba huérfano y la web en vivo se congelaba (bug detectado).
     if public_data_dir.exists():
         public_historial_path.write_text(payload, encoding="utf-8")
 
@@ -1085,7 +1116,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     if public_data_dir.exists():
         public_simple_path.write_text(simple_payload, encoding="utf-8")
 
-    print(f"  JSON exportado: {historial_path} (+ public/data/)")
+    print(f"  JSON exportado: {public_historial_path}")
 
 
 def write_informe(day: date, force: bool) -> Path:
