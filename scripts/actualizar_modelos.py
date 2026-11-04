@@ -240,6 +240,43 @@ def escribir_payload(payload: dict, paths: list[Path] | None = None) -> None:
     for path in paths or OUT_PATHS:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
+    _registrar_historial(payload)
+
+
+HISTORY_PATH = ROOT / "public" / "data" / "modelos-history.json"
+
+
+def _registrar_historial(payload: dict, keep: int = 90) -> None:
+    """Agrega un snapshot compactado del ranking a public/data/modelos-history.json.
+
+    La gráfica de tendencias del dashboard se alimenta solo de este archivo: un
+    punto por ejecución diaria (máximo `keep`), sin sobrescribir el histórico.
+    """
+    try:
+        nuevo = {
+            "fecha": (payload.get("actualizado") or "")[:10],
+            "modelos": {m["modelo"]: m["elo"] for m in payload.get("modelos", [])},
+        }
+        if not nuevo["fecha"]:
+            return
+        history: list[dict] = []
+        if HISTORY_PATH.exists():
+            data = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+            history = list(data.get("history", []))
+            history = [h for h in history if h.get("fecha") != nuevo["fecha"]]
+        history.append(nuevo)
+        history.sort(key=lambda h: h.get("fecha", ""))
+        history = history[-keep:]
+        payload_out = {
+            "actualizado": payload.get("actualizado"),
+            "fuentes": payload.get("fuentes", []),
+            "nota": "Snapshot compacto del ranking LMArena por corrida. Lo actualiza actualizar_modelos.py.",
+            "history": history,
+        }
+        HISTORY_PATH.write_text(json.dumps(payload_out, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"OK -> {HISTORY_PATH} ({len(history)} puntos de historia)")
+    except Exception as exc:  # el historial nunca debe romper la corrida principal
+        print(f"[warn] no se pudo actualizar el historial: {exc}", file=sys.stderr)
 
 
 def main() -> None:

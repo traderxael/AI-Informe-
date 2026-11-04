@@ -10,11 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as EstadisticasRouteImport } from './routes/estadisticas'
 import { Route as NoticiasRouteImport } from './routes/noticias'
+import { Route as TendenciasRouteImport } from './routes/tendencias'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EstadisticasRoute = EstadisticasRouteImport.update({
+  id: '/estadisticas',
+  path: '/estadisticas',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NoticiasRoute = NoticiasRouteImport.update({
@@ -22,31 +29,44 @@ const NoticiasRoute = NoticiasRouteImport.update({
   path: '/noticias',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TendenciasRoute = TendenciasRouteImport.update({
+  id: '/tendencias',
+  path: '/tendencias',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/estadisticas': typeof EstadisticasRoute
   '/noticias': typeof NoticiasRoute
+  '/tendencias': typeof TendenciasRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/estadisticas': typeof EstadisticasRoute
   '/noticias': typeof NoticiasRoute
+  '/tendencias': typeof TendenciasRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/estadisticas': typeof EstadisticasRoute
   '/noticias': typeof NoticiasRoute
+  '/tendencias': typeof TendenciasRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/noticias'
+  fullPaths: '/' | '/estadisticas' | '/noticias' | '/tendencias'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/noticias'
-  id: '__root__' | '/' | '/noticias'
+  to: '/' | '/estadisticas' | '/noticias' | '/tendencias'
+  id: '__root__' | '/' | '/estadisticas' | '/noticias' | '/tendencias'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  EstadisticasRoute: typeof EstadisticasRoute
   NoticiasRoute: typeof NoticiasRoute
+  TendenciasRoute: typeof TendenciasRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -58,6 +78,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/estadisticas': {
+      id: '/estadisticas'
+      path: '/estadisticas'
+      fullPath: '/estadisticas'
+      preLoaderRoute: typeof EstadisticasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/noticias': {
       id: '/noticias'
       path: '/noticias'
@@ -65,12 +92,21 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NoticiasRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tendencias': {
+      id: '/tendencias'
+      path: '/tendencias'
+      fullPath: '/tendencias'
+      preLoaderRoute: typeof TendenciasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  EstadisticasRoute: EstadisticasRoute,
   NoticiasRoute: NoticiasRoute,
+  TendenciasRoute: TendenciasRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -18,6 +18,9 @@ import {
 } from "@/lib/informe-data";
 import { loadLiveModels, loadLiveSignals, weekLabelFrom, type LiveModelRow } from "@/lib/live-feed";
 import { cn } from "@/lib/utils";
+import { useLang } from "@/lib/i18n";
+import { LangToggle } from "@/components/lang-toggle";
+import { ShareButton } from "@/components/share-button";
 
 type PriceSort = "blend" | "in" | "out" | "label";
 
@@ -43,6 +46,7 @@ export function WeekView({
   const [showAll, setShowAll] = useState(false);
   const [arena, setArena] = useState<LiveModelRow[] | null>(null);
   const [arenaAt, setArenaAt] = useState<string | null>(null);
+  const { t } = useLang();
 
   useEffect(() => {
     let cancelled = false;
@@ -133,21 +137,30 @@ export function WeekView({
           aria-hidden="true"
           className="pointer-events-none absolute -top-28 right-8 size-72 rounded-full bg-accent/10 blur-3xl"
         />
+        <div className="absolute right-3 top-3 flex items-center gap-2 sm:right-5 sm:top-5">
+          <ShareButton title="AI Informe — El pulso de la IA" />
+          <LangToggle />
+        </div>
         <div className="relative">
           <p className="flex items-center gap-2 text-[11px] font-semibold tracking-[0.22em] text-subtle uppercase">
             <span className="size-2 rounded-full bg-accent shadow-[0_0_14px_rgba(131,229,190,0.7)]" />
             AI Informe <span className="text-border">/</span>
-            {live ? "Señales del día" : "Informe semanal"}
+            {live ? t("hero.eyebrow.live") : t("hero.eyebrow.week")}
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] tracking-tight text-fg sm:text-6xl">
-            El pulso de la inteligencia artificial
+            {t("hero.title")}
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted sm:text-base">
-            Noticias, modelos y movimientos que importan, ordenados por región y por modelo.
-            Una lectura clara del ecosistema global de IA.
+            {t("hero.sub")}
           </p>
           <div className="mt-7 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-4">
-            <span className="text-xs text-subtle">Corte del informe · {week}</span>
+            <span className="text-xs text-subtle">
+              {t("hero.corte")} · {week}
+              <span className="ml-3 hidden sm:inline text-border">·</span>
+              <a href="/tendencias" className="ml-3 hidden hover:text-fg sm:inline">{t("nav.tendencias")}</a>
+              <span className="ml-3 hidden text-border sm:inline">·</span>
+              <a href="/estadisticas" className="ml-3 hidden hover:text-fg sm:inline">{t("nav.estadisticas")}</a>
+            </span>
             <span
               className={cn(
                 "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-medium",
@@ -157,7 +170,7 @@ export function WeekView({
               aria-live="polite"
             >
               <span className={cn("size-1.5 rounded-full", live ? "bg-accent" : "bg-subtle")} />
-              {live ? "Actualizado con señales en vivo" : "Edición de referencia"}
+              {live ? t("hero.live") : t("hero.ref")}
             </span>
           </div>
         </div>
@@ -172,7 +185,7 @@ export function WeekView({
             role="tab"
             controls="panel-briefing"
           >
-            Briefing
+            {t("tabs.briefing")}
           </Chip>
           <Chip
             active={tab === "precios"}
@@ -181,7 +194,7 @@ export function WeekView({
             role="tab"
             controls="panel-precios"
           >
-            Precios
+            {t("tabs.precios")}
           </Chip>
         </div>
         {/* Nueva interfaz: sección de Noticias del día (ruta /noticias). */}
@@ -191,29 +204,29 @@ export function WeekView({
           className="inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border border-accent/40 bg-accent/10 px-3.5 text-sm font-medium text-accent transition duration-200 hover:border-accent/60 hover:bg-accent/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
         >
           <Newspaper className="size-4" />
-          <span className="hidden sm:inline">Noticias del día</span>
-          <span className="sm:hidden">Noticias</span>
+          <span className="hidden sm:inline">{t("nav.noticias")}</span>
+          <span className="sm:hidden">{t("nav.noticiasShort")}</span>
         </a>
       </div>
 
       <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
         <Stat
           value={tab === "precios" ? pricedModels.length : signals.length}
-          label={tab === "precios" ? "Modelos" : "Señales"}
+          label={tab === "precios" ? t("stat.models") : t("stat.signals")}
         />
         <Stat
-          value={region === "china" ? "China" : region === "west" ? "Occidente" : "Global"}
-          label="Región"
+          value={region === "china" ? t("stat.china") : region === "west" ? t("stat.west") : t("stat.global")}
+          label={t("stat.region")}
         />
         <Stat
           value={
             tab === "precios" && pricedModels.length
               ? `$${formatUsd(cheapestBlend)}`
               : model === "all"
-                ? "Todos"
+                ? t("stat.all")
                 : MODEL_BY_ID[model].label
           }
-          label={tab === "precios" ? "Más barato" : "Modelo"}
+          label={tab === "precios" ? t("stat.cheapest") : t("stat.model")}
         />
       </div>
 
@@ -370,8 +383,10 @@ export function WeekView({
       )}
 
       <footer className="mt-14 border-t border-border pt-6 text-xs text-subtle">
-        AI Informe · {live ? "Señales RSS del día" : "Edición editorial"} · Precios API en USD / 1M
-        tokens · Los filtros se guardan en la URL.
+        AI Informe · {live ? "RSS" : t("footer.weekly")} · USD / 1M tokens
+        <a href="/tendencias" className="ml-3 hover:text-fg">{t("nav.tendencias")}</a>
+        <span className="ml-2 text-border">·</span>
+        <a href="/estadisticas" className="ml-2 hover:text-fg">{t("nav.estadisticas")}</a>
       </footer>
     </main>
   );

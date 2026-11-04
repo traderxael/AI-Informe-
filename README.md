@@ -18,12 +18,16 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 
 - RSS públicos (labs, medios, Google News multi-país, HN, Reddit con degradación suave). 33 feeds vivos, auditados con `scripts/auditar_feeds.py` (fallback TLS 1.2 ante 403).
 - Informe markdown diario en `informes/YYYY-MM-DD.md`.
-- JSON para la web: `public/data/signals-first.json`, `signals-rest.json`, `modelos.json`.
+- JSON para la web: `public/data/signals-first.json`, `signals-rest.json`, `modelos.json`, **`modelos-history.json`** (Elo compacto por corrida).
 - Ranking de modelos: Elo LMArena (dataset oficial en Hugging Face) × precios OpenRouter. Si la fuente no responde, no sobrescribe el JSON anterior y el run queda rojo con evidencia.
 - **Salud de fuentes**: `scripts/feed_health.py` → `public/data/feed_health.json` (items por feed + estado del ranking). La portada muestra el resumen y el archivo queda versionado.
 - **Resúmenes LLM en español** con Groq (`scripts/resumir_groq.py`, Secret `GROQ_API_KEY`): resumen del día + traducción de señales. Opcional: si no hay key o Groq cae, el informe sigue publicándose.
 - **Señales de X (Twitter)**: `scripts/fx_viral.py` monitorea 17 cuentas + 5 búsquedas de nicho vía FxTwitter API → `datos/fx_viral_YYYY-MM-DD.json` (top-40 por views, agrupado por tema). Es también la cola de contenido para clips de AutoClip.
 - La portada **carga esas señales**, no una semana congelada.
+- **Tendencias del ranking** (`#tendencias`): gráfica SVG de Elo por modelo, run a run — la historia crece con cada ejecución diaria (`actualizar_modelos.py` → `public/data/modelos-history.json`).
+- **Estadísticas del proyecto** (`#estadisticas`): señales en 30 días, promedio/día, Elo promedio, feeds OK, modelos por organización y fuentes con más artículos (todo desde los JSON de la portada).
+- **Español / English**: el toggle ES|EN en la portada traduce los textos principales (guarda tu elección en el navegador). Toggle y secciones en JS externo (`public/static-i18n.js`, `public/static-secciones.js`).
+- **Compartir**: botón «Copiar enlace» en la portada + «Compartir» con Web Share API en la interfaz web.
 
 X / Instagram / TikTok / Xiaohongshu: para X ya hay monitor propio (`fx_viral.py`); el resto requiere levantar RSSHub local (`docker/rsshub`) y `social_sources.json`.
 
