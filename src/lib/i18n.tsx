@@ -120,12 +120,19 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>("es");
 
   useEffect(() => {
+    let id: number | undefined;
     try {
       const saved = window.localStorage.getItem("ai-informe-lang");
-      if (saved === "en" || saved === "es") setLangState(saved);
+      if (saved === "en" || saved === "es") {
+        // aplazado para no llamar setState síncronamente dentro del efecto
+        id = window.setTimeout(() => setLangState(saved), 0);
+      }
     } catch {
       // localStorage no disponible — se mantiene el idioma por defecto
     }
+    return () => {
+      if (id !== undefined) window.clearTimeout(id);
+    };
   }, []);
 
   const setLang = (l: Lang) => {
