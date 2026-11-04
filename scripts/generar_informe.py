@@ -930,6 +930,27 @@ def regenerate_web() -> None:
         json.dumps(rows, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    # Archivo visible en la app viva (index.html raíz): web/ no se sirve en
+    # Vercel, pero public/data/ sí (/data/archivo.json). El texto completo
+    # vive en GitHub (informes/<fecha>.md), enlazado por fecha.
+    public_data_dir = ROOT / "public" / "data"
+    if public_data_dir.exists():
+        archive = [
+            {
+                "fecha": row["date"],
+                "titulo": row["title"],
+                "resumen": row["summary"],
+                "url": (
+                    "https://github.com/traderxael/AI-Informe-"
+                    f"/blob/main/informes/{row['date']}.md"
+                ),
+            }
+            for row in rows
+        ]
+        (public_data_dir / "archivo.json").write_text(
+            json.dumps(archive, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
 
     for path in INFORMES_DIR.glob("*.md"):
         if path.name.startswith("_"):
