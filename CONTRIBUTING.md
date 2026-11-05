@@ -72,6 +72,21 @@ así que si fallan localmente, fallarán en GitHub.
 Usá las plantillas de issue (bug report / feature request). Para vulnerabilidades de
 seguridad, **no abras un issue**: seguí [SECURITY.md](SECURITY.md).
 
+## Publicar en `main`
+
+`main` tiene activada la protección de GitHub: **no se puede force-push ni borrar la rama**.
+No hay *required checks* porque el workflow diario publica con `GITHUB_TOKEN` y, en un
+repo personal, un check obligatorio bloquearía el push del bot (y con él, el informe del día).
+
+Si querés activar checks obligatorios, el camino seguro es:
+
+1. Crear un PAT con permiso `contents: write` y guardarlo como secret `PUBLISH_TOKEN`.
+2. Cambiar el paso "Commit cambios" de `.github/workflows/informe-diario.yml` para pushear
+   con ese token en vez de `GITHUB_TOKEN`.
+3. Recién ahí activar `CI` como check requerido para `main`.
+
+Alternativa: que el workflow abra un PR en vez de pushear directo a `main`.
+
 ## Licencia
 
 MIT. Al contribuir aceptás los términos de la [LICENSE](LICENSE).
