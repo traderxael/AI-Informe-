@@ -5,7 +5,14 @@
   <link href="https://ai-informe.vercel.app/feed.atom" rel="self"/>
   <link href="https://ai-informe.vercel.app/"/>
   <id>https://ai-informe.vercel.app/feed.atom</id>
-  <updated>2026-11-05T22:26:16Z</updated>
+  <updated>2026-11-05T23:08:08Z</updated>
+  <entry>
+    <title>Perplexity launches its own take on AI agents for work</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on "Teammates" can take on multiple roles within a workspace, while pulling existing projects...</summary>
+  </entry>
   <entry>
     <title>Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable</title>
     <link href="https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/"/>
@@ -112,6 +119,13 @@
     <summary>OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.</summary>
   </entry>
   <entry>
+    <title>Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters</title>
+    <link href="https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/"/>
+    <id>https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or post-training. The post Baidu Releases ERNIE ...</summary>
+  </entry>
+  <entry>
     <title>APT29's Watering Holes Target Thousands of Mobile Users</title>
     <link href="https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users"/>
     <id>https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users</id>
@@ -140,18 +154,18 @@
     <summary>An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Res...</summary>
   </entry>
   <entry>
-    <title>SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era</title>
-    <link href="https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era"/>
-    <id>https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.</summary>
-  </entry>
-  <entry>
     <title>Apple is reportedly cutting budgets for its internal AI usage</title>
     <link href="https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"/>
     <id>https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/</id>
     <updated>2026-11-05T00:00:00Z</updated>
     <summary>The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.</summary>
+  </entry>
+  <entry>
+    <title>SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era</title>
+    <link href="https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era"/>
+    <id>https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.</summary>
   </entry>
   <entry>
     <title>After the midterms, a bigger clash over data centers could be coming</title>
@@ -168,102 +182,88 @@
     <summary>Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior prod...</summary>
   </entry>
   <entry>
-    <title>Formally verifying agent-written full-stack web apps with PDD Kit</title>
-    <link href="https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"/>
-    <id>https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing a...</summary>
-  </entry>
-  <entry>
-    <title>Texas was the new epicenter of the AI data center buildout. That might be kaput.</title>
-    <link href="https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"/>
-    <id>https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat J...</summary>
-  </entry>
-  <entry>
     <title>Introducing Personal Finance in Claude, in beta in the US. Connect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Acce…</title>
     <link href="https://x.com/claudeai/status/2118403114890137895"/>
     <id>https://x.com/claudeai/status/2118403114890137895</id>
     <updated>2026-11-05T00:00:00Z</updated>
-    <summary>2.187.802 visualizaciones · 19.502 me gusta</summary>
+    <summary>2.581.984 visualizaciones · 21.172 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Like the rest of Claude, Personal Finance has no ads or sponsored recommendations. It helps you understand your money, and it isn’t designed to give investment advice. Rolling out gradually in the US…</title>
+    <link href="https://x.com/claudeai/status/2118403117779988744"/>
+    <id>https://x.com/claudeai/status/2118403117779988744</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>170.881 visualizaciones · 971 me gusta</summary>
+  </entry>
+  <entry>
+    <title>In this narrow defender’s window, our goal is to expand Daybreak access to organizations of every size, independent researchers, and open-source maintainers. Daybreak Blue helps verified defenders va…</title>
+    <link href="https://x.com/OpenAI/status/2118390192356700383"/>
+    <id>https://x.com/OpenAI/status/2118390192356700383</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>129.552 visualizaciones · 623 me gusta</summary>
   </entry>
   <entry>
     <title>Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment. The model powered the Linux kernel research we announced yesterday, and sec…</title>
     <link href="https://x.com/OpenAI/status/2118390190246879554"/>
     <id>https://x.com/OpenAI/status/2118390190246879554</id>
     <updated>2026-11-05T00:00:00Z</updated>
-    <summary>1.117.064 visualizaciones · 11.555 me gusta</summary>
+    <summary>1.222.084 visualizaciones · 12.140 me gusta</summary>
   </entry>
   <entry>
-    <title>Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.</title>
-    <link href="https://x.com/OpenAI/status/2118124944928432327"/>
-    <id>https://x.com/OpenAI/status/2118124944928432327</id>
+    <title>Wow</title>
+    <link href="https://x.com/NousResearch/status/2118166186030518472"/>
+    <id>https://x.com/NousResearch/status/2118166186030518472</id>
     <updated>2026-11-05T00:00:00Z</updated>
-    <summary>2.250.390 visualizaciones · 20.580 me gusta</summary>
+    <summary>133.996 visualizaciones · 2.594 me gusta</summary>
   </entry>
   <entry>
-    <title>Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline. In a single run with an upcoming cyber model, it validated and generated patches for 9…</title>
-    <link href="https://x.com/OpenAI/status/2118119451401048497"/>
-    <id>https://x.com/OpenAI/status/2118119451401048497</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>1.993.203 visualizaciones · 11.935 me gusta</summary>
+    <title>Images 2.6 is available today in ChatGPT, and Codex across all tiers on web, desktop, and mobile. GPT-Image-2.6 Flare and Sunburst are also available in the API.</title>
+    <link href="https://x.com/OpenAI/status/2118124966055223755"/>
+    <id>https://x.com/OpenAI/status/2118124966055223755</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>153.707 visualizaciones · 975 me gusta</summary>
+  </entry>
+  <entry>
+    <title>The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show wh…</title>
+    <link href="https://x.com/NousResearch/status/2118094256438936062"/>
+    <id>https://x.com/NousResearch/status/2118094256438936062</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>206.178 visualizaciones · 2.283 me gusta</summary>
   </entry>
   <entry>
     <title>We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life. Vault particles are a longstanding mystery. They are barrel-shape…</title>
     <link href="https://x.com/AnthropicAI/status/2118073665296228863"/>
     <id>https://x.com/AnthropicAI/status/2118073665296228863</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>788.630 visualizaciones · 4.573 me gusta</summary>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>799.019 visualizaciones · 4.581 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Read the full preprint here:</title>
+    <link href="https://x.com/AnthropicAI/status/2118073667858887068"/>
+    <id>https://x.com/AnthropicAI/status/2118073667858887068</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>218.228 visualizaciones · 727 me gusta</summary>
   </entry>
   <entry>
     <title>Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has eve…</title>
     <link href="https://x.com/NousResearch/status/2118058453415371119"/>
     <id>https://x.com/NousResearch/status/2118058453415371119</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>274.981 visualizaciones · 2.384 me gusta</summary>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>276.092 visualizaciones · 2.384 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Computer managed $30k in Meta ad spend for Get Maine Lobster, outperforming their agency. Compared to their usual ads, Computer delivered 3.5x revenue with 63% higher ROAS. It automated creative anal…</title>
+    <link href="https://x.com/perplexity_ai/status/2118035494898704781"/>
+    <id>https://x.com/perplexity_ai/status/2118035494898704781</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>176.502 visualizaciones · 739 me gusta</summary>
   </entry>
   <entry>
     <title>Releasing the model weights of Kimi K3.1 Pro: We'll keep advancing open intelligence.</title>
     <link href="https://x.com/Kimi_Moonshot/status/2118010528123773297"/>
     <id>https://x.com/Kimi_Moonshot/status/2118010528123773297</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>930.415 visualizaciones · 8.328 me gusta</summary>
-  </entry>
-  <entry>
-    <title>People should always be in control of the future. OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to r…</title>
-    <link href="https://x.com/sama/status/2117794005165748448"/>
-    <id>https://x.com/sama/status/2117794005165748448</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>10.279.508 visualizaciones · 20.279 me gusta</summary>
-  </entry>
-  <entry>
-    <title>Crouton Alpha (stealth model) is free for the next week 1M Context Multi-modal No training on data Limited to certain regions</title>
-    <link href="https://x.com/opencode/status/2117717721458843711"/>
-    <id>https://x.com/opencode/status/2117717721458843711</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>329.345 visualizaciones · 4.465 me gusta</summary>
-  </entry>
-  <entry>
-    <title>New Anthropic research: progress on provable inference for large language models. Here, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to veri…</title>
-    <link href="https://x.com/AnthropicAI/status/2117710942826123294"/>
-    <id>https://x.com/AnthropicAI/status/2117710942826123294</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>670.096 visualizaciones · 5.200 me gusta</summary>
-  </entry>
-  <entry>
-    <title>🚨 Open-Sourcing Smaug-Audio-Decisions - State-of-the-art audio decisions model Open-source continues to explode, and we are excited to introduce a new model - Audio Jev / decisions model - open-sourc…</title>
-    <link href="https://x.com/bindureddy/status/2117659234448154646"/>
-    <id>https://x.com/bindureddy/status/2117659234448154646</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>2.697.590 visualizaciones · 184 me gusta</summary>
-  </entry>
-  <entry>
-    <title>4 Real Productivity</title>
-    <link href="https://x.com/TencentHunyuan/status/2117591591666016487"/>
-    <id>https://x.com/TencentHunyuan/status/2117591591666016487</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>483.473 visualizaciones · 2.594 me gusta</summary>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>936.360 visualizaciones · 8.337 me gusta</summary>
   </entry>
   <entry>
     <title>Texas was the new epicenter of the AI data center buildout. That might be kaput.</title>

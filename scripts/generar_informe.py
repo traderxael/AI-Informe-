@@ -12,6 +12,7 @@ import ssl
 import time
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
@@ -825,7 +826,11 @@ def x_items(datos: dict[str, Any] | None, limite: int = X_LIMITE) -> list[dict[s
     """
     if not isinstance(datos, dict):
         return []
-    viral = datos.get("viral")
+    # El pool de IA (sin trading) es el que usa el sitio. Los JSON anteriores
+    # a ese campo siguen funcionando: se cae al pool general.
+    viral = datos.get("viral_ia")
+    if not isinstance(viral, list):
+        viral = datos.get("viral")
     if not isinstance(viral, list):
         return []
 
@@ -953,6 +958,44 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
 """
 
 
+# ── Enlaces seguros ─────────────────────────────────────────────────────────
+# El texto de las señales de X no es confiable (cuentas arbitrarias): un post
+# con "[mira](javascript:alert(1))" llegaba al markdown y md_to_html lo
+# convertía en <a href="javascript:..."> en el HTML generado y commiteado.
+ESQUEMAS_SEGUROS = {"http", "https", "mailto"}
+
+
+def href_seguro(url: str) -> str:
+    """Devuelve el href si el esquema es seguro; si no, cadena vacía.
+
+    Acepta http/https/mailto y rutas relativas del propio sitio. Todo lo
+    demás (javascript:, data:, vbscript:) se descarta.
+    """
+    u = (url or "").strip()
+    if not u:
+        return ""
+    # Ruta relativa del propio sitio: "/data/...", "./x", "#ancla".
+    if u.startswith(("#", "./")) or (u.startswith("/") and not u.startswith("//")):
+        return html.escape(u, quote=True)
+    try:
+        esquema = urllib.parse.urlparse(u).scheme.lower()
+    except ValueError:
+        return ""
+    if esquema in ESQUEMAS_SEGUROS:
+        return html.escape(u, quote=True)
+    return ""
+
+
+def _enlace_md(match: re.Match[str]) -> str:
+    """Sustituye un enlace markdown por HTML, solo si el href es seguro."""
+    texto, href = match.group(1), match.group(2)
+    seguro = href_seguro(href)
+    if not seguro:
+        # Sin esquema peligroso: se deja el texto, sin enlace.
+        return texto
+    return f'<a href="{seguro}" rel="noopener noreferrer">{texto}</a>'
+
+
 def md_to_html(md: str) -> str:
     lines = md.replace("\r\n", "\n").split("\n")
     out: list[str] = []
@@ -967,7 +1010,7 @@ def md_to_html(md: str) -> str:
     def inline(text: str) -> str:
         text = html.escape(html.unescape(text))
         text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
-        text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2" rel="noopener">\1</a>', text)
+        text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _enlace_md, text)
         return text
 
     for line in lines:
@@ -1150,24 +1193,36 @@ def items_feed(data: dict[str, Any]) -> list[dict[str, Any]]:
             + list(por_seccion.get(X_SECCION) or []))
 
 
+def item_para_web(item: dict[str, Any], day: date) -> dict[str, Any]:
+    """Convierte un item del informe al formato JSON de la web.
+
+    Los items de X llevan su fecha real (el post es de hace 2 o 3 días): si
+    todos salieran con la fecha del informe, el feed mentiría sobre la
+    antigüedad de la señal.
+    """
+    fecha = day.isoformat()
+    if item.get("section") == X_SECCION:
+        pub = item.get("published")
+        if isinstance(pub, datetime):
+            fecha = pub.date().isoformat()
+    resumen = item.get("summary", "")
+    return {
+        "titulo": item["title"],
+        "url": item.get("link", ""),
+        "fuente": item.get("source", ""),
+        "resumen": resumen[:200] + "..." if len(resumen) > 200 else resumen,
+        "seccion": item.get("section", "novedades"),
+        "pais": item.get("country", "global"),
+        "fecha": fecha,
+    }
+
+
 def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     """Exporta los datos del informe a JSON para la web moderna."""
     # Agrupar por secciones
     by_section: dict[str, list[dict[str, Any]]] = {s: [] for s in SECTIONS}
     for item in items:
         by_section[item["section"]].append(item)
-
-    # Convertir items a formato JSON
-    def item_to_json(item: dict) -> dict:
-        return {
-            "titulo": item["title"],
-            "url": item.get("link", ""),
-            "fuente": item.get("source", ""),
-            "resumen": item.get("summary", "")[:200] + "..." if len(item.get("summary", "")) > 200 else item.get("summary", ""),
-            "seccion": item.get("section", "novedades"),
-            "pais": item.get("country", "global"),
-            "fecha": day.isoformat(),
-        }
 
     # Contar por país
     usa_count = sum(1 for i in items if i.get("country") == "usa")
@@ -1192,7 +1247,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
         "fecha": day.isoformat(),
         "total": len(items),
         "por_seccion": {
-            section: [item_to_json(i) for i in _top(section, _TOP_POR_SECCION.get(section, 20))]
+            section: [item_para_web(i, day) for i in _top(section, _TOP_POR_SECCION.get(section, 20))]
             for section in SECTIONS
         },
         "por_pais": {

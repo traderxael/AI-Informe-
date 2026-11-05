@@ -10,6 +10,26 @@ se publican automáticamente y no se listan aquí uno por uno.
 ## [No publicado]
 
 ### Corregido
+- **XSS en el HTML del informe**: el texto de las señales de X es no confiable y un
+  post con `[mira](javascript:alert(1))` se convertía en un `<a href="javascript:...">`
+  en el HTML generado (`web/dias/<fecha>.html`). Ahora los enlaces markdown solo
+  aceptan `http`, `https`, `mailto` y rutas del propio sitio; el resto se deja como
+  texto.
+- **La caché de imágenes crecía para siempre**: en el cron, `git checkout` deja
+  todos los archivos con la fecha del checkout, así que la limpieza por antigüedad
+  (5 días) nunca borraba nada y la carpeta `public/data/x-img/` crecía ~1,5 MB por
+  día para siempre. Ahora se borra además lo que el payload del día no referencia.
+- **El informe recibía pocos candidatos de IA**: el top-40 por views lo dominaban
+  las cuentas de trading (18 de 40), así que al informe solo llegaban 22 candidatos
+  para 12 huecos y los posts antiguos entraban por alcance. Ahora el JSON guarda
+  además `viral_ia` (el top-40 sin trading), que es el pool que usa el sitio.
+- **La caché guardaba respuestas que no eran imágenes**: `pbs.twimg.com` a veces
+  responde 200 con un HTML de error, que se guardaba como `.jpg` y dejaba una
+  tarjeta con la foto rota. Ahora se comprueban los bytes de la imagen.
+- **La descarga de imágenes no reintentaba**: un corte de conexión Bratava la
+  imagen para todo el día. Ahora reintenta 3 veces.
+- **La fecha de los posts de X en el feed era la del informe**: un post de hace 3
+  días salía en el RSS con la fecha de hoy. Ahora lleva su fecha real.
 - **Atribución de X**: la API de FxTwitter devuelve, junto a los posts propios, los
   **retweets** de la cuenta (con el autor original). El monitor los etiquetaba con el
   nicho de la cuenta monitoreada, así que un post cualquiera se publicaba como señal de

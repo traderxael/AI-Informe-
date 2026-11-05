@@ -30291,9 +30291,18 @@
   },
   {
     "fecha": "2026-11-05",
-    "total": 784,
+    "total": 780,
     "por_seccion": {
       "novedades": [
+        {
+          "titulo": "Perplexity launches its own take on AI agents for work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+          "fuente": "The Verge AI",
+          "resumen": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-11-05"
+        },
         {
           "titulo": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
           "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
@@ -30430,6 +30439,15 @@
           "fecha": "2026-11-05"
         },
         {
+          "titulo": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
+          "url": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
+          "fuente": "MarkTechPost",
+          "resumen": "Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or post-training. The post Baidu Releases ERNIE ...",
+          "seccion": "novedades",
+          "pais": "usa",
+          "fecha": "2026-11-05"
+        },
+        {
           "titulo": "APT29's Watering Holes Target Thousands of Mobile Users",
           "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
           "fuente": "Dark Reading",
@@ -30466,21 +30484,21 @@
           "fecha": "2026-11-05"
         },
         {
-          "titulo": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
-          "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
-          "fuente": "Dark Reading",
-          "resumen": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
-          "seccion": "novedades",
-          "pais": "global",
-          "fecha": "2026-11-05"
-        },
-        {
           "titulo": "Apple is reportedly cutting budgets for its internal AI usage",
           "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
           "fuente": "TechCrunch AI",
           "resumen": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
           "seccion": "novedades",
           "pais": "usa",
+          "fecha": "2026-11-05"
+        },
+        {
+          "titulo": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+          "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+          "fuente": "Dark Reading",
+          "resumen": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+          "seccion": "novedades",
+          "pais": "global",
           "fecha": "2026-11-05"
         },
         {
@@ -30497,24 +30515,6 @@
           "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
           "fuente": "NVIDIA Blog",
           "resumen": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior prod...",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "Formally verifying agent-written full-stack web apps with PDD Kit",
-          "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
-          "fuente": "Microsoft Research",
-          "resumen": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing a...",
-          "seccion": "novedades",
-          "pais": "usa",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-          "fuente": "MIT Tech Review AI",
-          "resumen": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat J...",
           "seccion": "novedades",
           "pais": "usa",
           "fecha": "2026-11-05"
@@ -30794,6 +30794,15 @@
           "fecha": "2026-11-05"
         },
         {
+          "titulo": "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI",
+          "url": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "fuente": "Cointelegraph",
+          "resumen": "The Eric Trump-backed miner reported $126 million in quarterly net income, largely driven by gains on its Bitcoin holdings, despite rising mining costs and shrinking margins.",
+          "seccion": "economia",
+          "pais": "global",
+          "fecha": "2026-11-05"
+        },
+        {
           "titulo": "The AI sell-off is a taste of things to come",
           "url": "https://www.scmp.com/opinion/world-opinion/article/3373341/ai-sell-taste-things-come",
           "fuente": "SCMP Business",
@@ -30873,18 +30882,18 @@
           "seccion": "economia",
           "pais": "usa",
           "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
-          "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
-          "fuente": "CoinDesk",
-          "resumen": "The investment follows talks first reported by CoinDesk in June that included a proposed equity stake in Aave Group.",
-          "seccion": "economia",
-          "pais": "global",
-          "fecha": "2026-11-05"
         }
       ],
       "futuro": [
+        {
+          "titulo": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+          "fuente": "TechCrunch AI",
+          "resumen": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+          "seccion": "futuro",
+          "pais": "usa",
+          "fecha": "2026-11-05"
+        },
         {
           "titulo": "Meta warns that election backlash against data centers could make AI expansion harder",
           "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
@@ -30908,15 +30917,6 @@
           "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
           "fuente": "BleepingComputer",
           "resumen": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-          "seccion": "futuro",
-          "pais": "usa",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-          "fuente": "TechCrunch AI",
-          "resumen": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
           "seccion": "futuro",
           "pais": "usa",
           "fecha": "2026-11-05"
@@ -31005,7 +31005,7 @@
           "fecha": "2026-11-05"
         },
         {
-          "titulo": "Asian crypto exchanges bunker down as hacks surge: Asia Express",
+          "titulo": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
           "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "fuente": "Cointelegraph",
           "resumen": "Asian crypto exchanges are scrambling to tighten security on fears of a wave of potentially AI-assisted hacks, even as regional governments embrace tokenization and stablecoins.",
@@ -31154,7 +31154,25 @@
           "titulo": "Introducing Personal Finance in Claude, in beta in the US. Connect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Acce…",
           "url": "https://x.com/claudeai/status/2118403114890137895",
           "fuente": "X @claudeai",
-          "resumen": "2.187.802 visualizaciones · 19.502 me gusta",
+          "resumen": "2.581.984 visualizaciones · 21.172 me gusta",
+          "seccion": "x",
+          "pais": "global",
+          "fecha": "2026-11-05"
+        },
+        {
+          "titulo": "Like the rest of Claude, Personal Finance has no ads or sponsored recommendations. It helps you understand your money, and it isn’t designed to give investment advice. Rolling out gradually in the US…",
+          "url": "https://x.com/claudeai/status/2118403117779988744",
+          "fuente": "X @claudeai",
+          "resumen": "170.881 visualizaciones · 971 me gusta",
+          "seccion": "x",
+          "pais": "global",
+          "fecha": "2026-11-05"
+        },
+        {
+          "titulo": "In this narrow defender’s window, our goal is to expand Daybreak access to organizations of every size, independent researchers, and open-source maintainers. Daybreak Blue helps verified defenders va…",
+          "url": "https://x.com/OpenAI/status/2118390192356700383",
+          "fuente": "X @OpenAI",
+          "resumen": "129.552 visualizaciones · 623 me gusta",
           "seccion": "x",
           "pais": "global",
           "fecha": "2026-11-05"
@@ -31163,107 +31181,89 @@
           "titulo": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment. The model powered the Linux kernel research we announced yesterday, and sec…",
           "url": "https://x.com/OpenAI/status/2118390190246879554",
           "fuente": "X @OpenAI",
-          "resumen": "1.117.064 visualizaciones · 11.555 me gusta",
+          "resumen": "1.222.084 visualizaciones · 12.140 me gusta",
           "seccion": "x",
           "pais": "global",
           "fecha": "2026-11-05"
         },
         {
-          "titulo": "Images, upgraded—introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
-          "url": "https://x.com/OpenAI/status/2118124944928432327",
-          "fuente": "X @OpenAI",
-          "resumen": "2.250.390 visualizaciones · 20.580 me gusta",
+          "titulo": "Wow",
+          "url": "https://x.com/NousResearch/status/2118166186030518472",
+          "fuente": "X @NousResearch",
+          "resumen": "133.996 visualizaciones · 2.594 me gusta",
           "seccion": "x",
           "pais": "global",
           "fecha": "2026-11-05"
         },
         {
-          "titulo": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline. In a single run with an upcoming cyber model, it validated and generated patches for 9…",
-          "url": "https://x.com/OpenAI/status/2118119451401048497",
+          "titulo": "Images 2.6 is available today in ChatGPT, and Codex across all tiers on web, desktop, and mobile. GPT-Image-2.6 Flare and Sunburst are also available in the API.",
+          "url": "https://x.com/OpenAI/status/2118124966055223755",
           "fuente": "X @OpenAI",
-          "resumen": "1.993.203 visualizaciones · 11.935 me gusta",
+          "resumen": "153.707 visualizaciones · 975 me gusta",
           "seccion": "x",
           "pais": "global",
-          "fecha": "2026-11-05"
+          "fecha": "2026-11-04"
+        },
+        {
+          "titulo": "The Hermes Agent Plugin Hackathon starts now! It runs for 7 days, with $20,000 in cash prizes and more. Plugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show wh…",
+          "url": "https://x.com/NousResearch/status/2118094256438936062",
+          "fuente": "X @NousResearch",
+          "resumen": "206.178 visualizaciones · 2.283 me gusta",
+          "seccion": "x",
+          "pais": "global",
+          "fecha": "2026-11-04"
         },
         {
           "titulo": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life. Vault particles are a longstanding mystery. They are barrel-shape…",
           "url": "https://x.com/AnthropicAI/status/2118073665296228863",
           "fuente": "X @AnthropicAI",
-          "resumen": "788.630 visualizaciones · 4.573 me gusta",
+          "resumen": "799.019 visualizaciones · 4.581 me gusta",
           "seccion": "x",
           "pais": "global",
-          "fecha": "2026-11-05"
+          "fecha": "2026-11-04"
+        },
+        {
+          "titulo": "Read the full preprint here:",
+          "url": "https://x.com/AnthropicAI/status/2118073667858887068",
+          "fuente": "X @AnthropicAI",
+          "resumen": "218.228 visualizaciones · 727 me gusta",
+          "seccion": "x",
+          "pais": "global",
+          "fecha": "2026-11-04"
         },
         {
           "titulo": "Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks. The new Hermes Marketplace has eve…",
           "url": "https://x.com/NousResearch/status/2118058453415371119",
           "fuente": "X @NousResearch",
-          "resumen": "274.981 visualizaciones · 2.384 me gusta",
+          "resumen": "276.092 visualizaciones · 2.384 me gusta",
           "seccion": "x",
           "pais": "global",
-          "fecha": "2026-11-05"
+          "fecha": "2026-11-04"
+        },
+        {
+          "titulo": "Computer managed $30k in Meta ad spend for Get Maine Lobster, outperforming their agency. Compared to their usual ads, Computer delivered 3.5x revenue with 63% higher ROAS. It automated creative anal…",
+          "url": "https://x.com/perplexity_ai/status/2118035494898704781",
+          "fuente": "X @perplexity_ai",
+          "resumen": "176.502 visualizaciones · 739 me gusta",
+          "seccion": "x",
+          "pais": "global",
+          "fecha": "2026-11-04"
         },
         {
           "titulo": "Releasing the model weights of Kimi K3.1 Pro: We'll keep advancing open intelligence.",
           "url": "https://x.com/Kimi_Moonshot/status/2118010528123773297",
           "fuente": "X @Kimi_Moonshot",
-          "resumen": "930.415 visualizaciones · 8.328 me gusta",
+          "resumen": "936.360 visualizaciones · 8.337 me gusta",
           "seccion": "x",
           "pais": "china",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "People should always be in control of the future. OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to r…",
-          "url": "https://x.com/sama/status/2117794005165748448",
-          "fuente": "X @sama",
-          "resumen": "10.279.508 visualizaciones · 20.279 me gusta",
-          "seccion": "x",
-          "pais": "global",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "Crouton Alpha (stealth model) is free for the next week 1M Context Multi-modal No training on data Limited to certain regions",
-          "url": "https://x.com/opencode/status/2117717721458843711",
-          "fuente": "X @opencode",
-          "resumen": "329.345 visualizaciones · 4.465 me gusta",
-          "seccion": "x",
-          "pais": "global",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "New Anthropic research: progress on provable inference for large language models. Here, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to veri…",
-          "url": "https://x.com/AnthropicAI/status/2117710942826123294",
-          "fuente": "X @AnthropicAI",
-          "resumen": "670.096 visualizaciones · 5.200 me gusta",
-          "seccion": "x",
-          "pais": "global",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "🚨 Open-Sourcing Smaug-Audio-Decisions - State-of-the-art audio decisions model Open-source continues to explode, and we are excited to introduce a new model - Audio Jev / decisions model - open-sourc…",
-          "url": "https://x.com/bindureddy/status/2117659234448154646",
-          "fuente": "X @bindureddy",
-          "resumen": "2.697.590 visualizaciones · 184 me gusta",
-          "seccion": "x",
-          "pais": "global",
-          "fecha": "2026-11-05"
-        },
-        {
-          "titulo": "4 Real Productivity",
-          "url": "https://x.com/TencentHunyuan/status/2117591591666016487",
-          "fuente": "X @TencentHunyuan",
-          "resumen": "483.473 visualizaciones · 2.594 me gusta",
-          "seccion": "x",
-          "pais": "china",
-          "fecha": "2026-11-05"
+          "fecha": "2026-11-04"
         }
       ]
     },
     "por_pais": {
-      "usa": 632,
-      "china": 32,
-      "global": 120
+      "usa": 628,
+      "china": 30,
+      "global": 122
     },
     "fuentes": [
       {

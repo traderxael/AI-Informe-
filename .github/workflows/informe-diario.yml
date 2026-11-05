@@ -20,6 +20,10 @@ jobs:
   # puede impedir la publicacion del informe.
   publicar:
     runs-on: ubuntu-latest
+    # Tope de tiempo: si pbs.twimg.com se cuelga, las descargas de imagenes
+    # tienen 3 intentos x 25 s y el run se quedaria colgado horas. Con el
+    # tope, el dia se publica igual (el informe ya esta commiteado).
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7

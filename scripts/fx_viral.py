@@ -330,6 +330,20 @@ def _descargar(url: str, timeout: int, intentos: int = 3,
     return None
 
 
+def _es_imagen(data: bytes) -> bool:
+    """True si los bytes empiezan como una imagen (JPEG, PNG, GIF o WEBP).
+
+    pbs.twimg.com a veces responde 200 con un HTML de error: sin esta
+    comprobación, ese HTML se guardaba como .jpg y la tarjeta de la portada
+    mostraba una imagen rota.
+    """
+    if not data:
+        return False
+    if data.startswith(b"RIFF") and data[8:12] == b"WEBP":
+        return True
+    return data.startswith((b"\xff\xd8\xff", b"\x89PNG", b"GIF8"))
+
+
 def cachear_imagen(url: str, tweet_id: str, destino_dir: Path,
                    timeout: int = 25) -> Path | None:
     """Descarga la imagen al disco. Nunca levanta: devuelve None si falla.
@@ -338,7 +352,7 @@ def cachear_imagen(url: str, tweet_id: str, destino_dir: Path,
     se queda sin fotos. Con la cache, las imagenes se sirven desde el repo.
     """
     data = _descargar(url, timeout)
-    if data is None or not debe_cachear(url, len(data)):
+    if data is None or not debe_cachear(url, len(data)) or not _es_imagen(data):
         return None
     try:
         destino_dir.mkdir(parents=True, exist_ok=True)
@@ -359,7 +373,7 @@ def cachear_avatar(url: str, handle: str, destino_dir: Path,
     queda como hotlink (la tarjeta se ve sin foto de la cuenta).
     """
     data = _descargar(url, timeout)
-    if data is None or not debe_cachear(url, len(data)):
+    if data is None or not debe_cachear(url, len(data)) or not _es_imagen(data):
         return None
     try:
         destino_dir.mkdir(parents=True, exist_ok=True)
@@ -371,33 +385,31 @@ def cachear_avatar(url: str, handle: str, destino_dir: Path,
         return None
 
 
-def limpiar_cache(dias: int = IMG_DIAS) -> int:
-    """Borra las imagenes cacheadas de hace mas de `dias` dias."""
-    if not IMG_DIR.exists():
+def limpiar_cache(dias: int = IMG_DIAS, en_uso: set[str] | None = None,
+                  cache_dir: Path | None = None) -> int:
+    """Borra las imagenes cacheadas de hace mas de `dias` dias.
+
+    Con `en_uso` (los nombres que referencia el payload de hoy) tambien
+    borra las que no se usan. Sin eso, en el cron la cache crecia para
+    siempre: `git checkout` deja todos los archivos con la fecha del
+    checkout, asi que la regla de los dias nunca borra nada y cada corrida
+    anade ~1,5 MB al repo.
+    """
+    base = cache_dir or IMG_DIR
+    if not base.exists():
         return 0
     limite = datetime.now(timezone.utc).timestamp() - dias * 86400
     borradas = 0
-    for f in IMG_DIR.glob("*.jpg"):
-        try:
-            if f.stat().st_mtime < limite:
-                f.unlink()
-                borradas += 1
-        except OSError:
-            pass
-    for f in IMG_DIR.glob("*.png"):
-        try:
-            if f.stat().st_mtime < limite:
-                f.unlink()
-                borradas += 1
-        except OSError:
-            pass
-    for f in IMG_DIR.glob("*.webp"):
-        try:
-            if f.stat().st_mtime < limite:
-                f.unlink()
-                borradas += 1
-        except OSError:
-            pass
+    for ext in ("jpg", "png", "webp", "gif"):
+        for f in base.glob(f"*.{ext}"):
+            try:
+                viejo = f.stat().st_mtime < limite
+                sin_usar = en_uso is not None and f.name not in en_uso
+                if viejo or sin_usar:
+                    f.unlink()
+                    borradas += 1
+            except OSError:
+                pass
     return borradas
 
 
@@ -561,6 +573,20 @@ def payload_web(viral: list[dict], hoy: str, generado: str, limite: int = 24,
     }
 
 
+def pool_ia(viral: list[dict], limite: int = 40) -> list[dict]:
+    """Pool de candidatos para la sección de IA del sitio (informe y portada).
+
+    El top global por views lo dominan las cuentas de trading (millones de
+    views): si el informe leyera ese pool, con 45% de trading quedarian
+    pocos candidatos de IA y los posts viejos entrarian por views. Este pool
+    es el top-N SIN trading: el sitio tiene de donde elegir.
+
+    Las cuentas de trading se siguen guardando en "viral" (cola de clips).
+    """
+    return [v for v in viral
+            if (v.get("etiqueta") or "") not in X_NICHOS_FUERA_DEL_SITIO][:limite]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--local", action="store_true", help="usar API local (localhost:8787)")
@@ -636,6 +662,9 @@ def main() -> int:
         "resumen_por_tema": dict(por_tema),
         "resumen_por_etiqueta": dict(por_etiqueta),
         "viral": viral[:40],
+        # Pool de IA para el informe: sin las cuentas de trading, que con sus
+        # views se quedaban con casi todo el top-40 global.
+        "viral_ia": pool_ia(viral, 40),
     }
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[fx_viral] {len(viral)} virales (>= {MIN_VIEWS:,} views) -> {out}")
@@ -652,9 +681,16 @@ def main() -> int:
     print(f"[fx_viral] {web['total']} con imagen -> {out_web}")
     if cache_dir is not None:
         print(f"[fx_viral] {web.get('cacheados', 0)} imagenes cacheadas en {cache_dir}")
-        borradas = limpiar_cache()
+        # Lo que no referencia el payload de hoy se borra: en el cron la regla
+        # de los dias no sirve (todo queda con la fecha del checkout).
+        en_uso: set[str] = set()
+        for it in web.get("items", []):
+            for url in (it.get("imagen"), it.get("avatar")):
+                if url and url.startswith("/data/x-img/"):
+                    en_uso.add(url.rsplit("/", 1)[-1])
+        borradas = limpiar_cache(en_uso=en_uso)
         if borradas:
-            print(f"[fx_viral] {borradas} imagenes viejas (> {IMG_DIAS} dias) borradas")
+            print(f"[fx_viral] {borradas} imagenes viejas o sin usar borradas")
 
     # Resumen consola
     for v in viral[:8]:

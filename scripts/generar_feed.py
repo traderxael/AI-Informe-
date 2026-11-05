@@ -45,10 +45,18 @@ def load_items() -> list[dict]:
     days = json.loads(SRC.read_text(encoding="utf-8"))
     flat: list[dict] = []
     for day in days:
+        dia = day.get("fecha") or ""
         for item in day.get("items", []):
+            # El dia se guarda aparte: los items de X llevan su fecha real (el
+            # post puede ser de ayer) y ordenar por ella los mezclaba con las
+            # novedades de ayer, dejando fuera la mitad de las señales de X.
+            # El feed va por dia y, dentro del dia, en el orden del informe.
+            item = dict(item)
+            item["_dia"] = dia
             flat.append(item)
-    # Más recientes primero: día descendente, título como desempate estable.
-    flat.sort(key=lambda x: str(x.get("fecha") or ""), reverse=True)
+    # Más recientes primero (día descendente). El sort es estable: dentro de
+    # un día se mantiene el orden del informe (novedades antes que X).
+    flat.sort(key=lambda x: str(x.get("_dia") or ""), reverse=True)
     return flat[:MAX_ITEMS]
 
 

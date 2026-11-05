@@ -130,7 +130,7 @@ scripts/
   actualizar_modelos.py   # LMArena (dataset HF) + OpenRouter → public/data/modelos.json
   feed_health.py          # salud de los 33 feeds + ranking → public/data/feed_health.json
   auditar_feeds.py        # diagnóstico: cuántos items trae cada feed (herramienta)
-  test_pipeline.py        # tests sin red (128 tests)
+  test_pipeline.py        # tests sin red (155 tests)
   with-app-env.brace-regression.test.mjs # regresión del wrapper en Windows
 informes/                 # un markdown por día
 datos/                    # JSON diario de señales de X (cola de clips AutoClip)
@@ -143,7 +143,7 @@ docs/diagramas/           # diagramas Mermaid: *.mmd + svg/ + png/
 ## Uso local
 
 ```bash
-python scripts/test_pipeline.py     # 133 tests, sin red
+python scripts/test_pipeline.py     # 155 tests, sin red
 python scripts/generar_informe.py    # RSS → informes/*.md + web/
 python scripts/collect_signals.py    # señales Google News + HN + Reddit
 python scripts/fx_viral.py           # señales de X (o --local con FxEmbed propio)

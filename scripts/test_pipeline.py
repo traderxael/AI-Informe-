@@ -922,6 +922,35 @@ class FeedXTests(unittest.TestCase):
         self.assertIn("· X", desc)
         self.assertNotIn("· x", desc)
 
+    def test_el_feed_agrupa_por_dia_y_no_por_la_fecha_del_item(self) -> None:
+        """Los items de X llevan su fecha real (un post puede ser de ayer): si
+        el feed ordenara por esa fecha, las novedades de ayer los taparian y
+        la mitad de las señales de X se quedarian fuera del RSS.
+
+        Escenario real del 05-nov: 25 novedades de hoy + 12 señales de X
+        (5 de hoy, 7 de ayer) + 25 novedades de ayer.
+        """
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "informes.json"
+            ayer = [{"titulo": f"v{i}", "url": "u", "seccion": "novedades",
+                     "fecha": "2026-11-04"} for i in range(25)]
+            hoy = [{"titulo": f"nov{i}", "url": "u", "seccion": "novedades",
+                    "fecha": "2026-11-05"} for i in range(25)]
+            hoy += [{"titulo": f"x{i}", "url": "https://x.com/a/status/1",
+                     "seccion": "x", "fecha": "2026-11-05" if i < 5 else "2026-11-04"}
+                    for i in range(12)]
+            src.write_text(json.dumps([{"fecha": "2026-11-04", "items": ayer},
+                                        {"fecha": "2026-11-05", "items": hoy}]),
+                           encoding="utf-8")
+            with patch.object(gf, "SRC", src):
+                out = gf.load_items()
+        titulos = [i["titulo"] for i in out]
+        self.assertEqual(len(out), 40)
+        # Las 12 señales de X del día entran completas.
+        self.assertEqual(sum(1 for t in titulos if t.startswith("x")), 12)
+        self.assertIn("nov0", titulos)
+        self.assertIn("v0", titulos)
+
 
 class XImagenesTests(unittest.TestCase):
     """Extraccion de imagenes de tweets (scripts/fx_viral.py)."""
@@ -1115,7 +1144,8 @@ class XCacheImagenesTests(unittest.TestCase):
 
         class _Resp:
             def read(self) -> bytes:
-                return b"x" * 100
+                # Bytes de JPEG: la cache rechaza lo que no es imagen.
+                return b"\xff\xd8\xff" + b"x" * 100
 
             def __enter__(self):
                 return self
@@ -1205,6 +1235,52 @@ class XCacheImagenesTests(unittest.TestCase):
                 fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z",
                                cache_dir=cache)
         self.assertEqual(mock_avatar.call_count, 1)
+
+    def test_limpiar_cache_borra_lo_que_ya_no_se_usa(self) -> None:
+        """En el cron, `git checkout` deja todos los archivos con la fecha del
+        checkout: la regla de los 5 dias nunca borra nada y la cache crecia
+        ~1,5 MB por dia para siempre."""
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp)
+            (cache / "a.jpg").write_bytes(b"x")
+            (cache / "b.jpg").write_bytes(b"x")
+            (cache / "avatar-OpenAI.png").write_bytes(b"x")
+            borradas = fx.limpiar_cache(dias=9999, en_uso={"a.jpg", "avatar-OpenAI.png"},
+                                        cache_dir=cache)
+            self.assertEqual(borradas, 1)
+            self.assertTrue((cache / "a.jpg").exists())
+            self.assertTrue((cache / "avatar-OpenAI.png").exists())
+            self.assertFalse((cache / "b.jpg").exists())
+
+    def test_limpiar_cache_conserva_todo_sin_lista_de_uso(self) -> None:
+        """Sin lista de uso (llamada manual), la regla es solo la de los dias."""
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp)
+            (cache / "a.jpg").write_bytes(b"x")
+            borradas = fx.limpiar_cache(dias=9999, cache_dir=cache)
+            self.assertEqual(borradas, 0)
+            self.assertTrue((cache / "a.jpg").exists())
+
+    def test_la_cache_no_guarda_una_respuesta_que_no_es_imagen(self) -> None:
+        """pbs.twimg.com puede devolver un HTML de error con 200: si se guarda
+        como .jpg, la tarjeta muestra una imagen rota."""
+        class _Resp:
+            def read(self) -> bytes:
+                return b"<html>error</html>"
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp)
+            with patch.object(fx.urllib.request, "urlopen", lambda *a, **k: _Resp()):
+                destino = fx.cachear_imagen("https://pbs.twimg.com/media/a.jpg",
+                                            "123", cache)
+            self.assertIsNone(destino)
+            self.assertEqual(list(cache.glob("*")), [])
 
 
 class XInformeTests(unittest.TestCase):
@@ -1479,6 +1555,78 @@ class XVentanaTests(unittest.TestCase):
         self.assertTrue(fx.es_reciente("fecha rara", ahora=self._ahora()))
 
 
+class XPoolIaTests(unittest.TestCase):
+    """El informe necesita un pool de candidatos de IA, no el top global.
+
+    El top-40 por views lo dominan las cuentas de trading (18 de 40 son de
+    @WatcherGuru/@polymarket): con ese pool, al informe solo llegaban 22
+    candidatos para 12 huecos y los posts viejos entraban por views.
+    """
+
+    def _viral(self, n: int, etiqueta: str = "ia") -> list[dict]:
+        return [{"id": str(i), "autor": f"a{i}", "texto": f"t{i}", "url": "u",
+                 "views": n - i, "likes": 0, "tema": "ia", "etiqueta": etiqueta,
+                 "fecha": "2026-11-05", "imagenes": []} for i in range(n)]
+
+    def test_el_pool_de_ia_excluye_el_nicho_trading(self) -> None:
+        viral = self._viral(30) + self._viral(30, "trading")
+        pool = fx.pool_ia(viral)
+        self.assertTrue(pool)
+        self.assertNotIn("trading", {v["etiqueta"] for v in pool})
+
+    def test_el_pool_de_ia_tiene_su_propio_tope(self) -> None:
+        viral = self._viral(100)
+        self.assertEqual(len(fx.pool_ia(viral)), 40)
+
+    def test_x_items_prefiere_el_pool_de_ia(self) -> None:
+        datos = {"viral": self._viral(3, "trading"),
+                 "viral_ia": [{"id": "1", "autor": "OpenAI", "texto": "hola",
+                               "url": "u", "views": 10, "etiqueta": "ia",
+                               "fecha": "2026-11-05", "imagenes": []}]}
+        items = gi.x_items(datos)
+        self.assertEqual([i["source"] for i in items], ["X @OpenAI"])
+
+    def test_x_items_sigue_leyendo_el_pool_viejo_si_no_hay_pool_de_ia(self) -> None:
+        """Los JSON de dias anteriores no tienen viral_ia: no deben romperse."""
+        datos = {"viral": [{"id": "1", "autor": "OpenAI", "texto": "hola",
+                            "url": "u", "views": 10, "etiqueta": "ia",
+                            "fecha": "2026-11-05", "imagenes": []}]}
+        self.assertEqual(len(gi.x_items(datos)), 1)
+
+
+class HtmlSeguroTests(unittest.TestCase):
+    """El texto de X es no confiable: el HTML generado no puede tener XSS.
+
+    Un post con "[mira](javascript:alert(1))" llegaba al markdown y
+    md_to_html lo convertía en un <a href="javascript:..."> en
+    web/dias/<fecha>.html.
+    """
+
+    def test_el_html_rechaza_esquemas_peligrosos(self) -> None:
+        html_generado = gi.md_to_html("- [mira](javascript:alert(1))")
+        self.assertNotIn("javascript:", html_generado)
+        self.assertIn("mira", html_generado)
+
+    def test_el_html_rechaza_data_y_vbscript(self) -> None:
+        for url in ("data:text/html;base64,PHNjcmlwdD4=",
+                    "vbscript:msgbox(1)",
+                    "JavaScript:alert(1)"):
+            salida = gi.md_to_html(f"- [mira]({url})")
+            self.assertNotIn("href=", salida, url)
+
+    def test_el_html_mantiene_los_enlaces_seguros(self) -> None:
+        salida = gi.md_to_html("- [mira](https://x.com/OpenAI/status/1)")
+        self.assertIn('href="https://x.com/OpenAI/status/1"', salida)
+
+    def test_el_html_mantiene_los_enlaces_relativos(self) -> None:
+        salida = gi.md_to_html("- [mira](/data/x-viral.json)")
+        self.assertIn('href="/data/x-viral.json"', salida)
+
+    def test_el_html_escapa_el_href(self) -> None:
+        salida = gi.md_to_html('- [mira](https://x.com/a?b=1&c="2")')
+        self.assertNotIn('c="2"', salida)
+
+
 class XEnInformeTests(unittest.TestCase):
     """La sección "x" existe en el informe y sus items llegan al feed."""
 
@@ -1515,6 +1663,17 @@ class XEnInformeTests(unittest.TestCase):
                                  "x": [{"titulo": "x"}]}}
         out = gi.items_feed(data)
         self.assertEqual([i["titulo"] for i in out], ["n", "x"])
+
+    def test_los_items_de_x_llevan_su_fecha_real(self) -> None:
+        """Un post de hace 3 dias no puede salir en el feed con la fecha del
+        informe: el lector ve la fecha del post."""
+        datos = {"viral_ia": [{"id": "1", "autor": "OpenAI", "texto": "hola",
+                               "url": "u", "views": 10, "etiqueta": "ia",
+                               "fecha": "2026-11-02T10:00:00Z", "imagenes": []}]}
+        items = gi.x_items(datos)
+        web = gi.item_para_web(items[0], date(2026, 11, 5))
+        self.assertEqual(web["fecha"], "2026-11-02")
+        self.assertEqual(web["seccion"], "x")
 
     def test_la_lista_simple_sigue_funcionando_sin_x(self) -> None:
         data = {"por_seccion": {"novedades": [{"titulo": "n"}]}}
