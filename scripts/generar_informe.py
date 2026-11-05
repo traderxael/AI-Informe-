@@ -32,13 +32,16 @@ SECTIONS = (
     "economia",
     "futuro",
     "seguridad",
+    # Señales de X (scripts/fx_viral.py). No entra por classify(): sus items
+    # se agregan aparte, con la etiqueta de su cuenta.
+    "x",
 )
 
 # Orden de desempate cuando dos secciones empatan en puntaje, de mas especifica
 # a mas difusa. "seguridad" describe un riesgo concreto (CVE, exploit, fuga) y
 # sus titulares casi siempre mencionan tambien "hospital"/"government", que
 # suman a "usos"; sin este orden la nota se va a la seccion equivocada.
-SECTION_DESEMPATE = ("seguridad", "economia", "futuro", "usos", "novedades")
+SECTION_DESEMPATE = ("seguridad", "economia", "futuro", "usos", "novedades", "x")
 
 SECTION_TITLES = {
     "novedades": "Novedades y cambios que se quedan",
@@ -46,7 +49,16 @@ SECTION_TITLES = {
     "economia": "Economía de la IA",
     "futuro": "Señales de futuro",
     "seguridad": "Ciberseguridad y riesgos",
+    "x": "Lo que la IA está haciendo en X",
 }
+
+# ── Señales de X ────────────────────────────────────────────────────────────
+# Configuración compartida por fx_viral.py y por el informe (mismo día).
+X_SECCION = "x"
+X_LIMITE = 12
+# El país sale de la etiqueta de nicho de la cuenta (no del texto del post):
+# "china-ai" son los laboratorios chinos; el resto se cuenta como global.
+X_PAIS_POR_ETIQUETA = {"china-ai": "china"}
 
 SITE_URL = "https://ai-informe-dashboard.vercel.app"
 SITE_NAME = "AI Informe"
@@ -269,6 +281,9 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "parches",
         "cve",
     ),
+    # "x" no se clasifica por palabras: sus items llegan ya etiquetados desde
+    # fx_viral.py (cada cuenta monitoreada tiene su propio nicho).
+    "x": (),
 }
 
 SSL_CONTEXT = ssl.create_default_context()
@@ -746,6 +761,100 @@ def bullet(item: dict[str, Any]) -> str:
     return f"- {title} — {source}"
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Señales de X (scripts/fx_viral.py).
+#
+# Antes estas señales vivían solo en la portada: el informe diario, el JSON de
+# la web y el feed RSS/Atom no tenían ni un item de X. El workflow corre
+# fx_viral.py ANTES que este script, así que datos/fx_viral_<fecha>.json ya
+# existe cuando se genera el informe del día.
+#
+# Si el JSON no está (fx_viral falló, o se regenera un día pasado), la sección
+# queda vacía y el informe se publica igual: X nunca tumba la publicación.
+# ─────────────────────────────────────────────────────────────────────────────
+
+def x_json_path(day: date) -> Path:
+    # Se arma con ROOT en el momento de la llamada (no una constante de
+    # import) para que los tests que parchean ROOT sigan aislando datos/.
+    return ROOT / "datos" / f"fx_viral_{day.isoformat()}.json"
+
+
+def leer_x_json(day: date) -> dict[str, Any] | None:
+    """Lee el JSON de X del día. Devuelve None si no existe o está corrupto."""
+    try:
+        return json.loads(x_json_path(day).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def _x_texto(texto: str, max_chars: int = 200) -> str:
+    """Texto del post en una línea: sin URLs, sin saltos, sin espacios de más."""
+    t = re.sub(r"https?://\S+", " ", texto or "")
+    t = re.sub(r"\s+", " ", t).strip()
+    if len(t) > max_chars:
+        t = t[: max_chars - 1].rstrip() + "…"
+    return t
+
+
+def _x_int(valor: Any) -> int:
+    try:
+        return int(valor or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _x_numero(n: int) -> str:
+    return f"{n:,}".replace(",", ".")
+
+
+def x_items(datos: dict[str, Any] | None, limite: int = X_LIMITE) -> list[dict[str, Any]]:
+    """Convierte el JSON de fx_viral en items del informe (sección "x").
+
+    Entran TODOS los posts virales del día, con o sin imagen: el informe es
+    texto y casi la mitad de los virales no trae foto. La portada mantiene su
+    propio filtro de imágenes (`payload_web` en fx_viral.py).
+    """
+    if not isinstance(datos, dict):
+        return []
+    viral = datos.get("viral")
+    if not isinstance(viral, list):
+        return []
+
+    _min = datetime.min.replace(tzinfo=timezone.utc)
+    out: list[tuple[tuple[Any, ...], dict[str, Any]]] = []
+    for v in viral:
+        if not isinstance(v, dict):
+            continue
+        titulo = _x_texto(v.get("texto") or "")
+        if not titulo:
+            continue
+        autor = str(v.get("autor") or "").strip()
+        pub = parse_date(str(v.get("fecha") or ""))
+        views = _x_int(v.get("views"))
+        likes = _x_int(v.get("likes"))
+        resumen = f"{_x_numero(views)} visualizaciones"
+        if likes:
+            resumen += f" · {_x_numero(likes)} me gusta"
+        repost = str(v.get("repost_de") or "").strip()
+        if repost:
+            resumen += f" · repost de @{repost}"
+        item = {
+            "title": titulo,
+            "link": str(v.get("url") or "").strip(),
+            "source": f"X @{autor}" if autor else "X",
+            "summary": resumen,
+            "published": pub,
+            "section": X_SECCION,
+            "country": X_PAIS_POR_ETIQUETA.get(str(v.get("etiqueta") or "").strip(), "global"),
+        }
+        # Primero lo más fresco; a igual fecha, lo más viral.
+        clave = (pub is not None, pub or _min, views)
+        out.append((clave, item))
+
+    out.sort(key=lambda par: par[0], reverse=True)
+    return [item for _clave, item in out[:max(0, limite)]]
+
+
 def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
     by_section: dict[str, list[dict[str, Any]]] = {s: [] for s in SECTIONS}
     for item in items:
@@ -782,6 +891,7 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
         "economia": "- Sin notas económicas destacadas en los feeds de hoy.",
         "futuro": "- Sin señales de regulación o horizonte en los feeds de hoy.",
         "seguridad": "- Sin alertas de ciberseguridad en los feeds de hoy.",
+        "x": "- Hoy no llegó ninguna publicación destacada de X.",
     }
     secciones_md = "\n\n".join(
         f"## {SECTION_TITLES[s]}\n\n{block(s, _vacio.get(s, '- Sin nada en esta sección.'))}"
@@ -789,7 +899,7 @@ def render_markdown(day: date, items: list[dict[str, Any]]) -> str:
     )
 
     _corto = {"novedades": "novedades", "usos": "usos reales", "economia": "economía",
-              "futuro": "señales de futuro", "seguridad": "seguridad"}
+              "futuro": "señales de futuro", "seguridad": "seguridad", "x": "señales de X"}
     conteo = ", ".join(
         f"{len(by_section[s])} {_corto.get(s, s)}" for s in SECTIONS if by_section[s]
     )
@@ -1006,6 +1116,18 @@ def regenerate_web() -> None:
     (WEB_DIR / "index.html").write_text(index, encoding="utf-8")
 
 
+def items_feed(data: dict[str, Any]) -> list[dict[str, Any]]:
+    """Items de la lista simple del día (feed RSS/Atom, buscador y newsletter).
+
+    Las novedades van primero: el resumen de Telegram (items[:5]) y el
+    newsletter (items[:10]) toman la cabeza de la lista y la titulan
+    "Novedades". Las señales de X van detrás, pero también llegan al feed.
+    """
+    por_seccion = data.get("por_seccion") or {}
+    return (list(por_seccion.get("novedades") or [])
+            + list(por_seccion.get(X_SECCION) or []))
+
+
 def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     """Exporta los datos del informe a JSON para la web moderna."""
     # Agrupar por secciones
@@ -1043,7 +1165,7 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
     # volver a olvidarlo: antes por_seccion estaba hardcodeado con 4 claves y la
     # sección nueva se perdía silenciosamente en el JSON de la web.
     _TOP_POR_SECCION = {"novedades": 25, "usos": 20, "economia": 20,
-                        "futuro": 20, "seguridad": 20}
+                        "futuro": 20, "seguridad": 20, "x": X_LIMITE}
     data = {
         "fecha": day.isoformat(),
         "total": len(items),
@@ -1097,7 +1219,8 @@ def export_web_json(day: date, items: list[dict[str, Any]]) -> None:
         public_historial_path.write_text(payload, encoding="utf-8")
 
     # También exportar a formato simple para compatibilidad
-    simple_data = [{"fecha": day.isoformat(), "total": len(items), "items": data["por_seccion"]["novedades"]}]
+    simple_data = [{"fecha": day.isoformat(), "total": len(items),
+                    "items": items_feed(data)}]
     simple_path = WEB_DIR / "informes.json"
     public_simple_path = public_data_dir / "informes.json"
 
@@ -1133,6 +1256,13 @@ def write_informe(day: date, force: bool) -> Path:
         print(f"Regenerando {dest.name} (el filtro del dia pudo cambiar).")
         force = True
     items = collect_items(day)
+    # Señales de X del mismo día: el workflow corre fx_viral.py antes que este
+    # script. Si el JSON no está, la sección queda vacía y el informe se
+    # publica igual (X nunca tumba la publicación diaria).
+    x = x_items(leer_x_json(day))
+    if x:
+        print(f"  X: {len(x)} publicaciones de X agregadas al informe.")
+        items = items + x
     dest.write_text(render_markdown(day, items), encoding="utf-8")
     export_web_json(day, items)  # Exportar para la web moderna
     regenerate_web()

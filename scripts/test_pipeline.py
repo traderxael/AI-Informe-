@@ -892,6 +892,27 @@ class FeedTests(unittest.TestCase):
                 self.assertEqual(len(gf.load_items()), 3)
 
 
+class FeedXTests(unittest.TestCase):
+    """Las señales de X tienen que llegar al RSS/Atom, no solo a la web."""
+
+    def test_los_items_de_x_llegan_al_feed(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "informes.json"
+            items = [{"titulo": f"nov{i}", "url": "u", "seccion": "novedades",
+                      "fecha": "2026-11-04"} for i in range(25)]
+            items.append({"titulo": "senal de X", "url": "https://x.com/a/status/1",
+                          "seccion": "x", "fecha": "2026-11-04"})
+            src.write_text(json.dumps([{"fecha": "2026-11-04", "items": items}]),
+                           encoding="utf-8")
+            with patch.object(gf, "SRC", src):
+                out = gf.load_items()
+            self.assertIn("senal de X", [i["titulo"] for i in out])
+
+    def test_el_feed_cabe_un_dia_completo_de_novedades_y_x(self) -> None:
+        """25 novedades + 12 señales de X = 37 items: el feed no debe cortarlos."""
+        self.assertGreaterEqual(gf.MAX_ITEMS, 37)
+
+
 class XImagenesTests(unittest.TestCase):
     """Extraccion de imagenes de tweets (scripts/fx_viral.py)."""
 
@@ -999,6 +1020,341 @@ class XImagenesTests(unittest.TestCase):
         ]
         web = fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z", limite=5)
         self.assertEqual(web["total"], 5)
+
+
+class XAutoriaTests(unittest.TestCase):
+    """Filtro de autoria: la API de FxTwitter devuelve tambien retweets."""
+
+    def test_propio_cuando_el_autor_es_la_cuenta(self) -> None:
+        tweet = {"author": {"screen_name": "OpenAI"}, "reposted_by": None}
+        self.assertTrue(fx.es_propio(tweet, "OpenAI"))
+
+    def test_propio_ignora_mayusculas(self) -> None:
+        tweet = {"author": {"screen_name": "zai_org"}, "reposted_by": None}
+        self.assertTrue(fx.es_propio(tweet, "Zai_Org"))
+
+    def test_no_propio_si_el_autor_es_otro(self) -> None:
+        tweet = {"author": {"screen_name": "guhe120"}, "reposted_by": None}
+        self.assertFalse(fx.es_propio(tweet, "zai_org"))
+
+    def test_no_propio_si_viene_de_repost(self) -> None:
+        tweet = {"author": {"screen_name": "zai_org"},
+                 "reposted_by": {"screen_name": "zai_org"}}
+        self.assertFalse(fx.es_propio(tweet, "zai_org"))
+
+    def test_no_propio_si_no_hay_autor(self) -> None:
+        self.assertFalse(fx.es_propio({}, "openai"))
+
+    def test_filtrar_perfiles_descarta_autores_ajenos(self) -> None:
+        tweets = [
+            {"id": "1", "author": {"screen_name": "zai_org"}, "text": "mio"},
+            {"id": "2", "author": {"screen_name": "guhe120"}, "text": "ajeno"},
+            {"id": "3", "author": {"screen_name": "Zai_Org"}, "text": "mio2"},
+        ]
+        out = fx.filtrar_por_autoria(tweets, "zai_org")
+        self.assertEqual([t["id"] for t in out], ["1", "3"])
+
+    def test_filtrar_perfiles_con_retweets_incluidos_marca_el_original(self) -> None:
+        tweets = [
+            {"id": "1", "author": {"screen_name": "guhe120"},
+             "reposted_by": {"screen_name": "zai_org"}, "text": "ajeno"},
+        ]
+        out = fx.filtrar_por_autoria(tweets, "zai_org", incluir_retweets=True)
+        self.assertEqual(len(out), 1)
+        self.assertEqual(out[0]["repost_de"], "zai_org")
+
+
+class XCacheImagenesTests(unittest.TestCase):
+    """Cache local de imagenes de X en public/data/x-img/."""
+
+    def test_nombre_de_archivo_usa_el_id_del_tweet(self) -> None:
+        self.assertEqual(fx.nombre_imagen("2118124891572748288", "foto"),
+                         "2118124891572748288.jpg")
+
+    def test_nombre_de_archivo_sanitiza(self) -> None:
+        self.assertEqual(fx.nombre_imagen("../etc/passwd", "foto"), "etcpasswd.jpg")
+
+    def test_debe_cachear_solo_hasta_el_limite(self) -> None:
+        self.assertTrue(fx.debe_cachear("https://pbs.twimg.com/media/a.jpg", 50_000))
+        self.assertFalse(fx.debe_cachear("https://pbs.twimg.com/media/a.jpg", 200_000))
+
+    def test_debe_cachear_solo_https(self) -> None:
+        self.assertFalse(fx.debe_cachear("http://pbs.twimg.com/media/a.jpg", 1000))
+        self.assertFalse(fx.debe_cachear("data:image/png;base64,AAA", 1000))
+
+    def test_cachear_imagen_ignora_fallos_de_red(self) -> None:
+        """Un 404 nunca puede tumbar el pipeline."""
+        destino = fx.cachear_imagen("https://pbs.twimg.com/media/noexiste.jpg",
+                                    "123", Path(tempfile.gettempdir()))
+        self.assertIsNone(destino)
+
+
+class XInformeTests(unittest.TestCase):
+    """Las señales de X se convierten en items del informe diario."""
+
+    def test_x_items_desde_json_de_fx_viral(self) -> None:
+        datos = {
+            "fecha": "2026-11-05",
+            "viral": [
+                {
+                    "id": "1",
+                    "autor": "OpenAI",
+                    "texto": "Presentamos GPT-6 con razonamiento nativo",
+                    "url": "https://x.com/OpenAI/status/1",
+                    "views": 500000,
+                    "likes": 1200,
+                    "tema": "lanzamiento",
+                    "etiqueta": "ia",
+                    "fecha": "2026-11-05T10:00:00Z",
+                    "imagenes": [{"url": "https://pbs.twimg.com/media/a.jpg",
+                                  "thumb": "https://pbs.twimg.com/media/a.jpg",
+                                  "tipo": "foto"}],
+                },
+                {
+                    "id": "2",
+                    "autor": "zai_org",
+                    "texto": "post sin imagen",
+                    "url": "https://x.com/zai_org/status/2",
+                    "views": 90000,
+                    "tema": "producto",
+                    "etiqueta": "china-ai",
+                    "fecha": "2026-11-05T11:00:00Z",
+                    "imagenes": [],
+                },
+            ],
+        }
+        items = gi.x_items(datos, limite=10)
+        # Los posts SIN imagen tambien entran: el informe es texto y 45% de
+        # los virales del dia no traen foto (filtrarlos pierde la señal).
+        self.assertEqual(len(items), 2)
+        por_fuente = {it["source"]: it for it in items}
+        it = por_fuente["X @OpenAI"]
+        self.assertEqual(it["section"], "x")
+        self.assertEqual(it["title"], "Presentamos GPT-6 con razonamiento nativo")
+        self.assertEqual(it["link"], "https://x.com/OpenAI/status/1")
+        self.assertEqual(it["source"], "X @OpenAI")
+        self.assertEqual(it["country"], "global")
+        self.assertEqual(it["published"].isoformat(), "2026-11-05T10:00:00+00:00")
+        sin_imagen = por_fuente["X @zai_org"]
+        self.assertEqual(sin_imagen["country"], "china")
+
+    def test_x_items_ignora_json_vacio_o_invalido(self) -> None:
+        self.assertEqual(gi.x_items({}), [])
+        self.assertEqual(gi.x_items({"viral": []}), [])
+        self.assertEqual(gi.x_items(None), [])
+
+    def test_x_items_limpia_el_texto(self) -> None:
+        datos = {"viral": [
+            {"id": "1", "autor": "a",
+             "texto": "Hola   mundo\n\nsegunda línea https://t.co/abc123",
+             "url": "u", "views": 10, "tema": "ia", "etiqueta": "ia",
+             "fecha": "2026-11-05", "imagenes": []},
+        ]}
+        titulo = gi.x_items(datos)[0]["title"]
+        self.assertNotIn("\n", titulo)
+        self.assertNotIn("https://", titulo)
+        self.assertEqual(titulo, "Hola mundo segunda línea")
+
+    def test_x_items_ordena_por_fecha_y_luego_vistas(self) -> None:
+        datos = {"viral": [
+            {"id": "viejo", "autor": "a", "texto": "viejo", "url": "u",
+             "views": 900000, "etiqueta": "ia", "fecha": "2026-11-01",
+             "imagenes": []},
+            {"id": "nuevo", "autor": "a", "texto": "nuevo", "url": "u",
+             "views": 10, "etiqueta": "ia", "fecha": "2026-11-05",
+             "imagenes": []},
+        ]}
+        items = gi.x_items(datos)
+        self.assertEqual([i["title"] for i in items], ["nuevo", "viejo"])
+
+    def test_x_items_acepta_fecha_en_formato_rfc(self) -> None:
+        """La API devuelve la fecha como texto RFC, no como ISO."""
+        datos = {"viral": [
+            {"id": "1", "autor": "a", "texto": "hola", "url": "u", "views": 10,
+             "etiqueta": "ia", "fecha": "Fri Oct 30 19:38:20 +0000 2026",
+             "imagenes": []},
+        ]}
+        pub = gi.x_items(datos)[0]["published"]
+        self.assertEqual(pub.year, 2026)
+        self.assertEqual(pub.month, 10)
+        self.assertEqual(pub.day, 30)
+
+    def test_x_items_marca_el_repost(self) -> None:
+        datos = {"viral": [
+            {"id": "1", "autor": "guhe120", "texto": "hola", "url": "u",
+             "views": 10, "etiqueta": "ia", "fecha": "2026-11-05",
+             "repost_de": "zai_org", "imagenes": []},
+        ]}
+        item = gi.x_items(datos)[0]
+        self.assertEqual(item["source"], "X @guhe120")
+        self.assertIn("zai_org", item["summary"])
+
+    def test_x_items_respeta_el_limite(self) -> None:
+        datos = {"viral": [
+            {"id": str(i), "autor": "a", "texto": f"t{i}", "url": "u",
+             "views": 1000, "tema": "ia", "etiqueta": "ia", "fecha": "2026-11-05",
+             "imagenes": [{"url": "https://x/y.jpg", "thumb": "https://x/y.jpg",
+                           "tipo": "foto"}]}
+            for i in range(10)
+        ]}
+        self.assertEqual(len(gi.x_items(datos, limite=3)), 3)
+
+    def test_x_items_no_duplican_titulos_vacios(self) -> None:
+        datos = {"viral": [
+            {"id": "1", "autor": "a", "texto": "   ", "url": "u", "views": 1,
+             "tema": "ia", "etiqueta": "ia", "fecha": "2026-11-05",
+             "imagenes": [{"url": "https://x/y.jpg", "thumb": "https://x/y.jpg",
+                           "tipo": "foto"}]}
+        ]}
+        self.assertEqual(gi.x_items(datos), [])
+
+
+class XCuentasTests(unittest.TestCase):
+    """Invariantes de la lista de cuentas monitoreadas."""
+
+    def test_no_hay_cuentas_repetidas(self) -> None:
+        handles = [h for h, _e, _t in fx.CUENTAS]
+        self.assertEqual(len(handles), len(set(handles)))
+        self.assertEqual(len(handles), len(set(h.lower() for h in handles)))
+
+    def test_todas_las_cuentas_tienen_tres_campos(self) -> None:
+        for cuenta in fx.CUENTAS:
+            self.assertEqual(len(cuenta), 3, cuenta)
+            self.assertTrue(cuenta[0].strip(), cuenta)
+            self.assertTrue(cuenta[1].strip(), cuenta)
+
+
+class XReintentosTests(unittest.TestCase):
+    """El 404 de FxTwitter es transitorio (rate limit): hay que reintentar.
+
+    Medido: en rafaga, 12 de 25 requests contestaron 404; con hasta 3
+    intentos, las 10 cuentas probadas respondieron.
+    """
+
+    class _Resp:
+        def __init__(self, datos: bytes) -> None:
+            self._datos = datos
+
+        def read(self) -> bytes:
+            return self._datos
+
+        def __enter__(self) -> "XReintentosTests._Resp":
+            return self
+
+        def __exit__(self, *a) -> bool:
+            return False
+
+    def test_api_get_reintenta_tras_un_404(self) -> None:
+        llamadas: list[int] = []
+
+        def fake_urlopen(req, timeout=None):
+            llamadas.append(1)
+            if len(llamadas) == 1:
+                raise urllib.error.HTTPError("u", 404, "Not Found", None, None)
+            return XReintentosTests._Resp(b'{"results": []}')
+
+        with patch.object(fx.urllib.request, "urlopen", fake_urlopen), \
+                patch.object(fx.time, "sleep", lambda _s: None):
+            data = fx.api_get("https://api.fxtwitter.com", "/2/profile/OpenAI/statuses",
+                              {"count": 20})
+        self.assertEqual(data, {"results": []})
+        self.assertEqual(len(llamadas), 2)
+
+    def test_api_get_agota_los_reintentos_y_devuelve_none(self) -> None:
+        llamadas: list[int] = []
+
+        def fake_urlopen(req, timeout=None):
+            llamadas.append(1)
+            raise urllib.error.HTTPError("u", 404, "Not Found", None, None)
+
+        with patch.object(fx.urllib.request, "urlopen", fake_urlopen), \
+                patch.object(fx.time, "sleep", lambda _s: None):
+            data = fx.api_get("https://api.fxtwitter.com", "/2/profile/OpenAI/statuses",
+                              {"count": 20})
+        self.assertIsNone(data)
+        self.assertEqual(len(llamadas), 3)
+
+    def test_api_get_no_reintenta_otros_errores(self) -> None:
+        llamadas: list[int] = []
+
+        def fake_urlopen(req, timeout=None):
+            llamadas.append(1)
+            raise urllib.error.URLError("sin dns")
+
+        with patch.object(fx.urllib.request, "urlopen", fake_urlopen), \
+                patch.object(fx.time, "sleep", lambda _s: None):
+            data = fx.api_get("https://api.fxtwitter.com", "/2/search", {"q": "x"})
+        self.assertIsNone(data)
+        self.assertEqual(len(llamadas), 1)
+
+
+class XVentanaTests(unittest.TestCase):
+    """Ventana de recencia: un post viejo no puede ser "lo que pasó hoy"."""
+
+    def _ahora(self) -> datetime:
+        return datetime(2026, 11, 5, 12, 0, tzinfo=timezone.utc)
+
+    def test_es_reciente_acepta_hoy(self) -> None:
+        self.assertTrue(fx.es_reciente("2026-11-05T09:00:00Z", ahora=self._ahora()))
+
+    def test_es_reciente_rechaza_hace_8_dias(self) -> None:
+        self.assertFalse(fx.es_reciente("2026-10-28T09:00:00Z", ahora=self._ahora()))
+
+    def test_es_reciente_acepta_hace_6_dias(self) -> None:
+        self.assertTrue(fx.es_reciente("2026-10-30T09:00:00Z", ahora=self._ahora()))
+
+    def test_es_reciente_rechaza_futuro_lejano(self) -> None:
+        self.assertFalse(fx.es_reciente("2026-11-20T09:00:00Z", ahora=self._ahora()))
+
+    def test_es_reciente_acepta_formato_rfc(self) -> None:
+        self.assertTrue(fx.es_reciente("Tue Nov 03 19:38:20 +0000 2026", ahora=self._ahora()))
+
+    def test_es_reciente_sin_fecha_no_descarta(self) -> None:
+        """Si no se puede leer la fecha, no se pierde la señal."""
+        self.assertTrue(fx.es_reciente(None, ahora=self._ahora()))
+        self.assertTrue(fx.es_reciente("fecha rara", ahora=self._ahora()))
+
+
+class XEnInformeTests(unittest.TestCase):
+    """La sección "x" existe en el informe y sus items llegan al feed."""
+
+    def _datos(self) -> dict:
+        return {"viral": [
+            {"id": "1", "autor": "OpenAI", "texto": "GPT-6 con razonamiento nativo",
+             "url": "https://x.com/OpenAI/status/1", "views": 500000, "likes": 1200,
+             "tema": "lanzamiento", "etiqueta": "ia", "fecha": "2026-11-05T10:00:00Z",
+             "imagenes": [{"url": "https://pbs.twimg.com/media/a.jpg",
+                           "thumb": "https://pbs.twimg.com/media/a.jpg",
+                           "tipo": "foto"}]},
+        ]}
+
+    def test_la_seccion_x_esta_declarada(self) -> None:
+        self.assertIn("x", gi.SECTIONS)
+        self.assertIn("x", gi.SECTION_TITLES)
+
+    def test_el_markdown_incluye_la_seccion_x(self) -> None:
+        items = gi.x_items(self._datos(), limite=5)
+        md = gi.render_markdown(date(2026, 11, 5), items)
+        self.assertIn(gi.SECTION_TITLES["x"], md)
+        self.assertIn("X @OpenAI", md)
+        self.assertIn("https://x.com/OpenAI/status/1", md)
+
+    def test_la_lista_simple_incluye_los_items_de_x(self) -> None:
+        data = {"por_seccion": {"novedades": [{"titulo": "novedad"}],
+                                 "x": [{"titulo": "senal de X"}]}}
+        out = gi.items_feed(data)
+        self.assertEqual([i["titulo"] for i in out], ["novedad", "senal de X"])
+
+    def test_la_lista_simple_no_incluye_las_otras_secciones(self) -> None:
+        data = {"por_seccion": {"novedades": [{"titulo": "n"}],
+                                 "usos": [{"titulo": "u"}],
+                                 "x": [{"titulo": "x"}]}}
+        out = gi.items_feed(data)
+        self.assertEqual([i["titulo"] for i in out], ["n", "x"])
+
+    def test_la_lista_simple_sigue_funcionando_sin_x(self) -> None:
+        data = {"por_seccion": {"novedades": [{"titulo": "n"}]}}
+        self.assertEqual([i["titulo"] for i in gi.items_feed(data)], ["n"])
 
 
 if __name__ == "__main__":

@@ -33,6 +33,16 @@ jobs:
       - name: Tests de clasificación y pipeline
         run: python scripts/test_pipeline.py
 
+      # Fuente de X: monitor de viralidad (cuentas + searches de nicho).
+      # Soft-fail: si la API de FxEmbed falla, el informe diario sigue igual.
+      # Va ANTES del informe a proposito: generar_informe.py lee
+      # datos/fx_viral_<fecha>.json para meter las señales de X en la sección
+      # "x" del informe y en el feed. Con el orden viejo (X al final) el
+      # informe se generaba antes de que existiera el JSON del dia.
+      - name: Señales de X - FxTwitter (cuentas + searches de nicho)
+        continue-on-error: true
+        run: python scripts/fx_viral.py
+
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
 
@@ -62,12 +72,6 @@ jobs:
       - name: Ranking de modelos (LMArena + OpenRouter)
         continue-on-error: true
         run: python scripts/actualizar_modelos.py --max 60
-
-      # Fuente de X: monitor de viralidad (17 cuentas + 5 searches de nicho).
-      # Soft-fail: si la API de FxEmbed falla, el informe diario sigue igual.
-      - name: Señales de X - FxTwitter (cuentas + searches de nicho)
-        continue-on-error: true
-        run: python scripts/fx_viral.py
 
       # Evidencia publicada, no solo logs: el JSON queda commiteado junto al
       # informe y la portada lo muestra. El script nunca rompe el run.

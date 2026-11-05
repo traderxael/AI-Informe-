@@ -20,7 +20,10 @@ OUT_ATOM = ROOT / "public" / "feed.atom"
 SITE = "https://ai-informe.vercel.app/"
 TITLE = "AI Informe — el pulso de la IA"
 DESC = "Recopilación diaria de noticias de IA: modelos, usos reales, economía y seguridad."
-MAX_ITEMS = 25
+MAX_ITEMS = 40
+# El feed publica un día completo: hasta 25 novedades + hasta 12 señales de X
+# (sección "x"). Con 25 items, los posts de X quedaban siempre fuera: el día
+# llena el cupo con novedades y el feed se los comía.
 
 
 def _parse_fecha(value: str | None) -> datetime | None:
