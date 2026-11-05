@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-04",
-    "total": 257,
-    "items": [
-      {
-        "titulo": "Well, if AI said it, it must be true",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
-        "fuente": "The Verge AI",
-        "resumen": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-form...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
-        "fuente": "The Verge AI",
-        "resumen": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-        "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
-        "fuente": "SecurityWeek",
-        "resumen": "The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task For...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Trump expected to appoint Jay Clayton as new AI czar: Reports",
-        "url": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "fuente": "Cointelegraph",
-        "resumen": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "AI算力硬合作，马斯克还是更相信中国制造",
-        "url": "https://www.qbitai.com/2026/10/501605.html",
-        "fuente": "QbitAI",
-        "resumen": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "最火AI岗位FDE：月薪5万，都干这些…",
-        "url": "https://www.qbitai.com/2026/10/501506.html",
-        "fuente": "QbitAI",
-        "resumen": "什么是FDE？它会一直存在吗？",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Anthropic asks Claude users to share voice data for AI model training",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-        "fuente": "BleepingComputer",
-        "resumen": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Amazon responds to data center backlash, says it no longer uses NDAs",
-        "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "More Hong Kong homes sell at a loss despite signs prices have bottomed: agents",
-        "url": "https://www.scmp.com/property/article/3369600/more-hong-kong-homes-sell-loss-despite-signs-prices-have-bottomed-agents?utm_source=rss_feed",
-        "fuente": "SCMP Business",
-        "resumen": "Despite signs that Hong Kong property prices could have bottomed out and begun rebounding in August, market sources said at least 100 secondary residential homes were sold at a loss in September, up f...",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-        "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-        "fuente": "The Hacker News",
-        "resumen": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-        "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-        "fuente": "The Verge AI",
-        "resumen": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
-        "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
-        "fuente": "MarkTechPost",
-        "resumen": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "An OpenAI safety employee has quit and is sounding the alarm",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-        "fuente": "The Verge AI",
-        "resumen": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-        "url": "https://www.qbitai.com/2026/10/501451.html",
-        "fuente": "QbitAI",
-        "resumen": "专业3D模型反而更稀缺了",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "All the AI agents that can live in your text messages",
-        "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-        "fuente": "TechCrunch AI",
-        "resumen": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
-        "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
-        "fuente": "MarkTechPost",
-        "resumen": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-licensed agent harness. The preview adds a plugin manager, file and code-change review, and scheduled A...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "The Agent Said It Was Done. The Database Disagreed.",
-        "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-        "fuente": "Hugging Face",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Muse Creates Detailed Profiles of All Your Friends and Family",
-        "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
-        "fuente": "Wired",
-        "resumen": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-        "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-        "fuente": "BleepingComputer",
-        "resumen": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "A model guide for the GPT-6 family",
-        "url": "https://openai.com/index/practical-guide-building-gpt-6",
-        "fuente": "OpenAI",
-        "resumen": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "The latest AI news we announced in September 2026",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-        "fuente": "Google AI",
-        "resumen": "A video showing the September AI updates",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Meta wants your next gadget to be Muse-infused",
-        "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Apple changes full-disk access permissions to curb abuse from AI agents",
-        "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Sean Parker is rebuilding Stability AI around music",
-        "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      },
-      {
-        "titulo": "Meta open sources code to let you make Muse AI gadgets",
-        "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-        "fuente": "The Verge AI",
-        "resumen": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display t...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-04"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-06",
     "total": 1358,
     "items": [
@@ -6926,6 +6695,237 @@
         "seccion": "novedades",
         "pais": "usa",
         "fecha": "2026-11-04"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-05",
+    "total": 754,
+    "items": [
+      {
+        "titulo": "Muse has a voice mode now",
+        "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+        "fuente": "The Verge AI",
+        "resumen": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while w...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Claude can now analyze your spending with its new Personal Finance tool",
+        "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+        "fuente": "TechCrunch AI",
+        "resumen": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Claude AI can plug directly into your bank account",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+        "fuente": "The Verge AI",
+        "resumen": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "‘Total repudiation’: The blue wave is about to hit AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+        "fuente": "The Verge AI",
+        "resumen": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman govern...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Grimes is going to star in an AI movie that’s coming to theaters",
+        "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+        "fuente": "The Verge AI",
+        "resumen": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gi...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Axiom Math wants to keep AI slop out of mathematics",
+        "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+        "fuente": "TechCrunch AI",
+        "resumen": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "You can post AI music straight to SoundCloud from ElevenLabs",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+        "fuente": "The Verge AI",
+        "resumen": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from Eleven...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+        "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
+        "url": "https://www.wired.com/story/aina-smart-ring/",
+        "fuente": "Wired",
+        "resumen": "The startup Aina bets you won’t need to rely on your phone to control virtual assistants. It’s making a smart ring that lets you control the actions of your autonomous agents with one tap.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "AI’s Next Trick? Speaking Dolphin",
+        "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+        "fuente": "Wired",
+        "resumen": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "He Trolls AI Labs for a Living. Now They All Want to Work With Him",
+        "url": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+        "fuente": "Wired",
+        "resumen": "OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "U.S. Justice Department assembles force to shield against foreign AI threats",
+        "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
+        "fuente": "CoinDesk",
+        "resumen": "The new DOJ task force will aid the recently designated U.S. \"SI Force\" by warding off bad actors backed by other nations, criminal groups or corporate fraud.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+        "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+        "fuente": "SecurityWeek",
+        "resumen": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Res...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+        "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+        "fuente": "Dark Reading",
+        "resumen": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Apple is reportedly cutting budgets for its internal AI usage",
+        "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+        "fuente": "TechCrunch AI",
+        "resumen": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+        "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+        "fuente": "NVIDIA Blog",
+        "resumen": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior prod...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Formally verifying agent-written full-stack web apps with PDD Kit",
+        "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+        "fuente": "Microsoft Research",
+        "resumen": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing a...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "After the midterms, a bigger clash over data centers could be coming",
+        "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Data center opposition crossed party lines in Tuesday’s midterms.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+        "fuente": "MIT Tech Review AI",
+        "resumen": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat J...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+        "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+        "fuente": "TechCrunch AI",
+        "resumen": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+        "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+        "fuente": "TechCrunch AI",
+        "resumen": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Blockchain is ‘perfect solution’ for AI agent trust, VeChain CEO says",
+        "url": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "Sunny Lu said AI agents would need identity and reputation systems, making the case while promoting agent-building platform VeWorld.ai.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Almost no one uses AI agents to book their Uber, company says",
+        "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+        "fuente": "TechCrunch AI",
+        "resumen": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
+        "url": "https://cointelegraph.com/news/trump-linked-tokens-lead-crypto-losses-after-democrats-sweep-in-the-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "The official Trump and World Liberty Financial tokens were the two biggest losers among the top 100 cryptocurrencies on Wednesday, even as Bitcoin and Ether rallied.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "OpenAI is already trying to shape the 2028 election",
+        "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+        "fuente": "TechCrunch AI",
+        "resumen": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-05"
       }
     ]
   }

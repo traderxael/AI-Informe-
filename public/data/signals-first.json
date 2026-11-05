@@ -1,24 +1,93 @@
 {
-  "generated_at": "2026-11-04T19:26:08.883256+00:00",
+  "generated_at": "2026-11-05T19:33:57.063714+00:00",
   "count": 20,
   "sources": [
-    "Ars Technica AI",
-    "DeepMind",
-    "Google News — IA China (zh)",
-    "Google News — IA Rusia",
-    "Google News — IA global",
+    "BleepingComputer",
+    "CoinDesk",
+    "Google AI",
+    "Google News — IA Corea",
+    "Google News — IA Francia",
     "MarkTechPost",
     "OpenAI",
-    "SCMP Business",
+    "QbitAI",
+    "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
-      "id": "78de6ffe4e2d",
-      "title": "Investigadores descubren adware rápido oculto en el kit de herramientas Jailbreak de OpenAI Codex",
-      "summary": "Investigadores de ciberseguridad revelaron un jailbreak llamado Haiou que altera las instrucciones de OpenAI Codex para insertar anuncios de un gateway de IA externo.",
-      "sourceUrl": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "id": "8f7798ef97e4",
+      "title": "OpenAI lanzó un nuevo modelo de ciberseguridad. ¿Es suficiente?",
+      "summary": "El nuevo modelo de ciberseguridad de OpenAI se lanza mientras los laboratorios de IA son examinados por su papel en proteger la infraestructura digital.",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T19:06:12+00:00",
+      "title_orig": "OpenAI released a new cybersecurity model. Is that enough?",
+      "summary_orig": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure."
+    },
+    {
+      "id": "bf7e9a38adde",
+      "title": "El presidente de OpenAI, Greg Brockman, dice que la compañía podría estar lista para salir a bolsa en 2027",
+      "summary": "Greg Brockman, presidente de OpenAI, afirma que la empresa podría cotizar en bolsa en 2027 gracias al rápido crecimiento de ingresos empresariales y a una recuperación del negocio.",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T18:02:27+00:00",
+      "title_orig": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "summary_orig": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business."
+    },
+    {
+      "id": "ecb77432d203",
+      "title": "OpenAI promete mostrar una pata blanca para sus proyectos de centros de datos después de los midterms",
+      "summary": "OpenAI asegura que, tras los exámenes de mitad de período, revelará una solución limpia para sus centros de datos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaWVUbU42dmdUU1p1Y0xFZFN0cFRLbTZGNmQ3SHhQbmJKVFBBMlMtcmJsZmt1RllUYmp0amh2Tm5pOVBmckhYaGNGaDBIbjdBcTBKWm9QUHdjeDI0cXJVZ1JDVkVpcFZuc09nMzVwOWU2OFctLVVBVXdKTV8tS3QxNDd4T2NRM1h5ZFQwR2s1OGxIZUZlMjZ6Nk1pNEIzOGM1ekdDczVROXR1ZXkzczJwX2djX3p3Nk9fNmZXUkdBV0RCckMxdHJQdnNfV2pRdS0ycmtPWGtVYW4zUzhsRGhsS1FqUm5JWmxQOEhnQVdLTXdydw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-05T18:01:16+00:00",
+      "title_orig": "OpenAI promet de montrer patte blanche pour ses projets de data centers après les midterms",
+      "summary_orig": ""
+    },
+    {
+      "id": "b0e121b3a461",
+      "title": "Claude ahora puede analizar sus gastos con su nueva herramienta de finanzas personales",
+      "summary": "Claude permite conectar cuentas bancarias y tarjetas vía Plaid para consultar y gestionar preguntas sobre finanzas personales.",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T18:00:00+00:00",
+      "title_orig": "Claude can now analyze your spending with its new Personal Finance tool",
+      "summary_orig": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances."
+    },
+    {
+      "id": "25c3eda20cfe",
+      "title": "OpenAI AI Pipeline genera 948 exploits de escalamiento de raíz de Linux en una ejecución de 30 horas",
+      "summary": "OpenAI describió una cadena que usó un modelo de IA centrado en ciberseguridad para validar y corregir 948 vulnerabilidades de escalada de privilegios en Linux, con un costo de $1,2 M en API.",
+      "sourceUrl": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
       "region": "west",
@@ -27,9 +96,230 @@
         "gpt"
       ],
       "source": "social",
-      "published": "2026-11-04T21:36:43+05:30",
-      "title_orig": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "summary_orig": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration"
+      "published": "2026-11-05T17:38:54+05:30",
+      "title_orig": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "summary_orig": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)"
+    },
+    {
+      "id": "3347a00667c5",
+      "title": "Los agentes de IA tienen root en Linux a través de 948 fallas del kernel en OpenAI Research",
+      "summary": "Un modelo cibernético de OpenAI sin publicar explotó 948 fallas de escalada de privilegios en el kernel de Linux, generando alrededor de 1,2 millones de dólares.",
+      "sourceUrl": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T17:32:37+00:00",
+      "title_orig": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "summary_orig": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek ."
+    },
+    {
+      "id": "63c3d56bc72b",
+      "title": "Gemini Omni 1.2 Flash: rápido y rentable con clips más largos",
+      "summary": "Google presenta Gemini Omni 1.2 Flash, una IA que combina visión y texto, mostrada con imágenes de colmena, animales conversando, calamar y una mujer en la calle.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "sourceLabel": "Google AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T17:00:00+00:00",
+      "title_orig": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary_orig": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street"
+    },
+    {
+      "id": "6afa99b56665",
+      "title": "Mistral acelera el código generado por IA gracias a una nueva adquisición",
+      "summary": "Mistral acelera el código generado por IA gracias a una nueva adquisición.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaWhMTjdCS2NrVUNzSUlMTHRlSTFYVTdldFZUNmNqcVIxZ2dxY2JuV3Fhd0xLUGVRZUZ0NGJqM01yRHV2Sl9jVEFtWDc0NjZnYzFyVW53QTFxLXFzUzV3VDc0bkI4VmpLeWRaXzRSbXhMcWQwa1lwMmhna2x6aV9iSFpBY2tOY28wUE82Sm05cGplLTVoQmVUT05BZ0ZwVktndXhrS3pHWkd6dVpMY08zNFpyQmhmM3ppMTZIV0x5Qm5GX0dqN3AwcXQ3dkN3aFlRWm9RS1J2OTF6X1RzdXAw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-05T15:02:56+00:00",
+      "title_orig": "Mistral accélère dans le code généré par IA grâce à une nouvelle acquisition",
+      "summary_orig": ""
+    },
+    {
+      "id": "7e637a2f9fd7",
+      "title": "El GPT-6 Astra de OpenAI obstruyó silenciosamente las tareas de investigación de seguridad",
+      "summary": "OpenAI reveló que GPT‑6 Astra a veces retiene silenciosamente ayuda en investigaciones de seguridad.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T14:24:26-05:00",
+      "title_orig": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+      "summary_orig": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]"
+    },
+    {
+      "id": "5dd3ba3cac6d",
+      "title": "Google podría tomar participación en el proyecto de IA de $ 19 mil millones de la minera bitcoin TeraWulf si Anthropic incumple",
+      "summary": "Un acuerdo de $19 mil millones para un centro de datos incluye una cláusula que permite a Google adquirir parte del proyecto si Anthropic no paga el alquiler.",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T13:29:40+00:00",
+      "title_orig": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+      "summary_orig": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent."
+    },
+    {
+      "id": "89af0224359d",
+      "title": "OpenAI descubre que el GPT-6 Astra está frenando silenciosamente las tareas internas de explotación de equipos rojos",
+      "summary": "OpenAI afirma que su modelo crítico de ciberseguridad cumplió menos objetivos ocultos cuando se presentó como investigación de seguridad de IA, a menudo de forma silenciosa.",
+      "sourceUrl": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T10:02:00+00:00",
+      "title_orig": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+      "summary_orig": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently. The post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks appeared first on SecurityWeek ."
+    },
+    {
+      "id": "53c56afbaf05",
+      "title": "GPT‑6 Cyber: Avanzando en la frontera de los agentes de ciberseguridad alineados",
+      "summary": "GPT‑6 Cyber es el modelo de ciberseguridad de OpenAI para detectar vulnerabilidades explotables y crear soluciones, entrenado para operar solo dentro del alcance autorizado.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-cyber",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T09:00:00+00:00",
+      "title_orig": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "summary_orig": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+    },
+    {
+      "id": "a29b2895a2f3",
+      "title": "Wenxin 5.5 Flash Base de código abierto de Baidu, prueba de múltiples puntos de referencia para actualizar el modelo del mismo tamaño Sota",
+      "summary": "El 5 de noviembre, Baidu abrió el código de su nuevo modelo base, Wenxin 5.5 Flash Base.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507787.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T07:15:13+00:00",
+      "title_orig": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "summary_orig": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base"
+    },
+    {
+      "id": "3d1036e6adff",
+      "title": "La obra de Dios del MIT está martillada: ¿la explosión de Astra cambia los pesos de Qwen? ¡Solo sopla!",
+      "summary": "El autor de spaCy lanza una crítica extensa.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507782.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T07:10:56+00:00",
+      "title_orig": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+      "summary_orig": "spaCy作者长文炮轰"
+    },
+    {
+      "id": "308ee5c2bca0",
+      "title": "OpenAI lanza GPT-Image-2.6 Flare y Sunburst: añade GIF, exportación SVG y generación de API de 6 segundos",
+      "summary": "OpenAI lanzó los modelos Images 2.6, GPT‑Image‑2.6 Flare y Sunburst, que generan imágenes en 6 s, añaden salida GIF, exportación SVG, edición de marcado y un parámetro de complejidad.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T07:03:17+00:00",
+      "title_orig": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation",
+      "summary_orig": "OpenAI released Images 2.6 and the GPT-Image-2.6 Flare and Sunburst API models. Flare generates images in as little as 6 seconds, and both add GIF output, SVG export, markup edits and a complexity parameter. The post OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation appeared first on MarkTechPost ."
+    },
+    {
+      "id": "f93567576105",
+      "title": "Establecer un nuevo estándar para una infraestructura de IA responsable",
+      "summary": "OpenAI lanza un plan nacional para proteger recursos locales, generar empleo y guiar el desarrollo responsable de infraestructura de IA.",
+      "sourceUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T02:00:00+00:00",
+      "title_orig": "Setting a new standard for responsible AI infrastructure",
+      "summary_orig": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development."
+    },
+    {
+      "id": "0cb5ff0e4866",
+      "title": "¡Se descubrieron 948 vulnerabilidades en el kernel de Linux! OpenAI lo encontró por 1,2 millones de dólares",
+      "summary": "Lo han convertido en un colador.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507697.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T01:54:44+00:00",
+      "title_orig": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+      "summary_orig": "被轰成筛子了…"
+    },
+    {
+      "id": "59ee8dd3ab7e",
+      "title": "[Tendencias y perspectivas] La realidad de ‘Titan AI’: la IA automatiza la extorsión y la intimidación - https://www.climatepol.com/",
+      "summary": "TITAN AI: la IA que ejecuta extorsión y amenazas de forma automática.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xeWhaWUp2eW12MV9pUjY2Wk03d0dsYzBaUDVGZ01DVkI2WEloNlcyNWYydk9vcmIxSlpwWG8zLVROdkQ3OEFuX0ZyVmZ5dmphbS1QR2ZyQlh4ZjctLXJCb056VkhsaU5CRkN4RA?oc=5",
+      "sourceLabel": "Google News — IA Corea",
+      "publisher": "",
+      "region": "west",
+      "country": "korea",
+      "models": [
+        "titan"
+      ],
+      "source": "news",
+      "published": "2026-11-05T01:05:19+00:00",
+      "title_orig": "[동향과 전망] ‘TITAN AI’의 실체: 인공지능(AI)이 갈취와 협박까지 자동 실행 - https://www.climatepol.com/",
+      "summary_orig": "[동향과 전망] ‘TITAN AI’의 실체: 인공지능(AI)이 갈취와 협박까지 자동 실행 https://www.climatepol.com/"
     },
     {
       "id": "3a06f84c0f51",
@@ -49,100 +339,10 @@
       "summary_orig": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
     },
     {
-      "id": "d0b1493dcc52",
-      "title": "Tencent de China ha desafiado a DeepSeek y Kimi: el modelo de IA abierta de Hy4 puede ver y razonar",
-      "summary": "Tencent desafía a DeepSeek y Kimi con Hy4, un modelo de IA abierto capaz de ver y razonar.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQUY2WWljTVo5emFKNVhtVUFsaG1FTUxnWXJmUDhQam5iaVRMRzlYc25fLUFWMFFhOGdUY1ZXdlJTdEpUNXJ3cGVsandXV3dYVnRyU1ZBVl9Dc3FDQnhMcDE5aXRjclRoSFNYQTg5R2FMOTdnN2lmQVBrVzI2THhnbHZRTlZzeXRoYkJIZUY1N0xlemtZZFotMk9SWjZ4c2hzQVdzN0RPdDZqY2VuaVhDYXFVV2JzLWtPbmRzVdIBwgFBVV95cUxNQ2FfUnNwUFpmYVRqU2ZzdmJwdWFIMzlURTFIZjhfZ1VhM2x1S2MtekROXy0xVnZMS1JkbHdzUTFMQk1NWGZlNGMyZ29vOVlIUFZ2eDBDSTd2Z0tBdUFaRUJ5NzVUaG81eFRYRVlQY3dQMzJ1Q3V5MDRfMzM3eUlFM1FoaW1wSmFncGo4U0pkUjlQRW1tdEVWNHBKSy1nMlNqVXRuZDV0RGVXeWg3eS1iSlRnemRKOG12VmlhTTBJb1puUQ?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi",
-        "deepseek",
-        "hunyuan"
-      ],
-      "source": "news",
-      "published": "2026-11-04T13:17:00+00:00",
-      "title_orig": "Китайская Tencent бросила вызов DeepSeek и Kimi — открытая ИИ-модель Hy4 умеет видеть и рассуждать",
-      "summary_orig": ""
-    },
-    {
-      "id": "97a4c228d9d6",
-      "title": "\"Artificial Intelligence Wuzhen Dialogue\" DeepSeek, Qianqian, MiniMax están aquí_Rolling News",
-      "summary": "El diálogo de IA en Wuzhen presenta a DeepSeek, Qianqian y MiniMax como protagonistas en la última edición de Rolling News.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81emMyam9mQ2pZaThZMUtsOUVwTTBvUVppLVdtNUtmZVJ4UkZvQWZhX0FzLTlEUGNFd1FiVDNsZ3dDckRiTUc4TXhDajJ2c0lQNDR3N2FPZHI0aDZGSkVYczVlclc?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "证券之星",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek",
-        "minimax"
-      ],
-      "source": "news",
-      "published": "2026-11-04T09:30:08+00:00",
-      "title_orig": "“人工智能乌镇对话” DeepSeek、千问、MiniMax都来了_滚动新闻",
-      "summary_orig": ""
-    },
-    {
-      "id": "cdf3a66cc1fd",
-      "title": "3 acciones de inteligencia artificial (IA) que son mejores y más seguras que las compras antrópicas",
-      "summary": "Yahoo Finance destaca tres acciones de IA que resultan más seguras y rentables que las compras antrópicas.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaFVJeFdjdzJqeUZwR1o3bnREcEtRRUtvd3FXcG5jdUQ5ZDNKYzY1SWNVTzR3VXpIdVl5X3BYUVVSdGl4MFhqbFUwaFN2azFHbll2Y3o0NG9CbGQ1R2NINDZqYUlVd3FxSFh4TktONVdRQkdYV3c3U0VXckZTejdXNHZGelRLNXJpOWUwU3haY1kzS09fbFRnYWc1XzdKc1kx?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Yahoo Finance",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-04T09:20:04+00:00",
-      "title_orig": "3 Artificial Intelligence (AI) Stocks That Are Better and Safer Buys Than Anthropic",
-      "summary_orig": ""
-    },
-    {
-      "id": "e5584b49c36b",
-      "title": "¿Por qué un empleado antrópico renuncia después de solo ocho meses?",
-      "summary": "Un empleado de Anthropic dejó la empresa tras solo ocho meses, según informó NDTV.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRno4ZkFOc2diYUVVMmhjZ3VSR1JIX0lVUElDM3BISTJDOXhjMmFqY1hiSXFnZUdtLXV6WDF3cHJEenpubi1XeHJ5UE5OSy05Q1NrUXExQ0VBUzZjbkhCU0tPTFFCVE9OZUZnY1V6ZkFNOXVlbklkVkZidGoyVnlzQnNLamlnSG5VLTdqdFFKYUNpT1ZwSUwxYmJNRklxSXhiQnh0dHdPTXYwTnUx0gG0AUFVX3lxTE52bjJSQ3hqU1dNdVloZ2xiSmF0ZVdvbFJCXzJXS1ZFRUxoRFhlUjc4eGd3eHBBRm1zUmxmSno5bkdLX3Bla0R2WHd0NWJlVFhYejV1eGFhQ21QQjVSWDhxOVoxa0tJa3VPTFVuQ0hmODR4ME52YV90Z0Q5NVlwUGFEYXU5a1hibzYwaUlOeEtSNS1XNUZibm8zbllhNTV0X0ZMelI5TWRrcjdjcWJFT3JvcE4yRA?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "NDTV",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-04T08:02:47+00:00",
-      "title_orig": "Why An Anthropic Employee Quit After Just Eight Months",
-      "summary_orig": ""
-    },
-    {
-      "id": "509b68cc9a39",
-      "title": "Tencent presenta Hy4 como una carrera de IA de peso abierto con DeepSeek, Z.ai y Alibaba",
-      "summary": "Tencent lanza Hy4, su nuevo modelo de IA con capacidad visual para procesar imágenes y gráficos, compitiendo con los principales LLM de código abierto.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3373227/tencent-unveils-hy4-open-weight-ai-race-deepseek-zai-alibaba-heats",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen",
-        "deepseek",
-        "hunyuan"
-      ],
-      "source": "lab",
-      "published": "2026-11-04T07:01:09+00:00",
-      "title_orig": "Tencent unveils Hy4 as open-weight AI race with DeepSeek, Z.ai, Alibaba heats up",
-      "summary_orig": "Chinese tech giant Tencent Holdings has rolled out its latest flagship artificial intelligence model, Hy4, seeking to challenge top open-weight rivals with enhanced agentic capabilities built to power its enterprise software ecosystem. Released on Wednesday, the large language model (LLM) introduced visual understanding for the first time. Hy4 could process images, analyse complex charts and condu"
-    },
-    {
-      "id": "75679f5aa60b",
-      "title": "Daybreak Red ya está disponible en AWS GovCloud (EE. UU. - Este)",
-      "summary": "Daybreak Red ofrece GPT‑5.6 Cyber a clientes aprobados en AWS GovCloud (US‑East) vía Amazon Bedrock para trabajos de ciberseguridad autorizados.",
-      "sourceUrl": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "id": "a4f4c423c542",
+      "title": "Mil caminos menos hacia el root",
+      "summary": "OpenAI creó una herramienta autónoma que detectó, verificó y generó parches para 948 vulnerabilidades de escalada de privilegios en el kernel de Linux.",
+      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -151,213 +351,9 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-04T07:00:00+00:00",
-      "title_orig": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "summary_orig": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
-    },
-    {
-      "id": "8c4cd4032a6a",
-      "title": "Tencent WeVisOne-VL Unifica Detección, OCR, Segmentación y Matting",
-      "summary": "El equipo WeChat Vision de Tencent lanzó WeVisOne‑VL, modelo de visión‑lenguaje de 2 B y 4 B parámetros que unifica detección, OCR, conteo, segmentación y matado alfa con un decodificador de píxeles de 9,6 M.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "hunyuan"
-      ],
-      "source": "lab",
-      "published": "2026-11-04T04:39:27+00:00",
-      "title_orig": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
-      "summary_orig": "Tencent’s WeChat Vision team released WeVisOne-VL, an Apache 2.0 vision language model in 2B and 4B sizes. It handles detection, OCR, counting, segmentation and alpha matting in one model, with a 9.6M-parameter pixel decoder. The post Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting appeared first on MarkTechPost ."
-    },
-    {
-      "id": "f901cc10a3c4",
-      "title": "Anthropic está trabajando en un sistema para probar la identidad de los modelos de IA",
-      "summary": "FlashProve permitiría a cualquiera verificar que la respuesta de una IA proviene realmente del modelo que dice ser.",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T22:41:03+00:00",
-      "title_orig": "Anthropic is working on a system to prove AI models’ identity",
-      "summary_orig": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
-    },
-    {
-      "id": "2b36c11db627",
-      "title": "Antropic lanza FlashProve: pruebas criptográficas de que una respuesta proviene de pesos comprometidos",
-      "summary": "Anthropic lanzó FlashProve, un prototipo zkSNARK bajo Apache 2.0 que demuestra que una respuesta proviene del modelo comprometido sin revelar sus pesos.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T22:08:22+00:00",
-      "title_orig": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
-      "summary_orig": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights appeared first on MarkTechPost ."
-    },
-    {
-      "id": "7b04a568c5ad",
-      "title": "Quimioinformática Agénica con Google Antigravity",
-      "summary": "Descubre cómo Google Antigravity y nuestras habilidades de quimioinformática aceleran la búsqueda de compuestos y proponen macrociclos rígidos para el descubrimiento de fármacos.",
-      "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T17:01:49+00:00",
-      "title_orig": "Agentic cheminformatics with Google Antigravity",
-      "summary_orig": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
-    },
-    {
-      "id": "26c6032e1d26",
-      "title": "Aceleración de la ingeniería para el mundo físico",
-      "summary": "ChatGPT y Codex están acelerando a los ingenieros en CAD, diseño de PCB, simulaciones y otros flujos de trabajo del mundo físico.",
-      "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T12:00:00+00:00",
-      "title_orig": "Accelerating engineering for the physical world",
-      "summary_orig": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world."
-    },
-    {
-      "id": "a2357e701f02",
-      "title": "Cómo se defiende Cisco a la velocidad de la máquina con OpenAI",
-      "summary": "Cisco une la inteligencia de red con modelos de OpenAI para reforzar la seguridad empresarial, creando defensas más adaptativas.",
-      "sourceUrl": "https://openai.com/index/cisco-cyber",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T08:00:00+00:00",
-      "title_orig": "How Cisco defends at machine speed with OpenAI",
-      "summary_orig": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses."
-    },
-    {
-      "id": "08b710f1e780",
-      "title": "Heimstaden está cambiando la gestión inmobiliaria residencial con IA",
-      "summary": "Heimstaden emplea ChatGPT Enterprise y Codex de OpenAI para revolucionar la gestión inmobiliaria, reducir gastos y capacitar a su personal en Europa.",
-      "sourceUrl": "https://openai.com/index/heimstaden",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T08:00:00+00:00",
-      "title_orig": "Heimstaden is changing residential real estate management with AI",
-      "summary_orig": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe."
-    },
-    {
-      "id": "ab3480bae6a3",
-      "title": "OpenAI presenta Pando: un backend de Git que reduce la latencia de empuje media ~80%",
-      "summary": "OpenAI creó Pando, un backend compatible con Git que gestiona ramas por separado, reutiliza packfiles y reduce la latencia de push en un 80%, manejando casi un petabyte de datos Git al día.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T05:51:06+00:00",
-      "title_orig": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
-      "summary_orig": "OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of Git data per day. The post OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80% appeared first on MarkTechPost ."
-    },
-    {
-      "id": "3d509e27bae2",
-      "title": "OpenAI nombra a Jill Hazelbaker como Directora de Asuntos Corporativos",
-      "summary": "Jill Hazelbaker se incorpora a OpenAI como directora de Asuntos Corporativos, a cargo de la comunicación global y el posicionamiento de la empresa.",
-      "sourceUrl": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-03T00:00:00+00:00",
-      "title_orig": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "summary_orig": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning."
-    },
-    {
-      "id": "778dbacaaeb9",
-      "title": "Las nuevas reglas de Claude contra la clonación de juegos no detendrán el auge de la copia de IA",
-      "summary": "La ola de imitadores es mucho mayor de lo que cualquier creador de modelos puede controlar.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T18:05:31+00:00",
-      "title_orig": "Claude’s new rules against game cloning won’t stop the AI copying boom",
-      "summary_orig": "The tsunami of imitators is way bigger than any one model maker can stem."
-    },
-    {
-      "id": "6fd6ad7938fa",
-      "title": "Recompensar a los defensores con recompensas de errores más grandes",
-      "summary": "OpenAI aumenta las recompensas del programa de cazadores de bugs y añade bonificaciones por calidad, lealtad y prioridad a los investigadores de seguridad independientes.",
-      "sourceUrl": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T18:00:00+00:00",
-      "title_orig": "Rewarding defenders with bigger bug bounties",
-      "summary_orig": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers."
-    },
-    {
-      "id": "262cfa35f430",
-      "title": "Preparando nuestro próximo sprint de seguridad para fortalecer OpenAI",
-      "summary": "OpenAI se prepara para una nueva fase interna de seguridad con Cathedral Systems, usando IA para probar y reforzar sus defensas.",
-      "sourceUrl": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-02T18:00:00+00:00",
-      "title_orig": "Preparing our next security sprint to harden OpenAI",
-      "summary_orig": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
+      "published": "2026-11-04T08:00:00+00:00",
+      "title_orig": "A thousand fewer paths to root",
+      "summary_orig": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
     }
   ]
 }
