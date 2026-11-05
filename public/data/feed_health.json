@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-03T19:11:10",
+ "generado": "2026-11-04T19:29:28",
  "total_feeds": 33,
- "ok": 33,
+ "ok": 32,
  "vacios": 0,
- "rotos": 0,
+ "rotos": 1,
  "feeds": [
   {
    "nombre": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
-   "items": 1350,
+   "items": 1356,
    "estado": "ok",
    "detalle": ""
   },
@@ -64,7 +64,7 @@
   {
    "nombre": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
-   "items": 896,
+   "items": 897,
    "estado": "ok",
    "detalle": ""
   },
@@ -120,14 +120,14 @@
   {
    "nombre": "arXiv cs.AI",
    "url": "https://rss.arxiv.org/rss/cs.AI",
-   "items": 816,
+   "items": 413,
    "estado": "ok",
    "detalle": ""
   },
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 381,
+   "items": 162,
    "estado": "ok",
    "detalle": ""
   },
@@ -225,9 +225,9 @@
   {
    "nombre": "CISA Advisories",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-   "items": 30,
-   "estado": "ok",
-   "detalle": ""
+   "items": 0,
+   "estado": "error",
+   "detalle": "sin respuesta"
   },
   {
    "nombre": "Google Security Blog",
@@ -240,6 +240,6 @@
  "ranking": {
   "estado": "ok",
   "total": 60,
-  "actualizado": "2026-11-03T19:09:29"
+  "actualizado": "2026-11-04T19:27:11"
  }
 }

@@ -21,6 +21,10 @@ se publican automáticamente y no se listan aquí uno por uno.
   `globparts`, CVE reportado por Dependabot). `npm audit` queda en 0 vulnerabilidades.
 
 ### Añadido
+- **Feed RSS + Atom** (`public/feed.xml`, `public/feed.atom`) con las noticias del día,
+  regenerado por el workflow diario; botón y `<link rel="alternate">` en la portada.
+- **Buscador full-text** del archivo (30 días) en la portada.
+- **Notificaciones** opcionales por Telegram/Discord y **newsletter** por Resend.
 - `CONTRIBUTING.md`, `SECURITY.md` y este `CHANGELOG.md`.
 - Sección de **Tendencias** (Elo de LMArena con historial diario en SVG) y de
   **Estadísticas** (señales, Elo promedio, feeds, organizaciones y fuentes) en la portada.
@@ -29,8 +33,12 @@ se publican automáticamente y no se listan aquí uno por uno.
 - Historial diario del ranking en `public/data/modelos-history.json`.
 - Archivo de informes consultable desde la web (`public/data/archivo.json`).
 - `robots.txt` y `sitemap.xml` reales en producción.
+- Capturas reales de la portada en el README (`screenshots/readme/`) y un script para
+  regenerarlas (`scripts/capturar_readme.mjs`).
 
 ### Cambiado
+- Los enlaces "Tendencias" y "Estadísticas" de la portada apuntan a anchors reales
+  (`#tendencias`, `#estadisticas`) en vez de rutas que volvían a cargar la portada.
 - La portada carga las señales **del día** en vivo en vez de una semana congelada.
 - El pipeline se auto-repara: si un run falla, recupera los informes faltantes y publica
   sin bloquearse por el gate de npm.

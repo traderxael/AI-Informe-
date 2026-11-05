@@ -1,166 +1,131 @@
-#!/usr/bin/env python3
-"""Genera el feed RSS del informe en public/feed.xml (y public/feed.json).
+"""Genera public/feed.xml (RSS 2.0) y public/feed.atom (Atom 1.0) desde informes.json.
 
-El pipeline consume 33 feeds RSS; este publica el propio output para que
-cualquiera pueda suscribirse al informe diario desde su lector.
+Sin red: lee public/data/informes.json (30 días de señales, cada item con
+titulo/url/fuente/resumen/seccion/pais). Lo ejecuta el workflow diario justo
+antes del commit, así los alimentadores se actualizan igual que el resto.
+
+Uso:  python scripts/generar_feed.py
 """
-from __future__ import annotations
-
-import argparse
 import json
 import re
-import sys
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-ROOT = Path(__file__).resolve().parent.parent
-INFORMES = ROOT / "informes"
-OUT_XML = ROOT / "public" / "feed.xml"
-OUT_JSON = ROOT / "public" / "feed.json"
-
-SITE = "https://ai-informe.vercel.app"
-REPO_BLOB = "https://github.com/traderxael/AI-Informe-/blob/main/informes"
-TITULO_FEED = "AI Informe — noticias de IA en español"
-DESCRIPCION_FEED = (
-    "Recopilación diaria y automática de noticias de IA: novedades, usos reales, "
-    "economía, señales de futuro y seguridad. Un informe por día."
-)
-MAX_ITEMS = 30
-
-_RE_TITULO = re.compile(r"^#\s+(.+?)\s*$", re.M)
-_RE_RESUMEN = re.compile(
-    r"^##\s+Resumen del d[ií]a\s*$(.*?)(?=^##\s|\Z)", re.M | re.S
-)
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "public" / "data" / "informes.json"
+OUT_RSS = ROOT / "public" / "feed.xml"
+OUT_ATOM = ROOT / "public" / "feed.atom"
+SITE = "https://ai-informe.vercel.app/"
+TITLE = "AI Informe — el pulso de la IA"
+DESC = "Recopilación diaria de noticias de IA: modelos, usos reales, economía y seguridad."
+MAX_ITEMS = 25
 
 
-def listar_fechas(directorio: Path = INFORMES) -> list[str]:
-    """Fechas (YYYY-MM-DD) con informe, de la mas reciente a la mas antigua."""
-    if not directorio.exists():
-        return []
-    fechas = []
-    for path in directorio.glob("*.md"):
-        nombre = path.stem
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", nombre):
-            fechas.append(nombre)
-    return sorted(fechas, reverse=True)
-
-
-def extraer_titulo(texto: str, fecha: str) -> str:
-    match = _RE_TITULO.search(texto)
-    return match.group(1).strip() if match else f"Informe de IA — {fecha}"
-
-
-def extraer_resumen(texto: str) -> str:
-    """Primer parrafo con contenido del bloque 'Resumen del dia'."""
-    match = _RE_RESUMEN.search(texto)
-    bloque = match.group(1) if match else texto
-    for parrafo in re.split(r"\n\s*\n", bloque):
-        limpio = parrafo.strip()
-        if limpio and not limpio.startswith(("#", "-", "*", ">")):
-            return re.sub(r"\s+", " ", limpio)
-    return ""
-
-
-def escapar(texto: str) -> str:
-    return escape(texto or "")
-
-
-def construir_item(fecha: str, titulo: str, resumen: str) -> str:
-    enlace = f"{REPO_BLOB}/{fecha}.md"
-    fecha_dt = datetime.strptime(fecha, "%Y-%m-%d").replace(
-        hour=9, minute=0, tzinfo=timezone.utc
-    )
-    return (
-        "    <item>\n"
-        f"      <title>{escapar(titulo)}</title>\n"
-        f"      <link>{escapar(enlace)}</link>\n"
-        f"      <guid isPermaLink=\"false\">informe-{fecha}</guid>\n"
-        f"      <pubDate>{format_datetime(fecha_dt)}</pubDate>\n"
-        f"      <description>{escapar(resumen)}</description>\n"
-        "      <category>Inteligencia artificial</category>\n"
-        "    </item>"
-    )
-
-
-def construir_xml(items: list[dict]) -> str:
-    canal = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
-        "  <channel>\n"
-        f"    <title>{escapar(TITULO_FEED)}</title>\n"
-        f"    <link>{escapar(SITE)}</link>\n"
-        f"    <description>{escapar(DESCRIPCION_FEED)}</description>\n"
-        "    <language>es</language>\n"
-        '    <atom:link href="https://ai-informe.vercel.app/feed.xml" '
-        'rel="self" type="application/rss+xml"/>\n'
-    )
-    cuerpo = "\n".join(construir_item(i["fecha"], i["titulo"], i["resumen"]) for i in items)
-    return f"{canal}{cuerpo}\n  </channel>\n</rss>\n"
-
-
-def construir_json_feed(items: list[dict]) -> str:
-    payload = {
-        "version": "https://jsonfeed.org/version/1.1",
-        "title": TITULO_FEED,
-        "home_page_url": SITE,
-        "feed_url": f"{SITE}/feed.json",
-        "description": DESCRIPCION_FEED,
-        "language": "es",
-        "items": [
-            {
-                "id": f"informe-{i['fecha']}",
-                "url": f"{REPO_BLOB}/{i['fecha']}.md",
-                "title": i["titulo"],
-                "summary": i["resumen"],
-                "date_published": f"{i['fecha']}T09:00:00Z",
-            }
-            for i in items
-        ],
-    }
-    return json.dumps(payload, ensure_ascii=False, indent=1)
-
-
-def recoger_items(directorio: Path = INFORMES, limite: int = MAX_ITEMS) -> list[dict]:
-    items = []
-    for fecha in listar_fechas(directorio)[:limite]:
+def _parse_fecha(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%S.%f", "%Y-%m-%d"):
         try:
-            texto = (directorio / f"{fecha}.md").read_text(encoding="utf-8")
-        except OSError:
+            dt = datetime.strptime(value, fmt)
+            return dt.replace(tzinfo=timezone.utc)
+        except ValueError:
             continue
-        items.append(
-            {
-                "fecha": fecha,
-                "titulo": extraer_titulo(texto, fecha),
-                "resumen": extraer_resumen(texto),
-            }
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", value)
+    if m:
+        return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), tzinfo=timezone.utc)
+    return None
+
+
+def load_items() -> list[dict]:
+    days = json.loads(SRC.read_text(encoding="utf-8"))
+    flat: list[dict] = []
+    for day in days:
+        for item in day.get("items", []):
+            flat.append(item)
+    # Más recientes primero: día descendente, título como desempate estable.
+    flat.sort(key=lambda x: str(x.get("fecha") or ""), reverse=True)
+    return flat[:MAX_ITEMS]
+
+
+def rss(items: list[dict], now: datetime) -> str:
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        "  <channel>",
+        f"    <title>{escape(TITLE)}</title>",
+        f"    <link>{SITE}</link>",
+        "    <description>" + escape(DESC) + "</description>",
+        "    <language>es-CL</language>",
+        f"    <lastBuildDate>{format_datetime(now)}</lastBuildDate>",
+        f'    <atom:link href="{SITE}feed.xml" rel="self" type="application/rss+xml"/>',
+        "    <generator>AI-Informe (scripts/generar_feed.py)</generator>",
+    ]
+    for item in items:
+        titulo = escape(str(item.get("titulo") or "Sin título"))
+        link = escape(str(item.get("url") or SITE))
+        fecha = _parse_fecha(str(item.get("fecha") or ""))
+        pub_date = format_datetime(fecha) if fecha else format_datetime(now)
+        resumen = escape(str(item.get("resumen") or ""))
+        fuente = escape(str(item.get("fuente") or ""))
+        seccion = escape(str(item.get("seccion") or ""))
+        description = resumen + ((" Fuente: " + fuente) if fuente else "") + ((" · " + seccion) if seccion else "")
+        lines += [
+            "    <item>",
+            f"      <title>{titulo}</title>",
+            f"      <link>{link}</link>",
+            f"      <guid isPermaLink=\"true\">{link}</guid>",
+            f"      <pubDate>{pub_date}</pubDate>" if pub_date else "",
+            f"      <description>{description}</description>",
+            "    </item>",
+        ]
+    lines += ["  </channel>", "</rss>", ""]
+    return "\n".join(lines)
+
+
+def atom(items: list[dict], now: datetime) -> str:
+    entries = []
+    for item in items:
+        title = escape(str(item.get("titulo") or "Sin título"))
+        link = escape(str(item.get("url") or SITE))
+        updated = _parse_fecha(str(item.get("fecha") or "")) or now
+        updated = updated.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        summary = escape(str(item.get("resumen") or ""))
+        entries.append(
+            "  <entry>\n"
+            f"    <title>{title}</title>\n"
+            f"    <link href=\"{link}\"/>\n"
+            f"    <id>{link}</id>\n"
+            f"    <updated>{updated}</updated>\n"
+            f"    <summary>{summary}</summary>\n"
+            "  </entry>"
         )
-    return items
+    now_s = now.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return (
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<feed xmlns="http://www.w3.org/2005/Atom">\n'
+        f"  <title>{escape(TITLE)}</title>\n"
+        f"  <subtitle>{escape(DESC)}</subtitle>\n"
+        f"  <link href=\"{SITE}feed.atom\" rel=\"self\"/>\n"
+        f"  <link href=\"{SITE}\"/>\n"
+        f"  <id>{SITE}feed.atom</id>\n"
+        f"  <updated>{now_s}</updated>\n"
+        + "\n".join(entries)
+        + "\n</feed>\n"
+    )
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Genera el feed RSS/JSON del informe")
-    parser.add_argument("--max", type=int, default=MAX_ITEMS, help="máximo de items")
-    parser.add_argument("--out", type=Path, default=OUT_XML, help="ruta del RSS")
-    parser.add_argument("--out-json", type=Path, default=OUT_JSON, help="ruta del JSON Feed")
-    args = parser.parse_args()
-
-    items = recoger_items(limite=args.max)
+    SRC.exists() or (_ for _ in ()).throw(SystemExit(f"falta {SRC}"))
+    items = load_items()
     if not items:
-        print("[warn] no hay informes para publicar en el feed", file=sys.stderr)
-        sys.exit(0)
-
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(construir_xml(items), encoding="utf-8")
-    args.out_json.parent.mkdir(parents=True, exist_ok=True)
-    args.out_json.write_text(construir_json_feed(items), encoding="utf-8")
-    print(f"OK -> {args.out} y {args.out_json} ({len(items)} informes)")
+        raise SystemExit("informes.json sin items: feed no generado")
+    now = datetime.now(timezone.utc)
+    OUT_RSS.write_text(rss(items, now), encoding="utf-8")
+    OUT_ATOM.write_text(atom(items, now), encoding="utf-8")
+    print(f"OK feed -> {OUT_RSS} ({len(items)} entradas) y {OUT_ATOM}")
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as exc:
-        print(f"[warn] generar_feed no pudo completarse: {exc}", file=sys.stderr)
-        sys.exit(0)
+    main()

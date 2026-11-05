@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import gzip
+import json
 import io
 import ssl
 import tempfile
@@ -804,90 +805,90 @@ class RepararAgujerosTests(unittest.TestCase):
 
 
 class FeedTests(unittest.TestCase):
-    def test_lista_fechas_ignora_no_fechas(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            d = Path(tmp)
-            for nombre in ("2026-11-04.md", "2026-11-03.md", "_plantilla.md", "notas.md"):
-                (d / nombre).write_text("x", encoding="utf-8")
-            self.assertEqual(gf.listar_fechas(d), ["2026-11-04", "2026-11-03"])
+    """Tests del feed RSS/Atom (scripts/generar_feed.py), sin red."""
 
-    def test_lista_fechas_ordena_descendente(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            d = Path(tmp)
-            for fecha in ("2026-01-02", "2026-12-31", "2026-06-15"):
-                (d / f"{fecha}.md").write_text("x", encoding="utf-8")
-            self.assertEqual(
-                gf.listar_fechas(d), ["2026-12-31", "2026-06-15", "2026-01-02"]
-            )
+    def _items(self) -> list[dict]:
+        return [
+            {
+                "titulo": "Titulo uno",
+                "url": "https://example.com/a",
+                "resumen": "Resumen uno",
+                "fecha": "2026-11-04",
+            },
+            {
+                "titulo": "Titulo dos",
+                "url": "https://example.com/b",
+                "resumen": "Resumen dos",
+                "fecha": "2026-11-03",
+            },
+        ]
 
-    def test_extrae_titulo_del_h1(self) -> None:
-        texto = "# Informe de IA — 2026-11-04\n\ncuerpo\n"
-        self.assertEqual(gf.extraer_titulo(texto, "2026-11-04"), "Informe de IA — 2026-11-04")
+    def test_parse_fecha_acepta_formatos(self) -> None:
+        for valor in ("2026-11-04", "2026-11-04T10:30:00", "2026-11-04T10:30:00.123"):
+            self.assertIsNotNone(gf._parse_fecha(valor), valor)
 
-    def test_titulo_de_fallback_si_no_hay_h1(self) -> None:
-        self.assertEqual(
-            gf.extraer_titulo("sin encabezado", "2026-11-04"), "Informe de IA — 2026-11-04"
-        )
+    def test_parse_fecha_devuelve_none_si_no_parsable(self) -> None:
+        self.assertIsNone(gf._parse_fecha("no es fecha"))
+        self.assertIsNone(gf._parse_fecha(None))
 
-    def test_extrae_resumen_del_bloque_inicial(self) -> None:
-        texto = (
-            "# Informe de IA — 2026-11-04\n\n"
-            "## Resumen del día\n\nHoy se recopilaron 1331 piezas sobre IA.\n\n"
-            "## Novedades\n\n- algo\n"
-        )
-        self.assertEqual(
-            gf.extraer_resumen(texto), "Hoy se recopilaron 1331 piezas sobre IA."
-        )
-
-    def test_resumen_vacio_si_no_hay_parrafo(self) -> None:
-        self.assertEqual(gf.extraer_resumen("# Solo titulo\n"), "")
-
-    def test_xml_es_valido_y_tiene_items(self) -> None:
+    def test_rss_es_xml_valido_con_items(self) -> None:
         import xml.etree.ElementTree as ET
 
-        items = [
-            {"fecha": "2026-11-04", "titulo": "Informe de IA — 2026-11-04", "resumen": "Resumen."},
-            {"fecha": "2026-11-03", "titulo": "Informe de IA — 2026-11-03", "resumen": "Otro."},
-        ]
-        xml = gf.construir_xml(items)
-        root = ET.fromstring(xml)
+        ahora = datetime(2026, 11, 4, 12, 0, tzinfo=timezone.utc)
+        root = ET.fromstring(gf.rss(self._items(), ahora))
         self.assertEqual(root.tag, "rss")
-        channel = root.find("channel")
-        self.assertIsNotNone(channel)
-        self.assertEqual(channel.findtext("language"), "es")
-        nodes = channel.findall("item")
+        canal = root.find("channel")
+        self.assertIsNotNone(canal)
+        self.assertEqual(canal.findtext("language"), "es-CL")
+        nodes = canal.findall("item")
         self.assertEqual(len(nodes), 2)
-        self.assertEqual(nodes[0].findtext("guid"), "informe-2026-11-04")
-        self.assertIn("2026-11-04.md", nodes[0].findtext("link"))
-        self.assertEqual(nodes[0].findtext("pubDate"), "Wed, 04 Nov 2026 09:00:00 +0000")
+        self.assertEqual(nodes[0].findtext("title"), "Titulo uno")
+        self.assertEqual(nodes[0].findtext("link"), "https://example.com/a")
 
-    def test_xml_escapa_caracteres_peligrosos(self) -> None:
-        items = [{"fecha": "2026-11-04", "titulo": "IA & <script>", "resumen": "a < b & c"}]
-        xml = gf.construir_xml(items)
-        escapado = "&" + "lt;script" + "&" + "gt;"
+    def test_rss_escapa_html(self) -> None:
+        items = [{"titulo": "IA & <script>", "url": "https://e.com", "resumen": "a < b", "fecha": "2026-11-04"}]
+        xml = gf.rss(items, datetime(2026, 11, 4, 12, 0, tzinfo=timezone.utc))
         self.assertNotIn("<" + "script>", xml)
-        self.assertIn(escapado, xml)
-        self.assertIn("a " + "&" + "lt; b " + "&" + "amp; c", xml)
+        self.assertIn("&" + "lt;script" + "&" + "gt;", xml)
 
-    def test_json_feed_tiene_version_e_items(self) -> None:
-        import json as _json
+    def test_atom_es_xml_valido_con_entradas(self) -> None:
+        import xml.etree.ElementTree as ET
 
-        items = [{"fecha": "2026-11-04", "titulo": "T", "resumen": "R"}]
-        data = _json.loads(gf.construir_json_feed(items))
-        self.assertEqual(data["version"], "https://jsonfeed.org/version/1.1")
-        self.assertEqual(len(data["items"]), 1)
-        self.assertEqual(data["items"][0]["id"], "informe-2026-11-04")
+        ahora = datetime(2026, 11, 4, 12, 0, tzinfo=timezone.utc)
+        root = ET.fromstring(gf.atom(self._items(), ahora))
+        ns = "{http://www.w3.org/2005/Atom}"
+        self.assertEqual(root.tag, ns + "feed")
+        entradas = root.findall(ns + "entry")
+        self.assertEqual(len(entradas), 2)
+        self.assertEqual(entradas[0].findtext(ns + "title"), "Titulo uno")
 
-    def test_recoge_items_limita_y_ordena(self) -> None:
+    def test_load_items_ordena_por_fecha_descendente(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
-            d = Path(tmp)
-            for fecha in ("2026-11-04", "2026-11-03", "2026-11-02"):
-                (d / f"{fecha}.md").write_text(
-                    f"# Informe de IA — {fecha}\n\n## Resumen del día\n\nResumen {fecha}.\n",
-                    encoding="utf-8",
-                )
-            items = gf.recoger_items(d, limite=2)
-            self.assertEqual([i["fecha"] for i in items], ["2026-11-04", "2026-11-03"])
+            src = Path(tmp) / "informes.json"
+            src.write_text(
+                json.dumps(
+                    [
+                        {"fecha": "2026-11-03", "items": [{"titulo": "viejo", "fecha": "2026-11-03"}]},
+                        {"fecha": "2026-11-04", "items": [{"titulo": "nuevo", "fecha": "2026-11-04"}]},
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(gf, "SRC", src):
+                items = gf.load_items()
+            self.assertEqual([i["titulo"] for i in items], ["nuevo", "viejo"])
+
+    def test_load_items_respeta_max_items(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "informes.json"
+            src.write_text(
+                json.dumps(
+                    [{"fecha": "2026-11-04", "items": [{"titulo": f"i{i}", "fecha": "2026-11-04"} for i in range(10)]}]
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(gf, "SRC", src), patch.object(gf, "MAX_ITEMS", 3):
+                self.assertEqual(len(gf.load_items()), 3)
 
 
 if __name__ == "__main__":
