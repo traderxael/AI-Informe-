@@ -15,6 +15,7 @@ from unittest.mock import patch
 import actualizar_modelos as am
 import collect_signals as cs
 import feed_health as fh
+import generar_feed as gf
 import generar_informe as gi
 import reparar_agujeros as ra
 import sources as S
@@ -800,6 +801,93 @@ class RepararAgujerosTests(unittest.TestCase):
             self.assertEqual(
                 ra.fechas_existentes(d), {date(2026, 10, 27), date(2026, 10, 25)}
             )
+
+
+class FeedTests(unittest.TestCase):
+    def test_lista_fechas_ignora_no_fechas(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            for nombre in ("2026-11-04.md", "2026-11-03.md", "_plantilla.md", "notas.md"):
+                (d / nombre).write_text("x", encoding="utf-8")
+            self.assertEqual(gf.listar_fechas(d), ["2026-11-04", "2026-11-03"])
+
+    def test_lista_fechas_ordena_descendente(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            for fecha in ("2026-01-02", "2026-12-31", "2026-06-15"):
+                (d / f"{fecha}.md").write_text("x", encoding="utf-8")
+            self.assertEqual(
+                gf.listar_fechas(d), ["2026-12-31", "2026-06-15", "2026-01-02"]
+            )
+
+    def test_extrae_titulo_del_h1(self) -> None:
+        texto = "# Informe de IA — 2026-11-04\n\ncuerpo\n"
+        self.assertEqual(gf.extraer_titulo(texto, "2026-11-04"), "Informe de IA — 2026-11-04")
+
+    def test_titulo_de_fallback_si_no_hay_h1(self) -> None:
+        self.assertEqual(
+            gf.extraer_titulo("sin encabezado", "2026-11-04"), "Informe de IA — 2026-11-04"
+        )
+
+    def test_extrae_resumen_del_bloque_inicial(self) -> None:
+        texto = (
+            "# Informe de IA — 2026-11-04\n\n"
+            "## Resumen del día\n\nHoy se recopilaron 1331 piezas sobre IA.\n\n"
+            "## Novedades\n\n- algo\n"
+        )
+        self.assertEqual(
+            gf.extraer_resumen(texto), "Hoy se recopilaron 1331 piezas sobre IA."
+        )
+
+    def test_resumen_vacio_si_no_hay_parrafo(self) -> None:
+        self.assertEqual(gf.extraer_resumen("# Solo titulo\n"), "")
+
+    def test_xml_es_valido_y_tiene_items(self) -> None:
+        import xml.etree.ElementTree as ET
+
+        items = [
+            {"fecha": "2026-11-04", "titulo": "Informe de IA — 2026-11-04", "resumen": "Resumen."},
+            {"fecha": "2026-11-03", "titulo": "Informe de IA — 2026-11-03", "resumen": "Otro."},
+        ]
+        xml = gf.construir_xml(items)
+        root = ET.fromstring(xml)
+        self.assertEqual(root.tag, "rss")
+        channel = root.find("channel")
+        self.assertIsNotNone(channel)
+        self.assertEqual(channel.findtext("language"), "es")
+        nodes = channel.findall("item")
+        self.assertEqual(len(nodes), 2)
+        self.assertEqual(nodes[0].findtext("guid"), "informe-2026-11-04")
+        self.assertIn("2026-11-04.md", nodes[0].findtext("link"))
+        self.assertEqual(nodes[0].findtext("pubDate"), "Wed, 04 Nov 2026 09:00:00 +0000")
+
+    def test_xml_escapa_caracteres_peligrosos(self) -> None:
+        items = [{"fecha": "2026-11-04", "titulo": "IA & <script>", "resumen": "a < b & c"}]
+        xml = gf.construir_xml(items)
+        escapado = "&" + "lt;script" + "&" + "gt;"
+        self.assertNotIn("<" + "script>", xml)
+        self.assertIn(escapado, xml)
+        self.assertIn("a " + "&" + "lt; b " + "&" + "amp; c", xml)
+
+    def test_json_feed_tiene_version_e_items(self) -> None:
+        import json as _json
+
+        items = [{"fecha": "2026-11-04", "titulo": "T", "resumen": "R"}]
+        data = _json.loads(gf.construir_json_feed(items))
+        self.assertEqual(data["version"], "https://jsonfeed.org/version/1.1")
+        self.assertEqual(len(data["items"]), 1)
+        self.assertEqual(data["items"][0]["id"], "informe-2026-11-04")
+
+    def test_recoge_items_limita_y_ordena(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            for fecha in ("2026-11-04", "2026-11-03", "2026-11-02"):
+                (d / f"{fecha}.md").write_text(
+                    f"# Informe de IA — {fecha}\n\n## Resumen del día\n\nResumen {fecha}.\n",
+                    encoding="utf-8",
+                )
+            items = gf.recoger_items(d, limite=2)
+            self.assertEqual([i["fecha"] for i in items], ["2026-11-04", "2026-11-03"])
 
 
 if __name__ == "__main__":

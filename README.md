@@ -13,8 +13,28 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 |--------|-----|
 | Producción | [ai-informe.vercel.app](https://ai-informe.vercel.app) |
 | Repositorio | [github.com/traderxael/AI-Informe-](https://github.com/traderxael/AI-Informe-) |
-| Tendencias del ranking (Elo LMArena, historial diario) | [ai-informe.vercel.app/tendencias](https://ai-informe.vercel.app/tendencias) |
-| Estadísticas del proyecto (señales, Elo promedio, feeds, fuentes) | [ai-informe.vercel.app/estadisticas](https://ai-informe.vercel.app/estadisticas) |
+| Tendencias del ranking (Elo LMArena, historial diario) | [ai-informe.vercel.app/#tendencias](https://ai-informe.vercel.app/#tendencias) |
+| Estadísticas del proyecto (señales, Elo promedio, feeds, fuentes) | [ai-informe.vercel.app/#estadisticas](https://ai-informe.vercel.app/#estadisticas) |
+| **Suscribirse por RSS** | [ai-informe.vercel.app/feed.xml](https://ai-informe.vercel.app/feed.xml) |
+| JSON Feed | [ai-informe.vercel.app/feed.json](https://ai-informe.vercel.app/feed.json) |
+
+## Capturas
+
+![Portada de AI Informe](screenshots/readme/portada.png)
+
+*Portada con el resumen ejecutivo y las cifras calculadas en vivo desde las señales del día.*
+
+![Estadísticas del proyecto](screenshots/readme/estadisticas.png)
+
+*Estadísticas del proyecto: señales en 30 días, Elo promedio, salud de los 33 feeds, modelos por organización y fuentes con más artículos.*
+
+![App instalable (PWA)](screenshots/readme/pwa.png)
+
+*La misma información en una PWA instalable, que funciona sin conexión.*
+
+La sección **Tendencias** (evolución del Elo de LMArena) empieza a llenarse sola: cada corrida
+diaria agrega un punto al historial, así que el gráfico cobra forma con el paso de los días.
+
 
 ## Qué hace de verdad
 
@@ -75,7 +95,8 @@ scripts/
   actualizar_modelos.py   # LMArena (dataset HF) + OpenRouter → public/data/modelos.json
   feed_health.py          # salud de los 33 feeds + ranking → public/data/feed_health.json
   auditar_feeds.py        # diagnóstico: cuántos items trae cada feed (herramienta)
-  test_pipeline.py        # tests sin red (68 tests)
+  test_pipeline.py        # tests sin red (82 tests)
+  generar_feed.py         # feed RSS + JSON Feed → public/feed.xml, public/feed.json
   with-app-env.brace-regression.test.mjs # regresión del wrapper en Windows
 informes/                 # un markdown por día
 datos/                    # JSON diario de señales de X (cola de clips AutoClip)
@@ -88,13 +109,15 @@ docs/diagramas/           # diagramas Mermaid: *.mmd + svg/ + png/
 ## Uso local
 
 ```bash
-python scripts/test_pipeline.py     # 68 tests, sin red
+python scripts/test_pipeline.py     # 82 tests, sin red
 python scripts/generar_informe.py    # RSS → informes/*.md + web/
 python scripts/collect_signals.py    # señales Google News + HN + Reddit
 python scripts/fx_viral.py           # señales de X (o --local con FxEmbed propio)
 python scripts/actualizar_modelos.py --max 60
 python scripts/feed_health.py        # salud de los 33 feeds y del ranking
 python scripts/auditar_feeds.py      # cobertura real de los 33 feeds (cuántos items trae cada uno)
+python scripts/generar_feed.py        # publica el feed RSS/JSON del informe (public/feed.xml)
+python scripts/servidor_csp.py 8765   # sirve el repo local con la CSP de producción (para probar)
 ```
 
 Web (si usás el frontend TanStack):
@@ -110,13 +133,14 @@ npm install && npm run dev
 
 1. Tests de clasificación (`test_pipeline.py`)
 2. Generar informe (markdown + web)
-3. Recolectar signals (Google News + RSS + Reddit + HN, máx. 40 traducciones)
-4. Resúmenes LLM (Groq) — requiere Secret `GROQ_API_KEY`
-5. Ranking de modelos (LMArena vía dataset HF + OpenRouter)
-6. **Señales de X (FxTwitter)** — 17 cuentas + 5 búsquedas de nicho
-7. Salud de fuentes (`feed_health.py`) → `public/data/feed_health.json`
-8. Commit a `main` (`informes`, `web`, `public`, `datos`) → Vercel redeploy
-9. Verificación post-commit: falla el run si el ranking quedó vacío o la salud está incompleta
+3. Publicar feed RSS/JSON (`generar_feed.py`) → `public/feed.xml`, `public/feed.json`
+4. Recolectar signals (Google News + RSS + Reddit + HN, máx. 40 traducciones)
+5. Resúmenes LLM (Groq) — requiere Secret `GROQ_API_KEY`
+6. Ranking de modelos (LMArena vía dataset HF + OpenRouter)
+7. **Señales de X (FxTwitter)** — 17 cuentas + 5 búsquedas de nicho
+8. Salud de fuentes (`feed_health.py`) → `public/data/feed_health.json`
+9. Commit a `main` (`informes`, `web`, `public`, `datos`) → Vercel redeploy
+10. Verificación post-commit: falla el run si el ranking quedó vacío, la salud está incompleta o el feed no tiene items
 
 Si el push a `main` falla por required checks, el job `generar` no puede ser un status check obligatorio sobre sí mismo: desactivalo o permití bypass a `github-actions[bot]`.
 

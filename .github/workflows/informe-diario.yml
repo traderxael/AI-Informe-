@@ -36,6 +36,12 @@ jobs:
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
 
+      # Feed propio (RSS + JSON Feed) para que cualquiera pueda suscribirse
+      # al informe diario. Soft-fail: si falla, el informe se publica igual.
+      - name: Publicar feed RSS/JSON
+        continue-on-error: true
+        run: python scripts/generar_feed.py
+
       # Self-healing: si un dia previo quedo sin informe (cron caido, GitHub
       # abajo, npm roto), se regenera mientras los feeds todavia traen los
       # items (ventana de lookback de 7 dias). Los agujeros mas viejos se
@@ -100,10 +106,14 @@ jobs:
           feeds = health.get("feeds", [])
           if health.get("total_feeds", 0) <= 0 or len(feeds) != health["total_feeds"]:
               raise SystemExit("feed_health.json incompleto")
+          feed_xml = Path("public/feed.xml")
+          if not feed_xml.exists() or "<item>" not in feed_xml.read_text(encoding="utf-8"):
+              raise SystemExit("public/feed.xml ausente o sin items")
           print(
               f"modelos={modelos['total']} con_precio={modelos.get('con_precio', 0)} "
               f"feeds={health.get('ok', 0)}/{health['total_feeds']} "
-              f"ranking={health.get('ranking', {}).get('estado')}"
+              f"ranking={health.get('ranking', {}).get('estado')} "
+              f"feed_items={feed_xml.read_text(encoding='utf-8').count('<item>')}"
           )
           PY
 
