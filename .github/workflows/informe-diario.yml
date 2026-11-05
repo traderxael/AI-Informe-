@@ -36,6 +36,10 @@ jobs:
       - name: Generar informe (markdown + web)
         run: python scripts/generar_informe.py
 
+      # RSS/Atom para suscriptores: lee el informe recién generado.
+      - name: Generar feed RSS/Atom
+        run: python scripts/generar_feed.py
+
       # Self-healing: si un dia previo quedo sin informe (cron caido, GitHub
       # abajo, npm roto), se regenera mientras los feeds todavia traen los
       # items (ventana de lookback de 7 dias). Los agujeros mas viejos se
@@ -84,6 +88,25 @@ jobs:
             git commit -m "Informe diario $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # Resumen diario para quien se suscriba (Telegram/Discord). Sin secrets
+      # configurados el paso se omite sin romper nada.
+      - name: Notificar (Telegram/Discord)
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scripts/notificar.py
+
+      # Email tipo "resumen del día" vía Resend (opcional; sin secrets se omite).
+      - name: Enviar newsletter (Resend)
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+          NEWSLETTER_TO: ${{ secrets.NEWSLETTER_TO }}
+        run: python scripts/enviar_newsletter.py
 
       # Si el ranking quedó vacío o la salud no cubre todos los feeds, el run
       # se pone rojo DESPUÉS de publicar la evidencia.

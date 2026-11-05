@@ -31,6 +31,32 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 - **Estadísticas del proyecto** (`#estadisticas`): señales en 30 días, promedio/día, Elo promedio, feeds OK, modelos por organización y fuentes con más artículos (todo desde los JSON de la portada).
 - **Español / English**: el toggle ES|EN en la portada traduce los textos principales (guarda tu elección en el navegador). Toggle y secciones en JS externo (`public/static-i18n.js`, `public/static-secciones.js`).
 - **Compartir**: botón «Copiar enlace» en la portada + «Compartir» con Web Share API en la interfaz web.
+- **Buscador full-text del archivo** (`#archivo`): busca en los 30 días de señales (título, resumen, fuente, país, sección) — resultados con fecha y enlace, sin recargar la página (`public/static-buscar.js`).
+- **Feed RSS/Atom**: [`/feed.xml`](https://ai-informe.vercel.app/feed.xml) (RSS 2.0) y [`/feed.atom`](https://ai-informe.vercel.app/feed.atom) (Atom 1.0), regenerados a diario por `scripts/generar_feed.py`.
+- **Notificación diaria** (opcional): bot de Telegram y/o webhook de Discord reciben el resumen del día (`scripts/notificar.py`). Sin secrets, el paso se omite sin romper nada.
+- **Newsletter por email** (opcional): resumen diario vía Resend (`scripts/enviar_newsletter.py`). Sin secrets, el paso se omite.
+
+## Notificaciones y newsletter (opcional)
+
+Para activarlos hay que configurar secrets en el repo → *Settings → Secrets and variables → Actions*:
+
+```bash
+# Telegram (habla con @BotFather, crea un bot, copia el token)
+gh secret set TELEGRAM_BOT_TOKEN --body "123456:AAH..."
+gh secret set TELEGRAM_CHAT_ID   --body "-1001234567890"
+# (chat id se obtiene enviándole un mensaje al bot y consultando
+#  https://api.telegram.org/bot<TOKEN>/getUpdates)
+
+# Discord (canal → Editar canal → Integraciones → Webhooks → Nuevo webhook)
+gh secret set DISCORD_WEBHOOK_URL --body "https://discord.com/api/webhooks/..."
+
+# Email vía Resend (resend.com → API keys; dominio verificado para enviar)
+gh secret set RESEND_API_KEY  --body "re_..."
+gh secret set NEWSLETTER_FROM --body "AI Informe <informe@tudominio.cl>"
+gh secret set NEWSLETTER_TO   --body "amigo@a.cl,colega@b.cl"
+```
+
+Con eso el workflow diario (`informe-diario.yml`) notifica después de commitear cada informe. Si alguna clave falta o falla, el informe **se publica igual** — estos pasos son `continue-on-error`.
 
 X / Instagram / TikTok / Xiaohongshu: para X ya hay monitor propio (`fx_viral.py`); el resto requiere levantar RSSHub local (`docker/rsshub`) y `social_sources.json`.
 
@@ -69,6 +95,9 @@ Vectoriales editables en [`docs/diagramas/svg/`](docs/diagramas/svg/) y código 
 scripts/
   sources.py              # lista única de feeds (única fuente de verdad)
   generar_informe.py      # RSS → markdown + web/  (gzip-safe, reintentos con backoff)
+  generar_feed.py         # RSS 2.0 + Atom → public/feed.xml y feed.atom (sin red)
+  notificar.py            # resumen del día por Telegram/Discord (secrets opcionales)
+  enviar_newsletter.py    # resumen por email vía Resend (secrets opcionales)
   collect_signals.py      # Google News + RSS + HN + Reddit → public/data/signals-*.json
   fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json
   resumir_groq.py         # resúmenes LLM en español (Groq) + traducción de señales
