@@ -21,6 +21,10 @@ se publican automáticamente y no se listan aquí uno por uno.
   `globparts`, CVE reportado por Dependabot). `npm audit` queda en 0 vulnerabilidades.
 
 ### Añadido
+- **Sección "Lo que la IA está haciendo ahora mismo"**: grid en la portada con las
+  publicaciones **con imagen** de las cuentas de X que se monitorean (NVIDIA, Google DeepMind,
+  OpenAI, Anthropic…), ordenadas por alcance. `fx_viral.py` ahora guarda las imágenes
+  (`public/data/x-viral.json`) y `public/static-x.js` las pinta.
 - **Feed RSS + Atom** (`public/feed.xml`, `public/feed.atom`) con las noticias del día,
   regenerado por el workflow diario; botón y `<link rel="alternate">` en la portada.
 - **Buscador full-text** del archivo (30 días) en la portada.

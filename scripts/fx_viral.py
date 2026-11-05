@@ -132,21 +132,60 @@ def fetch_search(base: str, query: str, count: int = 20) -> list[dict]:
     return [_norm_tweet(t) for t in items if isinstance(t, dict)]
 
 
+def mini(url: str) -> str:
+    """Pide la version liviana de una imagen del CDN de X (680px en vez de la original)."""
+    if not url or "pbs.twimg.com" not in url:
+        return url
+    partes = urllib.parse.urlsplit(url)
+    query = urllib.parse.parse_qsl(partes.query, keep_blank_values=True)
+    query = [(k, v) for k, v in query if k not in ("format", "name")]
+    query += [("format", "jpg"), ("name", "small")]
+    return urllib.parse.urlunsplit(
+        (partes.scheme, partes.netloc, partes.path, urllib.parse.urlencode(query), partes.fragment)
+    )
+
+
+def imagenes(tweet: dict) -> list[dict]:
+    """Imagenes publicables de un tweet: fotos y posters de video.
+
+    La API v2 devuelve media.all con type=photo (url) o type=video (thumbnail_url).
+    """
+    media = tweet.get("media")
+    if not isinstance(media, dict):
+        return []
+    salida: list[dict] = []
+    for m in media.get("all") or []:
+        if not isinstance(m, dict):
+            continue
+        tipo = m.get("type") or ""
+        url = m.get("url") or ""
+        thumb = m.get("thumbnail_url") or ""
+        if tipo == "photo" and url:
+            salida.append({"url": mini(url), "thumb": mini(thumb or url), "tipo": "foto"})
+        elif thumb:
+            # El video no se reproduce en la portada: se usa su poster.
+            salida.append({"url": mini(thumb), "thumb": mini(thumb), "tipo": "poster"})
+    return salida[:4]
+
+
 def _norm_tweet(t: dict) -> dict:
     views = t.get("views") or 0
     try:
         views = int(views)
     except (TypeError, ValueError):
         views = 0
+    autor = t.get("author") or {}
     return {
         "id": t.get("id"),
-        "autor": (t.get("author") or {}).get("screen_name"),
+        "autor": autor.get("screen_name"),
+        "avatar": autor.get("avatar_url") or "",
         "texto": (t.get("text") or "").strip()[:280],
         "views": views,
         "likes": t.get("likes") or 0,
         "reposts": t.get("reposts") or 0,
-        "url": f"https://x.com/{(t.get('author') or {}).get('screen_name')}/status/{t.get('id')}",
+        "url": f"https://x.com/{autor.get('screen_name')}/status/{t.get('id')}",
         "tiene_video": bool((t.get("media") or {}).get("videos")) if isinstance(t.get("media"), dict) else bool(t.get("media")),
+        "imagenes": imagenes(t),
         "fecha": (t.get("created_at") or {}).get("iso") if isinstance(t.get("created_at"), dict) else t.get("created_at"),
     }
 def fetch_profile_statuses(base: str, handle: str, count: int = 20) -> list[dict]:
@@ -155,6 +194,45 @@ def fetch_profile_statuses(base: str, handle: str, count: int = 20) -> list[dict
         return []
     items = data.get("statuses") or data.get("results") or []
     return [_norm_tweet(t) for t in items if isinstance(t, dict)]
+
+
+def payload_web(viral: list[dict], hoy: str, generado: str, limite: int = 24) -> dict:
+    """Payload para la portada: solo los tweets que traen imagen.
+
+    Es lo que se publica en public/data/x-viral.json y consume static-x.js.
+    """
+    items = []
+    for v in viral:
+        imgs = v.get("imagenes") or []
+        if not imgs:
+            continue
+        principal = imgs[0]
+        items.append(
+            {
+                "id": v.get("id"),
+                "autor": v.get("autor") or "",
+                "avatar": v.get("avatar") or "",
+                "texto": (v.get("texto") or "").strip()[:240],
+                "url": v.get("url") or "",
+                "views": v.get("views") or 0,
+                "likes": v.get("likes") or 0,
+                "tema": v.get("tema") or "otros",
+                "etiqueta": v.get("etiqueta") or "",
+                "imagen": principal.get("thumb") or principal.get("url") or "",
+                "imagen_full": principal.get("url") or "",
+                "tipo_media": principal.get("tipo") or "foto",
+                "tiene_video": bool(v.get("tiene_video")),
+                "fecha": v.get("fecha") or "",
+            }
+        )
+        if len(items) >= limite:
+            break
+    return {
+        "fecha": hoy,
+        "generado": generado,
+        "total": len(items),
+        "items": items,
+    }
 
 
 def main() -> int:
@@ -228,6 +306,13 @@ def main() -> int:
     print(f"[fx_viral] {len(viral)} virales (>= {MIN_VIEWS:,} views) -> {out}")
     print(f"[fx_viral] por tema: {dict(por_tema)}")
     print(f"[fx_viral] por nicho: {dict(por_etiqueta)}")
+
+    # Payload para la portada: los virales que traen imagen.
+    web = payload_web(viral, hoy, payload["generado"])
+    out_web = ROOT / "public" / "data" / "x-viral.json"
+    out_web.parent.mkdir(parents=True, exist_ok=True)
+    out_web.write_text(json.dumps(web, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"[fx_viral] {web['total']} con imagen -> {out_web}")
 
     # Resumen consola
     for v in viral[:8]:

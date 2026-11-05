@@ -357,6 +357,25 @@
     .archivo-item a{flex:none;font-size:12px}
     @media (max-width:640px){.archivo-item{flex-direction:column;gap:6px}}
 
+    /* --- Señales de X con imagen --- */
+    .x-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:16px}
+    .x-card{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--stroke);border-radius:16px;background:var(--glass);text-decoration:none;color:inherit;transition:transform .16s ease,border-color .16s ease}
+    .x-card:hover{transform:translateY(-2px);border-color:var(--stroke-2)}
+    .x-media{position:relative;display:block;aspect-ratio:16/9;background:var(--glass-2);overflow:hidden}
+    .x-media img{width:100%;height:100%;object-fit:cover;display:block}
+    .x-media-fail{min-height:120px;background:var(--glass-2)}
+    .x-badge{position:absolute;left:8px;bottom:8px;padding:3px 8px;border-radius:999px;background:rgba(0,0,0,.72);color:#fff;font-size:11px;letter-spacing:.02em}
+    .x-body{display:flex;flex-direction:column;gap:8px;padding:12px 13px 14px}
+    .x-head{display:flex;align-items:center;gap:7px;min-width:0}
+    .x-avatar{width:22px;height:22px;border-radius:50%;flex:none;object-fit:cover}
+    .x-autor{font-size:12px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .x-views{margin-left:auto;font-size:11px;color:var(--muted);white-space:nowrap}
+    .x-texto{font-size:13px;line-height:1.45;color:var(--text);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+    .x-tags{display:flex;gap:6px;margin-top:auto}
+    .x-tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border:1px solid var(--stroke);border-radius:999px;padding:2px 8px}
+    .x-empty{color:var(--muted);font-size:13px;margin:10px 0 0}
+    @media (max-width:640px){.x-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}}
+
   </style>
 </head>
 <body>
@@ -464,6 +483,14 @@
       <label class="archivo-search" for="archivoSearch"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="archivoSearch" type="search" data-i18n-placeholder="archivo.search" placeholder="Buscar en todo el archivo (30 días)…" autocomplete="off"></label>
       <div class="archivo-results" id="archivoResults" role="list" hidden></div>
       <div class="archivo-list" id="archivoList"><p class="sin-precio">Cargando archivo…</p></div>
+    </section>
+    <section class="panel x-panel" id="x-viral" aria-labelledby="x-title">
+      <div class="models-head">
+        <h2 id="x-title" data-i18n="x.title">Lo que la IA está haciendo ahora mismo</h2>
+        <span class="fuente" id="xCount" data-i18n="x.count">Cargando…</span>
+      </div>
+      <p class="archivo-sub" data-i18n="x.sub">Publicaciones con imagen de los laboratorios y cuentas que seguimos en X, ordenadas por alcance.</p>
+      <div class="x-grid" id="xGrid"><p class="sin-precio">Cargando señales de X…</p></div>
     </section>
     <section class="panel tendencias-panel" id="tendencias" aria-labelledby="tendencias-title">
       <div class="models-head">
@@ -643,6 +670,7 @@
 <script src="/static-i18n.js" defer></script>
 <script src="/static-secciones.js" defer></script>
 <script src="/static-buscar.js" defer></script>
+<script src="/static-x.js" defer></script>
 <script>
 (function(){
   const urls = ['/data/modelos.json','modelos.json'];

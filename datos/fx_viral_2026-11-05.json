@@ -1,0 +1,785 @@
+{
+  "fecha": "2026-11-05",
+  "generado": "2026-11-05T12:23:58.055022+00:00",
+  "api": "https://api.fxtwitter.com",
+  "trends_x": [
+    "Fener",
+    "İstanbul"
+  ],
+  "total_viral": 79,
+  "resumen_por_tema": {
+    "seguridad": 24,
+    "otros": 10,
+    "investigacion": 18,
+    "politica": 6,
+    "mercado": 8,
+    "lanzamiento": 6,
+    "biotech": 1,
+    "producto": 4,
+    "china": 2
+  },
+  "resumen_por_etiqueta": {
+    "tech": 17,
+    "ia": 46,
+    "china-ai": 9,
+    "trading": 7
+  },
+  "viral": [
+    {
+      "id": "2080643682408321103",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power every company, and be built by every country.\n\nOpen models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty.\n",
+      "views": 66537032,
+      "likes": 171149,
+      "reposts": 29192,
+      "url": "https://x.com/JensenHuang/status/2080643682408321103",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HN_qDVsa4AAI6XJ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HN_qDVsa4AAI6XJ.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HN_qDV1a8AARQwg.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HN_qDV1a8AARQwg.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HN_qDV1awAAPTlH.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HN_qDV1awAAPTlH.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Jul 24 13:18:05 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2117343929960112486",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.\n\nApply by November 22: https://alignment.ant",
+      "views": 14652712,
+      "likes": 40439,
+      "reposts": 3188,
+      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 02 19:51:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2081698060330250294",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community.\n\nDuring the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion.\n\nThat’",
+      "views": 11546405,
+      "likes": 36304,
+      "reposts": 4135,
+      "url": "https://x.com/JensenHuang/status/2081698060330250294",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Jul 27 11:07:48 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2104499465055023424",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry.\n\nArtificial intelligence is extraordinary technology that will advance discovery, productivity, security, health, and prosperity for generations to",
+      "views": 10774681,
+      "likes": 28338,
+      "reposts": 4200,
+      "url": "https://x.com/JensenHuang/status/2104499465055023424",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HTSuRsKaUAE1VGz.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HTSuRsKaUAE1VGz.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Sep 28 09:12:26 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2114705042817110293",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.\n\nRead more: https://www.anthropic.com/news/s1-sec\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. The",
+      "views": 9588945,
+      "likes": 18279,
+      "reposts": 2379,
+      "url": "https://x.com/AnthropicAI/status/2114705042817110293",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Oct 26 13:05:46 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2086934705207959965",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "",
+      "views": 6393445,
+      "likes": 14545,
+      "reposts": 1969,
+      "url": "https://x.com/JensenHuang/status/2086934705207959965",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Aug 10 21:56:21 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2095482647355244762",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Exciting day for NVIDIA and @huggingface.\n\nOpen models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty. They allow every developer, startup, university, industry and country to build with, customize and benefit from AI.\n\nThank you ",
+      "views": 6207137,
+      "likes": 27293,
+      "reposts": 3275,
+      "url": "https://x.com/JensenHuang/status/2095482647355244762",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Sep 03 12:02:49 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2089331487342829862",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "https://x.com/i/article/2089330332369588224",
+      "views": 3681054,
+      "likes": 11058,
+      "reposts": 1354,
+      "url": "https://x.com/JensenHuang/status/2089331487342829862",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Aug 17 12:40:19 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2115178675050307942",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Over the past few months, Anthropic scientists have engaged in deep research partnerships with six organizations developing new medicines. We've also begun drug discovery efforts of our own.\n\nIn doing so, we’ve learned much more about how Claude can support the many stages of dru",
+      "views": 3655650,
+      "likes": 11924,
+      "reposts": 1340,
+      "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Oct 27 20:27:48 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2115114028338962672",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "This is Genie 4, our most realistic and interactive world model yet. 🌐\n\nExplore dynamic environments in real time to see how the scene responds, sounds, and how the people in it move, react, and speak.",
+      "views": 3504207,
+      "likes": 23860,
+      "reposts": 2639,
+      "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HVplvENXUAA-sCS.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HVplvENXUAA-sCS.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Oct 27 16:10:55 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2115871889549865429",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other sa",
+      "views": 3299910,
+      "likes": 5254,
+      "reposts": 457,
+      "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Oct 29 18:22:24 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2094173025881272408",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Gavin, spot on.\n\nAI is bringing manufacturing back to America and reindustrializing the nation after decades of offshoring.\n\nAI is creating demand that drives investment in our aging power grid and sustainable energy, powered by market forces, not subsidies.\n\nAI is creating const",
+      "views": 3144005,
+      "likes": 19877,
+      "reposts": 2142,
+      "url": "https://x.com/JensenHuang/status/2094173025881272408",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sun Aug 30 21:18:51 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "politica"
+    },
+    {
+      "id": "2116253388883345623",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "There are many futures. Which do you want to build?",
+      "views": 2800180,
+      "likes": 11767,
+      "reposts": 830,
+      "url": "https://x.com/OpenAI/status/2116253388883345623",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2116236456897212416/img/3feufnhOpbHvJ6kt.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2116236456897212416/img/3feufnhOpbHvJ6kt.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Oct 30 19:38:20 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "otros"
+    },
+    {
+      "id": "2112557925264752930",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "Gemini 4 Argon built a 3D periodic table synced to Tom Lehrer’s song, “The Elements.”\n\nCreated in @Antigravity, it animates orbiting electrons, atomic data, and light spectra.",
+      "views": 2402150,
+      "likes": 4802,
+      "reposts": 567,
+      "url": "https://x.com/GoogleDeepMind/status/2112557925264752930",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2112556446218862593/img/vm7Hadu5pWswOhr9.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2112556446218862593/img/vm7Hadu5pWswOhr9.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Oct 20 14:53:53 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2113626655902126442",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "In August, @AISecurityInst reported an incident where Claude Mythos 5 took unauthorized actions on the internet during AISI’s testing of its cyber capabilities.\n\nWe've now produced a further analysis of this incident, to better understand the model's alignment properties.\n\nhttps:",
+      "views": 2202962,
+      "likes": 4498,
+      "reposts": 479,
+      "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Oct 23 13:40:38 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2105348324484342238",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Yesterday at the White House, leaders from across our industry came together to sign the White House Accord on Super Intelligence.\n\nThe principle is simple: the companies building this technology have the primary responsibility to develop and deploy it safely, and to be accountab",
+      "views": 2191854,
+      "likes": 25756,
+      "reposts": 3210,
+      "url": "https://x.com/JensenHuang/status/2105348324484342238",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HTepwRjbgAAM2us.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HTepwRjbgAAM2us.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HTey3FEbUAAXxSs.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HTey3FEbUAAXxSs.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Sep 30 17:25:30 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "mercado"
+    },
+    {
+      "id": "2084656303046332747",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Today, we’re launching Alpamayo 2 Super, our frontier open reasoning model for autonomous vehicles.\n\nBeyond seeing, Alpamayo understands and reasons through the complex world - thinks before it acts.\n\nIt’s a powerful backbone for robotaxis, trucks, shuttles, delivery vans, tracto",
+      "views": 2148807,
+      "likes": 15589,
+      "reposts": 1835,
+      "url": "https://x.com/JensenHuang/status/2084656303046332747",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HO4vEzibAAAI0Nh.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HO4vEzibAAAI0Nh.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HO4vEzjaIAE1BL7.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HO4vEzjaIAE1BL7.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Aug 04 15:02:48 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2113390212911083894",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New on our Frontier Red Team blog: using Claude to formally verify software at large scale.\n\nFormal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases (or required a lot of expert time).\n\nWith AI models, howeve",
+      "views": 2140775,
+      "likes": 9792,
+      "reposts": 1073,
+      "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Oct 22 22:01:06 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2112579251555721573",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New on our Science Blog: designing protein binders against scorpion neurotoxins.\n\nScorpions sting about 1.2m people every year, and antivenoms are often costly or in short supply. Claude has made an early step toward finding new treatments.\n\nhttps://www.anthropic.com/research/cla",
+      "views": 1831838,
+      "likes": 7352,
+      "reposts": 614,
+      "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Oct 20 16:18:38 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2118124944928432327",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Images, upgraded—introducing ChatGPT Images 2.6.\n\nNow with GIFs and reference images.\n\nPlus, two new models are coming to the API with 50% faster image generation.",
+      "views": 1750407,
+      "likes": 18378,
+      "reposts": 1605,
+      "url": "https://x.com/OpenAI/status/2118124944928432327",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118124891572748288/img/ZSIlzNmSPQEK0Sfd.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118124891572748288/img/ZSIlzNmSPQEK0Sfd.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 23:35:14 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2085779369830822040",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "AI at the final frontier 🚀",
+      "views": 1708585,
+      "likes": 25267,
+      "reposts": 1443,
+      "url": "https://x.com/JensenHuang/status/2085779369830822040",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Aug 07 17:25:28 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2097118747509268885",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "NVIDIA compute is fungible, durable and highly rentable. It is a productive, revenue-generating asset.",
+      "views": 1703371,
+      "likes": 13116,
+      "reposts": 976,
+      "url": "https://x.com/JensenHuang/status/2097118747509268885",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Sep 08 00:24:06 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "biotech"
+    },
+    {
+      "id": "2115489356437651654",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "Gemini 4 Carbon is our next frontier model.\n\nIt’s state-of-the-art across cybersecurity and long-horizon capabilities.",
+      "views": 1670015,
+      "likes": 14497,
+      "reposts": 1388,
+      "url": "https://x.com/GoogleDeepMind/status/2115489356437651654",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HVu5JfhXkAAHYVr.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HVu5JfhXkAAHYVr.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Oct 28 17:02:21 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2087184542050496763",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Lightning strikes for continuous and long-run agents!\n\nNemotron 3.5 Lightning is smart, fast, efficient and open.",
+      "views": 1622169,
+      "likes": 9155,
+      "reposts": 781,
+      "url": "https://x.com/JensenHuang/status/2087184542050496763",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Aug 11 14:29:07 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "politica"
+    },
+    {
+      "id": "2087755674650603534",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "The mighty A100 fleet are mission-capable from 2020 through 2029. NVIDIA computing is more than chips. CUDA gives developers and NVIDIA engineers a common platform to continually upgrade Ampere, Hopper and Blackwell throughout their useful lives.\nCUDA makes NVIDIA computing versa",
+      "views": 1605805,
+      "likes": 7636,
+      "reposts": 689,
+      "url": "https://x.com/JensenHuang/status/2087755674650603534",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Aug 13 04:18:36 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2118119451401048497",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.\n\nIn a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API",
+      "views": 1440624,
+      "likes": 9646,
+      "reposts": 1001,
+      "url": "https://x.com/OpenAI/status/2118119451401048497",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWUQl7QbwAAkznq.png?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWUQl7QbwAAkznq.png?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 04 23:13:24 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2117692475775258785",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "ChatGPT and Codex are helping engineers build for the physical world.\n\nWe’re sharing our progress across mechanical design, electrical engineering, and simulation—from helping our hardware teams iterate faster to testing new workflows with industry collaborators.",
+      "views": 1276588,
+      "likes": 8096,
+      "reposts": 719,
+      "url": "https://x.com/OpenAI/status/2117692475775258785",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWOOL0QWwAA5B61.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWOOL0QWwAA5B61.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 03 18:56:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "producto"
+    },
+    {
+      "id": "2112974723659247896",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy.\n\nToggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
+      "views": 1235843,
+      "likes": 3200,
+      "reposts": 311,
+      "url": "https://x.com/GoogleDeepMind/status/2112974723659247896",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2112974557619302400/img/C5NXfnVigLrq4siZ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2112974557619302400/img/C5NXfnVigLrq4siZ.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Oct 21 18:30:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2088350155758313875",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "NVIDIA interns. This is an incredible time to be in technology. Loved having you for the summer.\nCome back and do your life’s work at @NVIDIA.",
+      "views": 946003,
+      "likes": 8414,
+      "reposts": 511,
+      "url": "https://x.com/JensenHuang/status/2088350155758313875",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Aug 14 19:40:51 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2116349211549843666",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic research: Automating subtle emergent misalignment research.\n\nRed-teaming is a vital part of model safety testing, but it’s also limited by researchers’ time. To see if we could automate it, we set thousands of Claude agents the task of evading a training data monito",
+      "views": 850466,
+      "likes": 4179,
+      "reposts": 395,
+      "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HV7E-P7bwAA7OxM.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HV7E-P7bwAA7OxM.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Sat Oct 31 01:59:06 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2108035064441520342",
+      "autor": "JensenHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+      "texto": "Awesome day, @satyanadella! \n\nWindows sparked a platform shift that created a new industry for NVIDIA. Then we invented programmable shading GPUs for DirectX, which led to CUDA. \n\nThen we partnered to bring GPU supercomputers to Azure, which helped OpenAI train GPT. That collabor",
+      "views": 847748,
+      "likes": 6817,
+      "reposts": 667,
+      "url": "https://x.com/JensenHuang/status/2108035064441520342",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Oct 08 03:21:39 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "JensenHuang",
+      "tema": "otros"
+    },
+    {
+      "id": "2117444048227123277",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.\n\nWe’re planning our next internal security sprint at OpenAI and partnering with Cathedral Systems, whose researchers will use our models alongside our teams to challenge o",
+      "views": 842420,
+      "likes": 3597,
+      "reposts": 348,
+      "url": "https://x.com/OpenAI/status/2117444048227123277",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 03 02:29:35 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2117307611338997846",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to acc",
+      "views": 795343,
+      "likes": 6590,
+      "reposts": 471,
+      "url": "https://x.com/OpenAI/status/2117307611338997846",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2117307511820754944/img/KAscj7SLp6lhMJr9.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 02 17:27:26 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2117710942826123294",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic research: progress on provable inference for large language models.\n\nHere, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model. It’s substantially more ",
+      "views": 651649,
+      "likes": 5161,
+      "reposts": 537,
+      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 03 20:10:08 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2112946750264676743",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Dr. Christopher Stubbs is joining our Long-Term Benefit Trust. Chris is an experimental physicist and a former Dean of Science at Harvard University. He has also advised the US government on national security and arms control.\n\nRead more: https://www.anthropic.com/news/christophe",
+      "views": 615200,
+      "likes": 2209,
+      "reposts": 127,
+      "url": "https://x.com/AnthropicAI/status/2112946750264676743",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Oct 21 16:38:56 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2118073665296228863",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were fi",
+      "views": 544453,
+      "likes": 4048,
+      "reposts": 427,
+      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 04 20:11:28 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2115207004293853358",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.\nhttps://www.anthropic.com/news/expanding-partnership-gsa",
+      "views": 538394,
+      "likes": 2281,
+      "reposts": 138,
+      "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Oct 27 22:20:23 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2116186509384815084",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Privacy should advance as fast as intelligence. OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.\n\nWe’re building these protections in close collaboration with some of our largest customers to help businesses apply",
+      "views": 461905,
+      "likes": 3046,
+      "reposts": 227,
+      "url": "https://x.com/OpenAI/status/2116186509384815084",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2116186389536788480/img/hbO4g10coOsa0Gy3.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2116186389536788480/img/hbO4g10coOsa0Gy3.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Oct 30 15:12:35 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "producto"
+    },
+    {
+      "id": "2117591591666016487",
+      "autor": "TencentHunyuan",
+      "avatar": "https://pbs.twimg.com/profile_images/1810934469769195520/kKSVenHW_200x200.jpg",
+      "texto": "4 Real Productivity",
+      "views": 451670,
+      "likes": 2452,
+      "reposts": 157,
+      "url": "https://x.com/TencentHunyuan/status/2117591591666016487",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2117591346752172033/img/6yzyZ_DCKDOVTda3.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2117591346752172033/img/6yzyZ_DCKDOVTda3.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 03 12:15:53 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "TencentHunyuan",
+      "tema": "otros"
+    },
+    {
+      "id": "2112966949273801086",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Anthropic is a Public Benefit Corporation. Today, we’re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we’re taking to advance them. \n\nRead the full report at this page: https://www.anthropic.com/public-benefit-char",
+      "views": 386676,
+      "likes": 2592,
+      "reposts": 224,
+      "url": "https://x.com/AnthropicAI/status/2112966949273801086",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Oct 21 17:59:12 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    }
+  ]
+}

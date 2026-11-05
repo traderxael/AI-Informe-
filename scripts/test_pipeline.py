@@ -16,6 +16,7 @@ from unittest.mock import patch
 import actualizar_modelos as am
 import collect_signals as cs
 import feed_health as fh
+import fx_viral as fx
 import generar_feed as gf
 import generar_informe as gi
 import reparar_agujeros as ra
@@ -889,6 +890,115 @@ class FeedTests(unittest.TestCase):
             )
             with patch.object(gf, "SRC", src), patch.object(gf, "MAX_ITEMS", 3):
                 self.assertEqual(len(gf.load_items()), 3)
+
+
+class XImagenesTests(unittest.TestCase):
+    """Extraccion de imagenes de tweets (scripts/fx_viral.py)."""
+
+    def test_mini_agrega_parametros_al_cdn(self) -> None:
+        url = "https://pbs.twimg.com/media/ABC123.jpg"
+        self.assertEqual(fx.mini(url), url + "?format=jpg&name=small")
+
+    def test_mini_reemplaza_name_orig(self) -> None:
+        url = "https://pbs.twimg.com/media/ABC123.jpg?name=orig"
+        self.assertEqual(
+            fx.mini(url), "https://pbs.twimg.com/media/ABC123.jpg?format=jpg&name=small"
+        )
+
+    def test_mini_no_rompe_urls_con_query(self) -> None:
+        url = "https://pbs.twimg.com/media/ABC123.jpg?format=png&name=large"
+        self.assertEqual(
+            fx.mini(url), "https://pbs.twimg.com/media/ABC123.jpg?format=jpg&name=small"
+        )
+
+    def test_mini_deja_intactas_urls_no_cdn(self) -> None:
+        url = "https://example.com/foto.jpg?x=1"
+        self.assertEqual(fx.mini(url), url)
+
+    def test_mini_ignora_urls_vacias(self) -> None:
+        self.assertEqual(fx.mini(""), "")
+
+    def test_imagenes_toma_fotos(self) -> None:
+        tweet = {
+            "media": {
+                "all": [
+                    {"type": "photo", "url": "https://pbs.twimg.com/media/AAA.jpg"},
+                    {"type": "photo", "url": "https://pbs.twimg.com/media/BBB.jpg"},
+                ],
+                "videos": [],
+            }
+        }
+        imgs = fx.imagenes(tweet)
+        self.assertEqual(len(imgs), 2)
+        self.assertEqual(imgs[0]["tipo"], "foto")
+        self.assertIn("name=small", imgs[0]["url"])
+
+    def test_imagenes_usa_poster_en_videos(self) -> None:
+        tweet = {
+            "media": {
+                "all": [
+                    {
+                        "type": "video",
+                        "url": "https://video.twimg.com/x.mp4",
+                        "thumbnail_url": "https://pbs.twimg.com/thumb/C.jpg",
+                    }
+                ],
+                "videos": [{"url": "https://video.twimg.com/x.mp4"}],
+            }
+        }
+        imgs = fx.imagenes(tweet)
+        self.assertEqual(len(imgs), 1)
+        self.assertEqual(imgs[0]["tipo"], "poster")
+        self.assertIn("thumb/C.jpg", imgs[0]["url"])
+
+    def test_imagenes_sin_media_devuelve_lista_vacia(self) -> None:
+        self.assertEqual(fx.imagenes({}), [])
+        self.assertEqual(fx.imagenes({"media": None}), [])
+        self.assertEqual(fx.imagenes({"media": "texto"}), [])
+
+    def test_norm_tweet_conserva_imagenes_y_avatar(self) -> None:
+        tweet = {
+            "id": "123",
+            "text": "hola",
+            "views": 10,
+            "author": {"screen_name": "sama", "avatar_url": "https://pbs.twimg.com/avatar.jpg"},
+            "media": {"all": [{"type": "photo", "url": "https://pbs.twimg.com/media/A.jpg"}], "videos": []},
+        }
+        t = fx._norm_tweet(tweet)
+        self.assertEqual(t["autor"], "sama")
+        self.assertEqual(t["avatar"], "https://pbs.twimg.com/avatar.jpg")
+        self.assertEqual(len(t["imagenes"]), 1)
+
+    def test_payload_web_solo_incluye_quienes_tienen_imagen(self) -> None:
+        viral = [
+            {
+                "id": "1", "autor": "a", "avatar": "", "texto": "con foto", "url": "https://x.com/a/1",
+                "views": 100, "likes": 1, "tema": "ia", "etiqueta": "ia", "tiene_video": False,
+                "fecha": "2026-11-04", "imagenes": [{"url": "https://pbs.twimg.com/media/1.jpg", "thumb": "https://pbs.twimg.com/media/1s.jpg", "tipo": "foto"}],
+            },
+            {
+                "id": "2", "autor": "b", "avatar": "", "texto": "sin foto", "url": "https://x.com/b/2",
+                "views": 90, "likes": 0, "tema": "ia", "etiqueta": "ia", "tiene_video": False,
+                "fecha": "2026-11-04", "imagenes": [],
+            },
+        ]
+        web = fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z")
+        self.assertEqual(web["total"], 1)
+        self.assertEqual(web["items"][0]["id"], "1")
+        self.assertEqual(web["items"][0]["imagen"], "https://pbs.twimg.com/media/1s.jpg")
+        self.assertEqual(web["fecha"], "2026-11-04")
+
+    def test_payload_web_respeta_el_limite(self) -> None:
+        viral = [
+            {
+                "id": str(i), "autor": "a", "avatar": "", "texto": "t", "url": "u", "views": i,
+                "likes": 0, "tema": "ia", "etiqueta": "ia", "tiene_video": False, "fecha": "2026-11-04",
+                "imagenes": [{"url": "https://pbs.twimg.com/media/x.jpg", "thumb": "https://pbs.twimg.com/media/xs.jpg", "tipo": "foto"}],
+            }
+            for i in range(30)
+        ]
+        web = fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z", limite=5)
+        self.assertEqual(web["total"], 5)
 
 
 if __name__ == "__main__":

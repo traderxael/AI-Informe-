@@ -28,6 +28,10 @@ Recopilación **diaria y automática** de noticias de IA (novedades, usos reales
 
 *Estadísticas del proyecto: señales en 30 días, Elo promedio, salud de los 33 feeds, modelos por organización y fuentes con más artículos.*
 
+![Lo que la IA está haciendo en X](screenshots/readme/x-viral.png)
+
+*Sección **Lo que la IA está haciendo ahora mismo**: publicaciones con imagen de los laboratorios y cuentas que se siguen en X, ordenadas por alcance (NVIDIA, Google DeepMind, OpenAI, Anthropic y compañía).*
+
 ![App instalable (PWA)](screenshots/readme/pwa.png)
 
 *La misma información en una PWA instalable, que funciona sin conexión.*
@@ -45,7 +49,7 @@ diaria agrega un punto al historial, así que el gráfico cobra forma con el pas
 - Ranking de modelos: Elo LMArena (dataset oficial en Hugging Face) × precios OpenRouter. Si la fuente no responde, no sobrescribe el JSON anterior y el run queda rojo con evidencia.
 - **Salud de fuentes**: `scripts/feed_health.py` → `public/data/feed_health.json` (items por feed + estado del ranking). La portada muestra el resumen y el archivo queda versionado.
 - **Resúmenes LLM en español** con Groq (`scripts/resumir_groq.py`, Secret `GROQ_API_KEY`): resumen del día + traducción de señales. Opcional: si no hay key o Groq cae, el informe sigue publicándose.
-- **Señales de X (Twitter)**: `scripts/fx_viral.py` monitorea 17 cuentas + 5 búsquedas de nicho vía FxTwitter API → `datos/fx_viral_YYYY-MM-DD.json` (top-40 por views, agrupado por tema). Es también la cola de contenido para clips de AutoClip.
+- **Señales de X (Twitter)**: `scripts/fx_viral.py` monitorea 17 cuentas + 5 búsquedas de nicho vía FxTwitter API → `datos/fx_viral_YYYY-MM-DD.json` (top-40 por views, agrupado por tema) y `public/data/x-viral.json` (las que traen imagen, que la portada muestra en la sección "Lo que la IA está haciendo ahora mismo"). Es también la cola de contenido para clips de AutoClip.
 - La portada **carga esas señales**, no una semana congelada.
 - **Tendencias del ranking** (`#tendencias`): gráfica SVG de Elo por modelo, run a run — la historia crece con cada ejecución diaria (`actualizar_modelos.py` → `public/data/modelos-history.json`).
 - **Estadísticas del proyecto** (`#estadisticas`): señales en 30 días, promedio/día, Elo promedio, feeds OK, modelos por organización y fuentes con más artículos (todo desde los JSON de la portada).
@@ -119,7 +123,7 @@ scripts/
   notificar.py            # resumen del día por Telegram/Discord (secrets opcionales)
   enviar_newsletter.py    # resumen por email vía Resend (secrets opcionales)
   collect_signals.py      # Google News + RSS + HN + Reddit → public/data/signals-*.json
-  fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json
+  fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json + public/data/x-viral.json
   resumir_groq.py         # resúmenes LLM en español (Groq) + traducción de señales
   actualizar_modelos.py   # LMArena (dataset HF) + OpenRouter → public/data/modelos.json
   feed_health.py          # salud de los 33 feeds + ranking → public/data/feed_health.json

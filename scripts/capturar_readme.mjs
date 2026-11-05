@@ -16,6 +16,7 @@ const VISTAS = [
   { nombre: 'portada', url: '/', tipo: 'viewport' },
   { nombre: 'tendencias', url: '/', tipo: 'elemento', selector: '#tendencias' },
   { nombre: 'estadisticas', url: '/', tipo: 'elemento', selector: '#estadisticas' },
+  { nombre: 'x-viral', url: '/', tipo: 'elemento', selector: '#x-viral', imagenes: true },
   { nombre: 'pwa', url: '/pwa/app.html', tipo: 'viewport' },
 ];
 
@@ -29,16 +30,31 @@ async function main() {
 
     const destino = path.join(outDir, `${vista.nombre}.png`);
     if (vista.tipo === 'elemento') {
-      // Espera a que la seccion async (grafico/tabla) tenga contenido real.
+      // Espera a que la seccion async (grafico/tabla/imagenes) tenga contenido real.
       await page.waitForFunction(
         (sel) => {
           const el = document.querySelector(sel);
           if (!el) return false;
-          return el.querySelectorAll('svg path, .stat-card, .stats-grid > *').length > 0;
+          return el.querySelectorAll('svg path, .stat-card, .stats-grid > *, .x-card').length > 0;
         },
         vista.selector,
         { timeout: 15000 }
       ).catch(() => {});
+
+      if (vista.imagenes) {
+        // Las imagenes de X son lazy: hay que bringinglas a la vista y esperar.
+        await page.evaluate((sel) => {
+          document.querySelector(sel)?.scrollIntoView({ block: 'start', behavior: 'instant' });
+        }, vista.selector);
+        await page.waitForFunction(
+          () => {
+            const imgs = [...document.querySelectorAll('#xGrid .x-media img')];
+            return imgs.length > 0 && imgs.every((i) => i.complete);
+          },
+          { timeout: 20000 }
+        ).catch(() => {});
+      }
+
       await page.locator(vista.selector).screenshot({ path: destino });
     } else {
       await page.evaluate(() => window.scrollTo(0, 0));
