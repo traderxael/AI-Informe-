@@ -10,11 +10,17 @@
   var urls = ['/data/x-viral.json', 'data/x-viral.json'];
   var MAX = 12;
 
+  /* Política de URLs: solo https externo o el propio sitio (mismo origen).
+     La caché local de imágenes vive en /data/x-img/, así que una ruta
+     relativa tiene que valer; lo que no se permite son esquemas como
+     javascript: o data:. */
   function soloHttps(url) {
     if (!url) return '';
     try {
       var u = new URL(url, window.location.origin);
-      return u.protocol === 'https:' ? u.href : '';
+      if (u.protocol === 'https:') return u.href;
+      if (u.origin === window.location.origin) return u.href;
+      return '';
     } catch {
       return '';
     }

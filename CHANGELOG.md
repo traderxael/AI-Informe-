@@ -10,6 +10,23 @@ se publican automáticamente y no se listan aquí uno por uno.
 ## [No publicado]
 
 ### Corregido
+- **Atribución de X**: la API de FxTwitter devuelve, junto a los posts propios, los
+  **retweets** de la cuenta (con el autor original). El monitor los etiquetaba con el
+  nicho de la cuenta monitoreada, así que un post cualquiera se publicaba como señal de
+  China-IA o de IA. Ahora solo entran los posts propios (`author.screen_name` = la
+  cuenta); los retweets se pueden pedir con `--incluir-retweets` y salen marcados.
+- **Rate limit de FxTwitter**: el 404 que devuelve la API es transitorio (medido: 12 de
+  25 requests seguidas lo recibieron). El monitor reintenta hasta 3 veces, así que ya
+  no se pierde la mitad de las cuentas en cada corrida.
+- **Posts viejos como señal de hoy**: una cuenta que publica poco deja posts de hace
+  semanas en su "últimos 20" y, con muchas views, entraban al informe del día. Ahora
+  la ventana de recencia es de 7 días.
+- **La sección de X era una sola cuenta**: con las cuentas nuevas, `@WatcherGuru`
+  (cripto) se llevaba 12 de las 24 tarjetas de la portada y 8 de las 12 del informe, en
+  una sección titulada "Lo que la IA está haciendo". Ahora la sección del sitio excluye
+  el nicho de trading y ninguna cuenta puede tener más de 3 posts. Las cuentas de
+  trading se siguen monitoreando: quedan en `datos/fx_viral_*.json`, que es la cola de
+  clips de AutoClip.
 - **CSP**: el script que carga el archivo de informes en la portada estaba inline en
   `index.html` y su hash no estaba en la lista de `vercel.json`, por lo que el navegador
   lo bloqueaba y la sección "Archivo de informes" quedaba vacía en producción. Se movió
@@ -21,6 +38,16 @@ se publican automáticamente y no se listan aquí uno por uno.
   `globparts`, CVE reportado por Dependabot). `npm audit` queda en 0 vulnerabilidades.
 
 ### Añadido
+- **X dentro del informe diario y del feed**: las señales de X ya no se quedan en la
+  portada. Cada informe markdown tiene su sección **"Lo que la IA está haciendo en X"**
+  y esas señales también entran en la lista simple que alimenta el **feed RSS/Atom**,
+  el buscador y el newsletter. El workflow ahora recolecta X **antes** de generar el
+  informe, que es lo que hace posible que el informe lea las señales del día.
+- **Caché local de las imágenes de X** (`public/data/x-img/`): las imágenes y los
+  avatares se descargan al repo (hasta 120 KB) en vez de depender del hotlink al CDN
+  de X. Se conservan 5 días.
+- **35 cuentas monitoreadas** en vez de 17 (laboratorios, empresas de IA, hardware,
+  IA china y gente que explica IA en la práctica), todas verificadas contra la API.
 - **Sección "Lo que la IA está haciendo ahora mismo"**: grid en la portada con las
   publicaciones **con imagen** de las cuentas de X que se monitorean (NVIDIA, Google DeepMind,
   OpenAI, Anthropic…), ordenadas por alcance. `fx_viral.py` ahora guarda las imágenes

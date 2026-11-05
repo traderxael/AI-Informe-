@@ -27,4 +27,9 @@ scripts/.env
 .env.*.local
 social_sources.json
 docker/rsshub/docker-compose.local.yml
+# Override local de RSSHub: Docker auto-carga este archivo y aqui van las
+# cookies (Xiaohongshu, etc). Nunca se commitea.
+docker/rsshub/docker-compose.override.yml
+# Workspace de superpowers (ledger de ejecucion, artefactos de revision)
+.superpowers/
 .vercel

@@ -72,7 +72,9 @@ def rss(items: list[dict], now: datetime) -> str:
         pub_date = format_datetime(fecha) if fecha else format_datetime(now)
         resumen = escape(str(item.get("resumen") or ""))
         fuente = escape(str(item.get("fuente") or ""))
-        seccion = escape(str(item.get("seccion") or ""))
+        # La sección "x" se muestra como "X": "· x" en el feed parece un typo.
+        seccion_raw = str(item.get("seccion") or "")
+        seccion = escape("X" if seccion_raw == "x" else seccion_raw)
         description = resumen + ((" Fuente: " + fuente) if fuente else "") + ((" · " + seccion) if seccion else "")
         lines += [
             "    <item>",

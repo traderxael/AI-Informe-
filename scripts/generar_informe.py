@@ -24,7 +24,13 @@ INFORMES_DIR = ROOT / "informes"
 WEB_DIR = ROOT / "web"
 
 # Fuente única de verdad: ver scripts/sources.py (hallazgo 4 de la auditoría)
-from sources import FEEDS, FUENTES_CHINA, FUENTES_USA  # noqa: E402
+from sources import (  # noqa: E402
+    FEEDS,
+    FUENTES_CHINA,
+    FUENTES_USA,
+    X_MAX_POR_CUENTA,
+    X_NICHOS_FUERA_DEL_SITIO,
+)
 
 SECTIONS = (
     "novedades",
@@ -813,6 +819,9 @@ def x_items(datos: dict[str, Any] | None, limite: int = X_LIMITE) -> list[dict[s
     Entran TODOS los posts virales del día, con o sin imagen: el informe es
     texto y casi la mitad de los virales no trae foto. La portada mantiene su
     propio filtro de imágenes (`payload_web` en fx_viral.py).
+
+    Se descartan los nichos que no son de IA (trading/mercado) y ninguna
+    cuenta puede tomar la sección: reglas en scripts/sources.py.
     """
     if not isinstance(datos, dict):
         return []
@@ -824,6 +833,8 @@ def x_items(datos: dict[str, Any] | None, limite: int = X_LIMITE) -> list[dict[s
     out: list[tuple[tuple[Any, ...], dict[str, Any]]] = []
     for v in viral:
         if not isinstance(v, dict):
+            continue
+        if (v.get("etiqueta") or "") in X_NICHOS_FUERA_DEL_SITIO:
             continue
         titulo = _x_texto(v.get("texto") or "")
         if not titulo:
@@ -852,7 +863,18 @@ def x_items(datos: dict[str, Any] | None, limite: int = X_LIMITE) -> list[dict[s
         out.append((clave, item))
 
     out.sort(key=lambda par: par[0], reverse=True)
-    return [item for _clave, item in out[:max(0, limite)]]
+    # Ninguna cuenta toma la sección: máximo X_MAX_POR_CUENTA posts.
+    por_cuenta: dict[str, int] = {}
+    seleccionados: list[dict[str, Any]] = []
+    for _clave, item in out:
+        autor = item["source"]
+        if por_cuenta.get(autor, 0) >= X_MAX_POR_CUENTA:
+            continue
+        por_cuenta[autor] = por_cuenta.get(autor, 0) + 1
+        seleccionados.append(item)
+        if len(seleccionados) >= max(0, limite):
+            break
+    return seleccionados
 
 
 def render_markdown(day: date, items: list[dict[str, Any]]) -> str:

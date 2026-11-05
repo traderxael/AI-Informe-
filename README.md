@@ -49,7 +49,9 @@ diaria agrega un punto al historial, así que el gráfico cobra forma con el pas
 - Ranking de modelos: Elo LMArena (dataset oficial en Hugging Face) × precios OpenRouter. Si la fuente no responde, no sobrescribe el JSON anterior y el run queda rojo con evidencia.
 - **Salud de fuentes**: `scripts/feed_health.py` → `public/data/feed_health.json` (items por feed + estado del ranking). La portada muestra el resumen y el archivo queda versionado.
 - **Resúmenes LLM en español** con Groq (`scripts/resumir_groq.py`, Secret `GROQ_API_KEY`): resumen del día + traducción de señales. Opcional: si no hay key o Groq cae, el informe sigue publicándose.
-- **Señales de X (Twitter)**: `scripts/fx_viral.py` monitorea 17 cuentas + 5 búsquedas de nicho vía FxTwitter API → `datos/fx_viral_YYYY-MM-DD.json` (top-40 por views, agrupado por tema) y `public/data/x-viral.json` (las que traen imagen, que la portada muestra en la sección "Lo que la IA está haciendo ahora mismo"). Es también la cola de contenido para clips de AutoClip.
+- **Señales de X (Twitter)**: `scripts/fx_viral.py` monitorea 35 cuentas + 5 búsquedas de nicho vía FxTwitter API → `datos/fx_viral_YYYY-MM-DD.json` (top-40 por views, agrupado por tema) y `public/data/x-viral.json` (las que traen imagen, que la portada muestra en la sección "Lo que la IA está haciendo ahora mismo"). **También entran al informe diario** (sección "x" del markdown de cada día) **y al feed RSS/Atom**, no solo a la portada. Es también la cola de contenido para clips de AutoClip.
+  - La sección del sitio (portada + informe) es de IA: excluye el nicho de trading y ninguna cuenta puede tener más de 3 posts (`X_NICHOS_FUERA_DEL_SITIO` y `X_MAX_POR_CUENTA` en `scripts/sources.py`). Las cuentas de trading se siguen monitoreando para AutoClip.
+  - Las imágenes y los avatares se descargan al repo (`public/data/x-img/`, hasta 120 KB, 5 días): la portada no depende del CDN de X.
 - La portada **carga esas señales**, no una semana congelada.
 - **Tendencias del ranking** (`#tendencias`): gráfica SVG de Elo por modelo, run a run — la historia crece con cada ejecución diaria (`actualizar_modelos.py` → `public/data/modelos-history.json`).
 - **Estadísticas del proyecto** (`#estadisticas`): señales en 30 días, promedio/día, Elo promedio, feeds OK, modelos por organización y fuentes con más artículos (todo desde los JSON de la portada).
@@ -82,7 +84,7 @@ gh secret set NEWSLETTER_TO   --body "amigo@a.cl,colega@b.cl"
 
 Con eso el workflow diario (`informe-diario.yml`) notifica después de commitear cada informe. Si alguna clave falta o falla, el informe **se publica igual** — estos pasos son `continue-on-error`.
 
-X / Instagram / TikTok / Xiaohongshu: para X ya hay monitor propio (`fx_viral.py`); el resto requiere levantar RSSHub local (`docker/rsshub`) y `social_sources.json`.
+X / Instagram / TikTok / Xiaohongshu: para X ya hay monitor propio (`fx_viral.py`); el resto requiere levantar RSSHub local (`docker/rsshub`) y `social_sources.json`. Xiaohongshu/RedNote **exige cookie de sesión** (`web_session`): sin ella la ruta responde 503 y no hay ni un post — ver `docker/rsshub/README.md`.
 
 ## Arquitectura
 
@@ -123,12 +125,12 @@ scripts/
   notificar.py            # resumen del día por Telegram/Discord (secrets opcionales)
   enviar_newsletter.py    # resumen por email vía Resend (secrets opcionales)
   collect_signals.py      # Google News + RSS + HN + Reddit → public/data/signals-*.json
-  fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json + public/data/x-viral.json
+  fx_viral.py             # X/Twitter vía FxTwitter → datos/fx_viral_*.json + public/data/x-viral.json (+ informe y feed)
   resumir_groq.py         # resúmenes LLM en español (Groq) + traducción de señales
   actualizar_modelos.py   # LMArena (dataset HF) + OpenRouter → public/data/modelos.json
   feed_health.py          # salud de los 33 feeds + ranking → public/data/feed_health.json
   auditar_feeds.py        # diagnóstico: cuántos items trae cada feed (herramienta)
-  test_pipeline.py        # tests sin red (79 tests)
+  test_pipeline.py        # tests sin red (128 tests)
   with-app-env.brace-regression.test.mjs # regresión del wrapper en Windows
 informes/                 # un markdown por día
 datos/                    # JSON diario de señales de X (cola de clips AutoClip)
@@ -141,7 +143,7 @@ docs/diagramas/           # diagramas Mermaid: *.mmd + svg/ + png/
 ## Uso local
 
 ```bash
-python scripts/test_pipeline.py     # 79 tests, sin red
+python scripts/test_pipeline.py     # 133 tests, sin red
 python scripts/generar_informe.py    # RSS → informes/*.md + web/
 python scripts/collect_signals.py    # señales Google News + HN + Reddit
 python scripts/fx_viral.py           # señales de X (o --local con FxEmbed propio)
@@ -150,6 +152,7 @@ python scripts/feed_health.py        # salud de los 33 feeds y del ranking
 python scripts/auditar_feeds.py      # cobertura real de los 33 feeds (cuántos items trae cada uno)
 python scripts/generar_feed.py        # publica el feed RSS + Atom (public/feed.xml, public/feed.atom)
 python scripts/servidor_csp.py 8765   # sirve el repo local con la CSP de producción (para probar)
+node scripts/verificar_x.mjs http://localhost:8765   # comprueba la sección de X en un navegador real
 ```
 
 Web (si usás el frontend TanStack):
@@ -164,15 +167,17 @@ npm install && npm run dev
 - `informe-diario.yml`: cron `0 12 * * *` (09:00 Chile) o manual con `workflow_dispatch`. Pasos, todos con `continue-on-error` donde corresponde:
 
 1. Tests de clasificación (`test_pipeline.py`)
-2. Generar informe (markdown + web)
-3. Generar feed RSS/Atom (`generar_feed.py`) → `public/feed.xml`, `public/feed.atom`
-4. Recolectar signals (Google News + RSS + Reddit + HN, máx. 40 traducciones)
-5. Resúmenes LLM (Groq) — requiere Secret `GROQ_API_KEY`
-6. Ranking de modelos (LMArena vía dataset HF + OpenRouter)
-7. **Señales de X (FxTwitter)** — 17 cuentas + 5 búsquedas de nicho
-8. Salud de fuentes (`feed_health.py`) → `public/data/feed_health.json`
-9. Commit a `main` (`informes`, `web`, `public`, `datos`) → Vercel redeploy
-10. Verificación post-commit: falla el run si el ranking quedó vacío, la salud está incompleta o el feed no tiene items
+2. **Señales de X (FxTwitter)** — 35 cuentas + 5 búsquedas de nicho (va **antes** del informe: el informe lee `datos/fx_viral_<fecha>.json` para su sección "x")
+3. Generar informe (markdown + web)
+4. Generar feed RSS/Atom (`generar_feed.py`) → `public/feed.xml`, `public/feed.atom`
+5. Auto-reparar agujeros recientes
+6. Recolectar signals (Google News + RSS + Reddit + HN, máx. 40 traducciones)
+7. Resúmenes LLM (Groq) — requiere Secret `GROQ_API_KEY`
+8. Ranking de modelos (LMArena vía dataset HF + OpenRouter)
+9. Salud de fuentes (`feed_health.py`) → `public/data/feed_health.json`
+10. Commit a `main` (`informes`, `web`, `public`, `datos`) → Vercel redeploy
+11. Notificaciones (Telegram/Discord) y newsletter (Resend)
+12. Verificación post-commit: falla el run si el ranking quedó vacío, la salud está incompleta o el feed no tiene items
 
 Si el push a `main` falla por required checks, el job `generar` no puede ser un status check obligatorio sobre sí mismo: desactivalo o permití bypass a `github-actions[bot]`.
 

@@ -68,6 +68,19 @@ FEEDS = [
 # Alias: collect_signals.py históricamente llama a LAB_FEEDS
 LAB_FEEDS = FEEDS
 
+# ── Señales de X (scripts/fx_viral.py) ───────────────────────────────────────
+# La sección de X del sitio (la rejilla de la portada y la sección "x" del
+# informe) es sobre IA. Las cuentas de trading/cripto se siguen monitoreando
+# —sus posts alimentan la cola de clips de AutoClip y quedan en
+# datos/fx_viral_*.json— pero no se publican: con sus millones de views
+# tapaban a los laboratorios (12 de 24 tarjetas eran de @WatcherGuru y la
+# sección se titula "Lo que la IA está haciendo").
+X_NICHOS_FUERA_DEL_SITIO = ("trading",)
+
+# Ninguna cuenta puede tomar la rejilla: máximo de posts por cuenta en la
+# sección de X del sitio.
+X_MAX_POR_CUENTA = 3
+
 # Fuentes clasificadas por país
 FUENTES_USA = {
     "OpenAI", "Google AI", "DeepMind", "Meta AI", "Hugging Face",

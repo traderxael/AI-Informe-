@@ -25,14 +25,20 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+# Fuente única de verdad (scripts/sources.py): qué señales de X se publican
+# en el sitio y cuántas posts puede tener una misma cuenta.
+from sources import X_MAX_POR_CUENTA, X_NICHOS_FUERA_DEL_SITIO
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "datos"
 # Cache local de imagenes: public/data/x-img/ -> servidas por el propio repo.
 IMG_DIR = ROOT / "public" / "data" / "x-img"
 # Dias que se conservan las imagenes cacheadas (el arbol no crece sin limite).
 IMG_DIAS = 5
-# Tope por imagen: las mayores se siguen sirviendo por hotlink.
-IMG_MAX_BYTES = 80_000
+# Tope por imagen: las mayores se siguen sirviendo por hotlink. 120 KB cubre
+# los posters de video de X (~104 KB medidos), que con 80 KB quedaban fuera y
+# dejaban la portada dependiendo del CDN de X.
+IMG_MAX_BYTES = 120_000
 # Ventana de recencia de los posts: una cuenta que publica poco deja posts
 # viejos con muchas views en su "ultimos 20", y sin este filtro el informe
 # de hoy contaria como señal de hoy una nota de hace dos semanas.
@@ -272,11 +278,56 @@ def nombre_imagen(tweet_id: str, ext: str = "jpg") -> str:
     return f"{limpio}.{e}"
 
 
+def nombre_avatar(handle: str, ext: str = "jpg") -> str:
+    """Nombre de archivo seguro para el avatar de una cuenta."""
+    limpio = re.sub(r"[^A-Za-z0-9_-]", "", str(handle or ""))[:40]
+    if not limpio:
+        limpio = "cuenta"
+    e = (ext or "jpg").lower().lstrip(".")
+    if e not in {"jpg", "jpeg", "png", "webp", "gif"}:
+        e = "jpg"
+    return f"avatar-{limpio}.{e}"
+
+
 def debe_cachear(url: str, bytes_descargados: int) -> bool:
     """True si la imagen vale la pena cachear (https y no enorme)."""
     if not url or not url.startswith("https://"):
         return False
     return 0 < bytes_descargados <= IMG_MAX_BYTES
+
+
+def _extension_de_url(url: str) -> str:
+    low = (url or "").lower()
+    if ".png" in low:
+        return "png"
+    if ".webp" in low:
+        return "webp"
+    return "jpg"
+
+
+def _descargar(url: str, timeout: int, intentos: int = 3,
+               espera: float = 2.0) -> bytes | None:
+    """Descarga una imagen. Devuelve None si falla (nunca levanta).
+
+    Reintenta: pbs.twimg.com corta la conexión a ratos y sin reintento la
+    imagen se pierde para toda la corrida del día.
+    """
+    if not url or not url.startswith("https://"):
+        return None
+    for intento in range(1, max(1, intentos) + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": HEADERS["User-Agent"],
+                                                       "Referer": "https://x.com/"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:  # soft-fail: la imagen faltante no rompe nada
+            if intento >= intentos:
+                print(f"  [warn] cache imagen: {e}", file=sys.stderr)
+                return None
+            print(f"  [retry] cache imagen: {e} (intento {intento}/{intentos})",
+                  file=sys.stderr)
+            time.sleep(espera)
+    return None
 
 
 def cachear_imagen(url: str, tweet_id: str, destino_dir: Path,
@@ -286,28 +337,33 @@ def cachear_imagen(url: str, tweet_id: str, destino_dir: Path,
     Motivo: si X cambia su CDN o bloquea el hotlink, la seccion de la portada
     se queda sin fotos. Con la cache, las imagenes se sirven desde el repo.
     """
-    if not url or not url.startswith("https://"):
-        return None
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": HEADERS["User-Agent"],
-                                                   "Referer": "https://x.com/"})
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            data = r.read()
-    except Exception as e:  # soft-fail: la imagen faltante no rompe nada
-        print(f"  [warn] cache imagen: {e}", file=sys.stderr)
-        return None
-    if not debe_cachear(url, len(data)):
+    data = _descargar(url, timeout)
+    if data is None or not debe_cachear(url, len(data)):
         return None
     try:
         destino_dir.mkdir(parents=True, exist_ok=True)
-        # La extension real viene del CDN; se usa jpg salvo que sea png/webp.
-        ext = "jpg"
-        low = url.lower()
-        if ".png" in low:
-            ext = "png"
-        elif ".webp" in low:
-            ext = "webp"
-        destino = destino_dir / nombre_imagen(tweet_id, ext)
+        destino = destino_dir / nombre_imagen(tweet_id, _extension_de_url(url))
+        destino.write_bytes(data)
+        return destino
+    except OSError as e:
+        print(f"  [warn] cache escritura: {e}", file=sys.stderr)
+        return None
+
+
+def cachear_avatar(url: str, handle: str, destino_dir: Path,
+                   timeout: int = 25) -> Path | None:
+    """Descarga el avatar de una cuenta al disco. Nunca levanta.
+
+    El avatar es el mismo para todos los posts de la cuenta, asi que se
+    guarda una sola vez por handle. Si el CDN de X no responde, el avatar
+    queda como hotlink (la tarjeta se ve sin foto de la cuenta).
+    """
+    data = _descargar(url, timeout)
+    if data is None or not debe_cachear(url, len(data)):
+        return None
+    try:
+        destino_dir.mkdir(parents=True, exist_ok=True)
+        destino = destino_dir / nombre_avatar(handle, _extension_de_url(url))
         destino.write_bytes(data)
         return destino
     except OSError as e:
@@ -431,13 +487,23 @@ def payload_web(viral: list[dict], hoy: str, generado: str, limite: int = 24,
 
     Es lo que se publica en public/data/x-viral.json y consume static-x.js.
 
+    Filtra el nicho (fuera las cuentas de trading: la sección es sobre IA) y
+    limita los posts por cuenta, para que una sola no tome la rejilla.
+
     Si `cache_dir` viene dado, cada imagen se descarga al repo y el payload
     apunta a la copia local (`/data/x-img/<id>.jpg`). Asi la seccion no
     depende de que el CDN de X siga sirviendo el hotlink.
     """
     items = []
     cacheados = 0
+    por_cuenta: dict[str, int] = {}
+    avatares: set[str] = set()  # handles cuyo avatar ya se descargó en esta corrida
     for v in viral:
+        if (v.get("etiqueta") or "") in X_NICHOS_FUERA_DEL_SITIO:
+            continue
+        autor = v.get("autor") or ""
+        if por_cuenta.get(autor, 0) >= X_MAX_POR_CUENTA:
+            continue
         imgs = v.get("imagenes") or []
         if not imgs:
             continue
@@ -455,11 +521,21 @@ def payload_web(viral: list[dict], hoy: str, generado: str, limite: int = 24,
                 img_full = relativo
                 cacheados += 1
 
+        # El avatar tambien se cachea: pbs.twimg.com no siempre responde y
+        # sin avatar las tarjetas pierden la foto de la cuenta. Es el mismo
+        # para todos los posts de la cuenta: se descarga una sola vez.
+        avatar = v.get("avatar") or ""
+        if cache_dir is not None and avatar and autor not in avatares:
+            avatares.add(autor)
+            destino_avatar = cachear_avatar(avatar, autor, cache_dir)
+            if destino_avatar is not None:
+                avatar = f"/data/x-img/{destino_avatar.name}"
+
         items.append(
             {
                 "id": v.get("id"),
-                "autor": v.get("autor") or "",
-                "avatar": v.get("avatar") or "",
+                "autor": autor,
+                "avatar": avatar,
                 "texto": (v.get("texto") or "").strip()[:240],
                 "url": v.get("url") or "",
                 "views": v.get("views") or 0,
@@ -473,6 +549,7 @@ def payload_web(viral: list[dict], hoy: str, generado: str, limite: int = 24,
                 "fecha": v.get("fecha") or "",
             }
         )
+        por_cuenta[autor] = por_cuenta.get(autor, 0) + 1
         if len(items) >= limite:
             break
     return {

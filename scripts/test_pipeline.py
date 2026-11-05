@@ -912,6 +912,16 @@ class FeedXTests(unittest.TestCase):
         """25 novedades + 12 señales de X = 37 items: el feed no debe cortarlos."""
         self.assertGreaterEqual(gf.MAX_ITEMS, 37)
 
+    def test_la_descripcion_del_feed_no_muestra_la_seccion_en_minusculas(self) -> None:
+        """La sección "x" se muestra como "X": "· x" parece un typo en el feed."""
+        items = [{"titulo": "senal", "url": "https://x.com/a/status/1",
+                  "resumen": "1 visualizacion", "fuente": "X @OpenAI",
+                  "seccion": "x", "fecha": "2026-11-04"}]
+        xml = gf.rss(items, datetime(2026, 11, 4, 12, 0, tzinfo=timezone.utc))
+        desc = xml.split("<description>")[2].split("</description>")[0]
+        self.assertIn("· X", desc)
+        self.assertNotIn("· x", desc)
+
 
 class XImagenesTests(unittest.TestCase):
     """Extraccion de imagenes de tweets (scripts/fx_viral.py)."""
@@ -1010,9 +1020,11 @@ class XImagenesTests(unittest.TestCase):
         self.assertEqual(web["fecha"], "2026-11-04")
 
     def test_payload_web_respeta_el_limite(self) -> None:
+        # Cuentas distintas: el tope por cuenta se prueba en
+        # XSeccionSitioTests (una sola cuenta no puede tomar la rejilla).
         viral = [
             {
-                "id": str(i), "autor": "a", "avatar": "", "texto": "t", "url": "u", "views": i,
+                "id": str(i), "autor": f"a{i}", "avatar": "", "texto": "t", "url": "u", "views": i,
                 "likes": 0, "tema": "ia", "etiqueta": "ia", "tiene_video": False, "fecha": "2026-11-04",
                 "imagenes": [{"url": "https://pbs.twimg.com/media/x.jpg", "thumb": "https://pbs.twimg.com/media/xs.jpg", "tipo": "foto"}],
             }
@@ -1078,15 +1090,121 @@ class XCacheImagenesTests(unittest.TestCase):
         self.assertTrue(fx.debe_cachear("https://pbs.twimg.com/media/a.jpg", 50_000))
         self.assertFalse(fx.debe_cachear("https://pbs.twimg.com/media/a.jpg", 200_000))
 
+    def test_debe_cachear_el_poster_de_video_de_104_kb(self) -> None:
+        """Los posters de video pesan ~104 KB y con el tope de 80 KB quedaban
+        fuera: la portada depended del hotlink para esas tarjetas."""
+        self.assertTrue(fx.debe_cachear("https://pbs.twimg.com/amplify_video_thumb/a.jpg",
+                                        104_000))
+        self.assertGreaterEqual(fx.IMG_MAX_BYTES, 104_000)
+
     def test_debe_cachear_solo_https(self) -> None:
         self.assertFalse(fx.debe_cachear("http://pbs.twimg.com/media/a.jpg", 1000))
         self.assertFalse(fx.debe_cachear("data:image/png;base64,AAA", 1000))
 
     def test_cachear_imagen_ignora_fallos_de_red(self) -> None:
         """Un 404 nunca puede tumbar el pipeline."""
-        destino = fx.cachear_imagen("https://pbs.twimg.com/media/noexiste.jpg",
-                                    "123", Path(tempfile.gettempdir()))
+        with patch.object(fx.time, "sleep", lambda _s: None):
+            destino = fx.cachear_imagen("https://pbs.twimg.com/media/noexiste.jpg",
+                                        "123", Path(tempfile.gettempdir()))
         self.assertIsNone(destino)
+
+    def test_la_descarga_reintenta_tras_un_fallo_temporal(self) -> None:
+        """pbs.twimg.com corta la conexión a ratos: con un reintento, la imagen
+        no se pierde para siempre en la corrida del día."""
+        intentos = {"n": 0}
+
+        class _Resp:
+            def read(self) -> bytes:
+                return b"x" * 100
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+        def fake_urlopen(req, timeout=None):
+            intentos["n"] += 1
+            if intentos["n"] == 1:
+                raise urllib.error.URLError("conexion cortada")
+            return _Resp()
+
+        with tempfile.TemporaryDirectory() as tmp:
+            destino_dir = Path(tmp)
+            with patch.object(fx.urllib.request, "urlopen", fake_urlopen), \
+                    patch.object(fx.time, "sleep", lambda _s: None):
+                destino = fx.cachear_imagen("https://pbs.twimg.com/media/a.jpg",
+                                            "123", destino_dir)
+            self.assertIsNotNone(destino)
+            self.assertEqual(intentos["n"], 2)
+            self.assertTrue(destino.exists())
+
+    def test_nombre_de_avatar_usa_el_handle(self) -> None:
+        self.assertEqual(fx.nombre_avatar("OpenAI", "png"), "avatar-OpenAI.png")
+
+    def test_nombre_de_avatar_sanitiza(self) -> None:
+        self.assertEqual(fx.nombre_avatar("../etc", "jpg"), "avatar-etc.jpg")
+
+    def test_cachear_avatar_ignora_fallos_de_red(self) -> None:
+        destino = fx.cachear_avatar("https://pbs.twimg.com/profile_images/noexiste.jpg",
+                                    "OpenAI", Path(tempfile.gettempdir()))
+        self.assertIsNone(destino)
+
+    def test_payload_web_cachea_el_avatar(self) -> None:
+        """Los avatares vienen por hotlink y pbs.twimg.com a veces no responde:
+        si fallan, las tarjetas se ven sin foto de la cuenta."""
+        viral = [{
+            "id": "1", "autor": "OpenAI",
+            "avatar": "https://pbs.twimg.com/profile_images/a.jpg",
+            "texto": "t", "url": "u", "views": 10, "likes": 0, "tema": "ia",
+            "etiqueta": "ia", "tiene_video": False, "fecha": "2026-11-04",
+            "imagenes": [{"url": "https://pbs.twimg.com/media/x.jpg",
+                          "thumb": "https://pbs.twimg.com/media/xs.jpg", "tipo": "foto"}],
+        }]
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp)
+            with patch.object(fx, "cachear_imagen", return_value=cache / "1.jpg"), \
+                    patch.object(fx, "cachear_avatar",
+                                 return_value=cache / "avatar-OpenAI.jpg"):
+                web = fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z",
+                                     cache_dir=cache)
+        self.assertEqual(web["items"][0]["avatar"], "/data/x-img/avatar-OpenAI.jpg")
+
+    def test_payload_web_conserva_el_avatar_si_no_se_puede_cachear(self) -> None:
+        viral = [{
+            "id": "1", "autor": "OpenAI",
+            "avatar": "https://pbs.twimg.com/profile_images/a.jpg",
+            "texto": "t", "url": "u", "views": 10, "likes": 0, "tema": "ia",
+            "etiqueta": "ia", "tiene_video": False, "fecha": "2026-11-04",
+            "imagenes": [{"url": "https://pbs.twimg.com/media/x.jpg",
+                          "thumb": "https://pbs.twimg.com/media/xs.jpg", "tipo": "foto"}],
+        }]
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp)
+            with patch.object(fx, "cachear_imagen", return_value=cache / "1.jpg"), \
+                    patch.object(fx, "cachear_avatar", return_value=None):
+                web = fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z",
+                                     cache_dir=cache)
+        self.assertEqual(web["items"][0]["avatar"],
+                         "https://pbs.twimg.com/profile_images/a.jpg")
+
+    def test_payload_web_descarga_el_avatar_una_vez_por_cuenta(self) -> None:
+        viral = [{
+            "id": str(i), "autor": "OpenAI",
+            "avatar": "https://pbs.twimg.com/profile_images/a.jpg",
+            "texto": "t", "url": "u", "views": 10, "likes": 0, "tema": "ia",
+            "etiqueta": "ia", "tiene_video": False, "fecha": "2026-11-04",
+            "imagenes": [{"url": "https://pbs.twimg.com/media/x.jpg",
+                          "thumb": "https://pbs.twimg.com/media/xs.jpg", "tipo": "foto"}],
+        } for i in range(3)]
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp)
+            with patch.object(fx, "cachear_imagen", return_value=cache / "x.jpg"), \
+                    patch.object(fx, "cachear_avatar",
+                                 return_value=cache / "avatar-OpenAI.jpg") as mock_avatar:
+                fx.payload_web(viral, "2026-11-04", "2026-11-04T00:00:00Z",
+                               cache_dir=cache)
+        self.assertEqual(mock_avatar.call_count, 1)
 
 
 class XInformeTests(unittest.TestCase):
@@ -1222,6 +1340,52 @@ class XCuentasTests(unittest.TestCase):
             self.assertEqual(len(cuenta), 3, cuenta)
             self.assertTrue(cuenta[0].strip(), cuenta)
             self.assertTrue(cuenta[1].strip(), cuenta)
+
+
+class XSeccionSitioTests(unittest.TestCase):
+    """La sección de X del sitio (portada + informe) es de IA, no de mercado.
+
+    Con las cuentas nuevas, @WatcherGuru (cripto) se llevaba 12 de las 24
+    tarjetas de la portada y 8 de las 12 del informe: la sección se titula
+    "Lo que la IA está haciendo" y mostraba cotizaciones del Nasdaq.
+    """
+
+    def _post(self, autor: str, etiqueta: str, post_id: str, views: int) -> dict:
+        return {
+            "id": post_id, "autor": autor, "texto": f"post {post_id}",
+            "url": f"https://x.com/{autor}/status/{post_id}", "views": views,
+            "likes": 10, "tema": "producto", "etiqueta": etiqueta,
+            "fecha": "2026-11-05T10:00:00Z",
+            "imagenes": [{"url": f"https://pbs.twimg.com/media/{post_id}.jpg",
+                          "thumb": f"https://pbs.twimg.com/media/{post_id}.jpg",
+                          "tipo": "foto"}],
+        }
+
+    def test_el_payload_web_excluye_el_nicho_trading(self) -> None:
+        viral = [self._post("WatcherGuru", "trading", "1", 900_000),
+                 self._post("OpenAI", "ia", "2", 100)]
+        web = fx.payload_web(viral, "2026-11-05", "2026-11-05T00:00:00Z")
+        self.assertEqual([i["autor"] for i in web["items"]], ["OpenAI"])
+
+    def test_el_payload_web_no_deja_una_cuenta_tomar_la_rejilla(self) -> None:
+        viral = [self._post("OpenAI", "ia", str(i), 900_000 - i) for i in range(6)]
+        viral.append(self._post("claudeai", "ia", "z", 10))
+        web = fx.payload_web(viral, "2026-11-05", "2026-11-05T00:00:00Z")
+        autores = [i["autor"] for i in web["items"]]
+        self.assertEqual(autores.count("OpenAI"), 3)
+        self.assertIn("claudeai", autores)
+
+    def test_x_items_excluye_el_nicho_trading(self) -> None:
+        datos = {"viral": [self._post("WatcherGuru", "trading", "1", 900_000)]}
+        self.assertEqual(gi.x_items(datos), [])
+
+    def test_x_items_no_deja_una_cuenta_tomar_la_seccion(self) -> None:
+        viral = [self._post("OpenAI", "ia", str(i), 900_000 - i) for i in range(6)]
+        viral.append(self._post("claudeai", "ia", "z", 10))
+        items = gi.x_items({"viral": viral}, limite=10)
+        autores = [i["source"] for i in items]
+        self.assertEqual(autores.count("X @OpenAI"), 3)
+        self.assertIn("X @claudeai", autores)
 
 
 class XReintentosTests(unittest.TestCase):
