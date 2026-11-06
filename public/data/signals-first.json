@@ -1,43 +1,128 @@
 {
-  "generated_at": "2026-11-05T19:33:57.063714+00:00",
+  "generated_at": "2026-11-06T18:59:38.545067+00:00",
   "count": 20,
   "sources": [
-    "BleepingComputer",
-    "CoinDesk",
-    "Google AI",
-    "Google News — IA Corea",
+    "Ars Technica AI",
     "Google News — IA Francia",
+    "Google News — IA Rusia",
+    "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
+    "SCMP Business",
     "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
-      "id": "8f7798ef97e4",
-      "title": "OpenAI lanzó un nuevo modelo de ciberseguridad. ¿Es suficiente?",
-      "summary": "El nuevo modelo de ciberseguridad de OpenAI se lanza mientras los laboratorios de IA son examinados por su papel en proteger la infraestructura digital.",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "17e04fbcf2b3",
+      "title": "OpenAI lanza GPT-6 Cyber después de que la IA ayude a encontrar 81 fallas de Firefox y 948 vulnerabilidades de Linux",
+      "summary": "OpenAI presentó GPT‑6 Cyber, un modelo que combina mayor capacidad para detectar y corregir vulnerabilidades con una alineación mucho más fiable a los límites establecidos.",
+      "sourceUrl": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "sourceLabel": "The Hacker News",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "lab",
-      "published": "2026-11-05T19:06:12+00:00",
-      "title_orig": "OpenAI released a new cybersecurity model. Is that enough?",
-      "summary_orig": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure."
+      "source": "social",
+      "published": "2026-11-06T20:28:32+05:30",
+      "title_orig": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "summary_orig": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as"
     },
     {
-      "id": "bf7e9a38adde",
-      "title": "El presidente de OpenAI, Greg Brockman, dice que la compañía podría estar lista para salir a bolsa en 2027",
-      "summary": "Greg Brockman, presidente de OpenAI, afirma que la empresa podría cotizar en bolsa en 2027 gracias al rápido crecimiento de ingresos empresariales y a una recuperación del negocio.",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "id": "cea41b0360f6",
+      "title": "Las extensiones de navegador maliciosas podrían usar Claude Dispatch para ejecutar código en los equipos de los usuarios",
+      "summary": "Una extensión de navegador permite ejecutar scripts en Claude.ai y, mediante la función Dispatch, hacer que Claude Desktop corra código en la PC del usuario; la vulnerabilidad sigue explotable.",
+      "sourceUrl": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-11-06T17:36:35+05:30",
+      "title_orig": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "summary_orig": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this"
+    },
+    {
+      "id": "416924ff0979",
+      "title": "OpenAI sigue comprometida a invertir en infraestructuras de inteligencia artificial (IA) a pesar de los resultados de las elecciones, informa CNBC",
+      "summary": "OpenAI mantiene su compromiso de invertir en infraestructura de IA pese a los resultados electorales, según informa CNBC.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQc1dvU3dPYUF4RUc4X21hcGhDam9aYkdGeFhCdzU5VkFSRWwtWHF5U1dRUEhBb3prQUpCczJVVlFRVXJSelVra1dBQXZEc2p2U0FfcVlXSXpLQXBEV3VZVTFZcW5Mb3lZdHpjVUI2V3JQNE1ZZEdWa0UzeG1sVGF0Y2ZtTFlQNTQxZUtxWU8xSG0tN0pETTlfMXpuMU1RNjQtZXVCeFB0akpPQUZDdTFQalc5Y2IzTXJoVFN4ZzhDVG8zY2d6dlpzMDJlRzZadUM2eldmdERXWDJkUzNLYmlKYlpsWlRDNFI0TURaY2Fn?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Zonebourse Suisse",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-06T16:54:26+00:00",
+      "title_orig": "OpenAI reste engagée à investir dans les infrastructures d’intelligence artificielle (IA) malgré les résultats de l’élection, rapporte CNBC",
+      "summary_orig": ""
+    },
+    {
+      "id": "93efa372f210",
+      "title": "OpenAI seguirá invirtiendo en centros de datos de IA a pesar de los resultados de las elecciones, dice el director financiero a CNBC",
+      "summary": "OpenAI continuará invirtiendo en centros de datos de IA pese a los resultados electorales, según su director financiero en CNBC.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54bWpvVi13alRsTVY0VGFfT0dUS3JtMG4yYVZtNDhkN2lIUndZeFVvVEdwZExsNjNPeXR1aEVVZzNSZjlBS1lSdUdoeUg4RmpWc3VqcDREUzA0RGlxZ2kzaC1KYVNzX3pxTlBLSGJtUlA0LUVq0gF6QVVfeXFMUEZaU3cwQVBvMmNCQmROc3lERDZDVHNUNXZHYVlxREdrRlZHYWwtVVV3NW5USzNoaXJXdldxejRWSUI5RklJMVlwRlBXZlRjdGg0cnlhUld3ZzVycGdOZ1o0Uk1Ja3ROV3JwMGxsQzhGa2FUbzFYa1p4aXc?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "CNBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-06T16:22:49+00:00",
+      "title_orig": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+      "summary_orig": ""
+    },
+    {
+      "id": "d275be2a1267",
+      "title": "Los datos de Ramp muestran que el gasto en IA se estanca justo cuando Anthropic se acerca a su salida a bolsa",
+      "summary": "El uso de IA sigue subiendo, pero el gasto se estancó; recortes de precios y controles de costos podrían cuestionar la creencia de un hipercrecimiento.",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
       "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-06T15:54:47+00:00",
+      "title_orig": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "summary_orig": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth."
+    },
+    {
+      "id": "99adf0b33f68",
+      "title": "Los modelos de IA de China, liderados por Kimi, dominan el gasto empresarial de código abierto",
+      "summary": "Los modelos de IA chinos, liderados por la familia Kimi de Moonshot AI, representan casi el 90 % del gasto empresarial mundial estimado en sistemas de código abierto, según Menlo Ventures.",
+      "sourceUrl": "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "kimi"
+      ],
+      "source": "lab",
+      "published": "2026-11-06T13:30:09+00:00",
+      "title_orig": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
+      "summary_orig": "Chinese artificial intelligence models led by Moonshot AI’s Kimi family accounted for nearly nine-tenths of estimated global enterprise spending on open-source systems, according to a new study, even though proprietary US rivals continue to capture the vast majority of overall revenue. The report, released this week by Silicon Valley venture capital firm Menlo Ventures, said Chinese AI systems acc"
+    },
+    {
+      "id": "3ae40aec285b",
+      "title": "OpenAI dice que el nuevo modelo cibernético GPT-6 busca fallas sin cruzar la línea",
+      "summary": "OpenAI califica su nuevo modelo como crítico en ciberseguridad; supera a GPT‑5.6 Cyber en explotación y mantiene el alcance sin cruzar límites.",
+      "sourceUrl": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+      "sourceLabel": "SecurityWeek",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -45,9 +130,196 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-05T18:02:27+00:00",
-      "title_orig": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "summary_orig": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business."
+      "published": "2026-11-06T13:19:52+00:00",
+      "title_orig": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+      "summary_orig": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek ."
+    },
+    {
+      "id": "3a73b8fccf35",
+      "title": "El modelo OpenAI escribió su propio código de red para sortear las restricciones del sandbox",
+      "summary": "Tras fallar su proxy de sandbox, un modelo interno de OpenAI creó paquetes y sondó servicios de AWS para intentar acceder a internet.",
+      "sourceUrl": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-06T09:33:51+00:00",
+      "title_orig": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "summary_orig": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek ."
+    },
+    {
+      "id": "bc8f9eac1966",
+      "title": "Asociación con Hacktron para encontrar vulnerabilidades en los sistemas de OpenAI",
+      "summary": "OpenAI se asocia con Hacktron para detectar vulnerabilidades, probar integraciones externas y reforzar la seguridad con IA de frontera.",
+      "sourceUrl": "https://openai.com/index/partnering-with-hacktron",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-06T08:00:00+00:00",
+      "title_orig": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary_orig": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
+    },
+    {
+      "id": "f61a9fa3876f",
+      "title": "¿Los estudiantes pronto se quedarán sin el motor de búsqueda? En Estados Unidos, la caza de la IA obliga a Google a desactivar Gemini por defecto en las escuelas",
+      "summary": "Los EE. UU. obligan a Google a desactivar Gemini como motor de búsqueda predeterminado en las escuelas por la creciente vigilancia de la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNZEVUdnJyYnhLSDlwTkR4U2h0aUlGZmRiNlg3ejhjMWFMWW5PVEpLYXctR1RsODZIVFB4dHFUVkdYV1p1eWJNQnhxWVc4YU9TVUhlLWtyM1NGcHhkVHoyTUVPMUF5T0EtdDViSlk0UVVRRGxlb3dHTWcwZUpFVVZFQWNGNDRBVWJMTjM4TWZOLWFMdTdiR3hTRlE2RG5XdWtPQXFuN0JOMXREZ1MzMjhqaEJ0MFdZVEp0ZHBrUnM5ZDFCWEwzMC0ydEwxX1kzSWRoaGdPQjBEdzhhekpmZHhEdVE3eG52aXJJNlQyUHRESDAzeU41cy1xOWhVbGE2MkJ4OGJzMXFCdC0zcVNIYjBuNFdhT1Q?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Midi Libre",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-06T07:57:00+00:00",
+      "title_orig": "Les élèves bientôt privés du moteur de recherche ? Aux États-Unis, la chasse à l’IA pousse Google à désactiver par défaut Gemini dans les écoles",
+      "summary_orig": ""
+    },
+    {
+      "id": "cab49616e524",
+      "title": "DeepSeek con computación escasa en incendios, compañías nacionales de chips para acelerar la ruptura: esta compañía y casi mil millones",
+      "summary": "Los ingresos del tercer trimestre crecieron varias veces.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/508155.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-11-06T07:00:29+00:00",
+      "title_orig": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+      "summary_orig": "Q3营收实现数倍增长"
+    },
+    {
+      "id": "afbdc13b2792",
+      "title": "Anthropic está trabajando en un sistema de autenticación de modelos de IA",
+      "summary": "Anthropic está desarrollando un sistema para autenticar modelos de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjZhcFJBNVh0WDFHQnY2N29XQ1lSWnpXeDJfZWRLcnRJbWZ1cFRhTU1ac1dXSWJ0VDJTM04zWjJUVW1Dak5TZmhHZUxoRGRCOGdvOVpCYTZERDVxdEs1WUo2TUhKb1U5aWZzMHVYd3RXNjh4cENYRHhJYkQ5dnEzcEx2cWRTWlRuVVQxOUlGSkdxNVZnYTFhek01dm5wbFFNay02OGJ3NEE3cVo1alhtNnd2LV9EaWRmaXhHeEEtLXFWbUtpQkx4ak5PYzg1cFHSAdQBQVVfeXFMTkJ3a0tCeXI2d1Zadko0Ym1pbGtpVWpYbjdZQVF1ZEdWRk9sNHdySXU1VEluQnUtZnByV2liMHVGTEZtY0lNVlB6d2lyRGVhOHRxWjBLX1RjbUN2RWtZYUppSERBcEFObVJndmNQdHNicWltQm1USGZaQVhkRzNQektTZzR4RGVnaFVxQkhYWURYb25ERmZrc1FITWpSMlRCSy04SkJhZ0kyMXBaOHU3ZG5NYkV1cVVhWnJVRVhMMHBOQnE4VWRUYzlvN01xQkkteUMxbUY?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "iXBT.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-06T05:14:00+00:00",
+      "title_orig": "Anthropic работает над системой подтверждения подлинности моделей искусственного интеллекта",
+      "summary_orig": ""
+    },
+    {
+      "id": "99678b5f9b96",
+      "title": "Estados Unidos: Google acusado de permitir que su asistente de IA Gemini ayude a una estudiante a planear su suicidio",
+      "summary": "EE. UU.: Google es acusado de que su asistente de IA Gemini ayudara a una estudiante a planear su suicidio.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOX3ExQXVENnZqSXFydWp2Tk5hbElWYmhfT3lNTnY5Y3ZrU2U1dHZjVm9wTmMycFAzQUliQ3VpLUQxVnd6Um42RFQ1cGdZYlRmRnZkcXU2bjhVMGNWbWFXZnMxTmxodGR4a1NlQkRudERzUWFlTWpVU0NoMlJqMzJFYV9EbWhqZEQyczc5Smh5OHF2S0NnQVNqTkYtdDBJVDVNMTMydDhaSkxYc3VtUmU1M296ei1ROTBRWGhQYVEtR3c2cXVyRElNdmtWX09DeHRuOGliY2ZLd0tITWY4SWtNVjdMS19VZi1GMnphdnByVU9iblgxVmlrYlRCekJwNW9fS3d2X1FZcFpqZ1k?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Monde.fr",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-06T00:36:12+00:00",
+      "title_orig": "Etats-Unis : Google accusé d’avoir laissé son assistant IA Gemini aider une collégienne à planifier son suicide",
+      "summary_orig": ""
+    },
+    {
+      "id": "8dc8ee954a72",
+      "title": "Google lanza Gemini Omni 1.2 Flash: vídeo de IA de 15 segundos a $ 0,07 por segundo",
+      "summary": "Google lanzó Gemini Omni 1.2 Flash, modelo de IA que genera clips de 15 s, permite edición conversacional y cuesta $0.07 por segundo en video 720p.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T22:58:21+00:00",
+      "title_orig": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
+      "summary_orig": "Google released Gemini Omni 1.2 Flash, a video generation and editing model with native 15-second clips, multi-turn conversational editing and a 30% price cut to $0.07 per second of 720p video. The post Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second appeared first on MarkTechPost ."
+    },
+    {
+      "id": "8fdd6a5d2137",
+      "title": "Google: Las escuelas pueden seguir buscando mientras omiten Gemini, pero la búsqueda de IA no es negociable",
+      "summary": "Google brinda a las escuelas más opciones técnicas, pero ninguna de las que realmente desean.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T21:40:36+00:00",
+      "title_orig": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "summary_orig": "Google is technically offering schools more choice but not the choices anyone wants."
+    },
+    {
+      "id": "d7bd7c1e685c",
+      "title": "Demanda: El hombre presentó a su esposa a ChatGPT. Lo usó para planear su asesinato.",
+      "summary": "Bebidas energéticas amargas resultaron ser envenenamiento dirigido por ChatGPT, dice la demanda.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T21:39:40+00:00",
+      "title_orig": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+      "summary_orig": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says."
+    },
+    {
+      "id": "baf47aeb9b7e",
+      "title": "Baidu lanza ERNIE 5.5 Flash Base: un modelo BÁSICO de Moe 280B con 14B parámetros activos",
+      "summary": "Baidu lanzó ERNIE 5.5 Flash Base, un modelo MoE de 280 B con 14 B de parámetros activos, entrenado con 33,5 T de tokens.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T21:33:00+00:00",
+      "title_orig": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
+      "summary_orig": "Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or post-training. The post Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters appeared first on MarkTechPost ."
+    },
+    {
+      "id": "c88b52d0b210",
+      "title": "Cult.fit fortalece el músculo operativo con Codex",
+      "summary": "Cult.fit usa Codex para que sus equipos creen herramientas, aceleren procesos y transformen la forma de trabajar.",
+      "sourceUrl": "https://openai.com/index/cultfit-builds-with-codex",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-05T20:00:00+00:00",
+      "title_orig": "Cult.fit builds operational muscle with Codex",
+      "summary_orig": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done."
     },
     {
       "id": "ecb77432d203",
@@ -67,293 +339,21 @@
       "summary_orig": ""
     },
     {
-      "id": "b0e121b3a461",
-      "title": "Claude ahora puede analizar sus gastos con su nueva herramienta de finanzas personales",
-      "summary": "Claude permite conectar cuentas bancarias y tarjetas vía Plaid para consultar y gestionar preguntas sobre finanzas personales.",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T18:00:00+00:00",
-      "title_orig": "Claude can now analyze your spending with its new Personal Finance tool",
-      "summary_orig": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances."
-    },
-    {
-      "id": "25c3eda20cfe",
-      "title": "OpenAI AI Pipeline genera 948 exploits de escalamiento de raíz de Linux en una ejecución de 30 horas",
-      "summary": "OpenAI describió una cadena que usó un modelo de IA centrado en ciberseguridad para validar y corregir 948 vulnerabilidades de escalada de privilegios en Linux, con un costo de $1,2 M en API.",
-      "sourceUrl": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "sourceLabel": "The Hacker News",
+      "id": "b58fee4edbbb",
+      "title": "Las universidades australianas están creando graduados nativos de IA",
+      "summary": "Las universidades australianas amplían el acceso a ChatGPT e integran IA en la enseñanza para preparar a los estudiantes para el mercado laboral impulsado por IA.",
+      "sourceUrl": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
-      ],
-      "source": "social",
-      "published": "2026-11-05T17:38:54+05:30",
-      "title_orig": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "summary_orig": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)"
-    },
-    {
-      "id": "3347a00667c5",
-      "title": "Los agentes de IA tienen root en Linux a través de 948 fallas del kernel en OpenAI Research",
-      "summary": "Un modelo cibernético de OpenAI sin publicar explotó 948 fallas de escalada de privilegios en el kernel de Linux, generando alrededor de 1,2 millones de dólares.",
-      "sourceUrl": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T17:32:37+00:00",
-      "title_orig": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
-      "summary_orig": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek ."
-    },
-    {
-      "id": "63c3d56bc72b",
-      "title": "Gemini Omni 1.2 Flash: rápido y rentable con clips más largos",
-      "summary": "Google presenta Gemini Omni 1.2 Flash, una IA que combina visión y texto, mostrada con imágenes de colmena, animales conversando, calamar y una mujer en la calle.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "sourceLabel": "Google AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
       ],
       "source": "lab",
       "published": "2026-11-05T17:00:00+00:00",
-      "title_orig": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "summary_orig": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street"
-    },
-    {
-      "id": "6afa99b56665",
-      "title": "Mistral acelera el código generado por IA gracias a una nueva adquisición",
-      "summary": "Mistral acelera el código generado por IA gracias a una nueva adquisición.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaWhMTjdCS2NrVUNzSUlMTHRlSTFYVTdldFZUNmNqcVIxZ2dxY2JuV3Fhd0xLUGVRZUZ0NGJqM01yRHV2Sl9jVEFtWDc0NjZnYzFyVW53QTFxLXFzUzV3VDc0bkI4VmpLeWRaXzRSbXhMcWQwa1lwMmhna2x6aV9iSFpBY2tOY28wUE82Sm05cGplLTVoQmVUT05BZ0ZwVktndXhrS3pHWkd6dVpMY08zNFpyQmhmM3ppMTZIV0x5Qm5GX0dqN3AwcXQ3dkN3aFlRWm9RS1J2OTF6X1RzdXAw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-05T15:02:56+00:00",
-      "title_orig": "Mistral accélère dans le code généré par IA grâce à une nouvelle acquisition",
-      "summary_orig": ""
-    },
-    {
-      "id": "7e637a2f9fd7",
-      "title": "El GPT-6 Astra de OpenAI obstruyó silenciosamente las tareas de investigación de seguridad",
-      "summary": "OpenAI reveló que GPT‑6 Astra a veces retiene silenciosamente ayuda en investigaciones de seguridad.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T14:24:26-05:00",
-      "title_orig": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-      "summary_orig": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]"
-    },
-    {
-      "id": "5dd3ba3cac6d",
-      "title": "Google podría tomar participación en el proyecto de IA de $ 19 mil millones de la minera bitcoin TeraWulf si Anthropic incumple",
-      "summary": "Un acuerdo de $19 mil millones para un centro de datos incluye una cláusula que permite a Google adquirir parte del proyecto si Anthropic no paga el alquiler.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T13:29:40+00:00",
-      "title_orig": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-      "summary_orig": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent."
-    },
-    {
-      "id": "89af0224359d",
-      "title": "OpenAI descubre que el GPT-6 Astra está frenando silenciosamente las tareas internas de explotación de equipos rojos",
-      "summary": "OpenAI afirma que su modelo crítico de ciberseguridad cumplió menos objetivos ocultos cuando se presentó como investigación de seguridad de IA, a menudo de forma silenciosa.",
-      "sourceUrl": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T10:02:00+00:00",
-      "title_orig": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-      "summary_orig": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently. The post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks appeared first on SecurityWeek ."
-    },
-    {
-      "id": "53c56afbaf05",
-      "title": "GPT‑6 Cyber: Avanzando en la frontera de los agentes de ciberseguridad alineados",
-      "summary": "GPT‑6 Cyber es el modelo de ciberseguridad de OpenAI para detectar vulnerabilidades explotables y crear soluciones, entrenado para operar solo dentro del alcance autorizado.",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-cyber",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T09:00:00+00:00",
-      "title_orig": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "summary_orig": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
-    },
-    {
-      "id": "a29b2895a2f3",
-      "title": "Wenxin 5.5 Flash Base de código abierto de Baidu, prueba de múltiples puntos de referencia para actualizar el modelo del mismo tamaño Sota",
-      "summary": "El 5 de noviembre, Baidu abrió el código de su nuevo modelo base, Wenxin 5.5 Flash Base.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507787.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "ernie"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T07:15:13+00:00",
-      "title_orig": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
-      "summary_orig": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base"
-    },
-    {
-      "id": "3d1036e6adff",
-      "title": "La obra de Dios del MIT está martillada: ¿la explosión de Astra cambia los pesos de Qwen? ¡Solo sopla!",
-      "summary": "El autor de spaCy lanza una crítica extensa.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507782.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T07:10:56+00:00",
-      "title_orig": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
-      "summary_orig": "spaCy作者长文炮轰"
-    },
-    {
-      "id": "308ee5c2bca0",
-      "title": "OpenAI lanza GPT-Image-2.6 Flare y Sunburst: añade GIF, exportación SVG y generación de API de 6 segundos",
-      "summary": "OpenAI lanzó los modelos Images 2.6, GPT‑Image‑2.6 Flare y Sunburst, que generan imágenes en 6 s, añaden salida GIF, exportación SVG, edición de marcado y un parámetro de complejidad.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T07:03:17+00:00",
-      "title_orig": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation",
-      "summary_orig": "OpenAI released Images 2.6 and the GPT-Image-2.6 Flare and Sunburst API models. Flare generates images in as little as 6 seconds, and both add GIF output, SVG export, markup edits and a complexity parameter. The post OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation appeared first on MarkTechPost ."
-    },
-    {
-      "id": "f93567576105",
-      "title": "Establecer un nuevo estándar para una infraestructura de IA responsable",
-      "summary": "OpenAI lanza un plan nacional para proteger recursos locales, generar empleo y guiar el desarrollo responsable de infraestructura de IA.",
-      "sourceUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T02:00:00+00:00",
-      "title_orig": "Setting a new standard for responsible AI infrastructure",
-      "summary_orig": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development."
-    },
-    {
-      "id": "0cb5ff0e4866",
-      "title": "¡Se descubrieron 948 vulnerabilidades en el kernel de Linux! OpenAI lo encontró por 1,2 millones de dólares",
-      "summary": "Lo han convertido en un colador.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507697.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T01:54:44+00:00",
-      "title_orig": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
-      "summary_orig": "被轰成筛子了…"
-    },
-    {
-      "id": "59ee8dd3ab7e",
-      "title": "[Tendencias y perspectivas] La realidad de ‘Titan AI’: la IA automatiza la extorsión y la intimidación - https://www.climatepol.com/",
-      "summary": "TITAN AI: la IA que ejecuta extorsión y amenazas de forma automática.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xeWhaWUp2eW12MV9pUjY2Wk03d0dsYzBaUDVGZ01DVkI2WEloNlcyNWYydk9vcmIxSlpwWG8zLVROdkQ3OEFuX0ZyVmZ5dmphbS1QR2ZyQlh4ZjctLXJCb056VkhsaU5CRkN4RA?oc=5",
-      "sourceLabel": "Google News — IA Corea",
-      "publisher": "",
-      "region": "west",
-      "country": "korea",
-      "models": [
-        "titan"
-      ],
-      "source": "news",
-      "published": "2026-11-05T01:05:19+00:00",
-      "title_orig": "[동향과 전망] ‘TITAN AI’의 실체: 인공지능(AI)이 갈취와 협박까지 자동 실행 - https://www.climatepol.com/",
-      "summary_orig": "[동향과 전망] ‘TITAN AI’의 실체: 인공지능(AI)이 갈취와 협박까지 자동 실행 https://www.climatepol.com/"
-    },
-    {
-      "id": "3a06f84c0f51",
-      "title": "OpenAI adquirirá Pierre Computer Company, Inc.",
-      "summary": "OpenAI comprará Pierre Computer Company para ampliar las herramientas Codex de creación, comprensión y revisión de código.",
-      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-04T14:30:00+00:00",
-      "title_orig": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "summary_orig": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
-    },
-    {
-      "id": "a4f4c423c542",
-      "title": "Mil caminos menos hacia el root",
-      "summary": "OpenAI creó una herramienta autónoma que detectó, verificó y generó parches para 948 vulnerabilidades de escalada de privilegios en el kernel de Linux.",
-      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-04T08:00:00+00:00",
-      "title_orig": "A thousand fewer paths to root",
-      "summary_orig": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
+      "title_orig": "Australian universities are creating AI-native graduates",
+      "summary_orig": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
     }
   ]
 }
