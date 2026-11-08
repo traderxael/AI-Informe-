@@ -1,37 +1,107 @@
 {
-  "generated_at": "2026-11-07T17:30:45.867344+00:00",
+  "generated_at": "2026-11-08T17:43:05.425543+00:00",
   "count": 20,
   "sources": [
-    "Ars Technica AI",
     "BleepingComputer",
     "Google News — IA Alemania",
-    "Google News — IA Francia",
+    "Google News — IA China (zh)",
     "Google News — IA Rusia",
+    "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
-    "SCMP Business",
     "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
-      "id": "d64a2026d77b",
-      "title": "Un gigante de la fintech abandona a Claude en favor de un modelo chino, Brasil protege sus medios de comunicación frente a la IA: los aspectos más destacados de la semana",
-      "summary": "Fintech gigante cambia Claude por modelo chino; Brasil protege a sus medios contra IA; lo más destacado de la semana.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWWxuTWRab2J5eHF0NURZQmpvWS1OcWctQmJvdmo1S2NNY1UwcGR3MEV2MGRDVmdhTWxSOF9RajVkSUVwZVlOOHJBYXltVmwzUGlCVTY0TXNNaXZMcHVKVDlfakdtTHFIR0FfSkthT3JsYXN3WG5fUHNVQzV2aHZySHdjWFI3ckxqemZMTTRSM2lXWHlHSkZYenlqOWdJeGtodk5hNVZiaHZWdWNlellGQU1uWWpvbzZqVmo5OXJFTC0yS2c4WG9iLWZLbmlxajlmeUZMek4wY1Rudm9IVm1WN3NNR1B2dXRvOGhhWkZGcFktczZMNmgwWVV1a3JjMDkzQTNTdHZsRVlEaTUzVHYtSXljTWNpTUU?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "L'Orient-Le Jour",
+      "id": "0d6adb4565b6",
+      "title": "¿Qué ruta utiliza cada modelo de Moe? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Comparado",
+      "summary": "Comparación verificada de 10 modelos MoE abiertos que muestra cómo enrutan tokens, sus parámetros, número de expertos, top‑k, expertos compartidos, funciones de gating y balanceo de carga.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "llama",
+        "qwen",
+        "deepseek",
+        "mistral"
+      ],
+      "source": "lab",
+      "published": "2026-11-08T10:27:27+00:00",
+      "title_orig": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+      "summary_orig": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared appeared first on MarkTechPost ."
+    },
+    {
+      "id": "51479f47ef0b",
+      "title": "La IA pronto dominará la biología, desatando nuevos riesgos de seguridad: jefe de IA de Tencent",
+      "summary": "La IA pronto controlará la biología, generando nuevos riesgos de seguridad, según el jefe de IA de Tencent.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdG5GcTBnWUYyWVF1d1JlbTNHSktqck5Ua0hxUE8yWmUxYTBCdVpJN0pfNUpnNWdvS1hIZ1FqVnFGMFdsNWVjckJEQWhsZGZ3dUsyaGhESWh3dUlHU2E4QTdHOXktekswajltS3dCZ01HU3dJSG5fb0ZoaVlCOF9TUGIxZGJ3WEtJWi03NGdaaFlxLTNobm82NC1vVTF6c3BfeGFua0NGMURSQ2t3WDlIeHZVdDRCdmR3blgzVXM0REpCbWNSdzBSMNIByAFBVV95cUxOOHpVdlFWVWtTQS1UOTM0QVFOblZPY2ZuOEpiS2hrcXk5N2RUSE13VjZuc1RvZ3NyMWFkZWV1QXZTLUtVNHRFd0sxYlVOWmJNenZEeC1ENTVhNExZbnl6QUREU0ljWGZPV3VZUTY2dTNyZjA1LW5nV1FNdHJOTVJIMUlaQ0lsU19CNHVKNFdsMDhteUc1MmtwOF9ReUVBMXN4QnlaaHdQcEhPVWNXT2ZMMjkwUG9MRVBRUXRuOTh5ZTh0M1NEUlY0Ng?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "South China Morning Post",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "news",
+      "published": "2026-11-08T10:22:27+00:00",
+      "title_orig": "AI will soon master biology, unleashing new safety risks: Tencent AI chief",
+      "summary_orig": ""
+    },
+    {
+      "id": "a80297f4b69f",
+      "title": "OpenAI No Alert Mass Title - AI",
+      "summary": "OpenAI no emite alerta masivo.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMMVVkbHkwT1BZWWdid2Y0SHhkbjZoT3NoT1VNTmxzV01MM2tUdVlIVHBQNXhVaU9YR2ttTE5QTF9DdHJqRXh2X3haQ2U2RHJ1UjJUTkJhNEw3My02cWF2Rw?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "cnBeta.COM",
       "region": "west",
-      "country": "france",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-08T08:09:00+00:00",
+      "title_orig": "OpenAI 无预警大规模封号- AI 人工智能",
+      "summary_orig": ""
+    },
+    {
+      "id": "74303298e101",
+      "title": "«Capitulación cognitiva» debido a los agentes de IA: los desarrolladores de Anthropic ven un patrón peligroso",
+      "summary": "Los desarrolladores de Anthropic advierten que la “capitulación cognitiva” ante agentes de IA está creando un patrón peligroso.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVTRqMUpqdkdQU1RVN3BnblhUTFJ1eG1KRzJiMUFTZXFSWmJOWDBrb1J1RXVHcGtBZFJsQXQ0TjNEZThxdllmVzRSSlJ4aDUyU0RnUHc0ZEZ0dmJRTFZmNWM0MjAyV3h2b1QtMUtxc2FQMnFGLVJYUWNiV3JrZWlYYk9JUUhWUUsxUFQwNmdEMWxOdjZJQV9TSThtQnRaOHhGME9CR3YxVXltQ2do?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Business Insider Deutschland",
+      "region": "west",
+      "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-07T14:37:14+00:00",
-      "title_orig": "Un géant de la fintech délaisse Claude au profit d'un modèle chinois, le Brésil protège ses médias face à l'IA : les temps forts de la semaine",
+      "published": "2026-11-08T07:35:03+00:00",
+      "title_orig": "„Kognitive Kapitulation“ wegen KI-Agenten – Anthropic-Entwickler sieht ein gefährliches Muster",
       "summary_orig": ""
+    },
+    {
+      "id": "92f859ede504",
+      "title": "Cómo ejecutar NVIDIA Dory 4B con llama.cpp: Guía bucle a bucle",
+      "summary": "Guía completa para ejecutar el modelo Dory 1.0 4B de NVIDIA con llama.cpp, incluye compilación, análisis de costos por bucle, pruebas de caché y evaluaciones.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "llama"
+      ],
+      "source": "lab",
+      "published": "2026-11-07T19:22:44+00:00",
+      "title_orig": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+      "summary_orig": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations. The post How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide appeared first on MarkTechPost ."
     },
     {
       "id": "ef31a09309a7",
@@ -53,7 +123,7 @@
     {
       "id": "804a43c3361e",
       "title": "El archivo \"Don 't Ask Again\" de Claude Code expone contraseñas y claves en 1.122 copias públicas en GitHub",
-      "summary": "Contraseñas y claves API ingresadas en Claude Code quedan guardadas palabra por palabra en archivos de proyectos públicos de GitHub, exponiéndolas a cualquier usuario.",
+      "summary": "Contraseñas y claves API ingresadas en Claude Code quedan guardadas palabra por palabra en archivos de proyectos y se publican en repositorios públicos de GitHub, exponiéndolas a cualquiera.",
       "sourceUrl": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -68,26 +138,26 @@
       "summary_orig": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public"
     },
     {
-      "id": "651edfff4ab7",
-      "title": "La IA china casi se puso al día con el modelo secreto de OpenAI en las redes de piratería, y resultó ser más barata",
-      "summary": "La IA china casi igualó al modelo secreto de OpenAI en foros de piratería y resultó ser más económica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcGt2cmV2clIzUzhGNTd3TFFCVkhtOGhKQ2pVOTZCbWNTczJ2OWdONkVweFFsaGZ2elhnNlJYQTRVMlU2SjRVNkJfNUp0WmNZUWRTazZzYTh4SmJaZGFaUjJqcUthMGhqLXR5bjU4UWFHaUVDR3NqV2lHejBrV2Y3dGhfbFlwaENacHJlZjZVQWNEVlRJVWhURkpDYklpTTFFTDhYZFYwVkZOV2hHUk1XVXBpTdIBuAFBVV95cUxQMVY2OXpINU5LeWc3R2FlelRGdlptWHpvRFBKV3FFMWVhRms4bDdTYmxISzZyQWV2cTU5RFM0NjlndDhWenhEQlRqR2Q5Y2JFZS1sa21sUlE5YktIN05nTEt4dEtVUGpPQklIVXNQdUVsb2o4eTVlSkNrTU9kNjhxRnZfUS1UY1RraFhIVmd6cFhUZE9TZWhyX0ptXzc4d2xZdmlZS0R1ZXJZSTVGM0gwZkxxVm1heHZS?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
+      "id": "32a685d893ca",
+      "title": "¡GitHub está abrumado! OpenAI adquiere alternativas, la empresa A desarrolla las suyas propias in situ, y Musk también se dedica a",
+      "summary": "La IA está generando código tan rápido que la infraestructura no logra seguirle el ritmo.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/508449.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "news",
-      "published": "2026-11-07T10:59:00+00:00",
-      "title_orig": "Китайский ИИ почти догнал секретную модель OpenAI во взломе сетей — и оказался дешевле",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-11-07T09:38:56+00:00",
+      "title_orig": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "summary_orig": "AI写代码太快，基础设施跟不上了"
     },
     {
       "id": "102817713ba7",
       "title": "Künstliche Intelligenz: OpenAI soll elf Milliarden Dollar bei Investoren eingesammelt haben",
-      "summary": "OpenAI habría recaudado 11 000 millones de dólares de inversores, según WirtschaftsWoche.",
+      "summary": "Inteligencia artificial: OpenAI habría recaudado 11 mil millones de dólares de inversores, según WirtschaftsWoche.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQ2k0RWNhdGxMelJpT3NtVUtGdVI2VlppWFJveWdra3hEX3FuZTBVU0xHcEd0RGRZb2taMjdLbGl2WGM0WkxWZWxUR1A5c19QbTI5MnV1TXgwNk8xU3BSbGdTNjd3a0Zjd0Vna3kwWXJjSjJxMGVBZTBlVDJjaGI1dENsQU0wRFZDcmxqcjNQZnhsaV9zM3NacHpnM3RWajdlX1dmYl9xUEtCa0p3ZXN1UzRNS0dyZnFId1d0NTZRRFh3NjZtR2g3UjhfcTlzeG96UkVlMmdEWGw?oc=5",
       "sourceLabel": "Google News — IA Alemania",
       "publisher": "WirtschaftsWoche",
@@ -99,6 +169,23 @@
       "source": "news",
       "published": "2026-11-07T08:22:57+00:00",
       "summary_orig": ""
+    },
+    {
+      "id": "8d9ec9ed0332",
+      "title": "Nueva financiación de OpenAI de 11.000 millones de dólares, menos de la mitad del plan original",
+      "summary": "La financiación se reduce y los inversores de Silicon Valley se vuelven más cautelosos.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/508344.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-07T08:11:25+00:00",
+      "title_orig": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "summary_orig": "融资缩水，硅谷投资人也谨慎了"
     },
     {
       "id": "61b3b7c2c572",
@@ -120,7 +207,7 @@
     {
       "id": "314bd089789a",
       "title": "Según los informes, OpenAI recauda $ 11 mil millones adicionales con una valoración de $ 1.25 billones",
-      "summary": "OpenAI habría recaudado 11 mil millones de dólares en una ronda de financiación que aún no se ha cerrado, pero se espera que concluya en las próximas semanas.",
+      "summary": "OpenAI habría recaudado 11 000 millones de dólares en una ronda de financiación que aún no ha cerrado, pero se espera que concluya en las próximas semanas.",
       "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -137,7 +224,7 @@
     {
       "id": "17e04fbcf2b3",
       "title": "OpenAI lanza GPT-6 Cyber después de que la IA ayude a encontrar 81 fallas de Firefox y 948 vulnerabilidades de Linux",
-      "summary": "OpenAI presentó GPT‑6 Cyber, un modelo que combina mayor capacidad para detectar y corregir vulnerabilidades con una alineación mucho más fiable a los límites establecidos.",
+      "summary": "OpenAI presentó GPT‑6 Cyber, un modelo que mejora la ciberseguridad y la alineación, detectando y corrigiendo vulnerabilidades con mayor fiabilidad.",
       "sourceUrl": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -152,26 +239,9 @@
       "summary_orig": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as"
     },
     {
-      "id": "f0ea8109fff5",
-      "title": "En Wall Street, las preocupaciones sobre la IA amenazan la \"OPI del siglo\" de Anthropic",
-      "summary": "En Wall Street, las dudas sobre la IA ponen en riesgo la “OPI del siglo” de Anthropic, según Le Figaro.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMnRqUXhEczV5OVppd0oyd2UzSzhsNHphQUd3MlZjMDJIcUliZkJTUlgzUXNxYmFBY2NKVmxrd3lYTF9Cc1BGZklSSG01eHh6X0xTY2JodlpFeGFIUUlMNmNseHh2V0hyQ0swRUdQb0xwOFB1dFJtaHVvUXlhUDZHRkN6VVpydkk0OE04dmQzVEZfNkRHSFk4T2doeWRTR3o5WWlGUy0xZDNpUU42TTBoRDQ5ZC1YaWlWU0pqcUMtQVR6eU15UXFBb3ZVeUJzUjVJV1A5cEctVnZfWjdzSzM3cWc2TFZEdw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-06T19:43:00+00:00",
-      "title_orig": "À Wall Street, les inquiétudes autour de l’IA menacent « l’introduction en Bourse du siècle » d’Anthropic",
-      "summary_orig": ""
-    },
-    {
       "id": "cea41b0360f6",
       "title": "Las extensiones de navegador maliciosas podrían usar Claude Dispatch para ejecutar código en los equipos de los usuarios",
-      "summary": "Una extensión de navegador permite ejecutar scripts en Claude.ai y, mediante la función Dispatch, hacer que Claude Desktop ejecute código en la PC del usuario, según mostró Forever Security.",
+      "summary": "Una extensión de navegador permite ejecutar scripts en Claude Desktop mediante la función Dispatch, lo que podría hacer que Claude ejecute código en la PC del usuario.",
       "sourceUrl": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
       "sourceLabel": "The Hacker News",
       "publisher": "",
@@ -205,7 +275,7 @@
     {
       "id": "ba147c5fc5c9",
       "title": "La nueva IA cibernética GPT-6 de OpenAI encuentra 81 fallas de Firefox, 948 errores de Linux",
-      "summary": "OpenAI presentó GPT‑6 Cyber, que halló 81 vulnerabilidades críticas desconocidas de Firefox y creó exploits funcionales para 948 fallas del kernel de Linux.",
+      "summary": "OpenAI presentó GPT‑6 Cyber, que halló 81 vulnerabilidades críticas de Firefox y creó exploits funcionales para 948 fallas del kernel de Linux.",
       "sourceUrl": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
       "sourceLabel": "BleepingComputer",
       "publisher": "",
@@ -218,23 +288,6 @@
       "published": "2026-11-06T15:24:19-05:00",
       "title_orig": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
       "summary_orig": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]"
-    },
-    {
-      "id": "99adf0b33f68",
-      "title": "Los modelos de IA de China, liderados por Kimi, dominan el gasto empresarial de código abierto",
-      "summary": "Los modelos de IA chinos, liderados por la familia Kimi de Moonshot AI, representan casi el 90 % del gasto empresarial mundial estimado en sistemas de código abierto, según Menlo Ventures.",
-      "sourceUrl": "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "kimi"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T13:30:09+00:00",
-      "title_orig": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
-      "summary_orig": "Chinese artificial intelligence models led by Moonshot AI’s Kimi family accounted for nearly nine-tenths of estimated global enterprise spending on open-source systems, according to a new study, even though proprietary US rivals continue to capture the vast majority of overall revenue. The report, released this week by Silicon Valley venture capital firm Menlo Ventures, said Chinese AI systems acc"
     },
     {
       "id": "3ae40aec285b",
@@ -254,23 +307,6 @@
       "summary_orig": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek ."
     },
     {
-      "id": "3a73b8fccf35",
-      "title": "El modelo OpenAI escribió su propio código de red para sortear las restricciones del sandbox",
-      "summary": "Tras fallar su proxy de sandbox, un modelo interno de OpenAI creó paquetes y sondó servicios de AWS para intentar acceder a internet.",
-      "sourceUrl": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T09:33:51+00:00",
-      "title_orig": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-      "summary_orig": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek ."
-    },
-    {
       "id": "bc8f9eac1966",
       "title": "Asociación con Hacktron para encontrar vulnerabilidades en los sistemas de OpenAI",
       "summary": "OpenAI se asocia con Hacktron para detectar vulnerabilidades, probar integraciones externas y reforzar la seguridad con IA de frontera.",
@@ -286,23 +322,6 @@
       "published": "2026-11-06T08:00:00+00:00",
       "title_orig": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "summary_orig": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
-    },
-    {
-      "id": "cab49616e524",
-      "title": "DeepSeek con computación escasa en incendios, compañías nacionales de chips para acelerar la ruptura: esta compañía y casi mil millones",
-      "summary": "Los ingresos del tercer trimestre crecieron varias veces.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508155.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T07:00:29+00:00",
-      "title_orig": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
-      "summary_orig": "Q3营收实现数倍增长"
     },
     {
       "id": "cfd4354afa14",
@@ -324,7 +343,7 @@
     {
       "id": "8dc8ee954a72",
       "title": "Google lanza Gemini Omni 1.2 Flash: vídeo de IA de 15 segundos a $ 0,07 por segundo",
-      "summary": "Google lanzó Gemini Omni 1.2 Flash, modelo de IA que genera clips de 15 s, permite edición conversacional y cuesta $0,07 por segundo en video 720p.",
+      "summary": "Google lanzó Gemini Omni 1.2 Flash, modelo de IA que crea clips nativos de 15 s, permite edición conversacional y cuesta $0,07 por segundo en video 720p.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -337,23 +356,6 @@
       "published": "2026-11-05T22:58:21+00:00",
       "title_orig": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
       "summary_orig": "Google released Gemini Omni 1.2 Flash, a video generation and editing model with native 15-second clips, multi-turn conversational editing and a 30% price cut to $0.07 per second of 720p video. The post Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second appeared first on MarkTechPost ."
-    },
-    {
-      "id": "8fdd6a5d2137",
-      "title": "Google: Las escuelas pueden seguir buscando mientras omiten Gemini, pero la búsqueda de IA no es negociable",
-      "summary": "Google brinda a las escuelas más opciones técnicas, pero ninguna de las que realmente desean.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T21:40:36+00:00",
-      "title_orig": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
-      "summary_orig": "Google is technically offering schools more choice but not the choices anyone wants."
     }
   ]
 }

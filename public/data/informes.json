@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-08",
-    "total": 818,
-    "items": [
-      {
-        "titulo": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-        "url": "https://openai.com/index/oracle",
-        "fuente": "OpenAI",
-        "resumen": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Pollo AI turns creative ideas into campaigns with OpenAI",
-        "url": "https://openai.com/index/pollo-ai",
-        "fuente": "OpenAI",
-        "resumen": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Ben Affleck is an AI nerd, and the internet is impressed",
-        "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving h...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Google brings agentic AI to Gemini, starting with businesses",
-        "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its o...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Anthropic changes usage policy to ban model abuse and election interference",
-        "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address ele...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-        "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-        "fuente": "TechCrunch AI",
-        "resumen": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Natura’s $99 smart ring puts AI agents on your finger",
-        "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Google’s AI note-taking app transcribes your meetings completely offline",
-        "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
-        "fuente": "The Verge AI",
-        "resumen": "Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
-        "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-        "fuente": "The Verge AI",
-        "resumen": "My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI ent...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Artificial is a wicked satire that also sticks to the facts",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
-        "fuente": "The Verge AI",
-        "resumen": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" T...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Google releases a new local-first Granola competitor",
-        "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Building a safer path to autonomous industrial AI",
-        "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-        "fuente": "MIT Tech Review AI",
-        "resumen": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to au...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Disrupting AI-enabled “false front” operations",
-        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-        "fuente": "OpenAI",
-        "resumen": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
-        "url": "https://www.qbitai.com/2026/10/502049.html",
-        "fuente": "QbitAI",
-        "resumen": "Vidu Q4预览版，了解一下~",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
-        "url": "https://www.qbitai.com/2026/10/502035.html",
-        "fuente": "QbitAI",
-        "resumen": "打造便利店“人机协作”运营新模式",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
-        "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "fuente": "Cointelegraph",
-        "resumen": "Ethereum researchers say crypto users should consider an orderly migration of funds to fresh addresses, warning AI could threaten private-key security before quantum computers do.",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
-        "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
-        "fuente": "MarkTechPost",
-        "resumen": "JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post J...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
-        "url": "https://www.qbitai.com/2026/10/502020.html",
-        "fuente": "QbitAI",
-        "resumen": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Microsoft event debuts new AI-friendly hardware and Windows changes",
-        "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Get ready for more AI in your Windows and more AI on the desktop.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "浪子回头！Manus重启北京办公室大举招聘",
-        "url": "https://www.qbitai.com/2026/10/502009.html",
-        "fuente": "QbitAI",
-        "resumen": "开始和国产Agent抢人，还拿到5亿美元新融资",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
-        "url": "https://www.qbitai.com/2026/10/501995.html",
-        "fuente": "QbitAI",
-        "resumen": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "‘Bunker mode’ is a far greater challenge for institutions than individual crypto holders",
-        "url": "https://www.coindesk.com/tech/2026/10/08/bunker-mode-is-a-far-greater-challenge-for-institutions-than-individual-crypto-holders",
-        "fuente": "CoinDesk",
-        "resumen": "As crypto debates whether holders should move funds before AI or quantum advances expose wallet keys, custody firms face a separate problem: upgrading systems before an emergency migration.",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Security Awareness Training Isn’t Dead, but It Needs a Rethink",
-        "url": "https://www.securityweek.com/security-awareness-training-isnt-dead-but-it-needs-a-rethink/",
-        "fuente": "SecurityWeek",
-        "resumen": "All enterprises conduct security awareness training for their employees. But whether this has tangible benefits is debatable. The post Security Awareness Training Isn’t Dead, but It Needs a Rethink ap...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "Cardano Foundation spins out Veridian, tokenizes its shares on new standard",
-        "url": "https://www.coindesk.com/business/2026/10/08/cardano-foundation-spins-out-veridian-tokenizes-its-shares-on-new-standard",
-        "fuente": "CoinDesk",
-        "resumen": "Veridian became the first company to use Cardano’s new programmable-token standard for its equity, though the tokenized shares are not being offered to the public.",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-08"
-      },
-      {
-        "titulo": "吉利智充技术正式发布，重塑全球补能新标杆",
-        "url": "https://www.qbitai.com/2026/10/501956.html",
-        "fuente": "QbitAI",
-        "resumen": "2027年底实现“县县通”",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-08"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-09",
     "total": 868,
     "items": [
@@ -7247,6 +7016,345 @@
         "url": "https://x.com/OpenAI/status/2118390192356700383",
         "fuente": "X @OpenAI",
         "resumen": "317.959 visualizaciones · 987 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-08",
+    "total": 289,
+    "items": [
+      {
+        "titulo": "Elvis and Eminem rights holders are suing Suno",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "fuente": "The Verge",
+        "resumen": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illega...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Chatbots might be coming to Apple’s HomeView",
+        "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+        "fuente": "The Verge",
+        "resumen": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what ap...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+        "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+        "fuente": "Wired",
+        "resumen": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "While AI speeds up SMEs, delivery remains hard to automate",
+        "url": "https://www.scmp.com/presented/business/topics/scale-fast-demand-logistics/article/3373245/while-ai-speeds-smes-delivery-remains-hard-automate",
+        "fuente": "SCMP Business",
+        "resumen": "[The content of this article has been produced by our advertising partner.] SMEs across Asia and Latin America are increasingly using AI in their daily operations, but getting goods to customers remai...",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "After the midterms, things are looking rocky for Elon Musk and data centers",
+        "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+        "fuente": "TechCrunch AI",
+        "resumen": "On Equity, we unpacked what the midterms mean for the tech industry.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+        "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+        "fuente": "MarkTechPost",
+        "resumen": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code. The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-Fir...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+        "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+        "fuente": "MarkTechPost",
+        "resumen": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Rout...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "资本正在撤离“世界模型”",
+        "url": "https://www.qbitai.com/2026/11/508466.html",
+        "fuente": "QbitAI",
+        "resumen": "没有永远的夏天",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+        "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+        "fuente": "The Verge AI",
+        "resumen": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, b...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+        "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
+        "fuente": "MarkTechPost",
+        "resumen": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one. The post M...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+        "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+        "fuente": "MarkTechPost",
+        "resumen": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Re...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Beijing’s latest property stimulus falls short in lower-tier-cities",
+        "url": "https://www.scmp.com/business/china-business/article/3373497/beijings-latest-property-stimulus-falls-short-lower-tier-cities",
+        "fuente": "SCMP Business",
+        "resumen": "Beijing’s latest property stimulus package has failed to stop a downward spiral in home transactions and prices in mainland China’s lower-tier cities, which could prompt top regulators to roll out str...",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+        "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+        "fuente": "Wired",
+        "resumen": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+        "url": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
+        "fuente": "MarkTechPost",
+        "resumen": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run pa...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+        "url": "https://www.qbitai.com/2026/11/508449.html",
+        "fuente": "QbitAI",
+        "resumen": "AI写代码太快，基础设施跟不上了",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "All the latest updates on AI data centers",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+        "fuente": "The Verge AI",
+        "resumen": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the w...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+        "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "OpenAI新融资到账110亿美元，不及原计划一半",
+        "url": "https://www.qbitai.com/2026/11/508344.html",
+        "fuente": "QbitAI",
+        "resumen": "融资缩水，硅谷投资人也谨慎了",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "How a Blue Wave midterm might reshape the AI industry",
+        "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "为了去AI味，人类开始主动写烂文章了……",
+        "url": "https://www.qbitai.com/2026/11/508330.html",
+        "fuente": "QbitAI",
+        "resumen": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+        "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+        "fuente": "Ars Technica AI",
+        "resumen": "Meta won't force Facebook page owners to allow AI training on linked content.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "After the midterms, is the AI industry in for a rough two years?",
+        "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "AI is the new dating dealbreaker",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+        "fuente": "The Verge AI",
+        "resumen": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Big Tech lost big in the 2026 election",
+        "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+        "fuente": "The Verge AI",
+        "resumen": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data cente...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Could potential AI clones of GTA VI force a quicker official port?",
+        "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+        "fuente": "Ars Technica AI",
+        "resumen": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-08"
+      },
+      {
+        "titulo": "Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We b…",
+        "url": "https://x.com/NousResearch/status/2118822925445050435",
+        "fuente": "X @NousResearch",
+        "resumen": "2.096.912 visualizaciones · 14.210 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs mo…",
+        "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+        "fuente": "X @AnthropicAI",
+        "resumen": "1.855.412 visualizaciones · 13.640 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "We partnered with @fmf_org and its member firms on a new framework to help identify when bypassing an AI system's safeguards could enable serious cyber harm, and prioritize stronger protections. \"...…",
+        "url": "https://x.com/OpenAI/status/2118795218099253606",
+        "fuente": "X @OpenAI",
+        "resumen": "354.087 visualizaciones · 1.625 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "New on our Science Blog: How AI is beginning to change scientific modeling. Scientific models help researchers explain and predict real-world systems—like how a single nerve cell fires, or what happe…",
+        "url": "https://x.com/AnthropicAI/status/2118792930211107115",
+        "fuente": "X @AnthropicAI",
+        "resumen": "436.547 visualizaciones · 3.592 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench. Developed with Ligo, a biotech company focused on enzyme design, the benchmark draws on 100 tasks fro…",
+        "url": "https://x.com/OpenAI/status/2118782708767965238",
+        "fuente": "X @OpenAI",
+        "resumen": "820.369 visualizaciones · 3.704 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "Get more out of your Hermes Bots with free and discounted models exclusive to",
+        "url": "https://x.com/NousResearch/status/2118774793872769342",
+        "fuente": "X @NousResearch",
+        "resumen": "206.247 visualizaciones · 597 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "We’re sharing new research demonstrating how AI agents can accelerate the science of stress-testing encryption. Guided by humans, our models uncovered two major weaknesses in legacy 1024-bit RSA cryp…",
+        "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+        "fuente": "X @GoogleDeepMind",
+        "resumen": "144.856 visualizaciones · 1.497 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "The becoming begins.",
+        "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+        "fuente": "X @Alibaba_Qwen",
+        "resumen": "2.574.931 visualizaciones · 18.400 me gusta",
+        "seccion": "x",
+        "pais": "china",
+        "fecha": "2026-11-06"
+      },
+      {
+        "titulo": "Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lig…",
+        "url": "https://x.com/NousResearch/status/2118479744979079669",
+        "fuente": "X @NousResearch",
+        "resumen": "528.951 visualizaciones · 4.007 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "You can now build live apps in Cursor and share them with a link. Agents have made it easier to write code, but most apps never make it off localhost. Describe the tool you want - Cursor will build i…",
+        "url": "https://x.com/cursor_ai/status/2118458629091426304",
+        "fuente": "X @cursor_ai",
+        "resumen": "480.231 visualizaciones · 3.722 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Introducing Personal Finance in Claude, in beta in the US. Connect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Acce…",
+        "url": "https://x.com/claudeai/status/2118403114890137895",
+        "fuente": "X @claudeai",
+        "resumen": "11.316.313 visualizaciones · 46.054 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-05"
+      },
+      {
+        "titulo": "Like the rest of Claude, Personal Finance has no ads or sponsored recommendations. It helps you understand your money, and it isn’t designed to give investment advice. Rolling out gradually in the US…",
+        "url": "https://x.com/claudeai/status/2118403117779988744",
+        "fuente": "X @claudeai",
+        "resumen": "551.675 visualizaciones · 1.995 me gusta",
         "seccion": "x",
         "pais": "global",
         "fecha": "2026-11-05"
