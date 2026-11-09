@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T17:44:07",
+ "actualizado": "2026-11-09T22:01:56",
  "fuentes": [
   "huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
   "openrouter.ai/api/v1/models"
@@ -13,8 +13,8 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 1,
-   "votos": 4483,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 4281,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "Gemini 4 Argon (High)",
@@ -22,8 +22,8 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 2,
-   "votos": 18399,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 18850,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 2.0,
    "precio_out": 10.0,
    "context": 1048576
@@ -34,56 +34,56 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 3,
-   "votos": 19892,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 19755,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 10.0,
    "precio_out": 50.0,
    "context": 1000000
   },
   {
    "modelo": "Claude Opus 5.5 (High)",
-   "elo": 1512,
+   "elo": 1513,
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 4,
-   "votos": 14849,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 14815,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 4.0,
    "precio_out": 20.0,
    "context": 1000000
   },
   {
    "modelo": "Claude Opus 5 (Max)",
-   "elo": 1507,
+   "elo": 1506,
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 5,
-   "votos": 36681,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 35712,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
   },
   {
    "modelo": "Muse Wonder (Max)",
-   "elo": 1505,
+   "elo": 1504,
    "org": "meta",
    "licencia": "cerrado",
    "rank": 6,
-   "votos": 11229,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 11483,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 4.0,
    "precio_out": 20.0,
    "context": 1048576
   },
   {
    "modelo": "Claude Opus 5 (High)",
-   "elo": 1503,
+   "elo": 1502,
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 7,
-   "votos": 75732,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 73730,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
@@ -94,20 +94,20 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 8,
-   "votos": 85548,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 84428,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
   },
   {
    "modelo": "Gemini 3.8 Flash (High)",
-   "elo": 1501,
+   "elo": 1500,
    "org": "google",
    "licencia": "cerrado",
    "rank": 9,
-   "votos": 59680,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 59624,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.825,
    "precio_out": 4.125,
    "context": 1048576
@@ -118,35 +118,35 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 10,
-   "votos": 90487,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 89224,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
   },
   {
-   "modelo": "Claude Fable 5 (High)",
-   "elo": 1492,
-   "org": "anthropic",
-   "licencia": "cerrado",
-   "rank": 11,
-   "votos": 46601,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 10.0,
-   "precio_out": 50.0,
-   "context": 1000000
-  },
-  {
    "modelo": "MiMo-V2.6-Pro",
-   "elo": 1491,
+   "elo": 1492,
    "org": "xiaomi",
    "licencia": "open",
-   "rank": 12,
-   "votos": 4189,
-   "fecha_leaderboard": "2026-11-06",
+   "rank": 11,
+   "votos": 4069,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.435,
    "precio_out": 0.87,
    "context": 1050000
+  },
+  {
+   "modelo": "Claude Fable 5 (High)",
+   "elo": 1491,
+   "org": "anthropic",
+   "licencia": "cerrado",
+   "rank": 12,
+   "votos": 45562,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 10.0,
+   "precio_out": 50.0,
+   "context": 1000000
   },
   {
    "modelo": "Muse Spark 1.3 (Max)",
@@ -154,8 +154,8 @@
    "org": "meta",
    "licencia": "cerrado",
    "rank": 13,
-   "votos": 25672,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 25563,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.25,
    "precio_out": 4.25,
    "context": 1048576
@@ -166,32 +166,32 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 14,
-   "votos": 65007,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 64295,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
   },
   {
    "modelo": "Gemini 3.7 Flash (High)",
-   "elo": 1488,
+   "elo": 1489,
    "org": "google",
    "licencia": "cerrado",
    "rank": 15,
-   "votos": 34346,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 33306,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.75,
    "precio_out": 3.75,
    "context": 1048576
   },
   {
    "modelo": "Qwen3.8-Max",
-   "elo": 1484,
+   "elo": 1485,
    "org": "alibaba",
    "licencia": "cerrado",
    "rank": 16,
-   "votos": 36028,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 35805,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "Muse Spark 1.2 (xHigh)",
@@ -199,8 +199,8 @@
    "org": "meta",
    "licencia": "cerrado",
    "rank": 17,
-   "votos": 14436,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 14561,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.25,
    "precio_out": 4.25,
    "context": 1048576
@@ -211,20 +211,20 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 18,
-   "votos": 66092,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 65387,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
   },
   {
    "modelo": "Gemini 3.5 Flash (High)",
-   "elo": 1482,
+   "elo": 1483,
    "org": "google",
    "licencia": "cerrado",
    "rank": 19,
-   "votos": 48503,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 47646,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.5,
    "precio_out": 9.0,
    "context": 1048576
@@ -235,8 +235,8 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 20,
-   "votos": 134284,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 132347,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 2.0,
    "precio_out": 12.0,
    "context": 1048576
@@ -247,8 +247,8 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 21,
-   "votos": 42019,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 41839,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "Gemini 3.6 Flash (High)",
@@ -256,20 +256,20 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 22,
-   "votos": 36116,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 35428,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.75,
    "precio_out": 3.75,
    "context": 1048576
   },
   {
    "modelo": "Muse Spark 1.1",
-   "elo": 1478,
+   "elo": 1479,
    "org": "meta",
    "licencia": "cerrado",
    "rank": 23,
-   "votos": 46714,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 45555,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.25,
    "precio_out": 4.25,
    "context": 1048576
@@ -280,8 +280,8 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 24,
-   "votos": 47284,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 46403,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.5,
    "precio_out": 9.0,
    "context": 1048576
@@ -292,22 +292,10 @@
    "org": "zai",
    "licencia": "open",
    "rank": 25,
-   "votos": 30776,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 30524,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.07,
    "precio_out": 1.4,
-   "context": 1048576
-  },
-  {
-   "modelo": "Kimi K3 (Max)",
-   "elo": 1475,
-   "org": "moonshot",
-   "licencia": "cerrado",
-   "rank": 26,
-   "votos": 40814,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 0.192,
-   "precio_out": 16.0,
    "context": 1048576
   },
   {
@@ -315,9 +303,21 @@
    "elo": 1475,
    "org": "alibaba",
    "licencia": "cerrado",
+   "rank": 26,
+   "votos": 3901,
+   "fecha_leaderboard": "2026-11-08"
+  },
+  {
+   "modelo": "Kimi K3 (Max)",
+   "elo": 1475,
+   "org": "moonshot",
+   "licencia": "cerrado",
    "rank": 27,
-   "votos": 3926,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 40409,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 0.192,
+   "precio_out": 16.0,
+   "context": 1048576
   },
   {
    "modelo": "Muse Spark",
@@ -325,19 +325,19 @@
    "org": "meta",
    "licencia": "cerrado",
    "rank": 28,
-   "votos": 14119,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 14008,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "GLM-5.3-Flash",
-   "elo": 1472,
+   "elo": 1471,
    "org": "zai",
    "licencia": "open",
    "rank": 29,
-   "votos": 49824,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 0.034,
-   "precio_out": 0.083,
+   "votos": 49384,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 0.15,
+   "precio_out": 0.5,
    "context": 1048576
   },
   {
@@ -346,20 +346,20 @@
    "org": "openai",
    "licencia": "cerrado",
    "rank": 30,
-   "votos": 69197,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 68361,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 30.0,
    "context": 1050000
   },
   {
    "modelo": "Qwen3.5-Max-Preview",
-   "elo": 1470,
+   "elo": 1471,
    "org": "alibaba",
    "licencia": "cerrado",
    "rank": 31,
-   "votos": 22554,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 22422,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "GLM-5.2 (Max)",
@@ -367,8 +367,8 @@
    "org": "zai",
    "licencia": "open",
    "rank": 32,
-   "votos": 55345,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 54195,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.006,
    "precio_out": 6.8,
    "context": 1048576
@@ -379,20 +379,20 @@
    "org": "openai",
    "licencia": "cerrado",
    "rank": 33,
-   "votos": 64663,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 64118,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 2.5,
    "precio_out": 15.0,
    "context": 1050000
   },
   {
    "modelo": "Claude Sonnet 5.5 (xHigh)",
-   "elo": 1469,
+   "elo": 1468,
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 34,
-   "votos": 13410,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 13389,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 2.0,
    "precio_out": 10.0,
    "context": 1000000
@@ -403,17 +403,17 @@
    "org": "baidu",
    "licencia": "cerrado",
    "rank": 35,
-   "votos": 39416,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 39038,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "GPT-5.5",
-   "elo": 1467,
+   "elo": 1466,
    "org": "openai",
    "licencia": "cerrado",
    "rank": 36,
-   "votos": 70828,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 69960,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 30.0,
    "context": 1050000
@@ -424,8 +424,8 @@
    "org": "google",
    "licencia": "cerrado",
    "rank": 37,
-   "votos": 31283,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 31144,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "MiMo-V2.5-Pro",
@@ -433,11 +433,11 @@
    "org": "xiaomi",
    "licencia": "open",
    "rank": 38,
-   "votos": 78014,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 76826,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.48,
    "precio_out": 1.8,
-   "context": 1050000
+   "context": 1024000
   },
   {
    "modelo": "DeepSeek-V4.1-Flash-20260910 (Max)",
@@ -445,8 +445,8 @@
    "org": "deepseek",
    "licencia": "open",
    "rank": 39,
-   "votos": 13976,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 13579,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "GLM-5.1",
@@ -454,46 +454,22 @@
    "org": "zai",
    "licencia": "open",
    "rank": 40,
-   "votos": 68317,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 67089,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.4,
    "precio_out": 4.4,
    "context": 204800
   },
   {
    "modelo": "Claude Opus 4.8 (High)",
-   "elo": 1461,
+   "elo": 1462,
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 41,
-   "votos": 64088,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 63145,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
-   "context": 1000000
-  },
-  {
-   "modelo": "GPT-5.6 Sol (xHigh)",
-   "elo": 1458,
-   "org": "openai",
-   "licencia": "cerrado",
-   "rank": 42,
-   "votos": 45082,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 4.0,
-   "precio_out": 20.0,
-   "context": 1050000
-  },
-  {
-   "modelo": "Claude Sonnet 4.6",
-   "elo": 1458,
-   "org": "anthropic",
-   "licencia": "cerrado",
-   "rank": 43,
-   "votos": 70800,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 3.0,
-   "precio_out": 15.0,
    "context": 1000000
   },
   {
@@ -501,21 +477,45 @@
    "elo": 1458,
    "org": "google",
    "licencia": "cerrado",
-   "rank": 44,
-   "votos": 125238,
-   "fecha_leaderboard": "2026-11-06",
+   "rank": 42,
+   "votos": 124804,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 1.25,
    "precio_out": 10.0,
    "context": 1048576
   },
   {
+   "modelo": "Claude Sonnet 4.6",
+   "elo": 1458,
+   "org": "anthropic",
+   "licencia": "cerrado",
+   "rank": 43,
+   "votos": 70016,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 3.0,
+   "precio_out": 15.0,
+   "context": 1000000
+  },
+  {
+   "modelo": "GPT-5.6 Sol (xHigh)",
+   "elo": 1457,
+   "org": "openai",
+   "licencia": "cerrado",
+   "rank": 44,
+   "votos": 44005,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 4.0,
+   "precio_out": 20.0,
+   "context": 1050000
+  },
+  {
    "modelo": "Kimi K2.6",
-   "elo": 1456,
+   "elo": 1455,
    "org": "moonshot",
    "licencia": "open",
    "rank": 45,
-   "votos": 39930,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 39576,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.65,
    "precio_out": 3.41,
    "context": 262144
@@ -526,8 +526,8 @@
    "org": "alibaba",
    "licencia": "cerrado",
    "rank": 46,
-   "votos": 41897,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 41343,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 0.32,
    "precio_out": 1.28,
    "context": 1000000
@@ -538,8 +538,8 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 47,
-   "votos": 65250,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 64213,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 1000000
@@ -550,22 +550,10 @@
    "org": "openai",
    "licencia": "cerrado",
    "rank": 48,
-   "votos": 67735,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 67125,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 2.5,
    "precio_out": 15.0,
-   "context": 1050000
-  },
-  {
-   "modelo": "MiMo-V2.6-Flash",
-   "elo": 1452,
-   "org": "xiaomi",
-   "licencia": "open",
-   "rank": 49,
-   "votos": 21207,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 0.14,
-   "precio_out": 0.28,
    "context": 1050000
   },
   {
@@ -573,9 +561,18 @@
    "elo": 1451,
    "org": "deepseek",
    "licencia": "open",
+   "rank": 49,
+   "votos": 56904,
+   "fecha_leaderboard": "2026-11-08"
+  },
+  {
+   "modelo": "Grok 4.20 Beta (Reasoning, 0309)",
+   "elo": 1451,
+   "org": "xAI",
+   "licencia": "cerrado",
    "rank": 50,
-   "votos": 57481,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 65716,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "Claude Opus 4.5 (20251101)",
@@ -583,62 +580,62 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 51,
-   "votos": 72755,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 72317,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 200000
-  },
-  {
-   "modelo": "Grok 4.20 Beta (Reasoning, 0309)",
-   "elo": 1451,
-   "org": "xAI",
-   "licencia": "cerrado",
-   "rank": 52,
-   "votos": 66330,
-   "fecha_leaderboard": "2026-11-06"
   },
   {
    "modelo": "Grok 4.20 Multi-Agent Beta (0309)",
    "elo": 1451,
    "org": "xAI",
    "licencia": "cerrado",
-   "rank": 53,
-   "votos": 64839,
-   "fecha_leaderboard": "2026-11-06"
+   "rank": 52,
+   "votos": 64243,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
-   "modelo": "amazon-nova-experimental-chat (26-02-10)",
-   "elo": 1449,
-   "org": "amazon",
-   "licencia": "cerrado",
-   "rank": 54,
-   "votos": 3524,
-   "fecha_leaderboard": "2026-11-06"
+   "modelo": "MiMo-V2.6-Flash",
+   "elo": 1451,
+   "org": "xiaomi",
+   "licencia": "open",
+   "rank": 53,
+   "votos": 21592,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 0.14,
+   "precio_out": 0.28,
+   "context": 1050000
   },
   {
    "modelo": "GPT-5.6 Terra (xHigh)",
    "elo": 1449,
    "org": "openai",
    "licencia": "cerrado",
-   "rank": 55,
-   "votos": 50150,
-   "fecha_leaderboard": "2026-11-06",
+   "rank": 54,
+   "votos": 48861,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 2.0,
    "precio_out": 12.0,
    "context": 1050000
   },
   {
-   "modelo": "Grok 4.5",
-   "elo": 1448,
-   "org": "xAI",
+   "modelo": "amazon-nova-experimental-chat (26-02-10)",
+   "elo": 1449,
+   "org": "amazon",
+   "licencia": "cerrado",
+   "rank": 55,
+   "votos": 3509,
+   "fecha_leaderboard": "2026-11-08"
+  },
+  {
+   "modelo": "Dola Seed 2.0 Pro",
+   "elo": 1449,
+   "org": "bytedance",
    "licencia": "cerrado",
    "rank": 56,
-   "votos": 39903,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 2.0,
-   "precio_out": 6.0,
-   "context": 500000
+   "votos": 78230,
+   "fecha_leaderboard": "2026-11-08"
   },
   {
    "modelo": "Claude Opus 4.5 (High, 32K, 20251101)",
@@ -646,41 +643,44 @@
    "org": "anthropic",
    "licencia": "cerrado",
    "rank": 57,
-   "votos": 37460,
-   "fecha_leaderboard": "2026-11-06",
+   "votos": 37259,
+   "fecha_leaderboard": "2026-11-08",
    "precio_in": 5.0,
    "precio_out": 25.0,
    "context": 200000
   },
   {
-   "modelo": "Dola Seed 2.0 Pro",
+   "modelo": "Grok 4.5",
    "elo": 1448,
-   "org": "bytedance",
+   "org": "xAI",
    "licencia": "cerrado",
    "rank": 58,
-   "votos": 78971,
-   "fecha_leaderboard": "2026-11-06"
+   "votos": 39169,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 2.0,
+   "precio_out": 6.0,
+   "context": 500000
+  },
+  {
+   "modelo": "GLM-5",
+   "elo": 1446,
+   "org": "zai",
+   "licencia": "open",
+   "rank": 59,
+   "votos": 29018,
+   "fecha_leaderboard": "2026-11-08",
+   "precio_in": 1.0,
+   "precio_out": 3.2,
+   "context": 204800
   },
   {
    "modelo": "Qwen3.6-Max-Preview",
-   "elo": 1447,
+   "elo": 1446,
    "org": "alibaba",
    "licencia": "cerrado",
-   "rank": 59,
-   "votos": 5417,
-   "fecha_leaderboard": "2026-11-06"
-  },
-  {
-   "modelo": "GPT-6.1 Sol (Max)",
-   "elo": 1447,
-   "org": "openai",
-   "licencia": "cerrado",
    "rank": 60,
-   "votos": 12539,
-   "fecha_leaderboard": "2026-11-06",
-   "precio_in": 2.0,
-   "precio_out": 10.0,
-   "context": 1050000
+   "votos": 5386,
+   "fecha_leaderboard": "2026-11-08"
   }
  ]
 }

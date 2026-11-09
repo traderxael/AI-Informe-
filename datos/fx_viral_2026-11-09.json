@@ -1,0 +1,1643 @@
+{
+  "fecha": "2026-11-09",
+  "generado": "2026-11-09T22:00:12.015974+00:00",
+  "api": "https://api.fxtwitter.com",
+  "trends_x": [
+    "Jordan Davis",
+    "Muchova",
+    "Jags",
+    "Veterans Day",
+    "Jaguars",
+    "Fable 5.2"
+  ],
+  "total_viral": 85,
+  "resumen_por_tema": {
+    "otros": 15,
+    "lanzamiento": 11,
+    "seguridad": 11,
+    "china": 1,
+    "mercado": 28,
+    "politica": 8,
+    "producto": 6,
+    "investigacion": 5
+  },
+  "resumen_por_etiqueta": {
+    "ia": 41,
+    "china-ai": 3,
+    "trading": 28,
+    "tech": 11,
+    "bioseguridad": 2
+  },
+  "viral": [
+    {
+      "id": "2117794005165748448",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "People should always be in control of the future.\n\nOpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”.\n\nPeople should not cede control of the future to superintellig",
+      "views": 10630125,
+      "likes": 20645,
+      "reposts": 1020,
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 04 01:40:12 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2119867114450268322",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.\n\nThey’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision.",
+      "views": 5009839,
+      "likes": 59450,
+      "reposts": 5280,
+      "url": "https://x.com/claudeai/status/2119867114450268322",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 09 18:57:59 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118674834632978755",
+      "autor": "Alibaba_Qwen",
+      "avatar": "https://pbs.twimg.com/profile_images/2064231947149377536/Ab70PxT5_200x200.jpg",
+      "texto": "The becoming begins.",
+      "views": 2723472,
+      "likes": 18612,
+      "reposts": 1460,
+      "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWcJWyabAAAzP6_.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWcJWyabAAAzP6_.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 06 12:00:18 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "Alibaba_Qwen",
+      "tema": "otros"
+    },
+    {
+      "id": "2117659234448154646",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Open-Sourcing Smaug-Audio-Decisions - State-of-the-art audio decisions model\n\nOpen-source continues to explode, and we are excited to introduce a new model\n\n- Audio Jev / decisions model\n- open-source\n- on top of the leaderboard!\n- use it with your voice agents\n\nAvailable today",
+      "views": 2699692,
+      "likes": 186,
+      "reposts": 6,
+      "url": "https://x.com/bindureddy/status/2117659234448154646",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWNvJtyawAIkDxr.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWNvJtyawAIkDxr.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Nov 03 16:44:40 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118822925445050435",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values.\n\nChinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expr",
+      "views": 2492429,
+      "likes": 14732,
+      "reposts": 1473,
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118807764206030848/img/KpxiYJQdym7LZmYg.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118807764206030848/img/KpxiYJQdym7LZmYg.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 06 21:48:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118814753154064501",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time. https://www.anthropic.com/research/components-of-agent-m",
+      "views": 2031084,
+      "likes": 14104,
+      "reposts": 1303,
+      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 21:16:17 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2118010528123773297",
+      "autor": "Kimi_Moonshot",
+      "avatar": "https://pbs.twimg.com/profile_images/2086719038798102529/diJGKpOE_200x200.jpg",
+      "texto": "Releasing the model weights of Kimi K3.1 Pro: https://huggingface.co/moonshotai/Kimi-K3.1-Pro\nWe'll keep advancing open intelligence.",
+      "views": 1381518,
+      "likes": 8710,
+      "reposts": 845,
+      "url": "https://x.com/Kimi_Moonshot/status/2118010528123773297",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWSvVQBaMAAOxi5.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWSvVQBaMAAOxi5.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 04 16:00:35 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "Kimi_Moonshot",
+      "tema": "china"
+    },
+    {
+      "id": "2119851549921018191",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Coming Soon - The World's Best Uncensored Model\n\nSmaug Uncensored\n\n - tops uncensored leaderboards\n-  devoid of Chinese propaganda\n-  zero refusals, great for cyber security\n\nRunning the final evals as we speak",
+      "views": 1259224,
+      "likes": 324,
+      "reposts": 7,
+      "url": "https://x.com/bindureddy/status/2119851549921018191",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/tweet_video_thumb/HWs5X8dboAAQisY.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/tweet_video_thumb/HWs5X8dboAAQisY.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 09 17:56:09 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2118073665296228863",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were fi",
+      "views": 1006718,
+      "likes": 4898,
+      "reposts": 528,
+      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 04 20:11:28 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119806126846046630",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: $1,000,000,000,000 added to the US stock market at open.",
+      "views": 901607,
+      "likes": 8009,
+      "reposts": 721,
+      "url": "https://x.com/WatcherGuru/status/2119806126846046630",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWsQb1PaEAA4Qc2.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsQb1PaEAA4Qc2.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 14:55:39 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2117710942826123294",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic research: progress on provable inference for large language models.\n\nHere, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model. It’s substantially more ",
+      "views": 718814,
+      "likes": 5271,
+      "reposts": 541,
+      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 03 20:10:08 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119791398203654398",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: $15 trillion BlackRock expects billions of dollars in crypto to move into ETFs over security concerns.",
+      "views": 645122,
+      "likes": 5660,
+      "reposts": 513,
+      "url": "https://x.com/WatcherGuru/status/2119791398203654398",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 13:57:07 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119875119632076957",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Fable 5.2 Is Here And Tops LiveBench\n\n- tops livebench and is the best model in the world\n- cheaper than Fable 5.1 in token cost\n- easier to interact with\n\nTry it today on ChatLLM",
+      "views": 614084,
+      "likes": 146,
+      "reposts": 4,
+      "url": "https://x.com/bindureddy/status/2119875119632076957",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWtO7a2aEAAgsfK.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWtO7a2aEAAgsfK.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 19:29:48 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "politica"
+    },
+    {
+      "id": "2119888920615731326",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 Senate Democrats prepare to impose 10% cap on credit card interest rates.",
+      "views": 552844,
+      "likes": 6984,
+      "reposts": 425,
+      "url": "https://x.com/WatcherGuru/status/2119888920615731326",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 20:24:38 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2118479744979079669",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Hermes Agent v0.23.0: The Hearth Release\n\nHighlights:\n- Desktop in a browser tab\n- One gateway for every conversation\n- /Rewind\n- Group Chats with automatic routing\n- Spend limits for paid tools\n- Lighter and faster\nand more\n\nChangelog below",
+      "views": 541526,
+      "likes": 4055,
+      "reposts": 258,
+      "url": "https://x.com/NousResearch/status/2118479744979079669",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118474269860507648/img/L1YMk0h1km_vWvkm.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118474269860507648/img/L1YMk0h1km_vWvkm.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 23:05:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "otros"
+    },
+    {
+      "id": "2119803701116477739",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: Nvidia $NVDA crashes 6.5% at open after CEO Jensen Huang admits to having an affair with an alleged Chinese spy.",
+      "views": 495972,
+      "likes": 3580,
+      "reposts": 416,
+      "url": "https://x.com/WatcherGuru/status/2119803701116477739",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWsOOpJacAAoLPW.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsOOpJacAAoLPW.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 14:46:01 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2118458629091426304",
+      "autor": "cursor_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+      "texto": "You can now build live apps in Cursor and share them with a link.\n\nAgents have made it easier to write code, but most apps never make it off localhost. Describe the tool you want - Cursor will build it, set up a database, run deterministic and agentic security checks, and deploy.",
+      "views": 492055,
+      "likes": 3735,
+      "reposts": 359,
+      "url": "https://x.com/cursor_ai/status/2118458629091426304",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118458611320131584/img/uUJSIBl8QaDBnoAA.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118458611320131584/img/uUJSIBl8QaDBnoAA.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 21:41:10 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "Cursor_AI",
+      "tema": "producto"
+    },
+    {
+      "id": "2118792930211107115",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New on our Science Blog: How AI is beginning to change scientific modeling.\n\nScientific models help researchers explain and predict real-world systems—like how a single nerve cell fires, or what happens when neutron stars collide. Recent advances have transformed how scientists f",
+      "views": 463404,
+      "likes": 3673,
+      "reposts": 402,
+      "url": "https://x.com/AnthropicAI/status/2118792930211107115",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 19:49:34 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119853823506428090",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸🇨🇳 US Congress summons Nvidia $NVDA CEO Jensen Huang over affair with Chinese spy.",
+      "views": 437768,
+      "likes": 6530,
+      "reposts": 463,
+      "url": "https://x.com/WatcherGuru/status/2119853823506428090",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWs70S9XMAAPIvp.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWs70S9XMAAPIvp.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWs70TDXkAAWxcN.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWs70TDXkAAWxcN.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 18:05:11 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119867707546071125",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Claude Fable 5.2 and Claude Mythos 5.2 are available now:",
+      "views": 402298,
+      "likes": 10164,
+      "reposts": 640,
+      "url": "https://x.com/AnthropicAI/status/2119867707546071125",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 19:00:21 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119837697842053483",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇰🇵 North Korean hackers are using memecoins to launder funds stolen from the $6 billion Binance crypto hack.",
+      "views": 391121,
+      "likes": 4142,
+      "reposts": 355,
+      "url": "https://x.com/WatcherGuru/status/2119837697842053483",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWstJl4XEAAuCzg.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWstJl4XEAAuCzg.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWstJlvWsAA02HJ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWstJlvWsAA02HJ.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 17:01:06 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2117717721458843711",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "Crouton Alpha (stealth model) is free for the next week\n\n1M Context\nMulti-modal\nNo training on data \n\nLimited to certain regions",
+      "views": 362053,
+      "likes": 4532,
+      "reposts": 147,
+      "url": "https://x.com/opencode/status/2117717721458843711",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 03 20:37:04 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "otros"
+    },
+    {
+      "id": "2119796368231616962",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: $13 trillion Charles Schwab adds Solana, Avalanche, and Chainlink trading to its crypto accounts.",
+      "views": 361192,
+      "likes": 5344,
+      "reposts": 548,
+      "url": "https://x.com/WatcherGuru/status/2119796368231616962",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 14:16:52 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119867138987176141",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Claude Fable 5.2 is available today on all paid plans, on the Claude Platform, and on all major cloud platforms.\n\nIt’s $8 per million input tokens and $40 per million output tokens, down from $10 and $50.\n\nRead more: https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "views": 349229,
+      "likes": 3341,
+      "reposts": 176,
+      "url": "https://x.com/claudeai/status/2119867138987176141",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 18:58:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118389961426874879",
+      "autor": "GoogleAI",
+      "avatar": "https://pbs.twimg.com/profile_images/2057682346074058752/zTpu89C1_200x200.jpg",
+      "texto": "Meet Gemini Omni 1.2 Flash ⚡️\n\nWe’ve made the model more cost-effective, bumped the video generation and editing limit up to 15 seconds, and made updates to how scenes hold together over time. We've also given character speech an upgrade, reduced visual glitches like jump cuts, a",
+      "views": 326354,
+      "likes": 2554,
+      "reposts": 245,
+      "url": "https://x.com/GoogleAI/status/2118389961426874879",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118387774378192896/img/dPbZ-qxFOtFSBnvZ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118387774378192896/img/dPbZ-qxFOtFSBnvZ.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 17:08:19 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "googleai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2119812985300644062",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: Apple $AAPL reportedly plans to turn Siri into an AI agent that can take actions and complete tasks on behalf of users.",
+      "views": 301380,
+      "likes": 4306,
+      "reposts": 241,
+      "url": "https://x.com/WatcherGuru/status/2119812985300644062",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWsWrEPaIAELsIy.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsWrEPaIAELsIy.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWsWrEQbYAAxjgw.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsWrEQbYAAxjgw.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 15:22:54 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2118058453415371119",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks.\n\nThe new Hermes Marketplace has everything your agent needs:\n\nhttps://hermes-agent.nousresearch.com/marketplace",
+      "views": 298933,
+      "likes": 2415,
+      "reposts": 137,
+      "url": "https://x.com/NousResearch/status/2118058453415371119",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118055737100259328/img/qhQqucR8JtMBTEjs.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118055737100259328/img/qhQqucR8JtMBTEjs.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 19:11:01 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2118073667858887068",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Read the full preprint here: https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf",
+      "views": 290730,
+      "likes": 840,
+      "reposts": 64,
+      "url": "https://x.com/AnthropicAI/status/2118073667858887068",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/tweet_video_thumb/HWTlFvWWIAAYOhX.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/tweet_video_thumb/HWTlFvWWIAAYOhX.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 20:11:28 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119899459761131615",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "During pre-release testing, Claude Fable 5.2 and Claude Mythos 5.2 worked on ambitious projects in many different fields. Here are a few.\n\nFrom a one-paragraph prompt, Fable 5.2 designed three working electronic devices, including this home voice assistant hub.",
+      "views": 285482,
+      "likes": 6645,
+      "reposts": 336,
+      "url": "https://x.com/claudeai/status/2119899459761131615",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2119889970664030208/img/zA7dOkx94Gdcx8Se.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119889970664030208/img/zA7dOkx94Gdcx8Se.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 09 21:06:31 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118094256438936062",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "The Hermes Agent Plugin Hackathon starts now! \n\nIt runs for 7 days, with $20,000 in cash prizes and more.\n\nPlugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, wh",
+      "views": 258261,
+      "likes": 2492,
+      "reposts": 247,
+      "url": "https://x.com/NousResearch/status/2118094256438936062",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118093752044552192/img/TefRcJ92h909qVMn.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118093752044552192/img/TefRcJ92h909qVMn.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 21:33:17 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "producto"
+    },
+    {
+      "id": "2119867136361316437",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Fable and Mythos are the same underlying model. Fable has strong safeguards to guard against misuse.\n\nOrganizations pursuing beneficial applications in cybersecurity or biomedical research can apply for Mythos through our Life Sciences and Cyber Verification Programs.",
+      "views": 254110,
+      "likes": 1649,
+      "reposts": 25,
+      "url": "https://x.com/claudeai/status/2119867136361316437",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 18:58:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119867405661065703",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: Anthropic officially launches world's most powerful Claude AI models 'Fable 5.2' and 'Mythos 5.2.'",
+      "views": 247792,
+      "likes": 3475,
+      "reposts": 208,
+      "url": "https://x.com/WatcherGuru/status/2119867405661065703",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWtIK2KXkAEpRyI.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWtIK2KXkAEpRyI.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWtIK1-W4AA4g72.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWtIK1-W4AA4g72.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 18:59:09 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119835096232681722",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 $3.7 trillion Goldman Sachs CEO David Solomon expects massive investment in US data centers and AI computing capacity to continue.",
+      "views": 246012,
+      "likes": 2269,
+      "reposts": 214,
+      "url": "https://x.com/WatcherGuru/status/2119835096232681722",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 16:50:46 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119827627817193811",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸🇨🇳 US investigation into Megaspeed over suspected AI chip smuggling to China halted after Nvidia $NVDA intervened.\n\nCEO Jensen Huang had an affair with former Megaspeed executive Alice Huang, who has been accused of being a Chinese spy.",
+      "views": 234202,
+      "likes": 1129,
+      "reposts": 119,
+      "url": "https://x.com/WatcherGuru/status/2119827627817193811",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWsj_K8XcAE-Voo.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsj_K8XcAE-Voo.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWsj_K0XAAA9PgA.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsj_K0XAAA9PgA.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 16:21:05 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119799721065922707",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 $410 billion PNC Bank partners with Coinbase to offer crypto stablecoin payments.",
+      "views": 221415,
+      "likes": 3215,
+      "reposts": 477,
+      "url": "https://x.com/WatcherGuru/status/2119799721065922707",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWsKm-WbMAA-jbN.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsKm-WbMAA-jbN.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWsKm-KaYAA_6sM.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWsKm-KaYAA_6sM.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 14:30:12 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2117542298238222588",
+      "autor": "XiaomiTech_",
+      "avatar": "https://pbs.twimg.com/profile_images/2056256394031210496/nBJBueif_200x200.jpg",
+      "texto": "8 hours on the production line. 🤖\n\nXiaomi’s full-size humanoid robot takes on an 8-hour task at the Center Console Side-Cover Sorting Workstation at Xiaomi Auto Factory.\n\nBeyond sustained operation, it can autonomously detect and correct anomalies while coordinating with the prod",
+      "views": 217623,
+      "likes": 915,
+      "reposts": 173,
+      "url": "https://x.com/XiaomiTech_/status/2117542298238222588",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2117502707707838464/img/2OaPToW0eUQsdroG.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2117502707707838464/img/2OaPToW0eUQsdroG.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 03 09:00:00 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "XiaomiTech_",
+      "tema": "politica"
+    },
+    {
+      "id": "2118774793872769342",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Get more out of your Hermes Bots with free and discounted models exclusive to https://portal.nousresearch.com",
+      "views": 209968,
+      "likes": 605,
+      "reposts": 38,
+      "url": "https://x.com/NousResearch/status/2118774793872769342",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWdmZ0fXQAAEMqi.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWdmZ0fXQAAEMqi.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 06 18:37:30 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2119844068578779398",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: Stripe partners with MiPlata to launch Visa prepaid card for spending crypto stablecoin balances.",
+      "views": 208270,
+      "likes": 1479,
+      "reposts": 148,
+      "url": "https://x.com/WatcherGuru/status/2119844068578779398",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 17:26:25 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2119861821712810115",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 PNC Bank begins testing USDC stablecoin payments on Ethereum for corporate and institutional clients. \n\nPNC Bank also begins testing conversion of $USDC crypto stablecoin payments into US dollar deposits.",
+      "views": 191556,
+      "likes": 1790,
+      "reposts": 241,
+      "url": "https://x.com/WatcherGuru/status/2119861821712810115",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 18:36:58 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2117659447518740960",
+      "autor": "perplexity_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_200x200.jpg",
+      "texto": "Perplexity Computer can automate every part of an e-commerce business.\n\nRun @Meta ads, email marketing in @klaviyo, and @Shopify stores directly inside Computer.\n\nGet started: https://pplx.ai/ecommerce",
+      "views": 190484,
+      "likes": 786,
+      "reposts": 67,
+      "url": "https://x.com/perplexity_ai/status/2117659447518740960",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2117659358691774464/img/eCzmFgWkvnefjz7S.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2117659358691774464/img/eCzmFgWkvnefjz7S.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 03 16:45:31 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "perplexity_ai",
+      "tema": "politica"
+    }
+  ],
+  "viral_ia": [
+    {
+      "id": "2117794005165748448",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "People should always be in control of the future.\n\nOpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”.\n\nPeople should not cede control of the future to superintellig",
+      "views": 10630125,
+      "likes": 20645,
+      "reposts": 1020,
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 04 01:40:12 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2119867114450268322",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.\n\nThey’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision.",
+      "views": 5009839,
+      "likes": 59450,
+      "reposts": 5280,
+      "url": "https://x.com/claudeai/status/2119867114450268322",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWtIJNLWUAAcc7I.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 09 18:57:59 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118674834632978755",
+      "autor": "Alibaba_Qwen",
+      "avatar": "https://pbs.twimg.com/profile_images/2064231947149377536/Ab70PxT5_200x200.jpg",
+      "texto": "The becoming begins.",
+      "views": 2723472,
+      "likes": 18612,
+      "reposts": 1460,
+      "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWcJWyabAAAzP6_.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWcJWyabAAAzP6_.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 06 12:00:18 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "Alibaba_Qwen",
+      "tema": "otros"
+    },
+    {
+      "id": "2117659234448154646",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Open-Sourcing Smaug-Audio-Decisions - State-of-the-art audio decisions model\n\nOpen-source continues to explode, and we are excited to introduce a new model\n\n- Audio Jev / decisions model\n- open-source\n- on top of the leaderboard!\n- use it with your voice agents\n\nAvailable today",
+      "views": 2699692,
+      "likes": 186,
+      "reposts": 6,
+      "url": "https://x.com/bindureddy/status/2117659234448154646",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWNvJtyawAIkDxr.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWNvJtyawAIkDxr.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Nov 03 16:44:40 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118822925445050435",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values.\n\nChinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We built an 803-prompt eval across seven value categories, including freedom of expr",
+      "views": 2492429,
+      "likes": 14732,
+      "reposts": 1473,
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118807764206030848/img/KpxiYJQdym7LZmYg.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118807764206030848/img/KpxiYJQdym7LZmYg.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 06 21:48:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118814753154064501",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time. https://www.anthropic.com/research/components-of-agent-m",
+      "views": 2031084,
+      "likes": 14104,
+      "reposts": 1303,
+      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 21:16:17 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2118010528123773297",
+      "autor": "Kimi_Moonshot",
+      "avatar": "https://pbs.twimg.com/profile_images/2086719038798102529/diJGKpOE_200x200.jpg",
+      "texto": "Releasing the model weights of Kimi K3.1 Pro: https://huggingface.co/moonshotai/Kimi-K3.1-Pro\nWe'll keep advancing open intelligence.",
+      "views": 1381518,
+      "likes": 8710,
+      "reposts": 845,
+      "url": "https://x.com/Kimi_Moonshot/status/2118010528123773297",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWSvVQBaMAAOxi5.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWSvVQBaMAAOxi5.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 04 16:00:35 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "Kimi_Moonshot",
+      "tema": "china"
+    },
+    {
+      "id": "2119851549921018191",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Coming Soon - The World's Best Uncensored Model\n\nSmaug Uncensored\n\n - tops uncensored leaderboards\n-  devoid of Chinese propaganda\n-  zero refusals, great for cyber security\n\nRunning the final evals as we speak",
+      "views": 1259224,
+      "likes": 324,
+      "reposts": 7,
+      "url": "https://x.com/bindureddy/status/2119851549921018191",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/tweet_video_thumb/HWs5X8dboAAQisY.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/tweet_video_thumb/HWs5X8dboAAQisY.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 09 17:56:09 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2118073665296228863",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were fi",
+      "views": 1006718,
+      "likes": 4898,
+      "reposts": 528,
+      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 04 20:11:28 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2117710942826123294",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic research: progress on provable inference for large language models.\n\nHere, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model. It’s substantially more ",
+      "views": 718814,
+      "likes": 5271,
+      "reposts": 541,
+      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 03 20:10:08 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119875119632076957",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Fable 5.2 Is Here And Tops LiveBench\n\n- tops livebench and is the best model in the world\n- cheaper than Fable 5.1 in token cost\n- easier to interact with\n\nTry it today on ChatLLM",
+      "views": 614084,
+      "likes": 146,
+      "reposts": 4,
+      "url": "https://x.com/bindureddy/status/2119875119632076957",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWtO7a2aEAAgsfK.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWtO7a2aEAAgsfK.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 09 19:29:48 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "politica"
+    },
+    {
+      "id": "2118479744979079669",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Hermes Agent v0.23.0: The Hearth Release\n\nHighlights:\n- Desktop in a browser tab\n- One gateway for every conversation\n- /Rewind\n- Group Chats with automatic routing\n- Spend limits for paid tools\n- Lighter and faster\nand more\n\nChangelog below",
+      "views": 541526,
+      "likes": 4055,
+      "reposts": 258,
+      "url": "https://x.com/NousResearch/status/2118479744979079669",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118474269860507648/img/L1YMk0h1km_vWvkm.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118474269860507648/img/L1YMk0h1km_vWvkm.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 23:05:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "otros"
+    },
+    {
+      "id": "2118458629091426304",
+      "autor": "cursor_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+      "texto": "You can now build live apps in Cursor and share them with a link.\n\nAgents have made it easier to write code, but most apps never make it off localhost. Describe the tool you want - Cursor will build it, set up a database, run deterministic and agentic security checks, and deploy.",
+      "views": 492055,
+      "likes": 3735,
+      "reposts": 359,
+      "url": "https://x.com/cursor_ai/status/2118458629091426304",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118458611320131584/img/uUJSIBl8QaDBnoAA.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118458611320131584/img/uUJSIBl8QaDBnoAA.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 21:41:10 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "Cursor_AI",
+      "tema": "producto"
+    },
+    {
+      "id": "2118792930211107115",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New on our Science Blog: How AI is beginning to change scientific modeling.\n\nScientific models help researchers explain and predict real-world systems—like how a single nerve cell fires, or what happens when neutron stars collide. Recent advances have transformed how scientists f",
+      "views": 463404,
+      "likes": 3673,
+      "reposts": 402,
+      "url": "https://x.com/AnthropicAI/status/2118792930211107115",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 19:49:34 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119867707546071125",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Claude Fable 5.2 and Claude Mythos 5.2 are available now:",
+      "views": 402298,
+      "likes": 10164,
+      "reposts": 640,
+      "url": "https://x.com/AnthropicAI/status/2119867707546071125",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 19:00:21 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2117717721458843711",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "Crouton Alpha (stealth model) is free for the next week\n\n1M Context\nMulti-modal\nNo training on data \n\nLimited to certain regions",
+      "views": 362053,
+      "likes": 4532,
+      "reposts": 147,
+      "url": "https://x.com/opencode/status/2117717721458843711",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 03 20:37:04 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "otros"
+    },
+    {
+      "id": "2119867138987176141",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Claude Fable 5.2 is available today on all paid plans, on the Claude Platform, and on all major cloud platforms.\n\nIt’s $8 per million input tokens and $40 per million output tokens, down from $10 and $50.\n\nRead more: https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "views": 349229,
+      "likes": 3341,
+      "reposts": 176,
+      "url": "https://x.com/claudeai/status/2119867138987176141",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 18:58:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118389961426874879",
+      "autor": "GoogleAI",
+      "avatar": "https://pbs.twimg.com/profile_images/2057682346074058752/zTpu89C1_200x200.jpg",
+      "texto": "Meet Gemini Omni 1.2 Flash ⚡️\n\nWe’ve made the model more cost-effective, bumped the video generation and editing limit up to 15 seconds, and made updates to how scenes hold together over time. We've also given character speech an upgrade, reduced visual glitches like jump cuts, a",
+      "views": 326354,
+      "likes": 2554,
+      "reposts": 245,
+      "url": "https://x.com/GoogleAI/status/2118389961426874879",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118387774378192896/img/dPbZ-qxFOtFSBnvZ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118387774378192896/img/dPbZ-qxFOtFSBnvZ.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 17:08:19 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "googleai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118058453415371119",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Plugins, connectors, and skills for Hermes Agent are now unified in a single marketplace so you can easily browse and extend your Hermes experience in a few clicks.\n\nThe new Hermes Marketplace has everything your agent needs:\n\nhttps://hermes-agent.nousresearch.com/marketplace",
+      "views": 298933,
+      "likes": 2415,
+      "reposts": 137,
+      "url": "https://x.com/NousResearch/status/2118058453415371119",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118055737100259328/img/qhQqucR8JtMBTEjs.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118055737100259328/img/qhQqucR8JtMBTEjs.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 19:11:01 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2118073667858887068",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Read the full preprint here: https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf",
+      "views": 290730,
+      "likes": 840,
+      "reposts": 64,
+      "url": "https://x.com/AnthropicAI/status/2118073667858887068",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/tweet_video_thumb/HWTlFvWWIAAYOhX.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/tweet_video_thumb/HWTlFvWWIAAYOhX.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 20:11:28 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119899459761131615",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "During pre-release testing, Claude Fable 5.2 and Claude Mythos 5.2 worked on ambitious projects in many different fields. Here are a few.\n\nFrom a one-paragraph prompt, Fable 5.2 designed three working electronic devices, including this home voice assistant hub.",
+      "views": 285482,
+      "likes": 6645,
+      "reposts": 336,
+      "url": "https://x.com/claudeai/status/2119899459761131615",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2119889970664030208/img/zA7dOkx94Gdcx8Se.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119889970664030208/img/zA7dOkx94Gdcx8Se.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 09 21:06:31 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118094256438936062",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "The Hermes Agent Plugin Hackathon starts now! \n\nIt runs for 7 days, with $20,000 in cash prizes and more.\n\nPlugins are the most powerful way to extend Hermes Agent, and we want this hackathon to show what they can do. A plugin can change anything from the model Hermes runs on, wh",
+      "views": 258261,
+      "likes": 2492,
+      "reposts": 247,
+      "url": "https://x.com/NousResearch/status/2118094256438936062",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118093752044552192/img/TefRcJ92h909qVMn.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118093752044552192/img/TefRcJ92h909qVMn.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 21:33:17 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "producto"
+    },
+    {
+      "id": "2119867136361316437",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Fable and Mythos are the same underlying model. Fable has strong safeguards to guard against misuse.\n\nOrganizations pursuing beneficial applications in cybersecurity or biomedical research can apply for Mythos through our Life Sciences and Cyber Verification Programs.",
+      "views": 254110,
+      "likes": 1649,
+      "reposts": 25,
+      "url": "https://x.com/claudeai/status/2119867136361316437",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 18:58:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2117542298238222588",
+      "autor": "XiaomiTech_",
+      "avatar": "https://pbs.twimg.com/profile_images/2056256394031210496/nBJBueif_200x200.jpg",
+      "texto": "8 hours on the production line. 🤖\n\nXiaomi’s full-size humanoid robot takes on an 8-hour task at the Center Console Side-Cover Sorting Workstation at Xiaomi Auto Factory.\n\nBeyond sustained operation, it can autonomously detect and correct anomalies while coordinating with the prod",
+      "views": 217623,
+      "likes": 915,
+      "reposts": 173,
+      "url": "https://x.com/XiaomiTech_/status/2117542298238222588",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2117502707707838464/img/2OaPToW0eUQsdroG.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2117502707707838464/img/2OaPToW0eUQsdroG.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 03 09:00:00 +0000 2026",
+      "etiqueta": "china-ai",
+      "cuenta": "XiaomiTech_",
+      "tema": "politica"
+    },
+    {
+      "id": "2118774793872769342",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Get more out of your Hermes Bots with free and discounted models exclusive to https://portal.nousresearch.com",
+      "views": 209968,
+      "likes": 605,
+      "reposts": 38,
+      "url": "https://x.com/NousResearch/status/2118774793872769342",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWdmZ0fXQAAEMqi.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWdmZ0fXQAAEMqi.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 06 18:37:30 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2117659447518740960",
+      "autor": "perplexity_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_200x200.jpg",
+      "texto": "Perplexity Computer can automate every part of an e-commerce business.\n\nRun @Meta ads, email marketing in @klaviyo, and @Shopify stores directly inside Computer.\n\nGet started: https://pplx.ai/ecommerce",
+      "views": 190484,
+      "likes": 786,
+      "reposts": 67,
+      "url": "https://x.com/perplexity_ai/status/2117659447518740960",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2117659358691774464/img/eCzmFgWkvnefjz7S.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2117659358691774464/img/eCzmFgWkvnefjz7S.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 03 16:45:31 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "perplexity_ai",
+      "tema": "politica"
+    },
+    {
+      "id": "2118035494898704781",
+      "autor": "perplexity_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_200x200.jpg",
+      "texto": "Computer managed $30k in Meta ad spend for Get Maine Lobster, outperforming their agency.\n\nCompared to their usual ads, Computer delivered 3.5x revenue with 63% higher ROAS. It automated creative analysis, ad production, and media buying.\n\nRead more: https://pplx.ai/gml",
+      "views": 189428,
+      "likes": 761,
+      "reposts": 51,
+      "url": "https://x.com/perplexity_ai/status/2118035494898704781",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118035306914217984/img/sGJjd92ARR2-UPS3.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118035306914217984/img/sGJjd92ARR2-UPS3.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 04 17:39:47 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "perplexity_ai",
+      "tema": "otros"
+    },
+    {
+      "id": "2118389326459670825",
+      "autor": "perplexity_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_200x200.jpg",
+      "texto": "Introducing teammates.\n\nTeammates work for you. They take on jobs, and work proactively using your Computer tasks, skills, memory, and tools. Teammates collaborate with other teammates and can message coworkers in Slack.\n\nAvailable now for Max subscribers on the web.",
+      "views": 182538,
+      "likes": 1094,
+      "reposts": 110,
+      "url": "https://x.com/perplexity_ai/status/2118389326459670825",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2118389256930660352/img/GPUe0mXgz4f2dJ6O.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2118389256930660352/img/GPUe0mXgz4f2dJ6O.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Thu Nov 05 17:05:47 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "perplexity_ai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118755418675765656",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "We’re sharing new research demonstrating how AI agents can accelerate the science of stress-testing encryption.\n\nGuided by humans, our models uncovered two major weaknesses in legacy 1024-bit RSA cryptosystems.\n\nOur VP Science @Pushmeet explains more ↓ https://x.com/pushmeet/stat",
+      "views": 163418,
+      "likes": 1547,
+      "reposts": 203,
+      "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 17:20:31 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2118166186030518472",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Wow",
+      "views": 150472,
+      "likes": 2727,
+      "reposts": 85,
+      "url": "https://x.com/NousResearch/status/2118166186030518472",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWU868AXcAEoB4w.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWU868AXcAEoB4w.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Thu Nov 05 02:19:07 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "otros"
+    },
+    {
+      "id": "2118830173004902641",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "https://nousresearch.com/arete",
+      "views": 136706,
+      "likes": 384,
+      "reposts": 9,
+      "url": "https://x.com/NousResearch/status/2118830173004902641",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 22:17:33 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2118135093617393774",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "Hy4 is now available in OpenCode Go",
+      "views": 133308,
+      "likes": 2007,
+      "reposts": 49,
+      "url": "https://x.com/opencode/status/2118135093617393774",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 05 00:15:34 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "otros"
+    },
+    {
+      "id": "2118590391331279266",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "That's hilarious but you should probably try Hermes which doesn't do that",
+      "views": 120687,
+      "likes": 1493,
+      "reposts": 62,
+      "url": "https://x.com/NousResearch/status/2118590391331279266",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWa-e0PWwAAHXXK.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWa-e0PWwAAHXXK.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 06 06:24:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "otros"
+    },
+    {
+      "id": "2119140502746308674",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "I think there is way too much concern expressed about verification of AI output in everyday work due to a risk of factual errors.\n\nIt used to be true, but data on more recent models suggest they beat human experts, including PhD specialists, in finding facts and checking claims.",
+      "views": 113980,
+      "likes": 1522,
+      "reposts": 209,
+      "url": "https://x.com/emollick/status/2119140502746308674",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HWiyw64XgAAVpak.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWiyw64XgAAVpak.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWizBZjWAAANCev.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWizBZjWAAANCev.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HWizC47WYAAOaZf.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HWizC47WYAAOaZf.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Sat Nov 07 18:50:42 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "politica"
+    },
+    {
+      "id": "2119789096503746751",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "LongCat 2.5 is now free on OpenCode for two weeks\n\n- 1M Context\n- Multi-modal\n- Zero Data Retention",
+      "views": 113165,
+      "likes": 2531,
+      "reposts": 90,
+      "url": "https://x.com/opencode/status/2119789096503746751",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 13:47:59 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "otros"
+    },
+    {
+      "id": "2118840606504218775",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Eval: https://huggingface.co/datasets/NousResearch/Propaganda_Eval\n\nWeights: https://huggingface.co/NousResearch/Arete-27B\n\nTraining data: https://huggingface.co/datasets/NousResearch/arete-data-pairs",
+      "views": 105583,
+      "likes": 321,
+      "reposts": 11,
+      "url": "https://x.com/NousResearch/status/2118840606504218775",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 22:59:01 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2119501958981857543",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s.\n\nHermes first maps what an attacker could reach and which inputs it trusts. It splits the code across parallel subagents, checks every candidate finding against the code,",
+      "views": 104698,
+      "likes": 1465,
+      "reposts": 113,
+      "url": "https://x.com/NousResearch/status/2119501958981857543",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Sun Nov 08 18:47:00 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2119870150845599972",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "I had early access to Fable 5.2 for a bit & I think  it crosses the line into being a sort of Jagged AGI. Here, I have it launch a business, do academic research, hack hardware, build 3D models & more. I think it is a good illustration of limits & powers: https://www.oneusefulthi",
+      "views": 104292,
+      "likes": 1649,
+      "reposts": 126,
+      "url": "https://x.com/emollick/status/2119870150845599972",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 09 19:10:03 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2118830274431873379",
+      "autor": "github",
+      "avatar": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO_200x200.jpg",
+      "texto": "Through internal testing, GitHub’s new Git storage architecture supported 5,000 concurrent agents working on a repo, sending 7,200 pushes per second, all while serving read traffic with consistently low latency. https://x.com/i/article/2118827340377829376",
+      "views": 103289,
+      "likes": 1145,
+      "reposts": 118,
+      "url": "https://x.com/github/status/2118830274431873379",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 06 22:17:58 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "github",
+      "tema": "otros"
+    },
+    {
+      "id": "2118464668444557411",
+      "autor": "vercel",
+      "avatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_200x200.png",
+      "texto": "Deploy apps in one click with @cursor_ai.\n\n• No account to create\n• No deployment configuration\n• Database provisioning included\n\nBuilt on Vercel for Platforms → https://vercel.com/for/platforms",
+      "views": 102818,
+      "likes": 494,
+      "reposts": 49,
+      "url": "https://x.com/vercel/status/2118464668444557411",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 05 22:05:10 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "vercel",
+      "tema": "producto"
+    }
+  ]
+}

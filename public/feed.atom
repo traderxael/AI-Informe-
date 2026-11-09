@@ -5,7 +5,266 @@
   <link href="https://ai-informe.vercel.app/feed.atom" rel="self"/>
   <link href="https://ai-informe.vercel.app/"/>
   <id>https://ai-informe.vercel.app/feed.atom</id>
-  <updated>2026-11-08T17:42:37Z</updated>
+  <updated>2026-11-09T22:00:25Z</updated>
+  <entry>
+    <title>The backlash about data centers might really just be about electricity</title>
+    <link href="https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"/>
+    <id>https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in ...</summary>
+  </entry>
+  <entry>
+    <title>Introducing Control Room: Human control over AI workloads</title>
+    <link href="https://openai.com/index/introducing-control-room"/>
+    <id>https://openai.com/index/introducing-control-room</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic releases new Mythos and Fable models amid RSI concerns</title>
+    <link href="https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"/>
+    <id>https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Anthropic says the new models "show improvements in areas like coding, reasoning, and vision," as well as in communicating more clearly with users.</summary>
+  </entry>
+  <entry>
+    <title>Apple’s $50 Intelligence Usage Packs extend access to some AI features</title>
+    <link href="https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"/>
+    <id>https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to "Buy More Usage" for a one-time p...</summary>
+  </entry>
+  <entry>
+    <title>Anthropic launches new Claude Fable and Mythos 5.2 models</title>
+    <link href="https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"/>
+    <id>https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on "daunting" technical challenges. The company claims the new models show impr...</summary>
+  </entry>
+  <entry>
+    <title>Instagram’s Effect Builder makes new filters from AI prompts</title>
+    <link href="https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"/>
+    <id>https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents wh...</summary>
+  </entry>
+  <entry>
+    <title>Claude Code is accidentally exposing secrets all over GitHub</title>
+    <link href="https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"/>
+    <id>https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>"Do not ask again" prompt leads to passwords, API keys, and more being shared.</summary>
+  </entry>
+  <entry>
+    <title>Innovating with AI in the special chemicals industry</title>
+    <link href="https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"/>
+    <id>https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific exper...</summary>
+  </entry>
+  <entry>
+    <title>The global pledge to use AI for climate good is a cruel joke</title>
+    <link href="https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31"/>
+    <id>https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>At this point, reading through the latest splashy pledge to use AI for the good of the environment feels like downing a nonalcoholic beer. Admittedly, I'm suspicious from the onset. How can this be go...</summary>
+  </entry>
+  <entry>
+    <title>Medium’s new TK app brings AI assistance directly into the writing process</title>
+    <link href="https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/"/>
+    <id>https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.</summary>
+  </entry>
+  <entry>
+    <title>CodeRabbit scales agentic software development and ships 20x more</title>
+    <link href="https://openai.com/index/coderabbit-codex-daybreak"/>
+    <id>https://openai.com/index/coderabbit-codex-daybreak</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</summary>
+  </entry>
+  <entry>
+    <title>Kuken Industries searches 70 years of drawings in minutes</title>
+    <link href="https://openai.com/index/kuken"/>
+    <id>https://openai.com/index/kuken</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.</summary>
+  </entry>
+  <entry>
+    <title>Hold up — I had a great time talking to the RIAA guy</title>
+    <link href="https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music"/>
+    <id>https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s vi...</summary>
+  </entry>
+  <entry>
+    <title>Jonathan Kanter is using AI to take on Big Tech</title>
+    <link href="https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech"/>
+    <id>https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight ...</summary>
+  </entry>
+  <entry>
+    <title>Automattic debuts a platform to deploy vibe-coding apps amid a changing internet</title>
+    <link href="https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"/>
+    <id>https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Automattic aims to compete with the likes of Lovable with Spacefast.</summary>
+  </entry>
+  <entry>
+    <title>CISA Announces Enhanced Reporting Form for Cyber Incidents</title>
+    <link href="https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents"/>
+    <id>https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.</summary>
+  </entry>
+  <entry>
+    <title>Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?</title>
+    <link href="https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/"/>
+    <id>https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.</summary>
+  </entry>
+  <entry>
+    <title>I Let Pangram Loose on My Gmail Inbox. Here’s How Much AI It Found</title>
+    <link href="https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/"/>
+    <id>https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>The AI detector will now check your incoming emails for machine-generated text.</summary>
+  </entry>
+  <entry>
+    <title>Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context</title>
+    <link href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"/>
+    <id>https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>PNC Bank tests turning USDC payments into dollar deposits</title>
+    <link href="https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound"/>
+    <id>https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>The pilot lets eligible corporate and institutional clients accept USDC on Ethereum, with each token converted to one US dollar before deposit.</summary>
+  </entry>
+  <entry>
+    <title>Your Experts Have Partners. There's HOPE for Keeping Them Together</title>
+    <link href="https://huggingface.co/blog/amazon/higher-order-pruning-experts"/>
+    <id>https://huggingface.co/blog/amazon/higher-order-pruning-experts</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records</title>
+    <link href="https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/"/>
+    <id>https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash ...</summary>
+  </entry>
+  <entry>
+    <title>NIST: Solo Shouldn't Mean Less Secure</title>
+    <link href="https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure"/>
+    <id>https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.</summary>
+  </entry>
+  <entry>
+    <title>The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.</title>
+    <link href="https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/"/>
+    <id>https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-...</summary>
+  </entry>
+  <entry>
+    <title>“AI毁了我的计算机学位”</title>
+    <link href="https://www.qbitai.com/2026/11/508706.html"/>
+    <id>https://www.qbitai.com/2026/11/508706.html</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>教授也用Claude糊弄…</summary>
+  </entry>
+  <entry>
+    <title>During pre-release testing, Claude Fable 5.2 and Claude Mythos 5.2 worked on ambitious projects in many different fields. Here are a few. From a one-paragraph prompt, Fable 5.2 designed three working…</title>
+    <link href="https://x.com/claudeai/status/2119899459761131615"/>
+    <id>https://x.com/claudeai/status/2119899459761131615</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>285.482 visualizaciones · 6.645 me gusta</summary>
+  </entry>
+  <entry>
+    <title>🚨 Fable 5.2 Is Here And Tops LiveBench - tops livebench and is the best model in the world - cheaper than Fable 5.1 in token cost - easier to interact with Try it today on ChatLLM</title>
+    <link href="https://x.com/bindureddy/status/2119875119632076957"/>
+    <id>https://x.com/bindureddy/status/2119875119632076957</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>614.084 visualizaciones · 146 me gusta</summary>
+  </entry>
+  <entry>
+    <title>I had early access to Fable 5.2 for a bit &amp; I think it crosses the line into being a sort of Jagged AGI. Here, I have it launch a business, do academic research, hack hardware, build 3D models &amp; more…</title>
+    <link href="https://x.com/emollick/status/2119870150845599972"/>
+    <id>https://x.com/emollick/status/2119870150845599972</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>104.292 visualizaciones · 1.649 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Claude Fable 5.2 and Claude Mythos 5.2 are available now:</title>
+    <link href="https://x.com/AnthropicAI/status/2119867707546071125"/>
+    <id>https://x.com/AnthropicAI/status/2119867707546071125</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>402.298 visualizaciones · 10.164 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Claude Fable 5.2 is available today on all paid plans, on the Claude Platform, and on all major cloud platforms. It’s $8 per million input tokens and $40 per million output tokens, down from $10 and…</title>
+    <link href="https://x.com/claudeai/status/2119867138987176141"/>
+    <id>https://x.com/claudeai/status/2119867138987176141</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>349.229 visualizaciones · 3.341 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Fable and Mythos are the same underlying model. Fable has strong safeguards to guard against misuse. Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply f…</title>
+    <link href="https://x.com/claudeai/status/2119867136361316437"/>
+    <id>https://x.com/claudeai/status/2119867136361316437</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>254.110 visualizaciones · 1.649 me gusta</summary>
+  </entry>
+  <entry>
+    <title>🚨 Coming Soon - The World's Best Uncensored Model Smaug Uncensored - tops uncensored leaderboards - devoid of Chinese propaganda - zero refusals, great for cyber security Running the final evals as w…</title>
+    <link href="https://x.com/bindureddy/status/2119851549921018191"/>
+    <id>https://x.com/bindureddy/status/2119851549921018191</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>1.259.224 visualizaciones · 324 me gusta</summary>
+  </entry>
+  <entry>
+    <title>LongCat 2.5 is now free on OpenCode for two weeks - 1M Context - Multi-modal - Zero Data Retention</title>
+    <link href="https://x.com/opencode/status/2119789096503746751"/>
+    <id>https://x.com/opencode/status/2119789096503746751</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>113.165 visualizaciones · 2.531 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s. Hermes first maps what an attacker could reach and which inputs it trusts. It splits the…</title>
+    <link href="https://x.com/NousResearch/status/2119501958981857543"/>
+    <id>https://x.com/NousResearch/status/2119501958981857543</id>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary>104.698 visualizaciones · 1.465 me gusta</summary>
+  </entry>
+  <entry>
+    <title>I think there is way too much concern expressed about verification of AI output in everyday work due to a risk of factual errors. It used to be true, but data on more recent models suggest they beat…</title>
+    <link href="https://x.com/emollick/status/2119140502746308674"/>
+    <id>https://x.com/emollick/status/2119140502746308674</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>113.980 visualizaciones · 1.522 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Eval: Weights: Training data:</title>
+    <link href="https://x.com/NousResearch/status/2118840606504218775"/>
+    <id>https://x.com/NousResearch/status/2118840606504218775</id>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>105.583 visualizaciones · 321 me gusta</summary>
+  </entry>
+  <entry>
+    <title>Through internal testing, GitHub’s new Git storage architecture supported 5,000 concurrent agents working on a repo, sending 7,200 pushes per second, all while serving read traffic with consistently…</title>
+    <link href="https://x.com/github/status/2118830274431873379"/>
+    <id>https://x.com/github/status/2118830274431873379</id>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>103.289 visualizaciones · 1.145 me gusta</summary>
+  </entry>
   <entry>
     <title>Elvis and Eminem rights holders are suing Suno</title>
     <link href="https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"/>
@@ -26,264 +285,5 @@
     <id>https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/</id>
     <updated>2026-11-08T00:00:00Z</updated>
     <summary>The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.</summary>
-  </entry>
-  <entry>
-    <title>While AI speeds up SMEs, delivery remains hard to automate</title>
-    <link href="https://www.scmp.com/presented/business/topics/scale-fast-demand-logistics/article/3373245/while-ai-speeds-smes-delivery-remains-hard-automate"/>
-    <id>https://www.scmp.com/presented/business/topics/scale-fast-demand-logistics/article/3373245/while-ai-speeds-smes-delivery-remains-hard-automate</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>[The content of this article has been produced by our advertising partner.] SMEs across Asia and Latin America are increasingly using AI in their daily operations, but getting goods to customers remai...</summary>
-  </entry>
-  <entry>
-    <title>After the midterms, things are looking rocky for Elon Musk and data centers</title>
-    <link href="https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"/>
-    <id>https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>On Equity, we unpacked what the midterms mean for the tech industry.</summary>
-  </entry>
-  <entry>
-    <title>Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding</title>
-    <link href="https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/"/>
-    <id>https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code. The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-Fir...</summary>
-  </entry>
-  <entry>
-    <title>Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared</title>
-    <link href="https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/"/>
-    <id>https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Rout...</summary>
-  </entry>
-  <entry>
-    <title>资本正在撤离“世界模型”</title>
-    <link href="https://www.qbitai.com/2026/11/508466.html"/>
-    <id>https://www.qbitai.com/2026/11/508466.html</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>没有永远的夏天</summary>
-  </entry>
-  <entry>
-    <title>NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake</title>
-    <link href="https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"/>
-    <id>https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, "Chicken again?" Yes, I should meal plan more, b...</summary>
-  </entry>
-  <entry>
-    <title>MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)</title>
-    <link href="https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/"/>
-    <id>https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one. The post M...</summary>
-  </entry>
-  <entry>
-    <title>Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%</title>
-    <link href="https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/"/>
-    <id>https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Re...</summary>
-  </entry>
-  <entry>
-    <title>Beijing’s latest property stimulus falls short in lower-tier-cities</title>
-    <link href="https://www.scmp.com/business/china-business/article/3373497/beijings-latest-property-stimulus-falls-short-lower-tier-cities"/>
-    <id>https://www.scmp.com/business/china-business/article/3373497/beijings-latest-property-stimulus-falls-short-lower-tier-cities</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Beijing’s latest property stimulus package has failed to stop a downward spiral in home transactions and prices in mainland China’s lower-tier cities, which could prompt top regulators to roll out str...</summary>
-  </entry>
-  <entry>
-    <title>Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough</title>
-    <link href="https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/"/>
-    <id>https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.</summary>
-  </entry>
-  <entry>
-    <title>How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide</title>
-    <link href="https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/"/>
-    <id>https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run pa...</summary>
-  </entry>
-  <entry>
-    <title>GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞</title>
-    <link href="https://www.qbitai.com/2026/11/508449.html"/>
-    <id>https://www.qbitai.com/2026/11/508449.html</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>AI写代码太快，基础设施跟不上了</summary>
-  </entry>
-  <entry>
-    <title>All the latest updates on AI data centers</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the w...</summary>
-  </entry>
-  <entry>
-    <title>Meta introduces Spaces, a new way to collaborate with your Muse agent</title>
-    <link href="https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"/>
-    <id>https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI新融资到账110亿美元，不及原计划一半</title>
-    <link href="https://www.qbitai.com/2026/11/508344.html"/>
-    <id>https://www.qbitai.com/2026/11/508344.html</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>融资缩水，硅谷投资人也谨慎了</summary>
-  </entry>
-  <entry>
-    <title>How a Blue Wave midterm might reshape the AI industry</title>
-    <link href="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"/>
-    <id>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the ...</summary>
-  </entry>
-  <entry>
-    <title>为了去AI味，人类开始主动写烂文章了……</title>
-    <link href="https://www.qbitai.com/2026/11/508330.html"/>
-    <id>https://www.qbitai.com/2026/11/508330.html</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......</summary>
-  </entry>
-  <entry>
-    <title>“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.</title>
-    <link href="https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/"/>
-    <id>https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Meta won't force Facebook page owners to allow AI training on linked content.</summary>
-  </entry>
-  <entry>
-    <title>After the midterms, is the AI industry in for a rough two years?</title>
-    <link href="https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"/>
-    <id>https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the ...</summary>
-  </entry>
-  <entry>
-    <title>AI is the new dating dealbreaker</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the ...</summary>
-  </entry>
-  <entry>
-    <title>Big Tech lost big in the 2026 election</title>
-    <link href="https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"/>
-    <id>https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data cente...</summary>
-  </entry>
-  <entry>
-    <title>Could potential AI clones of GTA VI force a quicker official port?</title>
-    <link href="https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/"/>
-    <id>https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>A former Rockstar tech director thinks the developer is facing new time pressures.</summary>
-  </entry>
-  <entry>
-    <title>Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values. Chinese open models are currently the strongest available, but they ship with state-aligned behavior in the weights. We b…</title>
-    <link href="https://x.com/NousResearch/status/2118822925445050435"/>
-    <id>https://x.com/NousResearch/status/2118822925445050435</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>2.096.912 visualizaciones · 14.210 me gusta</summary>
-  </entry>
-  <entry>
-    <title>Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs mo…</title>
-    <link href="https://x.com/AnthropicAI/status/2118814753154064501"/>
-    <id>https://x.com/AnthropicAI/status/2118814753154064501</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>1.855.412 visualizaciones · 13.640 me gusta</summary>
-  </entry>
-  <entry>
-    <title>We partnered with @fmf_org and its member firms on a new framework to help identify when bypassing an AI system's safeguards could enable serious cyber harm, and prioritize stronger protections. "...…</title>
-    <link href="https://x.com/OpenAI/status/2118795218099253606"/>
-    <id>https://x.com/OpenAI/status/2118795218099253606</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>354.087 visualizaciones · 1.625 me gusta</summary>
-  </entry>
-  <entry>
-    <title>New on our Science Blog: How AI is beginning to change scientific modeling. Scientific models help researchers explain and predict real-world systems—like how a single nerve cell fires, or what happe…</title>
-    <link href="https://x.com/AnthropicAI/status/2118792930211107115"/>
-    <id>https://x.com/AnthropicAI/status/2118792930211107115</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>436.547 visualizaciones · 3.592 me gusta</summary>
-  </entry>
-  <entry>
-    <title>A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench. Developed with Ligo, a biotech company focused on enzyme design, the benchmark draws on 100 tasks fro…</title>
-    <link href="https://x.com/OpenAI/status/2118782708767965238"/>
-    <id>https://x.com/OpenAI/status/2118782708767965238</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>820.369 visualizaciones · 3.704 me gusta</summary>
-  </entry>
-  <entry>
-    <title>Get more out of your Hermes Bots with free and discounted models exclusive to</title>
-    <link href="https://x.com/NousResearch/status/2118774793872769342"/>
-    <id>https://x.com/NousResearch/status/2118774793872769342</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>206.247 visualizaciones · 597 me gusta</summary>
-  </entry>
-  <entry>
-    <title>We’re sharing new research demonstrating how AI agents can accelerate the science of stress-testing encryption. Guided by humans, our models uncovered two major weaknesses in legacy 1024-bit RSA cryp…</title>
-    <link href="https://x.com/GoogleDeepMind/status/2118755418675765656"/>
-    <id>https://x.com/GoogleDeepMind/status/2118755418675765656</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>144.856 visualizaciones · 1.497 me gusta</summary>
-  </entry>
-  <entry>
-    <title>The becoming begins.</title>
-    <link href="https://x.com/Alibaba_Qwen/status/2118674834632978755"/>
-    <id>https://x.com/Alibaba_Qwen/status/2118674834632978755</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>2.574.931 visualizaciones · 18.400 me gusta</summary>
-  </entry>
-  <entry>
-    <title>Hermes Agent v0.23.0: The Hearth Release Highlights: - Desktop in a browser tab - One gateway for every conversation - /Rewind - Group Chats with automatic routing - Spend limits for paid tools - Lig…</title>
-    <link href="https://x.com/NousResearch/status/2118479744979079669"/>
-    <id>https://x.com/NousResearch/status/2118479744979079669</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>528.951 visualizaciones · 4.007 me gusta</summary>
-  </entry>
-  <entry>
-    <title>You can now build live apps in Cursor and share them with a link. Agents have made it easier to write code, but most apps never make it off localhost. Describe the tool you want - Cursor will build i…</title>
-    <link href="https://x.com/cursor_ai/status/2118458629091426304"/>
-    <id>https://x.com/cursor_ai/status/2118458629091426304</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>480.231 visualizaciones · 3.722 me gusta</summary>
-  </entry>
-  <entry>
-    <title>Introducing Personal Finance in Claude, in beta in the US. Connect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Acce…</title>
-    <link href="https://x.com/claudeai/status/2118403114890137895"/>
-    <id>https://x.com/claudeai/status/2118403114890137895</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>11.316.313 visualizaciones · 46.054 me gusta</summary>
-  </entry>
-  <entry>
-    <title>Like the rest of Claude, Personal Finance has no ads or sponsored recommendations. It helps you understand your money, and it isn’t designed to give investment advice. Rolling out gradually in the US…</title>
-    <link href="https://x.com/claudeai/status/2118403117779988744"/>
-    <id>https://x.com/claudeai/status/2118403117779988744</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <summary>551.675 visualizaciones · 1.995 me gusta</summary>
-  </entry>
-  <entry>
-    <title>NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake</title>
-    <link href="https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"/>
-    <id>https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, "Chicken again?" Yes, I should meal plan more, b...</summary>
-  </entry>
-  <entry>
-    <title>Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough</title>
-    <link href="https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/"/>
-    <id>https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.</summary>
-  </entry>
-  <entry>
-    <title>All the latest updates on AI data centers</title>
-    <link href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"/>
-    <id>https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the w...</summary>
   </entry>
 </feed>

@@ -1,24 +1,334 @@
 {
-  "generated_at": "2026-11-08T17:43:05.425543+00:00",
+  "generated_at": "2026-11-09T22:00:53.298304+00:00",
   "count": 20,
   "sources": [
-    "BleepingComputer",
+    "Ars Technica AI",
+    "Dark Reading",
     "Google News — IA Alemania",
-    "Google News — IA China (zh)",
+    "Google News — IA Francia",
     "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
+    "SCMP Business",
     "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
+      "id": "8fafafe937d1",
+      "title": "Opinión | ¿Claude tiene alma? Pregúntale a Dios, no a Antrópico.",
+      "summary": "Claude no posee conciencia; la cuestión de su “alma” solo puede responderse desde la fe, no desde la tecnología de Anthropic.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0hhX1U4aHV4OTRSb3JZRDZPQ1NEYWtzVDRVYU5jX2tUMVNpU2NZakVrN0hjRTV1Qy1vb2k1cElOOUxXZi1GeEdXX1B2WlhRMEZXUHMwWXlfNWs1TlpaR1FhLWliZEZpN3JIaHd4bWFmcmRTdGFFRTQyZWJsTjQ2TVE3bGNyMTY4dnFHVlk5Y0pIOGFLUExRVnFZTE52bkJncHJ1YUFTZG9RQk1RXzJBZDJn?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The Washington Post",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-09T20:30:00+00:00",
+      "title_orig": "Opinion | Does Claude have a soul? Ask God, not Anthropic.",
+      "summary_orig": ""
+    },
+    {
+      "id": "69da8118b9be",
+      "title": "Anthropic lanza Fable 5.2, una versión más potente y barata de su modelo de inteligencia artificial",
+      "summary": "Anthropic presenta Fable 5.2, una versión más potente y económica de su modelo de IA, según informa Le Figaro.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQS1A4SVh5TnkxOVdVdHM1dlhvaEJKcWpOU0tyVzRxclNiNkJ6eXNndThXZ2RpSHBrNUYzaUtTT2ozak1ZZGtGYUYtaDd3UHFXc1hzSnAzOE5GWTA2ckM2bkgwbllwaEZlQlZ5ZTVIdVF3ZEx1Q2I2MVVYNm9HYUtYLVdqUmZlSzdRTk5BeWRYdkMyaGF1b09FbTQzN0FFSXlHREc5M0gwRVlzMnd6VFVfQUkyQzhzRmRSVk51LUoxbWNmTmFTeVdzak5kb00ybmJBRTBsQnFvWUE2cl8wV2tCRDZqalgyVVJxZGljOXNHWG5hTTItdGc?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Figaro",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-09T19:27:24+00:00",
+      "title_orig": "Anthropic lance Fable 5.2, une version plus puissante et moins coûteuse de son modèle d’intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
+      "id": "2b128ff09548",
+      "title": "Anthropic lanza nuevos modelos Mythos y Fable en medio de las preocupaciones de RSI",
+      "summary": "Anthropic afirma que sus nuevos modelos mejoran en codificación, razonamiento, visión y comunicación más clara con los usuarios.",
+      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T19:24:51+00:00",
+      "title_orig": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "summary_orig": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users."
+    },
+    {
+      "id": "9c331579e229",
+      "title": "ChatGPT Enterprise ahora disponible en AWS Marketplace",
+      "summary": "ChatGPT Enterprise ya está disponible en AWS Marketplace, facilitando a las organizaciones la compra mediante sus relaciones de facturación y adquisición de AWS.",
+      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T19:00:00+00:00",
+      "title_orig": "ChatGPT Enterprise now available in AWS Marketplace",
+      "summary_orig": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
+    },
+    {
+      "id": "adccb074fbff",
+      "title": "Los atacantes bloquean la falla de 'Office Party' de Claude para ejecutar código malicioso en Linux",
+      "summary": "Los atacantes pueden aprovechar una vulnerabilidad en la herramienta de procesamiento de documentos de Claude creando un archivo temporal que el asistente de IA de Anthropic ejecuta en la máquina del usuario.",
+      "sourceUrl": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T18:08:30+00:00",
+      "title_orig": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+      "summary_orig": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine."
+    },
+    {
+      "id": "e596647c7083",
+      "title": "Mistral Large 4: cómo una startup francesa de IA quiere salvar a Europa de la adicción",
+      "summary": "Mistral Large 4 es el modelo de IA de una startup francesa que busca impulsar la soberanía tecnológica europea y reducir la dependencia de EE. UU.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZl9meVpDSmtCaE5UbUg3RmhZeHpYMXBqb3VLbEgxaXBNNjhoeVVuWHVZUkNiRkNaaTFFbzZqMEFPeGlMSG9KNmZCRHRMaEFIYmVlLVhtN0REZmVPcWlnVUUxQ0N2cFpaN05iZ20xOW9Ca1o2eWVON3YtNFp0ak92cVhWQ3pNNTJ1Y210VkFjWk83TTIxWHZjaXNPVHpXYzYwNEdtX2ZGeERRODNmNWNIUw?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "SZ.de",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-09T18:07:43+00:00",
+      "title_orig": "Mistral Large 4: Wie ein französisches KI-Start-up Europa vor der Abhängigkeit bewahren will",
+      "summary_orig": ""
+    },
+    {
+      "id": "4065836ff3f5",
+      "title": "Claude Code está exponiendo accidentalmente secretos en todo GitHub",
+      "summary": "El mensaje “No volver a preguntar” hace que usuarios compartan contraseñas, claves API y otros datos sensibles.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T17:24:26+00:00",
+      "title_orig": "Claude Code is accidentally exposing secrets all over GitHub",
+      "summary_orig": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared."
+    },
+    {
+      "id": "ea1cff75717b",
+      "title": "Anthropic se une al frenesí de gas natural de AI, compra turbinas por valor de $ 3.400 millones",
+      "summary": "Anthropic adquirió turbinas de gas por miles de millones, una compra que podría causarle arrepentimiento.",
+      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T16:56:54+00:00",
+      "title_orig": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "summary_orig": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse."
+    },
+    {
+      "id": "42ba3d659a7c",
+      "title": "El sistema de investigación automatizado ERNIE Evolve de Baidu supera los registros de NanoChat y NanoGPT",
+      "summary": "El sistema automático ERNIE Evolve de Baidu mejora código, verifica resultados y supera récords en NanoChat, NanoGPT Speedrun y acelera la inferencia de ERNIE‑5.5‑Flash.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T16:31:59+00:00",
+      "title_orig": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
+      "summary_orig": "Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash inference. The post Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records appeared first on MarkTechPost ."
+    },
+    {
+      "id": "b7952586ad9f",
+      "title": "Anthropic, PBC es líder mundial en la industria de la inteligencia artificial",
+      "summary": "Anthropic, PBC es líder mundial en la industria de la inteligencia artificial, según Finam.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUktXYldCTmplZWppNkJ6SXdLOHMzbnF6R0tSQjJyVXY1bXB0UE9zcnhwWDBNTU1pZXpKelBxa3ZVMjRCLWFsVzRXTk1CZ2hTZzluMFR1bzhxRkpNRmNrTVR0M0F2UC1jVk82VHdiU3hyNFFKNmlKOV9XNnhjV3NWOXJXdWY1MHB0czUtQjN4RjljelJsTWM0WEVIeEkxNXFPTkNiWXdJRjg3TmlkSE1IWnBLeVNiOE9XRjJJZg?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Финам",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-09T14:21:07+00:00",
+      "title_orig": "Anthropic, PBC — глобальный лидер индустрии искусственного интеллекта",
+      "summary_orig": ""
+    },
+    {
+      "id": "5d57e1aa0817",
+      "title": "Presentamos la Sala de control: control humano sobre las cargas de trabajo de IA",
+      "summary": "OpenAI Control Room monitoriza la carga de los modelos en la infraestructura de investigación y los detiene rápidamente ante problemas de seguridad o seguridad.",
+      "sourceUrl": "https://openai.com/index/introducing-control-room",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T13:00:00+00:00",
+      "title_orig": "Introducing Control Room: Human control over AI workloads",
+      "summary_orig": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
+    },
+    {
+      "id": "a2c922a06d73",
+      "title": "Ex ingeniero de OpenAI se declara inocente de plantar un dispositivo encubierto en la sala de reuniones ejecutivas",
+      "summary": "El ingeniero de OpenAI, Abdulrahman Alfozan, detenido por colocar un micrófono oculto, se declaró no culpable y su próxima audiencia será el 17 de noviembre de 2026.",
+      "sourceUrl": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-11-09T12:35:48+05:30",
+      "title_orig": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+      "summary_orig": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the"
+    },
+    {
+      "id": "d51ea73e96c2",
+      "title": "¡Tencent Hybrid se encuentra entre los modelos de código abierto más potentes! Prueba Hy4 con una sola mano: con WorkBuddy, la entrega de agentes multimodales está completa",
+      "summary": "Tencent Hybrid destaca como uno de los modelos de código abierto más potentes; con WorkBuddy, la entrega de agentes multimodales ya está completa.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507843.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T08:44:00+00:00",
+      "title_orig": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "summary_orig": ""
+    },
+    {
+      "id": "33c824e20702",
+      "title": "Los agentes de IA de Google DeepMind hacen que las claves RSA de 1024 bits sean más baratas de atacar",
+      "summary": "DeepMind, junto a criptógrafos, logró que sus IA reduzcan el costo de falsificar firmas RSA‑1024 y descubran un método más barato para factorizar claves.",
+      "sourceUrl": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T08:35:50+00:00",
+      "title_orig": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+      "summary_orig": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek ."
+    },
+    {
+      "id": "23b94c697622",
+      "title": "CodeRabbit escala el desarrollo de software auténtico y se envía 20 veces más",
+      "summary": "CodeRabbit emplea modelos de OpenAI y Codex para gestionar y confiar en código generado por IA, logrando producir 20 veces más software con el mismo equipo.",
+      "sourceUrl": "https://openai.com/index/coderabbit-codex-daybreak",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T08:00:00+00:00",
+      "title_orig": "CodeRabbit scales agentic software development and ships 20x more",
+      "summary_orig": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team."
+    },
+    {
+      "id": "932fe34bad72",
+      "title": "Kuken Industries busca 70 años de dibujos en minutos",
+      "summary": "Kuken Industries usa la API de OpenAI para buscar en 70 años de planos de torres de enfriamiento, reduciendo el tiempo de encontrar uno para reparación de casi una hora a 4,5 minutos.",
+      "sourceUrl": "https://openai.com/index/kuken",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T08:00:00+00:00",
+      "title_orig": "Kuken Industries searches 70 years of drawings in minutes",
+      "summary_orig": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
+    },
+    {
+      "id": "7fac3a1dd78c",
+      "title": "Jefe de IA en Tencent: la inteligencia artificial pronto dominará la biología y creará nuevas amenazas de seguridad",
+      "summary": "El jefe de IA de Tencent advierte que la inteligencia artificial pronto dominará la biología, generando nuevas amenazas de seguridad.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZHR2TEFUZkdMek5VR0hDUzJpTXVhaW9YUGY1eWhidkE4MUdVWTBoV0Rzc1ZkaWtZY01fTmM0WVRRb1ZBS0hNX0tzdnVDd1BTamVVVUJkeXdwQVU4dWFVYThKazIwYm5LTk5VTFBwT1RkR2RFQmZtalRQU0M5MlU0dlFldEFKYUpoMmEwcUUwcDZ1aElNUDVhWUI3VlNwZlo4YWNqb2dEQl9BdkYxRDRZR1ZTMUNtbDFzUTN6eXE3NGFYRGJaS29McQ?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Incrussia",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "news",
+      "published": "2026-11-09T07:03:13+00:00",
+      "title_orig": "Глава ИИ в Tencent: искусственный интеллект вскоре освоит биологию и создаст новые угрозы безопасности",
+      "summary_orig": ""
+    },
+    {
+      "id": "d515f1fe1a57",
+      "title": "¿Puede DeepSeek desafiar a OpenAI, Anthropic en los agentes de IA a medida que despega la adopción de Harness?",
+      "summary": "El agente de IA Harness de DeepSeek alcanzó 1,54 millones de usuarios activos diarios y consumió 92 billones de tokens en menos de tres meses.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt",
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-11-09T07:00:04+00:00",
+      "title_orig": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?",
+      "summary_orig": "DeepSeek’s Harness artificial intelligence agent framework has reached 1.54 million daily active users less than three months after launch, the Chinese AI champion said on Sunday, marking rapid growth in a new battleground between leading Chinese and American AI giants. Users of Harness through the company’s official application programming interface were consuming around 92 trillion tokens a day"
+    },
+    {
       "id": "0d6adb4565b6",
       "title": "¿Qué ruta utiliza cada modelo de Moe? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Comparado",
-      "summary": "Comparación verificada de 10 modelos MoE abiertos que muestra cómo enrutan tokens, sus parámetros, número de expertos, top‑k, expertos compartidos, funciones de gating y balanceo de carga.",
+      "summary": "Comparan 10 modelos MoE abiertos, analizando parámetros, número de expertos, top‑k, expertos compartidos, funciones de gating y balanceo de carga.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -36,60 +346,9 @@
       "summary_orig": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared appeared first on MarkTechPost ."
     },
     {
-      "id": "51479f47ef0b",
-      "title": "La IA pronto dominará la biología, desatando nuevos riesgos de seguridad: jefe de IA de Tencent",
-      "summary": "La IA pronto controlará la biología, generando nuevos riesgos de seguridad, según el jefe de IA de Tencent.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdG5GcTBnWUYyWVF1d1JlbTNHSktqck5Ua0hxUE8yWmUxYTBCdVpJN0pfNUpnNWdvS1hIZ1FqVnFGMFdsNWVjckJEQWhsZGZ3dUsyaGhESWh3dUlHU2E4QTdHOXktekswajltS3dCZ01HU3dJSG5fb0ZoaVlCOF9TUGIxZGJ3WEtJWi03NGdaaFlxLTNobm82NC1vVTF6c3BfeGFua0NGMURSQ2t3WDlIeHZVdDRCdmR3blgzVXM0REpCbWNSdzBSMNIByAFBVV95cUxOOHpVdlFWVWtTQS1UOTM0QVFOblZPY2ZuOEpiS2hrcXk5N2RUSE13VjZuc1RvZ3NyMWFkZWV1QXZTLUtVNHRFd0sxYlVOWmJNenZEeC1ENTVhNExZbnl6QUREU0ljWGZPV3VZUTY2dTNyZjA1LW5nV1FNdHJOTVJIMUlaQ0lsU19CNHVKNFdsMDhteUc1MmtwOF9ReUVBMXN4QnlaaHdQcEhPVWNXT2ZMMjkwUG9MRVBRUXRuOTh5ZTh0M1NEUlY0Ng?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "South China Morning Post",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "hunyuan"
-      ],
-      "source": "news",
-      "published": "2026-11-08T10:22:27+00:00",
-      "title_orig": "AI will soon master biology, unleashing new safety risks: Tencent AI chief",
-      "summary_orig": ""
-    },
-    {
-      "id": "a80297f4b69f",
-      "title": "OpenAI No Alert Mass Title - AI",
-      "summary": "OpenAI no emite alerta masivo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMMVVkbHkwT1BZWWdid2Y0SHhkbjZoT3NoT1VNTmxzV01MM2tUdVlIVHBQNXhVaU9YR2ttTE5QTF9DdHJqRXh2X3haQ2U2RHJ1UjJUTkJhNEw3My02cWF2Rw?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "cnBeta.COM",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-08T08:09:00+00:00",
-      "title_orig": "OpenAI 无预警大规模封号- AI 人工智能",
-      "summary_orig": ""
-    },
-    {
-      "id": "74303298e101",
-      "title": "«Capitulación cognitiva» debido a los agentes de IA: los desarrolladores de Anthropic ven un patrón peligroso",
-      "summary": "Los desarrolladores de Anthropic advierten que la “capitulación cognitiva” ante agentes de IA está creando un patrón peligroso.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVTRqMUpqdkdQU1RVN3BnblhUTFJ1eG1KRzJiMUFTZXFSWmJOWDBrb1J1RXVHcGtBZFJsQXQ0TjNEZThxdllmVzRSSlJ4aDUyU0RnUHc0ZEZ0dmJRTFZmNWM0MjAyV3h2b1QtMUtxc2FQMnFGLVJYUWNiV3JrZWlYYk9JUUhWUUsxUFQwNmdEMWxOdjZJQV9TSThtQnRaOHhGME9CR3YxVXltQ2do?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Business Insider Deutschland",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-08T07:35:03+00:00",
-      "title_orig": "„Kognitive Kapitulation“ wegen KI-Agenten – Anthropic-Entwickler sieht ein gefährliches Muster",
-      "summary_orig": ""
-    },
-    {
       "id": "92f859ede504",
       "title": "Cómo ejecutar NVIDIA Dory 4B con llama.cpp: Guía bucle a bucle",
-      "summary": "Guía completa para ejecutar el modelo Dory 1.0 4B de NVIDIA con llama.cpp, incluye compilación, análisis de costos por bucle, pruebas de caché y evaluaciones.",
+      "summary": "Guía completa para ejecutar el modelo Dory 1.0 4B de NVIDIA con llama.cpp, incluye compilación, costos por bucle, caché de memoria y evaluaciones.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -102,260 +361,6 @@
       "published": "2026-11-07T19:22:44+00:00",
       "title_orig": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
       "summary_orig": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations. The post How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide appeared first on MarkTechPost ."
-    },
-    {
-      "id": "ef31a09309a7",
-      "title": "La inteligencia artificial está cambiando el lenguaje escrito. Los autores tienen que escribir \"más humanamente\" para no parecerse a ChatGPT. Los sistemas como Pangram para encontrar IA en los textos también son influyentes",
-      "summary": "La IA transforma la escritura: los autores deben sonar más humanos para evitar parecer ChatGPT, y herramientas como Pangram detectan textos generados.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOMVpMQWJlMHJLNFNicTBiVDlMNHRYbThkWXdsVUM3Y0lyYWYyWDF1UUZQcnoxVkxNWkRncE1BZ3lTTXlhN0JmLXBvZGRqenNUUlNIX0tNQlVsVnNRZkQxZ1BEUmRXcEFwbFpCTWRMSjVCR0ZuOGRaZWpwMl9GRmFPMm1Id2dRNXQ3OGh2ZmFCaHRyNG4wSmxIVU5PSng4bzlQZXZORUxCSGwyUEx2dTYya3RILTlhazhHazVKX0lDWWw4U0kyRmd4NFhtX19aNFhBV05Yb0RVY0laUFVJZ1BmU29XRno3cFpKSVBESkg4TG9oWmVQTXBMN3RKX21jamxvU0dvYlpVNmozdWNoMHdwQ09aSUllTUxKMnN6eXdWaE9fZVR1ejdaUVlVa3VnWDgxODBNLVNPejFTMndMOGg4R1dQSVJoSWYxazZvRE5fS1JQeWdX0gHaAkFVX3lxTE5LRHc2ZjZxemhJWWZQbGt0LVYwRERDRmI0NlZaQ0Nlb2x6bzlPYmYzRXRHYlhjekU0VzZIUktCWDFhdlVMLURMWHd5LW4yLVNSbjJTcHlJeFZPQnhqaUxVN2RSclV5WHVjbnNJdEdfT3dBME9Oc0ZtMDVlaFUzYVl0WnV2T3lfZlFmOFF0TWE5bjVsT3VjaEE4WXF3MUUwMm5QLTFsNmU1c2wxNGNvcW5sOWpnVXRaNWFEZlZxMzNWUENFWEpYTElqLXI2R3J4U0tITGE2bHlGc2ZBQzE3N2lacjhWNjI3bVNDZG50d0tEemxNUjRHdUJ2RDB5eTdBY1NGZjBkbjl3RkhEM1lEbmN4NS1XQ1owczFKa0tjeURpR3ZNeUp1MzltUHdfN1lFSUxqUE1mWUZ5OTNVMHdRTzhObFVCUXE5U1JjMzRHWEtiUkppQW8teFJjS0E?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Meduza",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-07T14:03:00+00:00",
-      "title_orig": "Искусственный интеллект меняет письменный язык. Авторам приходится писать «более по-человечески», чтобы не выглядеть как ChatGPT. Влияют и такие системы, как Pangram, призванные находить ИИ в текстах",
-      "summary_orig": ""
-    },
-    {
-      "id": "804a43c3361e",
-      "title": "El archivo \"Don 't Ask Again\" de Claude Code expone contraseñas y claves en 1.122 copias públicas en GitHub",
-      "summary": "Contraseñas y claves API ingresadas en Claude Code quedan guardadas palabra por palabra en archivos de proyectos y se publican en repositorios públicos de GitHub, exponiéndolas a cualquiera.",
-      "sourceUrl": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "social",
-      "published": "2026-11-07T12:14:17+05:30",
-      "title_orig": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "summary_orig": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public"
-    },
-    {
-      "id": "32a685d893ca",
-      "title": "¡GitHub está abrumado! OpenAI adquiere alternativas, la empresa A desarrolla las suyas propias in situ, y Musk también se dedica a",
-      "summary": "La IA está generando código tan rápido que la infraestructura no logra seguirle el ritmo.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508449.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-07T09:38:56+00:00",
-      "title_orig": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "summary_orig": "AI写代码太快，基础设施跟不上了"
-    },
-    {
-      "id": "102817713ba7",
-      "title": "Künstliche Intelligenz: OpenAI soll elf Milliarden Dollar bei Investoren eingesammelt haben",
-      "summary": "Inteligencia artificial: OpenAI habría recaudado 11 mil millones de dólares de inversores, según WirtschaftsWoche.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQ2k0RWNhdGxMelJpT3NtVUtGdVI2VlppWFJveWdra3hEX3FuZTBVU0xHcEd0RGRZb2taMjdLbGl2WGM0WkxWZWxUR1A5c19QbTI5MnV1TXgwNk8xU3BSbGdTNjd3a0Zjd0Vna3kwWXJjSjJxMGVBZTBlVDJjaGI1dENsQU0wRFZDcmxqcjNQZnhsaV9zM3NacHpnM3RWajdlX1dmYl9xUEtCa0p3ZXN1UzRNS0dyZnFId1d0NTZRRFh3NjZtR2g3UjhfcTlzeG96UkVlMmdEWGw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-07T08:22:57+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "8d9ec9ed0332",
-      "title": "Nueva financiación de OpenAI de 11.000 millones de dólares, menos de la mitad del plan original",
-      "summary": "La financiación se reduce y los inversores de Silicon Valley se vuelven más cautelosos.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508344.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-07T08:11:25+00:00",
-      "title_orig": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "summary_orig": "融资缩水，硅谷投资人也谨慎了"
-    },
-    {
-      "id": "61b3b7c2c572",
-      "title": "¡Ejecuta DeepSeek! ¡Los chinos de Silicon Valley han creado la próxima generación de arneses para agentes!",
-      "summary": "Después de una larga y ardua sesión, los dos principales agentes coinciden en su enfoque.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508264.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-11-07T05:01:17+00:00",
-      "title_orig": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
-      "summary_orig": "苦单Session久矣，两大Agent玩家不谋而合。"
-    },
-    {
-      "id": "314bd089789a",
-      "title": "Según los informes, OpenAI recauda $ 11 mil millones adicionales con una valoración de $ 1.25 billones",
-      "summary": "OpenAI habría recaudado 11 000 millones de dólares en una ronda de financiación que aún no ha cerrado, pero se espera que concluya en las próximas semanas.",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T22:53:46+00:00",
-      "title_orig": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "summary_orig": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
-    },
-    {
-      "id": "17e04fbcf2b3",
-      "title": "OpenAI lanza GPT-6 Cyber después de que la IA ayude a encontrar 81 fallas de Firefox y 948 vulnerabilidades de Linux",
-      "summary": "OpenAI presentó GPT‑6 Cyber, un modelo que mejora la ciberseguridad y la alineación, detectando y corrigiendo vulnerabilidades con mayor fiabilidad.",
-      "sourceUrl": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-11-06T20:28:32+05:30",
-      "title_orig": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "summary_orig": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as"
-    },
-    {
-      "id": "cea41b0360f6",
-      "title": "Las extensiones de navegador maliciosas podrían usar Claude Dispatch para ejecutar código en los equipos de los usuarios",
-      "summary": "Una extensión de navegador permite ejecutar scripts en Claude Desktop mediante la función Dispatch, lo que podría hacer que Claude ejecute código en la PC del usuario.",
-      "sourceUrl": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "social",
-      "published": "2026-11-06T17:36:35+05:30",
-      "title_orig": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "summary_orig": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this"
-    },
-    {
-      "id": "d275be2a1267",
-      "title": "Los datos de Ramp muestran que el gasto en IA se estanca justo cuando Anthropic se acerca a su salida a bolsa",
-      "summary": "El uso de IA sigue subiendo, pero el gasto se estanca; recortes de precios y controles de costos entre los mayores inversores podrían cuestionar la hipótesis de hipercrecimiento.",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T15:54:47+00:00",
-      "title_orig": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "summary_orig": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth."
-    },
-    {
-      "id": "ba147c5fc5c9",
-      "title": "La nueva IA cibernética GPT-6 de OpenAI encuentra 81 fallas de Firefox, 948 errores de Linux",
-      "summary": "OpenAI presentó GPT‑6 Cyber, que halló 81 vulnerabilidades críticas de Firefox y creó exploits funcionales para 948 fallas del kernel de Linux.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T15:24:19-05:00",
-      "title_orig": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-      "summary_orig": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]"
-    },
-    {
-      "id": "3ae40aec285b",
-      "title": "OpenAI dice que el nuevo modelo cibernético GPT-6 busca fallas sin cruzar la línea",
-      "summary": "OpenAI califica su nuevo modelo como crítico en ciberseguridad, superando a GPT‑5.6 Cyber en explotación y manteniéndose dentro del alcance de forma más fiable.",
-      "sourceUrl": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T13:19:52+00:00",
-      "title_orig": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-      "summary_orig": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek ."
-    },
-    {
-      "id": "bc8f9eac1966",
-      "title": "Asociación con Hacktron para encontrar vulnerabilidades en los sistemas de OpenAI",
-      "summary": "OpenAI se asocia con Hacktron para detectar vulnerabilidades, probar integraciones externas y reforzar la seguridad con IA de frontera.",
-      "sourceUrl": "https://openai.com/index/partnering-with-hacktron",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T08:00:00+00:00",
-      "title_orig": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "summary_orig": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
-    },
-    {
-      "id": "cfd4354afa14",
-      "title": "Medición de cómo los agentes de IA manejan la ciencia diaria del laboratorio húmedo",
-      "summary": "OpenAI lanza BioBasicsBench, un benchmark de 100 pruebas que evalúa la capacidad de los agentes de IA para interpretar datos experimentales crudos y realizar tareas de laboratorio húmedo.",
-      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-06T00:00:00+00:00",
-      "title_orig": "Measuring how AI agents handle everyday wet-lab science",
-      "summary_orig": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
-    },
-    {
-      "id": "8dc8ee954a72",
-      "title": "Google lanza Gemini Omni 1.2 Flash: vídeo de IA de 15 segundos a $ 0,07 por segundo",
-      "summary": "Google lanzó Gemini Omni 1.2 Flash, modelo de IA que crea clips nativos de 15 s, permite edición conversacional y cuesta $0,07 por segundo en video 720p.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-05T22:58:21+00:00",
-      "title_orig": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
-      "summary_orig": "Google released Gemini Omni 1.2 Flash, a video generation and editing model with native 15-second clips, multi-turn conversational editing and a 30% price cut to $0.07 per second of 720p video. The post Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second appeared first on MarkTechPost ."
     }
   ]
 }
