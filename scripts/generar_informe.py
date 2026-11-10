@@ -67,7 +67,7 @@ X_LIMITE = 12
 # "china-ai" son los laboratorios chinos; el resto se cuenta como global.
 X_PAIS_POR_ETIQUETA = {"china-ai": "china"}
 
-SITE_URL = "https://ai-informe-dashboard.vercel.app"
+SITE_URL = "https://ai-informe.vercel.app"
 SITE_NAME = "AI Informe"
 SITE_DESC = ("Recopilación diaria de novedades, usos reales, economía, señales de "
              "futuro y ciberseguridad de la IA.")
