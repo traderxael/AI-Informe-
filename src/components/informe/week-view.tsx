@@ -160,6 +160,7 @@ export function WeekView({
               <a href="/tendencias" className="ml-3 hidden hover:text-fg sm:inline">{t("nav.tendencias")}</a>
               <span className="ml-3 hidden text-border sm:inline">·</span>
               <a href="/estadisticas" className="ml-3 hidden hover:text-fg sm:inline">{t("nav.estadisticas")}</a>
+              <a href="/analitica" className="ml-3 hidden hover:text-fg sm:inline">{t("nav.analitica")}</a>
             </span>
             <span
               className={cn(
@@ -387,6 +388,7 @@ export function WeekView({
         <a href="/tendencias" className="ml-3 hover:text-fg">{t("nav.tendencias")}</a>
         <span className="ml-2 text-border">·</span>
         <a href="/estadisticas" className="ml-2 hover:text-fg">{t("nav.estadisticas")}</a>
+        <a href="/analitica" className="ml-2 hover:text-fg">{t("nav.analitica")}</a>
       </footer>
     </main>
   );

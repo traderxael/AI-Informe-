@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AnaliticaRouteImport } from './routes/analitica'
 import { Route as EstadisticasRouteImport } from './routes/estadisticas'
 import { Route as NoticiasRouteImport } from './routes/noticias'
 import { Route as TendenciasRouteImport } from './routes/tendencias'
@@ -17,6 +18,11 @@ import { Route as TendenciasRouteImport } from './routes/tendencias'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AnaliticaRoute = AnaliticaRouteImport.update({
+  id: '/analitica',
+  path: '/analitica',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EstadisticasRoute = EstadisticasRouteImport.update({
@@ -37,12 +43,14 @@ const TendenciasRoute = TendenciasRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/analitica': typeof AnaliticaRoute
   '/estadisticas': typeof EstadisticasRoute
   '/noticias': typeof NoticiasRoute
   '/tendencias': typeof TendenciasRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/analitica': typeof AnaliticaRoute
   '/estadisticas': typeof EstadisticasRoute
   '/noticias': typeof NoticiasRoute
   '/tendencias': typeof TendenciasRoute
@@ -50,20 +58,28 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/analitica': typeof AnaliticaRoute
   '/estadisticas': typeof EstadisticasRoute
   '/noticias': typeof NoticiasRoute
   '/tendencias': typeof TendenciasRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/estadisticas' | '/noticias' | '/tendencias'
+  fullPaths: '/' | '/analitica' | '/estadisticas' | '/noticias' | '/tendencias'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/estadisticas' | '/noticias' | '/tendencias'
-  id: '__root__' | '/' | '/estadisticas' | '/noticias' | '/tendencias'
+  to: '/' | '/analitica' | '/estadisticas' | '/noticias' | '/tendencias'
+  id:
+    | '__root__'
+    | '/'
+    | '/analitica'
+    | '/estadisticas'
+    | '/noticias'
+    | '/tendencias'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AnaliticaRoute: typeof AnaliticaRoute
   EstadisticasRoute: typeof EstadisticasRoute
   NoticiasRoute: typeof NoticiasRoute
   TendenciasRoute: typeof TendenciasRoute
@@ -76,6 +92,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/analitica': {
+      id: '/analitica'
+      path: '/analitica'
+      fullPath: '/analitica'
+      preLoaderRoute: typeof AnaliticaRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/estadisticas': {
@@ -104,6 +127,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AnaliticaRoute: AnaliticaRoute,
   EstadisticasRoute: EstadisticasRoute,
   NoticiasRoute: NoticiasRoute,
   TendenciasRoute: TendenciasRoute,
