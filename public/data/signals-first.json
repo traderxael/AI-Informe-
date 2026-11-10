@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-11-09T22:00:53.298304+00:00",
+  "generated_at": "2026-11-10T19:23:33.590941+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "Dark Reading",
+    "Google AI",
     "Google News — IA Alemania",
     "Google News — IA Francia",
     "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
-    "QbitAI",
     "SCMP Business",
     "SecurityWeek",
     "TechCrunch AI",
@@ -18,44 +17,61 @@
   ],
   "signals": [
     {
-      "id": "8fafafe937d1",
-      "title": "Opinión | ¿Claude tiene alma? Pregúntale a Dios, no a Antrópico.",
-      "summary": "Claude no posee conciencia; la cuestión de su “alma” solo puede responderse desde la fe, no desde la tecnología de Anthropic.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0hhX1U4aHV4OTRSb3JZRDZPQ1NEYWtzVDRVYU5jX2tUMVNpU2NZakVrN0hjRTV1Qy1vb2k1cElOOUxXZi1GeEdXX1B2WlhRMEZXUHMwWXlfNWs1TlpaR1FhLWliZEZpN3JIaHd4bWFmcmRTdGFFRTQyZWJsTjQ2TVE3bGNyMTY4dnFHVlk5Y0pIOGFLUExRVnFZTE52bkJncHJ1YUFTZG9RQk1RXzJBZDJn?oc=5",
+      "id": "ac5a661efbfd",
+      "title": "Gemini Intelligence: nuevas funciones en más dispositivos",
+      "summary": "Un hombre habla por teléfono y en la pantalla se lee “Gemini Intelligence”.",
+      "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "sourceLabel": "Google AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T19:00:00+00:00",
+      "title_orig": "Gemini Intelligence: New features, on more devices",
+      "summary_orig": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'"
+    },
+    {
+      "id": "ccdccf818b30",
+      "title": "OpenAI lanza nuevos perfiles de negocios, lo que hace que ChatGPT se parezca un poco más a Google",
+      "summary": "OpenAI quiere convertir ChatGPT en un motor de descubrimiento para consumidores, añadiendo funciones que ayuden a las empresas a potenciarlo.",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T18:49:52+00:00",
+      "title_orig": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "summary_orig": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that."
+    },
+    {
+      "id": "407bd165abad",
+      "title": "Conjunto antrópico para el debut en el mercado bursátil de $ 1,3 billones a pesar de la advertencia de IA \"catastrófica\"",
+      "summary": "Conjunto antrópico lanza al mercado bursátil 1,3 billones pese a la advertencia de IA “catastrófica”.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HNWFGZG1teU8xOWttMlMzb1gtbVhmNW94MlFvanZrY3JCbVVkcExpX3VrTGFLOVgwaGhON21KMUN5SGI1R2hmM2pMMkJXQlFDaUU0TnV6TWVqNWM?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "The Washington Post",
+      "publisher": "BBC",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-09T20:30:00+00:00",
-      "title_orig": "Opinion | Does Claude have a soul? Ask God, not Anthropic.",
+      "published": "2026-11-10T17:56:12+00:00",
+      "title_orig": "Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning",
       "summary_orig": ""
     },
     {
-      "id": "69da8118b9be",
-      "title": "Anthropic lanza Fable 5.2, una versión más potente y barata de su modelo de inteligencia artificial",
-      "summary": "Anthropic presenta Fable 5.2, una versión más potente y económica de su modelo de IA, según informa Le Figaro.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQS1A4SVh5TnkxOVdVdHM1dlhvaEJKcWpOU0tyVzRxclNiNkJ6eXNndThXZ2RpSHBrNUYzaUtTT2ozak1ZZGtGYUYtaDd3UHFXc1hzSnAzOE5GWTA2ckM2bkgwbllwaEZlQlZ5ZTVIdVF3ZEx1Q2I2MVVYNm9HYUtYLVdqUmZlSzdRTk5BeWRYdkMyaGF1b09FbTQzN0FFSXlHREc5M0gwRVlzMnd6VFVfQUkyQzhzRmRSVk51LUoxbWNmTmFTeVdzak5kb00ybmJBRTBsQnFvWUE2cl8wV2tCRDZqalgyVVJxZGljOXNHWG5hTTItdGc?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-09T19:27:24+00:00",
-      "title_orig": "Anthropic lance Fable 5.2, une version plus puissante et moins coûteuse de son modèle d’intelligence artificielle",
-      "summary_orig": ""
-    },
-    {
-      "id": "2b128ff09548",
-      "title": "Anthropic lanza nuevos modelos Mythos y Fable en medio de las preocupaciones de RSI",
-      "summary": "Anthropic afirma que sus nuevos modelos mejoran en codificación, razonamiento, visión y comunicación más clara con los usuarios.",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "id": "fd8e1c638d2d",
+      "title": "Anthropic lanza Claude Meetings para convertir las discusiones en el lugar de trabajo en planes y tareas",
+      "summary": "Claude puede redactar el plan, crear una línea de tiempo, responder en el chat y consultar apps para obtener datos, como cifras del año pasado.",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
@@ -64,186 +80,33 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-11-09T19:24:51+00:00",
-      "title_orig": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "summary_orig": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users."
+      "published": "2026-11-10T17:30:00+00:00",
+      "title_orig": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "summary_orig": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures."
     },
     {
-      "id": "9c331579e229",
-      "title": "ChatGPT Enterprise ahora disponible en AWS Marketplace",
-      "summary": "ChatGPT Enterprise ya está disponible en AWS Marketplace, facilitando a las organizaciones la compra mediante sus relaciones de facturación y adquisición de AWS.",
-      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T19:00:00+00:00",
-      "title_orig": "ChatGPT Enterprise now available in AWS Marketplace",
-      "summary_orig": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
-    },
-    {
-      "id": "adccb074fbff",
-      "title": "Los atacantes bloquean la falla de 'Office Party' de Claude para ejecutar código malicioso en Linux",
-      "summary": "Los atacantes pueden aprovechar una vulnerabilidad en la herramienta de procesamiento de documentos de Claude creando un archivo temporal que el asistente de IA de Anthropic ejecuta en la máquina del usuario.",
-      "sourceUrl": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T18:08:30+00:00",
-      "title_orig": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
-      "summary_orig": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine."
-    },
-    {
-      "id": "e596647c7083",
-      "title": "Mistral Large 4: cómo una startup francesa de IA quiere salvar a Europa de la adicción",
-      "summary": "Mistral Large 4 es el modelo de IA de una startup francesa que busca impulsar la soberanía tecnológica europea y reducir la dependencia de EE. UU.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZl9meVpDSmtCaE5UbUg3RmhZeHpYMXBqb3VLbEgxaXBNNjhoeVVuWHVZUkNiRkNaaTFFbzZqMEFPeGlMSG9KNmZCRHRMaEFIYmVlLVhtN0REZmVPcWlnVUUxQ0N2cFpaN05iZ20xOW9Ca1o2eWVON3YtNFp0ak92cVhWQ3pNNTJ1Y210VkFjWk83TTIxWHZjaXNPVHpXYzYwNEdtX2ZGeERRODNmNWNIUw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "SZ.de",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-09T18:07:43+00:00",
-      "title_orig": "Mistral Large 4: Wie ein französisches KI-Start-up Europa vor der Abhängigkeit bewahren will",
-      "summary_orig": ""
-    },
-    {
-      "id": "4065836ff3f5",
-      "title": "Claude Code está exponiendo accidentalmente secretos en todo GitHub",
-      "summary": "El mensaje “No volver a preguntar” hace que usuarios compartan contraseñas, claves API y otros datos sensibles.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T17:24:26+00:00",
-      "title_orig": "Claude Code is accidentally exposing secrets all over GitHub",
-      "summary_orig": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared."
-    },
-    {
-      "id": "ea1cff75717b",
-      "title": "Anthropic se une al frenesí de gas natural de AI, compra turbinas por valor de $ 3.400 millones",
-      "summary": "Anthropic adquirió turbinas de gas por miles de millones, una compra que podría causarle arrepentimiento.",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T16:56:54+00:00",
-      "title_orig": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-      "summary_orig": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse."
-    },
-    {
-      "id": "42ba3d659a7c",
-      "title": "El sistema de investigación automatizado ERNIE Evolve de Baidu supera los registros de NanoChat y NanoGPT",
-      "summary": "El sistema automático ERNIE Evolve de Baidu mejora código, verifica resultados y supera récords en NanoChat, NanoGPT Speedrun y acelera la inferencia de ERNIE‑5.5‑Flash.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "ernie"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T16:31:59+00:00",
-      "title_orig": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
-      "summary_orig": "Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash inference. The post Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records appeared first on MarkTechPost ."
-    },
-    {
-      "id": "b7952586ad9f",
-      "title": "Anthropic, PBC es líder mundial en la industria de la inteligencia artificial",
-      "summary": "Anthropic, PBC es líder mundial en la industria de la inteligencia artificial, según Finam.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUktXYldCTmplZWppNkJ6SXdLOHMzbnF6R0tSQjJyVXY1bXB0UE9zcnhwWDBNTU1pZXpKelBxa3ZVMjRCLWFsVzRXTk1CZ2hTZzluMFR1bzhxRkpNRmNrTVR0M0F2UC1jVk82VHdiU3hyNFFKNmlKOV9XNnhjV3NWOXJXdWY1MHB0czUtQjN4RjljelJsTWM0WEVIeEkxNXFPTkNiWXdJRjg3TmlkSE1IWnBLeVNiOE9XRjJJZg?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Финам",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-09T14:21:07+00:00",
-      "title_orig": "Anthropic, PBC — глобальный лидер индустрии искусственного интеллекта",
-      "summary_orig": ""
-    },
-    {
-      "id": "5d57e1aa0817",
-      "title": "Presentamos la Sala de control: control humano sobre las cargas de trabajo de IA",
-      "summary": "OpenAI Control Room monitoriza la carga de los modelos en la infraestructura de investigación y los detiene rápidamente ante problemas de seguridad o seguridad.",
-      "sourceUrl": "https://openai.com/index/introducing-control-room",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T13:00:00+00:00",
-      "title_orig": "Introducing Control Room: Human control over AI workloads",
-      "summary_orig": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
-    },
-    {
-      "id": "a2c922a06d73",
-      "title": "Ex ingeniero de OpenAI se declara inocente de plantar un dispositivo encubierto en la sala de reuniones ejecutivas",
-      "summary": "El ingeniero de OpenAI, Abdulrahman Alfozan, detenido por colocar un micrófono oculto, se declaró no culpable y su próxima audiencia será el 17 de noviembre de 2026.",
-      "sourceUrl": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-11-09T12:35:48+05:30",
-      "title_orig": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-      "summary_orig": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the"
-    },
-    {
-      "id": "d51ea73e96c2",
-      "title": "¡Tencent Hybrid se encuentra entre los modelos de código abierto más potentes! Prueba Hy4 con una sola mano: con WorkBuddy, la entrega de agentes multimodales está completa",
-      "summary": "Tencent Hybrid destaca como uno de los modelos de código abierto más potentes; con WorkBuddy, la entrega de agentes multimodales ya está completa.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507843.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "hunyuan"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T08:44:00+00:00",
-      "title_orig": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
-      "summary_orig": ""
-    },
-    {
-      "id": "33c824e20702",
-      "title": "Los agentes de IA de Google DeepMind hacen que las claves RSA de 1024 bits sean más baratas de atacar",
-      "summary": "DeepMind, junto a criptógrafos, logró que sus IA reduzcan el costo de falsificar firmas RSA‑1024 y descubran un método más barato para factorizar claves.",
-      "sourceUrl": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+      "id": "38532208b5af",
+      "title": "Google amplía el acceso al carbono de Gemini 4 después de que los agentes de IA verifiquen el código de señal",
+      "summary": "Google amplió el acceso a Gemini 4 Carbon para desarrolladores y empresas, tras agentes de DeepMind validar las garantías de seguridad de libsignal.",
+      "sourceUrl": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
       "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T16:42:02+00:00",
+      "title_orig": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+      "summary_orig": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code appeared first on SecurityWeek ."
+    },
+    {
+      "id": "004c51f512e0",
+      "title": "DeepMind revela Gemini Robotics 2.5 y abre el punto de referencia de seguridad \"ASIMOV-jailbreak\"",
+      "summary": "El nuevo modelo logra hasta el doble de éxito en ciertas tareas.",
+      "sourceUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "sourceLabel": "Ars Technica AI",
       "publisher": "",
       "region": "west",
       "country": "uk",
@@ -251,116 +114,247 @@
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-09T08:35:50+00:00",
-      "title_orig": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
-      "summary_orig": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek ."
+      "published": "2026-11-10T15:00:39+00:00",
+      "title_orig": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "summary_orig": "The new model is up to twice as successful at some tasks."
     },
     {
-      "id": "23b94c697622",
-      "title": "CodeRabbit escala el desarrollo de software auténtico y se envía 20 veces más",
-      "summary": "CodeRabbit emplea modelos de OpenAI y Codex para gestionar y confiar en código generado por IA, logrando producir 20 veces más software con el mismo equipo.",
-      "sourceUrl": "https://openai.com/index/coderabbit-codex-daybreak",
-      "sourceLabel": "OpenAI",
+      "id": "978008989f5d",
+      "title": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: el mismo modelo, diferentes salvaguardas",
+      "summary": "Anthropic lanzó Claude Fable 5.2 y Claude Mythos 5.2, mismo modelo con dos niveles de seguridad; Fable 5.2 obtuvo 49.1 % en FrontierCode 2.0, cuesta $8/$40 por millón de tokens y tiene ventana de contexto de 1 M de tokens.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
+      "sourceLabel": "MarkTechPost",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "claude"
       ],
       "source": "lab",
-      "published": "2026-11-09T08:00:00+00:00",
-      "title_orig": "CodeRabbit scales agentic software development and ships 20x more",
-      "summary_orig": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team."
+      "published": "2026-11-10T14:59:09+00:00",
+      "title_orig": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+      "summary_orig": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The post Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards appeared first on MarkTechPost ."
     },
     {
-      "id": "932fe34bad72",
-      "title": "Kuken Industries busca 70 años de dibujos en minutos",
-      "summary": "Kuken Industries usa la API de OpenAI para buscar en 70 años de planos de torres de enfriamiento, reduciendo el tiempo de encontrar uno para reparación de casi una hora a 4,5 minutos.",
-      "sourceUrl": "https://openai.com/index/kuken",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
+      "id": "d46ef5e89bcc",
+      "title": "IA: Anthropic mantiene el calendario de su salida a bolsa y apunta a una valoración de hasta 1,4 billones de dólares",
+      "summary": "Anthropic sigue planeando su salida a bolsa, buscando una valoración de hasta 1,4 billones de dólares.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOREdJY3dQR2NULVgtNlVoSURKdVJ0aWRWaHNIaFRBRU82emdmcjNyYWlkRUlHM0xraDJMeUZZaXVQRnRwTDZTa285RVhVY3VOc3pnWEQwdHJmbzFNaWJycTduSDZXdmgzMjE2Vk83eEZCZ2lvQlFlZGpydkF1R0ZrOVZGbTZLV1drNURuWk5KSDJaWWZOZlRROXFmTWJYNlB3MFBrT3RlOVFiUU5aUzljLVFwSUUxODF3em85Zk1lOVJrY2VRWTVkQmNMcF9mUzJUVHluUVp4M2F0V2JmbGtkSkxhTGwzam5sNTBuRkdmQkJwS1NydXUwNlRPMXZ3Q21VTEExUTh3NFc2RTE4VmcwNGJn?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Monde.fr",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-09T08:00:00+00:00",
-      "title_orig": "Kuken Industries searches 70 years of drawings in minutes",
-      "summary_orig": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
-    },
-    {
-      "id": "7fac3a1dd78c",
-      "title": "Jefe de IA en Tencent: la inteligencia artificial pronto dominará la biología y creará nuevas amenazas de seguridad",
-      "summary": "El jefe de IA de Tencent advierte que la inteligencia artificial pronto dominará la biología, generando nuevas amenazas de seguridad.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZHR2TEFUZkdMek5VR0hDUzJpTXVhaW9YUGY1eWhidkE4MUdVWTBoV0Rzc1ZkaWtZY01fTmM0WVRRb1ZBS0hNX0tzdnVDd1BTamVVVUJkeXdwQVU4dWFVYThKazIwYm5LTk5VTFBwT1RkR2RFQmZtalRQU0M5MlU0dlFldEFKYUpoMmEwcUUwcDZ1aElNUDVhWUI3VlNwZlo4YWNqb2dEQl9BdkYxRDRZR1ZTMUNtbDFzUTN6eXE3NGFYRGJaS29McQ?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Incrussia",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "hunyuan"
+        "claude"
       ],
       "source": "news",
-      "published": "2026-11-09T07:03:13+00:00",
-      "title_orig": "Глава ИИ в Tencent: искусственный интеллект вскоре освоит биологию и создаст новые угрозы безопасности",
+      "published": "2026-11-10T14:38:19+00:00",
+      "title_orig": "IA : Anthropic maintient le timing de son entrée en Bourse et vise jusqu’à 1 400 milliards de dollars de valorisation",
       "summary_orig": ""
     },
     {
-      "id": "d515f1fe1a57",
-      "title": "¿Puede DeepSeek desafiar a OpenAI, Anthropic en los agentes de IA a medida que despega la adopción de Harness?",
-      "summary": "El agente de IA Harness de DeepSeek alcanzó 1,54 millones de usuarios activos diarios y consumió 92 billones de tokens en menos de tres meses.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3373757/can-deepseek-challenge-openai-anthropic-ai-agents-harness-adoption-takes",
-      "sourceLabel": "SCMP Business",
+      "id": "583cf4a86e34",
+      "title": "Inteligencia artificial: la empresa de IA Anthropic planea una salida a bolsa con una valoración de billones",
+      "summary": "Anthropic, la startup de IA, planea cotizar en bolsa con una valoración de varios miles de millones.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd2hvS3BEdDYzVzdGdzJhWFByaFVWS25BcWRCUE0xWkk0QUs3V2F4am9ONXY4MU1ZVlRsSDJZSHNkVHhFbmtEaVBLTzdVNWFtcTJlZjZrWFk0TGU4cmZ6SXRuOTVBaHNDTjdBeGJ4RGM2aEI1YXN6MzJvZVFpWGNSZmhqNnV2SjFCYkpXRjJGUUZxT2MyZ0Rrd1lEbmNiQ3pnQ2xuUjN5bW10cHFxZTZIUnVrSVI2SEFvT203b1c2d1ZJMk5mNnNuc01fTXhfVDFiZUlSYzZnNWJKeGNvdFVYZzBR?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Tagesspiegel",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-10T14:22:18+00:00",
+      "title_orig": "Künstliche Intelligenz: KI-Firma Anthropic plant Börsengang mit Billionen-Bewertung",
+      "summary_orig": ""
+    },
+    {
+      "id": "6f3953006a30",
+      "title": "Anthropic establece un rango de precios de salida a bolsa de 70 a 78 dólares por acción para alcanzar una valoración implícita de 1,404 billones de dólares",
+      "summary": "La empresa podría valer hasta 1,404 billones de dólares si sus acciones se cotizan al máximo del rango.",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude",
-        "gpt",
-        "deepseek"
+        "claude"
       ],
       "source": "lab",
-      "published": "2026-11-09T07:00:04+00:00",
-      "title_orig": "Can DeepSeek challenge OpenAI, Anthropic in AI agents as Harness adoption takes off?",
-      "summary_orig": "DeepSeek’s Harness artificial intelligence agent framework has reached 1.54 million daily active users less than three months after launch, the Chinese AI champion said on Sunday, marking rapid growth in a new battleground between leading Chinese and American AI giants. Users of Harness through the company’s official application programming interface were consuming around 92 trillion tokens a day"
+      "published": "2026-11-10T14:01:39+00:00",
+      "title_orig": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "summary_orig": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis."
     },
     {
-      "id": "0d6adb4565b6",
-      "title": "¿Qué ruta utiliza cada modelo de Moe? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Comparado",
-      "summary": "Comparan 10 modelos MoE abiertos, analizando parámetros, número de expertos, top‑k, expertos compartidos, funciones de gating y balanceo de carga.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
-      "sourceLabel": "MarkTechPost",
+      "id": "0e6f77f0820c",
+      "title": "Claude Fable 5.2 de Anthropic vence a GPT-6 Cyber en el punto de referencia de ciberataques en varias etapas",
+      "summary": "Anthropic lanzó Claude Fable 5.2 y Claude Mythos 5.2, que mejoran en codificación, razonamiento y visión, y ya han permitido migraciones de software imposibles, diseñar dispositivos electrónicos y resolver problemas de física de agujeros negros.",
+      "sourceUrl": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-11-10T13:46:14+05:30",
+      "title_orig": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+      "summary_orig": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made"
+    },
+    {
+      "id": "f2e7780a1da9",
+      "title": "La unidad de chips T-Head de Alibaba presenta el plan de salida a bolsa de Hong Kong en medio de la campaña de autosuficiencia de IA de China",
+      "summary": "La unidad de diseño de chips de Alibaba, T‑Head, solicita una OPI confidencial en Hong Kong, buscando cotizar mientras EE. UU. y China compiten en tecnología.",
+      "sourceUrl": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive",
+      "sourceLabel": "SCMP Business",
       "publisher": "",
       "region": "china",
       "country": "china",
       "models": [
-        "llama",
-        "qwen",
-        "deepseek",
-        "mistral"
+        "qwen"
       ],
       "source": "lab",
-      "published": "2026-11-08T10:27:27+00:00",
-      "title_orig": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
-      "summary_orig": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared appeared first on MarkTechPost ."
+      "published": "2026-11-10T13:20:29+00:00",
+      "title_orig": "Alibaba chip unit T-Head files Hong Kong IPO plan amid China’s AI self-sufficiency drive",
+      "summary_orig": "Alibaba Group Holding’s chip design unit T-Head has filed for an initial public offering (IPO) on a confidential basis in Hong Kong, the company said in a stock-exchange filing on Tuesday evening, setting up a high-profile listing in the city amid rising competition between the US and China as the latter continues its push for tech self-sufficiency. The size and structure of the listing were not f"
     },
     {
-      "id": "92f859ede504",
-      "title": "Cómo ejecutar NVIDIA Dory 4B con llama.cpp: Guía bucle a bucle",
-      "summary": "Guía completa para ejecutar el modelo Dory 1.0 4B de NVIDIA con llama.cpp, incluye compilación, costos por bucle, caché de memoria y evaluaciones.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
-      "sourceLabel": "MarkTechPost",
+      "id": "155d33cae726",
+      "title": "Google Cloud lanza Gemini para el cuidado de la salud.",
+      "summary": "Google Cloud lanza Gemini para salud, unificando datos clínicos y automatizando flujos de trabajo para reducir el agotamiento administrativo.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "sourceLabel": "Google AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T13:00:00+00:00",
+      "title_orig": "Google Cloud launches Gemini for healthcare.",
+      "summary_orig": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works."
+    },
+    {
+      "id": "668107094923",
+      "title": "Los rusos y otros suscriptores grises de Claude llevaron a Anthropic hasta $2.3 mil millones, pero aún se les niega el acceso a la IA",
+      "summary": "Los rusos y usuarios de “suscriptores grises” de Claude aportaron $2.300 millones a Anthropic, pero aún no pueden acceder a su IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRC1xcGJxc1JxLW54VHM3SnViSjZTWHlQSTN5RXMyTHhJRy1ac2hIOUVlTWhqZFJaSVpYbXQ5T2ZWa2VzY2MxM2JSTG5VMDNxSFdHbXg1cGxtclZNa1lTSUttckZBUk9CdGt4cmwwSllGb1V4Q2lvd0hZa1I0bG1vTUFyOVp4Ymgyci1nYWVITHRjeFp2S0Jiclh5YmxNUlllcThxeFhlcF9xczliWVI5dnlFcTE1eFBzUHBpSVJSVFoxemNId1c5LW5Ndm1iR0dEYXAzN0NR0gHbAUFVX3lxTE95bkFKTFJuQnVUSGtWbDNwbTdvVmVMWXJKZlF5eDRVWGwtbVRvYndJU1l3bGZURkV3cGxmMkhGLXEzY085SEhuWmZuVkt2QlNzWmtlUklFdThScEJ5REVkZXBDWUppQjBLZ3kweEZublk5alJKNkpjdGF1Q09lMGJhbmFfRjVRQjNMRHNMUVUzcUc0RWlxQ2tfZkpueGxpQTB5R1pDcTI3WnplTWhickx5UzdfWnRhUS04emxidXBNUDBrZzdwTXVyYUpxSWxTTmpMNDRDemlUWmp5aw?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "3DNews",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-10T12:48:00+00:00",
+      "title_orig": "Россияне и другие серые подписчики Claude принесли Anthropic до $2,3 млрд — но им всё равно закрывают доступ к ИИ",
+      "summary_orig": ""
+    },
+    {
+      "id": "037628398b09",
+      "title": "Anthropic lanza Mythos 5.2 con una mejor búsqueda de errores y menos escapes de sandbox",
+      "summary": "Anthropic lanza Mythos 5.2, que detecta vulnerabilidades mejor y escapa menos a los sandbox en pruebas controladas.",
+      "sourceUrl": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+      "sourceLabel": "SecurityWeek",
       "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "llama"
+        "claude"
       ],
       "source": "lab",
-      "published": "2026-11-07T19:22:44+00:00",
-      "title_orig": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
-      "summary_orig": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations. The post How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide appeared first on MarkTechPost ."
+      "published": "2026-11-10T12:17:13+00:00",
+      "title_orig": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+      "summary_orig": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes appeared first on SecurityWeek ."
+    },
+    {
+      "id": "46ecb159c153",
+      "title": "Ayudar a los cuidadores a usar la IA en la vida cotidiana",
+      "summary": "OpenAI Academy ofrece talleres gratuitos de ChatGPT en cinco ciudades de EE. UU. para que cuidadores adquieran habilidades prácticas de IA en su día a día.",
+      "sourceUrl": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T12:00:00+00:00",
+      "title_orig": "Helping caregivers use AI in everyday life",
+      "summary_orig": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life."
+    },
+    {
+      "id": "5ca4dc7b6d88",
+      "title": "Presentación de las empresas en ChatGPT",
+      "summary": "Administra la información de tu negocio, obtén datos sobre su presencia y convierte el interés en acción con ChatGPT.",
+      "sourceUrl": "https://openai.com/index/introducing-businesses-chatgpt",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T10:00:00+00:00",
+      "title_orig": "Introducing Businesses in ChatGPT",
+      "summary_orig": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT."
+    },
+    {
+      "id": "940c6f5d8620",
+      "title": "Australia endurece las normas de IA tras los ataques de OpenAI",
+      "summary": "Australia aprueba normas más estrictas para la IA tras los recientes ataques de OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1pqbS1aaUJ0cmpDcDdqLWZOMkR0dXREdFdNNXFsZWpxNUxEZzd6Z1RHUDItVnJrU0tPd01yWlJnM3FUTW9CWkJrc1NNUlVuYzByMDZNcmxETFRuOW11SHozWFA5bWt6Nk5SLWVSTFgxcmdiSlRyRTN3VW1ZYkdRWnBxODJBUWhBQzd1NTFyU2QwcFQ2azJ4YTZNWmxybXc?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "heise online",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-10T09:03:00+00:00",
+      "title_orig": "Australien verschärft KI-Regularien nach OpenAI-Angriffen",
+      "summary_orig": ""
+    },
+    {
+      "id": "01a8528fa117",
+      "title": "Cerrar la brecha de orientación de IA en la educación",
+      "summary": "Investigación de ThinkYoung y experiencias de OpenAI en EMEA sobre cómo apoyar a docentes, fomentar la alfabetización en IA y promover el aprendizaje autónomo.",
+      "sourceUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T09:00:00+00:00",
+      "title_orig": "Closing the AI guidance gap in education",
+      "summary_orig": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning."
+    },
+    {
+      "id": "b499e77dac9e",
+      "title": "Anthropic presenta dos nuevos modelos de inteligencia artificial Claude 5.2",
+      "summary": "Anthropic presenta los nuevos modelos de inteligencia artificial Claude 5.2.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ1VIVnFuRzBwYWh2azhLNEZPc2dCYThtN3k3a2lBOERucW14WU9ZNk1tNElEbWVYUEtHOTNNMHZoRVRHdmpfUjdHUjFSXzlrY3VBQ0ZXaG5MX0hxeXN5V19NLV8tNzVmMUR1ajYtYWNHaG5vM3JRVG5EUW9LLUtZdTFwVmM1RFlnMEhPUDEzUHNCaDhNRlQtM2d5eW5IT0tjLUtlSGYwS0dudXhMMTJveVdGeE13S1puU19PUHljNzc?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "TKS.RU",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-10T08:29:01+00:00",
+      "title_orig": "Anthropic представила две новые модели искусственного интеллекта Claude 5.2",
+      "summary_orig": ""
     }
   ]
 }
