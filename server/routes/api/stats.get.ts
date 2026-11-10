@@ -1,3 +1,4 @@
+import { defineEventHandler } from "h3";
 import { get } from "@vercel/blob";
 
 /** Devuelve el resumen de analítica para el dashboard /analitica. */
