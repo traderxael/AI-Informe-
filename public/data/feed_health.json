@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T19:24:37",
+ "generado": "2026-11-11T19:20:39",
  "total_feeds": 33,
  "ok": 33,
  "vacios": 0,
@@ -8,7 +8,7 @@
   {
    "nombre": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
-   "items": 1376,
+   "items": 1381,
    "estado": "ok",
    "detalle": ""
   },
@@ -64,7 +64,7 @@
   {
    "nombre": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
-   "items": 902,
+   "items": 904,
    "estado": "ok",
    "detalle": ""
   },
@@ -120,14 +120,14 @@
   {
    "nombre": "arXiv cs.AI",
    "url": "https://rss.arxiv.org/rss/cs.AI",
-   "items": 887,
+   "items": 381,
    "estado": "ok",
    "detalle": ""
   },
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 364,
+   "items": 178,
    "estado": "ok",
    "detalle": ""
   },
@@ -240,6 +240,6 @@
  "ranking": {
   "estado": "ok",
   "total": 60,
-  "actualizado": "2026-11-10T19:24:36"
+  "actualizado": "2026-11-11T19:20:38"
  }
 }

@@ -1,24 +1,314 @@
 {
-  "generated_at": "2026-11-10T19:23:33.590941+00:00",
+  "generated_at": "2026-11-11T19:19:35.818697+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
+    "CoinDesk",
+    "DeepMind",
     "Google AI",
-    "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA Rusia",
-    "Google News — IA global",
-    "MarkTechPost",
     "OpenAI",
     "SCMP Business",
-    "SecurityWeek",
     "TechCrunch AI",
     "The Hacker News"
   ],
   "signals": [
     {
+      "id": "f28f90d2895a",
+      "title": "Gilbert + Tobin replantea el negocio del derecho con la IA",
+      "summary": "Conversación con Sam Nickless, socio y director ejecutivo de Gilbert + Tobin.",
+      "sourceUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T00:00:00+00:00",
+      "title_orig": "Gilbert + Tobin rethinks the business of law with AI",
+      "summary_orig": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+    },
+    {
+      "id": "d48e4f7a3199",
+      "title": "El gigante taiwanés de la fabricación de chips TSMC invertirá 1000 millones de dólares en Anthropic y OpenAI",
+      "summary": "El último caso de financiación circular del boom de IA surge mientras el comercio de IA se tambalea.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T18:16:40+00:00",
+      "title_orig": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "summary_orig": "Latest example of the AI boom’s circular financing comes as AI trade wobbles."
+    },
+    {
+      "id": "8e4104a923ec",
+      "title": "API Gemini Decisions: decisiones multimodales rápidas y calibradas",
+      "summary": "Conoce la API Gemini Decisions, impulsada por nuestro modelo Gemini Decision, para obtener decisiones multimodales rápidas y calibradas.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceLabel": "Google AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T18:00:00+00:00",
+      "title_orig": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary_orig": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
+    },
+    {
+      "id": "14caa111eec6",
+      "title": "Más de 35 000 aplicaciones creadas con Grok expuestas en Internet, algunas de las cuales filtran datos confidenciales y contraseñas",
+      "summary": "Claroc halló 37.571 apps creadas con Grok; 35.578 estaban abiertas sin registro, mayormente juegos y calculadoras, y 1 de cada 10 contenía datos internos.",
+      "sourceUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "social",
+      "published": "2026-11-11T17:49:40+05:30",
+      "title_orig": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "summary_orig": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or"
+    },
+    {
+      "id": "29f521837a1e",
+      "title": "Según se informa, los ingresos trimestrales de OpenAI superan los 10 000 millones de dólares por primera vez",
+      "summary": "Las ventas de $10 mil millones suponen un aumento de casi el 50 % respecto a los $6,7 mil millones del trimestre anterior.",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T16:14:44+00:00",
+      "title_orig": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "summary_orig": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter."
+    },
+    {
+      "id": "5b916f1bea87",
+      "title": "AlphaGenome 2: Descifrar cómo leen las células el ADN para comprender mejor las enfermedades",
+      "summary": "Predicción de cómo las secuencias de ADN y sus variantes afectan tipos celulares humanos y enfermedades.",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T15:00:15+00:00",
+      "title_orig": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "summary_orig": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+    },
+    {
+      "id": "ef892408bebc",
+      "title": "Google DeepMind acaba de verificar matemáticamente partes clave de Signal",
+      "summary": "Un proyecto de cuatro semanas sugiere que la IA podría volver la verificación formal mucho más práctica.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T14:08:57+00:00",
+      "title_orig": "Google DeepMind just mathematically verified key parts of Signal",
+      "summary_orig": "The four-week project hints that AI could make formal verification far more practical."
+    },
+    {
+      "id": "d34c73c9a558",
+      "title": "El bitcoin se mantiene por debajo de los 74 000 $, ya que los beneficios de CoreWeave reavivan las perspectivas de la IA; según se dice, Anthropic va a aumentar la valoración de su salida a bolsa.",
+      "summary": "Los ingresos de CoreWeave impulsaron las acciones de infraestructura de IA y los futuros del Nasdaq, mientras el bitcoin se mantuvo casi sin cambios.",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/11/coreweave-earnings-revive-ai-outlook-as-anthropic-weighs-higher-ipo-valuation",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T10:45:49+00:00",
+      "title_orig": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
+      "summary_orig": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours."
+    },
+    {
+      "id": "f502b69bb33b",
+      "title": "IA generativa: OpenAI y Anthropic firman una carta para una inteligencia artificial «más segura para los niños»",
+      "summary": "OpenAI y Anthropic acuerdan crear una IA generativa más segura para proteger a los niños.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTkxOVE1OdDVuUFlGR0pSX1JHazQ0SE9RaEF6aVppaHZZZDZlcnMybnk1LVdiLTRBNURReFNtcy1nVHRUS3lpMGUxX3ZQRnFET0pIMzVKLTBmQWRHNnJ4RmduMFRnNFNSOW0tYVpIcWd0cUN4S1lIdDdyVW9FN3dCaURJQ013Y1dndmNIRWZuWDhtVHhRMUN2SVloVFIxcnJFX2lfc2pvN3VvOE5lOUJtRzNza0R5MW9Hd1FHNHU1clhJM3czODk3bFZJLTVoLU05eFZ5MC1HY1VzcXNlcHAwdHdUVzFxX0FOVnR4QUtJczZTdkZ0WjNyUzk0V1Q0bkh0dlFJ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "lanouvellerepublique.fr",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-11T09:46:11+00:00",
+      "title_orig": "IA générative : une charte pour une intelligence artificielle \"plus sûre pour les enfants\" signée par OpenAI et Anthropic",
+      "summary_orig": ""
+    },
+    {
+      "id": "cf097931c31f",
+      "title": "Alibaba prepara la salida a bolsa de los chips T-Head mientras se enfría la euforia en Hong Kong",
+      "summary": "Alibaba solicitó la salida a bolsa en Hong Kong de su unidad de diseño de chips T‑Head para financiar sus planes de IA.",
+      "sourceUrl": "https://www.scmp.com/plus/business/banking-finance/article/3374068/alibaba-readies-t-head-chip-ipo-hong-kong-frenzy-cools",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T09:19:59+00:00",
+      "title_orig": "Alibaba readies T-Head chip IPO as Hong Kong frenzy cools",
+      "summary_orig": "Alibaba has applied to list chip-design unit T-Head in Hong Kong, as the Chinese tech giant braves a cooling initial public offering (IPO) market to raise funds for artificial intelligence (AI) ambitions. The Hong Kong stock exchange has approved the proposed separation and a confidential listing application was filed in September, Alibaba said in a statement on Tuesday. T-Head, which provides ful"
+    },
+    {
+      "id": "80b38ea7da37",
+      "title": "ChatGPT Plus para veteranos y militares",
+      "summary": "Más de 20 000 veteranos y militares en transición han recibido un año gratuito de ChatGPT Plus para prepararse para carreras civiles.",
+      "sourceUrl": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T08:00:00+00:00",
+      "title_orig": "ChatGPT Plus for veterans and servicemembers",
+      "summary_orig": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
+    },
+    {
+      "id": "e3a13040714b",
+      "title": "Qué gana el gigante taiwanés de los chips TSMC al participar en la carrera de la IA de OpenAI y Anthropic",
+      "summary": "TSMC invertirá hasta 500 millones de dólares en acciones de Anthropic y en OpenAI, vinculando financieramente al mayor fabricante de chips con los laboratorios de IA de vanguardia.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374037/what-taiwanese-chip-giant-tsmc-gains-taking-stakes-openai-and-anthropics-ai-race",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T07:30:21+00:00",
+      "title_orig": "What Taiwanese chip giant TSMC gains from taking stakes in OpenAI and Anthropic’s AI race",
+      "summary_orig": "Taiwan Semiconductor Manufacturing Company’s (TSMC) move to take equity stakes in both OpenAI and Anthropic will give the world’s largest contract chipmaker direct financial ties to the frontier AI labs driving demand for its business. Its board on Tuesday authorised up to US$500 million to buy Anthropic common shares at its initial public offering (IPO) price, and up to US$500 million to buy pref"
+    },
+    {
+      "id": "8c999d6885d2",
+      "title": "El arquitecto jefe de JioStar habla sobre el descubrimiento de la IA a escala de 500 millones de usuarios",
+      "summary": "Vijay Seshadri de JioStar comparte lecciones sobre evaluaciones, salvaguardas y cómo llevar la IA a producción a escala de 500 millones de usuarios.",
+      "sourceUrl": "https://openai.com/index/jiostar-vijay-seshadri",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-11T00:00:00+00:00",
+      "title_orig": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "summary_orig": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production."
+    },
+    {
+      "id": "b686da68349e",
+      "title": "El agente de codificación de Grok Build filtra muchísima información confidencial, parte de ella perteneciente a SpaceXSI",
+      "summary": "Investigador descubre 35 000 apps de Grok Build accesibles para cualquiera que las busque.",
+      "sourceUrl": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T21:12:59+00:00",
+      "title_orig": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "summary_orig": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
+    },
+    {
+      "id": "bd2a6830d8cf",
+      "title": "OpenAI adquiere Odessia, una «startup» de viajes creada por el fundador de Sonder",
+      "summary": "OpenAI aún no ha anunciado sus planes para el futuro de los viajes, pero el fundador de Sonder, Francis Davidson, es una figura conocida en la industria.",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T21:08:52+00:00",
+      "title_orig": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "summary_orig": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry."
+    },
+    {
+      "id": "91faed0650f0",
+      "title": "OpenAI y Anthropic se enfrentan a una nueva supervisión con la entrada en vigor de la ley de seguridad de la IA de Nueva York",
+      "summary": "Nueva York pronto hará cumplir su ley de IA, obligando a OpenAI y Anthropic a registrarse, revelar prácticas de seguridad y reportar incidentes críticos bajo multa.",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T20:52:13+00:00",
+      "title_orig": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "summary_orig": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines."
+    },
+    {
+      "id": "9a5bae24e02d",
+      "title": "Cada uno de los 7 fundadores de Anthropic obtendrá unos 250 millones de dólares con la salida a bolsa",
+      "summary": "Los siete cofundadores venderán la misma cantidad de acciones en la OPI, obteniendo unos $250 millones cada uno y manteniendo el control de la empresa.",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-10T19:57:52+00:00",
+      "title_orig": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "summary_orig": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company."
+    },
+    {
       "id": "ac5a661efbfd",
-      "title": "Gemini Intelligence: nuevas funciones en más dispositivos",
+      "title": "IA Gemini: Nuevas funciones, en más dispositivos",
       "summary": "Un hombre habla por teléfono y en la pantalla se lee “Gemini Intelligence”.",
       "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
       "sourceLabel": "Google AI",
@@ -34,76 +324,25 @@
       "summary_orig": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'"
     },
     {
-      "id": "ccdccf818b30",
-      "title": "OpenAI lanza nuevos perfiles de negocios, lo que hace que ChatGPT se parezca un poco más a Google",
-      "summary": "OpenAI quiere convertir ChatGPT en un motor de descubrimiento para consumidores, añadiendo funciones que ayuden a las empresas a potenciarlo.",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "0b2e1c02de47",
+      "title": "La Gemini 4 Carbon ya está disponible",
+      "summary": "La Gemini 4 Carbon ya está disponible.",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "sourceLabel": "DeepMind",
       "publisher": "",
       "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T18:49:52+00:00",
-      "title_orig": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "summary_orig": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that."
-    },
-    {
-      "id": "407bd165abad",
-      "title": "Conjunto antrópico para el debut en el mercado bursátil de $ 1,3 billones a pesar de la advertencia de IA \"catastrófica\"",
-      "summary": "Conjunto antrópico lanza al mercado bursátil 1,3 billones pese a la advertencia de IA “catastrófica”.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HNWFGZG1teU8xOWttMlMzb1gtbVhmNW94MlFvanZrY3JCbVVkcExpX3VrTGFLOVgwaGhON21KMUN5SGI1R2hmM2pMMkJXQlFDaUU0TnV6TWVqNWM?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "BBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-10T17:56:12+00:00",
-      "title_orig": "Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning",
-      "summary_orig": ""
-    },
-    {
-      "id": "fd8e1c638d2d",
-      "title": "Anthropic lanza Claude Meetings para convertir las discusiones en el lugar de trabajo en planes y tareas",
-      "summary": "Claude puede redactar el plan, crear una línea de tiempo, responder en el chat y consultar apps para obtener datos, como cifras del año pasado.",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T17:30:00+00:00",
-      "title_orig": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "summary_orig": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures."
-    },
-    {
-      "id": "38532208b5af",
-      "title": "Google amplía el acceso al carbono de Gemini 4 después de que los agentes de IA verifiquen el código de señal",
-      "summary": "Google amplió el acceso a Gemini 4 Carbon para desarrolladores y empresas, tras agentes de DeepMind validar las garantías de seguridad de libsignal.",
-      "sourceUrl": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
+      "country": "uk",
       "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-10T16:42:02+00:00",
-      "title_orig": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
-      "summary_orig": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code appeared first on SecurityWeek ."
+      "published": "2026-11-10T16:03:47+00:00",
+      "title_orig": "Gemini 4 Carbon is now available",
+      "summary_orig": ""
     },
     {
       "id": "004c51f512e0",
-      "title": "DeepMind revela Gemini Robotics 2.5 y abre el punto de referencia de seguridad \"ASIMOV-jailbreak\"",
+      "title": "DeepMind presenta Gemini Robotics 2.5 y el «benchmark» abierto de seguridad «ASIMOV-jailbreak»",
       "summary": "El nuevo modelo logra hasta el doble de éxito en ciertas tareas.",
       "sourceUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
       "sourceLabel": "Ars Technica AI",
@@ -117,244 +356,6 @@
       "published": "2026-11-10T15:00:39+00:00",
       "title_orig": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
       "summary_orig": "The new model is up to twice as successful at some tasks."
-    },
-    {
-      "id": "978008989f5d",
-      "title": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: el mismo modelo, diferentes salvaguardas",
-      "summary": "Anthropic lanzó Claude Fable 5.2 y Claude Mythos 5.2, mismo modelo con dos niveles de seguridad; Fable 5.2 obtuvo 49.1 % en FrontierCode 2.0, cuesta $8/$40 por millón de tokens y tiene ventana de contexto de 1 M de tokens.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T14:59:09+00:00",
-      "title_orig": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-      "summary_orig": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The post Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards appeared first on MarkTechPost ."
-    },
-    {
-      "id": "d46ef5e89bcc",
-      "title": "IA: Anthropic mantiene el calendario de su salida a bolsa y apunta a una valoración de hasta 1,4 billones de dólares",
-      "summary": "Anthropic sigue planeando su salida a bolsa, buscando una valoración de hasta 1,4 billones de dólares.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOREdJY3dQR2NULVgtNlVoSURKdVJ0aWRWaHNIaFRBRU82emdmcjNyYWlkRUlHM0xraDJMeUZZaXVQRnRwTDZTa285RVhVY3VOc3pnWEQwdHJmbzFNaWJycTduSDZXdmgzMjE2Vk83eEZCZ2lvQlFlZGpydkF1R0ZrOVZGbTZLV1drNURuWk5KSDJaWWZOZlRROXFmTWJYNlB3MFBrT3RlOVFiUU5aUzljLVFwSUUxODF3em85Zk1lOVJrY2VRWTVkQmNMcF9mUzJUVHluUVp4M2F0V2JmbGtkSkxhTGwzam5sNTBuRkdmQkJwS1NydXUwNlRPMXZ3Q21VTEExUTh3NFc2RTE4VmcwNGJn?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-10T14:38:19+00:00",
-      "title_orig": "IA : Anthropic maintient le timing de son entrée en Bourse et vise jusqu’à 1 400 milliards de dollars de valorisation",
-      "summary_orig": ""
-    },
-    {
-      "id": "583cf4a86e34",
-      "title": "Inteligencia artificial: la empresa de IA Anthropic planea una salida a bolsa con una valoración de billones",
-      "summary": "Anthropic, la startup de IA, planea cotizar en bolsa con una valoración de varios miles de millones.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd2hvS3BEdDYzVzdGdzJhWFByaFVWS25BcWRCUE0xWkk0QUs3V2F4am9ONXY4MU1ZVlRsSDJZSHNkVHhFbmtEaVBLTzdVNWFtcTJlZjZrWFk0TGU4cmZ6SXRuOTVBaHNDTjdBeGJ4RGM2aEI1YXN6MzJvZVFpWGNSZmhqNnV2SjFCYkpXRjJGUUZxT2MyZ0Rrd1lEbmNiQ3pnQ2xuUjN5bW10cHFxZTZIUnVrSVI2SEFvT203b1c2d1ZJMk5mNnNuc01fTXhfVDFiZUlSYzZnNWJKeGNvdFVYZzBR?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Tagesspiegel",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-10T14:22:18+00:00",
-      "title_orig": "Künstliche Intelligenz: KI-Firma Anthropic plant Börsengang mit Billionen-Bewertung",
-      "summary_orig": ""
-    },
-    {
-      "id": "6f3953006a30",
-      "title": "Anthropic establece un rango de precios de salida a bolsa de 70 a 78 dólares por acción para alcanzar una valoración implícita de 1,404 billones de dólares",
-      "summary": "La empresa podría valer hasta 1,404 billones de dólares si sus acciones se cotizan al máximo del rango.",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T14:01:39+00:00",
-      "title_orig": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-      "summary_orig": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis."
-    },
-    {
-      "id": "0e6f77f0820c",
-      "title": "Claude Fable 5.2 de Anthropic vence a GPT-6 Cyber en el punto de referencia de ciberataques en varias etapas",
-      "summary": "Anthropic lanzó Claude Fable 5.2 y Claude Mythos 5.2, que mejoran en codificación, razonamiento y visión, y ya han permitido migraciones de software imposibles, diseñar dispositivos electrónicos y resolver problemas de física de agujeros negros.",
-      "sourceUrl": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "social",
-      "published": "2026-11-10T13:46:14+05:30",
-      "title_orig": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "summary_orig": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made"
-    },
-    {
-      "id": "f2e7780a1da9",
-      "title": "La unidad de chips T-Head de Alibaba presenta el plan de salida a bolsa de Hong Kong en medio de la campaña de autosuficiencia de IA de China",
-      "summary": "La unidad de diseño de chips de Alibaba, T‑Head, solicita una OPI confidencial en Hong Kong, buscando cotizar mientras EE. UU. y China compiten en tecnología.",
-      "sourceUrl": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T13:20:29+00:00",
-      "title_orig": "Alibaba chip unit T-Head files Hong Kong IPO plan amid China’s AI self-sufficiency drive",
-      "summary_orig": "Alibaba Group Holding’s chip design unit T-Head has filed for an initial public offering (IPO) on a confidential basis in Hong Kong, the company said in a stock-exchange filing on Tuesday evening, setting up a high-profile listing in the city amid rising competition between the US and China as the latter continues its push for tech self-sufficiency. The size and structure of the listing were not f"
-    },
-    {
-      "id": "155d33cae726",
-      "title": "Google Cloud lanza Gemini para el cuidado de la salud.",
-      "summary": "Google Cloud lanza Gemini para salud, unificando datos clínicos y automatizando flujos de trabajo para reducir el agotamiento administrativo.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "sourceLabel": "Google AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T13:00:00+00:00",
-      "title_orig": "Google Cloud launches Gemini for healthcare.",
-      "summary_orig": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works."
-    },
-    {
-      "id": "668107094923",
-      "title": "Los rusos y otros suscriptores grises de Claude llevaron a Anthropic hasta $2.3 mil millones, pero aún se les niega el acceso a la IA",
-      "summary": "Los rusos y usuarios de “suscriptores grises” de Claude aportaron $2.300 millones a Anthropic, pero aún no pueden acceder a su IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRC1xcGJxc1JxLW54VHM3SnViSjZTWHlQSTN5RXMyTHhJRy1ac2hIOUVlTWhqZFJaSVpYbXQ5T2ZWa2VzY2MxM2JSTG5VMDNxSFdHbXg1cGxtclZNa1lTSUttckZBUk9CdGt4cmwwSllGb1V4Q2lvd0hZa1I0bG1vTUFyOVp4Ymgyci1nYWVITHRjeFp2S0Jiclh5YmxNUlllcThxeFhlcF9xczliWVI5dnlFcTE1eFBzUHBpSVJSVFoxemNId1c5LW5Ndm1iR0dEYXAzN0NR0gHbAUFVX3lxTE95bkFKTFJuQnVUSGtWbDNwbTdvVmVMWXJKZlF5eDRVWGwtbVRvYndJU1l3bGZURkV3cGxmMkhGLXEzY085SEhuWmZuVkt2QlNzWmtlUklFdThScEJ5REVkZXBDWUppQjBLZ3kweEZublk5alJKNkpjdGF1Q09lMGJhbmFfRjVRQjNMRHNMUVUzcUc0RWlxQ2tfZkpueGxpQTB5R1pDcTI3WnplTWhickx5UzdfWnRhUS04emxidXBNUDBrZzdwTXVyYUpxSWxTTmpMNDRDemlUWmp5aw?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-10T12:48:00+00:00",
-      "title_orig": "Россияне и другие серые подписчики Claude принесли Anthropic до $2,3 млрд — но им всё равно закрывают доступ к ИИ",
-      "summary_orig": ""
-    },
-    {
-      "id": "037628398b09",
-      "title": "Anthropic lanza Mythos 5.2 con una mejor búsqueda de errores y menos escapes de sandbox",
-      "summary": "Anthropic lanza Mythos 5.2, que detecta vulnerabilidades mejor y escapa menos a los sandbox en pruebas controladas.",
-      "sourceUrl": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T12:17:13+00:00",
-      "title_orig": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
-      "summary_orig": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes appeared first on SecurityWeek ."
-    },
-    {
-      "id": "46ecb159c153",
-      "title": "Ayudar a los cuidadores a usar la IA en la vida cotidiana",
-      "summary": "OpenAI Academy ofrece talleres gratuitos de ChatGPT en cinco ciudades de EE. UU. para que cuidadores adquieran habilidades prácticas de IA en su día a día.",
-      "sourceUrl": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T12:00:00+00:00",
-      "title_orig": "Helping caregivers use AI in everyday life",
-      "summary_orig": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life."
-    },
-    {
-      "id": "5ca4dc7b6d88",
-      "title": "Presentación de las empresas en ChatGPT",
-      "summary": "Administra la información de tu negocio, obtén datos sobre su presencia y convierte el interés en acción con ChatGPT.",
-      "sourceUrl": "https://openai.com/index/introducing-businesses-chatgpt",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T10:00:00+00:00",
-      "title_orig": "Introducing Businesses in ChatGPT",
-      "summary_orig": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT."
-    },
-    {
-      "id": "940c6f5d8620",
-      "title": "Australia endurece las normas de IA tras los ataques de OpenAI",
-      "summary": "Australia aprueba normas más estrictas para la IA tras los recientes ataques de OpenAI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1pqbS1aaUJ0cmpDcDdqLWZOMkR0dXREdFdNNXFsZWpxNUxEZzd6Z1RHUDItVnJrU0tPd01yWlJnM3FUTW9CWkJrc1NNUlVuYzByMDZNcmxETFRuOW11SHozWFA5bWt6Nk5SLWVSTFgxcmdiSlRyRTN3VW1ZYkdRWnBxODJBUWhBQzd1NTFyU2QwcFQ2azJ4YTZNWmxybXc?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "heise online",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-10T09:03:00+00:00",
-      "title_orig": "Australien verschärft KI-Regularien nach OpenAI-Angriffen",
-      "summary_orig": ""
-    },
-    {
-      "id": "01a8528fa117",
-      "title": "Cerrar la brecha de orientación de IA en la educación",
-      "summary": "Investigación de ThinkYoung y experiencias de OpenAI en EMEA sobre cómo apoyar a docentes, fomentar la alfabetización en IA y promover el aprendizaje autónomo.",
-      "sourceUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T09:00:00+00:00",
-      "title_orig": "Closing the AI guidance gap in education",
-      "summary_orig": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning."
-    },
-    {
-      "id": "b499e77dac9e",
-      "title": "Anthropic presenta dos nuevos modelos de inteligencia artificial Claude 5.2",
-      "summary": "Anthropic presenta los nuevos modelos de inteligencia artificial Claude 5.2.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ1VIVnFuRzBwYWh2azhLNEZPc2dCYThtN3k3a2lBOERucW14WU9ZNk1tNElEbWVYUEtHOTNNMHZoRVRHdmpfUjdHUjFSXzlrY3VBQ0ZXaG5MX0hxeXN5V19NLV8tNzVmMUR1ajYtYWNHaG5vM3JRVG5EUW9LLUtZdTFwVmM1RFlnMEhPUDEzUHNCaDhNRlQtM2d5eW5IT0tjLUtlSGYwS0dudXhMMTJveVdGeE13S1puU19PUHljNzc?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "TKS.RU",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-10T08:29:01+00:00",
-      "title_orig": "Anthropic представила две новые модели искусственного интеллекта Claude 5.2",
-      "summary_orig": ""
     }
   ]
 }
