@@ -1,59 +1,44 @@
 {
-  "generated_at": "2026-11-11T19:19:35.818697+00:00",
+  "generated_at": "2026-11-12T19:36:33.794145+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "CoinDesk",
     "DeepMind",
     "Google AI",
     "Google News — IA Francia",
+    "Google News — IA Rusia",
+    "Google News — IA global",
     "OpenAI",
+    "QbitAI",
     "SCMP Business",
-    "TechCrunch AI",
-    "The Hacker News"
+    "SecurityWeek",
+    "The Hacker News",
+    "Wired"
   ],
   "signals": [
     {
-      "id": "f28f90d2895a",
-      "title": "Gilbert + Tobin replantea el negocio del derecho con la IA",
-      "summary": "Conversación con Sam Nickless, socio y director ejecutivo de Gilbert + Tobin.",
-      "sourceUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "sourceLabel": "OpenAI",
+      "id": "0215fb6873ae",
+      "title": "ThreatsDay: 59 vulnerabilidades en el kernel de Linux, el spyware Falcon, las puertas traseras de GSocket y otras 17 noticias más",
+      "summary": "Los atacantes usan sitios falsos, accesos robados y herramientas de confianza, acelerados por IA, para infiltrarse donde no deberían.",
+      "sourceUrl": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "sourceLabel": "The Hacker News",
       "publisher": "",
       "region": "west",
-      "country": "usa",
+      "country": "uae",
       "models": [
-        "gpt"
+        "falcon"
       ],
-      "source": "lab",
-      "published": "2026-11-12T00:00:00+00:00",
-      "title_orig": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary_orig": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+      "source": "social",
+      "published": "2026-11-12T23:32:51+05:30",
+      "title_orig": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "summary_orig": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while"
     },
     {
-      "id": "d48e4f7a3199",
-      "title": "El gigante taiwanés de la fabricación de chips TSMC invertirá 1000 millones de dólares en Anthropic y OpenAI",
-      "summary": "El último caso de financiación circular del boom de IA surge mientras el comercio de IA se tambalea.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "id": "77a7ce670b8c",
+      "title": "Google lanza Gemini 4 Hydrogen, que por fin sustituye a 3.8 Flash",
+      "summary": "Gemini 4 Hydrogen no tendrá un lanzamiento lento y centrado en la seguridad como Carbon y Argon.",
+      "sourceUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
       "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-11T18:16:40+00:00",
-      "title_orig": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "summary_orig": "Latest example of the AI boom’s circular financing comes as AI trade wobbles."
-    },
-    {
-      "id": "8e4104a923ec",
-      "title": "API Gemini Decisions: decisiones multimodales rápidas y calibradas",
-      "summary": "Conoce la API Gemini Decisions, impulsada por nuestro modelo Gemini Decision, para obtener decisiones multimodales rápidas y calibradas.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "sourceLabel": "Google AI",
       "publisher": "",
       "region": "global",
       "country": "global",
@@ -61,49 +46,83 @@
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-11T18:00:00+00:00",
-      "title_orig": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "summary_orig": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
+      "published": "2026-11-12T19:23:03+00:00",
+      "title_orig": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "summary_orig": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon."
     },
     {
-      "id": "14caa111eec6",
-      "title": "Más de 35 000 aplicaciones creadas con Grok expuestas en Internet, algunas de las cuales filtran datos confidenciales y contraseñas",
-      "summary": "Claroc halló 37.571 apps creadas con Grok; 35.578 estaban abiertas sin registro, mayormente juegos y calculadoras, y 1 de cada 10 contenía datos internos.",
-      "sourceUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "sourceLabel": "The Hacker News",
+      "id": "3a3ea46b43b8",
+      "title": "Google se enfrenta a peticiones de moratorias sobre la IA en las escuelas tras las críticas al programa piloto de Gemini",
+      "summary": "Familias acusan a Google tras la demanda de un adolescente que califica a Gemini de “entrenador de suicidio”.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "sourceLabel": "Ars Technica AI",
       "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
-        "grok"
-      ],
-      "source": "social",
-      "published": "2026-11-11T17:49:40+05:30",
-      "title_orig": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "summary_orig": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or"
-    },
-    {
-      "id": "29f521837a1e",
-      "title": "Según se informa, los ingresos trimestrales de OpenAI superan los 10 000 millones de dólares por primera vez",
-      "summary": "Las ventas de $10 mil millones suponen un aumento de casi el 50 % respecto a los $6,7 mil millones del trimestre anterior.",
-      "sourceUrl": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-11T16:14:44+00:00",
-      "title_orig": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-      "summary_orig": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter."
+      "published": "2026-11-12T18:57:45+00:00",
+      "title_orig": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "summary_orig": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”"
     },
     {
-      "id": "5b916f1bea87",
-      "title": "AlphaGenome 2: Descifrar cómo leen las células el ADN para comprender mejor las enfermedades",
-      "summary": "Predicción de cómo las secuencias de ADN y sus variantes afectan tipos celulares humanos y enfermedades.",
-      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "id": "6e50410bcad7",
+      "title": "Google ha lanzado la IA Gemini 4 Hydrogen, que supera a Argon en velocidad e inteligencia",
+      "summary": "Google lanzó Gemini 4 Hydrogen, una IA que supera a Argon en velocidad e inteligencia.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHXzh6SjdqWmQ2cnlPNU9OOEgtblYxTUFKUDh4c0pwMUZUZGhXZzhCdzg4SkVncm1mZ0R0LXc2c0IyLTFrbWRsVG1sQmxBdlYxZWU5RFhLN1NkNXFVaFVWTWVqeEM4X05FVU8yTjN0OVQzTV9mRHpaeU9DVWY?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Techora.ru",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-12T18:33:25+00:00",
+      "title_orig": "Google выпустила ИИ Gemini 4 Hydrogen, превзошедший Argon по скорости и интеллекту",
+      "summary_orig": ""
+    },
+    {
+      "id": "e1acab05b268",
+      "title": "El personal de Google DeepMind recurre al Gobierno del Reino Unido para intensificar su lucha por la sindicalización",
+      "summary": "Tras estancarse las conversaciones iniciales, los empleados de Google DeepMind buscan eludir a la dirección para intentar sindicalizarse.",
+      "sourceUrl": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T18:05:41+00:00",
+      "title_orig": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+      "summary_orig": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize."
+    },
+    {
+      "id": "dfe7530b3748",
+      "title": "Presentamos Gemini 4 Hydrogen para flujos de trabajo agenticos",
+      "summary": "Google lanza Gemini 4 Hydrogen, una versión diseñada para flujos de trabajo basados en agentes.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbnlqelBIT1ZXblFBa25zdHlXalhPR2Z2b2xLZ2lmeEtFbUFXS3Mya3FtU0tyeGJrOXpHVEJOdFpDVUZSUTVOUHA0WjRiakw2a2hIRzc3ZHBfM3pDT3dKTDdfMExNQ2FnU1NWSHI3UGpXX2lVSEUxeVYwb2FfNE5vRGJnMjhWSzU5WkFrdmtOdW5Fb0lja1dFN3JUMkQ5R01JRXhNUA?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "blog.google",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-12T18:04:04+00:00",
+      "title_orig": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+      "summary_orig": ""
+    },
+    {
+      "id": "4bad5afe01a1",
+      "title": "Presentamos Gemini 4 Hydrogen",
+      "summary": "Gemini 4 Hydrogen es la nueva versión de la IA de Google, diseñada para ofrecer respuestas más precisas y creativas.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "sourceLabel": "DeepMind",
       "publisher": "",
       "region": "west",
@@ -112,33 +131,67 @@
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-11T15:00:15+00:00",
-      "title_orig": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "summary_orig": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+      "published": "2026-11-12T18:00:50+00:00",
+      "title_orig": "Introducing Gemini 4 Hydrogen",
+      "summary_orig": ""
     },
     {
-      "id": "ef892408bebc",
-      "title": "Google DeepMind acaba de verificar matemáticamente partes clave de Signal",
-      "summary": "Un proyecto de cuatro semanas sugiere que la IA podría volver la verificación formal mucho más práctica.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-      "sourceLabel": "Ars Technica AI",
+      "id": "459a57b4750a",
+      "title": "La Búsqueda de Google recibe una importante actualización con Gemini 4 Hydrogen",
+      "summary": "Google Search incorpora Gemini 4 Hydrogen, mostrando ejemplos en un carrusel rotativo de tarjetas.",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "sourceLabel": "Google AI",
       "publisher": "",
-      "region": "west",
-      "country": "uk",
+      "region": "global",
+      "country": "global",
       "models": [
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-11T14:08:57+00:00",
-      "title_orig": "Google DeepMind just mathematically verified key parts of Signal",
-      "summary_orig": "The four-week project hints that AI could make formal verification far more practical."
+      "published": "2026-11-12T18:00:00+00:00",
+      "title_orig": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary_orig": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI"
     },
     {
-      "id": "d34c73c9a558",
-      "title": "El bitcoin se mantiene por debajo de los 74 000 $, ya que los beneficios de CoreWeave reavivan las perspectivas de la IA; según se dice, Anthropic va a aumentar la valoración de su salida a bolsa.",
-      "summary": "Los ingresos de CoreWeave impulsaron las acciones de infraestructura de IA y los futuros del Nasdaq, mientras el bitcoin se mantuvo casi sin cambios.",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/11/11/coreweave-earnings-revive-ai-outlook-as-anthropic-weighs-higher-ipo-valuation",
-      "sourceLabel": "CoinDesk",
+      "id": "4e08c4d04ef9",
+      "title": "La mirada de la redacción. Inteligencia artificial: ¡No toques a mi Claude!",
+      "summary": "La redacción advierte: “Inteligencia artificial: ¡no manipules a mi Claude!” según L’Est Républicain.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkpXOUxsbFlhSjRmVkxxdU5XSlZtQWVSS3RHd0lZcXZtRnNGTHkzUGsyUlRLYlZ2T1hZUnF5UVlSNTk4Nng4TTJHOWdmRkFEVVg5SGktYjhTMkc0eWYtQnd4d3Z6N2kwZEUxZUJqZi1yWjhESTlYakw5UWQ3dmRUSG41Qmt6YWpicVBWTVNveG5QYmhpalJJS2h0MTBqRDE1SFhRcGtSaWJxTlBKYmFaSEIxaw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "L'Est Républicain",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-12T17:39:10+00:00",
+      "title_orig": "L'oeil de la rédaction. Intelligence artificielle : touche pas à mon Claude !",
+      "summary_orig": ""
+    },
+    {
+      "id": "6e181fc14a19",
+      "title": "Google ha lanzado la IA Gemini Decision 1, que responde en formato «sí»/«no»",
+      "summary": "Google lanzó Gemini Decision 1, una IA que solo responde con “sí” o “no”.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPanFsMEowX1Y1ZmdUNFJmbFdMNDAtRXpEQlBWemhoa3VlRTRnaXh4UDRiZWJ6UGZvaWhIYjR1UHY1ckpnZnppRVdnUXJxczF5b21ORTVuMEI1WEZFcjdTUkZ2Z2FycUQ0LTdKcTcxUjhaaUE5SGhaRzhaNTRuZkRGYTcwNGRhRWlMZzRYWWpqNFhnTXI0LWhMVkp5YnMwdWtSNW1qWmZVU24wcUhRYWdRb1UyNXpIR1pUUTB2VGVvMWdZTUczMVE?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "RB.RU",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-12T16:15:00+00:00",
+      "title_orig": "Google выпустила ИИ Gemini Decision 1, который отвечает в формате «да»/«нет»",
+      "summary_orig": ""
+    },
+    {
+      "id": "16b72427cf58",
+      "title": "Apache parchea una vulnerabilidad crítica de ejecución remota de código en el servidor HTTP descubierta por Anthropic y Google",
+      "summary": "Una vulnerabilidad de condición de carrera en mod_http2 (CVE‑2026‑119618) permite a atacantes no autenticados ejecutar código en servidores con HTTP/2 habilitado.",
+      "sourceUrl": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "sourceLabel": "SecurityWeek",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -146,50 +199,117 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-11-11T10:45:49+00:00",
-      "title_orig": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-      "summary_orig": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours."
+      "published": "2026-11-12T15:38:31+00:00",
+      "title_orig": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+      "summary_orig": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek ."
     },
     {
-      "id": "f502b69bb33b",
-      "title": "IA generativa: OpenAI y Anthropic firman una carta para una inteligencia artificial «más segura para los niños»",
-      "summary": "OpenAI y Anthropic acuerdan crear una IA generativa más segura para proteger a los niños.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTkxOVE1OdDVuUFlGR0pSX1JHazQ0SE9RaEF6aVppaHZZZDZlcnMybnk1LVdiLTRBNURReFNtcy1nVHRUS3lpMGUxX3ZQRnFET0pIMzVKLTBmQWRHNnJ4RmduMFRnNFNSOW0tYVpIcWd0cUN4S1lIdDdyVW9FN3dCaURJQ013Y1dndmNIRWZuWDhtVHhRMUN2SVloVFIxcnJFX2lfc2pvN3VvOE5lOUJtRzNza0R5MW9Hd1FHNHU1clhJM3czODk3bFZJLTVoLU05eFZ5MC1HY1VzcXNlcHAwdHdUVzFxX0FOVnR4QUtJczZTdkZ0WjNyUzk0V1Q0bkh0dlFJ?oc=5",
+      "id": "5f96a0ebfa7b",
+      "title": "Google hace hincapié en la privacidad con el lanzamiento de las gafas inteligentes con tecnología Gemini, a partir de 395 $",
+      "summary": "Los primeros smartglasses Gemini son una colaboración entre Google, Samsung, Gentle Monster y Warby Parker.",
+      "sourceUrl": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T14:50:17+00:00",
+      "title_orig": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "summary_orig": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker."
+    },
+    {
+      "id": "baf44ce1f39f",
+      "title": "¡El «Genshin Impact» multimodal! MiniMax lanza un modelo de generación de imágenes SOTA de código abierto, con resolución nativa 4K, a 0,20 yuanes por imagen",
+      "summary": "Desmontaje CAD.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509440.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "minimax"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T11:36:20+00:00",
+      "title_orig": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "summary_orig": "「CAD拆解」"
+    },
+    {
+      "id": "557c797f2a83",
+      "title": "Insultos, acoso… Anthropic prohíbe ahora a sus usuarios maltratar a su inteligencia artificial Claude",
+      "summary": "Anthropic prohíbe a sus usuarios insultar o acosar a su IA Claude.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdm9wOUQ3X0tTMV9VSmNuRzBsdmJMRGFBLUFQTUNpNUFxd2p4alp5NzVUSkdndkhRUVZkSUVRNlUweW1VNnZQS25hOWRmdlRoMXRIZ01vOEh2VWV6Y2pueTRoTUZWenFPdUZtVUwybmtGN0VDUVE4OU8tZGo2eUtpZnhxOFdZdmxLQ3R6SU1SSDVHNGtlSUJFMXNqUVktMjdMdnQ2UE9VQnFuUjhYelNrcVVRRVdVaFFFYkZMajN3cFc0dTZlTVZTX3RkUkRiOUR6eWJ1NWIwWFNUd0JyZ1Jib0lFMkhzcC0yR2tjN3pNTE5Rd0F0dU9iYjJGMA?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "lanouvellerepublique.fr",
+      "publisher": "Le Figaro",
       "region": "west",
       "country": "usa",
       "models": [
-        "claude",
-        "gpt"
+        "claude"
       ],
       "source": "news",
-      "published": "2026-11-11T09:46:11+00:00",
-      "title_orig": "IA générative : une charte pour une intelligence artificielle \"plus sûre pour les enfants\" signée par OpenAI et Anthropic",
+      "published": "2026-11-12T10:32:40+00:00",
+      "title_orig": "Insultes, brimades… Anthropic interdit désormais à ses utilisateurs de maltraiter son intelligence artificielle Claude",
       "summary_orig": ""
     },
     {
-      "id": "cf097931c31f",
-      "title": "Alibaba prepara la salida a bolsa de los chips T-Head mientras se enfría la euforia en Hong Kong",
-      "summary": "Alibaba solicitó la salida a bolsa en Hong Kong de su unidad de diseño de chips T‑Head para financiar sus planes de IA.",
-      "sourceUrl": "https://www.scmp.com/plus/business/banking-finance/article/3374068/alibaba-readies-t-head-chip-ipo-hong-kong-frenzy-cools",
+      "id": "e189580829f8",
+      "title": "Anthropic inicia su gira de presentación para la salida a bolsa, con una valoración reducida en 600 000 millones de dólares",
+      "summary": "Todo el mundo frena, pero Dalio acelera.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509381.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T10:11:29+00:00",
+      "title_orig": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "summary_orig": "全世界都在踩刹车，达里奥一个人踩油门"
+    },
+    {
+      "id": "0d2e754820f1",
+      "title": "¡Grok de Musk revela secretos de su propia empresa! Se revelan todos los salarios y el rendimiento de SpaceX y Tesla",
+      "summary": "Grok nunca decepciona a la hora de relajar a la gente.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509355.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T10:08:24+00:00",
+      "title_orig": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
+      "summary_orig": "Grok在让人破绷这件事上，从来不会让人失望。"
+    },
+    {
+      "id": "a180c04ab4e8",
+      "title": "Un antiguo científico de IA de ByteDance promociona un modelo de descubrimiento de fármacos que supera a los líderes mundiales",
+      "summary": "Un ex‑científico de IA de ByteDance lanza NovaAtom‑Lite, modelo que supera a los sistemas líderes en predicción de estructuras biomoleculares para descubrimiento de fármacos.",
+      "sourceUrl": "https://www.scmp.com/business/companies/article/3374201/former-bytedance-ai-scientist-touts-drug-discovery-model-tops-world-leaders",
       "sourceLabel": "SCMP Business",
       "publisher": "",
       "region": "china",
       "country": "china",
       "models": [
-        "qwen"
+        "doubao"
       ],
       "source": "lab",
-      "published": "2026-11-11T09:19:59+00:00",
-      "title_orig": "Alibaba readies T-Head chip IPO as Hong Kong frenzy cools",
-      "summary_orig": "Alibaba has applied to list chip-design unit T-Head in Hong Kong, as the Chinese tech giant braves a cooling initial public offering (IPO) market to raise funds for artificial intelligence (AI) ambitions. The Hong Kong stock exchange has approved the proposed separation and a confidential listing application was filed in September, Alibaba said in a statement on Tuesday. T-Head, which provides ful"
+      "published": "2026-11-12T10:00:14+00:00",
+      "title_orig": "Former ByteDance AI scientist touts drug-discovery model that tops world leaders",
+      "summary_orig": "A former ByteDance artificial intelligence scientist’s new venture has released a life sciences AI model that the firm claims outperforms state-of-the-art systems, intensifying the increasingly crowded competition in AI-driven drug discovery. Geodesic Intelligence’s NovaAtom-Lite, an AI model designed to predict the structures and interactions of biomolecules, topped a third-party benchmark in sev"
     },
     {
-      "id": "80b38ea7da37",
-      "title": "ChatGPT Plus para veteranos y militares",
-      "summary": "Más de 20 000 veteranos y militares en transición han recibido un año gratuito de ChatGPT Plus para prepararse para carreras civiles.",
-      "sourceUrl": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "id": "0990939c7d6e",
+      "title": "Holiday Extras está replanteándose qué puede crear con Codex",
+      "summary": "Con Codex, Holiday Extras transforma la experiencia del cliente en apps mejores, mayor conversión de reservas y nuevas oportunidades de crecimiento.",
+      "sourceUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -198,103 +318,16 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-11T08:00:00+00:00",
-      "title_orig": "ChatGPT Plus for veterans and servicemembers",
-      "summary_orig": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
+      "published": "2026-11-12T09:30:00+00:00",
+      "title_orig": "Holiday Extras is rethinking what it can build with Codex",
+      "summary_orig": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
     },
     {
-      "id": "e3a13040714b",
-      "title": "Qué gana el gigante taiwanés de los chips TSMC al participar en la carrera de la IA de OpenAI y Anthropic",
-      "summary": "TSMC invertirá hasta 500 millones de dólares en acciones de Anthropic y en OpenAI, vinculando financieramente al mayor fabricante de chips con los laboratorios de IA de vanguardia.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374037/what-taiwanese-chip-giant-tsmc-gains-taking-stakes-openai-and-anthropics-ai-race",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-11T07:30:21+00:00",
-      "title_orig": "What Taiwanese chip giant TSMC gains from taking stakes in OpenAI and Anthropic’s AI race",
-      "summary_orig": "Taiwan Semiconductor Manufacturing Company’s (TSMC) move to take equity stakes in both OpenAI and Anthropic will give the world’s largest contract chipmaker direct financial ties to the frontier AI labs driving demand for its business. Its board on Tuesday authorised up to US$500 million to buy Anthropic common shares at its initial public offering (IPO) price, and up to US$500 million to buy pref"
-    },
-    {
-      "id": "8c999d6885d2",
-      "title": "El arquitecto jefe de JioStar habla sobre el descubrimiento de la IA a escala de 500 millones de usuarios",
-      "summary": "Vijay Seshadri de JioStar comparte lecciones sobre evaluaciones, salvaguardas y cómo llevar la IA a producción a escala de 500 millones de usuarios.",
-      "sourceUrl": "https://openai.com/index/jiostar-vijay-seshadri",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-11T00:00:00+00:00",
-      "title_orig": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "summary_orig": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production."
-    },
-    {
-      "id": "b686da68349e",
-      "title": "El agente de codificación de Grok Build filtra muchísima información confidencial, parte de ella perteneciente a SpaceXSI",
-      "summary": "Investigador descubre 35 000 apps de Grok Build accesibles para cualquiera que las busque.",
-      "sourceUrl": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T21:12:59+00:00",
-      "title_orig": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "summary_orig": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
-    },
-    {
-      "id": "bd2a6830d8cf",
-      "title": "OpenAI adquiere Odessia, una «startup» de viajes creada por el fundador de Sonder",
-      "summary": "OpenAI aún no ha anunciado sus planes para el futuro de los viajes, pero el fundador de Sonder, Francis Davidson, es una figura conocida en la industria.",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T21:08:52+00:00",
-      "title_orig": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-      "summary_orig": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry."
-    },
-    {
-      "id": "91faed0650f0",
-      "title": "OpenAI y Anthropic se enfrentan a una nueva supervisión con la entrada en vigor de la ley de seguridad de la IA de Nueva York",
-      "summary": "Nueva York pronto hará cumplir su ley de IA, obligando a OpenAI y Anthropic a registrarse, revelar prácticas de seguridad y reportar incidentes críticos bajo multa.",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T20:52:13+00:00",
-      "title_orig": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "summary_orig": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines."
-    },
-    {
-      "id": "9a5bae24e02d",
-      "title": "Cada uno de los 7 fundadores de Anthropic obtendrá unos 250 millones de dólares con la salida a bolsa",
-      "summary": "Los siete cofundadores venderán la misma cantidad de acciones en la OPI, obteniendo unos $250 millones cada uno y manteniendo el control de la empresa.",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "86c3365af113",
+      "title": "¡El programa Glass Wing de Anthropic está en entredicho! Casi 40 000 vulnerabilidades pendientes, de las cuales solo se han solucionado 217",
+      "summary": "Solo cavar sin preocuparse por enterrar.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509291.html",
+      "sourceLabel": "QbitAI",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -302,60 +335,26 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-11-10T19:57:52+00:00",
-      "title_orig": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "summary_orig": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company."
+      "published": "2026-11-12T07:55:11+00:00",
+      "title_orig": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
+      "summary_orig": "只管挖不管埋。"
     },
     {
-      "id": "ac5a661efbfd",
-      "title": "IA Gemini: Nuevas funciones, en más dispositivos",
-      "summary": "Un hombre habla por teléfono y en la pantalla se lee “Gemini Intelligence”.",
-      "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "sourceLabel": "Google AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T19:00:00+00:00",
-      "title_orig": "Gemini Intelligence: New features, on more devices",
-      "summary_orig": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'"
-    },
-    {
-      "id": "0b2e1c02de47",
-      "title": "La Gemini 4 Carbon ya está disponible",
-      "summary": "La Gemini 4 Carbon ya está disponible.",
-      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
+      "id": "5976d9014240",
+      "title": "«Acciones peligrosas que ningún ser humano ha ordenado»: OpenAI instala un botón rojo para apagar sus IA en 35 segundos",
+      "summary": "OpenAI ha añadido un botón rojo que permite apagar sus IA en 35 segundos, una medida de seguridad sin precedentes.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTVlDZmFCNS1WNkRsZ0VPS2tSakdLRVQ0a0czeGhaZTA5RFY5TGVUZXFkQmVuaW5VWVB6cl9TZURIUlVMUEYxdXJkVjFQazlhNlNFWnI2NzJHU1FVZnN4TUt1dTNrdU84WUQwd0FwSUxuZWNKV0pIM215Wm02OGg4UmpvN2J2SS1tQ185TlU4QjI0NllfbldERVFPVURQa0Fwd1F3RUpzUHBvVWNTamhyVWlVeGRqTDhiR09UTXVwRnZ0anMxR2ZDbVdNU1VTZmE3a1hPQlU2aF9wNkxKaXJfWkUwOFpKWkpoVk94RkhhTUJnZw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Numériques",
       "region": "west",
-      "country": "uk",
+      "country": "usa",
       "models": [
-        "gemini"
+        "gpt"
       ],
-      "source": "lab",
-      "published": "2026-11-10T16:03:47+00:00",
-      "title_orig": "Gemini 4 Carbon is now available",
+      "source": "news",
+      "published": "2026-11-12T07:45:00+00:00",
+      "title_orig": "“Des actions dangereuses qu’aucun humain n’a ordonnées” : OpenAI installe un bouton rouge pour couper ses IA en 35 secondes",
       "summary_orig": ""
-    },
-    {
-      "id": "004c51f512e0",
-      "title": "DeepMind presenta Gemini Robotics 2.5 y el «benchmark» abierto de seguridad «ASIMOV-jailbreak»",
-      "summary": "El nuevo modelo logra hasta el doble de éxito en ciertas tareas.",
-      "sourceUrl": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-10T15:00:39+00:00",
-      "title_orig": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-      "summary_orig": "The new model is up to twice as successful at some tasks."
     }
   ]
 }
