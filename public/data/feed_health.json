@@ -1,14 +1,14 @@
 {
- "generado": "2026-11-12T19:37:38",
+ "generado": "2026-11-13T19:18:08",
  "total_feeds": 33,
- "ok": 31,
- "vacios": 2,
+ "ok": 33,
+ "vacios": 0,
  "rotos": 0,
  "feeds": [
   {
    "nombre": "OpenAI",
    "url": "https://openai.com/news/rss.xml",
-   "items": 1383,
+   "items": 1386,
    "estado": "ok",
    "detalle": ""
   },
@@ -64,7 +64,7 @@
   {
    "nombre": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
-   "items": 906,
+   "items": 907,
    "estado": "ok",
    "detalle": ""
   },
@@ -120,16 +120,16 @@
   {
    "nombre": "arXiv cs.AI",
    "url": "https://rss.arxiv.org/rss/cs.AI",
-   "items": 0,
-   "estado": "vacio",
-   "detalle": "0 items (892 B): b'<?xml version=\\'1.0\\' encoding=\\'UTF-8\\'?>\\n<rss xmlns:arxiv=\"htt'"
+   "items": 537,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 0,
-   "estado": "vacio",
-   "detalle": "0 items (892 B): b'<?xml version=\\'1.0\\' encoding=\\'UTF-8\\'?>\\n<rss xmlns:arxiv=\"htt'"
+   "items": 237,
+   "estado": "ok",
+   "detalle": ""
   },
   {
    "nombre": "The Verge",

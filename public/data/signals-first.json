@@ -1,37 +1,292 @@
 {
-  "generated_at": "2026-11-12T19:36:33.794145+00:00",
+  "generated_at": "2026-11-13T19:16:50.230269+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
+    "CoinDesk",
     "DeepMind",
-    "Google AI",
+    "Google News — IA Alemania",
     "Google News — IA Francia",
-    "Google News — IA Rusia",
     "Google News — IA global",
+    "Hugging Face",
+    "MarkTechPost",
     "OpenAI",
-    "QbitAI",
-    "SCMP Business",
     "SecurityWeek",
-    "The Hacker News",
-    "Wired"
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "0215fb6873ae",
-      "title": "ThreatsDay: 59 vulnerabilidades en el kernel de Linux, el spyware Falcon, las puertas traseras de GSocket y otras 17 noticias más",
-      "summary": "Los atacantes usan sitios falsos, accesos robados y herramientas de confianza, acelerados por IA, para infiltrarse donde no deberían.",
-      "sourceUrl": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-      "sourceLabel": "The Hacker News",
+      "id": "ddd1fcb7aab1",
+      "title": "El bitcoin cae hasta los 68 000 $ a medida que la euforia por la salida a bolsa de Anthropic se suma a la inestabilidad del mercado",
+      "summary": "Los analistas no encuentran vínculo directo entre Nvidia y la caída de Bitcoin; atribuyen la caída al traslado de capital de inversores a Anthropic y a una tendencia general de aversión al riesgo.",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "sourceLabel": "CoinDesk",
       "publisher": "",
       "region": "west",
-      "country": "uae",
+      "country": "usa",
       "models": [
-        "falcon"
+        "claude"
       ],
-      "source": "social",
-      "published": "2026-11-12T23:32:51+05:30",
-      "title_orig": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-      "summary_orig": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while"
+      "source": "lab",
+      "published": "2026-11-13T18:39:58+00:00",
+      "title_orig": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "summary_orig": "Analysts see no direct link between Nvidia and bitcoin's decline, pointing instead to investor capital headed into Anthropic as well as a broader risk-off move."
+    },
+    {
+      "id": "8607f43c0238",
+      "title": "«Todo el mundo ha tomado conciencia de nuestras dependencias»: Europa quiere crear modelos tan potentes como los de OpenAI y Anthropic",
+      "summary": "Europa busca desarrollar IA tan potente como la de OpenAI y Anthropic, reconociendo su creciente dependencia tecnológica.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVF9uOEJYdVVad25fUVRtRm1xZzJCZnVOWWFqd3QzdXRSZkROYmhTbHNqVExTTHZLNzhJTm03V09aZnRWcUthVGZicENkLVE0QVZnWEVWVTlEVlMyYm5MNG5DXzZ6QmUwbWR5WWNqeXNqZFJHWjhGR3NvbXVuZ1RuZ3gwZHRGODNTR21ucDJQSEdNQnc3Q2V6UkV5RVdJTXpQbFFvLTVHQ3l2RjJ2RHFyaDJKY1MzWVNYLUJiMTJGeGpaclZvaHBRTFFGQ25tTWNpdDA3RWxhaWhhY1ZCMnBfTTNSSzV6bVF5ckVTTFFtV2Y0cno3S01jZ2lUeDZQWWtuOEQ5Y2NERGdRWjFmcEo1UWRfRm9hUVd0czY4?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-13T18:19:58+00:00",
+      "title_orig": "« Tout le monde a pris conscience de nos dépendances » : l'Europe veut créer des modèles aussi performants qu'OpenAI et Anthropic",
+      "summary_orig": ""
+    },
+    {
+      "id": "3951932cc10a",
+      "title": "Saqueo de contenidos culturales y de prensa por parte de la IA: la Alianza de la Prensa denuncia el «lobbying» de Mistral en la Asamblea Nacional",
+      "summary": "La Alianza de la Prensa acusa a Mistral de presionar en la Asamblea Nacional para saquear contenidos culturales y periodísticos mediante IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPS1ZvT1AteFNjOEdXM0tJM3Q1OEtrSTJKRkdfN3FqUnh1MXN6T0lETl9JSURQV19WN1N6bHctdjZlTXctUTNXQS05bmoxNmRhemk1OG4yanVEMUtOYmc5bGhvWkg5WHh6SjdKeGItcHNfLXJzbDNYd3ptb0hGdGhnQnkwNjdSRzZyQ3VwNEktS0NORUs3S0VDX3huSk1wWXJHYjZFOVZRNWJ2X04tTEZxMWlTREJkRTNTR3Q2VUpraU9tVGtucDY2Z01qNDQtUGxwdktsVHZzNmJEeVJDb3owZy1IYnRMaGRDVWZZeXhiQXhGb1RxTksyN0FWTDM0Z0VmeUg3QzZaQmZvYklf?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "lanouvellerepublique.fr",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-13T17:43:10+00:00",
+      "title_orig": "Pillage des contenus culturels et de la presse par l’IA : l’Alliance de la presse dénonce le lobbying de Mistral à l’Assemblée",
+      "summary_orig": ""
+    },
+    {
+      "id": "743e8b03b2d9",
+      "title": "Un miembro del consejo de administración de OpenAI teme que una «toma del control» de la sociedad por parte de la IA esté a solo unos meses de distancia",
+      "summary": "Un investigador vincula el hackeo de recompensas en IA con el riesgo de una posible extinción humana.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T17:25:45+00:00",
+      "title_orig": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "summary_orig": "Researcher traces a path from AI reward hacking to potential human extinction."
+    },
+    {
+      "id": "071aacbc0dd6",
+      "title": "Perplexity lanza Decider v1.3: los modelos de decisión de pesos abiertos añaden Locate",
+      "summary": "Perplexity lanza Decider v1.3 y Flash v1.3, modelos de decisión de peso abierto que devuelven probabilidades y añaden la función Locate, alcanzando 91,6 % de precisión media en 63 tareas de clasificación.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "perplexity"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T16:10:02+00:00",
+      "title_orig": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+      "summary_orig": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks. The post Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate appeared first on MarkTechPost ."
+    },
+    {
+      "id": "82b739f24b42",
+      "title": "El bitcoin se dirige a su sexta pérdida semanal a medida que se acerca la esperada salida a bolsa de Anthropic",
+      "summary": "Bitcoin ha caído un 21% este año mientras los inversores consideran la posible salida de Anthropic, la crisis en Nvidia y el aumento de expectativas de alzas de tipos de la Fed.",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T16:01:27+00:00",
+      "title_orig": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+      "summary_orig": "Bitcoin is down 21% this year as investors weigh Anthropic’s anticipated listing, Nvidia’s leadership upheaval and rising Fed rate hike expectations."
+    },
+    {
+      "id": "c231d25e54b9",
+      "title": "La nueva Wallet de ChatGPT permite a los agentes de IA comprar y pagar por ti",
+      "summary": "ChatGPT Wallet permite que agentes de IA compren y paguen por los usuarios, con un lanzamiento limitado para suscriptores Pro en EE. UU.",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T16:00:12+00:00",
+      "title_orig": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "summary_orig": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+    },
+    {
+      "id": "5bf4951adbe9",
+      "title": "Presentamos ChatGPT Wallet",
+      "summary": "ChatGPT Wallet permite a agentes de ChatGPT Work, Codex y Dots comprar de forma segura con la aprobación del usuario y la protección de tarjetas existente.",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T15:00:00+00:00",
+      "title_orig": "Introducing ChatGPT Wallet",
+      "summary_orig": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+    },
+    {
+      "id": "797abd0fa071",
+      "title": "«Europa dispone de toda la tecnología y el talento necesarios para liderar la carrera por la inteligencia artificial»: el director de Mistral insta a los dirigentes de los 27 a reaccionar y a «actuar ya».",
+      "summary": "Europa tiene la tecnología y el talento para liderar la IA; el director de Mistral pide a los líderes de los 27 países que actúen de inmediato.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOdjRxZTZDWHlzN0I5QjFFbWl5NXp2SWpXOXdVcElPSFNRQ1ZtbDRVb053OEx4Q3VoQnN3WFJ6UUl0cXJqTEVaRE1nZmZPZF9pVmtfdl9qMVpYZXBvUElpYzlScUxHUWlzSUE3cVFlY01ncDcza3VZbnVVWE94RmU2NnFQNWpYTjVkSHN6WnlLdzlwRXYycWlneENQLVRYaWVwbHg1TWs2MWhDM1NYaGJOOS1sX2tUQ3pYOFpOZ0JhdlhJNnFUVHlTUGFsa2Y1cVdaZEgzVS1sMFJBUTY2UTlZNUx5ekVMQzdqU0VpWlcwY3RtM1NpZ2JyLUVOZlZvRi1oajR4MGhEMWQ3ZGF4OTZpV2JQNTgweWxHQ3JfWTVsLXRVdm14S3VHdElJSTMzSEF2ZEI4ZUJSbm4zZ0J5OS15bGVLYjgydTBONnFiXzc4RkdYQnE0X2RPcmo0Vy1zWDQySHItcEswaVBLWkJrSnFrVWE0M3cybTg1SHhOUXIzU2hrNUp0c0N6QVVjQ0N3QmdQZG1z?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "BFM",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-13T14:58:43+00:00",
+      "title_orig": "\"L'Europe dispose de toute la technologie et des talents nécessaires pour prendre la tête de la course à l'intelligence artificielle\": le patron de Mistral appelle les dirigeants des 27 à un sursaut et à \"agir dès maintenant\"",
+      "summary_orig": ""
+    },
+    {
+      "id": "62cc6e0b46cc",
+      "title": "El director de Mistral AI, Arthur Mensch, pide a Europa que «actúe ahora» para seguir en la carrera de la inteligencia artificial",
+      "summary": "Arthur Mensch, director de Mistral AI, insta a Europa a actuar de inmediato para mantenerse competitiva en la carrera de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSm9HVk5xR1RsS3VmRmU3Tk1mSjZNY2l3QUZMVV9PT0NTaE84TlM1cXA5RTcwRVRRSmZYVDN0eHlEaW1yNWZuYUtEbVhYMm03ekpKQ1lpeVRCc1RuUHRIM0F4RExBLVJBOU0zX1B6MUNPOER3Ync4RVdZcUJ1UU94MnNqdTJ1TW5tS19sazZlVU1TSERWQVZacExHNzhLQVdjeEZ5TUVTOEZoRWY4RHJRMk5XSzFPSDdXQXllY3lkeDZPNFdxRkY3SzF3bjZzVXFKck5XS1N5a3RzRXZZVmE1UEV1d0oyUTYyNUJjbE5qbTRLMEVuUVB6akN0N01SYlM4MkZDNlRIZEVFSU5iZS1mUlFGcHB0c3Q3YXY0RnE3cGNxQVNVYjQ0ZENlR241V1ZFclRGc1lISQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-13T14:52:57+00:00",
+      "title_orig": "Le patron de Mistral AI, Arthur Mensch, appelle l'Europe à \"agir maintenant\" pour rester dans la course en matière d'intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
+      "id": "40e78db6601d",
+      "title": "llama.cpp v1.0.0: Una base más sólida para el ecosistema de IA local",
+      "summary": "Llama.cpp 1.0.0 refuerza la base del ecosistema de IA local con mejoras de rendimiento y mayor estabilidad.",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "sourceLabel": "Hugging Face",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "llama"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T14:05:22+00:00",
+      "title_orig": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "summary_orig": ""
+    },
+    {
+      "id": "ddf533b2e181",
+      "title": "Claude juega a GTA 4 y a otros juegos: cómo se las apaña el agente de IA",
+      "summary": "Claude, la IA de Anthropic, juega a GTA 4 y otros videojuegos, demostrando su capacidad para interactuar y resolver problemas dentro de entornos lúdicos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTVRkRmtnNVk4OGZlOXNuLVBTczF2S0N2SzZqSmM3b215N1E3XzlrWTkzZlRid0lBaVFZUGpwYnV1VkUyX2pPNFUxOVZzdzJJai11Uzl5SG9Kbm83YlFfRVR1QkRMSWlnWTV6TVY0ckNBa3dTblFMY095Zm0yZzBHbXE4b1BMOEN0WTdjR0Q3TW9OX0QwM1pXcmNpQ09kRnczaktpc1JIN2M5RXY3eTU3Mndn?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "heise online",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-13T10:52:00+00:00",
+      "title_orig": "Claude zockt GTA 4 und andere Games: Wie sich der KI-Agent dabei anstellt",
+      "summary_orig": ""
+    },
+    {
+      "id": "e13d8feb54cd",
+      "title": "Google lanza Gemini 4 Hydrogen: 2,5 veces más rápido que Gemini 3.8 Flash",
+      "summary": "Google lanzó Gemini 4 Hydrogen, un modelo agente de 1 M de tokens, 4 niveles de razonamiento, 2,5× más rápido que Gemini 3.8 Flash y con precios de $1,50/$7,50.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T09:45:48+00:00",
+      "title_orig": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+      "summary_orig": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on MarkTechPost ."
+    },
+    {
+      "id": "e4b47e3b9b3e",
+      "title": "OpenAI presenta Daybreak Red Team, herramientas de seguridad de Defense Factory",
+      "summary": "El equipo Daybreak Red prueba apps web con IA y Defense Factory analiza vulnerabilidades y prepara parches.",
+      "sourceUrl": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-13T09:21:01+00:00",
+      "title_orig": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+      "summary_orig": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches. The post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek ."
+    },
+    {
+      "id": "39ef14bbdb04",
+      "title": "Organizaciones sin ánimo de lucro demandan a Anthropic, Google y otros gigantes tecnológicos para congelar la carrera armamentística de la IA",
+      "summary": "Organizaciones sin fines de lucro demandan a Anthropic, Google y otros para detener la carrera armamentista de la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTFGbzdtVzREUTBscG9FbC1HSHU2N3pRcDg2TFR3RzRORW9oRWQwTHZrSnBENGRmcno3Nkt4M2lYOElvT2pnNDV5UFRCU3QyMGpkVnRLVXhVRGFWV2cydEI2WlRLaWs5Nmg4eUZ3T2RHbXBFT3ViX3ZmaW9MZ3B6OFZ0QmlJS3g5cFF3Q3cxVERlRExkbDBxRVowdmR1V0pZ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Politico",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-12T22:24:00+00:00",
+      "title_orig": "Nonprofits sue Anthropic, Google, and other tech giants to freeze the AI arms race",
+      "summary_orig": ""
+    },
+    {
+      "id": "5b0f73df89a6",
+      "title": "Cómo Amplitude lanza mejoras de productos en 1-2 días con OpenAI",
+      "summary": "Wave, el agente proactivo de Amplitude basado en modelos de OpenAI, sugiere qué crear, ayuda a lanzar cambios con agentes de código y mide su impacto.",
+      "sourceUrl": "https://openai.com/business/customer-stories/amplitude",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-12T20:00:00+00:00",
+      "title_orig": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "summary_orig": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact."
     },
     {
       "id": "77a7ce670b8c",
@@ -52,7 +307,7 @@
     },
     {
       "id": "3a3ea46b43b8",
-      "title": "Google se enfrenta a peticiones de moratorias sobre la IA en las escuelas tras las críticas al programa piloto de Gemini",
+      "title": "Google se enfrenta a peticiones de moratorias de la IA en las escuelas tras la mala acogida del programa piloto de Gemini",
       "summary": "Familias acusan a Google tras la demanda de un adolescente que califica a Gemini de “entrenador de suicidio”.",
       "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
       "sourceLabel": "Ars Technica AI",
@@ -68,43 +323,9 @@
       "summary_orig": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”"
     },
     {
-      "id": "6e50410bcad7",
-      "title": "Google ha lanzado la IA Gemini 4 Hydrogen, que supera a Argon en velocidad e inteligencia",
-      "summary": "Google lanzó Gemini 4 Hydrogen, una IA que supera a Argon en velocidad e inteligencia.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHXzh6SjdqWmQ2cnlPNU9OOEgtblYxTUFKUDh4c0pwMUZUZGhXZzhCdzg4SkVncm1mZ0R0LXc2c0IyLTFrbWRsVG1sQmxBdlYxZWU5RFhLN1NkNXFVaFVWTWVqeEM4X05FVU8yTjN0OVQzTV9mRHpaeU9DVWY?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Techora.ru",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-11-12T18:33:25+00:00",
-      "title_orig": "Google выпустила ИИ Gemini 4 Hydrogen, превзошедший Argon по скорости и интеллекту",
-      "summary_orig": ""
-    },
-    {
-      "id": "e1acab05b268",
-      "title": "El personal de Google DeepMind recurre al Gobierno del Reino Unido para intensificar su lucha por la sindicalización",
-      "summary": "Tras estancarse las conversaciones iniciales, los empleados de Google DeepMind buscan eludir a la dirección para intentar sindicalizarse.",
-      "sourceUrl": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
-      "sourceLabel": "Wired",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T18:05:41+00:00",
-      "title_orig": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
-      "summary_orig": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize."
-    },
-    {
       "id": "dfe7530b3748",
-      "title": "Presentamos Gemini 4 Hydrogen para flujos de trabajo agenticos",
-      "summary": "Google lanza Gemini 4 Hydrogen, una versión diseñada para flujos de trabajo basados en agentes.",
+      "title": "Presentamos Gemini 4 Hydrogen para flujos de trabajo con agentes",
+      "summary": "Google lanzó Gemini 4 Hydrogen, una versión optimizada para flujos de trabajo con agentes.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbnlqelBIT1ZXblFBa25zdHlXalhPR2Z2b2xLZ2lmeEtFbUFXS3Mya3FtU0tyeGJrOXpHVEJOdFpDVUZSUTVOUHA0WjRiakw2a2hIRzc3ZHBfM3pDT3dKTDdfMExNQ2FnU1NWSHI3UGpXX2lVSEUxeVYwb2FfNE5vRGJnMjhWSzU5WkFrdmtOdW5Fb0lja1dFN3JUMkQ5R01JRXhNUA?oc=5",
       "sourceLabel": "Google News — IA global",
       "publisher": "blog.google",
@@ -133,227 +354,6 @@
       "source": "lab",
       "published": "2026-11-12T18:00:50+00:00",
       "title_orig": "Introducing Gemini 4 Hydrogen",
-      "summary_orig": ""
-    },
-    {
-      "id": "459a57b4750a",
-      "title": "La Búsqueda de Google recibe una importante actualización con Gemini 4 Hydrogen",
-      "summary": "Google Search incorpora Gemini 4 Hydrogen, mostrando ejemplos en un carrusel rotativo de tarjetas.",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "sourceLabel": "Google AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T18:00:00+00:00",
-      "title_orig": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary_orig": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI"
-    },
-    {
-      "id": "4e08c4d04ef9",
-      "title": "La mirada de la redacción. Inteligencia artificial: ¡No toques a mi Claude!",
-      "summary": "La redacción advierte: “Inteligencia artificial: ¡no manipules a mi Claude!” según L’Est Républicain.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkpXOUxsbFlhSjRmVkxxdU5XSlZtQWVSS3RHd0lZcXZtRnNGTHkzUGsyUlRLYlZ2T1hZUnF5UVlSNTk4Nng4TTJHOWdmRkFEVVg5SGktYjhTMkc0eWYtQnd4d3Z6N2kwZEUxZUJqZi1yWjhESTlYakw5UWQ3dmRUSG41Qmt6YWpicVBWTVNveG5QYmhpalJJS2h0MTBqRDE1SFhRcGtSaWJxTlBKYmFaSEIxaw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "L'Est Républicain",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-12T17:39:10+00:00",
-      "title_orig": "L'oeil de la rédaction. Intelligence artificielle : touche pas à mon Claude !",
-      "summary_orig": ""
-    },
-    {
-      "id": "6e181fc14a19",
-      "title": "Google ha lanzado la IA Gemini Decision 1, que responde en formato «sí»/«no»",
-      "summary": "Google lanzó Gemini Decision 1, una IA que solo responde con “sí” o “no”.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPanFsMEowX1Y1ZmdUNFJmbFdMNDAtRXpEQlBWemhoa3VlRTRnaXh4UDRiZWJ6UGZvaWhIYjR1UHY1ckpnZnppRVdnUXJxczF5b21ORTVuMEI1WEZFcjdTUkZ2Z2FycUQ0LTdKcTcxUjhaaUE5SGhaRzhaNTRuZkRGYTcwNGRhRWlMZzRYWWpqNFhnTXI0LWhMVkp5YnMwdWtSNW1qWmZVU24wcUhRYWdRb1UyNXpIR1pUUTB2VGVvMWdZTUczMVE?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "RB.RU",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-11-12T16:15:00+00:00",
-      "title_orig": "Google выпустила ИИ Gemini Decision 1, который отвечает в формате «да»/«нет»",
-      "summary_orig": ""
-    },
-    {
-      "id": "16b72427cf58",
-      "title": "Apache parchea una vulnerabilidad crítica de ejecución remota de código en el servidor HTTP descubierta por Anthropic y Google",
-      "summary": "Una vulnerabilidad de condición de carrera en mod_http2 (CVE‑2026‑119618) permite a atacantes no autenticados ejecutar código en servidores con HTTP/2 habilitado.",
-      "sourceUrl": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T15:38:31+00:00",
-      "title_orig": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-      "summary_orig": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek ."
-    },
-    {
-      "id": "5f96a0ebfa7b",
-      "title": "Google hace hincapié en la privacidad con el lanzamiento de las gafas inteligentes con tecnología Gemini, a partir de 395 $",
-      "summary": "Los primeros smartglasses Gemini son una colaboración entre Google, Samsung, Gentle Monster y Warby Parker.",
-      "sourceUrl": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T14:50:17+00:00",
-      "title_orig": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-      "summary_orig": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker."
-    },
-    {
-      "id": "baf44ce1f39f",
-      "title": "¡El «Genshin Impact» multimodal! MiniMax lanza un modelo de generación de imágenes SOTA de código abierto, con resolución nativa 4K, a 0,20 yuanes por imagen",
-      "summary": "Desmontaje CAD.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/509440.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "minimax"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T11:36:20+00:00",
-      "title_orig": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-      "summary_orig": "「CAD拆解」"
-    },
-    {
-      "id": "557c797f2a83",
-      "title": "Insultos, acoso… Anthropic prohíbe ahora a sus usuarios maltratar a su inteligencia artificial Claude",
-      "summary": "Anthropic prohíbe a sus usuarios insultar o acosar a su IA Claude.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdm9wOUQ3X0tTMV9VSmNuRzBsdmJMRGFBLUFQTUNpNUFxd2p4alp5NzVUSkdndkhRUVZkSUVRNlUweW1VNnZQS25hOWRmdlRoMXRIZ01vOEh2VWV6Y2pueTRoTUZWenFPdUZtVUwybmtGN0VDUVE4OU8tZGo2eUtpZnhxOFdZdmxLQ3R6SU1SSDVHNGtlSUJFMXNqUVktMjdMdnQ2UE9VQnFuUjhYelNrcVVRRVdVaFFFYkZMajN3cFc0dTZlTVZTX3RkUkRiOUR6eWJ1NWIwWFNUd0JyZ1Jib0lFMkhzcC0yR2tjN3pNTE5Rd0F0dU9iYjJGMA?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Figaro",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-12T10:32:40+00:00",
-      "title_orig": "Insultes, brimades… Anthropic interdit désormais à ses utilisateurs de maltraiter son intelligence artificielle Claude",
-      "summary_orig": ""
-    },
-    {
-      "id": "e189580829f8",
-      "title": "Anthropic inicia su gira de presentación para la salida a bolsa, con una valoración reducida en 600 000 millones de dólares",
-      "summary": "Todo el mundo frena, pero Dalio acelera.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/509381.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T10:11:29+00:00",
-      "title_orig": "Anthropic启动IPO路演，估值已缩水6000亿美元",
-      "summary_orig": "全世界都在踩刹车，达里奥一个人踩油门"
-    },
-    {
-      "id": "0d2e754820f1",
-      "title": "¡Grok de Musk revela secretos de su propia empresa! Se revelan todos los salarios y el rendimiento de SpaceX y Tesla",
-      "summary": "Grok nunca decepciona a la hora de relajar a la gente.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/509355.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T10:08:24+00:00",
-      "title_orig": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
-      "summary_orig": "Grok在让人破绷这件事上，从来不会让人失望。"
-    },
-    {
-      "id": "a180c04ab4e8",
-      "title": "Un antiguo científico de IA de ByteDance promociona un modelo de descubrimiento de fármacos que supera a los líderes mundiales",
-      "summary": "Un ex‑científico de IA de ByteDance lanza NovaAtom‑Lite, modelo que supera a los sistemas líderes en predicción de estructuras biomoleculares para descubrimiento de fármacos.",
-      "sourceUrl": "https://www.scmp.com/business/companies/article/3374201/former-bytedance-ai-scientist-touts-drug-discovery-model-tops-world-leaders",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "doubao"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T10:00:14+00:00",
-      "title_orig": "Former ByteDance AI scientist touts drug-discovery model that tops world leaders",
-      "summary_orig": "A former ByteDance artificial intelligence scientist’s new venture has released a life sciences AI model that the firm claims outperforms state-of-the-art systems, intensifying the increasingly crowded competition in AI-driven drug discovery. Geodesic Intelligence’s NovaAtom-Lite, an AI model designed to predict the structures and interactions of biomolecules, topped a third-party benchmark in sev"
-    },
-    {
-      "id": "0990939c7d6e",
-      "title": "Holiday Extras está replanteándose qué puede crear con Codex",
-      "summary": "Con Codex, Holiday Extras transforma la experiencia del cliente en apps mejores, mayor conversión de reservas y nuevas oportunidades de crecimiento.",
-      "sourceUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T09:30:00+00:00",
-      "title_orig": "Holiday Extras is rethinking what it can build with Codex",
-      "summary_orig": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
-    },
-    {
-      "id": "86c3365af113",
-      "title": "¡El programa Glass Wing de Anthropic está en entredicho! Casi 40 000 vulnerabilidades pendientes, de las cuales solo se han solucionado 217",
-      "summary": "Solo cavar sin preocuparse por enterrar.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/509291.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T07:55:11+00:00",
-      "title_orig": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
-      "summary_orig": "只管挖不管埋。"
-    },
-    {
-      "id": "5976d9014240",
-      "title": "«Acciones peligrosas que ningún ser humano ha ordenado»: OpenAI instala un botón rojo para apagar sus IA en 35 segundos",
-      "summary": "OpenAI ha añadido un botón rojo que permite apagar sus IA en 35 segundos, una medida de seguridad sin precedentes.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTVlDZmFCNS1WNkRsZ0VPS2tSakdLRVQ0a0czeGhaZTA5RFY5TGVUZXFkQmVuaW5VWVB6cl9TZURIUlVMUEYxdXJkVjFQazlhNlNFWnI2NzJHU1FVZnN4TUt1dTNrdU84WUQwd0FwSUxuZWNKV0pIM215Wm02OGg4UmpvN2J2SS1tQ185TlU4QjI0NllfbldERVFPVURQa0Fwd1F3RUpzUHBvVWNTamhyVWlVeGRqTDhiR09UTXVwRnZ0anMxR2ZDbVdNU1VTZmE3a1hPQlU2aF9wNkxKaXJfWkUwOFpKWkpoVk94RkhhTUJnZw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Numériques",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-12T07:45:00+00:00",
-      "title_orig": "“Des actions dangereuses qu’aucun humain n’a ordonnées” : OpenAI installe un bouton rouge pour couper ses IA en 35 secondes",
       "summary_orig": ""
     }
   ]
