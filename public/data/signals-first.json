@@ -1,22 +1,106 @@
 {
-  "generated_at": "2026-11-14T17:45:15.492763+00:00",
+  "generated_at": "2026-11-15T18:33:23.186040+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
     "BleepingComputer",
-    "CoinDesk",
     "Cointelegraph",
-    "DeepMind",
-    "Google AI",
     "Google News — IA Francia",
-    "Google News — IA global",
+    "Google News — IA Rusia",
     "Hugging Face",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "The Hacker News"
   ],
   "signals": [
+    {
+      "id": "ac3663780177",
+      "title": "Google ha lanzado Gemini 4 Hydrogen, un modelo de IA gratuito",
+      "summary": "Google lanzó Gemini 4 Hydrogen, su nuevo modelo de IA gratuito.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUTRKMjB1b1A2alZLSmhGc2JCSENWYXJMN2NTcmdvVkl4WGtxbnJENldHYXVMYjFGMnJuVHJ0U1VhcjNJTktIN3RmMzVrbjVJZWJsR0V1U1otM0EzenM2VzN2aHRMVnBud21pWW5ZM3BwaEsyNnRNV01XUjJfUTE1MUZHQ0NXTnliV2NpN1R1NTVWOTFoUFVKQUxZNlkyT3B0LVdLTGZDVjFxZENON3dfVDVfckZoNW5YWUZ2YXdVT3BFcFUxcl9TNlNsRTlTMWs?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "rb.ru",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-15T15:00:00+00:00",
+      "title_orig": "Google выпустила бесплатную ИИ-модель Gemini 4 Hydrogen",
+      "summary_orig": ""
+    },
+    {
+      "id": "960f41318ea9",
+      "title": "Cursor afirma que una clave de IA de Fireworks robada provocó el incidente de la extensión de Claude Code infectada con un troyano",
+      "summary": "El compromiso de la extensión Claude Code de Anthropic en el marketplace de Cursor se debió al robo de una clave de acceso expuesta tras la brecha de Fireworks AI.",
+      "sourceUrl": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "social",
+      "published": "2026-11-15T13:52:04+05:30",
+      "title_orig": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "summary_orig": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only"
+    },
+    {
+      "id": "8ec64fd4864e",
+      "title": "Programar con una IA local gratuita: ¿Pueden Qwen, Ollama y OpenCode sustituir a Claude Code?",
+      "summary": "Programar con IA local gratuita: Qwen, Ollama y OpenCode podrían reemplazar a Claude Code, según ZDNET.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUNQTi1yQmFnX083b3lNTHZzTUhoeE9jSWFHY25WVzBpYXkxS2prSGd4ckxrTUNHR1ljVjBaYVk5aWdVY05GX3VVNWlTX1RmTmIxN3ZLU2w4dUtjOXhIMGRTNThPUWdXckdRbllqamVhOXVoeTZyLU9teWJ3NXh0T19VTUxnN3FPQmVaNlp0Y055NE5rd0JmOTc0ZTZLd2VNa3gwNGZlSkVBc3Z4RndSa3VYVGxtc1YxME9SSnFoOWxIWng0UlVQdU5ja2c?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "ZDNET",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "claude",
+        "qwen"
+      ],
+      "source": "news",
+      "published": "2026-11-15T13:01:57+00:00",
+      "title_orig": "Coder avec une IA locale gratuite : Qwen, Ollama et OpenCode peuvent-ils remplacer Claude Code",
+      "summary_orig": ""
+    },
+    {
+      "id": "3d73dc0ba783",
+      "title": "El investigador Jean-Claude Heudin responde a por qué las IA más potentes siguen fallando en tareas sencillas",
+      "summary": "Jean-Claude Heudin explica que, pese a su potencia, las IA siguen fallando en tareas simples por limitaciones de comprensión y contexto.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdksyUUY0aXNEaURIWlozQU9TR2xwOGduZm5LMlpiUW8xQTIxMGd5TEQ0RVYxZ3kxYkszcnBPTkM2UUIxUEEteTRUaGY5Y1JBaWdNVG8tSE91V2JwMmtlSWk4aGtOTTBHTk9Od2FsNkplM1JrcWhURTRPaFBHemlUM1o0bHZFakdkVWdQSjZVVVRGMWwzMzhtUjM3clc3MW9LTGxqOGV1SUl5a3B1dmJURkVqWjYwMEJRYWl1LVNxdUllTUMtOUpXYnlhU0ZwMHFvQ1QwQ1QyYzlxaXUzd3YtZnVlREtIbHM4RjlILXA3Y0otRDQ5MFk2czd5Yw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Futura, le média qui explore le monde",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-15T11:29:00+00:00",
+      "title_orig": "Pourquoi les IA les plus puissantes échouent encore sur des tâches simples, le chercheur Jean-Claude Heudin répond",
+      "summary_orig": ""
+    },
+    {
+      "id": "56cfa4f3630d",
+      "title": "¿Y si el desplome de la IA en bolsa fuera, en última instancia, una bendición para la salida a bolsa de Anthropic en Wall Street?",
+      "summary": "El desplome de la IA en bolsa podría favorecer la salida a bolsa de Anthropic en Wall Street.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObUxmZlFZRGNPTHhGbUZRWHVONWQyYldISEF2ZXgtM0lUM25selNXbDdnZ0gtbzJEUl80TTdrYTN1R25WSk5pakdfZnpLeW5sLV9nTDQxdlJjVkN6eEswVWhXcmt0TXQ0YktyTVFvZU5zSktsSm9fUUNMQzFzX1RHVGVUNXdvT3VsNkd6TEx4Nk9SdXZuZFQ5a1FFazZmNGMyVWdKQlNJNjIxR0tGY25kczJLRkRxR1padUh2QXZvZS11VHNVdDlhUXNoUFZSQkJNZFpqRDFnQlpaR204UW5rdVQ1N2xOaW9oc0JmVC1CczVMZWtWck1udnc1UndpSV94eGt6dy1fRFVkX2ZETlJB?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "BFM Bourse",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-15T11:00:00+00:00",
+      "title_orig": "Et si la déroute de l'IA en Bourse était finalement une aubaine pour l'introduction d'Anthropic à Wall Street?",
+      "summary_orig": ""
+    },
     {
       "id": "403e4bdfaeb6",
       "title": "Cursor confirma que una brecha de seguridad dio lugar a una extensión maliciosa de Claude Code",
@@ -35,26 +119,9 @@
       "summary_orig": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]"
     },
     {
-      "id": "33ed719b240b",
-      "title": "Tres estrategias para las empresas y los Estados ante la IA, o por qué las decisiones de Mistral y de la Unión Europea no son contrarias a la soberanía digital",
-      "summary": "Tres estrategias para gobiernos y empresas frente a la IA, explicando por qué las decisiones de Mistral y la UE no vulneran la soberanía digital.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOWDdJaXZ3Q2paQVNYU0ItNkFoN3FNbUJtMWxHVHgtV1BvNEFNVFVwcjlLaFg3UmFCWFoza056X1hIT011aG9fQzdGd2RMaDBwNVlEWDNKbFJBeHJKZDVqWUEySnV1Yktra1pDX0dqaG5OREtSaEpWTHRWYktiZGNxaGRtRm1SYV9oS2lWYWxPbjUycWxOaGxSTUwxUUJfcVAweFpteW4xbUtIYnRUazBhUWtNME1IeC1lemVzeXEwd0k0S041dmk1UWsyNUY0Y0hoZEFfSms0U1VDLTlUdXhSaG5McnZKS3poNk0weWZReUp4cG1MMkN5cDc5Q0lqRDBLeGNlbXVjNzF5YTJubG4zUnBZekM2THFfQ1hrLUVxU3B1WmllUi1DZzhqSnBtSndWaE9PcXdvcTZhSTRD?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "The Conversation",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-14T08:03:53+00:00",
-      "title_orig": "Trois stratégies pour les entreprises et les États face à l’IA, ou pourquoi les décisions de Mistral et de l’Union européenne ne sont pas contradictoires avec la souveraineté numérique",
-      "summary_orig": ""
-    },
-    {
       "id": "67049349b50b",
       "title": "¡Noticia de última hora! DeepSeek abre su API completa",
-      "summary": "Todas las funciones de la app oficial pueden combinarse y usarse libremente.",
+      "summary": "Todas las funciones oficiales de la app pueden combinarse y usarse libremente.",
       "sourceUrl": "https://www.qbitai.com/2026/11/510003.html",
       "sourceLabel": "QbitAI",
       "publisher": "",
@@ -71,7 +138,7 @@
     {
       "id": "2feca863a462",
       "title": "OpenAI lanza los pagos con IA en ChatGPT con Visa, Mastercard y Amex",
-      "summary": "La nueva billetera de pago de OpenAI permite a los agentes de IA comprar con tarjetas existentes y, en el futuro, usar transacciones preautorizadas.",
+      "summary": "La nueva billetera de pago de OpenAI permite a los agentes de IA comprar con tarjetas y, en el futuro, usar transacciones preautorizadas.",
       "sourceUrl": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "sourceLabel": "Cointelegraph",
       "publisher": "",
@@ -86,43 +153,9 @@
       "summary_orig": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions."
     },
     {
-      "id": "bee03e6d0533",
-      "title": "ChatGPT está listo para meter mano en tu cartera",
-      "summary": "ChatGPT pronto podrá gestionar tus finanzas directamente desde la app.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0UEJyMTY4M1lOTDgxZFBRcUpCcEFCclpzcUtvUXZOY2UwOVZLeF9idjJGYWd0MWQyd1V6cGs5NzFCSEdGa1ZRX3RzRm5tZUVIVmJMYUVjUGV2OTMtS1B0Y2R6cHF2Z1lKbUtJc1RqdnlScndDdU9GLTFjUnkyZw?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gizmodo",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-13T19:15:01+00:00",
-      "title_orig": "ChatGPT Is Ready to Reach Into Your Wallet",
-      "summary_orig": ""
-    },
-    {
-      "id": "ddd1fcb7aab1",
-      "title": "El bitcoin cae hasta los 68 000 $ a medida que la euforia por la salida a bolsa de Anthropic se suma a la inestabilidad del mercado",
-      "summary": "Los analistas no encuentran vínculo directo entre Nvidia y la caída del bitcoin; atribuyen la baja al traslado de capital a Anthropic y a una tendencia general de aversión al riesgo.",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-13T18:39:58+00:00",
-      "title_orig": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-      "summary_orig": "Analysts see no direct link between Nvidia and bitcoin's decline, pointing instead to investor capital headed into Anthropic as well as a broader risk-off move."
-    },
-    {
       "id": "8607f43c0238",
-      "title": "«Todo el mundo ha tomado conciencia de nuestras dependencias»: Europa quiere crear modelos tan eficaces como OpenAI y Anthropic",
-      "summary": "Europa busca desarrollar modelos de IA tan potentes como los de OpenAI y Anthropic, reconociendo su creciente dependencia tecnológica.",
+      "title": "«Todo el mundo ha tomado conciencia de nuestras dependencias»: Europa quiere crear modelos tan potentes como OpenAI y Anthropic",
+      "summary": "Europa busca desarrollar IA tan potente como la de OpenAI y Anthropic, reconociendo su creciente dependencia tecnológica.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVF9uOEJYdVVad25fUVRtRm1xZzJCZnVOWWFqd3QzdXRSZkROYmhTbHNqVExTTHZLNzhJTm03V09aZnRWcUthVGZicENkLVE0QVZnWEVWVTlEVlMyYm5MNG5DXzZ6QmUwbWR5WWNqeXNqZFJHWjhGR3NvbXVuZ1RuZ3gwZHRGODNTR21ucDJQSEdNQnc3Q2V6UkV5RVdJTXpQbFFvLTVHQ3l2RjJ2RHFyaDJKY1MzWVNYLUJiMTJGeGpaclZvaHBRTFFGQ25tTWNpdDA3RWxhaWhhY1ZCMnBfTTNSSzV6bVF5ckVTTFFtV2Y0cno3S01jZ2lUeDZQWWtuOEQ5Y2NERGdRWjFmcEo1UWRfRm9hUVd0czY4?oc=5",
       "sourceLabel": "Google News — IA Francia",
       "publisher": "Les Echos",
@@ -139,7 +172,7 @@
     },
     {
       "id": "743e8b03b2d9",
-      "title": "A un miembro del consejo de administración de OpenAI le preocupa que una «conquista» de la sociedad por parte de la IA pueda estar a solo unos meses vista",
+      "title": "A un miembro del consejo de administración de OpenAI le preocupa que una «toma de control» de la sociedad por parte de la IA pueda estar a solo unos meses vista",
       "summary": "Un investigador vincula el hackeo de recompensas en IA con el riesgo de una posible extinción humana.",
       "sourceUrl": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "sourceLabel": "Ars Technica AI",
@@ -174,7 +207,7 @@
     {
       "id": "c231d25e54b9",
       "title": "La nueva Wallet de ChatGPT permite a los agentes de IA comprar y pagar por ti",
-      "summary": "ChatGPT Wallet permite que agentes de IA compren y paguen por los usuarios, disponible inicialmente para suscriptores Pro en EE. UU.",
+      "summary": "ChatGPT Wallet permite que agentes de IA compren y paguen por los usuarios, con un lanzamiento limitado para suscriptores Pro en EE. UU.",
       "sourceUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -191,7 +224,7 @@
     {
       "id": "5bf4951adbe9",
       "title": "Presentamos ChatGPT Wallet",
-      "summary": "ChatGPT Wallet permite a agentes de ChatGPT Work, Codex y Dots realizar compras de forma segura con la aprobación del usuario y la protección de tarjetas existente.",
+      "summary": "ChatGPT Wallet permite a agentes de ChatGPT Work, Codex y Dots comprar de forma segura con la aprobación del usuario y la protección de tarjetas existente.",
       "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -206,8 +239,25 @@
       "summary_orig": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
     },
     {
+      "id": "62cc6e0b46cc",
+      "title": "El director de Mistral AI, Arthur Mensch, pide a Europa que «actúe ya» para no quedarse atrás en el ámbito de la inteligencia artificial",
+      "summary": "Arthur Mensch, director de Mistral AI, insta a Europa a actuar de inmediato para no quedar rezagada en la carrera de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSm9HVk5xR1RsS3VmRmU3Tk1mSjZNY2l3QUZMVV9PT0NTaE84TlM1cXA5RTcwRVRRSmZYVDN0eHlEaW1yNWZuYUtEbVhYMm03ekpKQ1lpeVRCc1RuUHRIM0F4RExBLVJBOU0zX1B6MUNPOER3Ync4RVdZcUJ1UU94MnNqdTJ1TW5tS19sazZlVU1TSERWQVZacExHNzhLQVdjeEZ5TUVTOEZoRWY4RHJRMk5XSzFPSDdXQXllY3lkeDZPNFdxRkY3SzF3bjZzVXFKck5XS1N5a3RzRXZZVmE1UEV1d0oyUTYyNUJjbE5qbTRLMEVuUVB6akN0N01SYlM4MkZDNlRIZEVFSU5iZS1mUlFGcHB0c3Q3YXY0RnE3cGNxQVNVYjQ0ZENlR241V1ZFclRGc1lISQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-13T14:52:57+00:00",
+      "title_orig": "Le patron de Mistral AI, Arthur Mensch, appelle l'Europe à \"agir maintenant\" pour rester dans la course en matière d'intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
       "id": "40e78db6601d",
-      "title": "llama.cpp v1.0.0: Una base más sólida para el ecosistema de IA local",
+      "title": "llama.cpp v1.0.0: Una base más sólida para el ecosistema de la IA local",
       "summary": "Llama.cpp v1.0.0 ofrece una base más robusta para el ecosistema de IA local.",
       "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "sourceLabel": "Hugging Face",
@@ -259,7 +309,7 @@
     {
       "id": "5b0f73df89a6",
       "title": "Cómo Amplitude lanza mejoras de productos en 1-2 días con OpenAI",
-      "summary": "Wave, el agente proactivo de producto de Amplitude basado en modelos de OpenAI, sugiere qué crear, ayuda a lanzar cambios con agentes de código y mide su impacto.",
+      "summary": "Wave, el agente proactivo de Amplitude basado en modelos de OpenAI, sugiere qué crear, ayuda a lanzar cambios con agentes de código y mide su impacto.",
       "sourceUrl": "https://openai.com/business/customer-stories/amplitude",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -275,7 +325,7 @@
     },
     {
       "id": "77a7ce670b8c",
-      "title": "Google lanza Gemini 4 Hydrogen, que por fin sustituye a 3.8 Flash",
+      "title": "Google lanza Gemini 4 Hydrogen, que por fin sustituye a 3.8 Flash",
       "summary": "Gemini 4 Hydrogen no tendrá un lanzamiento lento y centrado en la seguridad como Carbon y Argon.",
       "sourceUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
       "sourceLabel": "Ars Technica AI",
@@ -293,7 +343,7 @@
     {
       "id": "3a3ea46b43b8",
       "title": "Google se enfrenta a peticiones de moratorias sobre la IA en las escuelas tras las críticas al programa piloto de Gemini",
-      "summary": "Familias acusan a Google después de que la demanda de un adolescente califique a Gemini como un “entrenador de suicidio”.",
+      "summary": "Familias acusan a Google después de que la demanda de un adolescente califique a Gemini de “entrenador de suicidio”.",
       "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
       "sourceLabel": "Ars Technica AI",
       "publisher": "",
@@ -306,57 +356,6 @@
       "published": "2026-11-12T18:57:45+00:00",
       "title_orig": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
       "summary_orig": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”"
-    },
-    {
-      "id": "4bad5afe01a1",
-      "title": "Presentamos Gemini 4 Hydrogen",
-      "summary": "Presentamos Gemini 4 Hydrogen —",
-      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T18:00:50+00:00",
-      "title_orig": "Introducing Gemini 4 Hydrogen",
-      "summary_orig": ""
-    },
-    {
-      "id": "459a57b4750a",
-      "title": "La Búsqueda de Google recibe una importante actualización con Gemini 4 Hydrogen",
-      "summary": "Carrusel giratorio de tarjetas con el texto “Gemini 4 Hydrogen”, “Ahora en Google Search” y ejemplos de la interfaz de búsqueda.",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "sourceLabel": "Google AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T18:00:00+00:00",
-      "title_orig": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary_orig": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI"
-    },
-    {
-      "id": "5f96a0ebfa7b",
-      "title": "Google hace hincapié en la privacidad con el lanzamiento de las gafas inteligentes con tecnología Gemini, cuyo precio parte de 395 $",
-      "summary": "Los primeros lentes inteligentes Gemini son una colaboración entre Google, Samsung, Gentle Monster y Warby Parker.",
-      "sourceUrl": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-12T14:50:17+00:00",
-      "title_orig": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-      "summary_orig": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker."
     }
   ]
 }

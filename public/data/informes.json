@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-15",
-    "total": 1900,
-    "items": [
-      {
-        "titulo": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-        "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-        "fuente": "DeepMind",
-        "resumen": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Teaching students to think and learn through questions",
-        "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-        "fuente": "OpenAI",
-        "resumen": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Friends don’t let friends feed their data to AI agents",
-        "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-        "fuente": "The Verge AI",
-        "resumen": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the adve...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-        "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-        "fuente": "Ars Technica AI",
-        "resumen": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "AI agents are coming to Rivian’s cars",
-        "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-        "fuente": "TechCrunch AI",
-        "resumen": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Google’s Universal Cart shopping tool launches in the US",
-        "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Nobody is safe from celebrity AI deepfakes",
-        "url": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
-        "fuente": "The Verge AI",
-        "resumen": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
-        "url": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
-        "fuente": "The Verge AI",
-        "resumen": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental mus...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
-        "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-        "fuente": "The Verge AI",
-        "resumen": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Amazon’s always-listening Bee wearable can now help you buy stuff",
-        "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
-        "fuente": "The Verge AI",
-        "resumen": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee dev...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Kids’ Content Is Deeply Broken. A New Platform Wants to Fix It",
-        "url": "https://www.wired.com/story/maka-streaming-platform-for-kids-fighting-against-ai-slop/",
-        "fuente": "Wired",
-        "resumen": "Low-quality AI-generated content currently dominates children’s media. Maka, a streaming platform run by child development experts, is offering an alternative.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Figma announces new features to define how agents work on its platform",
-        "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Figma is also releasing its code layers feature in open beta.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Proof-based general-purpose computing with Magnetar",
-        "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-        "fuente": "Microsoft Research",
-        "resumen": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-        "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip des...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-        "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
-        "url": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
-        "fuente": "MarkTechPost",
-        "resumen": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a sp...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-        "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-        "fuente": "The Hacker News",
-        "resumen": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI7...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "McKinsey is making job applicants spar with a fake AI client",
-        "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-        "fuente": "The Verge AI",
-        "resumen": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wal...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Apertus 1.5 Release Notes",
-        "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-        "fuente": "Hugging Face",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026",
-        "url": "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026/",
-        "fuente": "MarkTechPost",
-        "resumen": "At Open Source Summit Europe 2026, openKylin outlined its vision for transitioning from resource management to intent management in the AI era. The community introduced KART, a unified AI runtime, alo...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Microsoft: Windows Server 2022 reached end of mainstream support",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-        "fuente": "BleepingComputer",
-        "resumen": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
-        "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-        "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-        "fuente": "The Hacker News",
-        "resumen": "Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Amp puts AI agents to work beyond code with OpenAI models",
-        "url": "https://openai.com/index/amp-beyond-coding",
-        "fuente": "OpenAI",
-        "resumen": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      },
-      {
-        "titulo": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-        "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-        "fuente": "Ars Technica AI",
-        "resumen": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-15"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-16",
     "total": 872,
     "items": [
@@ -8006,6 +7775,345 @@
         "seccion": "x",
         "pais": "global",
         "fecha": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-15",
+    "total": 297,
+    "items": [
+      {
+        "titulo": "The Sony Aibo was a robot revolution dressed like a dog",
+        "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
+        "fuente": "The Verge",
+        "resumen": "In the 1990s, Sony was absolutely convinced that we were on the precipice of a robot takeover. Pretty soon, the company decided, we'd all be living among countless humanoid robots. Some would be our c...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "AI DJs Completely Kill My Groove",
+        "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+        "fuente": "Wired",
+        "resumen": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+        "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+        "fuente": "Wired",
+        "resumen": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Microsoft confirms global outage resolved, rules out cyberattack",
+        "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+        "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+        "fuente": "SecurityWeek",
+        "resumen": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ a...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+        "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+        "fuente": "MarkTechPost",
+        "resumen": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bl...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "fuente": "TechCrunch AI",
+        "resumen": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "AI discovers a hidden heart signal that could predict sudden death",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm",
+        "fuente": "ScienceDaily AI",
+        "resumen": "Scientists have uncovered a hidden warning sign in routine heart scans that could predict sudden cardiac death before it strikes. The AI-powered discovery outperformed conventional screening methods, ...",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+        "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+        "fuente": "Wired",
+        "resumen": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Introducing ChatGPT Wallet",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
+        "fuente": "OpenAI",
+        "resumen": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Amazon has a plan to index the world’s online shopping data",
+        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "fuente": "The Verge AI",
+        "resumen": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reute...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Shield helps technicians hand off legacy portal work with OpenAI",
+        "url": "https://openai.com/business/customer-stories/shield",
+        "fuente": "OpenAI",
+        "resumen": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+        "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+        "fuente": "Ars Technica AI",
+        "resumen": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "fuente": "The Verge AI",
+        "resumen": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 a...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+        "url": "https://www.qbitai.com/2026/11/510297.html",
+        "fuente": "QbitAI",
+        "resumen": "马斯克也签名了",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+        "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+        "fuente": "MarkTechPost",
+        "resumen": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and ab...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+        "url": "https://www.qbitai.com/2026/11/510232.html",
+        "fuente": "QbitAI",
+        "resumen": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+        "url": "https://www.qbitai.com/2026/11/510150.html",
+        "fuente": "QbitAI",
+        "resumen": "童年的纸飞机，现在终于飞回我手里～",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "绿电进Token出！联想重新定义词元工厂",
+        "url": "https://www.qbitai.com/2026/11/510094.html",
+        "fuente": "QbitAI",
+        "resumen": "年产2000万亿Token，成本狂降70%",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+        "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "fuente": "TechCrunch AI",
+        "resumen": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+        "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+        "fuente": "TechCrunch AI",
+        "resumen": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+        "fuente": "The Verge AI",
+        "resumen": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "url": "https://openai.com/business/customer-stories/amplitude",
+        "fuente": "OpenAI",
+        "resumen": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Jensen Huang didn’t show confidence in his successor, report says",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+        "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+        "fuente": "SecurityWeek",
+        "resumen": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Micropho...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-15"
+      },
+      {
+        "titulo": "AI is helping recyclers see more value in waste. ♻️ Discover how vision AI and robotics sort used clothing, bottles and mixed recyclables, recovering reusable materials and diverting thousands of ton…",
+        "url": "https://x.com/nvidia/status/2121647261155570145",
+        "fuente": "X @nvidia",
+        "resumen": "243.384 visualizaciones · 1.075 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-14"
+      },
+      {
+        "titulo": "We’ve published an update on our recent security incident. See a detailed overview of what happened and our remediation steps here:",
+        "url": "https://x.com/cursor_ai/status/2121411147714970092",
+        "fuente": "X @cursor_ai",
+        "resumen": "746.871 visualizaciones · 2.214 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-14"
+      },
+      {
+        "titulo": "Real robots. Real time.",
+        "url": "https://x.com/nvidia/status/2121320069762589071",
+        "fuente": "X @nvidia",
+        "resumen": "239.614 visualizaciones · 295 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-13"
+      },
+      {
+        "titulo": "Meet GR00T 2, our most advanced, open System One model for robotics research. It learns skills from human demonstrations and predicts how its actions will change the physical world. Those skills can…",
+        "url": "https://x.com/nvidia/status/2121319866712076769",
+        "fuente": "X @nvidia",
+        "resumen": "713.271 visualizaciones · 3.124 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-13"
+      },
+      {
+        "titulo": "Safety evaluations are critical for understanding whether a model is ready to deploy, which safeguards to build for it, and where to focus training and research. On our Engineering Blog, we offer 10…",
+        "url": "https://x.com/AnthropicAI/status/2121317227618340990",
+        "fuente": "X @AnthropicAI",
+        "resumen": "247.532 visualizaciones · 2.192 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-13"
+      },
+      {
+        "titulo": "Streaming live at 12 PM ET: A fireside chat with JPMorgan CEO Jamie Dimon and @DarioAmodei. Legal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for th…",
+        "url": "https://x.com/AnthropicAI/status/2121272083863011714",
+        "fuente": "X @AnthropicAI",
+        "resumen": "398.613 visualizaciones · 2.241 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-13"
+      },
+      {
+        "titulo": "🚀 The full DeepSeek App experience, now via API Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API. Enable built-in features…",
+        "url": "https://x.com/deepseek_ai/status/2121247896918253875",
+        "fuente": "X @deepseek_ai",
+        "resumen": "1.139.466 visualizaciones · 12.269 me gusta",
+        "seccion": "x",
+        "pais": "china",
+        "fecha": "2026-11-13"
+      },
+      {
+        "titulo": "Claude Meetings is starting with Google Meet, with support for other video conferencing platforms coming soon. Learn more:",
+        "url": "https://x.com/claudeai/status/2120974000746582357",
+        "fuente": "X @claudeai",
+        "resumen": "324.340 visualizaciones · 1.662 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-12"
+      },
+      {
+        "titulo": "Claude takes the notes, too. After the call, the notes, action items, transcript, and anything Claude built are on the meeting’s page in Claude.",
+        "url": "https://x.com/claudeai/status/2120973999295643679",
+        "fuente": "X @claudeai",
+        "resumen": "349.133 visualizaciones · 1.769 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-12"
+      },
+      {
+        "titulo": "Introducing Claude Meetings: add Claude to your team’s video call and it builds docs, whiteboards, and other artifacts with you while you’re still talking. Starting to roll out in beta on Team and En…",
+        "url": "https://x.com/claudeai/status/2120973994191094179",
+        "fuente": "X @claudeai",
+        "resumen": "9.973.992 visualizaciones · 81.131 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-12"
+      },
+      {
+        "titulo": "Introducing the UI SDK.",
+        "url": "https://x.com/vercel/status/2120950020249895314",
+        "fuente": "X @vercel",
+        "resumen": "832.102 visualizaciones · 6.445 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-12"
+      },
+      {
+        "titulo": "Gemini 4 Hydrogen is now available in Cursor! At its default effort, it scores 54.3% on CursorBench, up from 39.6% for Gemini 3.8 Flash.",
+        "url": "https://x.com/cursor_ai/status/2120944639633211619",
+        "fuente": "X @cursor_ai",
+        "resumen": "239.855 visualizaciones · 2.447 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-12"
       }
     ]
   }
