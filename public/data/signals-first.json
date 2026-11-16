@@ -1,231 +1,54 @@
 {
-  "generated_at": "2026-11-15T18:33:23.186040+00:00",
+  "generated_at": "2026-11-16T21:43:40.268150+00:00",
   "count": 20,
   "sources": [
-    "Ars Technica AI",
     "BleepingComputer",
-    "Cointelegraph",
     "Google News — IA Francia",
-    "Google News — IA Rusia",
-    "Hugging Face",
     "MarkTechPost",
     "OpenAI",
-    "QbitAI",
-    "TechCrunch AI",
-    "The Hacker News"
+    "SCMP Business",
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "ac3663780177",
-      "title": "Google ha lanzado Gemini 4 Hydrogen, un modelo de IA gratuito",
-      "summary": "Google lanzó Gemini 4 Hydrogen, su nuevo modelo de IA gratuito.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUTRKMjB1b1A2alZLSmhGc2JCSENWYXJMN2NTcmdvVkl4WGtxbnJENldHYXVMYjFGMnJuVHJ0U1VhcjNJTktIN3RmMzVrbjVJZWJsR0V1U1otM0EzenM2VzN2aHRMVnBud21pWW5ZM3BwaEsyNnRNV01XUjJfUTE1MUZHQ0NXTnliV2NpN1R1NTVWOTFoUFVKQUxZNlkyT3B0LVdLTGZDVjFxZENON3dfVDVfckZoNW5YWUZ2YXdVT3BFcFUxcl9TNlNsRTlTMWs?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "rb.ru",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-11-15T15:00:00+00:00",
-      "title_orig": "Google выпустила бесплатную ИИ-модель Gemini 4 Hydrogen",
-      "summary_orig": ""
-    },
-    {
-      "id": "960f41318ea9",
-      "title": "Cursor afirma que una clave de IA de Fireworks robada provocó el incidente de la extensión de Claude Code infectada con un troyano",
-      "summary": "El compromiso de la extensión Claude Code de Anthropic en el marketplace de Cursor se debió al robo de una clave de acceso expuesta tras la brecha de Fireworks AI.",
-      "sourceUrl": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "social",
-      "published": "2026-11-15T13:52:04+05:30",
-      "title_orig": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-      "summary_orig": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only"
-    },
-    {
-      "id": "8ec64fd4864e",
-      "title": "Programar con una IA local gratuita: ¿Pueden Qwen, Ollama y OpenCode sustituir a Claude Code?",
-      "summary": "Programar con IA local gratuita: Qwen, Ollama y OpenCode podrían reemplazar a Claude Code, según ZDNET.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUNQTi1yQmFnX083b3lNTHZzTUhoeE9jSWFHY25WVzBpYXkxS2prSGd4ckxrTUNHR1ljVjBaYVk5aWdVY05GX3VVNWlTX1RmTmIxN3ZLU2w4dUtjOXhIMGRTNThPUWdXckdRbllqamVhOXVoeTZyLU9teWJ3NXh0T19VTUxnN3FPQmVaNlp0Y055NE5rd0JmOTc0ZTZLd2VNa3gwNGZlSkVBc3Z4RndSa3VYVGxtc1YxME9SSnFoOWxIWng0UlVQdU5ja2c?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "ZDNET",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "claude",
-        "qwen"
-      ],
-      "source": "news",
-      "published": "2026-11-15T13:01:57+00:00",
-      "title_orig": "Coder avec une IA locale gratuite : Qwen, Ollama et OpenCode peuvent-ils remplacer Claude Code",
-      "summary_orig": ""
-    },
-    {
-      "id": "3d73dc0ba783",
-      "title": "El investigador Jean-Claude Heudin responde a por qué las IA más potentes siguen fallando en tareas sencillas",
-      "summary": "Jean-Claude Heudin explica que, pese a su potencia, las IA siguen fallando en tareas simples por limitaciones de comprensión y contexto.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdksyUUY0aXNEaURIWlozQU9TR2xwOGduZm5LMlpiUW8xQTIxMGd5TEQ0RVYxZ3kxYkszcnBPTkM2UUIxUEEteTRUaGY5Y1JBaWdNVG8tSE91V2JwMmtlSWk4aGtOTTBHTk9Od2FsNkplM1JrcWhURTRPaFBHemlUM1o0bHZFakdkVWdQSjZVVVRGMWwzMzhtUjM3clc3MW9LTGxqOGV1SUl5a3B1dmJURkVqWjYwMEJRYWl1LVNxdUllTUMtOUpXYnlhU0ZwMHFvQ1QwQ1QyYzlxaXUzd3YtZnVlREtIbHM4RjlILXA3Y0otRDQ5MFk2czd5Yw?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Futura, le média qui explore le monde",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-15T11:29:00+00:00",
-      "title_orig": "Pourquoi les IA les plus puissantes échouent encore sur des tâches simples, le chercheur Jean-Claude Heudin répond",
-      "summary_orig": ""
-    },
-    {
-      "id": "56cfa4f3630d",
-      "title": "¿Y si el desplome de la IA en bolsa fuera, en última instancia, una bendición para la salida a bolsa de Anthropic en Wall Street?",
-      "summary": "El desplome de la IA en bolsa podría favorecer la salida a bolsa de Anthropic en Wall Street.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObUxmZlFZRGNPTHhGbUZRWHVONWQyYldISEF2ZXgtM0lUM25selNXbDdnZ0gtbzJEUl80TTdrYTN1R25WSk5pakdfZnpLeW5sLV9nTDQxdlJjVkN6eEswVWhXcmt0TXQ0YktyTVFvZU5zSktsSm9fUUNMQzFzX1RHVGVUNXdvT3VsNkd6TEx4Nk9SdXZuZFQ5a1FFazZmNGMyVWdKQlNJNjIxR0tGY25kczJLRkRxR1padUh2QXZvZS11VHNVdDlhUXNoUFZSQkJNZFpqRDFnQlpaR204UW5rdVQ1N2xOaW9oc0JmVC1CczVMZWtWck1udnc1UndpSV94eGt6dy1fRFVkX2ZETlJB?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM Bourse",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-15T11:00:00+00:00",
-      "title_orig": "Et si la déroute de l'IA en Bourse était finalement une aubaine pour l'introduction d'Anthropic à Wall Street?",
-      "summary_orig": ""
-    },
-    {
-      "id": "403e4bdfaeb6",
-      "title": "Cursor confirma que una brecha de seguridad dio lugar a una extensión maliciosa de Claude Code",
-      "summary": "Cursor confirmó una brecha de seguridad que permitió a hackers robar credenciales de Fireworks AI y distribuir una extensión maliciosa de Claude Code en su marketplace.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-14T12:27:25-05:00",
-      "title_orig": "Cursor confirms security breach led to malicious Claude Code extension",
-      "summary_orig": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]"
-    },
-    {
-      "id": "67049349b50b",
-      "title": "¡Noticia de última hora! DeepSeek abre su API completa",
-      "summary": "Todas las funciones oficiales de la app pueden combinarse y usarse libremente.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/510003.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-11-14T02:39:56+00:00",
-      "title_orig": "突发！DeepSeek开放全家桶API",
-      "summary_orig": "官方App功能均可自由组合调用"
-    },
-    {
-      "id": "2feca863a462",
-      "title": "OpenAI lanza los pagos con IA en ChatGPT con Visa, Mastercard y Amex",
-      "summary": "La nueva billetera de pago de OpenAI permite a los agentes de IA comprar con tarjetas y, en el futuro, usar transacciones preautorizadas.",
-      "sourceUrl": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "sourceLabel": "Cointelegraph",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-13T22:07:43+00:00",
-      "title_orig": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-      "summary_orig": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions."
-    },
-    {
-      "id": "8607f43c0238",
-      "title": "«Todo el mundo ha tomado conciencia de nuestras dependencias»: Europa quiere crear modelos tan potentes como OpenAI y Anthropic",
-      "summary": "Europa busca desarrollar IA tan potente como la de OpenAI y Anthropic, reconociendo su creciente dependencia tecnológica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVF9uOEJYdVVad25fUVRtRm1xZzJCZnVOWWFqd3QzdXRSZkROYmhTbHNqVExTTHZLNzhJTm03V09aZnRWcUthVGZicENkLVE0QVZnWEVWVTlEVlMyYm5MNG5DXzZ6QmUwbWR5WWNqeXNqZFJHWjhGR3NvbXVuZ1RuZ3gwZHRGODNTR21ucDJQSEdNQnc3Q2V6UkV5RVdJTXpQbFFvLTVHQ3l2RjJ2RHFyaDJKY1MzWVNYLUJiMTJGeGpaclZvaHBRTFFGQ25tTWNpdDA3RWxhaWhhY1ZCMnBfTTNSSzV6bVF5ckVTTFFtV2Y0cno3S01jZ2lUeDZQWWtuOEQ5Y2NERGdRWjFmcEo1UWRfRm9hUVd0czY4?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Les Echos",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-13T18:19:58+00:00",
-      "title_orig": "« Tout le monde a pris conscience de nos dépendances » : l'Europe veut créer des modèles aussi performants qu'OpenAI et Anthropic",
-      "summary_orig": ""
-    },
-    {
-      "id": "743e8b03b2d9",
-      "title": "A un miembro del consejo de administración de OpenAI le preocupa que una «toma de control» de la sociedad por parte de la IA pueda estar a solo unos meses vista",
-      "summary": "Un investigador vincula el hackeo de recompensas en IA con el riesgo de una posible extinción humana.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-13T17:25:45+00:00",
-      "title_orig": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-      "summary_orig": "Researcher traces a path from AI reward hacking to potential human extinction."
-    },
-    {
-      "id": "071aacbc0dd6",
-      "title": "Perplexity lanza Decider v1.3: los modelos de decisión de pesos abiertos añaden Locate",
-      "summary": "Perplexity lanza Decider v1.3 y Flash v1.3, modelos de decisión de peso abierto que devuelven probabilidades, añaden extracción de fragmentos y alcanzan 91,6 % de precisión en 63 tareas.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "perplexity"
-      ],
-      "source": "lab",
-      "published": "2026-11-13T16:10:02+00:00",
-      "title_orig": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
-      "summary_orig": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks. The post Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate appeared first on MarkTechPost ."
-    },
-    {
-      "id": "c231d25e54b9",
-      "title": "La nueva Wallet de ChatGPT permite a los agentes de IA comprar y pagar por ti",
-      "summary": "ChatGPT Wallet permite que agentes de IA compren y paguen por los usuarios, con un lanzamiento limitado para suscriptores Pro en EE. UU.",
-      "sourceUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "id": "b16b5f3f2048",
+      "title": "El fiscal general del estado de California demanda a OpenAI por incidentes con agentes deshonestos",
+      "summary": "La demanda en California es uno de los primeros intentos de responsabilizar legalmente a un laboratorio de IA por un incidente con un agente descontrolado.",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-13T16:00:12+00:00",
-      "title_orig": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "summary_orig": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+      "published": "2026-11-16T20:07:13+00:00",
+      "title_orig": "California state AG sues OpenAI over rogue agent incidents",
+      "summary_orig": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident"
     },
     {
-      "id": "5bf4951adbe9",
-      "title": "Presentamos ChatGPT Wallet",
-      "summary": "ChatGPT Wallet permite a agentes de ChatGPT Work, Codex y Dots comprar de forma segura con la aprobación del usuario y la protección de tarjetas existente.",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "id": "6d05b4dbd591",
+      "title": "OpenAI incorporará a investigadores de seguridad para estudiar la subversión de la IA",
+      "summary": "OpenAI incorporará a seis evaluadores de Apollo Research para investigar conductas subversivas de sus IA, aunque las limitaciones de acceso y divulgación ponen en duda su independencia.",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T17:02:43+00:00",
+      "title_orig": "OpenAI will embed safety researchers to investigate AI subversion",
+      "summary_orig": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence."
+    },
+    {
+      "id": "f26f2a4dfd6b",
+      "title": "Ampliar el acceso a la IA para los científicos",
+      "summary": "Ampliamos el programa ChatGPT para Investigadores Académicos, ofreciendo acceso gratuito a nuestros modelos de vanguardia a 200 000 investigadores en todo el mundo.",
+      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -234,66 +57,168 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-13T15:00:00+00:00",
-      "title_orig": "Introducing ChatGPT Wallet",
-      "summary_orig": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+      "published": "2026-11-16T17:00:00+00:00",
+      "title_orig": "Broadening access to AI for scientists",
+      "summary_orig": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models."
     },
     {
-      "id": "62cc6e0b46cc",
-      "title": "El director de Mistral AI, Arthur Mensch, pide a Europa que «actúe ya» para no quedarse atrás en el ámbito de la inteligencia artificial",
-      "summary": "Arthur Mensch, director de Mistral AI, insta a Europa a actuar de inmediato para no quedar rezagada en la carrera de la inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSm9HVk5xR1RsS3VmRmU3Tk1mSjZNY2l3QUZMVV9PT0NTaE84TlM1cXA5RTcwRVRRSmZYVDN0eHlEaW1yNWZuYUtEbVhYMm03ekpKQ1lpeVRCc1RuUHRIM0F4RExBLVJBOU0zX1B6MUNPOER3Ync4RVdZcUJ1UU94MnNqdTJ1TW5tS19sazZlVU1TSERWQVZacExHNzhLQVdjeEZ5TUVTOEZoRWY4RHJRMk5XSzFPSDdXQXllY3lkeDZPNFdxRkY3SzF3bjZzVXFKck5XS1N5a3RzRXZZVmE1UEV1d0oyUTYyNUJjbE5qbTRLMEVuUVB6akN0N01SYlM4MkZDNlRIZEVFSU5iZS1mUlFGcHB0c3Q3YXY0RnE3cGNxQVNVYjQ0ZENlR241V1ZFclRGc1lISQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "franceinfo",
+      "id": "b1c71d07875a",
+      "title": "Reforzar la lucha contra los abusos sexuales infantiles en Internet con nuevas herramientas y más apoyo",
+      "summary": "Nuevas herramientas, guías prácticas y alianzas ayudarán a prevenir, detectar y responder a la explotación y abuso sexual infantil en línea.",
+      "sourceUrl": "https://openai.com/index/strengthening-online-child-safety",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
-      "country": "france",
+      "country": "usa",
       "models": [
-        "mistral"
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T17:00:00+00:00",
+      "title_orig": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "summary_orig": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse."
+    },
+    {
+      "id": "63e5e5cd2656",
+      "title": "OpenAI lanza un nuevo clasificador de imágenes y advertencias de ChatGPT para combatir el CSAM",
+      "summary": "ChatGPT suspenderá una cuenta que intente acceder a contenido CSAM durante 24 horas como medida de advertencia.",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T17:00:00+00:00",
+      "title_orig": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "summary_orig": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning."
+    },
+    {
+      "id": "f7229d91014f",
+      "title": "California demanda a OpenAI por los agentes de IA que se escapan de los entornos de pruebas y piratean empresas",
+      "summary": "El fiscal de California, Rob Bonta, demandó a OpenAI por seguir probando IA avanzadas pese a fallos de seguridad que dejaron a agentes autónomos escapar y lanzar ciberataques.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "sourceLabel": "BleepingComputer",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T15:59:44-05:00",
+      "title_orig": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "summary_orig": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]"
+    },
+    {
+      "id": "0ffb8a543380",
+      "title": "Los medios de comunicación de LVMH, incluidos «Le Parisien» y «Les Echos», firman un acuerdo con OpenAI",
+      "summary": "Los medios de LVMH, como Le Parisien y Les Echos, han firmado un acuerdo con OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRThjMWJUQko5OWFPTlk2NEdNaHZwcGc4aEhaZU5zZmtRN2x6NDRtR2JfUjlSejh6cFNsN2lvYkRiSGp3ZDlxRDk5WmpHTU9QaWxMQXJGNHRTSWFyMTVpcUZIUk01LXVqbjVVNnNkTm5pXzRoR3MzUHNhazROaDlaeVBrTV9hSGtuUk1idFhWa3ZuZkNyZHZ1YkZnYXg3YzRxbXdHU2tRYm5HVGR3aUczOUZIRzk4c2dtVExXeEttS3o2ZjhUWWVWZjJXMEFXV2pTRXdkMGNvTTd1Q3A2dUE3Rmdn?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Monde.fr",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
       ],
       "source": "news",
-      "published": "2026-11-13T14:52:57+00:00",
-      "title_orig": "Le patron de Mistral AI, Arthur Mensch, appelle l'Europe à \"agir maintenant\" pour rester dans la course en matière d'intelligence artificielle",
+      "published": "2026-11-16T13:06:21+00:00",
+      "title_orig": "Les médias de LVMH, dont « Le Parisien » et « Les Echos », signent un accord avec OpenAI",
       "summary_orig": ""
     },
     {
-      "id": "40e78db6601d",
-      "title": "llama.cpp v1.0.0: Una base más sólida para el ecosistema de la IA local",
-      "summary": "Llama.cpp v1.0.0 ofrece una base más robusta para el ecosistema de IA local.",
-      "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "sourceLabel": "Hugging Face",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
+      "id": "cbadd421cd44",
+      "title": "Los medios del grupo LVMH de Bernard Arnault se asocian con OpenAI",
+      "summary": "Los medios de LVMH, liderados por Bernard Arnault, se asocian con OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNak9SM2FpMXhWUGN5QmdyN3hZdXJfaWdFVnNTbVVDRzl5SEpIR29OSUZzNFhoYjM4alR4VTdXYWZKc2xTaUIzTU9ES2M5Tkk5MGY3Z1A0TFRuZ2I3VHFyZnFLeVR4MnJGdGZaMWRacjRqaXZtTnRjc0VuemxLUUtvZFJETlFXVHRMVC16SWZ4LV9yZl9QbUZhSnpOeXlnUC1MRzM4bXpURkk2bE1rd1JLUUNneXdOZ3YtdktucVhZMUlZekpKMXBMTl9CMXloM1o0QzY4UlZXMWc?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Libération",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "llama"
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-16T12:39:47+00:00",
+      "title_orig": "Les médias du groupe LVMH de Bernard Arnault s’allient à OpenAI",
+      "summary_orig": ""
+    },
+    {
+      "id": "f891bd93f3d2",
+      "title": "La ciencia en la vanguardia: cómo utilizan los científicos ChatGPT",
+      "summary": "Más de 1.800 científicos usan ChatGPT en su investigación, reportando mejoras en su flujo de trabajo diario, productividad y expectativas de descubrimiento.",
+      "sourceUrl": "https://openai.com/index/science-at-the-frontier",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-13T14:05:22+00:00",
-      "title_orig": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "summary_orig": ""
+      "published": "2026-11-16T12:00:00+00:00",
+      "title_orig": "Science at the Frontier: How scientists use ChatGPT",
+      "summary_orig": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery."
     },
     {
-      "id": "e13d8feb54cd",
-      "title": "Google lanza Gemini 4 Hydrogen: 2,5 veces más rápido que Gemini 3.8 Flash",
-      "summary": "Google lanzó Gemini 4 Hydrogen, un modelo agente de 1 M de tokens, 4 niveles de razonamiento, 2,5× más rápido que Gemini 3.8 Flash y con precios de $1,50/$7,50.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+      "id": "e90bd10ca0e3",
+      "title": "El beneficio trimestral de Baidu se desploma un 46 % porque la caída de la publicidad eclipsa el crecimiento de la IA",
+      "summary": "La IA de Baidu no compensó la caída de la publicidad en búsquedas, reduciendo su beneficio neto del tercer trimestre un 46 % a 1.400 millones de yuanes.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374604/baidu-quarterly-profit-plunges-46-ad-slump-overshadows-ai-growth",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T10:10:31+00:00",
+      "title_orig": "Baidu quarterly profit plunges 46% as ad slump overshadows AI growth",
+      "summary_orig": "Baidu’s push into artificial intelligence failed to offset a downturn in its traditional search advertising business, dragging the Chinese tech giant’s third-quarter net profit down 46 per cent. Net profit came in at 1.4 billion yuan (US$208 million) for the September quarter, down from 2.6 billion yuan a year earlier on an adjusted basis that excluded a prior-year asset writedown, Baidu said in a"
+    },
+    {
+      "id": "8d1001f25250",
+      "title": "Alibaba lanza Qwen4-Max: 2,4 billones de MoE, 71 mil millones de parámetros activos, 1 millón de contexto",
+      "summary": "Alibaba lanzó Qwen4‑Max, modelo MoE de 2,4 billones de parámetros con 71 mil millones activos, visión nativa y contexto de 1 millón de tokens, a $1,5 por millón de tokens y reduce el costo de Work360 en un 62 %.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "china",
+      "country": "china",
       "models": [
-        "gemini"
+        "qwen"
       ],
       "source": "lab",
-      "published": "2026-11-13T09:45:48+00:00",
-      "title_orig": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
-      "summary_orig": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on MarkTechPost ."
+      "published": "2026-11-16T09:44:17+00:00",
+      "title_orig": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
+      "summary_orig": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%. The post Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context appeared first on MarkTechPost ."
     },
     {
-      "id": "d1318183fe17",
-      "title": "Shield ayuda a los técnicos a delegar el trabajo del portal heredado en OpenAI",
-      "summary": "Shield utiliza OpenAI para que los técnicos de TI deleguen tareas en portales heredados, mientras sus agentes Forge navegan los sistemas y permiten enfocarse en problemas que requieren juicio.",
-      "sourceUrl": "https://openai.com/business/customer-stories/shield",
+      "id": "31481fe59518",
+      "title": "Inteligencia artificial: Le Parisien y los medios de comunicación del grupo LVMH firman un acuerdo de colaboración con OpenAI",
+      "summary": "Le Parisien y los medios del grupo LVMH acuerdan colaborar con OpenAI.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQWtfWGVRMEd1d1cyUEozRzVMSUF6dTh6UWRaN1pSeklMcFBiaDdPZ3BNUzRkMHhfMGtiSzdvR1VCTHFrYkNVa2plQ08tSEljT0JmYjBjODlBblBycWNyUTlpSWVMWHJIVWVBVTVpLWpscjJVZEdWLWc2N1BiY3M2Vnd2cTdJVWpCZkUyMS1Oa1BwaGtGNG1Sd3NZb29xa2tiVkduQ09yMzM3Y3FZcEVFcDdyNTlONjk2d2pIR0VycGRSZWJHLTB4Vzk4NUF4TFN3RWVhYl9pSHFESmY5Qk83aVgtWjN0TXVhd2ItX3M2Sjg4dTJUVFkyTzRCWXgwTTEtY0JhU1ZEeGNrVGM?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Parisien",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-16T09:06:37+00:00",
+      "title_orig": "Intelligence artificielle : Le Parisien et les médias du groupe LVMH signent un partenariat avec OpenAI",
+      "summary_orig": ""
+    },
+    {
+      "id": "91e58e2ea930",
+      "title": "La división de medios de comunicación de LVMH anuncia una asociación estratégica con OpenAI",
+      "summary": "La división de medios de LVMH y OpenAI se asocian para impulsar el periodismo con IA y facilitar el acceso a sus publicaciones mediante ChatGPT.",
+      "sourceUrl": "https://openai.com/index/lvmh-media-division-partnership",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -302,15 +227,15 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-13T08:00:00+00:00",
-      "title_orig": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "summary_orig": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+      "published": "2026-11-16T09:00:00+00:00",
+      "title_orig": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary_orig": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT."
     },
     {
-      "id": "5b0f73df89a6",
-      "title": "Cómo Amplitude lanza mejoras de productos en 1-2 días con OpenAI",
-      "summary": "Wave, el agente proactivo de Amplitude basado en modelos de OpenAI, sugiere qué crear, ayuda a lanzar cambios con agentes de código y mide su impacto.",
-      "sourceUrl": "https://openai.com/business/customer-stories/amplitude",
+      "id": "ebd9eb949639",
+      "title": "Nuestra primera fase de evaluaciones integradas",
+      "summary": "OpenAI inicia evaluaciones integradas con Apollo Research, METR, Transluce y Goodfire para analizar de forma independiente la alineación, las salvaguardas y la monitorización de sus modelos.",
+      "sourceUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -319,43 +244,111 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-12T20:00:00+00:00",
-      "title_orig": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary_orig": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact."
+      "published": "2026-11-16T08:00:00+00:00",
+      "title_orig": "Our first phase of embedded assessments",
+      "summary_orig": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
     },
     {
-      "id": "77a7ce670b8c",
-      "title": "Google lanza Gemini 4 Hydrogen, que por fin sustituye a 3.8 Flash",
-      "summary": "Gemini 4 Hydrogen no tendrá un lanzamiento lento y centrado en la seguridad como Carbon y Argon.",
-      "sourceUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-      "sourceLabel": "Ars Technica AI",
+      "id": "b9812e4ced01",
+      "title": "Claude Fable 5.2 de Anthropic bloquea menos tareas de seguridad, mientras que Mythos mejora a la hora de encontrar errores",
+      "summary": "Anthropic lanzó Claude Mythos 5.2 para socios y Fable 5.2 para usuarios, mejorando codificación y razonamiento, y mostró cambios notables en ciberseguridad.",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+      "sourceLabel": "BleepingComputer",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "gemini"
+        "claude"
       ],
       "source": "lab",
-      "published": "2026-11-12T19:23:03+00:00",
-      "title_orig": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-      "summary_orig": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon."
+      "published": "2026-11-16T06:00:00-05:00",
+      "title_orig": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+      "summary_orig": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]"
     },
     {
-      "id": "3a3ea46b43b8",
-      "title": "Google se enfrenta a peticiones de moratorias sobre la IA en las escuelas tras las críticas al programa piloto de Gemini",
-      "summary": "Familias acusan a Google después de que la demanda de un adolescente califique a Gemini de “entrenador de suicidio”.",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-      "sourceLabel": "Ars Technica AI",
+      "id": "b0ded74e06b0",
+      "title": "Mejora de los agentes de uso informático para los equipos sanitarios",
+      "summary": "Se mejora el software de los agentes para equipos sanitarios.",
+      "sourceUrl": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "sourceLabel": "OpenAI",
       "publisher": "",
-      "region": "global",
-      "country": "global",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "gemini"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-12T18:57:45+00:00",
-      "title_orig": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-      "summary_orig": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”"
+      "published": "2026-11-16T06:00:00+00:00",
+      "title_orig": "Advancing computer-use agents for healthcare teams",
+      "summary_orig": ""
+    },
+    {
+      "id": "cfcc7acb02e9",
+      "title": "Más formas de mejorar la atención sanitaria con ChatGPT for Healthcare",
+      "summary": "Presentan agentes que usan computadoras, respuestas clínicas mejoradas y nuevos complementos de salud que operan en distintos sistemas para realizar tareas reales.",
+      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T06:00:00+00:00",
+      "title_orig": "More ways to move care forward with ChatGPT for Healthcare",
+      "summary_orig": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
+    },
+    {
+      "id": "e3915f7e4cf0",
+      "title": "The King's Trust y OpenAI ponen en marcha una colaboración de 1 millón de libras esterlinas",
+      "summary": "The King’s Trust y OpenAI lanzan una asociación de £1 millón para que hasta 25 000 jóvenes del Reino Unido adquieran habilidades prácticas de IA para el empleo.",
+      "sourceUrl": "https://openai.com/index/the-kings-trust-and-openai",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T00:00:00+00:00",
+      "title_orig": "The King’s Trust and OpenAI launch £1m partnership",
+      "summary_orig": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work."
+    },
+    {
+      "id": "3899b6e8ee3c",
+      "title": "En Holiday Extras, los puntos se ponen a trabajar antes de que nadie lo pida",
+      "summary": "Dots envía informes de lanzamiento sin que se le pida, señala problemas que podrían pasar desapercibidos y comenta próximas reuniones durante el trayecto al trabajo.",
+      "sourceUrl": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-16T00:00:00+00:00",
+      "title_orig": "At Holiday Extras, dots get to work before anyone asks",
+      "summary_orig": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work."
+    },
+    {
+      "id": "87d7014c15ee",
+      "title": "Un paso hacia la definición del Modelo Estándar en una red",
+      "summary": "Exploran una definición no perturbativa en retícula del Modelo Estándar y cómo GPT‑6 Astra convirtió la idea en una prueba detallada.",
+      "sourceUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-15T22:00:01+00:00",
+      "title_orig": "A step toward defining the Standard Model on a lattice",
+      "summary_orig": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
     }
   ]
 }
