@@ -10,7 +10,8 @@ export default defineEventHandler(async () => {
   if (!token) return { ok: false as const, reason: "no_token" };
   try {
     const res = await get(SUMMARY_PATH, { access: "private", token });
-    if (res.statusCode !== 200 || !res.stream) {
+    // @vercel/blob >=2.9: get() devuelve GetBlobResult | null (404 = null)
+    if (!res || res.statusCode !== 200 || !res.stream) {
       return { ok: true as const, summary: null };
     }
     const text = await new Response(res.stream).text();

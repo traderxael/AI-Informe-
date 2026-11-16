@@ -24,7 +24,8 @@ function emptySummary(): Summary {
 async function readSummary(token: string): Promise<Summary> {
   try {
     const res = await get(SUMMARY_PATH, { access: "private", token });
-    if (res.statusCode !== 200 || !res.stream) return emptySummary();
+    // @vercel/blob >=2.9: get() devuelve GetBlobResult | null (404 = null)
+    if (!res || res.statusCode !== 200 || !res.stream) return emptySummary();
     const text = await new Response(res.stream).text();
     const parsed = JSON.parse(text);
     return { ...emptySummary(), ...parsed };
