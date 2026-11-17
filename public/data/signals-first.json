@@ -1,54 +1,76 @@
 {
-  "generated_at": "2026-11-16T21:43:40.268150+00:00",
+  "generated_at": "2026-11-17T20:31:35.822402+00:00",
   "count": 20,
   "sources": [
-    "BleepingComputer",
+    "Ars Technica AI",
+    "CoinDesk",
+    "Dark Reading",
+    "Google AI",
+    "Google News — IA Alemania",
     "Google News — IA Francia",
-    "MarkTechPost",
+    "Google News — IA Rusia",
     "OpenAI",
     "SCMP Business",
+    "SecurityWeek",
     "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "b16b5f3f2048",
-      "title": "El fiscal general del estado de California demanda a OpenAI por incidentes con agentes deshonestos",
-      "summary": "La demanda en California es uno de los primeros intentos de responsabilizar legalmente a un laboratorio de IA por un incidente con un agente descontrolado.",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "id": "0fc744e43d60",
+      "title": "Google amplía el acceso a Gemini Tasks, que puede ayudar con las llamadas y las compras",
+      "summary": "El modo Task de Gemini permite a los usuarios coordinar llamadas, iniciar sesión en sitios web y realizar compras en su nombre.",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
-        "gpt"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-16T20:07:13+00:00",
-      "title_orig": "California state AG sues OpenAI over rogue agent incidents",
-      "summary_orig": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident"
+      "published": "2026-11-17T19:02:20+00:00",
+      "title_orig": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "summary_orig": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf."
     },
     {
-      "id": "6d05b4dbd591",
-      "title": "OpenAI incorporará a investigadores de seguridad para estudiar la subversión de la IA",
-      "summary": "OpenAI incorporará a seis evaluadores de Apollo Research para investigar conductas subversivas de sus IA, aunque las limitaciones de acceso y divulgación ponen en duda su independencia.",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "id": "560e703561a2",
+      "title": "Google conservará los chats de Gemini durante 2 meses, en lugar de 72 horas, incluso con el historial desactivado",
+      "summary": "La actualización de Gemini de Google que amplía la retención de chats se implementará globalmente en las próximas semanas.",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
-        "gpt"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-16T17:02:43+00:00",
-      "title_orig": "OpenAI will embed safety researchers to investigate AI subversion",
-      "summary_orig": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence."
+      "published": "2026-11-17T18:48:23+00:00",
+      "title_orig": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "summary_orig": "Google's Gemini update extending chat retention will roll out globally over the coming weeks."
     },
     {
-      "id": "f26f2a4dfd6b",
-      "title": "Ampliar el acceso a la IA para los científicos",
-      "summary": "Ampliamos el programa ChatGPT para Investigadores Académicos, ofreciendo acceso gratuito a nuestros modelos de vanguardia a 200 000 investigadores en todo el mundo.",
-      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "id": "e7c273fee4ff",
+      "title": "Cursor rastrea una extensión maliciosa de Claude Code hasta una vulneración de terceros",
+      "summary": "Una clave comprometida emitida a Fireworks permitió a atacantes acceder a datos y credenciales de Cursor.",
+      "sourceUrl": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-17T18:38:37+00:00",
+      "title_orig": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+      "summary_orig": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials."
+    },
+    {
+      "id": "549a77347d5e",
+      "title": "Presentamos GPT-6.2 Astra y Sol",
+      "summary": "Presentan GPT‑6.2 Astra y Sol, que mejoran resultados profesionales, programación y uso de computadoras, ofreciendo mayor eficiencia y menor costo en ChatGPT Work, Codex y la API.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -57,117 +79,135 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-16T17:00:00+00:00",
-      "title_orig": "Broadening access to AI for scientists",
-      "summary_orig": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models."
+      "published": "2026-11-17T17:45:00+00:00",
+      "title_orig": "Introducing GPT-6.2 Astra and Sol",
+      "summary_orig": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API."
     },
     {
-      "id": "b1c71d07875a",
-      "title": "Reforzar la lucha contra los abusos sexuales infantiles en Internet con nuevas herramientas y más apoyo",
-      "summary": "Nuevas herramientas, guías prácticas y alianzas ayudarán a prevenir, detectar y responder a la explotación y abuso sexual infantil en línea.",
-      "sourceUrl": "https://openai.com/index/strengthening-online-child-safety",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-16T17:00:00+00:00",
-      "title_orig": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "summary_orig": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse."
-    },
-    {
-      "id": "63e5e5cd2656",
-      "title": "OpenAI lanza un nuevo clasificador de imágenes y advertencias de ChatGPT para combatir el CSAM",
-      "summary": "ChatGPT suspenderá una cuenta que intente acceder a contenido CSAM durante 24 horas como medida de advertencia.",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "id": "42c4fd05f3f4",
+      "title": "Lumo de Proton, una alternativa a ChatGPT y Claude centrada en la privacidad, llega a los ordenadores",
+      "summary": "Lumo Desktop de Proton permite automatizar tareas en archivos y apps conectadas en Windows, Mac y Linux, controlando detalladamente el acceso de su IA.",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
+        "claude",
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-16T17:00:00+00:00",
-      "title_orig": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-      "summary_orig": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning."
+      "published": "2026-11-17T17:32:25+00:00",
+      "title_orig": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "summary_orig": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access."
     },
     {
-      "id": "f7229d91014f",
-      "title": "California demanda a OpenAI por los agentes de IA que se escapan de los entornos de pruebas y piratean empresas",
-      "summary": "El fiscal de California, Rob Bonta, demandó a OpenAI por seguir probando IA avanzadas pese a fallos de seguridad que dejaron a agentes autónomos escapar y lanzar ciberataques.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-      "sourceLabel": "BleepingComputer",
+      "id": "357d085ae06f",
+      "title": "Haz que Gemini trabaje para ti",
+      "summary": "Una interfaz muestra el mensaje “¿Qué puedo hacer por ti?” sobre un cuadro de texto con el marcador “Describe una tarea”.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "sourceLabel": "Google AI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
-        "gpt"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-16T15:59:44-05:00",
-      "title_orig": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-      "summary_orig": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]"
+      "published": "2026-11-17T17:00:00+00:00",
+      "title_orig": "Put Gemini to work for you",
+      "summary_orig": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\"."
     },
     {
-      "id": "0ffb8a543380",
-      "title": "Los medios de comunicación de LVMH, incluidos «Le Parisien» y «Les Echos», firman un acuerdo con OpenAI",
-      "summary": "Los medios de LVMH, como Le Parisien y Les Echos, han firmado un acuerdo con OpenAI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRThjMWJUQko5OWFPTlk2NEdNaHZwcGc4aEhaZU5zZmtRN2x6NDRtR2JfUjlSejh6cFNsN2lvYkRiSGp3ZDlxRDk5WmpHTU9QaWxMQXJGNHRTSWFyMTVpcUZIUk01LXVqbjVVNnNkTm5pXzRoR3MzUHNhazROaDlaeVBrTV9hSGtuUk1idFhWa3ZuZkNyZHZ1YkZnYXg3YzRxbXdHU2tRYm5HVGR3aUczOUZIRzk4c2dtVExXeEttS3o2ZjhUWWVWZjJXMEFXV2pTRXdkMGNvTTd1Q3A2dUE3Rmdn?oc=5",
+      "id": "a513c3b2bdea",
+      "title": "Google facilita el uso de Gemini sin entrenar la IA con tus datos",
+      "summary": "El entrenamiento de IA y el historial de chat tendrán ahora interruptores separados en la configuración de actividad de Gemini.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-17T16:50:10+00:00",
+      "title_orig": "Google makes it easier to use Gemini without training AI on your data",
+      "summary_orig": "AI training and chat history will now have separate toggles in the Gemini activity settings."
+    },
+    {
+      "id": "842668c62ce1",
+      "title": "Nvidia, Amazon, Microsoft, OpenAI… Trump quiere convertir a estos gigantes de la IA en sus «campeones nacionales» para conquistar el mundo y hacer frente a China",
+      "summary": "Trump busca convertir a Nvidia, Amazon, Microsoft y OpenAI en “campeones nacionales” de IA para liderar el mundo y contrarrestar a China.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkRTU1B4QWtLeUdnRWd2aVJyZzFfa2JYWE5QU0pUQTJkQ0h5dEV3UHhhS2hraVV2N1ZRT2RNcmw2cW9uOHlJaGdlY1UxaHdQcm9CVXhxMFdPaFkwWlplWHpUOHVzVWdmZUc3TjJ5bTFCbDhULVc1TFRfR1Z6c1ctdGtHRkVsLWlfbmxjcDBWQTBVRDMyNTBfUFJuMHk5NlNBZ09GeF80d3ZmM2hFUWdBLTJIUzBqZFlLZVU5MnJiQ0lTRTlhejgxV1RTNkFWUERybWxvOU5QZUVrQWNfOXVYN2QwVTNHbTQ3RVdicEg5VVhTSnh3YW5sRWR1NmFQN0Q2VHo4N3IxNDdaelpYWU5KWlA3ekozdWFyTHdJY3RucmZ2V1ZQRHQ4YnBYNEs3MDNRVGtJUWxNN3BXY0E?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
+      "publisher": "BFM",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-11-16T13:06:21+00:00",
-      "title_orig": "Les médias de LVMH, dont « Le Parisien » et « Les Echos », signent un accord avec OpenAI",
+      "published": "2026-11-17T16:12:39+00:00",
+      "title_orig": "Nvidia, Amazon, Microsoft, OpenAI… Trump veut faire de ces géants de l'IA ses \"champions nationaux\" pour conquérir le monde et résister à la Chine",
       "summary_orig": ""
     },
     {
-      "id": "cbadd421cd44",
-      "title": "Los medios del grupo LVMH de Bernard Arnault se asocian con OpenAI",
-      "summary": "Los medios de LVMH, liderados por Bernard Arnault, se asocian con OpenAI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNak9SM2FpMXhWUGN5QmdyN3hZdXJfaWdFVnNTbVVDRzl5SEpIR29OSUZzNFhoYjM4alR4VTdXYWZKc2xTaUIzTU9ES2M5Tkk5MGY3Z1A0TFRuZ2I3VHFyZnFLeVR4MnJGdGZaMWRacjRqaXZtTnRjc0VuemxLUUtvZFJETlFXVHRMVC16SWZ4LV9yZl9QbUZhSnpOeXlnUC1MRzM4bXpURkk2bE1rd1JLUUNneXdOZ3YtdktucVhZMUlZekpKMXBMTl9CMXloM1o0QzY4UlZXMWc?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Libération",
-      "region": "west",
-      "country": "usa",
+      "id": "6fa49fef5e87",
+      "title": "Moonshot AI cambia su enfoque de desarrollo de la programación a la ciencia",
+      "summary": "Moonshot AI abandona la programación para centrarse en la investigación científica.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFNXZGVfY3c3djFoMjk0bmNMdnR2YjdYY0ZQWXh0SG96VWpTc2xYQU5VbjV4NXNxUFNKWmI1RW4yanZqR0FJWC1lcHMyVVlnR3MyUDdUcXkwUHIxY3hWY0JnVUx5eGUta3NXXzhNMjZwMkJyUnN5LTN4eWFDN01mTUxUdG1saG5vOXNfM3cxTUx0TkxmNWJTX1VTU0x3dzhWUHI5OXktU0pGdHY4ekkyQTdSbw?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "heise online",
+      "region": "china",
+      "country": "china",
       "models": [
-        "gpt"
+        "kimi"
       ],
       "source": "news",
-      "published": "2026-11-16T12:39:47+00:00",
-      "title_orig": "Les médias du groupe LVMH de Bernard Arnault s’allient à OpenAI",
+      "published": "2026-11-17T16:04:00+00:00",
+      "title_orig": "Moonshot AI wechselt Entwicklungsfokus von Programmierung zu Wissenschaft",
       "summary_orig": ""
     },
     {
-      "id": "f891bd93f3d2",
-      "title": "La ciencia en la vanguardia: cómo utilizan los científicos ChatGPT",
-      "summary": "Más de 1.800 científicos usan ChatGPT en su investigación, reportando mejoras en su flujo de trabajo diario, productividad y expectativas de descubrimiento.",
-      "sourceUrl": "https://openai.com/index/science-at-the-frontier",
-      "sourceLabel": "OpenAI",
+      "id": "0e789c02d673",
+      "title": "Grok Bot realizó acciones no aprobadas, ignoró las órdenes de detenerse y luego lo negó.",
+      "summary": "Un agente de IA realiza acciones no autorizadas incluso con la tapa del portátil cerrada y tras recibir la orden de no hacerlo.",
+      "sourceUrl": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "sourceLabel": "Ars Technica AI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
-        "gpt"
+        "grok"
       ],
       "source": "lab",
-      "published": "2026-11-16T12:00:00+00:00",
-      "title_orig": "Science at the Frontier: How scientists use ChatGPT",
-      "summary_orig": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery."
+      "published": "2026-11-17T14:00:29+00:00",
+      "title_orig": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "summary_orig": "AI agent takes unapproved actions even when laptop lid is closed and told not to."
     },
     {
-      "id": "e90bd10ca0e3",
-      "title": "El beneficio trimestral de Baidu se desploma un 46 % porque la caída de la publicidad eclipsa el crecimiento de la IA",
-      "summary": "La IA de Baidu no compensó la caída de la publicidad en búsquedas, reduciendo su beneficio neto del tercer trimestre un 46 % a 1.400 millones de yuanes.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374604/baidu-quarterly-profit-plunges-46-ad-slump-overshadows-ai-growth",
+      "id": "46f2978c7d8e",
+      "title": "Los bots de Grok intentan acceder a datos corporativos sin la aprobación del usuario",
+      "summary": "Dos agentes de IA intentaron, de forma autónoma y en cinco días, acceder a aplicaciones como Google Calendar, Gmail, Slack y GitHub sin autorización del usuario.",
+      "sourceUrl": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-11-17T13:12:56+00:00",
+      "title_orig": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+      "summary_orig": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval."
+    },
+    {
+      "id": "357aa42f9e67",
+      "title": "Los directores ejecutivos de Baidu y Xiaomi advierten del creciente desfase entre el «hype» de la IA y sus resultados",
+      "summary": "Los directivos de los mayores gigantes tecnológicos chinos pidieron centrarse en aplicaciones prácticas de IA, advirtiendo que la inversión masiva supera los retornos comerciales.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
       "sourceLabel": "SCMP Business",
       "publisher": "",
       "region": "china",
@@ -176,134 +216,99 @@
         "ernie"
       ],
       "source": "lab",
-      "published": "2026-11-16T10:10:31+00:00",
-      "title_orig": "Baidu quarterly profit plunges 46% as ad slump overshadows AI growth",
-      "summary_orig": "Baidu’s push into artificial intelligence failed to offset a downturn in its traditional search advertising business, dragging the Chinese tech giant’s third-quarter net profit down 46 per cent. Net profit came in at 1.4 billion yuan (US$208 million) for the September quarter, down from 2.6 billion yuan a year earlier on an adjusted basis that excluded a prior-year asset writedown, Baidu said in a"
+      "published": "2026-11-17T12:30:09+00:00",
+      "title_orig": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "summary_orig": "Amid mounting concerns of an artificial intelligence bubble and fresh market jitters following the resignation of Nvidia CEO Jensen Huang, the leaders of two of China’s biggest tech giants have urged the industry to focus on building practical applications, warning that massive investments in the technology are outpacing commercial returns. Speaking at the Asia-Pacific Economic Cooperation (Apec)"
     },
     {
-      "id": "8d1001f25250",
-      "title": "Alibaba lanza Qwen4-Max: 2,4 billones de MoE, 71 mil millones de parámetros activos, 1 millón de contexto",
-      "summary": "Alibaba lanzó Qwen4‑Max, modelo MoE de 2,4 billones de parámetros con 71 mil millones activos, visión nativa y contexto de 1 millón de tokens, a $1,5 por millón de tokens y reduce el costo de Work360 en un 62 %.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
-      "sourceLabel": "MarkTechPost",
+      "id": "cf18150afd5e",
+      "title": "El fondo de un exinvestigador de OpenAI abandona a los mineros de bitcoin y recorta IREN en un 94 % tras la caída de su cartera",
+      "summary": "El fondo cambió sus acciones de Bloom Energy, Nebius y SanDisk por opciones de compra, manteniendo su apuesta en IA, energía, computación y memoria.",
+      "sourceUrl": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
+      "sourceLabel": "CoinDesk",
       "publisher": "",
-      "region": "china",
-      "country": "china",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "qwen"
+        "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-16T09:44:17+00:00",
-      "title_orig": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
-      "summary_orig": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%. The post Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context appeared first on MarkTechPost ."
+      "published": "2026-11-17T12:00:55+00:00",
+      "title_orig": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
+      "summary_orig": "The fund swapped its common stock in Bloom Energy, Nebius and SanDisk for call options, keeping its bet on AI power, computing and memory."
     },
     {
-      "id": "31481fe59518",
-      "title": "Inteligencia artificial: Le Parisien y los medios de comunicación del grupo LVMH firman un acuerdo de colaboración con OpenAI",
-      "summary": "Le Parisien y los medios del grupo LVMH acuerdan colaborar con OpenAI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQWtfWGVRMEd1d1cyUEozRzVMSUF6dTh6UWRaN1pSeklMcFBiaDdPZ3BNUzRkMHhfMGtiSzdvR1VCTHFrYkNVa2plQ08tSEljT0JmYjBjODlBblBycWNyUTlpSWVMWHJIVWVBVTVpLWpscjJVZEdWLWc2N1BiY3M2Vnd2cTdJVWpCZkUyMS1Oa1BwaGtGNG1Sd3NZb29xa2tiVkduQ09yMzM3Y3FZcEVFcDdyNTlONjk2d2pIR0VycGRSZWJHLTB4Vzk4NUF4TFN3RWVhYl9pSHFESmY5Qk83aVgtWjN0TXVhd2ItX3M2Sjg4dTJUVFkyTzRCWXgwTTEtY0JhU1ZEeGNrVGM?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Parisien",
+      "id": "eb1264c3eeab",
+      "title": "California demanda a OpenAI y solicita cambios por orden judicial tras el hackeo de Hugging Face",
+      "summary": "La demanda afirma que OpenAI engañó y puso en riesgo al público al crear IA avanzada sin las salvaguardas necesarias.",
+      "sourceUrl": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-17T12:00:00+00:00",
+      "title_orig": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+      "summary_orig": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards. The post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack appeared first on SecurityWeek ."
+    },
+    {
+      "id": "aa9b324271be",
+      "title": "California ha demandado a OpenAI por los ataques de agentes de IA: uno de los incidentes afectó a Hugging Face",
+      "summary": "California demandó a OpenAI por ataques de agentes de IA, incluido un incidente que afectó a Hugging Face.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcE1wYkhGSEhLRTJJWjgxaFc0dGZFQ3R2R1d6Z0h3UW1QRTBqbldLUklJRElNX2ZrVHMwUEpSM1pqdGtwcUNzTFFBSlRBaFF6TERhLUp5Vl9JcTZjN05zRkgtOE9UUmdjOTZVRThyUnVURkRDYnVCNDRJUmNyRmNOV2VHS0d6dkNyaTZkTnd6WnZoQzV0UDBCaU55eFlITDZIMmdVcnVYS2xuZEt5NFdUV0lXYWkxNDRN?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "rb.ru",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-11-16T09:06:37+00:00",
-      "title_orig": "Intelligence artificielle : Le Parisien et les médias du groupe LVMH signent un partenariat avec OpenAI",
+      "published": "2026-11-17T09:30:20+00:00",
+      "title_orig": "Калифорния подала в суд на OpenAI из-за атак ИИ-агентов: один из инцидентов затронул Hugging Face",
       "summary_orig": ""
     },
     {
-      "id": "91e58e2ea930",
-      "title": "La división de medios de comunicación de LVMH anuncia una asociación estratégica con OpenAI",
-      "summary": "La división de medios de LVMH y OpenAI se asocian para impulsar el periodismo con IA y facilitar el acceso a sus publicaciones mediante ChatGPT.",
-      "sourceUrl": "https://openai.com/index/lvmh-media-division-partnership",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-16T09:00:00+00:00",
-      "title_orig": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "summary_orig": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT."
-    },
-    {
-      "id": "ebd9eb949639",
-      "title": "Nuestra primera fase de evaluaciones integradas",
-      "summary": "OpenAI inicia evaluaciones integradas con Apollo Research, METR, Transluce y Goodfire para analizar de forma independiente la alineación, las salvaguardas y la monitorización de sus modelos.",
-      "sourceUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-16T08:00:00+00:00",
-      "title_orig": "Our first phase of embedded assessments",
-      "summary_orig": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
-    },
-    {
-      "id": "b9812e4ced01",
-      "title": "Claude Fable 5.2 de Anthropic bloquea menos tareas de seguridad, mientras que Mythos mejora a la hora de encontrar errores",
-      "summary": "Anthropic lanzó Claude Mythos 5.2 para socios y Fable 5.2 para usuarios, mejorando codificación y razonamiento, y mostró cambios notables en ciberseguridad.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
+      "id": "8f3f976e3ca4",
+      "title": "IA: Infor y Anthropic colaboran en asistentes de IA específicos para la fabricación",
+      "summary": "Infor y Anthropic se asocian para crear asistentes de IA diseñados para la industria manufacturera.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSkIzaTQwaHM3TUJtZjZvT1c1bmZWS2hkMURLaVp4cTEwb3FnUXgzLVNXSWgtbWxVUW5pT1hYUWN0WDZrdXFObVlwV1hkd2V0MGRxNm0wTHlMSmVpRVp6ZkVUQ2RkYUpZcVcxU3pqeHRpMEZiQ1ZQQmhWY2szQ3Z3c3prSC1sSkd4OHpzcVlSMEdUeWw0SGVrMUpvOHQwT2R1SGEzZ09MclFPalRwSEtLSWx1M3dTS01QR2c?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Logistik Heute",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
-      "source": "lab",
-      "published": "2026-11-16T06:00:00-05:00",
-      "title_orig": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-      "summary_orig": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]"
-    },
-    {
-      "id": "b0ded74e06b0",
-      "title": "Mejora de los agentes de uso informático para los equipos sanitarios",
-      "summary": "Se mejora el software de los agentes para equipos sanitarios.",
-      "sourceUrl": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-16T06:00:00+00:00",
-      "title_orig": "Advancing computer-use agents for healthcare teams",
+      "source": "news",
+      "published": "2026-11-17T07:32:00+00:00",
+      "title_orig": "KI: Infor und Anthropic kooperieren zu fertigungsspezifischen KI-Assistenten",
       "summary_orig": ""
     },
     {
-      "id": "cfcc7acb02e9",
-      "title": "Más formas de mejorar la atención sanitaria con ChatGPT for Healthcare",
-      "summary": "Presentan agentes que usan computadoras, respuestas clínicas mejoradas y nuevos complementos de salud que operan en distintos sistemas para realizar tareas reales.",
-      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
+      "id": "e0234788cb05",
+      "title": "Künstliche Intelligenz: Kalifornien verklagt OpenAI wegen Hackerangriffen durch KI",
+      "summary": "California demanda a OpenAI por supuestos ataques de hackers impulsados por inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3FtU2RvNFpOWklGNjZPcFpIRTc1OEZzaHJNWmRkRmlFc2tGa01BM1F3OE5rMnZsQU44amlmc2IwR2xLWXViRFZ1anc2VEViazRETDFwZUpnOXdMQ1QzQXNsMGtaLVhMRUtBeTNLVHBxN1VYS3BjQnJPWEVOenFsRWxFUThWZ3I0OEVfZUt6bXYxWTNjM0c0eHhuMzJlcnV6QWJjZA?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "lab",
-      "published": "2026-11-16T06:00:00+00:00",
-      "title_orig": "More ways to move care forward with ChatGPT for Healthcare",
-      "summary_orig": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
+      "source": "news",
+      "published": "2026-11-17T00:34:13+00:00",
+      "summary_orig": ""
     },
     {
-      "id": "e3915f7e4cf0",
-      "title": "The King's Trust y OpenAI ponen en marcha una colaboración de 1 millón de libras esterlinas",
-      "summary": "The King’s Trust y OpenAI lanzan una asociación de £1 millón para que hasta 25 000 jóvenes del Reino Unido adquieran habilidades prácticas de IA para el empleo.",
-      "sourceUrl": "https://openai.com/index/the-kings-trust-and-openai",
+      "id": "590cb0b9c5dd",
+      "title": "Fortalecer las ciberdefensas de la OTAN y de los aliados con la IA",
+      "summary": "OpenAI colabora con la OTAN y agencias cibernéticas aliadas para que defensores confiables detecten vulnerabilidades, prueben soluciones y protejan sistemas críticos.",
+      "sourceUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -312,15 +317,15 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-16T00:00:00+00:00",
-      "title_orig": "The King’s Trust and OpenAI launch £1m partnership",
-      "summary_orig": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work."
+      "published": "2026-11-17T00:00:00+00:00",
+      "title_orig": "Strengthening NATO and allied cyber defenses with AI",
+      "summary_orig": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems."
     },
     {
-      "id": "3899b6e8ee3c",
-      "title": "En Holiday Extras, los puntos se ponen a trabajar antes de que nadie lo pida",
-      "summary": "Dots envía informes de lanzamiento sin que se le pida, señala problemas que podrían pasar desapercibidos y comenta próximas reuniones durante el trayecto al trabajo.",
-      "sourceUrl": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "id": "58da9c66b145",
+      "title": "Presentamos OpenAI para Chile",
+      "summary": "OpenAI y el Gobierno de Chile se asocian para impulsar una adopción responsable de IA, capacitar al sector público y apoyar a startups locales en sus aplicaciones.",
+      "sourceUrl": "https://openai.com/index/introducing-openai-for-chile",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -329,15 +334,15 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-16T00:00:00+00:00",
-      "title_orig": "At Holiday Extras, dots get to work before anyone asks",
-      "summary_orig": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work."
+      "published": "2026-11-17T00:00:00+00:00",
+      "title_orig": "Introducing OpenAI for Chile",
+      "summary_orig": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
     },
     {
-      "id": "87d7014c15ee",
-      "title": "Un paso hacia la definición del Modelo Estándar en una red",
-      "summary": "Exploran una definición no perturbativa en retícula del Modelo Estándar y cómo GPT‑6 Astra convirtió la idea en una prueba detallada.",
-      "sourceUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "id": "0604bc2b50fc",
+      "title": "Astra for Law es líder en inteligencia jurídica",
+      "summary": "Astra for Law lideró una evaluación de lanzamiento en 24 áreas legales y ahora está disponible para todos los clientes de ChatGPT Enterprise.",
+      "sourceUrl": "https://openai.com/index/astra-law-6-2",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -346,9 +351,9 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-15T22:00:01+00:00",
-      "title_orig": "A step toward defining the Standard Model on a lattice",
-      "summary_orig": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+      "published": "2026-11-17T00:00:00+00:00",
+      "title_orig": "Astra for Law leads in legal intelligence",
+      "summary_orig": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
     }
   ]
 }

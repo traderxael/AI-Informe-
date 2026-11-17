@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-17",
-    "total": 713,
-    "items": [
-      {
-        "titulo": "Websites are closing their doors to AI agents",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-        "fuente": "The Verge AI",
-        "resumen": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation a...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
-        "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
-        "fuente": "Wired",
-        "resumen": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "How Itaú is building generative AI for its entire customer base",
-        "url": "https://openai.com/index/itau-generative-ai",
-        "fuente": "OpenAI",
-        "resumen": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "AI glasses as travel guides? Cheaper in China, but technical hitches slow adoption",
-        "url": "https://www.scmp.com/economy/china-economy/article/3370754/ai-glasses-travel-guides-cheaper-china-technical-hitches-slow-adoption?utm_source=rss_feed",
-        "fuente": "SCMP Business",
-        "resumen": "Artificial intelligence-powered glasses can act as tour guides, snap photos hands-free and translate foreign languages. The devices also sell at relatively affordable prices in China. But are they the...",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-        "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Apple’s updated App Store rules go after ‘nudify’ AI apps",
-        "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-        "fuente": "The Verge",
-        "resumen": "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism towa...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "India becomes the latest country to report rogue AI agent activity",
-        "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
-        "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
-        "fuente": "MarkTechPost",
-        "resumen": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Elorian’s first AI model wants to reason with images, not just about them",
-        "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-        "fuente": "TechCrunch AI",
-        "resumen": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
-        "url": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
-        "fuente": "MarkTechPost",
-        "resumen": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the allowed answers, and Jev returns a label, a score or a yes/no probability. In about 4 weeks, at least...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-        "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Jev is Vercel’s fastest-adopted AI model ever",
-        "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds",
-        "url": "https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/",
-        "fuente": "Wired",
-        "resumen": "The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
-        "url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
-        "fuente": "MarkTechPost",
-        "resumen": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Face and ModelScope. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-h...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Meta’s new terms may allow it to train AI on news sites for free",
-        "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-        "fuente": "The Verge AI",
-        "resumen": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab....",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-        "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-        "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip th...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Chicago-Area Cops Helped HSI Spy on Minnesota Anti-ICE Activists",
-        "url": "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/",
-        "fuente": "Wired",
-        "resumen": "Despite Illinois’ sanctuary laws, local police in and around Chicago helped ICE investigative agents track activists engaged in First Amendment–protected activities.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-        "url": "https://arxiv.org/abs/2610.20665",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "Evaluating Model Capabilities After Benchmark Saturation",
-        "url": "https://arxiv.org/abs/2610.20667",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-        "url": "https://arxiv.org/abs/2610.20675",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understandi...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
-        "url": "https://arxiv.org/abs/2610.20676",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contr...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-        "url": "https://arxiv.org/abs/2610.20681",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
-        "url": "https://arxiv.org/abs/2610.20685",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20685v1 Announce Type: new Abstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor a...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      },
-      {
-        "titulo": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
-        "url": "https://arxiv.org/abs/2610.20764",
-        "fuente": "arXiv cs.AI",
-        "resumen": "arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly ca...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-17"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-18",
     "total": 256,
     "items": [
@@ -8222,6 +7991,345 @@
         "seccion": "x",
         "pais": "global",
         "fecha": "2026-11-13"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-17",
+    "total": 1266,
+    "items": [
+      {
+        "titulo": "Introducing GPT-6.2 Astra and Sol",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "fuente": "OpenAI",
+        "resumen": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Put Gemini to work for you",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+        "fuente": "Google AI",
+        "resumen": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+        "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+        "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+        "fuente": "The Verge AI",
+        "resumen": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage you...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+        "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Research Reports",
+        "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+        "fuente": "MIT Tech Review AI",
+        "resumen": "To access a report, click on the corresponding image below.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "As decision model use skyrockets, is customization the next frontier?",
+        "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+        "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+        "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Google makes it easier to use Gemini without training AI on your data",
+        "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+        "fuente": "Ars Technica AI",
+        "resumen": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+        "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+        "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "fuente": "Ars Technica AI",
+        "resumen": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+        "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+        "fuente": "TechCrunch AI",
+        "resumen": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
+        "url": "https://www.coindesk.com/markets/2026/11/17/coinbase-ceo-says-ai-agents-will-account-for-99-9-of-transactions-within-a-decade",
+        "fuente": "CoinDesk",
+        "resumen": "Brian Armstrong says Coinbase is building payment tools for AI agents and believes bitcoin has hit bottom despite the selloff.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎",
+        "url": "https://www.qbitai.com/2026/11/510695.html",
+        "fuente": "QbitAI",
+        "resumen": "82亿美元股票，46天闪电交割",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Broadening access to AI for scientists",
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "fuente": "OpenAI",
+        "resumen": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Strengthening the fight against online child sexual abuse with new tools and support",
+        "url": "https://openai.com/index/strengthening-online-child-safety",
+        "fuente": "OpenAI",
+        "resumen": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
+        "url": "https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+        "fuente": "CoinDesk",
+        "resumen": "Waller suggested the Federal Reserve could provide trusted rails for emerging innovation tied to tokenized assets and agentic AI.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "李沐加盟的Aimotion，是一家什么AI公司？",
+        "url": "https://www.qbitai.com/2026/11/510688.html",
+        "fuente": "QbitAI",
+        "resumen": "瞄准「产业级世界模型」",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+        "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+        "fuente": "BleepingComputer",
+        "resumen": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "New Ask Maps features to help with holiday travel and prep",
+        "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+        "fuente": "Google AI",
+        "resumen": "tbd",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+        "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+        "fuente": "Ars Technica AI",
+        "resumen": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+        "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+        "fuente": "SecurityWeek",
+        "resumen": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card D...",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Science at the Frontier: How scientists use ChatGPT",
+        "url": "https://openai.com/index/science-at-the-frontier",
+        "fuente": "OpenAI",
+        "resumen": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+        "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+        "fuente": "Dark Reading",
+        "resumen": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Starting today, GPT-6.2 Astra and Sol are available in ChatGPT Work and Codex for Plus, Pro, Enterprise, and Edu users. Pro 500 subscribers can use Ultrafast with either model. For the first time, we…",
+        "url": "https://x.com/OpenAI/status/2122750135608528984",
+        "fuente": "X @OpenAI",
+        "resumen": "164.260 visualizaciones · 1.780 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Some of you have been asking very politely. Some of you have just been asking. GPT-6.2 Astra and Sol are now available. Super efficient and built to perform where it counts—the real world.",
+        "url": "https://x.com/OpenAI/status/2122750124543926515",
+        "fuente": "X @OpenAI",
+        "resumen": "2.466.675 visualizaciones · 22.480 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Over the past week, I’ve been overwhelmed by the love and support of friends, industry colleagues, and people I've never met. Thank you to everyone who has shown kindness to my family and me. It mean…",
+        "url": "https://x.com/JensenHuang/status/2122726005219737649",
+        "fuente": "X @JensenHuang",
+        "resumen": "21.517.714 visualizaciones · 665.711 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "To celebrate Mistral Vibe + Le Chonk becoming the world’s best open model-harness duo, we’re making Vibe free in Europe for the first 3 months. (Yes, it’s actually better than GLM / DeepSeek at codin…",
+        "url": "https://x.com/MistralAI/status/2122713540666806397",
+        "fuente": "X @MistralAI",
+        "resumen": "177.306 visualizaciones · 2.708 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Operation GLM Phase 1 $100 of GLM 5.3 usage for $10 available to all OpenCode Go subscribers",
+        "url": "https://x.com/opencode/status/2122600875562537329",
+        "fuente": "X @opencode",
+        "resumen": "442.630 visualizaciones · 5.394 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "Cyberattacks have gone up 100x! Agent swarms are constantly patrolling the internet, finding vulnerabilities Cybersecurity products are way too expensive Working on proving a few security scans for o…",
+        "url": "https://x.com/bindureddy/status/2122535822377578589",
+        "fuente": "X @bindureddy",
+        "resumen": "178.545 visualizaciones · 220 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-17"
+      },
+      {
+        "titulo": "ChatGPT for Healthcare is advancing with more capable computer-use agents, stronger clinical answers, and 20+ new healthcare plugins. @AbridgeHQ, @AmbienceAI, @Cigna, @CVSHealth, and other leading he…",
+        "url": "https://x.com/OpenAI/status/2122465625109090646",
+        "fuente": "X @OpenAI",
+        "resumen": "412.241 visualizaciones · 2.734 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-16"
+      },
+      {
+        "titulo": "OpenCode Browse 0.1.0 is now released it is rewritten in rust: - 25x less memory - 23x smaller - removed dependency on playwright and browser operations are exposed directly to your agent",
+        "url": "https://x.com/opencode/status/2122377687968678258",
+        "fuente": "X @opencode",
+        "resumen": "341.766 visualizaciones · 7.631 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-16"
+      },
+      {
+        "titulo": "Today we're launching Perplexity Frontier Research. The goal of Perplexity Frontier Research is to create a system that can perform autonomous research. The work will focus on multi-agent orchestrati…",
+        "url": "https://x.com/perplexity_ai/status/2122352071295009156",
+        "fuente": "X @perplexity_ai",
+        "resumen": "161.732 visualizaciones · 1.159 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-16"
+      },
+      {
+        "titulo": "Hy4 flash is free with near-unlimited usage for the next 2 weeks 1M context · Multimodal · ZDR Hy's fastest and most cost-efficient model",
+        "url": "https://x.com/opencode/status/2122231173720224224",
+        "fuente": "X @opencode",
+        "resumen": "287.075 visualizaciones · 5.039 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-16"
+      },
+      {
+        "titulo": "⚡Meet Hy4 flash, the cheapest model for everyday productivity. Matches Claude Haiku 5.5 (high) on daily work (human blind tests), yet 18x task cost reduction. API pricing (per 1M tokens): $0.003 cach…",
+        "url": "https://x.com/TencentHunyuan/status/2122217770314301469",
+        "fuente": "X @TencentHunyuan",
+        "resumen": "743.964 visualizaciones · 2.760 me gusta",
+        "seccion": "x",
+        "pais": "china",
+        "fecha": "2026-11-16"
+      },
+      {
+        "titulo": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery! Qwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window. Highlights: - Outperforms Qw…",
+        "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+        "fuente": "X @Alibaba_Qwen",
+        "resumen": "2.406.790 visualizaciones · 14.689 me gusta",
+        "seccion": "x",
+        "pais": "china",
+        "fecha": "2026-11-16"
       }
     ]
   }
