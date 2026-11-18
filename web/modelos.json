@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T21:44:41",
+ "actualizado": "2026-11-18T20:03:38",
  "fuentes": [
   "huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
   "openrouter.ai/api/v1/models"
@@ -450,9 +450,9 @@
    "rank": 39,
    "votos": 76747,
    "fecha_leaderboard": "2026-11-11",
-   "precio_in": 0.435,
-   "precio_out": 0.87,
-   "context": 1024000
+   "precio_in": 0.48,
+   "precio_out": 1.8,
+   "context": 262144
   },
   {
    "modelo": "DeepSeek-V4.1-Flash-20260910 (Max)",

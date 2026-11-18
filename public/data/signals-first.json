@@ -1,60 +1,28 @@
 {
-  "generated_at": "2026-11-17T20:31:35.822402+00:00",
+  "generated_at": "2026-11-18T20:02:37.663555+00:00",
   "count": 20,
   "sources": [
-    "Ars Technica AI",
     "CoinDesk",
-    "Dark Reading",
+    "DeepMind",
     "Google AI",
     "Google News — IA Alemania",
     "Google News — IA Francia",
+    "Google News — IA LATAM",
     "Google News — IA Rusia",
+    "Google News — IA global",
     "OpenAI",
+    "QbitAI",
     "SCMP Business",
-    "SecurityWeek",
-    "TechCrunch AI"
+    "TechCrunch AI",
+    "Wired"
   ],
   "signals": [
     {
-      "id": "0fc744e43d60",
-      "title": "Google amplía el acceso a Gemini Tasks, que puede ayudar con las llamadas y las compras",
-      "summary": "El modo Task de Gemini permite a los usuarios coordinar llamadas, iniciar sesión en sitios web y realizar compras en su nombre.",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "id": "93ec3dad35d6",
+      "title": "Snapchat ahora permite a los desarrolladores crear lentes de RA con asistentes de IA como Claude Code y Cursor",
+      "summary": "Los usuarios pueden describir el Lens que desean en lenguaje natural y su asistente de IA lo crea completo, según Snapchat.",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
       "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T19:02:20+00:00",
-      "title_orig": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-      "summary_orig": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf."
-    },
-    {
-      "id": "560e703561a2",
-      "title": "Google conservará los chats de Gemini durante 2 meses, en lugar de 72 horas, incluso con el historial desactivado",
-      "summary": "La actualización de Gemini de Google que amplía la retención de chats se implementará globalmente en las próximas semanas.",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T18:48:23+00:00",
-      "title_orig": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-      "summary_orig": "Google's Gemini update extending chat retention will roll out globally over the coming weeks."
-    },
-    {
-      "id": "e7c273fee4ff",
-      "title": "Cursor rastrea una extensión maliciosa de Claude Code hasta una vulneración de terceros",
-      "summary": "Una clave comprometida emitida a Fireworks permitió a atacantes acceder a datos y credenciales de Cursor.",
-      "sourceUrl": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
-      "sourceLabel": "Dark Reading",
       "publisher": "",
       "region": "global",
       "country": "global",
@@ -62,50 +30,99 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-11-17T18:38:37+00:00",
-      "title_orig": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
-      "summary_orig": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials."
+      "published": "2026-11-18T19:56:39+00:00",
+      "title_orig": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "summary_orig": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says."
     },
     {
-      "id": "549a77347d5e",
-      "title": "Presentamos GPT-6.2 Astra y Sol",
-      "summary": "Presentan GPT‑6.2 Astra y Sol, que mejoran resultados profesionales, programación y uso de computadoras, ofreciendo mayor eficiencia y menor costo en ChatGPT Work, Codex y la API.",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
+      "id": "855aa6c2f478",
+      "title": "«Si ellos no lo consiguen, nadie lo conseguirá»: la salida a bolsa de Anthropic, una prueba a escala real para el futuro de la IA",
+      "summary": "La salida a bolsa de Anthropic prueba en la práctica el futuro de la IA, bajo la presión de que, si no lo logran ellos, nadie lo hará.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNZ0lVRFU2Y2M3RG9xeVFvR3BhbkZrTmJJc0g2cFdrRklRaDN3WXE1cl9vSWNndHY4ejJCekxvYlA0X2Q2aWU5VEQ4dUVONU1sS1BSU2Jtb0ptbF96eGVKbWstaDBTR204V3lGMUotQWUzUWQwVHhPQ0VZSTUzaFUwNks4Z0ItanZ0cVdFS1J0RFhpX09kdG10cDNxVWJDcThha04zaUR0TFFLNmxvOGZHYXlOLUhqbl9KWjVsMk1jZDRCOEZYa0lBbHhCUVdFd1J2eEhoOTVOUUp3c2dqQzh2bDltemZlMEpWdzB0UGRjV20tY0dIMFBZQkVUQWd5UGVHSi04MUZ6dGNSbnFuWWljQWRHcWVhTkJ3cGtTcF9Paw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Les Echos",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-18T18:26:51+00:00",
+      "title_orig": "« Si eux n'y arrivent pas, personne ne pourra y arriver » : l'entrée en Bourse d'Anthropic, un test grandeur nature pour l'avenir de l'IA",
+      "summary_orig": ""
+    },
+    {
+      "id": "8608010e9a0c",
+      "title": "Ministra Lincolao y Sam Altman, CEO de OpenAI, se unen para capacitar en inteligencia artificial y modernizar los servicios públicos",
+      "summary": "La ministra Lincolao y Sam Altman, CEO de OpenAI, colaboran para formar en IA y modernizar los servicios públicos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPM0c1VER5YjVNMVVDN2VnN1hSdzhvZS1ORmNhR2VKQk5WOGNGMU9saHF6Xzc4YnJ6M2g5M3JLSXFtb1FqUkZNR2w1T0xHMHctUE1ROUpMRFRseG5vaW5ic0ZQT25mNGtnU3lVTDBPN2ZDT0VHMzlGMGtBUFduNloxRGFyT0NWdkJkdDdtX3c1V05KSVNsb3hQWlhLRVdBWTRtVTBHd1RyVmt2Rk5pZTZuSmFRcWMwQnJGUnRjZUVaYnRnUnlPdENOMU1KRHJ2Z3BaVmhuUHQ5RWJzX3l0UmlPMWZYY2hFYVpuSl9wdVdTd2U3QnB6bWc?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Diario El America",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
-      "source": "lab",
-      "published": "2026-11-17T17:45:00+00:00",
-      "title_orig": "Introducing GPT-6.2 Astra and Sol",
-      "summary_orig": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API."
+      "source": "news",
+      "published": "2026-11-18T18:17:23+00:00",
+      "summary_orig": ""
     },
     {
-      "id": "42c4fd05f3f4",
-      "title": "Lumo de Proton, una alternativa a ChatGPT y Claude centrada en la privacidad, llega a los ordenadores",
-      "summary": "Lumo Desktop de Proton permite automatizar tareas en archivos y apps conectadas en Windows, Mac y Linux, controlando detalladamente el acceso de su IA.",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "sourceLabel": "TechCrunch AI",
+      "id": "652211f5c064",
+      "title": "Genie 4 ya está disponible",
+      "summary": "Genie 4 ya está disponible.",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-18T18:13:42+00:00",
+      "title_orig": "Genie 4 is now available",
+      "summary_orig": ""
+    },
+    {
+      "id": "8450a1b11c28",
+      "title": "Anthropic en bolsa: las empresas ante el riesgo de dependencia",
+      "summary": "Anthropic cotiza en bolsa, lo que genera preocupación sobre la dependencia que las empresas pueden desarrollar de su IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDd6TDl0aFpLV056OS1fZjVKNk8xQURsQ09EVGt3ZnRnMm9IQUZ0NG92RzJZdDBxVU4wcWdIV1lLQVRvSjhFS2RPV3NxUWxEckFxazlJOHJyX1BnMXl0VkpRclFxLUZXQmdFNjNNNFdGblNScTNYUXBvRHdoWGNJblJ3ZFhmYzlQLVl6MHBQVUh3cm1JR01sRXh1RmJfUQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "l'Opinion",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-18T17:45:00+00:00",
+      "title_orig": "Anthropic en Bourse : les entreprises face au risque de dépendance",
+      "summary_orig": ""
+    },
+    {
+      "id": "e5fe6e0c6cff",
+      "title": "Una autora musulmana demanda a xAI después de que algunas personas usaran Grok para quitarle el hiyab",
+      "summary": "La única forma de cambiar algo contra las grandes tecnológicas es demandarlas, según la abogada Hillary Nappi, que representa a Amani Al‑Khatahtbeh.",
+      "sourceUrl": "https://www.wired.com/story/a-muslim-author-is-suing-xai-after-people-used-grok-to-strip-her-hijab/",
+      "sourceLabel": "Wired",
       "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
-        "claude",
-        "gpt"
+        "grok"
       ],
       "source": "lab",
-      "published": "2026-11-17T17:32:25+00:00",
-      "title_orig": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "summary_orig": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access."
+      "published": "2026-11-18T17:30:54+00:00",
+      "title_orig": "A Muslim Author Is Suing xAI After People Used Grok to Strip Her Hijab",
+      "summary_orig": "“The only way you get some change against Big Tech is to sue them,” says lawyer Hillary Nappi, who is representing Amani Al-Khatahtbeh in the lawsuit."
     },
     {
-      "id": "357d085ae06f",
-      "title": "Haz que Gemini trabaje para ti",
-      "summary": "Una interfaz muestra el mensaje “¿Qué puedo hacer por ti?” sobre un cuadro de texto con el marcador “Describe una tarea”.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "id": "03ca256a4adf",
+      "title": "La aplicación Gemini ya está disponible en dispositivos Android con menos memoria.",
+      "summary": "La app Google Gemini ahora funciona en Android de poca memoria, ofreciendo Gemini Live y creación de imágenes personalizadas; descárgala ya.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "sourceLabel": "Google AI",
       "publisher": "",
       "region": "global",
@@ -114,118 +131,33 @@
         "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-17T17:00:00+00:00",
-      "title_orig": "Put Gemini to work for you",
-      "summary_orig": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\"."
+      "published": "2026-11-18T17:00:00+00:00",
+      "title_orig": "The Gemini app is now available on lower-memory Android devices.",
+      "summary_orig": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today."
     },
     {
-      "id": "a513c3b2bdea",
-      "title": "Google facilita el uso de Gemini sin entrenar la IA con tus datos",
-      "summary": "El entrenamiento de IA y el historial de chat tendrán ahora interruptores separados en la configuración de actividad de Gemini.",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T16:50:10+00:00",
-      "title_orig": "Google makes it easier to use Gemini without training AI on your data",
-      "summary_orig": "AI training and chat history will now have separate toggles in the Gemini activity settings."
-    },
-    {
-      "id": "842668c62ce1",
-      "title": "Nvidia, Amazon, Microsoft, OpenAI… Trump quiere convertir a estos gigantes de la IA en sus «campeones nacionales» para conquistar el mundo y hacer frente a China",
-      "summary": "Trump busca convertir a Nvidia, Amazon, Microsoft y OpenAI en “campeones nacionales” de IA para liderar el mundo y contrarrestar a China.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSkRTU1B4QWtLeUdnRWd2aVJyZzFfa2JYWE5QU0pUQTJkQ0h5dEV3UHhhS2hraVV2N1ZRT2RNcmw2cW9uOHlJaGdlY1UxaHdQcm9CVXhxMFdPaFkwWlplWHpUOHVzVWdmZUc3TjJ5bTFCbDhULVc1TFRfR1Z6c1ctdGtHRkVsLWlfbmxjcDBWQTBVRDMyNTBfUFJuMHk5NlNBZ09GeF80d3ZmM2hFUWdBLTJIUzBqZFlLZVU5MnJiQ0lTRTlhejgxV1RTNkFWUERybWxvOU5QZUVrQWNfOXVYN2QwVTNHbTQ3RVdicEg5VVhTSnh3YW5sRWR1NmFQN0Q2VHo4N3IxNDdaelpYWU5KWlA3ekozdWFyTHdJY3RucmZ2V1ZQRHQ4YnBYNEs3MDNRVGtJUWxNN3BXY0E?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "BFM",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-17T16:12:39+00:00",
-      "title_orig": "Nvidia, Amazon, Microsoft, OpenAI… Trump veut faire de ces géants de l'IA ses \"champions nationaux\" pour conquérir le monde et résister à la Chine",
-      "summary_orig": ""
-    },
-    {
-      "id": "6fa49fef5e87",
-      "title": "Moonshot AI cambia su enfoque de desarrollo de la programación a la ciencia",
-      "summary": "Moonshot AI abandona la programación para centrarse en la investigación científica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFNXZGVfY3c3djFoMjk0bmNMdnR2YjdYY0ZQWXh0SG96VWpTc2xYQU5VbjV4NXNxUFNKWmI1RW4yanZqR0FJWC1lcHMyVVlnR3MyUDdUcXkwUHIxY3hWY0JnVUx5eGUta3NXXzhNMjZwMkJyUnN5LTN4eWFDN01mTUxUdG1saG5vOXNfM3cxTUx0TkxmNWJTX1VTU0x3dzhWUHI5OXktU0pGdHY4ekkyQTdSbw?oc=5",
+      "id": "0742e9c8eecb",
+      "title": "Anthropic y Cisco integran Claude Mythos 5 en AI Defense",
+      "summary": "Anthropic y Cisco incorporan Claude Mythos 5 a AI Defense para reforzar la seguridad de sus sistemas.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVBXODVRdy1RQVU1UXhHQzJTcHR4MU9GUjIyTnh6dnhoY1Rna2Y0T0dnTG9SUXhNYjdMV1BSbnl0ZmtPNHAwTzFqYVQ4ZFJPakFSODBQellBYk9RTERUYVRhZ3E2NGFpY0tFZlAtLURPblE0eUZWbkpfcTVZNDhKb1drTDY2cEctekZvQ3RHQURUOE9sQU1BWXplVHlQV1NKSG1J?oc=5",
       "sourceLabel": "Google News — IA Alemania",
       "publisher": "heise online",
-      "region": "china",
-      "country": "china",
+      "region": "west",
+      "country": "usa",
       "models": [
-        "kimi"
+        "claude"
       ],
       "source": "news",
-      "published": "2026-11-17T16:04:00+00:00",
-      "title_orig": "Moonshot AI wechselt Entwicklungsfokus von Programmierung zu Wissenschaft",
+      "published": "2026-11-18T16:42:00+00:00",
+      "title_orig": "Anthropic und Cisco integrieren Claude Mythos 5 in AI Defense",
       "summary_orig": ""
     },
     {
-      "id": "0e789c02d673",
-      "title": "Grok Bot realizó acciones no aprobadas, ignoró las órdenes de detenerse y luego lo negó.",
-      "summary": "Un agente de IA realiza acciones no autorizadas incluso con la tapa del portátil cerrada y tras recibir la orden de no hacerlo.",
-      "sourceUrl": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "sourceLabel": "Ars Technica AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T14:00:29+00:00",
-      "title_orig": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "summary_orig": "AI agent takes unapproved actions even when laptop lid is closed and told not to."
-    },
-    {
-      "id": "46f2978c7d8e",
-      "title": "Los bots de Grok intentan acceder a datos corporativos sin la aprobación del usuario",
-      "summary": "Dos agentes de IA intentaron, de forma autónoma y en cinco días, acceder a aplicaciones como Google Calendar, Gmail, Slack y GitHub sin autorización del usuario.",
-      "sourceUrl": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T13:12:56+00:00",
-      "title_orig": "Grok Bots Attempt to Access Corporate Data Without User Approval",
-      "summary_orig": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval."
-    },
-    {
-      "id": "357aa42f9e67",
-      "title": "Los directores ejecutivos de Baidu y Xiaomi advierten del creciente desfase entre el «hype» de la IA y sus resultados",
-      "summary": "Los directivos de los mayores gigantes tecnológicos chinos pidieron centrarse en aplicaciones prácticas de IA, advirtiendo que la inversión masiva supera los retornos comerciales.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "ernie"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T12:30:09+00:00",
-      "title_orig": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "summary_orig": "Amid mounting concerns of an artificial intelligence bubble and fresh market jitters following the resignation of Nvidia CEO Jensen Huang, the leaders of two of China’s biggest tech giants have urged the industry to focus on building practical applications, warning that massive investments in the technology are outpacing commercial returns. Speaking at the Asia-Pacific Economic Cooperation (Apec)"
-    },
-    {
-      "id": "cf18150afd5e",
-      "title": "El fondo de un exinvestigador de OpenAI abandona a los mineros de bitcoin y recorta IREN en un 94 % tras la caída de su cartera",
-      "summary": "El fondo cambió sus acciones de Bloom Energy, Nebius y SanDisk por opciones de compra, manteniendo su apuesta en IA, energía, computación y memoria.",
-      "sourceUrl": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
-      "sourceLabel": "CoinDesk",
+      "id": "f816757e046d",
+      "title": "El director ejecutivo de OpenAI, Sam Altman, afirma que es «difícil imaginar el sector de la IA sin Jensen».",
+      "summary": "Jensen Huang, fundador y exCEO de Nvidia, renunció la semana pasada tras varios escándalos, incluido un romance con supuesta espía china.",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+      "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
       "country": "usa",
@@ -233,32 +165,15 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-17T12:00:55+00:00",
-      "title_orig": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
-      "summary_orig": "The fund swapped its common stock in Bloom Energy, Nebius and SanDisk for call options, keeping its bet on AI power, computing and memory."
+      "published": "2026-11-18T16:14:09+00:00",
+      "title_orig": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+      "summary_orig": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy."
     },
     {
-      "id": "eb1264c3eeab",
-      "title": "California demanda a OpenAI y solicita cambios por orden judicial tras el hackeo de Hugging Face",
-      "summary": "La demanda afirma que OpenAI engañó y puso en riesgo al público al crear IA avanzada sin las salvaguardas necesarias.",
-      "sourceUrl": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-17T12:00:00+00:00",
-      "title_orig": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-      "summary_orig": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards. The post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack appeared first on SecurityWeek ."
-    },
-    {
-      "id": "aa9b324271be",
-      "title": "California ha demandado a OpenAI por los ataques de agentes de IA: uno de los incidentes afectó a Hugging Face",
-      "summary": "California demandó a OpenAI por ataques de agentes de IA, incluido un incidente que afectó a Hugging Face.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcE1wYkhGSEhLRTJJWjgxaFc0dGZFQ3R2R1d6Z0h3UW1QRTBqbldLUklJRElNX2ZrVHMwUEpSM1pqdGtwcUNzTFFBSlRBaFF6TERhLUp5Vl9JcTZjN05zRkgtOE9UUmdjOTZVRThyUnVURkRDYnVCNDRJUmNyRmNOV2VHS0d6dkNyaTZkTnd6WnZoQzV0UDBCaU55eFlITDZIMmdVcnVYS2xuZEt5NFdUV0lXYWkxNDRN?oc=5",
+      "id": "e9435a6b33c3",
+      "title": "OpenAI presenta ChatGPT for Sales para automatizar las ventas",
+      "summary": "OpenAI lanza ChatGPT for Sales, una herramienta que automatiza procesos de venta y ayuda a equipos comerciales a cerrar tratos más rápido.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX01mV3hnZWl4ZW5kdFNGblNjN2Jhd0puQTlETzJ5X3FzSTBTakpkOG1nRldQNUhZXy11RWdtdU1GdGZySHRjRURQbms4WEpOc0E3bnNlQXo3MU1jTXd3NWVxY2U5NElLWlFMQmdLWUJ3NmhsLUc5MjRZWkVOQllIWE53NzBfTUVNcnJZQzlBQnJoTE5sdV9GcVBvNHVSYjd4OEJ0cXVtZ29rVm0tcll2RmJOaXptTTZTRTJYOExR?oc=5",
       "sourceLabel": "Google News — IA Rusia",
       "publisher": "rb.ru",
       "region": "west",
@@ -267,82 +182,151 @@
         "gpt"
       ],
       "source": "news",
-      "published": "2026-11-17T09:30:20+00:00",
-      "title_orig": "Калифорния подала в суд на OpenAI из-за атак ИИ-агентов: один из инцидентов затронул Hugging Face",
+      "published": "2026-11-18T15:15:00+00:00",
+      "title_orig": "OpenAI представила ChatGPT for Sales для автоматизации продаж",
       "summary_orig": ""
     },
     {
-      "id": "8f3f976e3ca4",
-      "title": "IA: Infor y Anthropic colaboran en asistentes de IA específicos para la fabricación",
-      "summary": "Infor y Anthropic se asocian para crear asistentes de IA diseñados para la industria manufacturera.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSkIzaTQwaHM3TUJtZjZvT1c1bmZWS2hkMURLaVp4cTEwb3FnUXgzLVNXSWgtbWxVUW5pT1hYUWN0WDZrdXFObVlwV1hkd2V0MGRxNm0wTHlMSmVpRVp6ZkVUQ2RkYUpZcVcxU3pqeHRpMEZiQ1ZQQmhWY2szQ3Z3c3prSC1sSkd4OHpzcVlSMEdUeWw0SGVrMUpvOHQwT2R1SGEzZ09MclFPalRwSEtLSWx1M3dTS01QR2c?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Logistik Heute",
+      "id": "b68bcaf25095",
+      "title": "El Gobierno de Chile y OpenAI firman un acuerdo para incorporar la inteligencia artificial al Estado: aclaran alcances y condiciones",
+      "summary": "El Gobierno de Chile y OpenAI firmaron un acuerdo para integrar la IA en la administración pública, detallando sus alcances y condiciones.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONm9ZTVJvMXJMdGd6SjZNaW8xem1RVTZnZnQ3YXh1bDBkbjhaS0FRZUw5SGlDWWNuMWtmeEZBOWlZTUpNczhVdVJSRUNWRDJrOW5EaklRWHk4ODQ0ZWtHYzNCSU0xU01HVTRLN2hOdDZuTE1qQkdieGxMaXU3WVczWEQ0TW13SnFLSVUwX0pIVHhNNkh6ZDZRWURQeTVsc3o0ZUhCRnUtdGIxa2ZOYTljclNxeTJ4MTV2Y2lqMGV2bGFGeF8zSFhHNjZtUUQ5Smhm?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Canal VTV Los Andes",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-18T14:39:12+00:00",
+      "title_orig": "Gobierno de Chile y OpenAI firman acuerdo para incorporar inteligencia artificial al Estado: aclaran alcances y condiciones",
+      "summary_orig": ""
+    },
+    {
+      "id": "55cc4988e28f",
+      "title": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios",
+      "summary": "Los siete fundadores de Anthropic están a punto de convertirse en multimillonarios, según informa la BBC.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16azJRXzVWcDI4aUdNN2dJWEhRbl9xcVdQeVgyQzlsa0RaaGdYY21GQm1lNDlZaFdIMjVxOGZBTjVadVhiLVFBNHVSN2F3RG8tSllRd1NwNFhNUlk?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "BBC",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-17T07:32:00+00:00",
-      "title_orig": "KI: Infor und Anthropic kooperieren zu fertigungsspezifischen KI-Assistenten",
+      "published": "2026-11-18T13:55:14+00:00",
+      "title_orig": "The seven Anthropic founders who are about to become multi-billionaires",
       "summary_orig": ""
     },
     {
-      "id": "e0234788cb05",
-      "title": "Künstliche Intelligenz: Kalifornien verklagt OpenAI wegen Hackerangriffen durch KI",
-      "summary": "California demanda a OpenAI por supuestos ataques de hackers impulsados por inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3FtU2RvNFpOWklGNjZPcFpIRTc1OEZzaHJNWmRkRmlFc2tGa01BM1F3OE5rMnZsQU44amlmc2IwR2xLWXViRFZ1anc2VEViazRETDFwZUpnOXdMQ1QzQXNsMGtaLVhMRUtBeTNLVHBxN1VYS3BjQnJPWEVOenFsRWxFUThWZ3I0OEVfZUt6bXYxWTNjM0c0eHhuMzJlcnV6QWJjZA?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
+      "id": "eb57bd3a4f26",
+      "title": "Hoy en economía: La salida a bolsa de Anthropic pone a prueba por primera vez el núcleo de la inteligencia artificial",
+      "summary": "La salida a bolsa de Anthropic pone a prueba por primera vez el núcleo de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNQTlJOVo5OExabDE2Sk85SWNGd0QxSEhQbGluR2t0akVNWU5oUGdfd1cxel9kdTNFdGtURDVMRjNZTU10MXpRaUVTcXNvVkNucnYxZUI1SFBJNGxBODhCVC0xMGRSWXlUMG9laExnODJNVndxR3JmdnZQZy1tYlMwN3RYWUNiY2pYQ05uR2dHT2g3Y2RlbHh4WUtwakhMbzVqcDJnZlNKZEo3MjgyLUs1UjRHVWdOeExFMWotTm9DRFJRQlBlX0NUTjZNNWFuQUdXQ1Vsa0pua2U4Ym93eUF0NnpFOHhOdzBJWk55ZjhlUkhKQ2RhRml2T3JUd0NMWU16c3RtTE9QMzI0Vno0?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "RFI",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-18T12:27:50+00:00",
+      "title_orig": "Aujourd'hui l'économie - L'entrée en Bourse d'Anthropic teste pour la première fois le cœur de l'intelligence artificielle",
+      "summary_orig": ""
+    },
+    {
+      "id": "c5b36512878d",
+      "title": "Según los analistas, culpar a la salida a bolsa de Anthropic por la caída del bitcoin es «fácil de creer», pero erróneo.",
+      "summary": "Tu panorama del día siguiente para el 18 de nov. de 2026",
+      "sourceUrl": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-18T12:15:00+00:00",
+      "title_orig": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
+      "summary_orig": "Your day-ahead look for Nov. 18, 2026"
+    },
+    {
+      "id": "40096ee75e00",
+      "title": "Los beneficios de Tencent se estancan en medio del aumento de las inversiones en IA, y el crecimiento de los ingresos se ralentiza",
+      "summary": "Los beneficios de Tencent se estancan mientras aumentan sus inversiones en IA y el crecimiento de ingresos se desacelera.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEg1QUlnRmtFd2NoV01JWWc5OV95U3hMMW9EVkhoR2c2cHllUDNETER4ejJKbXdpdWlKYTJuelpQcFdCWjRBZmdNc09EOWNsMXY2dGZZVEQxM2lTOVdIeW14U3M3VzU3UEZhc2F1eHR4RHJNYlNSY1NkcElfck5MbzVTWHNrRl8yM21iV1htZ01Ra0RtX0xzanYxX1dBMENZMnhKUkdUaEFvaHJtUXNj?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "WSJ",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "news",
+      "published": "2026-11-18T11:38:00+00:00",
+      "title_orig": "Tencent Profit Flatlines Amid Surging AI Investments, Revenue Growth Slows",
+      "summary_orig": ""
+    },
+    {
+      "id": "b4fb66d96f6d",
+      "title": "OpenAI ha lanzado dos modelos de IA a la vez: GPT-6.2 Astra y Sol, que ahora escriben mejor código y trabajan mejor con documentos.",
+      "summary": "OpenAI lanzó simultáneamente GPT‑6.2 Astra y Sol, mejorando la generación de código y la interacción con documentos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWEk2X0NXeVFGODNFenlXUzlsRnUzdnZyUFJWVE1HSUJiMGtqblBNNWJUd1ZCZzczLU1sYW5oUk5mVE00SWlBQlZTMkp0cUFTOGZJMmwxazV1UXFZVzQ0bjdLQnFOWldfSUV6VjhKVEc0NDQ0NDFUbl83R1VOQzdLRDBlbktjU1FvODJfeTUycmtXMHZvbUl6RTdCb2V0OXZ4SG9IV1lDY0FtVlFqcWh3ZDFVN0VtTllHTmZpYWpBbFo?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "rb.ru",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-11-17T00:34:13+00:00",
+      "published": "2026-11-18T10:15:00+00:00",
+      "title_orig": "OpenAI выпустила сразу две ИИ-модели — GPT-6.2 Astra и Sol стали лучше писать код и работать с документами",
       "summary_orig": ""
     },
     {
-      "id": "590cb0b9c5dd",
-      "title": "Fortalecer las ciberdefensas de la OTAN y de los aliados con la IA",
-      "summary": "OpenAI colabora con la OTAN y agencias cibernéticas aliadas para que defensores confiables detecten vulnerabilidades, prueben soluciones y protejan sistemas críticos.",
-      "sourceUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "sourceLabel": "OpenAI",
+      "id": "6bc86b0de0d5",
+      "title": "Los beneficios de Tencent caen al sextuplicarse el gasto en infraestructura de IA, lo que perjudica el margen",
+      "summary": "Tencent aumentó su gasto de capital a más de 12 000 millones de dólares en el tercer trimestre, lo que redujo su beneficio neto anual un 6 % a 66,5 mil millones de yuanes.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374902/tencent-profit-dips-sixfold-increase-ai-infrastructure-spending-sacrifices-margin",
+      "sourceLabel": "SCMP Business",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "china",
+      "country": "china",
       "models": [
-        "gpt"
+        "hunyuan"
       ],
       "source": "lab",
-      "published": "2026-11-17T00:00:00+00:00",
-      "title_orig": "Strengthening NATO and allied cyber defenses with AI",
-      "summary_orig": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems."
+      "published": "2026-11-18T09:49:49+00:00",
+      "title_orig": "Tencent profit dips as sixfold increase in AI infrastructure spending sacrifices margin",
+      "summary_orig": "Tencent Holdings ramped up capital spending more than sixfold in the third quarter to above US$12 billion, weighing on profit and free cash flow as the Chinese tech giant poured money into computing power to catch up in the country’s cutthroat artificial intelligence race. Adjusted net income for the three months ended September 30 fell 6 per cent year on year to 66.5 billion yuan (US$10 billion),"
     },
     {
-      "id": "58da9c66b145",
-      "title": "Presentamos OpenAI para Chile",
-      "summary": "OpenAI y el Gobierno de Chile se asocian para impulsar una adopción responsable de IA, capacitar al sector público y apoyar a startups locales en sus aplicaciones.",
-      "sourceUrl": "https://openai.com/index/introducing-openai-for-chile",
-      "sourceLabel": "OpenAI",
+      "id": "20c4aa4e38b8",
+      "title": "El nuevo modelo Neon de Gemini está a punto de lanzarse. Usuarios de internet: ¿Recorrer la tabla periódica?",
+      "summary": "¡Los neonianos buscan sabor!",
+      "sourceUrl": "https://www.qbitai.com/2026/11/510922.html",
+      "sourceLabel": "QbitAI",
       "publisher": "",
-      "region": "west",
-      "country": "usa",
+      "region": "global",
+      "country": "global",
       "models": [
-        "gpt"
+        "gemini"
       ],
       "source": "lab",
-      "published": "2026-11-17T00:00:00+00:00",
-      "title_orig": "Introducing OpenAI for Chile",
-      "summary_orig": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
+      "published": "2026-11-18T09:41:55+00:00",
+      "title_orig": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "summary_orig": "氖人寻味！"
     },
     {
-      "id": "0604bc2b50fc",
-      "title": "Astra for Law es líder en inteligencia jurídica",
-      "summary": "Astra for Law lideró una evaluación de lanzamiento en 24 áreas legales y ahora está disponible para todos los clientes de ChatGPT Enterprise.",
-      "sourceUrl": "https://openai.com/index/astra-law-6-2",
+      "id": "53f2a14376dd",
+      "title": "Dentro del entorno de pruebas del Codex",
+      "summary": "Observa cómo Codex ejecuta comandos en tu equipo respetando los límites de sistema de archivos y red que configuras en macOS, Linux y Windows.",
+      "sourceUrl": "https://openai.com/index/inside-the-codex-sandbox",
       "sourceLabel": "OpenAI",
       "publisher": "",
       "region": "west",
@@ -351,9 +335,26 @@
         "gpt"
       ],
       "source": "lab",
-      "published": "2026-11-17T00:00:00+00:00",
-      "title_orig": "Astra for Law leads in legal intelligence",
-      "summary_orig": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
+      "published": "2026-11-18T08:00:00+00:00",
+      "title_orig": "Inside the Codex sandbox",
+      "summary_orig": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows."
+    },
+    {
+      "id": "67067bb101e4",
+      "title": "¡GPT-6.2 está teniendo un parto difícil! OpenAI tiene miedo.",
+      "summary": "OpenAI finalmente se ha convertido en lo que era Google en 2022.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/510914.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-18T07:53:29+00:00",
+      "title_orig": "GPT-6.2难产！OpenAI怕了",
+      "summary_orig": "OpenAI也终于活成了2022年谷歌的样子"
     }
   ]
 }
