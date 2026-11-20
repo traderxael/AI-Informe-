@@ -1,33 +1,309 @@
 {
-  "generated_at": "2026-11-19T20:01:36.310988+00:00",
+  "generated_at": "2026-11-20T19:40:51.497021+00:00",
   "count": 20,
   "sources": [
     "CoinDesk",
     "Cointelegraph",
+    "Dark Reading",
     "Google AI",
     "Google News — IA Alemania",
+    "Google News — IA China (zh)",
+    "Google News — IA Francia",
+    "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
+    "OpenAI",
     "SCMP Business",
     "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "dfa58ad27563",
-      "title": "Últimas noticias sobre la salida a bolsa de Anthropic: las acciones comienzan a cotizar a 111,50 $ por acción",
-      "summary": "Las acciones de Anthropic iniciaron su cotización en bolsa a 111,50 $ por acción.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45bTR3Zzh2OENUSmxiYWhGSmF6QWh2Q2Jsbm5KZldsY0pEQUkteVNqVTFwSWVreVVwcEZ2bDdjbTRyeXNDNmRVMXF6NDNqckxnMHAyay05Ukh4enRNdG1jOXJoQVF5b01iWG10cWFFOHBsVWlWbVE?oc=5",
+      "id": "d2b3e6209623",
+      "title": "¿De verdad vale 1,5 billones de dólares Anthropic, la empresa creadora de Claude?",
+      "summary": "¿Vale realmente Claude, el modelo de Anthropic, 1,5 billones de dólares?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2k1MHotX0Zkam5USm9jZmJ0NGU5Ym82RUNGVjlkRndWSnVMc1Iyc0RSaDg0OURqX1RyaEwzZmx3ZG16Rk1heVlrc0lTSlUzay00UVlNdmhKcWt5UnNyazd5emdVLUo5WGN5X3l4UHVrNVM0TDlyNkpYZjNqQkhkeGM0MUdfUUxnRl9nMEF1SEE0NmhGbHU4LWEwRDFDbnZRamVLQlJxdnl0Q0tLc3lwWUxOdVE?oc=5",
       "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
+      "publisher": "The Latest - The Guardian",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-19T19:48:17+00:00",
-      "title_orig": "Anthropic IPO Live Updates: Stock Begins Trading at $111.50 Per Share",
+      "published": "2026-11-20T19:06:00+00:00",
+      "title_orig": "Is Claude creator Anthropic really worth $1.5 trillion?",
+      "summary_orig": "Is Claude creator Anthropic really worth $1.5 trillion? - The Latest The Guardian"
+    },
+    {
+      "id": "efcb773142f2",
+      "title": "Yandex 360 ha abierto el acceso a la oficina virtual para los secretarios de IA: ChatGPT podrá leer correos electrónicos y archivos",
+      "summary": "Yandex 360 permite que la IA de ChatGPT acceda a la oficina virtual para leer correos y archivos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazV6ZlowRjdoNnl0NEdpbkUxd1JoTTZ2MktLQ1NyUVIteUp4OHdlTkx2c2JQRlNLcUdfbjNJM2l3cWdXRGxIUUZHMGFqcXhjTHRnQ1ZHY0s2R1pVSHA3VEN0QzZnWDE1Y29jTEtKaUpmWDE1QmhKTTFiTGNxSUV4dHkySnZiUHpCRkhsYk5SendTNUNiZTg4OXItdEZjSWxnX3hGZFNYYTVsMmJKaTNDVjVTOHA4Q0ZxdFV5RDB3?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "rb.ru",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-20T18:35:00+00:00",
+      "title_orig": "Яндекс 360 открыл доступ к виртуальному офису для ИИ-секретарей — ChatGPT сможет читать письма и файлы",
       "summary_orig": ""
+    },
+    {
+      "id": "c7f196b09ccb",
+      "title": "Los agentes de IA de Gemini recibieron la instrucción «Nunca te rindas» y atacaron un sitio web real",
+      "summary": "Los agentes de IA de Gemini, programados con la orden “Nunca te rindas”, atacaron el sitio web real Xakep.ru.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fRk5HR3AzaWxmTXIxUGFuUGQtV2pSZmVwNU1KZDZBOTJOQmtaUWNuVlc1OFQ2bGp2TGZpUlhPYk5YdUtDUk1jRTJUS1RhX0VCZC1VSw?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Xakep.ru",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-20T17:27:11+00:00",
+      "title_orig": "ИИ-агенты Gemini получили инструкцию «Никогда не сдавайся» и атаковали реальный сайт",
+      "summary_orig": ""
+    },
+    {
+      "id": "bc49991dc28c",
+      "title": "El precio del bitcoin cae a 60 000 $ y Anthropic cae a 87 $ en la venta masiva de acciones tecnológicas",
+      "summary": "El precio de Bitcoin se debilitó al caer las acciones estadounidenses mientras los traders reevaluaban las perspectivas de IA tras la salida a bolsa de Anthropic.",
+      "sourceUrl": "https://cointelegraph.com/markets/bitcoin-hits-new-20-week-low-anthropic-drops-87-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T16:04:43+00:00",
+      "title_orig": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+      "summary_orig": "Bitcoin price strength felt pressure from falling US equities as traders reassessed AI prospects after Anthropic’s IPO."
+    },
+    {
+      "id": "754786794ddb",
+      "title": "Inteligencia artificial: las acciones de Anthropic caen considerablemente en su segundo día de cotización",
+      "summary": "Las acciones de Anthropic se desploman notablemente en su segundo día de cotización.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakZsYXRVLTR1Nm1kdzIyZ0JWSzJrdnRRNlJCUFBVaEpxVnh6UVpuM2xlYnZBNHBEWWNoUWp2SkEtUzN6TlBUR2h0SWhNM21ibDNBM1k5bVpWSVpleExneV9GM2VuU3NJRHdkSkVFTHBYWFVsR3ZPRVI2TlFJc2JZbjNUaklQSlc0enEzaHRUNVh3S09qM0RmMDFHU3pVdGplRUVublRJdllnTU5iQi1vRUZXY0Z1bGMxYjhIRTk4X1ZXZ0FhOHlxeEZ3NXZUelZ1ekRRTQ?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WirtschaftsWoche",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-20T15:32:47+00:00",
+      "title_orig": "Künstliche Intelligenz: Anthropic-Aktie fällt am zweiten Handelstag deutlich",
+      "summary_orig": ""
+    },
+    {
+      "id": "12902c56387c",
+      "title": "Baidu es multada con 75 000 $ mientras China cierra el caso antimonopolio de Joyy",
+      "summary": "El regulador chino multó 500 000 yuanes a la unidad de Hong Kong de Baidu por comprar parte de Joyy sin la autorización antimonopolio requerida.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3375283/baidu-fined-us75000-china-wraps-joyy-antitrust-case",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T13:50:14+00:00",
+      "title_orig": "Baidu fined US$75,000 as China wraps up Joyy antitrust case",
+      "summary_orig": "China’s top market regulator has fined Baidu’s Hong Kong unit 500,000 yuan (US$75,000) for proceeding with its acquisition of part of live-streaming platform Joyy’s business before receiving antitrust clearance. The State Administration for Market Regulation (SAMR) said on Friday that Baidu (Hong Kong) had filed a merger notification for the deal as required by law, but implemented the transaction"
+    },
+    {
+      "id": "c6ca582cfb53",
+      "title": "Noticias en directo: El bitcoin cae a nuevos mínimos por debajo de los 60 000 $ y Anthropic baja tras su debut en el Nasdaq",
+      "summary": "El ETF de bitcoin de BlackRock registró una salida récord de 541,1 millones de dólares, mientras la caída tecnológica en EE. UU. arrastró al Kospi surcoreano más del 5 %.",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "sourceLabel": "CoinDesk",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T13:35:33+00:00",
+      "title_orig": "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
+      "summary_orig": "BlackRock’s bitcoin ETF saw a record $541.1 million outflow as the U.S. tech selloff spread to Asia, sending South Korea’s Kospi down more than 5%."
+    },
+    {
+      "id": "1d0de952fbb2",
+      "title": "VanEck pondrá fin a los acuerdos de custodia de ETF con Gemini, pero mantiene a Coinbase",
+      "summary": "VanEck cancelará los acuerdos de custodia con Gemini para tres ETFs de criptomonedas en febrero de 2027, mientras Coinbase seguirá como custodio.",
+      "sourceUrl": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T11:04:21+00:00",
+      "title_orig": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
+      "summary_orig": "VanEck plans to end Gemini’s custody agreements for three crypto ETFs in February 2027, while Coinbase will continue serving as a custodian for the funds."
+    },
+    {
+      "id": "eab010fe726f",
+      "title": "¿Puede la salida a bolsa récord de Anthropic evitar el estallido de la burbuja de la IA?",
+      "summary": "¿El récord de salida a bolsa de Anthropic podrá frenar la explosión de la burbuja de la IA?",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13bWFDdFlPQ05ZLU9tcTZoa3BVdExLUjBVdWQ5M2ZvbFd5OHB0OW85MVJCNGZsUUFibkZEcHMyUmtjNERFdkRBUW1zcVFvNjg2ajk1UXgybWdCWGw0bDVpLU1PSXpmQ1XSAWxBVV95cUxOTmJZOUlzTXBicGdwUmpMVDJfbHB5aW9leFctWkJuTzBjZ3N5cEp3OElMUG40VUd1Wmc3QnJIaFpyZWd1Zm1MUXYxdVNFYXBMZXVLV3FrVjROWkt0TlNSeVJ5R0RyRHBzamNIZ24?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "BBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-20T10:03:59+00:00",
+      "title_orig": "Anthropic 破纪录IPO能否阻止AI泡沫破裂？",
+      "summary_orig": ""
+    },
+    {
+      "id": "3ea993db7e3c",
+      "title": "Lucha contra la destilación adversaria",
+      "summary": "El enfoque en capas de OpenAI para la destilación adversaria combina entrenamiento, salvaguardas, detección y aplicación para evitar la extracción de capacidades.",
+      "sourceUrl": "https://openai.com/index/combatting-adversarial-distillation",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T10:00:00+00:00",
+      "title_orig": "Combatting adversarial distillation",
+      "summary_orig": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
+    },
+    {
+      "id": "3123956a4830",
+      "title": "Acuerdo de Deutsche Telekom con Mistral: por qué las empresas apuestan por la IA europea",
+      "summary": "Deutsche Telekom firma con Mistral para impulsar IA europea, mostrando la preferencia de las empresas por soluciones locales y soberanas.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaEx3VEs0MklEQmdqaWM3a2doRHJLWlV2bmFyVDZPc2xfVHpoeS01OERHbVJ4djRKVk9yVml5V29yZVJkUGVxSjM3UFh3dW1fblF4aGdERE11SFJEbVJaRmdVRnRkZFZCbXZ4QWxYcnZzWTBaQVNReFJLRmlaZFFBNXNqNm5BNlBncHhkNTdYZjVIamJOb0tMR1ZQYm1aYXQwN2ZfeW1nbXhPeWhtcUY5cw?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "WirtschaftsWoche",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-20T08:09:20+00:00",
+      "title_orig": "Telekom-Deal mit Mistral: Warum Konzerne auf Europas KI setzen",
+      "summary_orig": ""
+    },
+    {
+      "id": "1d142bd3788c",
+      "title": "La salida a bolsa de Anthropic por 81 000 millones de dólares y la caída del precio del oro: 5 cifras que los inversores están siguiendo esta semana",
+      "summary": "El histórico IPO de Anthropic provocó caídas en acciones tecnológicas de EE. UU. y Asia, avivando la carrera de IA tras la cumbre de Xi, Trump y Putin.",
+      "sourceUrl": "https://www.scmp.com/business/china-business/article/3375169/anthropics-us81b-ipo-gold-price-drops-5-figures-investors-are-watching-week",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T07:00:10+00:00",
+      "title_orig": "Anthropic’s US$81b IPO, gold price drops: 5 figures investors are watching this week",
+      "summary_orig": "A record-breaking IPO from Anthropic capped off this week’s market headlines, sending US and Asian tech stocks sliding in its wake and adding new fuel to the artificial intelligence race, following the meeting between Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin at the Apec summit in Shenzhen. Here are some of the figures that have drawn the most mar"
+    },
+    {
+      "id": "37ab70e1aeb4",
+      "title": "Detector de correos electrónicos generados por IA: Por qué me da igual que ChatGPT me escriba",
+      "summary": "Un detector identifica correos creados por IA, pero al autor le resulta indiferente que ChatGPT los redacte.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZElxTWRHV1V3ajMtUTVNdmRwa0xEVk1yd0pucUpuZ2ZKUW1ieWdfcFFEN0RkSHU2X210YkFXMmZGdEVHcGs3Y0cxZ3pNcDZCOEdrZFZnVFVnNXVpWk1SeENEQlg0bFRVSDkyaW9pU01vdHlyTVFiQ3NtTDBMdjh6WEdtZ21Ya0g5aTd6ZFNKSkVEbU5fcjQ2elR0ekhlSHRYZ3huWURVZzJJVTBhU1lmSUJ2Sk8?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "BASIC thinking",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-20T04:45:03+00:00",
+      "title_orig": "Detektor für KI-Mails: Warum es mir egal ist, ob ChatGPT mir schreibt",
+      "summary_orig": ""
+    },
+    {
+      "id": "f1dd0bea0b97",
+      "title": "Los 7 fundadores de Anthropic obtuvieron casi 2000 millones de dólares en una salida a bolsa récord",
+      "summary": "Con el precio de IPO de 83 $ por acción, cada uno de los siete fundadores de Anthropic recibió 280 millones y la empresa recaudó casi 105 mil millones.",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T00:43:50+00:00",
+      "title_orig": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "summary_orig": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
+    },
+    {
+      "id": "f4784c304003",
+      "title": "¿Puede la IA ayudar a los científicos a identificar posibles fármacos prometedores?",
+      "summary": "MedChemBench evalúa la capacidad de los modelos de IA para interpretar estructuras moleculares, razonar con evidencia experimental y elegir compuestos en la fase inicial del descubrimiento de fármacos.",
+      "sourceUrl": "https://openai.com/index/introducing-medchembench",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T00:00:00+00:00",
+      "title_orig": "Can AI help scientists identify promising drug candidates?",
+      "summary_orig": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery."
+    },
+    {
+      "id": "67b8b1d191fd",
+      "title": "IA: La acción de Anthropic cierra su primer día con una subida del 17 % y valora la empresa en 1280 000 millones de dólares",
+      "summary": "IA : l’action Anthropic finit sa première journée en hausse de 17 % et valorise l’entreprise à 1 280 milliards de dollars Le Monde.fr L'entreprise américaine d'intelligence artificielle Anthropic signe une entrée en Bourse historique en détrônant SpaceX franceinfo La semaine de l’éco - Boom de l'intelligence artificielle : la révolution à quel prix ? France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNaVN5ZlVrTnlROWdJdkpBc0QzSURjdFVuWW1hZm5VWEluSTAySExyQTRsMFM5OGFhdzVZa0dqVEd4NmJvT0gycmVhdHJFQWZvUEhEWWVJZUFNNjhRUE5CeVhzY09EajdJMExxQ0ZldDc4YkQ0U3A5bDlVeXZ2SFNkdE5yNjhiYlhGbGgteHRmemRhd2I0YUdYdUpLdDYzaG1Dcm5IY1Q0Q0JiSFZHU090Z0puYmU4RnRrUHgweE40QmtrTWx1Vk02T1dJVGxyNmhPRnlFZDZ4VDhGWHRnOG5ETkVnY1RoUllSVGNsdlduSHFpNnY1QWJ6UjVzUEhCUHRsOUFibVhkLU56X19SaVEwYmpTY3djSnE1OEdHMi1kY2RRdFktd3ZFV21sSVdpd1MxeXA4?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Monde.fr",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-19T23:30:54+00:00",
+      "title_orig": "IA : l’action Anthropic finit sa première journée en hausse de 17 % et valorise l’entreprise à 1 280 milliards de dollars"
+    },
+    {
+      "id": "5e65458c080e",
+      "title": "Los incidentes de Qwen demuestran que los modelos de IA autoalojados necesitan una orientación más sólida",
+      "summary": "Las empresas que usan agentes de IA creen controlar, pero varios incidentes muestran que deben estar preparadas para imponer directrices.",
+      "sourceUrl": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
+      "sourceLabel": "Dark Reading",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-11-19T22:40:03+00:00",
+      "title_orig": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+      "summary_orig": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions."
     },
     {
       "id": "2ad2190c7ade",
@@ -43,64 +319,13 @@
       ],
       "source": "lab",
       "published": "2026-11-19T19:10:45+00:00",
-      "title_orig": "Anthropic’s IPO could deliver $156 billion to charity",
+      "title_orig": "Anthropic’s IPO could deliver $156B to charity",
       "summary_orig": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion."
-    },
-    {
-      "id": "a69bda79af03",
-      "title": "Las acciones de Anthropic abren a 111,50 $, un 34,3 % por encima del precio de salida a bolsa de 83 $",
-      "summary": "El creador del chatbot Claude empezó a cotizar bajo el símbolo ANT, con una valoración de aproximadamente 2 billones de dólares al abrir.",
-      "sourceUrl": "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "sourceLabel": "Cointelegraph",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T18:58:28+00:00",
-      "title_orig": "Anthropic shares open at $111.50, 34.3% above $83 IPO price",
-      "summary_orig": "The Claude chatbot maker began trading under the ticker ANT, with the company’s valuation at around $2 trillion at the opening price."
-    },
-    {
-      "id": "cd1c6b04c454",
-      "title": "El precio del bitcoin ignora el debut de Anthropic, mientras que el precio de las acciones de ANT cae por debajo de los 100 $",
-      "summary": "Bitcoin cayó cerca de un tercer reteste a $62,000 mientras Anthropic debutaba en Nasdaq, alcanzó $115 por acción y bajó de $100.",
-      "sourceUrl": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "sourceLabel": "Cointelegraph",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T18:46:29+00:00",
-      "title_orig": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
-      "summary_orig": "Bitcoin dropped toward a third retest of $62,000 as Anthropic debuted on the Nasdaq, hitting highs of $115 per share before dropping below $100."
-    },
-    {
-      "id": "1054662f25c3",
-      "title": "Google le da a Gemini la capacidad de usar tu Mac por ti",
-      "summary": "La última actualización de Gemini de Google añade un agente de IA para Mac que organiza archivos, completa formularios y gestiona flujos de trabajo complejos.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T18:09:11+00:00",
-      "title_orig": "Google gives Gemini the ability to use your Mac for you",
-      "summary_orig": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows."
     },
     {
       "id": "57728669e048",
       "title": "Presentamos la recuperación de herramientas en la API de Gemini",
-      "summary": "Gemini Spark sobre un fondo espacial.",
+      "summary": "Gemini Spark se muestra sobre un fondo espacial.",
       "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "sourceLabel": "Google AI",
       "publisher": "",
@@ -116,8 +341,8 @@
     },
     {
       "id": "df2b61241112",
-      "title": "Perplexity lanza la API Orchestrator para la conmutación por error y el enrutamiento de modelos",
-      "summary": "La API Orchestrator de Perplexity unifica OpenAI, Anthropic, Google, xAI y modelos de código abierto en un solo endpoint, con conmutación automática, facturación única y enrutamiento inteligente.",
+      "title": "Perplexity lanza la API Orchestrator para conmutación por error y enrutamiento de modelos",
+      "summary": "La API Orchestrator de Perplexity unifica OpenAI, Anthropic, Google, xAI y modelos de código abierto en un solo endpoint con conmutación automática y facturación única.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -130,226 +355,6 @@
       "published": "2026-11-19T17:47:00+00:00",
       "title_orig": "Perplexity Launches Orchestrator API for Failover and Model Routing",
       "summary_orig": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each request to a described route. The post Perplexity Launches Orchestrator API for Failover and Model Routing appeared first on MarkTechPost ."
-    },
-    {
-      "id": "1810e0863250",
-      "title": "Anthropic, con sede en San Francisco, debuta en Wall Street",
-      "summary": "Anthropic, con sede en San Francisco, debutó en Wall Street.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1EtTjJLX0VrTDZlVC1MOWswRU84TUdkbWVmcG1kSFJzNXpJbTVRTWdlODdWTGpYZml6SUpRaDVzbzFGQk93aWlCRFRGWmp3bVZkSnM0NDZyZGVuTGE2aWpsTFRFcGxGem8yZmVCRjZOMkYxc3IxV2NkdFNmR0tHakIwbk5YVmNzVlpUUDR5aEotQV9DQm55a2d1QlBOOU5EQVV4YmJzeTdkNlZ0c2NRLTc1a0taUQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "USA Today",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-19T17:43:00+00:00",
-      "title_orig": "San Francisco-based Anthropic makes Wall Street debut",
-      "summary_orig": ""
-    },
-    {
-      "id": "d30c8e933f5d",
-      "title": "Inteligencia artificial: Anthropic con una salida a bolsa récord: 107 300 millones de dólares",
-      "summary": "Anthropic logra una salida a bolsa récord, recaudando 107 300 millones de dólares, según Handelsblatt.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMnBZNXBNbUdWQ3ZCMFJwTV9qNEhERGhianlXd05WSWZBcGc4bjJMOFhBMmRfSThjNmZiUEJtaGU0a2Rub0ZCSWgtcVFFMFRKQk55WXppUXFzVHNoTE1CVk9adHZHTVNCN19qX2dNMlR1WGZGRkdmQkdqdTN0ZWQyX1pYc3JwV2l5elJWSmF3LW9sZVBFaTRWTW1RNGJMbVY3Z0hTVVN3SzJuLTJKcFdvREtLX09LOUxaLWdvd3Uxdjh5WWkzcmhDTWVRaDlQSXdyaHFuY3RQTzV6V0E?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Handelsblatt",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-19T17:17:00+00:00",
-      "title_orig": "Künstliche Intelligenz: Anthropic mit Rekord-Börsengang: 107,3 Milliarden Dollar",
-      "summary_orig": ""
-    },
-    {
-      "id": "c1912459c51b",
-      "title": "Anthropic sube tras la salida a bolsa, pero se aleja de los máximos",
-      "summary": "Tras abrir en 111,50 $, ANT cayó rápidamente bajo 100 $, pero sigue por encima de su precio de oferta de 83 $.",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T17:01:47+00:00",
-      "title_orig": "Anthropic gains after IPO, but pulls off highest levels",
-      "summary_orig": "After opening at $111.50, ANT quickly slipped back under $100, still above its $83 offering price."
-    },
-    {
-      "id": "27f297a759c1",
-      "title": "Everful, la empresa de un antiguo ejecutivo de Alibaba, recauda 48,5 millones de dólares para conectar a los minoristas con las fábricas chinas",
-      "summary": "Everful ha recaudado 48,5 millones de dólares para ampliar su plataforma de abastecimiento directo de fábricas y ayudar a minoristas a obtener productos de fabricantes extranjeros.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T17:00:00+00:00",
-      "title_orig": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
-      "summary_orig": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers."
-    },
-    {
-      "id": "d680d8751ecd",
-      "title": "Anthropic entra en las bolsas del Nasdaq a 111 $, un 33 % por encima del precio de la salida a bolsa",
-      "summary": "El precio de la OPI de Anthropic se fijó en 83 $, lo que generó más de 80 000 millones de dólares en capital nuevo.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T16:59:23+00:00",
-      "title_orig": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "summary_orig": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised."
-    },
-    {
-      "id": "b80c1a82c17c",
-      "title": "Con la apertura de la Bolsa Nasdaq, el director ejecutivo de Anthropic reafirma su compromiso con el ritmo del desarrollo de la IA",
-      "summary": "En su discurso al abrir la Nasdaq, Dario Amodei reafirmó el compromiso de Anthropic de avanzar la IA a su propio ritmo, sin ceder a presiones empresariales o políticas.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T16:19:41+00:00",
-      "title_orig": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "summary_orig": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure."
-    },
-    {
-      "id": "264da9f1db1e",
-      "title": "APEC 2026 se une a Tencent Cloud: una nueva era para los centros de medios globales",
-      "summary": "Tencent Cloud impulsa una actualización tecnológica con IA y nube para periodistas globales durante la 33ª Semana de Líderes de APEC en Shenzhen.",
-      "sourceUrl": "https://www.scmp.com/presented/business/topics/apec-2026-meets-tencent-cloud/article/3374893/apec-2026-meets-tencent-cloud-new-era-global-media-centres",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "hunyuan"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T16:00:08+00:00",
-      "title_orig": "APEC 2026 Meets Tencent Cloud: A New Era for Global Media Centres",
-      "summary_orig": "[The content of this article has been produced by our advertising partner.] SHENZHEN, China, 20 November 2026 – As global leaders gather in Shenzhen for the 33rd APEC Economic Leaders’ Week, Tencent Cloud is spearheading a technological upgrade for global journalists. As one of the key technology service providers, Tencent Cloud has seamlessly integrated its advanced AI and cloud computing capabil"
-    },
-    {
-      "id": "e37f828039f7",
-      "title": "Telekom y Mistral AI planean desarrollar IA para la industria y las administraciones públicas",
-      "summary": "Telekom y Mistral AI unirán fuerzas para crear soluciones de IA dirigidas a la industria y al sector público.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcURLUGxxeWdOMGtDeDNVYXN3WnBKVGJGd2dYT2tWSkR0QURXTU9tSGZjOGIxbDdpOElWVFJUZnZSX3dMWWRwRXU5X1RjQU04Q2pGdlkxS182cm9STmZXamNrZDMtbDI1bm9kRDg0WnlLTGpIWEIyYWhhUkpsQmYzNFRXM3lneTJnZFp4U0QtRzRMblJQTjRCU3JWYThzcWdxT1FYbDZocw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "LEADERSNET.de",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-19T15:16:56+00:00",
-      "title_orig": "Telekom und Mistral AI planen KI für Industrie und Behörden",
-      "summary_orig": ""
-    },
-    {
-      "id": "c990fb121000",
-      "title": "La salida a bolsa de Anthropic pone a prueba el auge de la financiación circular de la IA",
-      "summary": "Anthropic afronta enormes compromisos de cómputo al salir a bolsa, pero socios como Amazon y Google seguirán lucrándose con la IA aunque pierda su liderazgo.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T14:54:39+00:00",
-      "title_orig": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "summary_orig": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead."
-    },
-    {
-      "id": "81d2446f8b94",
-      "title": "Dinero para la IA: Anthropic realiza una salida a bolsa récord",
-      "summary": "Anthropic recauda una cifra récord al salir a bolsa, impulsando la inversión en inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjNyV0RBM0ZnbE9kNHNheEx1ZWswcnQ3WlRwLVpVVnFEbDNab1dfZ3NOb3JVSzdFYWszWC1ESDR4cXljMVBNeERSWjNjR3lxV1p2V2ROTG85V3Q5R1BBaG1QUzNFVWtxV0N1Sk45cnl1X2JVREgwNVlRSlJzWjg1QUtVZU1iZ081ZFpQTkhXS0ZvZ0dicjBfSndadGxfMmVHUkpDc1N6bkhacmZEcUNoRzhXUWc3MEhSWVJ5OQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "FAZ",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-19T14:28:01+00:00",
-      "title_orig": "Geld für die KI: Anthropic legt Rekord-Börsengang hin",
-      "summary_orig": ""
-    },
-    {
-      "id": "e86b2e1ff4fb",
-      "title": "«Demasiado alto, pero aún así lo compraría»: la salida a bolsa de Anthropic atrae a los inversores chinos a pesar de las barreras",
-      "summary": "Cecilia Yang, consultora de 28 años en Hangzhou, usa Claude a diario y, pese al alto precio, quiere comprar acciones de su IPO.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3375076/too-high-id-still-buy-anthropic-ipo-entices-chinese-investors-despite-barriers",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T14:00:06+00:00",
-      "title_orig": "‘Too high, but I’d still buy’: Anthropic IPO entices Chinese investors despite barriers",
-      "summary_orig": "For Cecilia Yang, a 28-year-old consultant in the eastern Chinese city of Hangzhou, Claude has become an indispensable daily colleague. So when the AI chatbot’s creator, Anthropic, priced its blockbuster initial public offering (IPO) on Wednesday, she decided she wanted a piece of the company, even if the valuation made her wince. “The IPO price is too high,” Yang said. “But I’d still buy a small"
-    },
-    {
-      "id": "0686fd0a6537",
-      "title": "Los operadores de criptomonedas frente a Wall Street: los mercados antrópicos de OKX ponen a prueba la fijación de precios de las salidas a bolsa",
-      "summary": "El exchange cripto lanzará acciones tokenizadas de Anthropic mientras sus futuros pre‑IPO cotizan un 24 % por encima del precio de oferta de 83 $.",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T13:11:31+00:00",
-      "title_orig": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
-      "summary_orig": "The crypto exchange plans to launch tokenized Anthropic shares as its pre-IPO futures trade about 24% above the company’s $83 offering price."
-    },
-    {
-      "id": "4c852b510f0d",
-      "title": "Künstliche Intelligenz | Deutsche Telekom beteiligt sich an Mistral AI",
-      "summary": "Inteligencia artificial: Deutsche Telekom se asocia con Mistral AI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSHdnTkdCVWhremJyVmZvcktiMFlCVkV5S1Z2ZXByODJUbDI3SzVHbDYxNzBaMElSNHBrdUJITEhBM1YyTWhZMzNQd1BlbkI0ejlKU3ZPV2hhWkRlQVdBNTRMRVJDTWZDQmJVNVdUeGFSeTE1RHp4c1FyM2kwUG9yMzd1c2NYVUQ1WnhaVmloQV8yU3RVWXZTVTZrdHl0UWxjaGtpMVlidjZfTVZpM1ZoTjExUGJDVlY3aDFlWWVoNA?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "springerprofessional.de",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-19T13:04:20+00:00",
-      "summary_orig": ""
     }
   ]
 }
