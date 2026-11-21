@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T19:41:51",
+ "actualizado": "2026-11-21T18:49:26",
  "fuentes": [
   "huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
   "openrouter.ai/api/v1/models"
@@ -173,7 +173,7 @@
    "fecha_leaderboard": "2026-11-19",
    "precio_in": 0.435,
    "precio_out": 0.87,
-   "context": 1050000
+   "context": 1048576
   },
   {
    "modelo": "Claude Fable 5 (High)",
@@ -495,8 +495,8 @@
    "rank": 43,
    "votos": 66799,
    "fecha_leaderboard": "2026-11-19",
-   "precio_in": 1.19,
-   "precio_out": 3.74,
+   "precio_in": 1.4,
+   "precio_out": 4.4,
    "context": 204800
   },
   {
@@ -656,7 +656,7 @@
    "fecha_leaderboard": "2026-11-19",
    "precio_in": 0.14,
    "precio_out": 0.28,
-   "context": 1050000
+   "context": 1048576
   },
   {
    "modelo": "GPT-5.6 Terra (xHigh)",

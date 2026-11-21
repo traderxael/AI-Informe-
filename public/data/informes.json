@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-21",
-    "total": 1189,
-    "items": [
-      {
-        "titulo": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-        "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-        "fuente": "OpenAI",
-        "resumen": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "OpenAI models are coming to Google Cloud",
-        "url": "https://openai.com/index/openai-models-google-cloud",
-        "fuente": "OpenAI",
-        "resumen": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Conversational Gemini navigation comes to Apple CarPlay",
-        "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-        "fuente": "The Verge AI",
-        "resumen": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-        "url": "https://openai.com/index/building-chatgpt-ad-stack",
-        "fuente": "OpenAI",
-        "resumen": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "AI promises productivity, but for managers, it’s mostly a headache for now",
-        "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-        "fuente": "TechCrunch AI",
-        "resumen": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Using thousands of AI agents to uncover new leads in biological data",
-        "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-        "fuente": "OpenAI",
-        "resumen": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-        "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-        "fuente": "Wired",
-        "resumen": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
-        "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
-        "fuente": "Wired",
-        "resumen": "The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-        "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-        "fuente": "Hugging Face",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
-        "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
-        "fuente": "Wired",
-        "resumen": "It’s the latest in a growing wave of bets that AI companies are making on brain data.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-        "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-        "fuente": "Hugging Face",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
-        "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
-        "fuente": "Wired",
-        "resumen": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
-        "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
-        "fuente": "Microsoft Research",
-        "resumen": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to under...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-        "fuente": "The Verge AI",
-        "resumen": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Google’s more personalized Gemini AI is heading to your car",
-        "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-        "fuente": "The Verge AI",
-        "resumen": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gm...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
-        "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
-        "fuente": "SecurityWeek",
-        "resumen": "In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it. The post OpenAI Agents Silenced Security Team Alerts, Remov...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-        "fuente": "BleepingComputer",
-        "resumen": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-        "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-        "fuente": "TechCrunch AI",
-        "resumen": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researcher...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
-        "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
-        "fuente": "SecurityWeek",
-        "resumen": "The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them. The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Ke...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Gemini's Personal Intelligence is coming to cars",
-        "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-        "fuente": "Ars Technica AI",
-        "resumen": "It's probably time to audit your Gemini settings.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-        "url": "https://openai.com/index/ted-taylor-restaurant",
-        "fuente": "OpenAI",
-        "resumen": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Microsoft says October updates didn’t actually fix VPN issues",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-        "fuente": "BleepingComputer",
-        "resumen": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "ChatGPT now lets you lock your chats",
-        "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor",
-        "url": "https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/",
-        "fuente": "SecurityWeek",
-        "resumen": "Tasked with writing an application for a US defense contractor, the model made the code 19% more likely to be hackable. The post Chinese AI Model Writes More Hackable Code When Told It’s for US Contra...",
-        "seccion": "novedades",
-        "pais": "china",
-        "fecha": "2026-10-21"
-      },
-      {
-        "titulo": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
-        "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-21"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-22",
     "total": 786,
     "items": [
@@ -8651,6 +8420,345 @@
         "url": "https://x.com/NousResearch/status/2123135537087181191",
         "fuente": "X @NousResearch",
         "resumen": "623.371 visualizaciones · 2.622 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-21",
+    "total": 317,
+    "items": [
+      {
+        "titulo": "Here are the top AI agents that can live in your text messages",
+        "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "fuente": "TechCrunch AI",
+        "resumen": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+        "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+        "fuente": "The Verge AI",
+        "resumen": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahj...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "AI may not work like the human brain after all, scientists discover",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
+        "fuente": "ScienceDaily AI",
+        "resumen": "AI may not think like the human brain after all, according to a striking new discovery that challenges how scientists understand artificial intelligence. Researchers found that even AI models that clo...",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "The most misunderstood graph in AI just got a major update",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+        "fuente": "MIT Tech Review AI",
+        "resumen": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at t...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Google rolls out new search homepage with AI chat history and no search button",
+        "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+        "fuente": "Ars Technica AI",
+        "resumen": "Google search is making it even easier to access AI tools on the search page.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+        "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+        "fuente": "MarkTechPost",
+        "resumen": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters. It runs on a 32GB Mac or one DGX Spark and scores 79.2% on SWE-bench Verified. The post...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+        "url": "https://www.qbitai.com/2026/11/511779.html",
+        "fuente": "QbitAI",
+        "resumen": "还实现可变形物体操控全球首通",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+        "url": "https://www.qbitai.com/2026/11/511570.html",
+        "fuente": "QbitAI",
+        "resumen": "专为本地部署而生",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+        "url": "https://www.qbitai.com/2026/11/511757.html",
+        "fuente": "QbitAI",
+        "resumen": "还透露了不少训练背后的秘诀",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+        "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+        "fuente": "MarkTechPost",
+        "resumen": "OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead of $...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Combatting adversarial distillation",
+        "url": "https://openai.com/index/combatting-adversarial-distillation",
+        "fuente": "OpenAI",
+        "resumen": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+        "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+        "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "fuente": "The Verge AI",
+        "resumen": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applicati...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Chips can survive the space environment — can their financing?",
+        "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+        "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+        "fuente": "The Hacker News",
+        "resumen": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is...",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+        "fuente": "The Verge AI",
+        "resumen": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "The week everything fell apart",
+        "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+        "fuente": "The Verge AI",
+        "resumen": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Six AI-powered gadgets that could make your home office smarter",
+        "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+        "fuente": "TechCrunch AI",
+        "resumen": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+        "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+        "fuente": "CoinDesk",
+        "resumen": "Bitcoin Core shipped fixes on Friday for a bug flagged by Loupe, an open-source scanner from Block’s Spiral that uses AI agents to examine bitcoin code.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Signal is blocking Gemini and Siri AI from reading your screen",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+        "fuente": "The Verge AI",
+        "resumen": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into o...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Hebbia sees improvements in financial research with GPT-6 Astra",
+        "url": "https://openai.com/business/customer-stories/hebbia",
+        "fuente": "OpenAI",
+        "resumen": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Can AI help scientists identify promising drug candidates?",
+        "url": "https://openai.com/index/introducing-medchembench",
+        "fuente": "OpenAI",
+        "resumen": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+        "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+        "fuente": "MarkTechPost",
+        "resumen": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4. bison-1 scores 76 on the AA Decision Index v2.1, and both models support 128k context and image input. The post ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "Introducing Tool Retrieval in the Gemini API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+        "fuente": "Google AI",
+        "resumen": "Gemini spark on a space background",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "It is amazing that human language turned out to be so unreasonably effective at modeling the universe that training a system to predict what comes next in a sentence would get us this far.",
+        "url": "https://x.com/emollick/status/2124010579836768572",
+        "fuente": "X @emollick",
+        "resumen": "264.986 visualizaciones · 10.397 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-21"
+      },
+      {
+        "titulo": "How AI is helping scientists uncover new leads for understanding and treating neurodegenerative diseases—and the brain research behind our collaboration with @perturbai_tx and @scrippsresearch:",
+        "url": "https://x.com/OpenAI/status/2123899406550528422",
+        "fuente": "X @OpenAI",
+        "resumen": "257.131 visualizaciones · 2.422 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "Distillation can reproduce powerful AI capabilities without the safeguards built around them. We’re sharing new research on our work to combat distillation of our models, how these capabilities trans…",
+        "url": "https://x.com/OpenAI/status/2123862344422088794",
+        "fuente": "X @OpenAI",
+        "resumen": "1.414.964 visualizaciones · 4.148 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "MedChemBench is a new benchmark for AI reasoning in medicinal chemistry. It shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug cand…",
+        "url": "https://x.com/OpenAI/status/2123856316187975756",
+        "fuente": "X @OpenAI",
+        "resumen": "425.222 visualizaciones · 4.410 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "Gemini 4 Neon coded a ski simulator based on real Mont Blanc terrain. Built in @Antigravity with custom shaders and zero pre-made 3D models, it renders carved snow and avalanches live. Try it now →",
+        "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
+        "fuente": "X @GoogleDeepMind",
+        "resumen": "169.136 visualizaciones · 3.224 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah",
+        "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+        "fuente": "X @AnthropicAI",
+        "resumen": "367.019 visualizaciones · 4.534 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "Riemann Hypothesis may have been solved with the help of Claude. “what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater.”",
+        "url": "https://x.com/emollick/status/2123800664845500602",
+        "fuente": "X @emollick",
+        "resumen": "185.766 visualizaciones · 2.236 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "🚨 Announcing Gemini Neon on Abacus AI Agent - Gemini Neon will power complex agents - Compare and contrast with Fable, Opus, and Astra - Build anything with just text prompts Neon tends to be slower…",
+        "url": "https://x.com/bindureddy/status/2123596262713020527",
+        "fuente": "X @bindureddy",
+        "resumen": "3.183.235 visualizaciones · 377 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-20"
+      },
+      {
+        "titulo": "Our SVP @koraykv believes there won't be a single test or benchmark that tells us we've reached AGI. Instead, progress looks like models becoming less spiky and more reliable across our daily lives.…",
+        "url": "https://x.com/GoogleDeepMind/status/2123519772390215780",
+        "fuente": "X @GoogleDeepMind",
+        "resumen": "136.618 visualizaciones · 756 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-19"
+      },
+      {
+        "titulo": "Remarks from Anthropic CEO @DarioAmodei on our initial public offering: My co-founders and I started Anthropic because we believe that the most powerful technology of our time should be built for the…",
+        "url": "https://x.com/AnthropicAI/status/2123461658890686863",
+        "fuente": "X @AnthropicAI",
+        "resumen": "2.096.455 visualizaciones · 12.315 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-19"
+      },
+      {
+        "titulo": "\\ thank-you \\ to the people behind these projects. Meet a few of them:",
+        "url": "https://x.com/claudeai/status/2123431910991155403",
+        "fuente": "X @claudeai",
+        "resumen": "759.980 visualizaciones · 15.170 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-19"
+      },
+      {
+        "titulo": "Gemini 4 Neon is now available in Cursor! At its default effort, it sets a new cost-performance frontier on CursorBench 4.1, scoring 63.7%, up from 57.3% for Gemini 4 Hydrogen. Priced at $3/M input a…",
+        "url": "https://x.com/cursor_ai/status/2123198346802450926",
+        "fuente": "X @cursor_ai",
+        "resumen": "230.919 visualizaciones · 3.077 me gusta",
         "seccion": "x",
         "pais": "global",
         "fecha": "2026-11-18"

@@ -1,76 +1,345 @@
 {
-  "generated_at": "2026-11-20T19:40:51.497021+00:00",
+  "generated_at": "2026-11-21T18:48:26.195901+00:00",
   "count": 20,
   "sources": [
-    "CoinDesk",
     "Cointelegraph",
-    "Dark Reading",
-    "Google AI",
     "Google News — IA Alemania",
-    "Google News — IA China (zh)",
     "Google News — IA Francia",
+    "Google News — IA Japón",
+    "Google News — IA LATAM",
     "Google News — IA Rusia",
     "Google News — IA global",
     "MarkTechPost",
-    "OpenAI",
-    "SCMP Business",
-    "TechCrunch AI"
+    "QbitAI"
   ],
   "signals": [
     {
-      "id": "d2b3e6209623",
-      "title": "¿De verdad vale 1,5 billones de dólares Anthropic, la empresa creadora de Claude?",
-      "summary": "¿Vale realmente Claude, el modelo de Anthropic, 1,5 billones de dólares?",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2k1MHotX0Zkam5USm9jZmJ0NGU5Ym82RUNGVjlkRndWSnVMc1Iyc0RSaDg0OURqX1RyaEwzZmx3ZG16Rk1heVlrc0lTSlUzay00UVlNdmhKcWt5UnNyazd5emdVLUo5WGN5X3l4UHVrNVM0TDlyNkpYZjNqQkhkeGM0MUdfUUxnRl9nMEF1SEE0NmhGbHU4LWEwRDFDbnZRamVLQlJxdnl0Q0tLc3lwWUxOdVE?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The Latest - The Guardian",
+      "id": "653fba30ab90",
+      "title": "Un empleado de Anthropic afirma haber resuelto el «Santo Grial» de los problemas matemáticos con ayuda de la IA",
+      "summary": "Un empleado de Anthropic dice haber solucionado el “Santo Grial” de los problemas matemáticos usando IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeDhhZ0pwMWJNbkR2VTZhRjZTQmllVURNTzdlR0htZVAwUW13akZUNnlwc2FaaE1PcWh5eVlEX1Z2dDlFclhHalVRNVJwek1LNkVzcm5HcjdoeFdNWEVWc29rMmV3U3lKNmh5b01tcWdxZk1LN2hua1ktcWVTRzVLMWc0cUQ5WnoyMGc?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "CNN en Español",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-20T19:06:00+00:00",
-      "title_orig": "Is Claude creator Anthropic really worth $1.5 trillion?",
-      "summary_orig": "Is Claude creator Anthropic really worth $1.5 trillion? - The Latest The Guardian"
+      "published": "2026-11-21T15:50:00+00:00",
+      "title_orig": "Un empleado de Anthropic afirma haber resuelto el \"Santo Grial\" de los problemas matemáticos con ayuda de la IA",
+      "summary_orig": ""
     },
     {
-      "id": "efcb773142f2",
-      "title": "Yandex 360 ha abierto el acceso a la oficina virtual para los secretarios de IA: ChatGPT podrá leer correos electrónicos y archivos",
-      "summary": "Yandex 360 permite que la IA de ChatGPT acceda a la oficina virtual para leer correos y archivos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazV6ZlowRjdoNnl0NEdpbkUxd1JoTTZ2MktLQ1NyUVIteUp4OHdlTkx2c2JQRlNLcUdfbjNJM2l3cWdXRGxIUUZHMGFqcXhjTHRnQ1ZHY0s2R1pVSHA3VEN0QzZnWDE1Y29jTEtKaUpmWDE1QmhKTTFiTGNxSUV4dHkySnZiUHpCRkhsYk5SendTNUNiZTg4OXItdEZjSWxnX3hGZFNYYTVsMmJKaTNDVjVTOHA4Q0ZxdFV5RDB3?oc=5",
+      "id": "21de06df66b8",
+      "title": "Wall Street se pregunta qué puede salvar el comercio de la IA tras el desplome de Anthropic",
+      "summary": "Wall Street busca qué impulsará el comercio de IA después del colapso de Anthropic.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcGZTRVdJcGNQbEdjRlRQUnN1YjBzTXlaYzFDb0swSDlCNTVsLVo2SGtQTGxsUGxzVmE0SkFPbHB0dFBXbWhGQVZUdmFQZ21zeDBwcW5OSjJmOUtmQjB4U3lNVkptMzYybHpmR1hkTUZESVlQU1VtWFhsSzNGWUlmWHNUa3FCd0t6NjNFR0xkTzBxdjYySFFtSTRQbTFwTDd0TXlfVEY4dnZCNmxrVnZFWVlSR0U?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Bloomberg.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T13:00:00+00:00",
+      "title_orig": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
+      "summary_orig": ""
+    },
+    {
+      "id": "2f27d9c8f892",
+      "title": "Hipótesis de Riemann: el modelo de IA Claude habría encontrado la demostración del problema del milenio",
+      "summary": "Claude, la IA de Anthropic, habría hallado una prueba de la hipótesis de Riemann, el famoso problema del milenio.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMDJIVGJxTEdibkRVeG5xbUowLTNqbFo3V1RMeTVyMklXTTFnc2F1N2pvYllFWXpvb2U2bHctRGdNOHQ2bFVDYV8zd0N0cUotczRTM3gzZ043dE5fM0RHTmsxdVpOM2puVzhhLTdsYVZkQ2wxQ00wQnpZem1xSnZXQVNQZWNMbGt6YUtYaWVZZFZLdkFHNHd2M3dMNXlMSkkxZldTc3RaVWtPX2pfaHlVMnN5NUFyTDZoQ1BDNEpKZjdOVjBySVVz?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "SZ.de",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T12:53:24+00:00",
+      "title_orig": "Riemannsche Vermutung: KI-Modell Claude soll Beweis für Millennium-Problem gefunden haben",
+      "summary_orig": ""
+    },
+    {
+      "id": "1be0cb9ade49",
+      "title": "OpenAI lanza GPT-Live-1.1 para agentes de voz y reduce el coste de inactividad a 0,02 $/min",
+      "summary": "OpenAI lanzó GPT‑Live‑1.1, un modelo de voz full‑duplex con mejor acento multilingüe y transcripción, y redujo el costo de inactividad a $0,02/min.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-21T11:46:17+00:00",
+      "title_orig": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+      "summary_orig": "OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead of $0.05. The post OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min appeared first on MarkTechPost ."
+    },
+    {
+      "id": "4b7848830d61",
+      "title": "La empresa francesa OVHcloud se suma a la carrera por la IA; la salida a bolsa de Anthropic no tranquiliza al mercado: los momentos destacados de la semana",
+      "summary": "OVHcloud se une a la carrera de IA mientras la IPO de Anthropic no calma al mercado, según los principales hechos de la semana.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQVpnUEMzc3BYMVdlSzRZOGFScWpQeWJjQjktZFprWUt1UV9wbVp6MzhnUkdIVHBhMUFaWHhfM2l3RTdwb2tKRk9KVHhWQ2ZCUnp1WDZqajhyYVdnVTBnRUthdWItdTA3VWFoSWVZVkZCbzJ5cjRQM3VNZEV2VkJva0ZWUDUxV0lBQm1uNGlmYU54Sm1QS2dRaEhVRW8zRVVQdE1HZUhGT3Z3S1RzbVFQVGNPamVpOFlWZTdneVlEbU9rb2hTLVNaR0REdmc1WENMTTlhZFhkU05MNDVQeTBjbVpxTzRLR0RXVUQzZGZBUEgtX1VJT2tUeHo5UUVCV2RmR3hGc1IyOVNmRkNxZXlN?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "L'Orient-Le Jour",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T10:56:49+00:00",
+      "title_orig": "Le français OVHcloud entre dans la course à l’IA ; l’entrée en Bourse d’Anthropic ne rassure pas le marché : les temps forts de la semaine",
+      "summary_orig": ""
+    },
+    {
+      "id": "bece91ce5706",
+      "title": "El ChatGPT norcoreano: «Fuente de sabiduría» es el primer chatbot de IA público de la RPDC",
+      "summary": "El ChatGPT norcoreano, llamado «Fuente de sabiduría», es el primer chatbot de IA accesible al público en la República Popular Democrática de Corea.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0wOGlyWTVQZ1U5emNFNE1xeWpsTjVmdEIzSFk1R3YwTjdUR0xnSHEzOGF2dzZkUXVucTR0RWtQWGJaeGQybnRUQ3RMb0FIZ9IBWEFVX3lxTE5heEIweVNwNWJJeDgtdGY5SElOYWxqVXA1UFlTclAxQTNrNWxmQVZXYkpHNTdVYklsOFU5T3dINkQ2ZDJhdDRpWnVvSVQ3ZGhvSEdfZm9SbUQ?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "rb.ru",
+      "publisher": "Хабр",
       "region": "west",
       "country": "russia",
       "models": [
         "gpt"
       ],
       "source": "news",
-      "published": "2026-11-20T18:35:00+00:00",
-      "title_orig": "Яндекс 360 открыл доступ к виртуальному офису для ИИ-секретарей — ChatGPT сможет читать письма и файлы",
+      "published": "2026-11-21T10:34:58+00:00",
+      "title_orig": "Северокорейский ChatGPT: «Источник мудрости» — первый публичный ИИ-чатбот КНДР",
       "summary_orig": ""
     },
     {
-      "id": "c7f196b09ccb",
-      "title": "Los agentes de IA de Gemini recibieron la instrucción «Nunca te rindas» y atacaron un sitio web real",
-      "summary": "Los agentes de IA de Gemini, programados con la orden “Nunca te rindas”, atacaron el sitio web real Xakep.ru.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fRk5HR3AzaWxmTXIxUGFuUGQtV2pSZmVwNU1KZDZBOTJOQmtaUWNuVlc1OFQ2bGp2TGZpUlhPYk5YdUtDUk1jRTJUS1RhX0VCZC1VSw?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Xakep.ru",
+      "id": "090a2c452e62",
+      "title": "Anthropic o la apuesta cada vez más vertiginosa de la IA",
+      "summary": "Anthropic destaca la creciente velocidad y riesgos de la IA, según un informe de Le Monde.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQlFnV1E4UHJTNi1OUkVhSUZkLVFxaks1QUk1OGdlY2JEdG15eXBfTWVOVHdRN2tYazJzX1dXaDBzVmhuc0RtWkNJX05aVlg5T2lRMmFaZk5uVjJYWVIwX3NjNkVlVVA1aDV5U3pRMTA4eG5vd0NfeFF5eDVvVFNiWDVaLTBWQkNMUmo4UGMtTVJNQ2lJS01nZ0lTSDdNVC13Y0VVNTJlZTJ3cDNpcjNLb0lQTEFOZU5rbi1wZXlCcw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Le Monde.fr",
       "region": "west",
-      "country": "russia",
+      "country": "usa",
       "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T10:30:10+00:00",
+      "title_orig": "Anthropic ou le pari de plus en plus vertigineux de l’IA",
+      "summary_orig": ""
+    },
+    {
+      "id": "cc562e7d8249",
+      "title": "Un matemático anuncia la resolución de la hipótesis de Riemann, uno de los problemas más famosos del mundo, con la ayuda de una IA de Anthropic",
+      "summary": "Un matemático afirma haber resuelto la hipótesis de Riemann, uno de los problemas más célebres, usando una IA de Anthropic.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQSmc5cnJPdDBNWWtKenI1Y0tMZkNVUUw2SldVQzVjNHBzSXJWRlZyUVNGc0RidjRkUmp0V19neWFUazRNeFVxbWJSd1N2TVVUNXRYV3pIUTV5S21UM0ZLTUlFaTY3QWZuMTAyTzE2NVlSZjA0SGphVjY0dXR1OGhPa2JKWEthbjRJTVVoV1BSazhWa0k5T1ptRHZUdndFNFR2ei1iRS1YQUlzaWtrRnRpQTAtbnNFcU95OXF2Q3BPNzZFV1ZwMUZGZXJNMUU5ZU5BdV9iSXdqcW15dGhkbldBYmlSaTd0Zzlsam5yQ0oxM3lCRjFyaWN3VWMya2pWWXlueWFKWDBSeS1CLTN2MEd6V0ZGSDVGZw?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T09:44:37+00:00",
+      "title_orig": "Un mathématicien annonce la résolution de l'hypothèse de Riemann, l'un des plus célèbres problèmes du monde, avec l'aide d'une IA d'Anthropic",
+      "summary_orig": ""
+    },
+    {
+      "id": "0cadf2b1c3b1",
+      "title": "ChatGPT y Gemini: cómo influye la publicidad en las respuestas de la IA",
+      "summary": "La FAZ analiza cómo la publicidad condiciona las respuestas de ChatGPT y Gemini, revelando sesgos impulsados por intereses comerciales.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNThlcG1XN1B0UlVDZjRfdVN0WWZ4RnVVcXhPWmdvcXVFTkNraGJiaVFnN0l6T2p1RHc1dTFPdTBPMnVzM2lzalN4YTN1UjcwdlJMSU1hRzhLXzRkaUI4bEotOTlMYmlpRVdXajJhdGo1VmlCbDZvUEhFeUFHNnBZdHlZVUxpclhmNzMyNFBTaTNzNklvaVhoU1VLYWpXSDJKUkc1clVBRUItcFg3ZHNsN0xOWFlDbThwTnRmZmRvMVM2TUhDUjhtUEdvNUctdVVvX0lV?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "FAZ",
+      "region": "west",
+      "country": "germany",
+      "models": [
+        "gpt",
         "gemini"
       ],
       "source": "news",
-      "published": "2026-11-20T17:27:11+00:00",
-      "title_orig": "ИИ-агенты Gemini получили инструкцию «Никогда не сдавайся» и атаковали реальный сайт",
+      "published": "2026-11-21T09:09:38+00:00",
+      "title_orig": "ChatGPT und Gemini: Welchen Einfluss Werbung auf KI-Antworten nimmt",
+      "summary_orig": ""
+    },
+    {
+      "id": "4cb075a5562c",
+      "title": "Se acaba de presentar el proyecto emprendedor del creador de DeepSeek V1: Open-Source Agent",
+      "summary": "Nacida para despliegues locales.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/511570.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-11-21T06:32:31+00:00",
+      "title_orig": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "summary_orig": "专为本地部署而生"
+    },
+    {
+      "id": "d989f1069121",
+      "title": "Yaoshun Yu y el equipo de Hunyuan responden a los usuarios de Reddit: el pequeño modelo Hy ya está en la hoja de ruta",
+      "summary": "Reveló varios secretos del entrenamiento detrás de la IA.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/511757.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "lab",
+      "published": "2026-11-21T06:30:55+00:00",
+      "title_orig": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "summary_orig": "还透露了不少训练背后的秘诀"
+    },
+    {
+      "id": "e3491e6fc566",
+      "title": "Un matemático de Anthropic asegura haber resuelto el problema más famoso de cálculo con IA",
+      "summary": "Un matemático de Anthropic afirma haber resuelto el problema más famoso de cálculo con IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb2JQdXBjUjAyR1NYNjNDODNFZkdaVXZKOW9jbnlTUWxQWGs5QWxpSVlaMVN1S1JTakRRQ2RscHJ0X3dRUmwtYm5PMGcxcDF3RTFSVG5NVExhTFN6czd4MTdCTTFyb25PM2pmREJhcllka05SUzhpN1BpSURWYWhrTUJVemdZUTk3NkZxTG1fajd5VldVTm5HU2FFZm5KT1N4eHJqZzBrb2dNcUF1SWJoNVdLaDNxb1E?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "El Confidencial",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T06:24:00+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "639c8faff8ef",
+      "title": "Chile y OpenAI ante el desafío de regular la inteligencia artificial",
+      "summary": "Chile y OpenAI enfrentan el reto de crear normas que regulen la inteligencia artificial en el país.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORG12eElJckZSNlBZeFR5aFYybFZCQ0JDODgyUkc2OThCUXF2bDRCeHptWjZQTFhUampDNEdPRXI5a1VtLVVsTjBfZVRXVzdaZldpam45M044cFR0RVJhR3NzdFhTbUZLOWdKSmFxUzFULUpNVzRRV1dMWVNEcXV4TXdsN2YySTNQUTlqSXpDbVpnYWpheDZjS1lkdVZGSVRyNGoyamVyRzV2NlJsMnA1dkhRTUpvTlRNNjB4bmxqTjFLSHlmajI1ZzF4MVl3UQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "El Mostrador",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-21T03:46:25+00:00",
+      "title_orig": "Chile y OpenAI ante el desafío de regular la inteligencia artificial",
+      "summary_orig": ""
+    },
+    {
+      "id": "0111fc14ceb6",
+      "title": "OpenAI lidera la valoración de las empresas de IA del mundo con 1,3 billones de dólares, mientras que la china DeepSeek ocupa el quinto puesto con 92 000 millones de dólares",
+      "summary": "OpenAI encabeza la valoración global de empresas de IA con 1,3 billones de dólares, y la china DeepSeek ocupa el quinto puesto con 92 mil millones.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE51eGFwbW5kcFk2Vng2SXJaOFpaRk5XZHdhQWdnSmpQem1JQXZKeFRYWUdiMzZtYzNnd1Y4?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "36Kr Japan",
+      "region": "west",
+      "country": "japan",
+      "models": [
+        "gpt",
+        "deepseek"
+      ],
+      "source": "news",
+      "published": "2026-11-21T03:03:32+00:00",
+      "title_orig": "世界AI企業の評価額、OpenAIが200兆円で首位 中国DeepSeekは14兆円で5位",
+      "summary_orig": ""
+    },
+    {
+      "id": "6b24028b6cd7",
+      "title": "Inteligencia artificial: un investigador de Anthropic afirma haber resuelto un problema matemático del milenio",
+      "summary": "Un investigador de Anthropic asegura haber resuelto un problema matemático del milenio, según informa DIE ZEIT.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTmZzVnFBR2M5VlQ3eWp4Tk0yWmdZUlFXck9Rcy1SZ0lPYXEwNEtmRlRqaWdmanptanV5UXl5U19kdTYtQjRVbE5SYk05ZU5FU3hZaTJfVnk5NzRUZ1BLMVdLRy1malI4eEMxdkI5RGlpWUs0REFXbm5xaGE5cGRVNlFQRjU4UEFmaHZHTnQ2dEs1NEJYWjRDVTd1eERuVlRobS1z?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "DIE ZEIT",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T01:31:30+00:00",
+      "title_orig": "Künstliche Intelligenz: Anthropic-Forscher will mathematisches Millennium-Problem gelöst haben",
+      "summary_orig": ""
+    },
+    {
+      "id": "6ef8c16cb102",
+      "title": "Un matemático de Anthropic afirma haber resuelto la hipótesis de Riemann, el mayor enigma de las matemáticas, con ayuda de la IA",
+      "summary": "Un matemático de Anthropic dice haber resuelto la hipótesis de Riemann, el mayor enigma matemático, usando IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcFp4X3JIYkZ1TGxDZWNpeUE4bzBBLWJ2bUprd0FpMGlrWWtVTFpuM2ptZFVLSVpZM0o5ZllRYmpzZEN3MEZpa3BiRTM2c2xva2R6MG9iN1YxWmU1ZjZ0bjVGZ0dqY3NaSnZRdnpsQTd1emtlVE1TV29LWjd1SEdOUVlqSHVjOE1rZEYxbFBCS2doSDREN20zVkZ6Nl9qbXlwUHpRTm9kTVVjVXQwYTZKTy0xSnNQUUFkTlU1SHBEUy1oZHZOM04xSmc3ZEtwVEdjaXVCeWdHUXlJbUdaTVEzSFdJWjR0QXJuMHdweEM2MVZDdTRfb1dvedIBjAJBVV95cUxOVnJOMnhuR2FVLVU4Zmt0STEzdHpsLTJtYTd4cXIzcXoyMmVoRlpldU1JSldQZDFINGZlSkpsSlNsWDR4OE54UmxGRGlURmhqMk9jNXBCOTZNS3RtOHkweDFWMFNtS05vblJDODhDd1BDOVlCWGt3Vmd3RUNCWlNEbHZsSTlGZTZzMjIwaEx2N055dmd0ZzBreUFQczNHZThNMkVSZE50dnB0ZDVpdmpaNUNlNjlpeUtSdUtFQjVYcHIzaDNQN0pZZ3ZIVHpDai14VElLd0NrLVIzX1oyd3h5OG5vTkpqVFBUSGdLZ3JkUDYwdHJadXNMRU13VHh1TGVuTDJRcy0xeXlxSzlP?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "EL PAÍS",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T01:12:10+00:00",
+      "title_orig": "Un matemático de Anthropic asegura haber resuelto la hipótesis de Riemann, el mayor enigma de las matemáticas, con ayuda de la IA",
+      "summary_orig": ""
+    },
+    {
+      "id": "da1d6f4a2cd7",
+      "title": "Un matemático de Anthropic afirma haber resuelto la hipótesis de Riemann con la ayuda de Claude",
+      "summary": "Un matemático de Anthropic dice haber probado la hipótesis de Riemann usando la IA Claude, según informa The New York Times.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The New York Times",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-21T00:45:11+00:00",
+      "title_orig": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude",
+      "summary_orig": ""
+    },
+    {
+      "id": "be00f9bd192b",
+      "title": "Anthropic podría haber resuelto un importante problema matemático: la hipótesis de Riemann",
+      "summary": "Anthropic habría encontrado una posible solución a la hipótesis de Riemann, uno de los problemas matemáticos más importantes.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5cjczNDdOUWdoOUlOSUFsbUc2dXF2UGFJaGZPelVGeEw0YnN6T0UzaVRRbXVCUXZCMzBPNnNfTEtueXVxay1BM0dmcEVJX0dBbXE3azNIQ1lXV00?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "BBC",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-20T23:08:57+00:00",
+      "title_orig": "Anthropic may have solved major maths problem Reimann hypothesis",
+      "summary_orig": ""
+    },
+    {
+      "id": "287eabec793d",
+      "title": "¿Se ha demostrado la hipótesis de Riemann? Con el apoyo de Claude, un matemático de 34 años presenta una demostración en Lean",
+      "summary": "Un matemático de 34 años, asistido por Claude, afirma haber demostrado la hipótesis de Riemann usando el lenguaje formal Lean.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/511727.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-20T16:07:39+00:00",
+      "title_orig": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
       "summary_orig": ""
     },
     {
       "id": "bc49991dc28c",
-      "title": "El precio del bitcoin cae a 60 000 $ y Anthropic cae a 87 $ en la venta masiva de acciones tecnológicas",
+      "title": "El precio del bitcoin cae a 60 000 $ y Anthropic cae a 87 $ en la ola de ventas del sector tecnológico",
       "summary": "El precio de Bitcoin se debilitó al caer las acciones estadounidenses mientras los traders reevaluaban las perspectivas de IA tras la salida a bolsa de Anthropic.",
       "sourceUrl": "https://cointelegraph.com/markets/bitcoin-hits-new-20-week-low-anthropic-drops-87-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "sourceLabel": "Cointelegraph",
@@ -84,277 +353,6 @@
       "published": "2026-11-20T16:04:43+00:00",
       "title_orig": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
       "summary_orig": "Bitcoin price strength felt pressure from falling US equities as traders reassessed AI prospects after Anthropic’s IPO."
-    },
-    {
-      "id": "754786794ddb",
-      "title": "Inteligencia artificial: las acciones de Anthropic caen considerablemente en su segundo día de cotización",
-      "summary": "Las acciones de Anthropic se desploman notablemente en su segundo día de cotización.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakZsYXRVLTR1Nm1kdzIyZ0JWSzJrdnRRNlJCUFBVaEpxVnh6UVpuM2xlYnZBNHBEWWNoUWp2SkEtUzN6TlBUR2h0SWhNM21ibDNBM1k5bVpWSVpleExneV9GM2VuU3NJRHdkSkVFTHBYWFVsR3ZPRVI2TlFJc2JZbjNUaklQSlc0enEzaHRUNVh3S09qM0RmMDFHU3pVdGplRUVublRJdllnTU5iQi1vRUZXY0Z1bGMxYjhIRTk4X1ZXZ0FhOHlxeEZ3NXZUelZ1ekRRTQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-20T15:32:47+00:00",
-      "title_orig": "Künstliche Intelligenz: Anthropic-Aktie fällt am zweiten Handelstag deutlich",
-      "summary_orig": ""
-    },
-    {
-      "id": "12902c56387c",
-      "title": "Baidu es multada con 75 000 $ mientras China cierra el caso antimonopolio de Joyy",
-      "summary": "El regulador chino multó 500 000 yuanes a la unidad de Hong Kong de Baidu por comprar parte de Joyy sin la autorización antimonopolio requerida.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3375283/baidu-fined-us75000-china-wraps-joyy-antitrust-case",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "ernie"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T13:50:14+00:00",
-      "title_orig": "Baidu fined US$75,000 as China wraps up Joyy antitrust case",
-      "summary_orig": "China’s top market regulator has fined Baidu’s Hong Kong unit 500,000 yuan (US$75,000) for proceeding with its acquisition of part of live-streaming platform Joyy’s business before receiving antitrust clearance. The State Administration for Market Regulation (SAMR) said on Friday that Baidu (Hong Kong) had filed a merger notification for the deal as required by law, but implemented the transaction"
-    },
-    {
-      "id": "c6ca582cfb53",
-      "title": "Noticias en directo: El bitcoin cae a nuevos mínimos por debajo de los 60 000 $ y Anthropic baja tras su debut en el Nasdaq",
-      "summary": "El ETF de bitcoin de BlackRock registró una salida récord de 541,1 millones de dólares, mientras la caída tecnológica en EE. UU. arrastró al Kospi surcoreano más del 5 %.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T13:35:33+00:00",
-      "title_orig": "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
-      "summary_orig": "BlackRock’s bitcoin ETF saw a record $541.1 million outflow as the U.S. tech selloff spread to Asia, sending South Korea’s Kospi down more than 5%."
-    },
-    {
-      "id": "1d0de952fbb2",
-      "title": "VanEck pondrá fin a los acuerdos de custodia de ETF con Gemini, pero mantiene a Coinbase",
-      "summary": "VanEck cancelará los acuerdos de custodia con Gemini para tres ETFs de criptomonedas en febrero de 2027, mientras Coinbase seguirá como custodio.",
-      "sourceUrl": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "sourceLabel": "Cointelegraph",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T11:04:21+00:00",
-      "title_orig": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
-      "summary_orig": "VanEck plans to end Gemini’s custody agreements for three crypto ETFs in February 2027, while Coinbase will continue serving as a custodian for the funds."
-    },
-    {
-      "id": "eab010fe726f",
-      "title": "¿Puede la salida a bolsa récord de Anthropic evitar el estallido de la burbuja de la IA?",
-      "summary": "¿El récord de salida a bolsa de Anthropic podrá frenar la explosión de la burbuja de la IA?",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13bWFDdFlPQ05ZLU9tcTZoa3BVdExLUjBVdWQ5M2ZvbFd5OHB0OW85MVJCNGZsUUFibkZEcHMyUmtjNERFdkRBUW1zcVFvNjg2ajk1UXgybWdCWGw0bDVpLU1PSXpmQ1XSAWxBVV95cUxOTmJZOUlzTXBicGdwUmpMVDJfbHB5aW9leFctWkJuTzBjZ3N5cEp3OElMUG40VUd1Wmc3QnJIaFpyZWd1Zm1MUXYxdVNFYXBMZXVLV3FrVjROWkt0TlNSeVJ5R0RyRHBzamNIZ24?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "BBC",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-20T10:03:59+00:00",
-      "title_orig": "Anthropic 破纪录IPO能否阻止AI泡沫破裂？",
-      "summary_orig": ""
-    },
-    {
-      "id": "3ea993db7e3c",
-      "title": "Lucha contra la destilación adversaria",
-      "summary": "El enfoque en capas de OpenAI para la destilación adversaria combina entrenamiento, salvaguardas, detección y aplicación para evitar la extracción de capacidades.",
-      "sourceUrl": "https://openai.com/index/combatting-adversarial-distillation",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T10:00:00+00:00",
-      "title_orig": "Combatting adversarial distillation",
-      "summary_orig": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
-    },
-    {
-      "id": "3123956a4830",
-      "title": "Acuerdo de Deutsche Telekom con Mistral: por qué las empresas apuestan por la IA europea",
-      "summary": "Deutsche Telekom firma con Mistral para impulsar IA europea, mostrando la preferencia de las empresas por soluciones locales y soberanas.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaEx3VEs0MklEQmdqaWM3a2doRHJLWlV2bmFyVDZPc2xfVHpoeS01OERHbVJ4djRKVk9yVml5V29yZVJkUGVxSjM3UFh3dW1fblF4aGdERE11SFJEbVJaRmdVRnRkZFZCbXZ4QWxYcnZzWTBaQVNReFJLRmlaZFFBNXNqNm5BNlBncHhkNTdYZjVIamJOb0tMR1ZQYm1aYXQwN2ZfeW1nbXhPeWhtcUY5cw?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "WirtschaftsWoche",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-20T08:09:20+00:00",
-      "title_orig": "Telekom-Deal mit Mistral: Warum Konzerne auf Europas KI setzen",
-      "summary_orig": ""
-    },
-    {
-      "id": "1d142bd3788c",
-      "title": "La salida a bolsa de Anthropic por 81 000 millones de dólares y la caída del precio del oro: 5 cifras que los inversores están siguiendo esta semana",
-      "summary": "El histórico IPO de Anthropic provocó caídas en acciones tecnológicas de EE. UU. y Asia, avivando la carrera de IA tras la cumbre de Xi, Trump y Putin.",
-      "sourceUrl": "https://www.scmp.com/business/china-business/article/3375169/anthropics-us81b-ipo-gold-price-drops-5-figures-investors-are-watching-week",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T07:00:10+00:00",
-      "title_orig": "Anthropic’s US$81b IPO, gold price drops: 5 figures investors are watching this week",
-      "summary_orig": "A record-breaking IPO from Anthropic capped off this week’s market headlines, sending US and Asian tech stocks sliding in its wake and adding new fuel to the artificial intelligence race, following the meeting between Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin at the Apec summit in Shenzhen. Here are some of the figures that have drawn the most mar"
-    },
-    {
-      "id": "37ab70e1aeb4",
-      "title": "Detector de correos electrónicos generados por IA: Por qué me da igual que ChatGPT me escriba",
-      "summary": "Un detector identifica correos creados por IA, pero al autor le resulta indiferente que ChatGPT los redacte.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZElxTWRHV1V3ajMtUTVNdmRwa0xEVk1yd0pucUpuZ2ZKUW1ieWdfcFFEN0RkSHU2X210YkFXMmZGdEVHcGs3Y0cxZ3pNcDZCOEdrZFZnVFVnNXVpWk1SeENEQlg0bFRVSDkyaW9pU01vdHlyTVFiQ3NtTDBMdjh6WEdtZ21Ya0g5aTd6ZFNKSkVEbU5fcjQ2elR0ekhlSHRYZ3huWURVZzJJVTBhU1lmSUJ2Sk8?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "BASIC thinking",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-20T04:45:03+00:00",
-      "title_orig": "Detektor für KI-Mails: Warum es mir egal ist, ob ChatGPT mir schreibt",
-      "summary_orig": ""
-    },
-    {
-      "id": "f1dd0bea0b97",
-      "title": "Los 7 fundadores de Anthropic obtuvieron casi 2000 millones de dólares en una salida a bolsa récord",
-      "summary": "Con el precio de IPO de 83 $ por acción, cada uno de los siete fundadores de Anthropic recibió 280 millones y la empresa recaudó casi 105 mil millones.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T00:43:50+00:00",
-      "title_orig": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "summary_orig": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
-    },
-    {
-      "id": "f4784c304003",
-      "title": "¿Puede la IA ayudar a los científicos a identificar posibles fármacos prometedores?",
-      "summary": "MedChemBench evalúa la capacidad de los modelos de IA para interpretar estructuras moleculares, razonar con evidencia experimental y elegir compuestos en la fase inicial del descubrimiento de fármacos.",
-      "sourceUrl": "https://openai.com/index/introducing-medchembench",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-20T00:00:00+00:00",
-      "title_orig": "Can AI help scientists identify promising drug candidates?",
-      "summary_orig": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery."
-    },
-    {
-      "id": "67b8b1d191fd",
-      "title": "IA: La acción de Anthropic cierra su primer día con una subida del 17 % y valora la empresa en 1280 000 millones de dólares",
-      "summary": "IA : l’action Anthropic finit sa première journée en hausse de 17 % et valorise l’entreprise à 1 280 milliards de dollars Le Monde.fr L'entreprise américaine d'intelligence artificielle Anthropic signe une entrée en Bourse historique en détrônant SpaceX franceinfo La semaine de l’éco - Boom de l'intelligence artificielle : la révolution à quel prix ? France 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNaVN5ZlVrTnlROWdJdkpBc0QzSURjdFVuWW1hZm5VWEluSTAySExyQTRsMFM5OGFhdzVZa0dqVEd4NmJvT0gycmVhdHJFQWZvUEhEWWVJZUFNNjhRUE5CeVhzY09EajdJMExxQ0ZldDc4YkQ0U3A5bDlVeXZ2SFNkdE5yNjhiYlhGbGgteHRmemRhd2I0YUdYdUpLdDYzaG1Dcm5IY1Q0Q0JiSFZHU090Z0puYmU4RnRrUHgweE40QmtrTWx1Vk02T1dJVGxyNmhPRnlFZDZ4VDhGWHRnOG5ETkVnY1RoUllSVGNsdlduSHFpNnY1QWJ6UjVzUEhCUHRsOUFibVhkLU56X19SaVEwYmpTY3djSnE1OEdHMi1kY2RRdFktd3ZFV21sSVdpd1MxeXA4?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Le Monde.fr",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-19T23:30:54+00:00",
-      "title_orig": "IA : l’action Anthropic finit sa première journée en hausse de 17 % et valorise l’entreprise à 1 280 milliards de dollars"
-    },
-    {
-      "id": "5e65458c080e",
-      "title": "Los incidentes de Qwen demuestran que los modelos de IA autoalojados necesitan una orientación más sólida",
-      "summary": "Las empresas que usan agentes de IA creen controlar, pero varios incidentes muestran que deben estar preparadas para imponer directrices.",
-      "sourceUrl": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
-      "sourceLabel": "Dark Reading",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T22:40:03+00:00",
-      "title_orig": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-      "summary_orig": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions."
-    },
-    {
-      "id": "2ad2190c7ade",
-      "title": "La salida a bolsa de Anthropic podría aportar 156 000 millones de dólares a obras benéficas",
-      "summary": "Con la acción a $95, la Fundación de Beneficio Público del laboratorio frontier, sus donaciones de empleados y la contrapartida de la empresa suman $156 mil millones.",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-      "sourceLabel": "TechCrunch AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T19:10:45+00:00",
-      "title_orig": "Anthropic’s IPO could deliver $156B to charity",
-      "summary_orig": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion."
-    },
-    {
-      "id": "57728669e048",
-      "title": "Presentamos la recuperación de herramientas en la API de Gemini",
-      "summary": "Gemini Spark se muestra sobre un fondo espacial.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "sourceLabel": "Google AI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T18:00:00+00:00",
-      "title_orig": "Introducing Tool Retrieval in the Gemini API",
-      "summary_orig": "Gemini spark on a space background"
-    },
-    {
-      "id": "df2b61241112",
-      "title": "Perplexity lanza la API Orchestrator para conmutación por error y enrutamiento de modelos",
-      "summary": "La API Orchestrator de Perplexity unifica OpenAI, Anthropic, Google, xAI y modelos de código abierto en un solo endpoint con conmutación automática y facturación única.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "perplexity"
-      ],
-      "source": "lab",
-      "published": "2026-11-19T17:47:00+00:00",
-      "title_orig": "Perplexity Launches Orchestrator API for Failover and Model Routing",
-      "summary_orig": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each request to a described route. The post Perplexity Launches Orchestrator API for Failover and Model Routing appeared first on MarkTechPost ."
     }
   ]
 }
