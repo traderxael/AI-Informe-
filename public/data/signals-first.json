@@ -1,74 +1,348 @@
 {
-  "generated_at": "2026-11-22T19:07:07.114692+00:00",
+  "generated_at": "2026-11-23T23:29:33.541016+00:00",
   "count": 20,
   "sources": [
-    "BleepingComputer",
-    "CoinDesk",
+    "Ars Technica AI",
+    "DeepMind",
     "Google News — IA Alemania",
-    "Google News — IA Japón",
+    "Google News — IA China (zh)",
+    "Google News — IA Francia",
     "Google News — IA LATAM",
     "Google News — IA Rusia",
-    "Google News — IA global",
+    "MIT Tech Review AI",
     "MarkTechPost",
     "OpenAI",
-    "QbitAI"
+    "QbitAI",
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "26429d6b728b",
-      "title": "OpenAI propone límites comunes para el desarrollo de la IA, vinculados a hitos de seguridad",
-      "summary": "OpenAI sugiere establecer límites comunes al desarrollo de IA, basados en hitos de seguridad, según informó Unite.AI.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYU1EeXJKZEJPRkNSVWtPd1dTZFZfMWJOVTZsLUtKeFFHTm9tTHNSNHZTcWxsR0tyMnRFUi1fb3BhZnh4cG0tN0pqNE5vRTBfRTdjX3lZNW8tdVQ5MVlJRkNTdURtdzJrRWoyd3Q3bTdlU25wOENlZTh6NEhkMFdZaEp2cGRzekVqeGE1NTFvTmEzRHQzUjh2cXduVQ?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Unite.AI",
+      "id": "27065c561fbc",
+      "title": "Anthropic lanza Claude Ship, que permite a los agentes de IA revisar, corregir y aprobar cambios en el código",
+      "summary": "A medida que aumenta el código generado por IA, las nuevas herramientas de Anthropic permiten que agentes automaticen aprobaciones rutinarias.",
+      "sourceUrl": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "sourceLabel": "TechCrunch AI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
-        "gpt"
+        "claude"
       ],
-      "source": "news",
-      "published": "2026-11-22T18:43:02+00:00",
-      "title_orig": "OpenAI schlägt gemeinsame Grenzen für die KI-Entwicklung vor, die an Sicherheitsmeilensteine geknüpft sind",
-      "summary_orig": ""
+      "source": "lab",
+      "published": "2026-11-23T22:05:50+00:00",
+      "title_orig": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "summary_orig": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals."
     },
     {
-      "id": "7479eea1720c",
-      "title": "OpenAI GPT-6.2 Astra y GPT-6.2 Sol han demostrado ser algunos de los mejores modelos de IA para el desarrollo de videojuegos.",
-      "summary": "OpenAI GPT‑6.2 Astra y GPT‑6.2 Sol se destacan como los mejores modelos de IA para crear videojuegos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1sRUVTOV9wSk80bWFKZ2NndW9WVGlkTllyOWZPRG1WNzBFalFNVllodmdxTFNJYm9zai05dzJn0gG6AUFVX3lxTE53WHhCSW1HTjVsTDZtQmFpNF9icEZBRmo4Zjdvc1EyOHNYakFaaDl5U1B5anJZV2VuXzE5T3NyQ0VlQ2pTOWFpUEtMYUtVTkc3SnJVU0ZaZDFIMncyUlRfOFdwdzZUS0lMWUpIVkFNc1pITnBIVVVkREJlZjVoUTF0cWZlT04xbW1qa3p6ZDh5aVZydWtaX25TckJhZlhyV0FHN0loQ2NmZ25ILUpZTmFNNlR6YVZlb0c2UQ?oc=5",
+      "id": "31bfda3557db",
+      "title": "Qué es Loop Transformer y cómo GLM-5.4 está alcanzando a los modelos con 2-3 billones de parámetros",
+      "summary": "Loop Transformer es una arquitectura que permite a GLM‑5.4 competir con modelos de 2‑3 billones de parámetros.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sZGpuOHBxZjdYc1I2cWhUeDgtcG95QzNTcVRNSkRkMUd4MUZ2NXFheXNacDczaUhUNmJVWjhoWHdtd3RXTG5JNXlwSDZMSkJCWWg5NGZSMWVxb1hQUVJNcUNfQmlsUEnSAVhBVV95cUxNNjdkTTFzVjFGeEFONnFZY2ZJdUQ4WVlPR2V3Zjc1ODVsLVlUZHJBV3c4cmxQRWlqcXBtUDJHWDNJcE9qTFF3QUNuOEsyWnZtYTc1T2dGbzlW?oc=5",
       "sourceLabel": "Google News — IA Rusia",
-      "publisher": "3DNews",
+      "publisher": "Хабр",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "glm"
+      ],
+      "source": "news",
+      "published": "2026-11-23T21:52:29+00:00",
+      "title_orig": "Что такое Loop Transformer и как GLM-5.4 догоняет модели на 2–3 трлн параметров",
+      "summary_orig": ""
+    },
+    {
+      "id": "afbf4ed7c77a",
+      "title": "Varios estados demandan a SpaceX para impedir que Grok genere imágenes de abusos sexuales infantiles y «porno vengativo»",
+      "summary": "X afirma que revisa todo el contenido de Grok, pero fiscales estatales aseguran que sigue generando material de abuso sexual infantil.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T21:30:44+00:00",
+      "title_orig": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "summary_orig": "X says every Grok output is screened, but state AGs say Grok is still making CSAM."
+    },
+    {
+      "id": "1d0c151fefed",
+      "title": "OpenAI y Cisco presentan Shirudo",
+      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime de código abierto para Linux que protege sistemas en ejecución mientras se aplican parches.",
+      "sourceUrl": "https://openai.com/index/introducing-shirudo",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
       "region": "west",
       "country": "usa",
       "models": [
         "gpt"
       ],
+      "source": "lab",
+      "published": "2026-11-23T21:20:00+00:00",
+      "title_orig": "OpenAI and Cisco introduce Shirudo",
+      "summary_orig": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
+    },
+    {
+      "id": "146b5e8c1de7",
+      "title": "GigaChat y «Alisa AI» frente a ChatGPT: resultados de la encuesta de redes neuronales del VCIOM",
+      "summary": "La encuesta del VCIOM muestra que GigaChat y Alisa AI compiten con ChatGPT, obteniendo resultados destacados en redes neuronales.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45WlJWYURzZ2luYXVIQ3NFc1V5eUd0RU9reVNMSEhwQ2RPQ1JpeGNhYm0xV2UtWHJ2Q29ZWndDNmJZS3pFMDY5RF9mNzU0cmZMbVU3OUtyeTVlTlNxZWRrMEdnTlRuQ2dfdGlBb3oxZw?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "Эксперт",
+      "region": "west",
+      "country": "russia",
+      "models": [
+        "gpt",
+        "gigachat"
+      ],
       "source": "news",
-      "published": "2026-11-22T16:02:00+00:00",
-      "title_orig": "OpenAI GPT-6.2 Astra и GPT-6.2 Sol оказались одними из лучших ИИ-моделей для разработки игр",
+      "published": "2026-11-23T21:01:00+00:00",
+      "title_orig": "GigaChat и «Алиса AI» против ChatGPT: итоги опроса нейросетей ВЦИОМ",
       "summary_orig": ""
     },
     {
-      "id": "eb3499cdf196",
-      "title": "【Las trampas que señala Claude】Cuanto más inteligente se vuelve la IA, más cuestionables se vuelven los juicios humanos",
-      "summary": "A medida que la IA se vuelve más inteligente, los juicios humanos resultan cada vez más cuestionables.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qMFk1ZVAtcXRaaVdZWm05V1ZHSm1vLVJWRWNxX1owZEpJUDdnU1dNcDhSSFJhMmY4MG5CbXFNaWN3UE9wQmdyVXdZRQ?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "ThinkIT",
+      "id": "9c47dc701af7",
+      "title": "Z AI presenta GLM-5.4: un transformador de bucle de 750 000 millones que ejecuta 28 capas dos veces",
+      "summary": "Z.ai lanzó GLM‑5.4, un modelo Loop Transformer de 750 B que ejecuta 28 capas dos veces para razonamiento profundo, con API y pesos abiertos próximamente.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "glm"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T19:11:40+00:00",
+      "title_orig": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+      "summary_orig": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work. The post Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice appeared first on MarkTechPost ."
+    },
+    {
+      "id": "707b80a0f10b",
+      "title": "Una IA de Anthropic habría resuelto el santo grial de las matemáticas, pero falta verificarlo",
+      "summary": "Una IA de Anthropic parece haber resuelto el santo grial de las matemáticas, aunque aún queda por confirmar su hallazgo.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcnlsLTA0S3N4a2NUMlRQdDJydktkanZ2dDMzTENqZUxSUmkxbEVnVUZJTi1waW03UE16cVhtSm9oLWVJRWVCb3hDei1JazViZzdjN3pncUlTYU9aX2tfY3o4bkZieExMVGcyZGR6WWx5ZU03RjNkVHFMYUJFZHlLSDZudmF4MHNuOV94YjJVQ3RxWWdQa1VHenc4a2RnNGFTdjZZNWxPU29JbnlRUERlVzhKYlgxcHZMWGdXOUNYTjhHbmdpSUotU2xkZ1d2WnplMnM3Qk9MUXowUlhaM0twMTNLblZQbEpqck9LM1F5ektLZS1vMWtpUGlB0gH6AUFVX3lxTFBqUzYxUFNZZEJfZWZLOGVBd2cxanVuWHcycG8xZGkxd1otZjhqbDAxWnpudk1OMllyQVB5Y1dvVGJEeFZaMmt3M2NuQ2hIY1gwajVRQTNFNkdhMDF1Zzhha2ZTTmpOTE1EVE5IZE8xdm9kT1M4WW9lZDZpTGxFLW0yYUp4VXRkRGRVcXdON3FjdERkODNBMms0R0pMMDFyalFNblBDWDhkLWM1UzQ0eTFJQVJ5REFsQ2lEY3F6OUZ6ZXdEa3dPUTd1QUpWd0d1UkI1M0tIWVNlSTJiYnRGa2Z4YmFfQy1IN3JYN3RySVBvWHVzSEJLY1QzdUE?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "DW.com",
       "region": "west",
-      "country": "japan",
+      "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-22T11:56:05+00:00",
-      "title_orig": "【Claudeが示す落とし穴】AIが賢くなるほど、人間の判断は怪しくなる",
+      "published": "2026-11-23T18:50:58+00:00",
       "summary_orig": ""
+    },
+    {
+      "id": "efa5eda9fdbf",
+      "title": "El responsable de IA de Microsoft expresa su apoyo a la iniciativa de OpenAI para aumentar la transparencia de la inteligencia artificial",
+      "summary": "El jefe de IA de Microsoft respalda la iniciativa de OpenAI para mejorar la transparencia de la inteligencia artificial.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ubWp5QVJvb29USC1ZRVJfYnpxTGRkaU5RQ1ZMTjlyckRqTmtfXzZzam5QSjUtei1KSjhJNUpRY28ySmxoNVJrZ0RBVUJoRXA2OThOWnB5bFZmTXZFc043RndFNW16TFlBUGRjWkYyX1hKX0tFdEJ2Vg?oc=5",
+      "sourceLabel": "Google News — IA China (zh)",
+      "publisher": "新浪财经",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-23T18:35:47+00:00",
+      "title_orig": "微软AI负责人表态支持OpenAI提升人工智能透明度倡议",
+      "summary_orig": ""
+    },
+    {
+      "id": "02839082ff9f",
+      "title": "Un filósofo legendario no se cree el argumento de Anthropic sobre la conciencia",
+      "summary": "Antes de su publicación, Anthropic advirtió que la posible consciencia o sensibilidad de la IA es un riesgo para los inversores.",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "sourceLabel": "MIT Tech Review AI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "research",
+      "published": "2026-11-23T17:36:08+00:00",
+      "title_orig": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "summary_orig": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…"
+    },
+    {
+      "id": "77e785cb75fb",
+      "title": "¿Dudas sobre la inteligencia artificial? Anthropic sale a bolsa en plena tormenta bursátil de las tecnológicas",
+      "summary": "Anthropic, la startup de IA, se cotiza en bolsa pese a la turbulencia del sector tecnológico.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV0h3eTVwaFpZN05QVXRCQkpNaU9KSUJ3VGcyN1dxNVZ6MnNYQjFUUGlyenJUa29zcWVkTXduem80eHJxeGRIMWZQQ1BmZmc3ZWl4VF9ScWd4Y0d2UFRFSVAxMTZFYmhNd1NQV3F6V2JFNTBVVUt4MHU2STZWOExXYnEwaWFYUG1RcWxHa2RLNmZnd0dBODRKRjlXd25BdzBpU1pvcl9VdE1sRUpuVWctZ1UwOVlGeUNjME1SLS15Mks0Y3l4Mkt4YmlROWVkZHU3LTRiY0FKMDYyWHc?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "The Conversation",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-23T17:23:20+00:00",
+      "title_orig": "¿Dudas sobre la inteligencia artificial? Anthropic sale a bolsa en plena tormenta bursátil de las tecnológicas",
+      "summary_orig": ""
+    },
+    {
+      "id": "9dddeb89e408",
+      "title": "Encontrar algoritmos cuánticos más rápidos con agentes y verificación formal",
+      "summary": "Equipos de agentes y verificación formal mejoran algoritmos cuánticos para fusión y química.",
+      "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "sourceLabel": "DeepMind",
+      "publisher": "",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T16:59:40+00:00",
+      "title_orig": "Finding faster quantum algorithms with agents and formal verification",
+      "summary_orig": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry."
+    },
+    {
+      "id": "1f835c058a41",
+      "title": "Claude, la IA de Anthropic, resuelve la conjetura de Riemann: alegría y preocupación",
+      "summary": "Claude, la IA de Anthropic, ha demostrado una solución a la conjetura de Riemann, generando tanto entusiasmo como inquietud en la comunidad científica.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTk4zNGNoY29zcFJIREk2bmtSazlZM194THVTRXVwb3plYnVNZENUaU5hX1RhTjY4WDZjS3RoTDZvZFFIbjFWRTdGcUpEYW5KQThpQ1JtQXllNkxEVnRES2xLR2d4aUdjaXdjY0FyVE1SdEYzTnViTTMtalFrLVVEQkxES2dvWWtDMTVxMW84d0pkanJaM2xxODdNeTFlQWFm?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "Euronews.com",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-23T16:11:09+00:00",
+      "title_orig": "Anthropic-AI Claude knackt Riemannsche Vermutung: Jubel und Sorge",
+      "summary_orig": ""
+    },
+    {
+      "id": "d545c3fa624d",
+      "title": "OpenAI ha propuesto limitar el desarrollo de la IA: el mercado necesita unas normas de seguridad uniformes.",
+      "summary": "OpenAI propone normas de seguridad uniformes para frenar el desarrollo descontrolado de la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNldXbmNwRXRBVS1PQTgyTHV4UW02OVp3WnpGX0RtRzVSSkRyTjFkWjBmb3lDbGVDXzZwZU5wam1aWG1iVjliSEhCVkNJYVFjZy1YM0lUV25aaE5ReU13XzNKLWVvV1BLMXpaTnBMUVhtZ2RkODhfdWJCakJObTBhc0VBcGV1b1J1OXl2eDZyRVJPMmhNSkhLSmxXVVMycko1dUltR2poWVlaSk40QXZ1UUNyU09YNlhqMmlONk82a2FyckQ0VDNRVnJwTkNXb0pO?oc=5",
+      "sourceLabel": "Google News — IA Rusia",
+      "publisher": "rb.ru",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-23T16:00:00+00:00",
+      "title_orig": "OpenAI предложила ограничить развитие ИИ — рынку нужны единые правила безопасности",
+      "summary_orig": ""
+    },
+    {
+      "id": "52bcd0f18b7e",
+      "title": "Acuerdo de OpenAI y el Estado: Los servicios públicos que podrían simplificar sus trámites con inteligencia artificial",
+      "summary": "OpenAI firma convenio con el Estado para que los servicios públicos usen IA y agilicen sus trámites.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaTJqZU5vV3Y0dXN5ckt4LTJFd2hmckVVaC0tU1JNeEF0dUF5d1Q4d24wY0JwaHFBNnh5d1U0VnBnRDlyUHhmajlKOVd6N3R6Vl91ejhuMUhPZHJQRksyY2k2bWY2SUZQSDBDVmVXcW5QVmt3OTRpM2o5X3FzVUhHbmNTQ0JwVGVXdlFPTWszMElOQlhZdDg1UUJXbGlLY01uNUVYODh2ckxtcWRQYUpWSGVCQzQtYlpoZEhXU0lmMExfQzdsSmJYei1ZQjY2UQ?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "Teletrece",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-23T15:01:54+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "f8a4e02f4212",
+      "title": "Inteligencia conectada para los departamentos jurídicos internos",
+      "summary": "Stacey Wang y Craig Bruney de OpenAI, Mary O’Carroll de LECG y Richard Segal de Cooley analizan cómo la IA ayuda a los equipos legales internos a conectar el contexto empresarial, crear flujos de trabajo reutilizables y optimizar la colaboración con abogados externos.",
+      "sourceUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T08:00:00+00:00",
+      "title_orig": "Connected intelligence for in-house legal",
+      "summary_orig": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel."
+    },
+    {
+      "id": "680b35173b97",
+      "title": "Richpanel ayuda a las empresas a automatizar el 50 % de la asistencia en 30 días",
+      "summary": "Richpanel emplea GPT‑6 Astra y GPT‑6.1 Sol para dotar a sus agentes de IA con herramientas y procedimientos, y GPT‑6 Luna para sus conversaciones.",
+      "sourceUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T08:00:00+00:00",
+      "title_orig": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary_orig": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations."
+    },
+    {
+      "id": "f24076996026",
+      "title": "Mistral: ¿Es esta empresa una verdadera alternativa de IA para Europa?",
+      "summary": "Mistral podría convertirse en la verdadera alternativa europea de IA, ofreciendo modelos locales y soberanos frente a los gigantes estadounidenses.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUGhtd1FBTndrZnBLUUdOUEJ4UjM0VVRSMURrS1lxb0wwckw2WUZFY1oyNlAxakFhVU8xSzJ6SW94bVNnbWR5QXhTcnFzN21MVE1Xb3NiaHRab2hGU3hPQjJCcUhpWVlpa0JWcUJ3bEhrT0UxNG8taTVwQ2pxd1BtemswNWxEQ2pHYTZCNUxBVGlUN2xUb01kS0dNR1BXbU15VGszT3M4elBUc0N1ZlFVOVdPaDJaRkdJR1JSd0VPck9lRlBSa1J6MkpUYUhQTHhBelBHWmpn?oc=5",
+      "sourceLabel": "Google News — IA Alemania",
+      "publisher": "FAZ",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "mistral"
+      ],
+      "source": "news",
+      "published": "2026-11-23T07:29:42+00:00",
+      "title_orig": "Mistral: Ist dieses Unternehmen eine echte KI-Alternative für Europa?",
+      "summary_orig": ""
+    },
+    {
+      "id": "b78e60e66ae0",
+      "title": "Cuáles son los grandes problemas matemáticos que los gigantes de la IA Anthropic y OpenAI afirman haber resuelto en los últimos meses",
+      "summary": "Los gigantes de IA Anthropic y OpenAI aseguran haber resuelto importantes problemas matemáticos en los últimos meses.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNa3RoclM1YmtMbG9lQ0dRaHdQanVjMHJGUFJSVE5pbWNibEFpV0NDS3hXZndyMHg1SGt3cWhZZWdTTk5mU2RzcHh0dlc5dnRhYUhrRjM2dlNJTjA1R214SU9mZnl3dlRWRWl4OFJhSTNkVmpLQTBLOGpjTkN2MGVLMzY2REpFRXl4N1o5el96QXZFdThjMkd4REdveTdtZkZORTlTQ3FzWGJWUXlUdEk0dmpoM0RzVVU1ZG43emtkVDZTelE3S2pGWkcwd19fSmtQbDB0U29VNDUxaWFad1oyY0ZjZ0l4YXd0T2hfUkpkNzVFcWI3SlhsN3VGX04yTERvWmVIRUN5Y2RWVzZ4eGZiMGZPRWRWOUFCS3ZEdDZrZWI2YTJ2UjhF?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude",
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-23T05:00:54+00:00",
+      "title_orig": "Quels sont les grands problèmes mathématiques que les géants de l'IA Anthropic et OpenAI disent avoir résolu ces derniers mois",
+      "summary_orig": ""
+    },
+    {
+      "id": "6c0b16176970",
+      "title": "Yaoshun Yu y el equipo de Hunyuan responden a los usuarios de Reddit: el pequeño modelo Hy ya está en la hoja de ruta",
+      "summary": "También reveló varios secretos del entrenamiento.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/511921.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T02:09:59+00:00",
+      "title_orig": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "summary_orig": "还透露了不少训练背后的秘诀"
     },
     {
       "id": "3e3659d6d4ef",
       "title": "Los mejores agentes personales de IA en 2026: OpenClaw, Hermes Agent, Gemini Spark y otros, comparados en función de la memoria, la seguridad y el coste",
-      "summary": "Los mejores agentes de IA personal en 2026, como Hermes Agent, OpenClaw, Gemini Spark, OpenAI Dots, Meta Muse y Perplexity, se comparan por memoria, seguridad y costo.",
+      "summary": "Los agentes de IA personales mejor clasificados en 2026 son OpenClaw, Hermes Agent, Gemini Spark, Meta Muse, Perplexity PC y OpenAI Dots, evaluados por memoria, seguridad y costo.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -81,280 +355,6 @@
       "published": "2026-11-22T10:36:17+00:00",
       "title_orig": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
       "summary_orig": "Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost ."
-    },
-    {
-      "id": "2361e0929a29",
-      "title": "Signal bloqueará que Siri y Gemini AI registren los chats en iOS y Android",
-      "summary": "Signal ha añadido protecciones que impiden capturas de pantalla en iOS 27 y bloquean a los asistentes de IA de grabar conversaciones en Android compatible.",
-      "sourceUrl": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-      "sourceLabel": "BleepingComputer",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-22T10:15:25-05:00",
-      "title_orig": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "summary_orig": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]"
-    },
-    {
-      "id": "c907589fe764",
-      "title": "Google AI presenta una vista previa de la función de recuperación de herramientas en la API de Gemini para grandes bibliotecas de herramientas",
-      "summary": "Google lanzó en vista previa Gemini API Tool Retrieval, permitiendo que los agentes mantengan una gran biblioteca de herramientas y carguen cada esquema solo cuando se necesita en una sola solicitud.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-22T10:03:54+00:00",
-      "title_orig": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
-      "summary_orig": "Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost ."
-    },
-    {
-      "id": "d1f67c5edc50",
-      "title": "Claude, matemático de la empresa A, vuelve a demostrar otro de los Problemas del Milenio, lo que obliga a publicar un manuscrito escrito íntegramente por humanos de 940 páginas y 12 años de trabajo.",
-      "summary": "Claude, matemático de la empresa A, resuelve otro Problema del Milenio, obligando a publicar un manuscrito humano de 940 páginas tras 12 años de trabajo.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511870.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-22T06:03:54+00:00",
-      "title_orig": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
-      "summary_orig": ""
-    },
-    {
-      "id": "2080081335b0",
-      "title": "Alain Claude Sulzer: Cómo la inteligencia artificial ha cambiado mi forma de escribir",
-      "summary": "Alain Claude Sulzer explica cómo la IA ha transformado su manera de escribir.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaG9RMW4wb3M0M0ZSeUQ3MUZDM3o0M09aOC13aFNmbG9JUktPMk5nTkFsNWg3ZlRSaGI5VVU2ZU5fbERYTno0dk5hLVBfT2lNWmNYUDk0WmNqX3F2a0Z6Q181ZFdYVkZYYVJnYnowWFlEVWhmQmdlTHZ4dDdtQmhTLTJDdWxORHI5dGhyQVp0SW5sbV92b3RzTWc2aWt3a0VkTTRaRnRB?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Neue Zürcher Zeitung",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-22T04:30:00+00:00",
-      "title_orig": "Alain Claude Sulzer: Wie die künstliche Intelligenz mein Schreiben verändert",
-      "summary_orig": ""
-    },
-    {
-      "id": "de5cd1a6d51d",
-      "title": "Perplejidad e inteligencia",
-      "summary": "Cómo la perplejidad mide el avance de los modelos de IA y puede ayudar a los desarrolladores a crear un método común para evaluar nuevas capacidades.",
-      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt",
-        "perplexity"
-      ],
-      "source": "lab",
-      "published": "2026-11-22T00:00:00+00:00",
-      "title_orig": "Perplexity and Intelligence",
-      "summary_orig": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
-    },
-    {
-      "id": "653fba30ab90",
-      "title": "Un empleado de Anthropic afirma haber resuelto el «Santo Grial» de los problemas matemáticos con ayuda de la IA",
-      "summary": "Un empleado de Anthropic dice haber solucionado el “Santo Grial” de los problemas matemáticos usando IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeDhhZ0pwMWJNbkR2VTZhRjZTQmllVURNTzdlR0htZVAwUW13akZUNnlwc2FaaE1PcWh5eVlEX1Z2dDlFclhHalVRNVJwek1LNkVzcm5HcjdoeFdNWEVWc29rMmV3U3lKNmh5b01tcWdxZk1LN2hua1ktcWVTRzVLMWc0cUQ5WnoyMGc?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "CNN en Español",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-21T15:50:00+00:00",
-      "title_orig": "Un empleado de Anthropic afirma haber resuelto el \"Santo Grial\" de los problemas matemáticos con ayuda de la IA",
-      "summary_orig": ""
-    },
-    {
-      "id": "0e90985b9591",
-      "title": "OpenAI, Anthropic y sus rivales buscan normas para los agentes de IA con el fin de evitar el caos comercial",
-      "summary": "OpenAI, Anthropic y otras grandes tecnológicas apoyan normas para que agentes colaboren sin que una sola empresa los controle.",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
-      "sourceLabel": "CoinDesk",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-21T14:00:00+00:00",
-      "title_orig": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
-      "summary_orig": "OpenAI, Anthropic, and other technology giants are backing standards designed to enable agents to work together without putting any one company in control."
-    },
-    {
-      "id": "2f27d9c8f892",
-      "title": "Hipótesis de Riemann: el modelo de IA Claude habría encontrado una demostración del problema del milenio",
-      "summary": "Claude, el modelo de IA, habría hallado una demostración de la hipótesis de Riemann, uno de los problemas del milenio.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMDJIVGJxTEdibkRVeG5xbUowLTNqbFo3V1RMeTVyMklXTTFnc2F1N2pvYllFWXpvb2U2bHctRGdNOHQ2bFVDYV8zd0N0cUotczRTM3gzZ043dE5fM0RHTmsxdVpOM2puVzhhLTdsYVZkQ2wxQ00wQnpZem1xSnZXQVNQZWNMbGt6YUtYaWVZZFZLdkFHNHd2M3dMNXlMSkkxZldTc3RaVWtPX2pfaHlVMnN5NUFyTDZoQ1BDNEpKZjdOVjBySVVz?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "SZ.de",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-21T12:53:24+00:00",
-      "title_orig": "Riemannsche Vermutung: KI-Modell Claude soll Beweis für Millennium-Problem gefunden haben",
-      "summary_orig": ""
-    },
-    {
-      "id": "1be0cb9ade49",
-      "title": "OpenAI lanza GPT-Live-1.1 para agentes de voz y reduce el coste de inactividad a 0,02 $ por minuto",
-      "summary": "OpenAI lanzó GPT‑Live‑1.1, un modelo de voz full‑duplex con mejor acento multilingüe y transcripción, y redujo el costo de inactividad a $0,02/min.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-21T11:46:17+00:00",
-      "title_orig": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
-      "summary_orig": "OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead of $0.05. The post OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min appeared first on MarkTechPost ."
-    },
-    {
-      "id": "ab3cbf28edfc",
-      "title": "¡Se ha vuelto viral en toda la red! La reina de Grok te enseña cómo enviar 3000 PR al mes",
-      "summary": "La reina de Grok se vuelve viral al mostrar cómo generar 3000 relaciones públicas mensuales.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511830.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "grok"
-      ],
-      "source": "lab",
-      "published": "2026-11-21T11:34:18+00:00",
-      "title_orig": "全网疯传！Grok一姐教你如何月提交3000个PR",
-      "summary_orig": ""
-    },
-    {
-      "id": "e6d6279bda9e",
-      "title": "Tras superar a Gemini, Karpo lanza una nueva versión de código abierto, y el navegador Agent se beneficia rápidamente de una situación de doble beneficio.",
-      "summary": "Karpo supera a Gemini y lanza una nueva versión de código abierto, mientras el navegador Agent aprovecha rápidamente este doble beneficio.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511791.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-21T11:24:29+00:00",
-      "title_orig": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
-      "summary_orig": ""
-    },
-    {
-      "id": "4cb075a5562c",
-      "title": "Se acaba de presentar el proyecto emprendedor del creador de DeepSeek V1: un agente de código abierto.",
-      "summary": "Diseñada específicamente para despliegues locales.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511570.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "deepseek"
-      ],
-      "source": "lab",
-      "published": "2026-11-21T06:32:31+00:00",
-      "title_orig": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-      "summary_orig": "专为本地部署而生"
-    },
-    {
-      "id": "d989f1069121",
-      "title": "Yaoshun Yu y el equipo de Hunyuan responden a los usuarios de Reddit: el pequeño modelo Hy ya está en la hoja de ruta",
-      "summary": "Reveló varios secretos del entrenamiento detrás del modelo.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511757.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "hunyuan"
-      ],
-      "source": "lab",
-      "published": "2026-11-21T06:30:55+00:00",
-      "title_orig": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
-      "summary_orig": "还透露了不少训练背后的秘诀"
-    },
-    {
-      "id": "639c8faff8ef",
-      "title": "Chile y OpenAI ante el desafío de regular la inteligencia artificial",
-      "summary": "Chile y OpenAI enfrentan el reto de crear normas que regulen la inteligencia artificial en el país.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORG12eElJckZSNlBZeFR5aFYybFZCQ0JDODgyUkc2OThCUXF2bDRCeHptWjZQTFhUampDNEdPRXI5a1VtLVVsTjBfZVRXVzdaZldpam45M044cFR0RVJhR3NzdFhTbUZLOWdKSmFxUzFULUpNVzRRV1dMWVNEcXV4TXdsN2YySTNQUTlqSXpDbVpnYWpheDZjS1lkdVZGSVRyNGoyamVyRzV2NlJsMnA1dkhRTUpvTlRNNjB4bmxqTjFLSHlmajI1ZzF4MVl3UQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "El Mostrador",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-21T03:46:25+00:00",
-      "title_orig": "Chile y OpenAI ante el desafío de regular la inteligencia artificial",
-      "summary_orig": ""
-    },
-    {
-      "id": "6b24028b6cd7",
-      "title": "Inteligencia artificial: un investigador de Anthropic afirma haber resuelto un problema matemático del milenio",
-      "summary": "Un investigador de Anthropic asegura haber resuelto el problema del milenio del cálculo de la constante de Feigenbaum.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTmZzVnFBR2M5VlQ3eWp4Tk0yWmdZUlFXck9Rcy1SZ0lPYXEwNEtmRlRqaWdmanptanV5UXl5U19kdTYtQjRVbE5SYk05ZU5FU3hZaTJfVnk5NzRUZ1BLMVdLRy1malI4eEMxdkI5RGlpWUs0REFXbm5xaGE5cGRVNlFQRjU4UEFmaHZHTnQ2dEs1NEJYWjRDVTd1eERuVlRobS1z?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "DIE ZEIT",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-21T01:31:30+00:00",
-      "title_orig": "Künstliche Intelligenz: Anthropic-Forscher will mathematisches Millennium-Problem gelöst haben",
-      "summary_orig": ""
-    },
-    {
-      "id": "da1d6f4a2cd7",
-      "title": "Un matemático de Anthropic afirma haber resuelto la hipótesis de Riemann con la ayuda de Claude",
-      "summary": "Un matemático de Anthropic dice haber resuelto la hipótesis de Riemann usando la IA Claude, según informa The New York Times.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "The New York Times",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-20T21:46:33+00:00",
-      "title_orig": "Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude",
-      "summary_orig": ""
     }
   ]
 }
