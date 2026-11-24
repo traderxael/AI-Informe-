@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-11-23T23:29:33.541016+00:00",
+  "generated_at": "2026-11-24T22:00:59.002470+00:00",
   "count": 20,
   "sources": [
     "Ars Technica AI",
-    "DeepMind",
-    "Google News — IA Alemania",
-    "Google News — IA China (zh)",
+    "Cointelegraph",
+    "Google AI",
     "Google News — IA Francia",
+    "Google News — IA Japón",
     "Google News — IA LATAM",
-    "Google News — IA Rusia",
-    "MIT Tech Review AI",
+    "Google News — IA global",
     "MarkTechPost",
     "OpenAI",
     "QbitAI",
-    "TechCrunch AI"
+    "SecurityWeek",
+    "TechCrunch AI",
+    "The Hacker News",
+    "Wired"
   ],
   "signals": [
     {
-      "id": "27065c561fbc",
-      "title": "Anthropic lanza Claude Ship, que permite a los agentes de IA revisar, corregir y aprobar cambios en el código",
-      "summary": "A medida que aumenta el código generado por IA, las nuevas herramientas de Anthropic permiten que agentes automaticen aprobaciones rutinarias.",
-      "sourceUrl": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "id": "754f867302b7",
+      "title": "Las acciones de Anthropic caen por debajo del precio de salida a bolsa, una señal preocupante para las «start-ups» de IA",
+      "summary": "La caída de Anthropic tras su salida a bolsa podría ejercer presión sobre las valoraciones de las startups de IA.",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
       "region": "west",
@@ -29,30 +31,302 @@
         "claude"
       ],
       "source": "lab",
-      "published": "2026-11-23T22:05:50+00:00",
-      "title_orig": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "summary_orig": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals."
+      "published": "2026-11-24T18:30:42+00:00",
+      "title_orig": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "summary_orig": "Anthropic’s post-IPO slump could put pressure on AI startup valuations."
     },
     {
-      "id": "31bfda3557db",
-      "title": "Qué es Loop Transformer y cómo GLM-5.4 está alcanzando a los modelos con 2-3 billones de parámetros",
-      "summary": "Loop Transformer es una arquitectura que permite a GLM‑5.4 competir con modelos de 2‑3 billones de parámetros.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sZGpuOHBxZjdYc1I2cWhUeDgtcG95QzNTcVRNSkRkMUd4MUZ2NXFheXNacDczaUhUNmJVWjhoWHdtd3RXTG5JNXlwSDZMSkJCWWg5NGZSMWVxb1hQUVJNcUNfQmlsUEnSAVhBVV95cUxNNjdkTTFzVjFGeEFONnFZY2ZJdUQ4WVlPR2V3Zjc1ODVsLVlUZHJBV3c4cmxQRWlqcXBtUDJHWDNJcE9qTFF3QUNuOEsyWnZtYTc1T2dGbzlW?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Хабр",
+      "id": "c0d19b16bb8a",
+      "title": "El bitcoin cae ante la preocupación por los aranceles estadounidenses, mientras que Anthropic cotiza por debajo del precio de su salida a bolsa",
+      "summary": "Bitcoin perdió los avances sobre los 60 000 dólares por la preocupación de aranceles que afectó a las acciones estadounidenses y a las acciones de Anthropic, que cayeron bajo los 76 dólares.",
+      "sourceUrl": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
       "region": "west",
-      "country": "russia",
+      "country": "usa",
       "models": [
-        "glm"
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T17:27:54+00:00",
+      "title_orig": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
+      "summary_orig": "Bitcoin gave up gains above $60,000 as tariff concerns weighed on US stocks and Anthropic shares hit new lows below $76."
+    },
+    {
+      "id": "f627d1402b68",
+      "title": "La salida a bolsa de Anthropic recaudó 81 000 millones de dólares. Estas son las acciones de inteligencia artificial (IA) que se beneficiarán de dónde va a parar el dinero.",
+      "summary": "La IPO de Anthropic recaudó 81 000 millones de dólares, impulsando acciones de IA que se beneficiarán del flujo de capital.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYXNrd19NSzVMdGFnQzZ6OFV1M3Jjd2dZdlNlM29WQmtSU0E1OWZsTFRHTXJFNjQ4X2c3blBzNk04UWtjTVdYVEZ3OU9aVEhIMmRZbVdJc0dvQWZOSGpnWWlLYUlfRTBPS3RpZEVKWGtHWkl0TjdIU0s1TUJPTWFWY0RIWnNXSkF2NHhrRlctYUlIZjAyamw1QWJzNFJxeDZVOEVVT0t0UU1KY29xNXpKTGQyT1BLaUNaaW1ubnE5TWNoRHdFR0FiQTlGS042ZER4Wk9DbGJCdG0zdmRITmtnbnVpc093bnJVVFJOWFlYcmhrUkJoRlhteA?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "The Motley Fool",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
       ],
       "source": "news",
-      "published": "2026-11-23T21:52:29+00:00",
-      "title_orig": "Что такое Loop Transformer и как GLM-5.4 догоняет модели на 2–3 трлн параметров",
+      "published": "2026-11-24T17:23:02+00:00",
+      "title_orig": "Anthropic's IPO Raised $81 Billion. Here’s Which Artificial Intelligence (AI) Stocks Will Benefit From Where the Money Goes.",
+      "summary_orig": ""
+    },
+    {
+      "id": "8d6c7c64bc85",
+      "title": "Cómo Gemini está cambiando las reglas del juego para la organización y los aficionados de los Golden State.",
+      "summary": "Google Gemini se asocia con Golden State para mejorar la experiencia de fans y la gestión del negocio de los Warriors, Valkyries y el Chase Center.",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceLabel": "Google AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T16:00:00+00:00",
+      "title_orig": "How Gemini is changing the game for Golden State's organization and fans.",
+      "summary_orig": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news."
+    },
+    {
+      "id": "4cccc58426de",
+      "title": "Anthropic ha creado un «honeypot» para incitar a los agentes de IA a comportarse de forma inadecuada",
+      "summary": "Una nueva prueba asume que los agentes de IA pueden volverse rebeldes y examina si pueden resistir la tentación.",
+      "sourceUrl": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T16:00:00+00:00",
+      "title_orig": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+      "summary_orig": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation."
+    },
+    {
+      "id": "b013f0fbfb8e",
+      "title": "OpenAI y Cisco presentan Shirudo: un entorno de ejecución Linux de código abierto que permite a los agentes defender los sistemas sin tiempo de inactividad",
+      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime eBPF de código abierto para Linux que permite a agentes de IA crear “escudos” que bloquean vulnerabilidades sin detener el sistema.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T14:16:53+00:00",
+      "title_orig": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+      "summary_orig": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux. AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches. The post OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime appeared first on MarkTechPost ."
+    },
+    {
+      "id": "a6ac99d677c5",
+      "title": "Anthropic amplía las medidas de protección para empresas con el fin de detectar el uso indebido de la IA",
+      "summary": "EFS permite a clientes sin retención detectar usos indebidos de Claude en múltiples solicitudes, manteniendo los datos en su propia nube.",
+      "sourceUrl": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T13:30:23+00:00",
+      "title_orig": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "summary_orig": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud. The post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared first on SecurityWeek ."
+    },
+    {
+      "id": "3c6728c1bfd1",
+      "title": "Los modelos GPT-6 demuestran capacidades intrínsecas de diseño de proteínas",
+      "summary": "Los modelos GPT‑6 diseñan estructuras y secuencias de proteínas mediante razonamiento y código, y pruebas de laboratorio mostraron unión en cinco objetivos.",
+      "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T13:00:00+00:00",
+      "title_orig": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary_orig": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets."
+    },
+    {
+      "id": "6505fd2615eb",
+      "title": "La sombría predicción de un investigador de Anthropic: casi toda la humanidad se quedará sin trabajo por la IA",
+      "summary": "Un investigador de Anthropic advierte que la IA dejará sin empleo a casi toda la humanidad.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMUtuRGRFeU84cmlraVlOc3U1aVl0Z2xWNWtRSVdCeWMyaXdsX1dGeTVodFQ0Q3NYWDVMYnUxYVNVazFqa1Y1R3hXVXNfXzFZWkpPeUR6NHRFTjZFZUNpcFl0NDBYUzIzOUxqdlF0bWtqRVF4Wl9xbjlOWl81MlVqTXd6aw?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "The Clinic",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-24T12:27:14+00:00",
+      "title_orig": "La sombría predicción de un investigador de Anthropic: casi toda la humanidad se quedará sin trabajo por la IA",
+      "summary_orig": ""
+    },
+    {
+      "id": "70ffa0cfd81d",
+      "title": "OpenAI y Cisco presentan una herramienta de código abierto para proteger los sistemas Linux sin parches",
+      "summary": "OpenAI y Cisco presentan Shirudo, una herramienta de código abierto que usa escudos generados por IA para bloquear exploits en Linux sin parchear, aunque aún no está lista para producción.",
+      "sourceUrl": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+      "sourceLabel": "SecurityWeek",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T12:20:41+00:00",
+      "title_orig": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "summary_orig": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready. The post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek ."
+    },
+    {
+      "id": "75bb30c4d100",
+      "title": "Los investigadores de Google DeepMind afirman que el desarrollo de la IA va más allá de la inteligencia artificial general (AGI) de nivel humano y avanza hacia la inteligencia artificial supergeneral (ASI), que superará a los grupos de expertos humanos.",
+      "summary": "Los científicos de DeepMind dicen que la IA está pasando de la AGI humana a una IA supergeneral que superará a cualquier equipo de expertos.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95XzRVU2FodnpERlNBR0NhYmVwN2NUTlZHS3FCYllvUmhZa1ZhM0d2RWtZaDlUTHdvWDhHbUdiZkRwZzVpWkhxVXRUUnF2ZlhfZ1ltOHZCclh6aVlJdzc3RVo3Zy1lMUE?oc=5",
+      "sourceLabel": "Google News — IA Japón",
+      "publisher": "GIGAZINE",
+      "region": "west",
+      "country": "uk",
+      "models": [
+        "gemini"
+      ],
+      "source": "news",
+      "published": "2026-11-24T12:00:00+00:00",
+      "title_orig": "AI開発は人間レベルの汎用人工知能「AGI」を超え人間の専門家集団を凌駕する汎用人工超知能「ASI」へと向かうとGoogle DeepMindの研究者が主張",
+      "summary_orig": ""
+    },
+    {
+      "id": "a0a25e5ec068",
+      "title": "OpenAI y Cisco presentan una herramienta de seguridad para Linux asistida por IA para bloquear los «exploits» antes de aplicar parches",
+      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime Linux de código abierto que permite a agentes de IA crear controles eBPF para proteger sistemas sin interrupciones.",
+      "sourceUrl": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "sourceLabel": "The Hacker News",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "social",
+      "published": "2026-11-24T11:32:57+05:30",
+      "title_orig": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "summary_orig": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches,\" OpenAI said in a post on X. The AI upstart called the initiative a"
+    },
+    {
+      "id": "f3aa9260f109",
+      "title": "Búsqueda de planetas lejanos con Astra",
+      "summary": "Dos astrónomos aficionados emplearon Codex y Astra para descubrir posibles exoplanetas en datos públicos de los telescopios Kepler y TESS de la NASA.",
+      "sourceUrl": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T11:00:00+00:00",
+      "title_orig": "Searching for distant planets with Astra",
+      "summary_orig": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes."
+    },
+    {
+      "id": "e5443a251948",
+      "title": "Wenxin 5.5 Flash Preview se lanza oficialmente como código abierto bajo la licencia Apache 2.0",
+      "summary": "Wenxin 5.5 Flash Preview se publica oficialmente como código abierto bajo la licencia Apache 2.0.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/512354.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "ernie"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T06:22:28+00:00",
+      "title_orig": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+      "summary_orig": ""
+    },
+    {
+      "id": "2726be621d67",
+      "title": "«Señor abogado, lo que usted ha hecho, ChatGPT me lo ha hecho en cinco minutos»: cómo la inteligencia artificial está revolucionando la profesión de abogado",
+      "summary": "La IA, como ChatGPT, permite a los abogados realizar en minutos tareas que antes tomaban horas, transformando la práctica legal.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPSl9RaTJmc0JRWmlfOTNUZm1Va2ZHem5uQWQtODZnTldxWExqZ1l6VFdUcUJEMTdJSDkyZjU5aGx2QjdJRDFEX3FsZ05Ddlh1X1BwNVY0cGx0Tl83Zm50T1VGRjR1ZFo2NTBURUxFN0tFem9RVy1vLXgtYVg5WVVycG40Rl8wOXVWbmFydG4xYzliaWJrcmlrYXQ5cTlBRmp2SzZHX20tSGw3ZmZYUDlscEMwX0w4NkFfUW5QRGRWd1o2c3Jyc3lJdVZsRTdwcHVzLWd3Z2ZjenotdEFicWxqLVU5OVNRTUxqdGl6MXRoVWFXU0Zzc2xBR1lCREUtbDM5MTJUcHlqTFB5NEZmczR0b290NUhoTUVkbUliWGxBYjdVUXZWejBWZUhPM1NvTEpPek44cHVwTWdoUQ?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "franceinfo",
+      "region": "west",
+      "country": "france",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-24T06:11:00+00:00",
+      "title_orig": "\"Maître, ce que vous avez fait, ChatGPT me l'a fait en cinq minutes\" : comment l'intelligence artificielle bouscule la profession d'avocat",
+      "summary_orig": ""
+    },
+    {
+      "id": "1306bce61e3e",
+      "title": "Anthropic lanza Claude Ship para la revisión y corrección de «pull requests» de GitHub",
+      "summary": "Claude Ship de Anthropic combina Code Review, PR Steward y Claude Approvals para revisar, corregir y aprobar pull requests en GitHub; Code Review ya está disponible y los otros dos están en beta pública.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T00:02:39+00:00",
+      "title_orig": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+      "summary_orig": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise. The post Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes appeared first on MarkTechPost ."
+    },
+    {
+      "id": "ec442b764e04",
+      "title": "Cómo Intentful utiliza los puntos para tener más tiempo para crecer",
+      "summary": "Aria, la herramienta de Marina Petrova, investiga sitios web, elabora propuestas y alerta proactivamente sobre mensajes y problemas.",
+      "sourceUrl": "https://openai.com/business/customer-stories/intentful-dots",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T00:00:00+00:00",
+      "title_orig": "How Intentful uses dots to make more time for growth",
+      "summary_orig": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues."
+    },
+    {
+      "id": "7a6462e387eb",
+      "title": "Cómo iFood escala los agentes de codificación en 15 000 repositorios",
+      "summary": "iFood amplía sus agentes de codificación a 15 000 repositorios.",
+      "sourceUrl": "https://openai.com/business/customer-stories/ifood",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T00:00:00+00:00",
+      "title_orig": "How iFood scales coding agents across 15,000 repositories",
       "summary_orig": ""
     },
     {
       "id": "afbf4ed7c77a",
-      "title": "Varios estados demandan a SpaceX para impedir que Grok genere imágenes de abusos sexuales infantiles y «porno vengativo»",
+      "title": "Varios estados demandan a SpaceX para impedir que Grok genere imágenes de abusos sexuales infantiles y pornografía vengativa",
       "summary": "X afirma que revisa todo el contenido de Grok, pero fiscales estatales aseguran que sigue generando material de abuso sexual infantil.",
       "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
       "sourceLabel": "Ars Technica AI",
@@ -83,278 +357,6 @@
       "published": "2026-11-23T21:20:00+00:00",
       "title_orig": "OpenAI and Cisco introduce Shirudo",
       "summary_orig": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
-    },
-    {
-      "id": "146b5e8c1de7",
-      "title": "GigaChat y «Alisa AI» frente a ChatGPT: resultados de la encuesta de redes neuronales del VCIOM",
-      "summary": "La encuesta del VCIOM muestra que GigaChat y Alisa AI compiten con ChatGPT, obteniendo resultados destacados en redes neuronales.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45WlJWYURzZ2luYXVIQ3NFc1V5eUd0RU9reVNMSEhwQ2RPQ1JpeGNhYm0xV2UtWHJ2Q29ZWndDNmJZS3pFMDY5RF9mNzU0cmZMbVU3OUtyeTVlTlNxZWRrMEdnTlRuQ2dfdGlBb3oxZw?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "Эксперт",
-      "region": "west",
-      "country": "russia",
-      "models": [
-        "gpt",
-        "gigachat"
-      ],
-      "source": "news",
-      "published": "2026-11-23T21:01:00+00:00",
-      "title_orig": "GigaChat и «Алиса AI» против ChatGPT: итоги опроса нейросетей ВЦИОМ",
-      "summary_orig": ""
-    },
-    {
-      "id": "9c47dc701af7",
-      "title": "Z AI presenta GLM-5.4: un transformador de bucle de 750 000 millones que ejecuta 28 capas dos veces",
-      "summary": "Z.ai lanzó GLM‑5.4, un modelo Loop Transformer de 750 B que ejecuta 28 capas dos veces para razonamiento profundo, con API y pesos abiertos próximamente.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "glm"
-      ],
-      "source": "lab",
-      "published": "2026-11-23T19:11:40+00:00",
-      "title_orig": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
-      "summary_orig": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work. The post Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice appeared first on MarkTechPost ."
-    },
-    {
-      "id": "707b80a0f10b",
-      "title": "Una IA de Anthropic habría resuelto el santo grial de las matemáticas, pero falta verificarlo",
-      "summary": "Una IA de Anthropic parece haber resuelto el santo grial de las matemáticas, aunque aún queda por confirmar su hallazgo.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcnlsLTA0S3N4a2NUMlRQdDJydktkanZ2dDMzTENqZUxSUmkxbEVnVUZJTi1waW03UE16cVhtSm9oLWVJRWVCb3hDei1JazViZzdjN3pncUlTYU9aX2tfY3o4bkZieExMVGcyZGR6WWx5ZU03RjNkVHFMYUJFZHlLSDZudmF4MHNuOV94YjJVQ3RxWWdQa1VHenc4a2RnNGFTdjZZNWxPU29JbnlRUERlVzhKYlgxcHZMWGdXOUNYTjhHbmdpSUotU2xkZ1d2WnplMnM3Qk9MUXowUlhaM0twMTNLblZQbEpqck9LM1F5ektLZS1vMWtpUGlB0gH6AUFVX3lxTFBqUzYxUFNZZEJfZWZLOGVBd2cxanVuWHcycG8xZGkxd1otZjhqbDAxWnpudk1OMllyQVB5Y1dvVGJEeFZaMmt3M2NuQ2hIY1gwajVRQTNFNkdhMDF1Zzhha2ZTTmpOTE1EVE5IZE8xdm9kT1M4WW9lZDZpTGxFLW0yYUp4VXRkRGRVcXdON3FjdERkODNBMms0R0pMMDFyalFNblBDWDhkLWM1UzQ0eTFJQVJ5REFsQ2lEY3F6OUZ6ZXdEa3dPUTd1QUpWd0d1UkI1M0tIWVNlSTJiYnRGa2Z4YmFfQy1IN3JYN3RySVBvWHVzSEJLY1QzdUE?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "DW.com",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-23T18:50:58+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "efa5eda9fdbf",
-      "title": "El responsable de IA de Microsoft expresa su apoyo a la iniciativa de OpenAI para aumentar la transparencia de la inteligencia artificial",
-      "summary": "El jefe de IA de Microsoft respalda la iniciativa de OpenAI para mejorar la transparencia de la inteligencia artificial.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ubWp5QVJvb29USC1ZRVJfYnpxTGRkaU5RQ1ZMTjlyckRqTmtfXzZzam5QSjUtei1KSjhJNUpRY28ySmxoNVJrZ0RBVUJoRXA2OThOWnB5bFZmTXZFc043RndFNW16TFlBUGRjWkYyX1hKX0tFdEJ2Vg?oc=5",
-      "sourceLabel": "Google News — IA China (zh)",
-      "publisher": "新浪财经",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-23T18:35:47+00:00",
-      "title_orig": "微软AI负责人表态支持OpenAI提升人工智能透明度倡议",
-      "summary_orig": ""
-    },
-    {
-      "id": "02839082ff9f",
-      "title": "Un filósofo legendario no se cree el argumento de Anthropic sobre la conciencia",
-      "summary": "Antes de su publicación, Anthropic advirtió que la posible consciencia o sensibilidad de la IA es un riesgo para los inversores.",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-      "sourceLabel": "MIT Tech Review AI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "research",
-      "published": "2026-11-23T17:36:08+00:00",
-      "title_orig": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-      "summary_orig": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…"
-    },
-    {
-      "id": "77e785cb75fb",
-      "title": "¿Dudas sobre la inteligencia artificial? Anthropic sale a bolsa en plena tormenta bursátil de las tecnológicas",
-      "summary": "Anthropic, la startup de IA, se cotiza en bolsa pese a la turbulencia del sector tecnológico.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV0h3eTVwaFpZN05QVXRCQkpNaU9KSUJ3VGcyN1dxNVZ6MnNYQjFUUGlyenJUa29zcWVkTXduem80eHJxeGRIMWZQQ1BmZmc3ZWl4VF9ScWd4Y0d2UFRFSVAxMTZFYmhNd1NQV3F6V2JFNTBVVUt4MHU2STZWOExXYnEwaWFYUG1RcWxHa2RLNmZnd0dBODRKRjlXd25BdzBpU1pvcl9VdE1sRUpuVWctZ1UwOVlGeUNjME1SLS15Mks0Y3l4Mkt4YmlROWVkZHU3LTRiY0FKMDYyWHc?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "The Conversation",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-23T17:23:20+00:00",
-      "title_orig": "¿Dudas sobre la inteligencia artificial? Anthropic sale a bolsa en plena tormenta bursátil de las tecnológicas",
-      "summary_orig": ""
-    },
-    {
-      "id": "9dddeb89e408",
-      "title": "Encontrar algoritmos cuánticos más rápidos con agentes y verificación formal",
-      "summary": "Equipos de agentes y verificación formal mejoran algoritmos cuánticos para fusión y química.",
-      "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-23T16:59:40+00:00",
-      "title_orig": "Finding faster quantum algorithms with agents and formal verification",
-      "summary_orig": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry."
-    },
-    {
-      "id": "1f835c058a41",
-      "title": "Claude, la IA de Anthropic, resuelve la conjetura de Riemann: alegría y preocupación",
-      "summary": "Claude, la IA de Anthropic, ha demostrado una solución a la conjetura de Riemann, generando tanto entusiasmo como inquietud en la comunidad científica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTk4zNGNoY29zcFJIREk2bmtSazlZM194THVTRXVwb3plYnVNZENUaU5hX1RhTjY4WDZjS3RoTDZvZFFIbjFWRTdGcUpEYW5KQThpQ1JtQXllNkxEVnRES2xLR2d4aUdjaXdjY0FyVE1SdEYzTnViTTMtalFrLVVEQkxES2dvWWtDMTVxMW84d0pkanJaM2xxODdNeTFlQWFm?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Euronews.com",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-23T16:11:09+00:00",
-      "title_orig": "Anthropic-AI Claude knackt Riemannsche Vermutung: Jubel und Sorge",
-      "summary_orig": ""
-    },
-    {
-      "id": "d545c3fa624d",
-      "title": "OpenAI ha propuesto limitar el desarrollo de la IA: el mercado necesita unas normas de seguridad uniformes.",
-      "summary": "OpenAI propone normas de seguridad uniformes para frenar el desarrollo descontrolado de la IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNldXbmNwRXRBVS1PQTgyTHV4UW02OVp3WnpGX0RtRzVSSkRyTjFkWjBmb3lDbGVDXzZwZU5wam1aWG1iVjliSEhCVkNJYVFjZy1YM0lUV25aaE5ReU13XzNKLWVvV1BLMXpaTnBMUVhtZ2RkODhfdWJCakJObTBhc0VBcGV1b1J1OXl2eDZyRVJPMmhNSkhLSmxXVVMycko1dUltR2poWVlaSk40QXZ1UUNyU09YNlhqMmlONk82a2FyckQ0VDNRVnJwTkNXb0pO?oc=5",
-      "sourceLabel": "Google News — IA Rusia",
-      "publisher": "rb.ru",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-23T16:00:00+00:00",
-      "title_orig": "OpenAI предложила ограничить развитие ИИ — рынку нужны единые правила безопасности",
-      "summary_orig": ""
-    },
-    {
-      "id": "52bcd0f18b7e",
-      "title": "Acuerdo de OpenAI y el Estado: Los servicios públicos que podrían simplificar sus trámites con inteligencia artificial",
-      "summary": "OpenAI firma convenio con el Estado para que los servicios públicos usen IA y agilicen sus trámites.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaTJqZU5vV3Y0dXN5ckt4LTJFd2hmckVVaC0tU1JNeEF0dUF5d1Q4d24wY0JwaHFBNnh5d1U0VnBnRDlyUHhmajlKOVd6N3R6Vl91ejhuMUhPZHJQRksyY2k2bWY2SUZQSDBDVmVXcW5QVmt3OTRpM2o5X3FzVUhHbmNTQ0JwVGVXdlFPTWszMElOQlhZdDg1UUJXbGlLY01uNUVYODh2ckxtcWRQYUpWSGVCQzQtYlpoZEhXU0lmMExfQzdsSmJYei1ZQjY2UQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "Teletrece",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-23T15:01:54+00:00",
-      "summary_orig": ""
-    },
-    {
-      "id": "f8a4e02f4212",
-      "title": "Inteligencia conectada para los departamentos jurídicos internos",
-      "summary": "Stacey Wang y Craig Bruney de OpenAI, Mary O’Carroll de LECG y Richard Segal de Cooley analizan cómo la IA ayuda a los equipos legales internos a conectar el contexto empresarial, crear flujos de trabajo reutilizables y optimizar la colaboración con abogados externos.",
-      "sourceUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-23T08:00:00+00:00",
-      "title_orig": "Connected intelligence for in-house legal",
-      "summary_orig": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel."
-    },
-    {
-      "id": "680b35173b97",
-      "title": "Richpanel ayuda a las empresas a automatizar el 50 % de la asistencia en 30 días",
-      "summary": "Richpanel emplea GPT‑6 Astra y GPT‑6.1 Sol para dotar a sus agentes de IA con herramientas y procedimientos, y GPT‑6 Luna para sus conversaciones.",
-      "sourceUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "sourceLabel": "OpenAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-23T08:00:00+00:00",
-      "title_orig": "Richpanel helps companies automate 50% of support in 30 days",
-      "summary_orig": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations."
-    },
-    {
-      "id": "f24076996026",
-      "title": "Mistral: ¿Es esta empresa una verdadera alternativa de IA para Europa?",
-      "summary": "Mistral podría convertirse en la verdadera alternativa europea de IA, ofreciendo modelos locales y soberanos frente a los gigantes estadounidenses.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUGhtd1FBTndrZnBLUUdOUEJ4UjM0VVRSMURrS1lxb0wwckw2WUZFY1oyNlAxakFhVU8xSzJ6SW94bVNnbWR5QXhTcnFzN21MVE1Xb3NiaHRab2hGU3hPQjJCcUhpWVlpa0JWcUJ3bEhrT0UxNG8taTVwQ2pxd1BtemswNWxEQ2pHYTZCNUxBVGlUN2xUb01kS0dNR1BXbU15VGszT3M4elBUc0N1ZlFVOVdPaDJaRkdJR1JSd0VPck9lRlBSa1J6MkpUYUhQTHhBelBHWmpn?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "FAZ",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "mistral"
-      ],
-      "source": "news",
-      "published": "2026-11-23T07:29:42+00:00",
-      "title_orig": "Mistral: Ist dieses Unternehmen eine echte KI-Alternative für Europa?",
-      "summary_orig": ""
-    },
-    {
-      "id": "b78e60e66ae0",
-      "title": "Cuáles son los grandes problemas matemáticos que los gigantes de la IA Anthropic y OpenAI afirman haber resuelto en los últimos meses",
-      "summary": "Los gigantes de IA Anthropic y OpenAI aseguran haber resuelto importantes problemas matemáticos en los últimos meses.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNa3RoclM1YmtMbG9lQ0dRaHdQanVjMHJGUFJSVE5pbWNibEFpV0NDS3hXZndyMHg1SGt3cWhZZWdTTk5mU2RzcHh0dlc5dnRhYUhrRjM2dlNJTjA1R214SU9mZnl3dlRWRWl4OFJhSTNkVmpLQTBLOGpjTkN2MGVLMzY2REpFRXl4N1o5el96QXZFdThjMkd4REdveTdtZkZORTlTQ3FzWGJWUXlUdEk0dmpoM0RzVVU1ZG43emtkVDZTelE3S2pGWkcwd19fSmtQbDB0U29VNDUxaWFad1oyY0ZjZ0l4YXd0T2hfUkpkNzVFcWI3SlhsN3VGX04yTERvWmVIRUN5Y2RWVzZ4eGZiMGZPRWRWOUFCS3ZEdDZrZWI2YTJ2UjhF?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "franceinfo",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude",
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-23T05:00:54+00:00",
-      "title_orig": "Quels sont les grands problèmes mathématiques que les géants de l'IA Anthropic et OpenAI disent avoir résolu ces derniers mois",
-      "summary_orig": ""
-    },
-    {
-      "id": "6c0b16176970",
-      "title": "Yaoshun Yu y el equipo de Hunyuan responden a los usuarios de Reddit: el pequeño modelo Hy ya está en la hoja de ruta",
-      "summary": "También reveló varios secretos del entrenamiento.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511921.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "hunyuan"
-      ],
-      "source": "lab",
-      "published": "2026-11-23T02:09:59+00:00",
-      "title_orig": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
-      "summary_orig": "还透露了不少训练背后的秘诀"
-    },
-    {
-      "id": "3e3659d6d4ef",
-      "title": "Los mejores agentes personales de IA en 2026: OpenClaw, Hermes Agent, Gemini Spark y otros, comparados en función de la memoria, la seguridad y el coste",
-      "summary": "Los agentes de IA personales mejor clasificados en 2026 son OpenClaw, Hermes Agent, Gemini Spark, Meta Muse, Perplexity PC y OpenAI Dots, evaluados por memoria, seguridad y costo.",
-      "sourceUrl": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
-      "sourceLabel": "MarkTechPost",
-      "publisher": "",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-22T10:36:17+00:00",
-      "title_orig": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
-      "summary_orig": "Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost ."
     }
   ]
 }

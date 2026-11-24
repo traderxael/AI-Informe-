@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-24",
-    "total": 460,
-    "items": [
-      {
-        "titulo": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-        "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-        "fuente": "TechCrunch AI",
-        "resumen": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Here are the top AI agents that can live in your text messages",
-        "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-        "fuente": "TechCrunch AI",
-        "resumen": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
-        "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
-        "fuente": "CoinDesk",
-        "resumen": "The judge found that Milei's promotion of LIBRA did not constitute fraud, despite the attention his support drew to the token.",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-        "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-        "fuente": "TechCrunch AI",
-        "resumen": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
-        "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-        "fuente": "MarkTechPost",
-        "resumen": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewra...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-        "fuente": "The Verge AI",
-        "resumen": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can oc...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Securing our frontier model training environment",
-        "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-        "fuente": "OpenAI",
-        "resumen": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
-        "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
-        "fuente": "MarkTechPost",
-        "resumen": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, mu...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "The iPhone Duo should have been an iPad",
-        "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-        "fuente": "The Verge AI",
-        "resumen": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about t...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Meta delays new business terms after publisher pushback on AI scraping",
-        "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-        "fuente": "The Verge AI",
-        "resumen": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company....",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Retro gaming is being overrun with AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-        "fuente": "The Verge AI",
-        "resumen": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past mont...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity",
-        "url": "https://arxiv.org/abs/2610.30154",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30154v1 Announce Type: new Abstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether r...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives",
-        "url": "https://arxiv.org/abs/2610.30158",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30158v1 Announce Type: new Abstract: Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, imag...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
-        "url": "https://arxiv.org/abs/2610.30161",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30161v1 Announce Type: new Abstract: Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out reques...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "FusionEval: Benchmarking Model Fusion for Large Language Models",
-        "url": "https://arxiv.org/abs/2610.30162",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning wit...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages",
-        "url": "https://arxiv.org/abs/2610.30296",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30296v1 Announce Type: new Abstract: Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable",
-        "url": "https://arxiv.org/abs/2610.30349",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30349v1 Announce Type: new Abstract: LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "CiteAnchor: Source-Aware Grounding for Hallucinated Citation Detection and Resolution",
-        "url": "https://arxiv.org/abs/2610.30355",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30355v1 Announce Type: new Abstract: Hallucinated citations make it harder to trace sources and verify the evidence behind scientific claims. Detecting them is difficult because bibliograph...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings",
-        "url": "https://arxiv.org/abs/2610.30374",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30374v1 Announce Type: new Abstract: The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments",
-        "url": "https://arxiv.org/abs/2610.30379",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30379v1 Announce Type: new Abstract: LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This pa...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
-        "url": "https://arxiv.org/abs/2610.30412",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30412v1 Announce Type: new Abstract: LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evalua...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
-        "url": "https://arxiv.org/abs/2610.30435",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30435v1 Announce Type: new Abstract: Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Rethinking the Evaluation of LLM Fact-Checkers",
-        "url": "https://arxiv.org/abs/2610.30504",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30504v1 Announce Type: new Abstract: Large language models (LLMs) are widely used to answer factual questions, but their answers can contain errors and must be fact-checked claim by claim. ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Behind Aggregate Scores: What Systematically Varying Arena-Hard's LLM Judge Reveals",
-        "url": "https://arxiv.org/abs/2610.30512",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30512v1 Announce Type: new Abstract: LLM judges are used to determine which of two answers is better. Trusting these verdicts requires knowing how repeatable they are and how much they depe...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      },
-      {
-        "titulo": "Protegrity-PII Technical Report",
-        "url": "https://arxiv.org/abs/2610.30518",
-        "fuente": "arXiv cs.CL",
-        "resumen": "arXiv:2610.30518v1 Announce Type: new Abstract: We present Protegrity-PII, a new PII decision model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with a precisi...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-24"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-26",
     "total": 712,
     "items": [
@@ -8978,6 +8747,345 @@
         "seccion": "x",
         "pais": "global",
         "fecha": "2026-11-20"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-24",
+    "total": 1270,
+    "items": [
+      {
+        "titulo": "How Gemini is changing the game for Golden State's organization and fans.",
+        "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+        "fuente": "Google AI",
+        "resumen": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Even the best AI agents struggle with everyday life",
+        "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+        "fuente": "TechCrunch AI",
+        "resumen": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new prob...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+        "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+        "fuente": "TechCrunch AI",
+        "resumen": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "fuente": "OpenAI",
+        "resumen": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "What's going on with the Riemann hypothesis?",
+        "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+        "fuente": "Ars Technica AI",
+        "resumen": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Searching for distant planets with Astra",
+        "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "fuente": "OpenAI",
+        "resumen": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+        "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+        "fuente": "Ars Technica AI",
+        "resumen": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "David Fincher is being dragged for suspected use of AI in his latest film",
+        "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+        "fuente": "The Verge AI",
+        "resumen": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questio...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Meta brings its Muse AI assistant directly into Instagram DMs",
+        "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+        "fuente": "TechCrunch AI",
+        "resumen": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+        "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "fuente": "TechCrunch AI",
+        "resumen": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Pinterest will now let parents limit the AI-generated content their teens see",
+        "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+        "fuente": "TechCrunch AI",
+        "resumen": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
+        "url": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026",
+        "fuente": "The Verge",
+        "resumen": "Between putting up decorations, entertaining guests, and meal prep, the holidays are busy enough without worrying about vacuuming. Thankfully, a proper robot vacuum can do the dirty work while you foc...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+        "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+        "fuente": "Wired",
+        "resumen": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "How Intentful uses dots to make more time for growth",
+        "url": "https://openai.com/business/customer-stories/intentful-dots",
+        "fuente": "OpenAI",
+        "resumen": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+        "url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+        "fuente": "Dark Reading",
+        "resumen": "The China-aligned espionage group rebuilt the open source VPN software from source, stripping out the artifacts that would normally expose it to defenders.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+        "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+        "fuente": "Hugging Face",
+        "resumen": "",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "OpenAI and Cisco introduce Shirudo",
+        "url": "https://openai.com/index/introducing-shirudo",
+        "fuente": "OpenAI",
+        "resumen": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
+        "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
+        "fuente": "Wired",
+        "resumen": "Young people anxious about their futures say they’re increasingly frustrated with their pro-AI parents. They’re worried it’s going to make holiday gatherings very tense.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "New Inception extortion gang launches large-scale vishing campaign",
+        "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+        "fuente": "BleepingComputer",
+        "resumen": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Turnitin discloses cyberattack affecting customer-facing systems",
+        "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+        "fuente": "BleepingComputer",
+        "resumen": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "How iFood scales coding agents across 15,000 repositories",
+        "url": "https://openai.com/business/customer-stories/ifood",
+        "fuente": "OpenAI",
+        "resumen": "",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "A more tailored Google Search that’s uniquely yours",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+        "fuente": "Google AI",
+        "resumen": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Finding faster quantum algorithms with agents and formal verification",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "fuente": "DeepMind",
+        "resumen": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Google wants to make you the star of your own AI slop movies",
+        "url": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "Viewers could find their AI-doppelgangers inserted into the crowd during the Cricket World Cup, or take a leading role in their very own romantic comedy.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+        "url": "https://www.coindesk.com/markets/2026/11/24/ai-trade-never-died-traders-see-room-for-market-recovery-despite-bitcoin-s-weakness",
+        "fuente": "CoinDesk",
+        "resumen": "Monday's tech enthusiasm is quickly fading on Tuesday, while bitcoin remains near bear-market lows.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Thing I am hearing from a number of big firms, from manufacturers to financial services: we have scattered teams of 2-3 people using AI that are doing the work of dozens of folks in a fraction of the…",
+        "url": "https://x.com/emollick/status/2125267894644916669",
+        "fuente": "X @emollick",
+        "resumen": "273.710 visualizaciones · 3.946 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Two kinds of people: those watching the agent swarm trying to crack P=NP and those watching the agent swarm trying to illegally port the Xbox version of GTA 6 to the PC. Here is the P=NP one:",
+        "url": "https://x.com/emollick/status/2125110318665793740",
+        "fuente": "X @emollick",
+        "resumen": "247.374 visualizaciones · 3.422 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Two big points from this new Anthropic paper: 1) The most AI value comes from changing the organization 2) There is wide worker resistance to AI adoption (partially due to point 1) Changes that expan…",
+        "url": "https://x.com/emollick/status/2125098309928812898",
+        "fuente": "X @emollick",
+        "resumen": "304.656 visualizaciones · 2.347 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Vercel日本法人の代表に花尾和成が就任いたしました。 日本のIT業界で20年以上にわたり培った経験を生かし、Vercelの日本チームを拡充するとともに、国内事業の成長を牽引します。",
+        "url": "https://x.com/vercel/status/2125056464494727515",
+        "fuente": "X @vercel",
+        "resumen": "108.259 visualizaciones · 503 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "Deepseek V4.1 Flash 1017 is 80% off for 10 days thanks to @digitalocean Try it today at",
+        "url": "https://x.com/NousResearch/status/2125023725347344794",
+        "fuente": "X @NousResearch",
+        "resumen": "261.146 visualizaciones · 1.100 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "If an AI buys your plane ticket, it shouldn’t come back with a new car. Red Hat’s @kernelcdub explains why AI agents need clear limits. Tomorrow on the NVIDIA AI Podcast.",
+        "url": "https://x.com/nvidia/status/2124987020464329090",
+        "fuente": "X @nvidia",
+        "resumen": "153.453 visualizaciones · 562 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
+      },
+      {
+        "titulo": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both. Connectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterpris…",
+        "url": "https://x.com/claudeai/status/2124970294523945328",
+        "fuente": "X @claudeai",
+        "resumen": "934.803 visualizaciones · 9.043 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
+      },
+      {
+        "titulo": "Access the frontier at a discount The latest Anthropic and OpenAI models are 20% off for the next week at",
+        "url": "https://x.com/NousResearch/status/2124945850531037556",
+        "fuente": "X @NousResearch",
+        "resumen": "289.977 visualizaciones · 594 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
+      },
+      {
+        "titulo": "Unwrap new possibilities. 🎁 From a new game to a creative project or your first robot, find holiday inspiration for the gamers, creators and makers on your list with NVIDIA. Explore the blog:",
+        "url": "https://x.com/nvidia/status/2124941625935667510",
+        "fuente": "X @nvidia",
+        "resumen": "180.880 visualizaciones · 547 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
+      },
+      {
+        "titulo": "Zero data retention (ZDR) with Enterprise Frontier Safeguards (EFS) is now in public beta for eligible businesses. It looks for misuse across many requests while remaining compatible with ZDR. We dev…",
+        "url": "https://x.com/claudeai/status/2124929944530587712",
+        "fuente": "X @claudeai",
+        "resumen": "963.319 visualizaciones · 6.088 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
+      },
+      {
+        "titulo": "To climb from a base model to the frontier you need RL runs that last weeks to months. We built our own RL infrastructure called Rocket 🚀 and we share lots of technical details below:",
+        "url": "https://x.com/MicrosoftAI/status/2124922556922691892",
+        "fuente": "X @MicrosoftAI",
+        "resumen": "440.551 visualizaciones · 1.716 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
+      },
+      {
+        "titulo": "Last week, we launched a promo for a free trial of Vibe Pro for builders in Europe. We ran out of capacity in less than an hour. Today, we’re fixing that for good. No more capped drops. If you’re in…",
+        "url": "https://x.com/MistralAI/status/2124905610386780451",
+        "fuente": "X @MistralAI",
+        "resumen": "187.357 visualizaciones · 3.058 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-23"
       }
     ]
   }
