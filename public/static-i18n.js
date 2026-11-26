@@ -70,11 +70,11 @@
   };
 
   var lang = "es";
-  try { lang = window.localStorage.getItem("ai-informe-lang") === "en" ? "en" : "es"; } catch (e) { /* storage no disponible */ }
+  try { lang = window.localStorage.getItem("ai-informe-lang") === "en" ? "en" : "es"; } catch { /* storage no disponible */ }
 
   function apply(l) {
     lang = l;
-    try { window.localStorage.setItem("ai-informe-lang", l); } catch (e) { /* storage no disponible */ }
+    try { window.localStorage.setItem("ai-informe-lang", l); } catch { /* storage no disponible */ }
     var d = DICT[l];
     var nodes = document.querySelectorAll("[data-i18n]");
     for (var i = 0; i < nodes.length; i++) {

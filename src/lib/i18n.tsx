@@ -1,18 +1,5 @@
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-  type ReactNode,
-} from "react";
-
-export type Lang = "es" | "en";
-
-const LangContext = createContext<{
-  lang: Lang;
-  setLang: (l: Lang) => void;
-  t: (key: string) => string;
-}>({ lang: "es", setLang: () => {}, t: (k) => k });
+import { useEffect, useState, type ReactNode } from "react";
+import { LangContext, type Lang } from "./lang-context";
 
 /** Diccionario del dashboard (portada, navegación y páginas nuevas). */
 const DICT: Record<Lang, Record<string, string>> = {
@@ -153,8 +140,4 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       {children}
     </LangContext.Provider>
   );
-}
-
-export function useLang() {
-  return useContext(LangContext);
 }

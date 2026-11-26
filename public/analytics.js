@@ -12,7 +12,7 @@
     });
     const blob = new Blob([payload], { type: "application/json" });
     navigator.sendBeacon("/api/ping", blob);
-  } catch (e) {
+  } catch {
     /* la analítica nunca debe romper la app */
   }
 })();
