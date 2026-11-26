@@ -1,26 +1,160 @@
 {
-  "generated_at": "2026-11-25T21:09:00.928209+00:00",
+  "generated_at": "2026-11-26T21:01:10.697095+00:00",
   "count": 20,
   "sources": [
     "DeepMind",
     "Google AI",
-    "Google News — IA Alemania",
     "Google News — IA Francia",
     "Google News — IA Japón",
-    "Google News — IA LATAM",
     "Google News — IA global",
+    "Hugging Face",
     "MarkTechPost",
     "OpenAI",
-    "QbitAI",
-    "SecurityWeek",
+    "SCMP Business",
     "TechCrunch AI",
-    "The Hacker News"
+    "Wired"
   ],
   "signals": [
     {
+      "id": "b426cadbd2b8",
+      "title": "Pentagon Hand Caroline Zier Now Leads OpenAI's Limits on Military Artificial Intelligence",
+      "summary": "Caroline Zier, del Pentágono, ahora lidera los límites de OpenAI en inteligencia artificial militar.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaHNyTTBaZE5ydGtvODFGS0Jra2F2Rl9lSUlnZVAzTWJfZndkWklTTFJ3UlQ5ckk4dnhyUzBUd3d4Q3JoWDI5M2M5dEs3VzdwLWk4cnBmVjBGby1WVnVoYmpsTnozaXJyWEVjRGEtcFRMSUVKRG1vUWpmNVh0RWNMR2M5RHZJNzd6VnU3TVV6V3oxMV9FZDVZOTNkbUNzSmtENWlPdXJERXpndEM3M1JaUlozNlF4b05faC0xSg?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Broadband Breakfast",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-26T19:49:45+00:00",
+      "title_orig": "Pentagon Hand Caroline Zier Now Leads OpenAI's Limits on Military Artificial Intelligence",
+      "summary_orig": ""
+    },
+    {
+      "id": "3ecfdc829f62",
+      "title": "Pour le patron d’Anthropic, l’IA ne doit jamais prendre le dessus sur l’être humain",
+      "summary": "Para el director de Anthropic, la IA nunca debe sobrepasar al ser humano.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNUZ3RTNBWmpSZFFNSGc1MVk0T1ZpNlNqZW9LU3BXYVBRNkx0VWJMQjlVNkhTalA0MEllczJHczVuS1BhZ2pva0d0NFFZX05Xd0ljc1UxR1BNR2dzNGg2dDEtcDh6TThvdjRHN2VVZWxVN2N3VW9KUFNsazZuemdnblNtQ1NPSU5LT0xET3U3Q29Oa1daVDRuN0dsN2NINENsTFNTaTMzdFlWODZwVUNla3lXUXNOM0E?oc=5",
+      "sourceLabel": "Google News — IA Francia",
+      "publisher": "Siècle Digital",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-26T12:44:38+00:00",
+      "title_orig": "Pour le patron d’Anthropic, l’IA ne doit jamais prendre le dessus sur l’être humain",
+      "summary_orig": ""
+    },
+    {
+      "id": "89f1d93b7a55",
+      "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
+      "summary": "Android Auto ahora es más inteligente con Gemini, facilitando la navegación y permitiendo conversar con la IA mientras conduces.",
+      "sourceUrl": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+      "sourceLabel": "Wired",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gemini"
+      ],
+      "source": "lab",
+      "published": "2026-11-26T12:00:00+00:00",
+      "title_orig": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
+      "summary_orig": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way."
+    },
+    {
+      "id": "02a088434703",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "summary": "Presentan el panel de referencia llama.cpp para procesadores AMD Ryzen y tarjetas gráficas Radeon.",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "sourceLabel": "Hugging Face",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "llama"
+      ],
+      "source": "lab",
+      "published": "2026-11-26T11:37:17+00:00",
+      "title_orig": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "summary_orig": ""
+    },
+    {
+      "id": "181a1686d1f0",
+      "title": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
+      "summary": "Datos de la empresa china de IA MiniMax fueron accedidos por terceros no identificados, según un investigador.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXlXQVE4enJyRWstWjJvUGdBczBMWHdfZHRmYTNSN3I0eFpqeXBfVU5tN3NRSERpcjBPeE1rV1kwWTBwWnY3U2s1TnlpY2EtakM5TmItUW1UdnVFZXJWTWVRQk1paVhJeTBpSlB0eHJyWERRdnZ1bVctUmctdGJZOXpZMnFMdkxYVlZ3UHI4OE1wZEhocHBGNW0wU1Z3S2VxQ0x6a1pablJOUzlTOXlMSkxUYjRFcWtIc2tB?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Reuters",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "minimax"
+      ],
+      "source": "news",
+      "published": "2026-11-26T06:16:00+00:00",
+      "title_orig": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
+      "summary_orig": ""
+    },
+    {
+      "id": "7fbebe4da44b",
+      "title": "Chinese AI trade turns cautious after Wall Street volatility, Anthropic’s rocky debut",
+      "summary": "Los inversores chinos se vuelven más cautelosos con la IA tras una fuerte caída de acciones tecnológicas y dudas en Wall Street sobre la sostenibilidad del rally.",
+      "sourceUrl": "https://www.scmp.com/business/china-business/article/3375856/chinese-ai-trade-turns-cautious-after-wall-street-volatility-anthropics-rocky-debut",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-26T06:00:07+00:00",
+      "title_orig": "Chinese AI trade turns cautious after Wall Street volatility, Anthropic’s rocky debut",
+      "summary_orig": "Chinese investors are showing growing signs of caution towards the artificial intelligence trade, as a sharp sell-off in technology stocks coincides with renewed questions on Wall Street over the sustainability of the AI-driven rally, following a dramatic rebound in US stocks that lasted barely a day before being reversed. China’s benchmark Shanghai Composite Index fell 2 per cent on Wednesday, wh"
+    },
+    {
+      "id": "ee7b04865fad",
+      "title": "Alibaba sells US$482 million in ZTO Express shares as AI focus sharpens",
+      "summary": "Alibaba vendió 25 millones de acciones de ZTO Express, reduciendo su participación y recaudando unos 482 millones de dólares.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3375870/alibaba-sells-us482-million-zto-express-shares-ai-focus-sharpens",
+      "sourceLabel": "SCMP Business",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "qwen"
+      ],
+      "source": "lab",
+      "published": "2026-11-26T05:04:00+00:00",
+      "title_orig": "Alibaba sells US$482 million in ZTO Express shares as AI focus sharpens",
+      "summary_orig": "Alibaba Group Holding has sharply reduced its stake in Chinese logistics giant ZTO Express, raising roughly US$482 million in its second major sell-off of the courier’s shares in two months. Alibaba and its three affiliates – Alibaba ZT Investment Limited, New Retail Strategic Opportunities Investments 2 Limited and Cainiao Smart Logistics Investment Limited – offloaded a combined 25 million Class"
+    },
+    {
+      "id": "33d504d4dfcb",
+      "title": "Anthropic CEO Denies Wanting to Surrender Human Free Will to AI",
+      "summary": "El CEO de Anthropic niega que quiera ceder la libre voluntad humana a la IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZ2NzVE9nVDZOMU9MdVZYbk01bkFGWnB4ZTdRR1JaTnQ0OHJGZGd0eDNNMGpSbHlWTzJxXzlIVVJuNkIyU2lLNVd4TG1uVnQ2N3E3ZXpMZU5rU3pnc1psWGpDcTBXem9WWXM5VmFYVjdnTnlTaWd1b1dDYjFCYmx2bzFaLUQ3WUVYdFBQWGdCZy1MOVU3WldYZGMzeWlnUnpXQ1p5RUliT0U1UUtjMlJEX3FycW51UWJYeTgxb01XTUpEdlBQS3hMTnhUVVJRSnRZN1ZSZmJ1QzVQUGNpeExhRUdHdGdySWhwaF9sZkpjemotN1FIcE1EalVISXhDZnJKcG1sUDR5Tk95MjFRbGgtWVFjR3A?oc=5",
+      "sourceLabel": "Google News — IA global",
+      "publisher": "Gizmodo",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "news",
+      "published": "2026-11-25T22:45:02+00:00",
+      "title_orig": "Anthropic CEO Denies Wanting to Surrender Human Free Will to AI",
+      "summary_orig": ""
+    },
+    {
       "id": "dc85126b0ac7",
-      "title": "OpenAI afirma que los usuarios intensivos de ChatGPT podrían alcanzar los límites antes, ya que se fusionan Chat y Work",
-      "summary": "OpenAI unificará el medidor de uso en ChatGPT al combinar las experiencias de Chat y Work.",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "summary": "OpenAI unificará la medición de uso en ChatGPT al combinar las experiencias de Chat y Work.",
       "sourceUrl": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -36,7 +170,7 @@
     },
     {
       "id": "00d3c793baf9",
-      "title": "Dario Amodei, de Anthropic, califica de «absurdas» las acusaciones de ceder el control humano a la IA",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
       "summary": "El CEO de Anthropic, Dario Amodei, rechaza que prefiera ceder la agencia humana a la IA, pese a que las principales empresas del sector automatizan cada vez más su investigación y desarrollo de modelos.",
       "sourceUrl": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "sourceLabel": "TechCrunch AI",
@@ -52,128 +186,9 @@
       "summary_orig": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development."
     },
     {
-      "id": "13615eb1dfae",
-      "title": "McDonald's queda en ridículo con una imagen generada por IA, y ChatGPT encuentra aún más errores",
-      "summary": "McDonald's se ve ridículo con una imagen creada por IA, y ChatGPT detecta aún más fallos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcElxbnQ2b1pPNkU1RjJneUg5Z3dJSmlFSDFkOXJZdkx4dDJnWnMwd01iX3pwTTFwZGR2V0RXODI2cE00T21HSlFwMlN5MlAtb1pwYVBHdm94cVJsMXlfRldCcElQVjJ4LTdkYVpnUW53aE91TnNabnAyYndVTWtENzFzVWV4d0ZM?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "BASIC thinking",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-25T17:30:09+00:00",
-      "title_orig": "McDonald’s blamiert sich mit KI-Bild – und ChatGPT findet noch mehr Fehler",
-      "summary_orig": ""
-    },
-    {
-      "id": "3885183f3278",
-      "title": "Un exempleado de OpenAI acusado de espiar las oficinas de la empresa queda en libertad bajo fianza de 1 millón de dólares",
-      "summary": "Un ex‑empleado de OpenAI, acusado de instalar un dispositivo de grabación clandestino, será liberado bajo fianza de 1 millón de dólares.",
-      "sourceUrl": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-      "sourceLabel": "The Hacker News",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "social",
-      "published": "2026-11-25T16:13:07+05:30",
-      "title_orig": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "summary_orig": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim"
-    },
-    {
-      "id": "800231663f5d",
-      "title": "Ricardo Caballero pide a Chile que se incorpore a la industria de la inteligencia artificial solo en determinados ámbitos",
-      "summary": "Ricardo Caballero insta a Chile a entrar en la industria de la IA solo en sectores específicos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaWw2bmEzMVBxd2QxNTFUVV91eXVGZ2JjZXkyWmozX004cERzQ3dHbHV1WXFhQ05pUkgtQkNKNlNITlNJVXJrbVN3WWlJVU5qMTZSWmR2cmJyWEVqNktWRGp5TmlZN3JoSWw5NlBYbjFKYUlHenoybVI5WnVDQjNiSWFtUDdRUUxFVjlwRThQMllXQmd2c0NIU3QyOTVBSzdzcFY4UG5RUXpPbGdRVWdQWEdKMUtGdGFxNUxmcnJlVGpsZmVVbGdSVnduNjctNDA1NXdhTnZjc3U0SW5IbDJNUENMd1rSAYYCQVVfeXFMTU9rbWlYbjVLeEdpQ21nRHVtS3dMVVVGTTJPb2h5MHRFaG4wS19WV19zUHp3WnRvYlFUMFdOQm5JSWRpdDhRcEJyT19pR1FhOTFfX1ZjWE9XRER2ejFJdlA0UklSX1BUT19RQU5xT2lzU0NRb0ViM2hIQUpXMF8zVThXaGctcmtZSGNNVk1CcVZXQ0d0WDRTOGxrR2lIZGpGZ1JoOEoyQUJvTkQ0YzZOMzRqb2tBbmxIRThRMFZqamhhNkhvUnFuNVNhZHBiUExidTRrWERPOTNnUlM2RlVEc2QzeFcydU5EM3h2OUtEMG9xUWk4Ty0xVmg5emt1TlJvOVVTV1l0UQ?oc=5",
-      "sourceLabel": "Google News — IA LATAM",
-      "publisher": "La Tercera",
-      "region": "global",
-      "country": "global",
-      "models": [
-        "llama"
-      ],
-      "source": "news",
-      "published": "2026-11-25T14:17:28+00:00",
-      "title_orig": "Ricardo Caballero llama a Chile a sumarse en la industria de la inteligencia artificial solo en ciertas áreas",
-      "summary_orig": ""
-    },
-    {
-      "id": "304dba47db72",
-      "title": "Las publicaciones generadas por la IA de Llama parecen más humanas que las de personas reales",
-      "summary": "Las publicaciones creadas por la IA de Llama parecen más humanas que las escritas por personas reales.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa184NXVlSFB3bjRiaWpCanNPelhpT2I5eXFtNHU3c2otY2NnT1VMamw4T2VLaTRFX0lEQXUwejZZTlFoSDBpZkY2QjM4aUNubjhiU1dab3FJZDZfSU0yaGFtTVJhZElETUlpQmhpR2xfWGZuLUttbkMtYTJqZDY1cGQwMXVwcDRiaUw5eWZNeE94MkdZb2dmT3FRSjZ0QkpoN0ktYU1IQlAxOE9FRkRmdVVBdjZUaVgtNVU1UlBrTFhEMEIxczRPR1NEejFSQUxCTUYtWG5rZWhYWk0?oc=5",
-      "sourceLabel": "Google News — IA Alemania",
-      "publisher": "Forschung und Wissen",
-      "region": "west",
-      "country": "germany",
-      "models": [
-        "llama"
-      ],
-      "source": "news",
-      "published": "2026-11-25T13:43:03+00:00",
-      "title_orig": "KI-Posts von Llama wirken menschlicher als die Beiträge echter Menschen",
-      "summary_orig": ""
-    },
-    {
-      "id": "bc7248d5d33a",
-      "title": "Anthropic también tiene escondidos dos de los modelos más potentes...",
-      "summary": "Fable 5.2 ya es muy antiguo.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/512538.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-25T08:23:24+00:00",
-      "title_orig": "Anthropic还藏着2个最强模型…",
-      "summary_orig": "Fable5.2已经很旧了。"
-    },
-    {
-      "id": "f44f10d640ae",
-      "title": "Se ha detectado una vulnerabilidad en Drupal por parte del escáner de Anthropic que se ha aprovechado en ataques",
-      "summary": "CISA incluyó la vulnerabilidad en su catálogo KEV y ordenó a las agencias federales parchearla en tres días.",
-      "sourceUrl": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-      "sourceLabel": "SecurityWeek",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-25T08:01:06+00:00",
-      "title_orig": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-      "summary_orig": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. The post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek ."
-    },
-    {
-      "id": "c220f10f59dc",
-      "title": "¡Se ha revelado que Tibo, de la empresa A, se ha unido a OpenAI! Reunión a distancia del trío que renunció antes de la salida a bolsa",
-      "summary": "OpenAI ahora tendrá dos Tibo.",
-      "sourceUrl": "https://www.qbitai.com/2026/11/512515.html",
-      "sourceLabel": "QbitAI",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "lab",
-      "published": "2026-11-25T07:46:52+00:00",
-      "title_orig": "A社Tibo被曝加盟OpenAI！上市前离职三人组异地团圆",
-      "summary_orig": "OpenAI这下要有俩Tibo了"
-    },
-    {
       "id": "a20caa5f2b42",
-      "title": "Los investigadores de ByteDance publican el código fuente de Laminar, un marco de posentrenamiento de aprendizaje por refuerzo (RL) asíncrono",
-      "summary": "Laminar, un marco abierto de aprendizaje por refuerzo asíncrono de HKU y ByteDance, separa rollout, entrenamiento y sincronización de pesos, elevando Qwen3‑Coder‑30B‑A3B al 52,2 % en SWE‑bench Verified.",
+      "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
+      "summary": "Laminar, un marco de código abierto para entrenamiento posterior de RL asíncrono creado por HKU y ByteDance, separa rollout, entrenamiento y sincronización de pesos, elevando Qwen3‑Coder‑30B‑A3B al 52,2 % en SWE‑bench Verified.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -188,26 +203,9 @@
       "summary_orig": "Laminar is an open-source asynchronous RL post-training framework from HKU and ByteDance Seed researchers. It decouples rollout, training and weight sync, and lifted Qwen3-Coder-30B-A3B to 52.2% on SWE-bench Verified. The post ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework appeared first on MarkTechPost ."
     },
     {
-      "id": "b44fbe012bee",
-      "title": "Según un informe, los empleados de Frontier AI están alarmados porque los modelos aún no publicados de OpenAI y Anthropic son demasiado potentes para lanzarlos. Existe la preocupación de que los ejecutivos estén «desconectados» de la gravedad de los riesgos y prioricen los beneficios por encima de la seguridad.",
-      "summary": "Los empleados de Frontier AI temen que los modelos no publicados de OpenAI y Anthropic sean tan potentes que los ejecutivos subestimen los riesgos y prioricen ganancias sobre seguridad.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPUDBvdGZPSXFmVHpDeGFIc1gyZTM2SDVpY1lsRF80djNqaDNzSkF5Uy1kbFdaT3ZFcG1abTRHVFFHYmFyZmVfMmVtUERkNVM0bU9xYlZUUF9qY3Vpa0tKRXlhZ2RqdVo2UmRvSjN1SklUOXA4anJfX2t4cURCLWQwTXJycUJURjNEZVB6ellRTUF4QWt4ZS1TOWZTNHNmUkN0elFXTFBNak5IMG5ONWpRM3QzUjZDTTAzcmgxcGFDMWFYd1NFc09LS1dDTTRvU1MwZ092ZEhsSkFHcW5zbTdpTjgxcmVzTHo2eUdZbUwta0VyT0h0am40MDhaMlZBeUJiUVluVy05TUlPbGRmdkptbDBUMHpLbFlBOFAweUR2OWlSUVN3R1NESHExdG5zOGE3U2pHWTdhOWFla040TUVHOWFRcXRaS2NGeV90MXFNd3NqMGRPRUlBR0tBcjAwMXlSTHJjOWVBM2dPZmdJd0VfNUtXNmcyQV91QTAtc0JGNU9kUTBKRXQ2VkpXUUo0aFBrOGc?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Tom's Hardware",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-24T21:00:00+00:00",
-      "title_orig": "Frontier AI employees alarmed that unseen Open AI and Anthropic models are too powerful to release, report claims — worry spreads that executives are ‘out of touch’ with severity of risks, will choose profit over safety",
-      "summary_orig": ""
-    },
-    {
       "id": "8d6c7c64bc85",
-      "title": "Cómo Gemini está cambiando las reglas del juego para la organización y los aficionados de los Golden State.",
-      "summary": "Google Gemini se asocia con Golden State para mejorar la experiencia de fans y operaciones del Warriors, Valkyries y el Chase Center.",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "summary": "Google Gemini se asocia con Golden State para mejorar la experiencia de fans y operaciones de los Warriors, Valkyries y el Chase Center.",
       "sourceUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "sourceLabel": "Google AI",
       "publisher": "",
@@ -223,8 +221,8 @@
     },
     {
       "id": "b013f0fbfb8e",
-      "title": "OpenAI y Cisco presentan Shirudo: un entorno de ejecución Linux de código abierto que permite a los agentes defender los sistemas sin tiempo de inactividad",
-      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime eBPF de código abierto para Linux que permite a agentes de IA crear “escudos” firmados que bloquean vulnerabilidades sin detener el sistema.",
+      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime eBPF de código abierto para Linux que permite a agentes de IA crear escudos firmados que bloquean vulnerabilidades sin interrumpir el sistema.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -240,8 +238,8 @@
     },
     {
       "id": "dd94f7af62fb",
-      "title": "Del espectro a la estructura: identificación de moléculas con conocimientos de espectrometría de masas para Google Antigravity",
-      "summary": "Mass Spec Skills permite a científicos usar Google Antigravity para interpretar espectros de masas en tándem.",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "summary": "Mass Spec Skills permite a los científicos usar Google Antigravity para interpretar espectros de masas en tándem.",
       "sourceUrl": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
       "sourceLabel": "DeepMind",
       "publisher": "",
@@ -257,7 +255,7 @@
     },
     {
       "id": "3c6728c1bfd1",
-      "title": "Los modelos GPT-6 demuestran capacidades intrínsecas de diseño de proteínas",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "summary": "Los modelos GPT‑6 diseñan estructuras y secuencias de proteínas mediante razonamiento y código, y pruebas de laboratorio mostraron unión en cinco objetivos.",
       "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "sourceLabel": "OpenAI",
@@ -274,8 +272,8 @@
     },
     {
       "id": "75bb30c4d100",
-      "title": "Los investigadores de Google DeepMind afirman que el desarrollo de la IA va más allá de la inteligencia artificial general (AGI) de nivel humano y avanza hacia la inteligencia artificial supergeneral (ASI), que supera a los grupos de expertos humanos.",
-      "summary": "Investigadores de DeepMind dicen que la IA está evolucionando más allá de la AGI humana hacia una ASI que supera a cualquier grupo de expertos.",
+      "title": "AI開発は人間レベルの汎用人工知能「AGI」を超え人間の専門家集団を凌駕する汎用人工超知能「ASI」へと向かうとGoogle DeepMindの研究者が主張",
+      "summary": "Investigadores de Google DeepMind afirman que el desarrollo de IA avanzará más allá de la AGI para alcanzar una superinteligencia artificial (ASI) que superará a los expertos humanos.",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95XzRVU2FodnpERlNBR0NhYmVwN2NUTlZHS3FCYllvUmhZa1ZhM0d2RWtZaDlUTHdvWDhHbUdiZkRwZzVpWkhxVXRUUnF2ZlhfZ1ltOHZCclh6aVlJdzc3RVo3Zy1lMUE?oc=5",
       "sourceLabel": "Google News — IA Japón",
       "publisher": "GIGAZINE",
@@ -291,8 +289,8 @@
     },
     {
       "id": "f3aa9260f109",
-      "title": "Búsqueda de planetas lejanos con Astra",
-      "summary": "Dos astrónomos aficionados emplearon Codex y Astra para descubrir posibles exoplanetas en datos públicos de los telescopios Kepler y TESS de la NASA.",
+      "title": "Searching for distant planets with Astra",
+      "summary": "Dos aficionados de la astronomía emplearon Codex y Astra para descubrir posibles exoplanetas en datos públicos de los telescopios Kepler y TESS de la NASA.",
       "sourceUrl": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -307,26 +305,9 @@
       "summary_orig": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes."
     },
     {
-      "id": "2726be621d67",
-      "title": "«Señor abogado, lo que usted ha hecho, ChatGPT me lo ha hecho en cinco minutos»: cómo la inteligencia artificial está revolucionando la profesión de abogado",
-      "summary": "La IA, como ChatGPT, permite a los abogados producir documentos en minutos, transformando radicalmente la práctica jurídica.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPSl9RaTJmc0JRWmlfOTNUZm1Va2ZHem5uQWQtODZnTldxWExqZ1l6VFdUcUJEMTdJSDkyZjU5aGx2QjdJRDFEX3FsZ05Ddlh1X1BwNVY0cGx0Tl83Zm50T1VGRjR1ZFo2NTBURUxFN0tFem9RVy1vLXgtYVg5WVVycG40Rl8wOXVWbmFydG4xYzliaWJrcmlrYXQ5cTlBRmp2SzZHX20tSGw3ZmZYUDlscEMwX0w4NkFfUW5QRGRWd1o2c3Jyc3lJdVZsRTdwcHVzLWd3Z2ZjenotdEFicWxqLVU5OVNRTUxqdGl6MXRoVWFXU0Zzc2xBR1lCREUtbDM5MTJUcHlqTFB5NEZmczR0b290NUhoTUVkbUliWGxBYjdVUXZWejBWZUhPM1NvTEpPek44cHVwTWdoUQ?oc=5",
-      "sourceLabel": "Google News — IA Francia",
-      "publisher": "Franceinfo",
-      "region": "west",
-      "country": "france",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-24T06:11:00+00:00",
-      "title_orig": "\"Maître, ce que vous avez fait, ChatGPT me l'a fait en cinq minutes\" : comment l'intelligence artificielle bouscule la profession d'avocat",
-      "summary_orig": ""
-    },
-    {
       "id": "1306bce61e3e",
-      "title": "Anthropic lanza Claude Ship para revisar y corregir las «pull requests» de GitHub",
-      "summary": "Claude Ship de Anthropic integra revisión, corrección y aprobación de pull requests en GitHub; Code Review está en GA y los otros dos en beta pública.",
+      "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+      "summary": "Claude Ship de Anthropic integra revisión, corrección y aprobación de pull requests en GitHub; Code Review ya está GA y los otros dos en beta pública.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -342,7 +323,7 @@
     },
     {
       "id": "ec442b764e04",
-      "title": "Cómo Intentful utiliza los puntos para tener más tiempo para crecer",
+      "title": "How Intentful uses dots to make more time for growth",
       "summary": "Aria, la herramienta de Marina Petrova, investiga sitios web, elabora propuestas y alerta proactivamente sobre mensajes y problemas.",
       "sourceUrl": "https://openai.com/business/customer-stories/intentful-dots",
       "sourceLabel": "OpenAI",
@@ -356,6 +337,23 @@
       "published": "2026-11-24T00:00:00+00:00",
       "title_orig": "How Intentful uses dots to make more time for growth",
       "summary_orig": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues."
+    },
+    {
+      "id": "7a6462e387eb",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "summary": "Cómo iFood escala agentes de codificación en 15 000 repositorios.",
+      "sourceUrl": "https://openai.com/business/customer-stories/ifood",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T00:00:00+00:00",
+      "title_orig": "How iFood scales coding agents across 15,000 repositories",
+      "summary_orig": ""
     }
   ]
 }

@@ -1,0 +1,1585 @@
+{
+  "fecha": "2026-11-26",
+  "generado": "2026-11-26T21:00:46.317589+00:00",
+  "api": "https://api.fxtwitter.com",
+  "trends_x": [
+    "Wu Tang",
+    "Goff",
+    "Thankful",
+    "Loveland",
+    "#CHIvsDET",
+    "Monangai"
+  ],
+  "total_viral": 126,
+  "resumen_por_tema": {
+    "otros": 24,
+    "seguridad": 10,
+    "lanzamiento": 14,
+    "investigacion": 15,
+    "mercado": 41,
+    "politica": 11,
+    "producto": 8,
+    "china": 2,
+    "biotech": 1
+  },
+  "resumen_por_etiqueta": {
+    "tech": 22,
+    "ia": 62,
+    "trading": 37,
+    "china-ai": 5
+  },
+  "viral": [
+    {
+      "id": "2125030292440191362",
+      "autor": "nvidia",
+      "avatar": "https://pbs.twimg.com/profile_images/1828904711124078593/SRvCZSfQ_200x200.jpg",
+      "texto": "",
+      "views": 9388658,
+      "likes": 391532,
+      "reposts": 29593,
+      "url": "https://x.com/nvidia/status/2125030292440191362",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX2fybTW4AAPFNt.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX2fybTW4AAPFNt.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Nov 24 00:54:37 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "nvidia",
+      "tema": "otros"
+    },
+    {
+      "id": "2125627317263466739",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We recently migrated our Messages API from Python to Rust.\n\nOn our engineering blog, we share how we used the existing service to verify the new one, with teams of Claude agents tracking down and fixing differences between the two versions.\n\nhttps://www.anthropic.com/research/mig",
+      "views": 4392918,
+      "likes": 13846,
+      "reposts": 1126,
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 16:26:59 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2124887162206495228",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "Jensen!",
+      "views": 3834900,
+      "likes": 93463,
+      "reposts": 3665,
+      "url": "https://x.com/sama/status/2124887162206495228",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 23 15:25:52 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2123596262713020527",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Announcing Gemini Neon on Abacus AI Agent\n\n- Gemini Neon will power complex agents\n- Compare and contrast with Fable, Opus, and Astra\n- Build anything with just text prompts\n\nNeon tends to be slower than Fable, but tends to be extremely detail oriented",
+      "views": 3190730,
+      "likes": 376,
+      "reposts": 11,
+      "url": "https://x.com/bindureddy/status/2123596262713020527",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HXiGIakbkAEwMKu.png?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HXiGIakbkAEwMKu.png?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 20 01:56:18 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2124980590717911527",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by @cisco together with OpenAI.\n\n",
+      "views": 3097216,
+      "likes": 21547,
+      "reposts": 2713,
+      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 21:37:07 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125334383490105601",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "We’re sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models. \n\nOur models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.\n\nhttps:/",
+      "views": 2055735,
+      "likes": 11886,
+      "reposts": 1382,
+      "url": "https://x.com/OpenAI/status/2125334383490105601",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125331261908717568/img/jrWnfbvTT7Sv4iSN.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125331261908717568/img/jrWnfbvTT7Sv4iSN.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 24 21:02:58 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2123862344422088794",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Distillation can reproduce powerful AI capabilities without the safeguards built around them.\n\nWe’re sharing new research on our work to combat distillation of our models, how these capabilities transfer, and how we detect and disrupt coordinated attempts.\n\nThese findings are hel",
+      "views": 2010403,
+      "likes": 4872,
+      "reposts": 388,
+      "url": "https://x.com/OpenAI/status/2123862344422088794",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 20 19:33:37 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2124551594691932405",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "This is the most important thing OpenAI has published in awhile.\n\nWe are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control.",
+      "views": 2003896,
+      "likes": 11598,
+      "reposts": 773,
+      "url": "https://x.com/sama/status/2124551594691932405",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sun Nov 22 17:12:27 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2125628271337554117",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: Michael Burry says he is now almost entirely long and plans to invest the rest of his cash.",
+      "views": 1924541,
+      "likes": 14424,
+      "reposts": 931,
+      "url": "https://x.com/WatcherGuru/status/2125628271337554117",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX-_hGzaQAELwOu.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX-_hGzaQAELwOu.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HX-_ijcbMAAdFLo.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX-_ijcbMAAdFLo.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 25 16:30:46 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2124922133545714160",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Through our new program OpenWorks, we fund local AI experts to help small businesses develop the tools and skills they need to grow their own business, at no cost to them.\n\nWe invite AI experts who love teaching others and small business owners who want to learn to implement AI t",
+      "views": 1860887,
+      "likes": 8024,
+      "reposts": 584,
+      "url": "https://x.com/OpenAI/status/2124922133545714160",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 23 17:44:50 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "otros"
+    },
+    {
+      "id": "2123822989154369958",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah",
+      "views": 1447335,
+      "likes": 6575,
+      "reposts": 545,
+      "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HXlVce1X0AARumK.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HXlVce1X0AARumK.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 16:57:13 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2125638790593274259",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.\n\nStronger privacy protections will make frontier AI useful for a lot more work, and business privacy is important for a healthy ecosystem. Reach out t",
+      "views": 1406781,
+      "likes": 9642,
+      "reposts": 522,
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 17:12:34 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2125696909985640728",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 FDA approves Elon Musk's Neuralink brain implant trials.",
+      "views": 1306195,
+      "likes": 23013,
+      "reposts": 2588,
+      "url": "https://x.com/WatcherGuru/status/2125696909985640728",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 21:03:31 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2124970294523945328",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both.\n\nConnectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon.\n\nBrowse 10,000+ plugins: https://claude.ai/plugins",
+      "views": 1256940,
+      "likes": 9869,
+      "reposts": 606,
+      "url": "https://x.com/claudeai/status/2124970294523945328",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX1oJ7QWMAAVHKF.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX1oJ7QWMAAVHKF.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 20:56:12 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125616057788637364",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "It’s been two weeks since we released Claude Fable 5.2. Here’s what people have been exploring with it:\n\nWhere the letter A came from, one alphabet at a time.",
+      "views": 1133693,
+      "likes": 13076,
+      "reposts": 586,
+      "url": "https://x.com/claudeai/status/2125616057788637364",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2120263738930442240/img/AOvzOoiRKk71l9na.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2120263738930442240/img/AOvzOoiRKk71l9na.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 25 15:42:14 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125267894644916669",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "Thing I am hearing from a number of big firms, from manufacturers to financial services: we have scattered teams of 2-3 people using AI that are doing the work of dozens of folks in a fraction of the time, creating large-scale management fights over the implications and politics.",
+      "views": 1099950,
+      "likes": 8281,
+      "reposts": 538,
+      "url": "https://x.com/emollick/status/2125267894644916669",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 16:38:46 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "politica"
+    },
+    {
+      "id": "2124929944530587712",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Zero data retention (ZDR) with Enterprise Frontier Safeguards (EFS) is now in public beta for eligible businesses. It looks for misuse across many requests while remaining compatible with ZDR.\n\nWe developed it with over 100 customers.\n\nRead more: https://claude.com/resources/arti",
+      "views": 1062234,
+      "likes": 6253,
+      "reposts": 368,
+      "url": "https://x.com/claudeai/status/2124929944530587712",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX1BMazWYAIMUE0.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX1BMazWYAIMUE0.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 18:15:52 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125639418849714280",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "I don't think I'd heard the word \"hyperstitioning\" before, but it's a good one.",
+      "views": 1043637,
+      "likes": 6103,
+      "reposts": 292,
+      "url": "https://x.com/sama/status/2125639418849714280",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 17:15:04 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2125984371387605039",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸🇨🇳 US lawmakers reach bipartisan deal to permanently ban Chinese cars from the United States.",
+      "views": 963791,
+      "likes": 8301,
+      "reposts": 784,
+      "url": "https://x.com/WatcherGuru/status/2125984371387605039",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HYEDhNBWIAATpvZ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HYEDhNBWIAATpvZ.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HYEDhNOX0AAPRQj.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HYEDhNOX0AAPRQj.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Thu Nov 26 16:05:47 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125365268381929637",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic Fellows research: Returning to the neuron basis for interpretability\n\nUnderstanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that, ",
+      "views": 936270,
+      "likes": 6611,
+      "reposts": 619,
+      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 23:05:42 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2125634048387076532",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 FCC authorizes SpaceX $SPCX to deploy 1,000,000 data centers in space.",
+      "views": 900641,
+      "likes": 13805,
+      "reposts": 1242,
+      "url": "https://x.com/WatcherGuru/status/2125634048387076532",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 16:53:44 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125007927098699827",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review.\n\nOur researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream.\n\nRead the research: htt",
+      "views": 866761,
+      "likes": 3541,
+      "reposts": 277,
+      "url": "https://x.com/OpenAI/status/2125007927098699827",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 23 23:25:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125744187010433137",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 US House Financial Services Committee advances bill to establish Strategic Bitcoin Reserve.",
+      "views": 820904,
+      "likes": 8766,
+      "reposts": 1017,
+      "url": "https://x.com/WatcherGuru/status/2125744187010433137",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 00:11:23 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2124894264564092952",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "This is really really good:",
+      "views": 785314,
+      "likes": 4638,
+      "reposts": 360,
+      "url": "https://x.com/sama/status/2124894264564092952",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 23 15:54:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2125098309928812898",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "Two big points from this new Anthropic paper:\n1) The most AI value comes from changing the organization\n2) There is wide worker resistance to AI adoption (partially due to point 1)\n\nChanges that expand what workers do & share AI gains with them could help https://www.anthropic.co",
+      "views": 684409,
+      "likes": 3435,
+      "reposts": 400,
+      "url": "https://x.com/emollick/status/2125098309928812898",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX3ZMufXYAAvBIG.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX3ZMufXYAAvBIG.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Nov 24 05:24:54 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125983591389974980",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "I am thankful for a lot of things in life, but my family is the best thing that has ever happened to me.\n\nThe two most common things people said to me before having kids is that it's better than anyone can explain to you and it goes very fast; these are both true and I don't have",
+      "views": 681000,
+      "likes": 9863,
+      "reposts": 272,
+      "url": "https://x.com/sama/status/2125983591389974980",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 16:02:41 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "producto"
+    },
+    {
+      "id": "2124265178267005017",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "GLM 5.3 and DeepSeek V4.1 Flash are now 60% off in OpenCode",
+      "views": 658028,
+      "likes": 4975,
+      "reposts": 147,
+      "url": "https://x.com/opencode/status/2124265178267005017",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sat Nov 21 22:14:20 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "china"
+    },
+    {
+      "id": "2125903859092787395",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "Bitcoin Price on Thanksgiving 🦃 \n\n2010: $0.28\n2011: $2.49\n2012: $12.51\n2013: $813\n2014: $376\n2015: $328\n2016: $739\n2017: $8,771\n2018: $4,015\n2019: $7,150\n2020: $18,764\n2021: $58,927\n2022 $16,353\n2023: $37,035\n2024: $95,531\n2025: $91,711\n2026: $60,400",
+      "views": 645478,
+      "likes": 4735,
+      "reposts": 447,
+      "url": "https://x.com/WatcherGuru/status/2125903859092787395",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 10:45:52 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125723498395959582",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 Trump administration discussed invoking wartime powers to forcefully reinstate Jensen Huang as Nvidia $NVDA CEO after he stepped down, WaPo reports.",
+      "views": 638171,
+      "likes": 5423,
+      "reposts": 380,
+      "url": "https://x.com/WatcherGuru/status/2125723498395959582",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HYAWQUnWAAAhi9Y.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HYAWQUnWAAAhi9Y.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HYAWQUrXUAAu62Q.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HYAWQUrXUAAu62Q.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 25 22:49:10 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125915002813260004",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: Nvidia $NVDA orders manufacturing partners to halt shipments of servers containing its chips to the following countries: \n\n• Thailand\n• Malaysia\n• Indonesia\n• Singapore",
+      "views": 593076,
+      "likes": 5190,
+      "reposts": 620,
+      "url": "https://x.com/WatcherGuru/status/2125915002813260004",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 11:30:08 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125664671545921908",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: 🇺🇸 ICE arrests illegal immigrant days after he claimed $1,000,000 lottery prize.",
+      "views": 586585,
+      "likes": 7260,
+      "reposts": 406,
+      "url": "https://x.com/WatcherGuru/status/2125664671545921908",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX_gwOCXcAAubGk.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX_gwOCXcAAubGk.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HX_gwOCW0AE6n24.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX_gwOCW0AE6n24.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 25 18:55:25 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2123856316187975756",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "MedChemBench is a new benchmark for AI reasoning in medicinal chemistry.\n\nIt shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug candidates.\n\nhttps://openai.com/index/introducing-medchembench/",
+      "views": 535415,
+      "likes": 5023,
+      "reposts": 560,
+      "url": "https://x.com/OpenAI/status/2123856316187975756",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 19:09:39 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125622895237873976",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: JPMorgan predicts an AI supercycle in 2027.",
+      "views": 510534,
+      "likes": 8842,
+      "reposts": 680,
+      "url": "https://x.com/WatcherGuru/status/2125622895237873976",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX-6wWZXQAAlB0b.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX-6wWZXQAAlB0b.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HX-6wWWXkAAeUTW.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX-6wWWXkAAeUTW.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Wed Nov 25 16:09:25 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2124945850531037556",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Access the frontier at a discount\n\nThe latest Anthropic and OpenAI models are 20% off for the next week at http://portal.nousresearch.com",
+      "views": 453870,
+      "likes": 754,
+      "reposts": 37,
+      "url": "https://x.com/NousResearch/status/2124945850531037556",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2124945088602066945/img/mVc7Z1Zh9mwZFwo-.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2124945088602066945/img/mVc7Z1Zh9mwZFwo-.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 23 19:19:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125661646769012923",
+      "autor": "WatcherGuru",
+      "avatar": "https://pbs.twimg.com/profile_images/1641221212578754562/DfiC0KW2_200x200.png",
+      "texto": "JUST IN: S&P considers lowering Nvidia's $NVDA credit rating.",
+      "views": 443489,
+      "likes": 3106,
+      "reposts": 183,
+      "url": "https://x.com/WatcherGuru/status/2125661646769012923",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 18:43:24 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "WatcherGuru",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125305606685053416",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Two amateur astronomers, Kevin Bond (@canvrno) and Ethan Byrd (@itsjustemail), independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt.\n\nKevin used Codex and Ethan used Astra to search public",
+      "views": 410639,
+      "likes": 3120,
+      "reposts": 267,
+      "url": "https://x.com/OpenAI/status/2125305606685053416",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125299131916980225/img/prm-aBhDnu9MAlJy.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125299131916980225/img/prm-aBhDnu9MAlJy.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 24 19:08:37 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "producto"
+    },
+    {
+      "id": "2126020268405784724",
+      "autor": "Polymarket",
+      "avatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
+      "texto": "JUST IN: AI safety researcher Nikola Jurkovic warns this could be “humanity's last Thanksgiving.”",
+      "views": 374562,
+      "likes": 3148,
+      "reposts": 304,
+      "url": "https://x.com/Polymarket/status/2126020268405784724",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 18:28:26 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "polymarket",
+      "tema": "mercado"
+    },
+    {
+      "id": "2123899406550528422",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "How AI is helping scientists uncover new leads for understanding and treating neurodegenerative diseases—and the brain research behind our collaboration with @perturbai_tx and @scrippsresearch:",
+      "views": 370601,
+      "likes": 2799,
+      "reposts": 247,
+      "url": "https://x.com/OpenAI/status/2123899406550528422",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2123880054291849216/img/aLZah57nemFFg1mp.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2123880054291849216/img/aLZah57nemFFg1mp.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 22:00:53 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2126024181846265921",
+      "autor": "Polymarket",
+      "avatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
+      "texto": "JUST IN: Seattle man wins $200 at Jensen Huang lookalike contest in Canada, driving across the border to compete against dozens of contestants.",
+      "views": 366589,
+      "likes": 4870,
+      "reposts": 172,
+      "url": "https://x.com/Polymarket/status/2126024181846265921",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HYEnuaNWIAAn5wi.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HYEnuaNWIAAn5wi.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HYEnuaLXIAAe7nx.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HYEnuaLXIAAe7nx.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Thu Nov 26 18:43:59 +0000 2026",
+      "etiqueta": "trading",
+      "cuenta": "polymarket",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125990371897557278",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "Ven was one of the earliest believers that we could use our then-current model to solve millenium prize problems.\n\nThere are a lot of brilliant people in the world, but being brilliant and also having correctly-placed confidence and courage to keep pushing on something that other",
+      "views": 361147,
+      "likes": 5077,
+      "reposts": 215,
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 16:29:38 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "mercado"
+    }
+  ],
+  "viral_ia": [
+    {
+      "id": "2125030292440191362",
+      "autor": "nvidia",
+      "avatar": "https://pbs.twimg.com/profile_images/1828904711124078593/SRvCZSfQ_200x200.jpg",
+      "texto": "",
+      "views": 9388658,
+      "likes": 391532,
+      "reposts": 29593,
+      "url": "https://x.com/nvidia/status/2125030292440191362",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX2fybTW4AAPFNt.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX2fybTW4AAPFNt.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Nov 24 00:54:37 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "nvidia",
+      "tema": "otros"
+    },
+    {
+      "id": "2125627317263466739",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "We recently migrated our Messages API from Python to Rust.\n\nOn our engineering blog, we share how we used the existing service to verify the new one, with teams of Claude agents tracking down and fixing differences between the two versions.\n\nhttps://www.anthropic.com/research/mig",
+      "views": 4392918,
+      "likes": 13846,
+      "reposts": 1126,
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 16:26:59 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2124887162206495228",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "Jensen!",
+      "views": 3834900,
+      "likes": 93463,
+      "reposts": 3665,
+      "url": "https://x.com/sama/status/2124887162206495228",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 23 15:25:52 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2123596262713020527",
+      "autor": "bindureddy",
+      "avatar": "https://pbs.twimg.com/profile_images/2019406331955015683/XHe0v8Gq_200x200.jpg",
+      "texto": "🚨 Announcing Gemini Neon on Abacus AI Agent\n\n- Gemini Neon will power complex agents\n- Compare and contrast with Fable, Opus, and Astra\n- Build anything with just text prompts\n\nNeon tends to be slower than Fable, but tends to be extremely detail oriented",
+      "views": 3190730,
+      "likes": 376,
+      "reposts": 11,
+      "url": "https://x.com/bindureddy/status/2123596262713020527",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HXiGIakbkAEwMKu.png?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HXiGIakbkAEwMKu.png?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Fri Nov 20 01:56:18 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "bindureddy",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2124980590717911527",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches. Built by @cisco together with OpenAI.\n\n",
+      "views": 3097216,
+      "likes": 21547,
+      "reposts": 2713,
+      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 21:37:07 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125334383490105601",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "We’re sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models. \n\nOur models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.\n\nhttps:/",
+      "views": 2055735,
+      "likes": 11886,
+      "reposts": 1382,
+      "url": "https://x.com/OpenAI/status/2125334383490105601",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125331261908717568/img/jrWnfbvTT7Sv4iSN.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125331261908717568/img/jrWnfbvTT7Sv4iSN.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 24 21:02:58 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2123862344422088794",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Distillation can reproduce powerful AI capabilities without the safeguards built around them.\n\nWe’re sharing new research on our work to combat distillation of our models, how these capabilities transfer, and how we detect and disrupt coordinated attempts.\n\nThese findings are hel",
+      "views": 2010403,
+      "likes": 4872,
+      "reposts": 388,
+      "url": "https://x.com/OpenAI/status/2123862344422088794",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Fri Nov 20 19:33:37 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2124551594691932405",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "This is the most important thing OpenAI has published in awhile.\n\nWe are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control.",
+      "views": 2003896,
+      "likes": 11598,
+      "reposts": 773,
+      "url": "https://x.com/sama/status/2124551594691932405",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sun Nov 22 17:12:27 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2124922133545714160",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Through our new program OpenWorks, we fund local AI experts to help small businesses develop the tools and skills they need to grow their own business, at no cost to them.\n\nWe invite AI experts who love teaching others and small business owners who want to learn to implement AI t",
+      "views": 1860887,
+      "likes": 8024,
+      "reposts": 584,
+      "url": "https://x.com/OpenAI/status/2124922133545714160",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 23 17:44:50 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "otros"
+    },
+    {
+      "id": "2123822989154369958",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah",
+      "views": 1447335,
+      "likes": 6575,
+      "reposts": 545,
+      "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HXlVce1X0AARumK.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HXlVce1X0AARumK.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 16:57:13 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2125638790593274259",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.\n\nStronger privacy protections will make frontier AI useful for a lot more work, and business privacy is important for a healthy ecosystem. Reach out t",
+      "views": 1406781,
+      "likes": 9642,
+      "reposts": 522,
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 17:12:34 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2124970294523945328",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both.\n\nConnectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon.\n\nBrowse 10,000+ plugins: https://claude.ai/plugins",
+      "views": 1256940,
+      "likes": 9869,
+      "reposts": 606,
+      "url": "https://x.com/claudeai/status/2124970294523945328",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX1oJ7QWMAAVHKF.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX1oJ7QWMAAVHKF.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 20:56:12 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125616057788637364",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "It’s been two weeks since we released Claude Fable 5.2. Here’s what people have been exploring with it:\n\nWhere the letter A came from, one alphabet at a time.",
+      "views": 1133693,
+      "likes": 13076,
+      "reposts": 586,
+      "url": "https://x.com/claudeai/status/2125616057788637364",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2120263738930442240/img/AOvzOoiRKk71l9na.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2120263738930442240/img/AOvzOoiRKk71l9na.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 25 15:42:14 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125267894644916669",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "Thing I am hearing from a number of big firms, from manufacturers to financial services: we have scattered teams of 2-3 people using AI that are doing the work of dozens of folks in a fraction of the time, creating large-scale management fights over the implications and politics.",
+      "views": 1099950,
+      "likes": 8281,
+      "reposts": 538,
+      "url": "https://x.com/emollick/status/2125267894644916669",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 16:38:46 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "politica"
+    },
+    {
+      "id": "2124929944530587712",
+      "autor": "claudeai",
+      "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+      "texto": "Zero data retention (ZDR) with Enterprise Frontier Safeguards (EFS) is now in public beta for eligible businesses. It looks for misuse across many requests while remaining compatible with ZDR.\n\nWe developed it with over 100 customers.\n\nRead more: https://claude.com/resources/arti",
+      "views": 1062234,
+      "likes": 6253,
+      "reposts": 368,
+      "url": "https://x.com/claudeai/status/2124929944530587712",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX1BMazWYAIMUE0.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX1BMazWYAIMUE0.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 18:15:52 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "claudeai",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125639418849714280",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "I don't think I'd heard the word \"hyperstitioning\" before, but it's a good one.",
+      "views": 1043637,
+      "likes": 6103,
+      "reposts": 292,
+      "url": "https://x.com/sama/status/2125639418849714280",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 17:15:04 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2125365268381929637",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic Fellows research: Returning to the neuron basis for interpretability\n\nUnderstanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that, ",
+      "views": 936270,
+      "likes": 6611,
+      "reposts": 619,
+      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 23:05:42 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2125007927098699827",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review.\n\nOur researchers @clintgibler and @ky1ebot share their findings and how they worked with maintainers to get fixes upstream.\n\nRead the research: htt",
+      "views": 866761,
+      "likes": 3541,
+      "reposts": 277,
+      "url": "https://x.com/OpenAI/status/2125007927098699827",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 23 23:25:45 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2124894264564092952",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "This is really really good:",
+      "views": 785314,
+      "likes": 4638,
+      "reposts": 360,
+      "url": "https://x.com/sama/status/2124894264564092952",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Mon Nov 23 15:54:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "otros"
+    },
+    {
+      "id": "2125098309928812898",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "Two big points from this new Anthropic paper:\n1) The most AI value comes from changing the organization\n2) There is wide worker resistance to AI adoption (partially due to point 1)\n\nChanges that expand what workers do & share AI gains with them could help https://www.anthropic.co",
+      "views": 684409,
+      "likes": 3435,
+      "reposts": 400,
+      "url": "https://x.com/emollick/status/2125098309928812898",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX3ZMufXYAAvBIG.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX3ZMufXYAAvBIG.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Tue Nov 24 05:24:54 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125983591389974980",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "I am thankful for a lot of things in life, but my family is the best thing that has ever happened to me.\n\nThe two most common things people said to me before having kids is that it's better than anyone can explain to you and it goes very fast; these are both true and I don't have",
+      "views": 681000,
+      "likes": 9863,
+      "reposts": 272,
+      "url": "https://x.com/sama/status/2125983591389974980",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 16:02:41 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "producto"
+    },
+    {
+      "id": "2124265178267005017",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "GLM 5.3 and DeepSeek V4.1 Flash are now 60% off in OpenCode",
+      "views": 658028,
+      "likes": 4975,
+      "reposts": 147,
+      "url": "https://x.com/opencode/status/2124265178267005017",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sat Nov 21 22:14:20 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "china"
+    },
+    {
+      "id": "2123856316187975756",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "MedChemBench is a new benchmark for AI reasoning in medicinal chemistry.\n\nIt shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug candidates.\n\nhttps://openai.com/index/introducing-medchembench/",
+      "views": 535415,
+      "likes": 5023,
+      "reposts": 560,
+      "url": "https://x.com/OpenAI/status/2123856316187975756",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 19:09:39 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2124945850531037556",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Access the frontier at a discount\n\nThe latest Anthropic and OpenAI models are 20% off for the next week at http://portal.nousresearch.com",
+      "views": 453870,
+      "likes": 754,
+      "reposts": 37,
+      "url": "https://x.com/NousResearch/status/2124945850531037556",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2124945088602066945/img/mVc7Z1Zh9mwZFwo-.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2124945088602066945/img/mVc7Z1Zh9mwZFwo-.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 23 19:19:05 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125305606685053416",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "Two amateur astronomers, Kevin Bond (@canvrno) and Ethan Byrd (@itsjustemail), independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt.\n\nKevin used Codex and Ethan used Astra to search public",
+      "views": 410639,
+      "likes": 3120,
+      "reposts": 267,
+      "url": "https://x.com/OpenAI/status/2125305606685053416",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125299131916980225/img/prm-aBhDnu9MAlJy.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125299131916980225/img/prm-aBhDnu9MAlJy.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 24 19:08:37 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "producto"
+    },
+    {
+      "id": "2123899406550528422",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "How AI is helping scientists uncover new leads for understanding and treating neurodegenerative diseases—and the brain research behind our collaboration with @perturbai_tx and @scrippsresearch:",
+      "views": 370601,
+      "likes": 2799,
+      "reposts": 247,
+      "url": "https://x.com/OpenAI/status/2123899406550528422",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2123880054291849216/img/aLZah57nemFFg1mp.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2123880054291849216/img/aLZah57nemFFg1mp.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 22:00:53 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125990371897557278",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "Ven was one of the earliest believers that we could use our then-current model to solve millenium prize problems.\n\nThere are a lot of brilliant people in the world, but being brilliant and also having correctly-placed confidence and courage to keep pushing on something that other",
+      "views": 361147,
+      "likes": 5077,
+      "reposts": 215,
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Thu Nov 26 16:29:38 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "mercado"
+    },
+    {
+      "id": "2125341904644763678",
+      "autor": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "texto": "New Anthropic research: When an AI agent can escape its sandbox, will it choose to?\n\nOur new evaluation, Siren, gives Claude routine tasks in intentionally weakened sandboxes, with something useful to the task left outside of the sandbox. Across 1,700+ scenarios built to tempt th",
+      "views": 345619,
+      "likes": 2692,
+      "reposts": 284,
+      "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 21:32:51 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "AnthropicAI",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2124911073266413634",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "Quantum computers could one day transform fusion energy, chemistry, and drug discovery - if we can make the algorithms efficient enough to run on early hardware.\n\nUsing teams of Gemini 4 agents, we’ve built new quantum circuits that cut future simulation costs by up to 10 times.",
+      "views": 343511,
+      "likes": 4522,
+      "reposts": 540,
+      "url": "https://x.com/GoogleDeepMind/status/2124911073266413634",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX0zDLEXQAE654e.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX0zDLEXQAE654e.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 17:00:53 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125023725347344794",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "Deepseek V4.1 Flash 1017 is 80% off for 10 days thanks to @digitalocean \n\nTry it today at https://portal.nousresearch.com",
+      "views": 338606,
+      "likes": 1290,
+      "reposts": 73,
+      "url": "https://x.com/NousResearch/status/2125023725347344794",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125023337537503232/img/ClE_-UYlg5hAoDrp.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125023337537503232/img/ClE_-UYlg5hAoDrp.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Tue Nov 24 00:28:31 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125110318665793740",
+      "autor": "emollick",
+      "avatar": "https://pbs.twimg.com/profile_images/1601382188712398850/3AAOlqrX_200x200.jpg",
+      "texto": "Two kinds of people: those watching the agent swarm trying to crack P=NP and those watching the agent swarm trying to illegally port the Xbox version of GTA 6 to the PC. Here is the P=NP one: https://pequalnp.com/",
+      "views": 326651,
+      "likes": 4252,
+      "reposts": 174,
+      "url": "https://x.com/emollick/status/2125110318665793740",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 06:12:37 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "emollick",
+      "tema": "otros"
+    },
+    {
+      "id": "2125062647846694979",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "HungerG (stealth model) is free for OpenCode Go subscribers this week\n\n1M context\nMulti-modal\nNo training on data",
+      "views": 314282,
+      "likes": 3533,
+      "reposts": 95,
+      "url": "https://x.com/opencode/status/2125062647846694979",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 03:03:11 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "otros"
+    },
+    {
+      "id": "2125635627341561995",
+      "autor": "OpenAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "texto": "For ordinary days that feel like a movie. \n\nMake a Day Do Anything with ChatGPT.",
+      "views": 299145,
+      "likes": 2126,
+      "reposts": 123,
+      "url": "https://x.com/OpenAI/status/2125635627341561995",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2125628610073739270/img/e-7WA3h0XMo65Pcs.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2125628610073739270/img/e-7WA3h0XMo65Pcs.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Wed Nov 25 17:00:00 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "OpenAI",
+      "tema": "producto"
+    },
+    {
+      "id": "2124551883130114403",
+      "autor": "sama",
+      "avatar": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "texto": "\"I believe frontier model developers should jointly endeavour to establish shared norms for how to evaluate such models and red-team safety cases for them by the time they are first used, including shared transparency standards.\n\nI further propose common limits, based on perplexi",
+      "views": 288299,
+      "likes": 1899,
+      "reposts": 122,
+      "url": "https://x.com/sama/status/2124551883130114403",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sun Nov 22 17:13:35 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "sama",
+      "tema": "seguridad"
+    },
+    {
+      "id": "2123826572385833119",
+      "autor": "GoogleDeepMind",
+      "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+      "texto": "Gemini 4 Neon coded a ski simulator based on real Mont Blanc terrain.\n\nBuilt in @Antigravity with custom shaders and zero pre-made 3D models, it renders carved snow and avalanches live.\n\nTry it now → https://goo.gle/496Vk4f",
+      "views": 239838,
+      "likes": 4090,
+      "reposts": 234,
+      "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2123825579648516096/img/f-oPwRM_U4d4zH25.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2123825579648516096/img/f-oPwRM_U4d4zH25.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Fri Nov 20 17:11:28 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "GoogleDeepMind",
+      "tema": "investigacion"
+    },
+    {
+      "id": "2125307449951604860",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "oh we never posted Gemini 4 Neon is available in OpenCode Console\n\nit's become our team's default model over the last week",
+      "views": 233055,
+      "likes": 6256,
+      "reposts": 125,
+      "url": "https://x.com/opencode/status/2125307449951604860",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Tue Nov 24 19:15:57 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2124241007780999196",
+      "autor": "NousResearch",
+      "avatar": "https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_200x200.jpg",
+      "texto": "The revolution will not be privatized",
+      "views": 222686,
+      "likes": 5792,
+      "reposts": 520,
+      "url": "https://x.com/NousResearch/status/2124241007780999196",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Sat Nov 21 20:38:17 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "NousResearch",
+      "tema": "otros"
+    },
+    {
+      "id": "2124905610386780451",
+      "autor": "MistralAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1996905418065375232/mzwynOLB_200x200.jpg",
+      "texto": "Last week, we launched a promo for a free trial of Vibe Pro for builders in Europe. \n\nWe ran out of capacity in less than an hour. Today, we’re fixing that for good.\n\nNo more capped drops. If you’re in Europe, you get a month of Vibe Pro for free.\n\nEuropean product, European mode",
+      "views": 217104,
+      "likes": 3132,
+      "reposts": 334,
+      "url": "https://x.com/MistralAI/status/2124905610386780451",
+      "tiene_video": false,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/media/HX0uY57XMAA-Z1N.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/media/HX0uY57XMAA-Z1N.jpg?format=jpg&name=small",
+          "tipo": "foto"
+        }
+      ],
+      "fecha": "Mon Nov 23 16:39:11 +0000 2026",
+      "etiqueta": "ia",
+      "cuenta": "MistralAI",
+      "tema": "lanzamiento"
+    },
+    {
+      "id": "2125702030832349374",
+      "autor": "opencode",
+      "avatar": "https://pbs.twimg.com/profile_images/1973794620233433088/nBn75BTm_200x200.png",
+      "texto": "we extracted the runtime powering codemode into a standalone project\n\nit's a simple package (no wasm) that can directly execute js and pause/resume it mid execution\n\na rust implementation is in the works so native apps can use js as a scripting language\n\nhttps://psychoscript.com",
+      "views": 200538,
+      "likes": 2013,
+      "reposts": 117,
+      "url": "https://x.com/opencode/status/2125702030832349374",
+      "tiene_video": false,
+      "imagenes": [],
+      "fecha": "Wed Nov 25 21:23:52 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "opencode",
+      "tema": "politica"
+    },
+    {
+      "id": "2124941625935667510",
+      "autor": "nvidia",
+      "avatar": "https://pbs.twimg.com/profile_images/1828904711124078593/SRvCZSfQ_200x200.jpg",
+      "texto": "Unwrap new possibilities. 🎁\n\nFrom a new game to a creative project or your first robot, find holiday inspiration for the gamers, creators and makers on your list with NVIDIA.\n\nExplore the blog: https://nvda.ws/4A8NIKK",
+      "views": 197638,
+      "likes": 569,
+      "reposts": 48,
+      "url": "https://x.com/nvidia/status/2124941625935667510",
+      "tiene_video": true,
+      "imagenes": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2124941598941147136/img/lRoWwbsYBMSHhI5O.jpg?format=jpg&name=small",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2124941598941147136/img/lRoWwbsYBMSHhI5O.jpg?format=jpg&name=small",
+          "tipo": "poster"
+        }
+      ],
+      "fecha": "Mon Nov 23 19:02:17 +0000 2026",
+      "etiqueta": "tech",
+      "cuenta": "nvidia",
+      "tema": "otros"
+    }
+  ]
+}

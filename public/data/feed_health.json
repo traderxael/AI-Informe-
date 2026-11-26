@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T21:10:05",
+ "generado": "2026-11-26T21:02:15",
  "total_feeds": 33,
  "ok": 33,
  "vacios": 0,
@@ -64,7 +64,7 @@
   {
    "nombre": "Hugging Face",
    "url": "https://huggingface.co/blog/feed.xml",
-   "items": 917,
+   "items": 918,
    "estado": "ok",
    "detalle": ""
   },
@@ -120,14 +120,14 @@
   {
    "nombre": "arXiv cs.AI",
    "url": "https://rss.arxiv.org/rss/cs.AI",
-   "items": 447,
+   "items": 398,
    "estado": "ok",
    "detalle": ""
   },
   {
    "nombre": "arXiv cs.CL",
    "url": "https://rss.arxiv.org/rss/cs.CL",
-   "items": 193,
+   "items": 177,
    "estado": "ok",
    "detalle": ""
   },
@@ -240,6 +240,6 @@
  "ranking": {
   "estado": "ok",
   "total": 60,
-  "actualizado": "2026-11-25T21:10:03"
+  "actualizado": "2026-11-26T21:02:13"
  }
 }
