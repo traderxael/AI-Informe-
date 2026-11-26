@@ -27,7 +27,7 @@
     try {
       const r = await fetch("/api/stats", { cache: "no-store" });
       if (r.ok) data = await r.json();
-    } catch (e) {
+    } catch {
       data = null;
     }
 

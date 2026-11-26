@@ -1,4 +1,5 @@
-import { useLang, type Lang } from "@/lib/i18n";
+import { useLang } from "@/lib/use-lang";
+import { type Lang } from "@/lib/lang-context";
 
 /** Toggle ES/EN — persiste en localStorage ("ai-informe-lang"). */
 export function LangToggle() {

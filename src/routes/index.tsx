@@ -1,5 +1,5 @@
-import { createFileRoute, useNavigate, useSearch } from "@tanstack/react-router";
-import { WeekView } from "@/components/informe/week-view";
+import { createFileRoute } from "@tanstack/react-router";
+import { Home } from "@/components/home";
 import type { InformeSearch, ModelId, Region } from "@/lib/informe-data";
 
 const REGIONES: Region[] = ["west", "china"];
@@ -23,9 +23,3 @@ export const Route = createFileRoute("/")({
   },
   component: Home,
 });
-
-function Home() {
-  const search = useSearch({ from: "/" });
-  const navigate = useNavigate({ from: "/" });
-  return <WeekView search={search} navigate={navigate} />;
-}

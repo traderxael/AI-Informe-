@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Check, Share2 } from "lucide-react";
-import { useLang } from "@/lib/i18n";
+import { useLang } from "@/lib/use-lang";
 
 /** Comparte la página actual: Web Share API en móvil, portapapeles en desktop. */
 export function ShareButton({ title, text }: { title: string; text?: string }) {

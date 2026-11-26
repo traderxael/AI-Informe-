@@ -18,7 +18,7 @@ import {
 } from "@/lib/informe-data";
 import { loadLiveModels, loadLiveSignals, weekLabelFrom, type LiveModelRow } from "@/lib/live-feed";
 import { cn } from "@/lib/utils";
-import { useLang } from "@/lib/i18n";
+import { useLang } from "@/lib/use-lang";
 import { LangToggle } from "@/components/lang-toggle";
 import { ShareButton } from "@/components/share-button";
 
