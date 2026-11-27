@@ -1,236 +1,5 @@
 [
   {
-    "fecha": "2026-10-28",
-    "total": 851,
-    "items": [
-      {
-        "titulo": "Gemini 4 Carbon: Our next frontier model",
-        "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-        "fuente": "DeepMind",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Google AI gets cagey when asked who won the 2020 elections",
-        "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-        "fuente": "Ars Technica AI",
-        "resumen": "But the AI responses get more forthright when asked outside the US.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Legora is building the agentic operating system for legal work",
-        "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-        "fuente": "OpenAI",
-        "resumen": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Legora is building the agentic operating system for legal work",
-        "url": "https://openai.com/index/legora",
-        "fuente": "OpenAI",
-        "resumen": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-        "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-        "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-        "fuente": "TechCrunch AI",
-        "resumen": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-        "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
-        "fuente": "The Verge AI",
-        "resumen": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "AI execs may be too out of touch to build for the general public",
-        "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
-        "fuente": "TechCrunch AI",
-        "resumen": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "xAI is buying out homeowners who promise not to sue over data center noise",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-        "fuente": "The Verge AI",
-        "resumen": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, accordi...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Voters in Texas agree: They hate data centers",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
-        "fuente": "The Verge AI",
-        "resumen": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition f...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Pairing industrial AI autonomy and human control",
-        "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
-        "fuente": "MIT Tech Review AI",
-        "resumen": "",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Meta quietly launched an ‘AI pet journal’ app",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
-        "fuente": "The Verge AI",
-        "resumen": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store l...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family",
-        "url": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
-        "fuente": "Wired",
-        "resumen": "The new Echo Studio also gets a camera, and the Echo Show 16 debuts an AI-generated Alexa interface.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
-        "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
-        "fuente": "Wired",
-        "resumen": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-        "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-        "fuente": "Wired",
-        "resumen": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily",
-        "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
-        "fuente": "MarkTechPost",
-        "resumen": "MiniMax has open-sourced MCode Stack, an MIT-licensed repo of 17 SKILL.md skills and 5 checklists that its MiniMax Code team uses daily for code review, subagent splits, context budgets and long-runni...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/10/28/crypto-long-and-short-what-happens-when-an-ai-agent-pays-for-the-wrong-thing",
-        "fuente": "CoinDesk",
-        "resumen": "The largest card networks now sit in the top governance tier of x402, the standard that AI agents use to pay for things online. Albert Castellana of GenLayer Labs explains why that standard has no way...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Should AI Decide Your Court Case? This Judge Says Yes",
-        "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-        "fuente": "Wired",
-        "resumen": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Genie 4: A new generation of world simulation",
-        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-        "fuente": "DeepMind",
-        "resumen": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-        "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-        "fuente": "TechCrunch AI",
-        "resumen": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "The data center boom has an upside: innovation for the US grid",
-        "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-        "fuente": "TechCrunch AI",
-        "resumen": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
-        "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
-        "fuente": "SecurityWeek",
-        "resumen": "FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers. The post TLS Flaws Found in GoAhead Web Server Used in Hundreds of ...",
-        "seccion": "novedades",
-        "pais": "global",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-        "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-        "fuente": "Ars Technica AI",
-        "resumen": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-        "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-        "fuente": "TechCrunch AI",
-        "resumen": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      },
-      {
-        "titulo": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-        "fuente": "The Verge AI",
-        "resumen": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite ...",
-        "seccion": "novedades",
-        "pais": "usa",
-        "fecha": "2026-10-28"
-      }
-    ]
-  },
-  {
     "fecha": "2026-10-29",
     "total": 715,
     "items": [
@@ -9299,6 +9068,345 @@
         "url": "https://x.com/OpenAI/status/2125305606685053416",
         "fuente": "X @OpenAI",
         "resumen": "410.639 visualizaciones · 3.120 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-27",
+    "total": 757,
+    "items": [
+      {
+        "titulo": "The best Black Friday deals on smart home gear",
+        "url": "https://www.theverge.com/gadgets/1043912/best-smart-home-deals-black-friday",
+        "fuente": "The Verge",
+        "resumen": "I’ve spent my post-turkey haze powering through reams of deals on smart home gadgets to find the best discounts on some of my favorite products. Smart home is often one of the best categories to shop ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Android’s DIY widgets are a bit of vibe-coding fun",
+        "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+        "fuente": "The Verge AI",
+        "resumen": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my h...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了",
+        "url": "https://www.qbitai.com/2026/11/513352.html",
+        "fuente": "QbitAI",
+        "resumen": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "A New Breed of Chip Runs AI Models Using Waves of Light",
+        "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+        "fuente": "Wired",
+        "resumen": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
+        "url": "https://www.qbitai.com/2026/11/513346.html",
+        "fuente": "QbitAI",
+        "resumen": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+        "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+        "fuente": "BleepingComputer",
+        "resumen": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, ...",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "韦东奕再获大奖！攻克近140年数学难题，获两位院士共同提名",
+        "url": "https://www.qbitai.com/2026/11/513320.html",
+        "fuente": "QbitAI",
+        "resumen": "淡泊名利，实至名归🎉",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "DeepSeek APP突然更新账单，网友：要收费了？",
+        "url": "https://www.qbitai.com/2026/11/513305.html",
+        "fuente": "QbitAI",
+        "resumen": "网页App双端亮出聊天账单",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+        "url": "https://www.qbitai.com/2026/11/513227.html",
+        "fuente": "QbitAI",
+        "resumen": "地图能随时修，记忆能跨任务用",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Microsoft removes WSUS server role in Windows Server 2028",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+        "fuente": "BleepingComputer",
+        "resumen": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "SAP confirms security incident after suspicious GitHub activity",
+        "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+        "fuente": "BleepingComputer",
+        "resumen": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
+        "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound",
+        "fuente": "CoinDesk",
+        "resumen": "U.S. equity futures extended Wednesday’s rebound after markets closed for Thanksgiving, with AI infrastructure stocks leading premarket gains.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间",
+        "url": "https://www.qbitai.com/2026/11/513194.html",
+        "fuente": "QbitAI",
+        "resumen": "企业需要有用的 AI",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
+        "url": "https://www.qbitai.com/2026/11/513211.html",
+        "fuente": "QbitAI",
+        "resumen": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+        "url": "https://www.qbitai.com/2026/11/513163.html",
+        "fuente": "QbitAI",
+        "resumen": "Quickwit查询总耗时降31%，最高降87%",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻",
+        "url": "https://www.qbitai.com/2026/11/513155.html",
+        "fuente": "QbitAI",
+        "resumen": "3D生成的竞争重点正在从“能看”转向“能用”",
+        "seccion": "novedades",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+        "fuente": "BleepingComputer",
+        "resumen": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
+        "url": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "fuente": "Cointelegraph",
+        "resumen": "Bug bounty platform HackerOne said it’s increasing its triage throughput with AI agents after a record quarter of reports in the third quarter.",
+        "seccion": "novedades",
+        "pais": "global",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "fuente": "TechCrunch AI",
+        "resumen": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Context Scaling: A New Frontier of AI Scaling",
+        "url": "https://arxiv.org/abs/2611.33160",
+        "fuente": "arXiv cs.AI",
+        "resumen": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the sy...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+        "url": "https://arxiv.org/abs/2611.33161",
+        "fuente": "arXiv cs.AI",
+        "resumen": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a do...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+        "url": "https://arxiv.org/abs/2611.33165",
+        "fuente": "arXiv cs.AI",
+        "resumen": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however,...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "General-Purpose Decision Models for AI Configuration Tuning",
+        "url": "https://arxiv.org/abs/2611.33190",
+        "fuente": "arXiv cs.AI",
+        "resumen": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling ...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+        "url": "https://arxiv.org/abs/2611.33263",
+        "fuente": "arXiv cs.AI",
+        "resumen": "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify cat...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+        "url": "https://arxiv.org/abs/2611.33303",
+        "fuente": "arXiv cs.AI",
+        "resumen": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a pr...",
+        "seccion": "novedades",
+        "pais": "usa",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Starting today, we're offering free Kimi API credits to support scientific research worldwide. Selected teams will receive free Kimi API credits, access to our latest models, and opportunities for lo…",
+        "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760",
+        "fuente": "X @Kimi_Moonshot",
+        "resumen": "182.961 visualizaciones · 2.705 me gusta",
+        "seccion": "x",
+        "pais": "china",
+        "fecha": "2026-11-27"
+      },
+      {
+        "titulo": "Ven was one of the earliest believers that we could use our then-current model to solve millenium prize problems. There are a lot of brilliant people in the world, but being brilliant and also having…",
+        "url": "https://x.com/sama/status/2125990371897557278",
+        "fuente": "X @sama",
+        "resumen": "637.326 visualizaciones · 7.710 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-26"
+      },
+      {
+        "titulo": "Oh, one thing about kids: Most good things get a little less satisfying the 100th time you do them. A quiet evening hanging out with your kids, even doing very mundane stuff, is in the rare category…",
+        "url": "https://x.com/sama/status/2125984053119836399",
+        "fuente": "X @sama",
+        "resumen": "201.291 visualizaciones · 2.418 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-26"
+      },
+      {
+        "titulo": "I am thankful for a lot of things in life, but my family is the best thing that has ever happened to me. The two most common things people said to me before having kids is that it's better than anyon…",
+        "url": "https://x.com/sama/status/2125983591389974980",
+        "fuente": "X @sama",
+        "resumen": "1.373.550 visualizaciones · 15.417 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-26"
+      },
+      {
+        "titulo": "we extracted the runtime powering codemode into a standalone project it's a simple package (no wasm) that can directly execute js and pause/resume it mid execution a rust implementation is in the wor…",
+        "url": "https://x.com/opencode/status/2125702030832349374",
+        "fuente": "X @opencode",
+        "resumen": "228.250 visualizaciones · 2.126 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-25"
+      },
+      {
+        "titulo": "For ordinary days that feel like a movie. Make a Day Do Anything with ChatGPT.",
+        "url": "https://x.com/OpenAI/status/2125635627341561995",
+        "fuente": "X @OpenAI",
+        "resumen": "344.898 visualizaciones · 2.245 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-25"
+      },
+      {
+        "titulo": "We recently migrated our Messages API from Python to Rust. On our engineering blog, we share how we used the existing service to verify the new one, with teams of Claude agents tracking down and fixi…",
+        "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+        "fuente": "X @AnthropicAI",
+        "resumen": "5.238.308 visualizaciones · 15.452 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-25"
+      },
+      {
+        "titulo": "It’s been two weeks since we released Claude Fable 5.2. Here’s what people have been exploring with it: Where the letter A came from, one alphabet at a time.",
+        "url": "https://x.com/claudeai/status/2125616057788637364",
+        "fuente": "X @claudeai",
+        "resumen": "1.228.068 visualizaciones · 13.862 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-25"
+      },
+      {
+        "titulo": "New Anthropic Fellows research: Returning to the neuron basis for interpretability Understanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons,…",
+        "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+        "fuente": "X @AnthropicAI",
+        "resumen": "962.903 visualizaciones · 6.674 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "New Anthropic research: When an AI agent can escape its sandbox, will it choose to? Our new evaluation, Siren, gives Claude routine tasks in intentionally weakened sandboxes, with something useful to…",
+        "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+        "fuente": "X @AnthropicAI",
+        "resumen": "370.902 visualizaciones · 2.725 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "We’re sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models. Our models can design new protein shapes and sequences using reasoning…",
+        "url": "https://x.com/OpenAI/status/2125334383490105601",
+        "fuente": "X @OpenAI",
+        "resumen": "2.136.719 visualizaciones · 12.087 me gusta",
+        "seccion": "x",
+        "pais": "global",
+        "fecha": "2026-11-24"
+      },
+      {
+        "titulo": "oh we never posted Gemini 4 Neon is available in OpenCode Console it's become our team's default model over the last week",
+        "url": "https://x.com/opencode/status/2125307449951604860",
+        "fuente": "X @opencode",
+        "resumen": "236.370 visualizaciones · 6.272 me gusta",
         "seccion": "x",
         "pais": "global",
         "fecha": "2026-11-24"

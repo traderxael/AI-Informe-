@@ -1,75 +1,124 @@
 {
-  "generated_at": "2026-11-26T21:01:10.697095+00:00",
+  "generated_at": "2026-11-27T20:46:29.134948+00:00",
   "count": 20,
   "sources": [
-    "DeepMind",
+    "Ars Technica AI",
+    "Cointelegraph",
     "Google AI",
     "Google News — IA Francia",
-    "Google News — IA Japón",
-    "Google News — IA global",
+    "Google News — IA LATAM",
     "Hugging Face",
     "MarkTechPost",
     "OpenAI",
-    "SCMP Business",
-    "TechCrunch AI",
-    "Wired"
+    "QbitAI",
+    "TechCrunch AI"
   ],
   "signals": [
     {
-      "id": "b426cadbd2b8",
-      "title": "Pentagon Hand Caroline Zier Now Leads OpenAI's Limits on Military Artificial Intelligence",
-      "summary": "Caroline Zier, del Pentágono, ahora lidera los límites de OpenAI en inteligencia artificial militar.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaHNyTTBaZE5ydGtvODFGS0Jra2F2Rl9lSUlnZVAzTWJfZndkWklTTFJ3UlQ5ckk4dnhyUzBUd3d4Q3JoWDI5M2M5dEs3VzdwLWk4cnBmVjBGby1WVnVoYmpsTnozaXJyWEVjRGEtcFRMSUVKRG1vUWpmNVh0RWNMR2M5RHZJNzd6VnU3TVV6V3oxMV9FZDVZOTNkbUNzSmtENWlPdXJERXpndEM3M1JaUlozNlF4b05faC0xSg?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Broadband Breakfast",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "gpt"
-      ],
-      "source": "news",
-      "published": "2026-11-26T19:49:45+00:00",
-      "title_orig": "Pentagon Hand Caroline Zier Now Leads OpenAI's Limits on Military Artificial Intelligence",
-      "summary_orig": ""
-    },
-    {
-      "id": "3ecfdc829f62",
-      "title": "Pour le patron d’Anthropic, l’IA ne doit jamais prendre le dessus sur l’être humain",
-      "summary": "Para el director de Anthropic, la IA nunca debe sobrepasar al ser humano.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNUZ3RTNBWmpSZFFNSGc1MVk0T1ZpNlNqZW9LU3BXYVBRNkx0VWJMQjlVNkhTalA0MEllczJHczVuS1BhZ2pva0d0NFFZX05Xd0ljc1UxR1BNR2dzNGg2dDEtcDh6TThvdjRHN2VVZWxVN2N3VW9KUFNsazZuemdnblNtQ1NPSU5LT0xET3U3Q29Oa1daVDRuN0dsN2NINENsTFNTaTMzdFlWODZwVUNla3lXUXNOM0E?oc=5",
+      "id": "6e77462e5797",
+      "title": "Anthropic ha desarrollado Siren, una «isla de la tentación» para probar la seguridad de sus modelos de vanguardia: dos entornos de pruebas controlados, 1700 escenarios e IA a las que se les pide que cumplan su misión incumpliendo las normas.",
+      "summary": "Anthropic creó Siren, una “isla de la tentación” con dos entornos controlados y 1 700 escenarios para evaluar la seguridad de sus modelos de IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilANBVV95cUxPVVZBX2xqVldveVNxSWpaRG9zdmxaYnpHM2FZOFI0dDRzaTBfLVBVV3Vrai1zd2NlVk8wMDdvWE1ZWkpvaDhyeGdXcjBtQl9QbVM0eWR5XzBpeXpKRDQxR0F5TmF5aU1sMGpGOXdKQWdPSHdIdVFENmk3ZllQWFNtQl9pOWU5YVpqRVd2Mm50eDJQREdwQ3V2aGs1N085MXVMRWtHdzlPUWhNd1pDYTg0RVBWVHhTQlN4Z3FyeHZuZ1dxb1k4VGNfN0tSUWFiYlFkeVFLS1hacExiM0NWZEMzVm96dlFvaGFYbHliQzNvei1paWhPYkFvbjkzZGVRRXpHd3RfbUl3MFBtbzVxcC1zNTVPMTZPd2J5UzRkLWl0cjlxY0JCVTgwM0pHS3A1YklZY2otSVhvaXkxc2RHTEFVVjREZ3lSdnZoem5MdjFTNDNtdWdNV0N6Z3BuSUpIdFBHNTdtbC16VkdDam5vWXlveVVKajI0WUhMZWpyLTg1M3ZDOTBsYmFlSER1V3h0SndlMVVqQw?oc=5",
       "sourceLabel": "Google News — IA Francia",
-      "publisher": "Siècle Digital",
+      "publisher": "BFM",
       "region": "west",
       "country": "usa",
       "models": [
         "claude"
       ],
       "source": "news",
-      "published": "2026-11-26T12:44:38+00:00",
-      "title_orig": "Pour le patron d’Anthropic, l’IA ne doit jamais prendre le dessus sur l’être humain",
+      "published": "2026-11-27T18:07:29+00:00",
+      "title_orig": "Anthropic a développé Siren, une \"île de la tentation\" pour tester la sécurité de ses modèles de pointe: deux bacs à sable, 1.700 scénarios et des IA poussées à réussir leur mission en ne respectant pas les règles",
       "summary_orig": ""
     },
     {
-      "id": "89f1d93b7a55",
-      "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
-      "summary": "Android Auto ahora es más inteligente con Gemini, facilitando la navegación y permitiendo conversar con la IA mientras conduces.",
-      "sourceUrl": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
-      "sourceLabel": "Wired",
+      "id": "822c3fdc84cf",
+      "title": "El precio del bitcoin cae por debajo de los 59 000 $ mientras Anthropic se suma al repunte de las acciones tecnológicas",
+      "summary": "La volatilidad de Bitcoin volvió en la apertura de Wall Street, con BTC/USD cayendo a $58,700 mientras acciones y oro subían.",
+      "sourceUrl": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "sourceLabel": "Cointelegraph",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "claude"
+      ],
+      "source": "lab",
+      "published": "2026-11-27T17:25:57+00:00",
+      "title_orig": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+      "summary_orig": "Bitcoin price volatility returned at the Wall Street open as BTC/USD dropped to local lows of $58,700 while stocks and gold headed higher."
+    },
+    {
+      "id": "fcc4128f1b25",
+      "title": "Qué datos nunca deberías compartir con ChatGPT y otras herramientas de inteligencia artificial",
+      "summary": "No compartas datos personales sensibles como contraseñas, información financiera, datos de salud o identificadores únicos con ChatGPT y otras IA.",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeVZUb1BVXzhEMUtZbnRHZC02cS0wdmtwVmlsZmdEWGlLRmpWVVdGblhDb0NLVGtGdmY3WkVQelp5Z1ctWU1pYnJHNl93aXRKQmt4R3pSQmVaVnhGZG1rZ1UyQ1FObnd1c3FsSWIyWllKNmN2T0hDdk1sNjkxZkNJMkVkY0ctYVFJdE5GQmxSb3pYdW84NDVnQ1hfdk9GRy1LZzUtSENOWVJMUVZuM1ZETDZR?oc=5",
+      "sourceLabel": "Google News — IA LATAM",
+      "publisher": "DUPLOS.CL",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "gpt"
+      ],
+      "source": "news",
+      "published": "2026-11-27T15:34:00+00:00",
+      "summary_orig": ""
+    },
+    {
+      "id": "4d9d55e7b393",
+      "title": "La aplicación DeepSeek actualiza repentinamente su política de facturación. Usuarios en internet: ¿Va a ser de pago?",
+      "summary": "La versión web y la app revelan la factura del chat.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/513305.html",
+      "sourceLabel": "QbitAI",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "deepseek"
+      ],
+      "source": "lab",
+      "published": "2026-11-27T07:29:10+00:00",
+      "title_orig": "DeepSeek APP突然更新账单，网友：要收费了？",
+      "summary_orig": "网页App双端亮出聊天账单"
+    },
+    {
+      "id": "d7cdc5508c80",
+      "title": "Tencent Hunyuan presenta Hy3D 3.6: superficies de modelos de alta resolución más limpias, estructuras más claras y detalles más precisos",
+      "summary": "La competencia en generación 3D pasa de enfocarse en la apariencia a centrarse en la utilidad.",
+      "sourceUrl": "https://www.qbitai.com/2026/11/513155.html",
+      "sourceLabel": "QbitAI",
       "publisher": "",
       "region": "global",
       "country": "global",
       "models": [
-        "gemini"
+        "hunyuan"
       ],
       "source": "lab",
-      "published": "2026-11-26T12:00:00+00:00",
-      "title_orig": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
-      "summary_orig": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way."
+      "published": "2026-11-27T03:45:19+00:00",
+      "title_orig": "腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻",
+      "summary_orig": "3D生成的竞争重点正在从“能看”转向“能用”"
+    },
+    {
+      "id": "aa54bd3bfedd",
+      "title": "Tencent publica el código abierto de DFly2: decodificación especulativa que reutiliza la caché KV dispersa del objetivo",
+      "summary": "Tencent lanzó DFly2, un decodificador especulativo para LLMs de atención dispersa que reutiliza la caché KV del modelo objetivo, sin memoria extra y aumenta el rendimiento hasta un 81 %.",
+      "sourceUrl": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+      "sourceLabel": "MarkTechPost",
+      "publisher": "",
+      "region": "china",
+      "country": "china",
+      "models": [
+        "hunyuan"
+      ],
+      "source": "lab",
+      "published": "2026-11-27T03:31:30+00:00",
+      "title_orig": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "summary_orig": "Tencent open-sourced DFly2, a speculative decoding drafter for sparse-attention LLMs. Each draft layer reuses the target's KV cache and top-k indexer picks, adding no draft KV memory and lifting 64K serving throughput by up to 81%. The post Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache appeared first on MarkTechPost ."
     },
     {
       "id": "02a088434703",
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "summary": "Presentan el panel de referencia llama.cpp para procesadores AMD Ryzen y tarjetas gráficas Radeon.",
+      "title": "Presentamos el panel de evaluación comparativa de llama.cpp para AMD Ryzen y Radeon",
+      "summary": "Lanzamos el panel comparativo de llama.cpp para procesadores AMD Ryzen y GPUs Radeon.",
       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "sourceLabel": "Hugging Face",
       "publisher": "",
@@ -84,76 +133,8 @@
       "summary_orig": ""
     },
     {
-      "id": "181a1686d1f0",
-      "title": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
-      "summary": "Datos de la empresa china de IA MiniMax fueron accedidos por terceros no identificados, según un investigador.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXlXQVE4enJyRWstWjJvUGdBczBMWHdfZHRmYTNSN3I0eFpqeXBfVU5tN3NRSERpcjBPeE1rV1kwWTBwWnY3U2s1TnlpY2EtakM5TmItUW1UdnVFZXJWTWVRQk1paVhJeTBpSlB0eHJyWERRdnZ1bVctUmctdGJZOXpZMnFMdkxYVlZ3UHI4OE1wZEhocHBGNW0wU1Z3S2VxQ0x6a1pablJOUzlTOXlMSkxUYjRFcWtIc2tB?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Reuters",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "minimax"
-      ],
-      "source": "news",
-      "published": "2026-11-26T06:16:00+00:00",
-      "title_orig": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
-      "summary_orig": ""
-    },
-    {
-      "id": "7fbebe4da44b",
-      "title": "Chinese AI trade turns cautious after Wall Street volatility, Anthropic’s rocky debut",
-      "summary": "Los inversores chinos se vuelven más cautelosos con la IA tras una fuerte caída de acciones tecnológicas y dudas en Wall Street sobre la sostenibilidad del rally.",
-      "sourceUrl": "https://www.scmp.com/business/china-business/article/3375856/chinese-ai-trade-turns-cautious-after-wall-street-volatility-anthropics-rocky-debut",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "lab",
-      "published": "2026-11-26T06:00:07+00:00",
-      "title_orig": "Chinese AI trade turns cautious after Wall Street volatility, Anthropic’s rocky debut",
-      "summary_orig": "Chinese investors are showing growing signs of caution towards the artificial intelligence trade, as a sharp sell-off in technology stocks coincides with renewed questions on Wall Street over the sustainability of the AI-driven rally, following a dramatic rebound in US stocks that lasted barely a day before being reversed. China’s benchmark Shanghai Composite Index fell 2 per cent on Wednesday, wh"
-    },
-    {
-      "id": "ee7b04865fad",
-      "title": "Alibaba sells US$482 million in ZTO Express shares as AI focus sharpens",
-      "summary": "Alibaba vendió 25 millones de acciones de ZTO Express, reduciendo su participación y recaudando unos 482 millones de dólares.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3375870/alibaba-sells-us482-million-zto-express-shares-ai-focus-sharpens",
-      "sourceLabel": "SCMP Business",
-      "publisher": "",
-      "region": "china",
-      "country": "china",
-      "models": [
-        "qwen"
-      ],
-      "source": "lab",
-      "published": "2026-11-26T05:04:00+00:00",
-      "title_orig": "Alibaba sells US$482 million in ZTO Express shares as AI focus sharpens",
-      "summary_orig": "Alibaba Group Holding has sharply reduced its stake in Chinese logistics giant ZTO Express, raising roughly US$482 million in its second major sell-off of the courier’s shares in two months. Alibaba and its three affiliates – Alibaba ZT Investment Limited, New Retail Strategic Opportunities Investments 2 Limited and Cainiao Smart Logistics Investment Limited – offloaded a combined 25 million Class"
-    },
-    {
-      "id": "33d504d4dfcb",
-      "title": "Anthropic CEO Denies Wanting to Surrender Human Free Will to AI",
-      "summary": "El CEO de Anthropic niega que quiera ceder la libre voluntad humana a la IA.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPZ2NzVE9nVDZOMU9MdVZYbk01bkFGWnB4ZTdRR1JaTnQ0OHJGZGd0eDNNMGpSbHlWTzJxXzlIVVJuNkIyU2lLNVd4TG1uVnQ2N3E3ZXpMZU5rU3pnc1psWGpDcTBXem9WWXM5VmFYVjdnTnlTaWd1b1dDYjFCYmx2bzFaLUQ3WUVYdFBQWGdCZy1MOVU3WldYZGMzeWlnUnpXQ1p5RUliT0U1UUtjMlJEX3FycW51UWJYeTgxb01XTUpEdlBQS3hMTnhUVVJRSnRZN1ZSZmJ1QzVQUGNpeExhRUdHdGdySWhwaF9sZkpjemotN1FIcE1EalVISXhDZnJKcG1sUDR5Tk95MjFRbGgtWVFjR3A?oc=5",
-      "sourceLabel": "Google News — IA global",
-      "publisher": "Gizmodo",
-      "region": "west",
-      "country": "usa",
-      "models": [
-        "claude"
-      ],
-      "source": "news",
-      "published": "2026-11-25T22:45:02+00:00",
-      "title_orig": "Anthropic CEO Denies Wanting to Surrender Human Free Will to AI",
-      "summary_orig": ""
-    },
-    {
       "id": "dc85126b0ac7",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "title": "OpenAI afirma que los usuarios intensivos de ChatGPT podrían alcanzar los límites antes, ya que se fusionan Chat y Work",
       "summary": "OpenAI unificará la medición de uso en ChatGPT al combinar las experiencias de Chat y Work.",
       "sourceUrl": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "sourceLabel": "TechCrunch AI",
@@ -170,8 +151,8 @@
     },
     {
       "id": "00d3c793baf9",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "summary": "El CEO de Anthropic, Dario Amodei, rechaza que prefiera ceder la agencia humana a la IA, pese a que las principales empresas del sector automatizan cada vez más su investigación y desarrollo de modelos.",
+      "title": "Dario Amodei, de Anthropic, califica de «absurdas» las acusaciones de ceder el control humano a la IA",
+      "summary": "El CEO de Anthropic, Dario Amodei, rechaza que favorezca la entrega de la agencia humana a la IA, pese a que las principales empresas del sector automatizan cada vez más su investigación y desarrollo de modelos.",
       "sourceUrl": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "sourceLabel": "TechCrunch AI",
       "publisher": "",
@@ -187,8 +168,8 @@
     },
     {
       "id": "a20caa5f2b42",
-      "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
-      "summary": "Laminar, un marco de código abierto para entrenamiento posterior de RL asíncrono creado por HKU y ByteDance, separa rollout, entrenamiento y sincronización de pesos, elevando Qwen3‑Coder‑30B‑A3B al 52,2 % en SWE‑bench Verified.",
+      "title": "Los investigadores de ByteDance publican el código fuente de Laminar, un marco de posentrenamiento de aprendizaje por refuerzo (RL) asíncrono",
+      "summary": "Laminar, un marco de RL asíncrono de código abierto de HKU y ByteDance, separa rollout, entrenamiento y sincronización de pesos, elevando Qwen3‑Coder‑30B‑A3B al 52,2 % en SWE‑bench Verified.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -204,8 +185,8 @@
     },
     {
       "id": "8d6c7c64bc85",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "summary": "Google Gemini se asocia con Golden State para mejorar la experiencia de fans y operaciones de los Warriors, Valkyries y el Chase Center.",
+      "title": "Cómo Gemini está cambiando las reglas del juego para la organización y los aficionados de los Golden State.",
+      "summary": "Google Gemini se asocia con Golden State para mejorar la experiencia de fans y operaciones del Warriors, Valkyries y Chase Center.",
       "sourceUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "sourceLabel": "Google AI",
       "publisher": "",
@@ -221,8 +202,8 @@
     },
     {
       "id": "b013f0fbfb8e",
-      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
-      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime eBPF de código abierto para Linux que permite a agentes de IA crear escudos firmados que bloquean vulnerabilidades sin interrumpir el sistema.",
+      "title": "OpenAI y Cisco presentan Shirudo: un entorno de ejecución Linux de código abierto que permite a los agentes defender los sistemas sin tiempo de inactividad",
+      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime eBPF de código abierto para Linux que permite a agentes de IA crear “escudos” que bloquean vulnerabilidades sin interrumpir el sistema.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -237,25 +218,8 @@
       "summary_orig": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux. AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches. The post OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime appeared first on MarkTechPost ."
     },
     {
-      "id": "dd94f7af62fb",
-      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "summary": "Mass Spec Skills permite a los científicos usar Google Antigravity para interpretar espectros de masas en tándem.",
-      "sourceUrl": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-      "sourceLabel": "DeepMind",
-      "publisher": "",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "lab",
-      "published": "2026-11-24T13:07:53+00:00",
-      "title_orig": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "summary_orig": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra."
-    },
-    {
       "id": "3c6728c1bfd1",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title": "Los modelos GPT-6 demuestran capacidades intrínsecas de diseño de proteínas",
       "summary": "Los modelos GPT‑6 diseñan estructuras y secuencias de proteínas mediante razonamiento y código, y pruebas de laboratorio mostraron unión en cinco objetivos.",
       "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "sourceLabel": "OpenAI",
@@ -271,25 +235,8 @@
       "summary_orig": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets."
     },
     {
-      "id": "75bb30c4d100",
-      "title": "AI開発は人間レベルの汎用人工知能「AGI」を超え人間の専門家集団を凌駕する汎用人工超知能「ASI」へと向かうとGoogle DeepMindの研究者が主張",
-      "summary": "Investigadores de Google DeepMind afirman que el desarrollo de IA avanzará más allá de la AGI para alcanzar una superinteligencia artificial (ASI) que superará a los expertos humanos.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95XzRVU2FodnpERlNBR0NhYmVwN2NUTlZHS3FCYllvUmhZa1ZhM0d2RWtZaDlUTHdvWDhHbUdiZkRwZzVpWkhxVXRUUnF2ZlhfZ1ltOHZCclh6aVlJdzc3RVo3Zy1lMUE?oc=5",
-      "sourceLabel": "Google News — IA Japón",
-      "publisher": "GIGAZINE",
-      "region": "west",
-      "country": "uk",
-      "models": [
-        "gemini"
-      ],
-      "source": "news",
-      "published": "2026-11-24T12:00:00+00:00",
-      "title_orig": "AI開発は人間レベルの汎用人工知能「AGI」を超え人間の専門家集団を凌駕する汎用人工超知能「ASI」へと向かうとGoogle DeepMindの研究者が主張",
-      "summary_orig": ""
-    },
-    {
       "id": "f3aa9260f109",
-      "title": "Searching for distant planets with Astra",
+      "title": "Búsqueda de planetas lejanos con Astra",
       "summary": "Dos aficionados de la astronomía emplearon Codex y Astra para descubrir posibles exoplanetas en datos públicos de los telescopios Kepler y TESS de la NASA.",
       "sourceUrl": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "sourceLabel": "OpenAI",
@@ -306,8 +253,8 @@
     },
     {
       "id": "1306bce61e3e",
-      "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
-      "summary": "Claude Ship de Anthropic integra revisión, corrección y aprobación de pull requests en GitHub; Code Review ya está GA y los otros dos en beta pública.",
+      "title": "Anthropic lanza Claude Ship para revisar y corregir las «pull requests» de GitHub",
+      "summary": "Claude Ship de Anthropic incluye revisión de código, PR Steward y aprobaciones para revisar, corregir y aprobar pull requests en GitHub.",
       "sourceUrl": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
       "sourceLabel": "MarkTechPost",
       "publisher": "",
@@ -323,7 +270,7 @@
     },
     {
       "id": "ec442b764e04",
-      "title": "How Intentful uses dots to make more time for growth",
+      "title": "Cómo Intentful utiliza los puntos para tener más tiempo para crecer",
       "summary": "Aria, la herramienta de Marina Petrova, investiga sitios web, elabora propuestas y alerta proactivamente sobre mensajes y problemas.",
       "sourceUrl": "https://openai.com/business/customer-stories/intentful-dots",
       "sourceLabel": "OpenAI",
@@ -340,8 +287,8 @@
     },
     {
       "id": "7a6462e387eb",
-      "title": "How iFood scales coding agents across 15,000 repositories",
-      "summary": "Cómo iFood escala agentes de codificación en 15 000 repositorios.",
+      "title": "Cómo iFood escala los agentes de codificación en 15 000 repositorios",
+      "summary": "iFood amplía sus agentes de codificación a 15 000 repositorios.",
       "sourceUrl": "https://openai.com/business/customer-stories/ifood",
       "sourceLabel": "OpenAI",
       "publisher": "",
@@ -354,6 +301,57 @@
       "published": "2026-11-24T00:00:00+00:00",
       "title_orig": "How iFood scales coding agents across 15,000 repositories",
       "summary_orig": ""
+    },
+    {
+      "id": "99b93f3e1098",
+      "title": "Clay ayuda a los equipos de ventas a triunfar con Codex y ChatGPT",
+      "summary": "ChatGPT y Codex permiten a los usuarios de Clay investigar acuerdos y convertir datos en estrategias de mercado, con modelos GPT‑6 realizando el razonamiento.",
+      "sourceUrl": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-24T00:00:00+00:00",
+      "title_orig": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary_orig": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning."
+    },
+    {
+      "id": "afbf4ed7c77a",
+      "title": "Varios estados demandan a SpaceX para impedir que Grok genere imágenes sexuales de menores y «porno vengativo»",
+      "summary": "X afirma que revisa todo el contenido de Grok, pero fiscales estatales aseguran que sigue generando material de abuso sexual infantil.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "sourceLabel": "Ars Technica AI",
+      "publisher": "",
+      "region": "global",
+      "country": "global",
+      "models": [
+        "grok"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T21:30:44+00:00",
+      "title_orig": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "summary_orig": "X says every Grok output is screened, but state AGs say Grok is still making CSAM."
+    },
+    {
+      "id": "1d0c151fefed",
+      "title": "OpenAI y Cisco presentan Shirudo",
+      "summary": "OpenAI y Cisco lanzan Shirudo, un runtime de código abierto para Linux que protege sistemas en ejecución mientras se aplican parches.",
+      "sourceUrl": "https://openai.com/index/introducing-shirudo",
+      "sourceLabel": "OpenAI",
+      "publisher": "",
+      "region": "west",
+      "country": "usa",
+      "models": [
+        "gpt"
+      ],
+      "source": "lab",
+      "published": "2026-11-23T21:20:00+00:00",
+      "title_orig": "OpenAI and Cisco introduce Shirudo",
+      "summary_orig": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
     }
   ]
 }
